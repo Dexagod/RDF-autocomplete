@@ -209,6 +209,8 @@ let max_dist = 0;
 let max_word = "";
 var node_count = 0;
 
+var FRAGMENT_SIZE = 35;
+
 var calculate_average_fragments_passed = function(b3) {
   let root_node = b3.root_node;
   for (index in root_node.children) {
@@ -250,8 +252,10 @@ var calculate_average_fragments_passed = function(b3) {
   console.log("")
   console.log("FRAGMENT DATA")
   console.log("total frag count: " + totalsize)
-  console.log("avg frag size: " + avg_frag_size)
-  console.log("avg frag size: " + avg_frag_size)
+  console.log("max fragment size allowed: " + FRAGMENT_SIZE)
+  console.log("avg fragment nodes contained: " + avg_frag_size)
+  let avgfragfill = avg_frag_size / FRAGMENT_SIZE;
+  console.log("avg frag fill: " + avgfragfill )
 
 
   console.log("")
@@ -283,7 +287,7 @@ var calculate_node_fragments_passed = function(node, distance) {
 
 
 
-var newB3 = new B3(10);
+var newB3 = new B3(FRAGMENT_SIZE);
 //
 // for (index in fragments) {
 //   console.log(index)
