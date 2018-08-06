@@ -1,4 +1,3 @@
-
 var fs = require('fs');
 var rimraf = require('rimraf')
 
@@ -68,12 +67,13 @@ B3.prototype.add_triple = function(triple) {
   }
   node.triple = triple
 }
-
 B3.prototype.balance = function(node){
   let fragment = node.fragment;
   let parent_node = node.parent_node;
+  let before_parent_node = null;
   while (parent_node.children.length < 2 && parent_node.parent_node.fragment == fragment) {
     parent_node  = parent_node.parent_node;
+    before_parent_node = parent_node;
   }
   if (parent_node.parent_node == B3.root_node || parent_node.parent_node.fragment != fragment){
     let new_fragment = new Fragment();
@@ -82,13 +82,16 @@ B3.prototype.balance = function(node){
     node.change_fragment_node_and_children(fragment, new_fragment);
   } else {
     let current_fragment = parent_node.fragment
-    for (childindex in parent_node.children){
-      let new_fragment = new Fragment();
-      this.assign_fragment_id(new_fragment);
-      let childnode = parent_node.children[childindex]
-      new_fragment.root_node = childnode;
-      childnode.change_fragment_node_and_children(current_fragment, new_fragment);
+    // for (childindex in parent_node.children){
+    let new_fragment = new Fragment();
+    this.assign_fragment_id(new_fragment);
+    let childnode = node
+    if (before_parent_node != null){
+      childnode = before_parent_node
     }
+    new_fragment.root_node = childnode;
+    childnode.change_fragment_node_and_children(current_fragment, new_fragment);
+    // }
   }
 }
 
@@ -134,28 +137,7 @@ var deserialize_fragment = function(fragment_id){
 
 }
 
-Fragment.prototype.write_to_file = function(){
-  let filename = "searchfragments/fragment"+this.id
-  console.log(filename)
-  let cache = []
-  let string = "fragment" + this.id + "\n";
-  for (nodeindex in this.contents){
-    node = this.contents[nodeindex]
-    string += node.id + " :: " + node.token + " || " ;
-    for (i in node.children){
-      string += node.children[i].id + " - "
-    }
-    string += "\n"
-  }
-  string += "\n"
-  fs.writeFile(filename, string, function(err) {
-    if(err) {
-        return console.log(err);
-    }
-
-    console.log("The file was saved!");
-});
-}
+// }
 
 /*
  * NODE
@@ -167,6 +149,7 @@ function Node(token, fragment, parent_node) {
   this.corrections = null;
   this.suggestions = null;
   this.children = new Array();
+  this.children_hits = new Array();
   this.parent_node = parent_node;
   this.fragment = fragment;
 }
@@ -200,6 +183,8 @@ Node.prototype.change_fragment_node_and_children = function(old_fragment, new_fr
 /*
   TESTINGGG
 */
+var FRAGMENT_SIZE = 200;
+var FILENAME = "data/straatnamen.txt"
 
 
 
@@ -208,7 +193,6 @@ let max_dist = 0;
 let max_word = "";
 var node_count = 0;
 
-var FRAGMENT_SIZE = 50;
 
 var calculate_average_fragments_passed = function(b3) {
   let root_node = b3.root_node;
@@ -259,7 +243,7 @@ var calculate_average_fragments_passed = function(b3) {
 
   console.log("")
   console.log("NODE DATA")
-  console.log("total triple count: " + 49711)//linecounter)
+  console.log("total triple count: " + linecounter)//linecounter)
   console.log("total node count: " + node_count)
   let node_per_word = node_count / linecounter;
   console.log("nodes per word: " + node_per_word)
@@ -297,7 +281,7 @@ var newB3 = new B3(FRAGMENT_SIZE);
 
 
 var lineReader = require('readline').createInterface({
-  input: require('fs').createReadStream('data/laatstestraatnamen.txt')
+  input: require('fs').createReadStream(FILENAME)
 });
 
 var linecounter = 0
