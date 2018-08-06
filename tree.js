@@ -1,5 +1,6 @@
 var fs = require('fs');
-var rimraf = require('rimraf')
+var rimraf = require('rimraf');
+const assert = require('assert');
 /*
  * B3
 */
@@ -7,10 +8,6 @@ var rimraf = require('rimraf')
 // DEBUGGING PURPOSES
 var fragments = new Array();
 
-
-function Search(string){
-  this.search = search;
-}
 
 function Triple(representation){
   this.representation = representation;
@@ -63,8 +60,8 @@ B3.prototype.add_triple = function(triple) {
         let child_tokens_length = current_child_token_array.length;
         let node_match_index = 0
         for (node_match_index; (node_match_index < child_tokens_length && current_child_token_array[node_match_index] == letter) ; node_match_index++) {
-          let letter = repr[index];
           index += 1
+          letter = repr[index];
         }
         // Checking if matching child was found
         if (node_match_index == child_tokens_length) {
@@ -76,19 +73,16 @@ B3.prototype.add_triple = function(triple) {
           // A partial match was found
           found_child = true;
           node = partial_matching_child_node(this, node.children[i], node_match_index, index, triple);
-          node.triple = triple
           return node;
         }
       }
       if (found_child != true) {
         node = no_matching_child_node(this, node, index, triple);
-        node.triple = triple
         return node;
       }
 
     } else {
       node = no_matching_child_node(this, node, index, triple);
-      node.triple = triple
       return node;
     }
 
@@ -120,6 +114,10 @@ var no_matching_child_node = function(b3, node, index, triple){
     b3.balance(child)
   }
   node = child;
+  
+  node.hits += 1;
+
+  node.triple = triple;
   return node;
 }
 
@@ -135,57 +133,94 @@ var partial_matching_child_node = function(b3, node, nodeindex, tripleindex, tri
   let after_string_match = node.token_string.slice(nodeindex, node.token_string.length)
   let after_triple_match = triple.representation.slice(tripleindex, triple.representation.length)
 
-  let root_node = new Node(before_string_match, current_fragment, root_parent)
-  b3.assign_node_id(root_node)
-  let old_match_node = new Node(after_string_match, current_fragment, root_node)
-  b3.assign_node_id(old_match_node)
-  let new_match_node = new Node(after_triple_match, current_fragment, root_node)
-  b3.assign_node_id(new_match_node)
-
-
-  current_fragment.remove_node(node)
-  current_fragment.add_node(root_node)
-  current_fragment.add_node(old_match_node)
-  current_fragment.add_node(new_match_node)
-
-  // old children are transfered to the child node that leads to these children
-  old_match_node.children = node.children;
-
-  // Replace node with three new nodes
-  root_node.insert_node(old_match_node)
-  root_node.insert_node(new_match_node)
-  root_parent.replace_child(node, root_node)
-  if (current_fragment.contents.length > b3.max_fragment_size) {
-
-
-    b3.balance(root_node)
+  if (after_string_match == after_triple_match){
+    throw "STING MATCHES EQUAL"
   }
 
-  return new_match_node;
+
+  if (tripleindex != triple.representation.length) {
+    let root_node = new Node(before_string_match, current_fragment, root_parent)
+    b3.assign_node_id(root_node)
+    let old_match_node = new Node(after_string_match, current_fragment, root_node)
+    b3.assign_node_id(old_match_node)
+    let new_match_node = new Node(after_triple_match, current_fragment, root_node)
+    b3.assign_node_id(new_match_node)
+    
+    current_fragment.add_node(root_node)
+    current_fragment.add_node(old_match_node)
+    current_fragment.add_node(new_match_node)
+
+    // old children are transfered to the child node that leads to these children
+    old_match_node.children = node.children;
+    old_match_node.triple = node.triple;
+
+    // Replace node with three new nodes
+    root_node.insert_node(old_match_node)
+    root_node.insert_node(new_match_node)
+    root_parent.replace_child(node, root_node)
+    if (current_fragment.contents.length > b3.max_fragment_size) {
+
+
+      b3.balance(root_node)
+    }
+
+    new_match_node.triple = triple;
+    return new_match_node;
+  } else {
+    let root_node = new Node(before_string_match, current_fragment, root_parent)
+    b3.assign_node_id(root_node)
+    let old_match_node = new Node(after_string_match, current_fragment, root_node)
+    b3.assign_node_id(old_match_node)
+    
+    current_fragment.add_node(root_node)
+    current_fragment.add_node(old_match_node)
+
+    // old children are transfered to the child node that leads to these children
+    old_match_node.children = node.children;
+    old_match_node.triple = node.triple;
+
+    // Replace node with three new nodes
+    root_node.insert_node(old_match_node)
+    root_parent.replace_child(node, root_node)
+    if (current_fragment.contents.length > b3.max_fragment_size) {
+      b3.balance(root_node)
+    }
+
+    root_node.triple = triple;
+    return root_node;
+  }
 
 }
 
 var total_matching_child_node = function(node){
+  node.hits += 1;
   return node;
 }
 
 
 // TODO:: FINISH
-B3.prototype.search_triple = function(triple) {
-  representation = triple.representation;
-  node = B3.root_node;
+B3.prototype.search_triple = function(searched_triple) {
+  representation = searched_triple.representation;
+  node = this.root_node;
   current_index = 0;
-  while (current_index < triple.representation.length) {
+  while (current_index < searched_triple.representation.length) {
+      
     let found = false;
-    node.children.forEach(function(child){
-      if (triple.representation.startsWith(child.token_string, current_index)){
-        found = true
+    for (var i = 0; i < node.children.length; i++) {
+      let child = node.children[i]
+      if (searched_triple.representation.startsWith(child.token_string, current_index)){
+        found = true;
+        node = child;
+        current_index += child.token_string.length
+        break;
       }
-    });
+    }
     if (!found) {
-      throw "The word " + triple.representation + " was not present in the tree."
+      let strng = "The word " + searched_triple.representation + " was not present in the tree."
+      throw strng
     }
   }
+  return node.triple
 }
 
 // The newly added node will need to have an existing fragment
@@ -236,6 +271,8 @@ Fragment.prototype.remove_node = function(node) {
   var index = this.contents.indexOf(node);
   if (index > -1) {
     this.contents.splice(index, 1);
+  } else {
+    throw "Fragemnt tries to delete unexisting node"
   }
 }
 
@@ -246,41 +283,6 @@ Fragment.prototype.request_node = function(content){
     }
   }
 }
-
-
-var serialize_fragment = function(fragment){
-  let filename = "searchfragments/serialized_fragment_"+fragment.id
-
-}
-
-var deserialize_fragment = function(fragment_id){
-  let filename = "searchfragments/serialized_fragment_"+fragment_id
-
-
-}
-
-// Fragment.prototype.write_to_file = function(){
-//   let filename = "searchfragments/fragment"+this.id
-//   console.log(filename)
-//   let cache = []
-//   let string = "fragment" + this.id + "\n";
-//   for (nodeindex in this.contents){
-//     node = this.contents[nodeindex]
-//     string += node.id + " :: " + node.token_string + " || " ;
-//     for (i in node.children){
-//       string += node.children[i].id + " - "
-//     }
-//     string += "\n"
-//   }
-//   string += "\n"
-//   fs.writeFile(filename, string, function(err) {
-//     if(err) {
-//         return console.log(err);
-//     }
-
-//     console.log("The file was saved!");
-// });
-// }
 
 /*
  * NODE
@@ -295,9 +297,16 @@ function Node(token_string, fragment, parent_node) {
   this.children = new Array();
   this.parent_node = parent_node;
   this.fragment = fragment;
+
+  this.hits = 1;
 }
 
 Node.prototype.insert_node = function(node){
+  for (var i = 0; i < this.children.length; i++){
+    if (this.children[i].token_string == node.token_string) {
+      throw "trying to add existing child node"
+    }
+  }
   this.children.push(node);
 }
 
@@ -305,6 +314,8 @@ Node.prototype.replace_child = function(oldchild, newchild){
   var index = this.children.indexOf(oldchild);
   if (index > -1) {
     this.children.splice(index, 1);
+  } else {
+    throw ("Trying to remove unexisting child from node")
   }
   this.children.push(newchild)
 }
@@ -360,16 +371,15 @@ var inner_node_count = 0;
 var node_children_count = 0;
 var max_node_children_count = 0;
 var max_node_children_node = 0;
+var triple_nodes = 0;
 
 
+var triple_reps_found = new Set()
 
 var calculate_average_fragments_passed = function(b3) {
   let root_node = b3.root_node;
-  for (index in root_node.children) {
-    calculate_node_fragments_passed(root_node.children[index], 1)
-  }
-
-
+  calculate_node_fragments_passed(root_node, 1)
+  
   let sum = 0;
   for( var i = 0; i < distances.length; i++ ){
       sum += parseInt( distances[i], 10 ); //don't forget to add the base
@@ -389,6 +399,35 @@ var calculate_average_fragments_passed = function(b3) {
       frag_sum += parseInt( fragment_sizes[j], 10 ); //don't forget to add the base
   }
   let avg_frag_size = frag_sum / fragment_sizes.length
+
+  console.log("TESTING EQUALITY", added_triples.length)
+  for (var k = 0; k < added_triples.length; k++) {
+    assert.equal(b3.search_triple(added_triples[k]).representation, added_triples[k].representation)
+  }
+
+  let COUNT = 0
+  for (var k = 0; k < added_triples.length; k++) {
+    let stringrep = added_triples[k].representation
+    if (triple_reps_found.has(stringrep)){
+      COUNT += 1
+    } else {
+      console.log(stringrep)
+      console.log(b3.search_triple(added_triples[k]).representation)
+      throw "TRIPLE NOT FOUND"
+    }
+  }
+
+  console.log(COUNT)
+
+  let newSet = new Set();
+  for (var k = 0; k < added_triples.length; k++) {
+    newSet.add(added_triples[k])
+  }
+  console.log(added_triples.length, newSet.size, triple_reps_found.size)
+  console.log(newSet == triple_reps_found)
+  
+
+
 
 
   console.log("")
@@ -413,6 +452,7 @@ var calculate_average_fragments_passed = function(b3) {
   console.log("")
   console.log("NODE DATA")
   console.log("total unique triple count: " + unique_lines) //linecounter)
+  console.log("triple node count: " + triple_nodes)
   console.log("total node count: " + node_count)
   let node_per_word = node_count / unique_lines;
   console.log("nodes per word: " + node_per_word)
@@ -423,6 +463,9 @@ var calculate_average_fragments_passed = function(b3) {
 }
 
 var calculate_node_fragments_passed = function(node, distance) {
+  if (node.token_string == "aan") {
+    console.log(node.triple)
+  }
   node_count += 1
 
   if (node.children.length != 0) {
@@ -435,20 +478,27 @@ var calculate_node_fragments_passed = function(node, distance) {
   }
 
   let newdist;
-  if (node.parent_node.fragment != node.fragment) {
+
+  if (node.parent_node != null && node.parent_node.fragment != node.fragment) {
     newdist = distance + 1;
   } else {
     newdist = distance;
   }
   if (node.triple != null){
+    if (node.token_string == "aan") {
+      console.log("PUSHING")
+    }
+    triple_nodes += 1
+    triple_reps_found.add(node.triple.representation)
     distances.push(newdist)
     if (newdist > max_dist){
       max_dist = newdist
       max_word = node.triple
     }
   }
-  for (index in node.children) {
-    calculate_node_fragments_passed(node.children[index], newdist);
+  
+  for (var i = 0; i < node.children.length; i++) {
+    calculate_node_fragments_passed(node.children[i], newdist);
   }
 }
 
@@ -460,7 +510,7 @@ var unique_lines;
 function puts(error, stdout, stderr) { unique_lines = parseInt(stdout, 10); }
 exec("cat " + FILENAME + " | uniq -c | wc -l", puts);
 
-
+added_triples = new Array();
 var lineReader = require('readline').createInterface({
   input: require('fs').createReadStream(FILENAME)
 });
@@ -472,6 +522,7 @@ lineReader.on('line', function (line) {
   let newtriple = new Triple(line)
   newB3.add_triple(newtriple)
   linecounter += 1;
+  added_triples.push(newtriple)
   if (line == "Grüffl") {
     calculate_average_fragments_passed(newB3);
   }
