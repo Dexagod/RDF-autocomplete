@@ -15,8 +15,8 @@ var FC = require('../lib/fragment_cache.js')
   TESTINGGG
 */
 var FRAGMENT_SIZE = 10;
-var FILENAME = "data/straatnamen.txt"
-// var FILENAME = "data/500laatstestraatnamen.txt"
+// var FILENAME = "data/straatnamen.txt"
+var FILENAME = "data/500laatstestraatnamen.txt"
 
 
 
@@ -55,6 +55,9 @@ var calculate_average_fragments_passed = function(b3) {
     }
   }
   let frag_sum = 0
+  var max_frag_size = fragment_sizes.reduce(function(a, b) {
+    return Math.max(a, b);
+  });
   for( var j = 0; j < fragment_sizes.length; j++ ){
       frag_sum += parseInt( fragment_sizes[j], 10 ); //don't forget to add the base
   }
@@ -76,6 +79,7 @@ var calculate_average_fragments_passed = function(b3) {
   console.log("FRAGMENT DATA")
   console.log("total frag count: " + totalsize)
   console.log("max fragment size allowed: " + FRAGMENT_SIZE)
+  console.log("max fragment size: " + max_frag_size)
   console.log("avg fragment nodes contained: " + avg_frag_size)
   let avgfragfill = avg_frag_size / FRAGMENT_SIZE;
   console.log("avg frag fill: " + avgfragfill )
@@ -97,6 +101,8 @@ var calculate_average_fragments_passed = function(b3) {
     assert.equal(b3.search_triple(added_triples[k]).get_representation(), added_triples[k].get_representation())
   }
   console.log("ASSERTIONS CORRECT")
+
+  test_file_io(b3);
 
 }
 
@@ -136,7 +142,8 @@ var calculate_node_fragments_passed = function(node, distance) {
   }
 }
 
-var fc = new FC();
+var fc = new FC("searchfragments");
+
 var newB3 = new Tree(FRAGMENT_SIZE, fc);
 
 
@@ -162,3 +169,16 @@ lineReader.on('line', function (line) {
     calculate_average_fragments_passed(newB3);
   }
 });
+
+var test_file_io = function(tree) {
+  let test_fragment = fc.get_fragment_by_id(1)
+  let write_fragment = fc.write_fragment_to_file(test_fragment);
+  let stringify_parser =  function(key, value) {
+      return (key == 'fragment_cache') ? undefined : value;
+  };
+  write_fragment.then( (val) => { return fc.read_fragment_from_file(1); })
+  .then( (val) =>{
+        console.log(JSON.stringify(val, stringify_parser) === JSON.stringify(test_fragment, stringify_parser))
+  } )
+  .catch(console.log("RIP"))
+}
