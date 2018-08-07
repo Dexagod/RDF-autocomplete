@@ -70,12 +70,12 @@ B3.prototype.add_triple = function(triple) {
         if (node_match_index == child_tokens_length) {
           // A total match was found
           found_child = true;
-          node = total_matching_child_node(node.children[i]);
+          node = total_matching_child_node(node.get_children()[i]);
           break;
         } else if (node_match_index > 0) {
           // A partial match was found
           found_child = true;
-          node = partial_matching_child_node(this, node.children[i], node_match_index, index, triple);
+          node = partial_matching_child_node(this, node.get_children()[i], node_match_index, index, triple);
           node.triple = triple
           return node;
         }
@@ -128,7 +128,7 @@ var no_matching_child_node = function(b3, node, index, triple){
 var partial_matching_child_node = function(b3, node, nodeindex, tripleindex, triple){
 
   let root_parent = node.parent_node;
-  let children = node.children;
+  let children = node.get_children();
   let current_fragment = node.fragment;
 
   let before_string_match = node.token_string.slice(0, nodeindex)
@@ -149,7 +149,7 @@ var partial_matching_child_node = function(b3, node, nodeindex, tripleindex, tri
   current_fragment.add_node(new_match_node)
 
   // old children are transfered to the child node that leads to these children
-  old_match_node.children = node.children;
+  old_match_node.set_children(node.get_children());
 
   // Replace node with three new nodes
   root_node.insert_node(old_match_node)
@@ -177,7 +177,7 @@ B3.prototype.search_triple = function(triple) {
   current_index = 0;
   while (current_index < triple.representation.length) {
     let found = false;
-    node.children.forEach(function(child){
+    node.get_children().forEach(function(child){
       if (triple.representation.startsWith(child.token_string, current_index)){
         found = true
       }
@@ -194,7 +194,7 @@ B3.prototype.balance = function(node){
   let fragment = node.fragment;
   let parent_node = node.parent_node;
   let before_parent_node = null;
-  while (parent_node.children.length < 2 && parent_node.parent_node.fragment == fragment) {
+  while (parent_node.get_children().length < 2 && parent_node.parent_node.fragment == fragment) {
     parent_node  = parent_node.parent_node;
     before_parent_node = parent_node;
   }
@@ -205,7 +205,7 @@ B3.prototype.balance = function(node){
     node.change_fragment_node_and_children(fragment, new_fragment);
   } else {
     let current_fragment = parent_node.fragment
-    // for (childindex in parent_node.children){
+    // for (childindex in parent_node.get_children()){
     let new_fragment = new Fragment();
     this.assign_fragment_id(new_fragment);
     let childnode = node
@@ -267,8 +267,8 @@ var deserialize_fragment = function(fragment_id){
 //   for (nodeindex in this.contents){
 //     node = this.contents[nodeindex]
 //     string += node.id + " :: " + node.token_string + " || " ;
-//     for (i in node.children){
-//       string += node.children[i].id + " - "
+//     for (i in node.get_children()){
+//       string += node.get_children()[i].id + " - "
 //     }
 //     string += "\n"
 //   }
@@ -298,22 +298,22 @@ function Node(token_string, fragment, parent_node) {
 }
 
 Node.prototype.insert_node = function(node){
-  this.children.push(node);
+  this.get_children().push(node);
 }
 
 Node.prototype.replace_child = function(oldchild, newchild){
-  var index = this.children.indexOf(oldchild);
+  var index = this.get_children().indexOf(oldchild);
   if (index > -1) {
-    this.children.splice(index, 1);
+    this.get_children().splice(index, 1);
   }
-  this.children.push(newchild)
+  this.get_children().push(newchild)
 }
 
 
 Node.prototype.request = function(letter){
-  for (index in this.children) {
-    if (this.children[index].token == letter){
-        return this.children[index];
+  for (index in this.get_children()) {
+    if (this.get_children()[index].token == letter){
+        return this.get_children()[index];
     }
   }
   return null;
@@ -322,8 +322,8 @@ Node.prototype.request = function(letter){
 
 Node.prototype.get_child_token_strings = function(){
   let child_array = new Array()
-  for (index in this.children) {
-    child_array.push(this.children[index].token_string)
+  for (index in this.get_children()) {
+    child_array.push(this.get_children()[index].token_string)
   }
   return child_array;
 }
@@ -334,8 +334,8 @@ Node.prototype.change_fragment_node_and_children = function(old_fragment, new_fr
     this.fragment = new_fragment;
     new_fragment.add_node(this);
     old_fragment.remove_node(this);
-    for (index in this.children) {
-      this.children[index].change_fragment_node_and_children(old_fragment, new_fragment);
+    for (index in this.get_children()) {
+      this.get_children()[index].change_fragment_node_and_children(old_fragment, new_fragment);
     }
   }
 }
@@ -365,8 +365,8 @@ var max_node_children_node = 0;
 
 var calculate_average_fragments_passed = function(b3) {
   let root_node = b3.root_node;
-  for (index in root_node.children) {
-    calculate_node_fragments_passed(root_node.children[index], 1)
+  for (index in root_node.get_children()) {
+    calculate_node_fragments_passed(root_node.get_children()[index], 1)
   }
 
 
@@ -425,11 +425,11 @@ var calculate_average_fragments_passed = function(b3) {
 var calculate_node_fragments_passed = function(node, distance) {
   node_count += 1
 
-  if (node.children.length != 0) {
+  if (node.get_children().length != 0) {
     inner_node_count += 1;
-    node_children_count += node.children.length;
-    if (node.children.length > max_node_children_count){
-      max_node_children_count = node.children.length;
+    node_children_count += node.get_children().length;
+    if (node.get_children().length > max_node_children_count){
+      max_node_children_count = node.get_children().length;
       max_node_children_node = node
     }
   }
@@ -447,8 +447,8 @@ var calculate_node_fragments_passed = function(node, distance) {
       max_word = node.triple
     }
   }
-  for (index in node.children) {
-    calculate_node_fragments_passed(node.children[index], newdist);
+  for (index in node.get_children()) {
+    calculate_node_fragments_passed(node.get_children()[index], newdist);
   }
 }
 
@@ -476,4 +476,3 @@ lineReader.on('line', function (line) {
     calculate_average_fragments_passed(newB3);
   }
 });
-

@@ -71,7 +71,7 @@ B3.prototype.balance = function(node){
   let fragment = node.fragment;
   let parent_node = node.parent_node;
   let before_parent_node = null;
-  while (parent_node.children.length < 2 && parent_node.parent_node.fragment == fragment) {
+  while (parent_node.get_children().length < 2 && parent_node.parent_node.fragment == fragment) {
     parent_node  = parent_node.parent_node;
     before_parent_node = parent_node;
   }
@@ -82,7 +82,7 @@ B3.prototype.balance = function(node){
     node.change_fragment_node_and_children(fragment, new_fragment);
   } else {
     let current_fragment = parent_node.fragment
-    // for (childindex in parent_node.children){
+    // for (childindex in parent_node.get_children()){
     let new_fragment = new Fragment();
     this.assign_fragment_id(new_fragment);
     let childnode = node
@@ -155,13 +155,13 @@ function Node(token, fragment, parent_node) {
 }
 
 Node.prototype.insert_node = function(node){
-  this.children.push(node);
+  this.get_children().push(node);
 }
 
 Node.prototype.request = function(letter){
-  for (index in this.children) {
-    if (this.children[index].token == letter){
-        return this.children[index];
+  for (index in this.get_children()) {
+    if (this.get_children()[index].token == letter){
+        return this.get_children()[index];
     }
   }
   return null;
@@ -172,8 +172,8 @@ Node.prototype.change_fragment_node_and_children = function(old_fragment, new_fr
     this.fragment = new_fragment;
     new_fragment.add_node(this);
     old_fragment.remove_node(this);
-    for (index in this.children) {
-      this.children[index].change_fragment_node_and_children(old_fragment, new_fragment);
+    for (index in this.get_children()) {
+      this.get_children()[index].change_fragment_node_and_children(old_fragment, new_fragment);
     }
   }
 }
@@ -196,8 +196,8 @@ var node_count = 0;
 
 var calculate_average_fragments_passed = function(b3) {
   let root_node = b3.root_node;
-  for (index in root_node.children) {
-    calculate_node_fragments_passed(root_node.children[index], 1)
+  for (index in root_node.get_children()) {
+    calculate_node_fragments_passed(root_node.get_children()[index], 1)
   }
 
 
@@ -263,8 +263,8 @@ var calculate_node_fragments_passed = function(node, distance) {
       max_word = node.triple
     }
   }
-  for (index in node.children) {
-    calculate_node_fragments_passed(node.children[index], newdist);
+  for (index in node.get_children()) {
+    calculate_node_fragments_passed(node.get_children()[index], newdist);
   }
 }
 
