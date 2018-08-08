@@ -14,9 +14,11 @@ var FC = require('../lib/fragment_cache.js')
 /*
   TESTINGGG
 */
-var FRAGMENT_SIZE = 10;
-// var FILENAME = "data/straatnamen.txt"
-var FILENAME = "data/500laatstestraatnamen.txt"
+var FRAGMENT_SIZE = 500;
+var FILENAME = "data/straatnamen.txt"
+var CACHE_SIZE = 3000
+var fc = new FC("searchfragments", CACHE_SIZE);
+// var FILENAME = "data/500laatstestraatnamen.txt"
 
 
 
@@ -142,7 +144,6 @@ var calculate_node_fragments_passed = function(node, distance) {
   }
 }
 
-var fc = new FC("searchfragments");
 
 var newB3 = new Tree(FRAGMENT_SIZE, fc);
 
@@ -170,16 +171,13 @@ lineReader.on('line', function (line) {
   }
 });
 
-var test_file_io = async function(tree) {
+var test_file_io = function(tree) {
+  console.log("TESTING IO")
   let test_fragment = fc.get_fragment_by_id(1)
-  let write_fragment = await fc.write_fragment_to_file(test_fragment);
+  let write_fragment = fc.write_fragment_to_file(test_fragment);
   let stringify_parser =  function(key, value) {
       return (key == 'fragment_cache') ? undefined : value;
   };
-  let val = await fc.read_fragment_from_file(1);
+  let val = fc.read_fragment_from_file(1);
   console.log(JSON.stringify(val, stringify_parser) === JSON.stringify(test_fragment, stringify_parser))
-  console.log(val.contents)
-  let nnode = val.get_node_by_id(857)
-  console.log(nnode)
-  console.log(nnode.get_parent_node())
 }
