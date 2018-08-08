@@ -34,8 +34,9 @@ var triple_nodes = 0;
 var triple_reps_found = new Set()
 var fragments_set = new Set();
 
-var calculate_average_fragments_passed = function(b3) {
-  let root_node = b3.get_root_node();
+var calculate_average_fragments_passed = async function(b3) {
+  let root_node = await b3.get_root_node().catch(error => console.log(error));;
+  console.log("KEK", root_node)
   calculate_node_fragments_passed(root_node, 1)
 
   let sum = 0;
@@ -106,8 +107,8 @@ var calculate_average_fragments_passed = function(b3) {
 
 }
 
-var calculate_node_fragments_passed = function(node, distance) {
-  fragments_set.add(node.get_fragment())
+var calculate_node_fragments_passed = async function(node, distance) {
+  fragments_set.add(await node.get_fragment().catch(error => console.log(error)))
   node_count += 1
 
   if (node.get_child_count() != 0) {
@@ -171,14 +172,5 @@ lineReader.on('line', function (line) {
 });
 
 var test_file_io = function(tree) {
-  let test_fragment = fc.get_fragment_by_id(1)
-  let write_fragment = fc.write_fragment_to_file(test_fragment);
-  let stringify_parser =  function(key, value) {
-      return (key == 'fragment_cache') ? undefined : value;
-  };
-  write_fragment.then( (val) => { return fc.read_fragment_from_file(1); })
-  .then( (val) =>{
-        console.log(JSON.stringify(val, stringify_parser) === JSON.stringify(test_fragment, stringify_parser))
-  } )
-  .catch(console.log("RIP"))
+  return ;
 }
