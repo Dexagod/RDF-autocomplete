@@ -14,11 +14,12 @@ var FC = require('../lib/fragment_cache.js')
 /*
   TESTINGGG
 */
-var FRAGMENT_SIZE = 500;
-var FILENAME = "data/straatnamen.txt"
-var CACHE_SIZE = 3000
-var fc = new FC("searchfragments", CACHE_SIZE);
-// var FILENAME = "data/500laatstestraatnamen.txt"
+var FRAGMENT_SIZE = 7;
+// var FILENAME = "data/straatnamen.txt"
+var FILENAME = "data/500laatstestraatnamen.txt"
+var CACHE_SIZE = 33
+var fc = new FC("searchfragments", FRAGMENT_SIZE*5, CACHE_SIZE);
+
 
 
 
@@ -73,6 +74,7 @@ var calculate_average_fragments_passed = function(b3) {
   console.log("")
   console.log("TREE DATA")
   console.log("Total entries: " + linecounter)
+  console.log("Total unique entries: " + unique_lines)
   console.log("average distance: " + avg)
   console.log("maximal distance: " + max_dist)
   console.log("word with max dist: " + max_word.get_representation())
@@ -85,6 +87,13 @@ var calculate_average_fragments_passed = function(b3) {
   console.log("avg fragment nodes contained: " + avg_frag_size)
   let avgfragfill = avg_frag_size / FRAGMENT_SIZE;
   console.log("avg frag fill: " + avgfragfill )
+
+  console.log("")
+  console.log("CACHE DATA")
+  console.log("number of hits: " + fc.cache_hits)
+  console.log("number of misses: " + fc.cache_misses)
+  console.log("number of cache cleans: " + fc.cache_cleans)
+  console.log("times waited for write to finish: " + fc.wait_for_writes)
 
 
   console.log("")
@@ -104,7 +113,6 @@ var calculate_average_fragments_passed = function(b3) {
   }
   console.log("ASSERTIONS CORRECT")
 
-  test_file_io(b3);
 
 }
 
@@ -170,14 +178,3 @@ lineReader.on('line', function (line) {
     calculate_average_fragments_passed(newB3);
   }
 });
-
-var test_file_io = function(tree) {
-  console.log("TESTING IO")
-  let test_fragment = fc.get_fragment_by_id(1)
-  let write_fragment = fc.write_fragment_to_file(test_fragment);
-  let stringify_parser =  function(key, value) {
-      return (key == 'fragment_cache') ? undefined : value;
-  };
-  let val = fc.read_fragment_from_file(1);
-  console.log(JSON.stringify(val, stringify_parser) === JSON.stringify(test_fragment, stringify_parser))
-}
