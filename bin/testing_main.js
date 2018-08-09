@@ -14,11 +14,13 @@ var FC = require('../lib/fragment_cache.js')
 /*
   TESTINGGG
 */
-var FRAGMENT_SIZE = 7;
-// var FILENAME = "data/straatnamen.txt"
-var FILENAME = "data/500laatstestraatnamen.txt"
-var CACHE_SIZE = 33
-var fc = new FC("searchfragments", FRAGMENT_SIZE*5, CACHE_SIZE);
+var FRAGMENT_SIZE = 100;
+var FILENAME = "data/straatnamen.txt"
+// var FILENAME = "data/5dlaatstestraatnamen.txt"
+// var FILENAME = "data/500laatstestraatnamen.txt"
+var CACHE_SIZE = 3000;
+var fc = new FC("searchfragments", FRAGMENT_SIZE*20, CACHE_SIZE);
+var newB3 = new Tree(FRAGMENT_SIZE, fc);
 
 
 
@@ -93,7 +95,8 @@ var calculate_average_fragments_passed = function(b3) {
   console.log("number of hits: " + fc.cache_hits)
   console.log("number of misses: " + fc.cache_misses)
   console.log("number of cache cleans: " + fc.cache_cleans)
-  console.log("times waited for write to finish: " + fc.wait_for_writes)
+  console.log("number of writes: " + fc.writes)
+  console.log("number of reads: " + fc.reads)
 
 
   console.log("")
@@ -108,11 +111,16 @@ var calculate_average_fragments_passed = function(b3) {
   console.log("max node children: " + max_node_children_count)
 
   console.log("TESTING EQUALITY", added_triples.length)
+  fc.searching = true;
   for (var k = 0; k < added_triples.length; k++) {
+    if (k % 100 === 0) {
+      console.log("CHECKING  ", k)
+    }
     assert.equal(b3.search_triple(added_triples[k]).get_representation(), added_triples[k].get_representation())
   }
   console.log("ASSERTIONS CORRECT")
 
+  // fc.clear_cache()
 
 }
 
@@ -153,7 +161,6 @@ var calculate_node_fragments_passed = function(node, distance) {
 }
 
 
-var newB3 = new Tree(FRAGMENT_SIZE, fc);
 
 
 var exec = require('child_process').exec;
@@ -173,8 +180,13 @@ lineReader.on('line', function (line) {
   let newtriple = new Triple(line)
   newB3.add_triple(newtriple)
   linecounter += 1;
+  if (linecounter % 1000 == 0){
+    console.log("LINE " + linecounter)
+  }
   added_triples.push(newtriple)
   if (line == "Grüffl") {
     calculate_average_fragments_passed(newB3);
   }
 });
+
+
