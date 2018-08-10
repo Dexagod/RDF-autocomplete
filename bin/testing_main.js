@@ -14,11 +14,11 @@ var FC = require('../lib/fragment_cache.js')
 /*
   TESTINGGG
 */
-var FRAGMENT_SIZE = 100;
-var FILENAME = "data/straatnamen.txt"
+var FRAGMENT_SIZE = 20;
+// var FILENAME = "data/straatnamen.txt"
 // var FILENAME = "data/5dlaatstestraatnamen.txt"
-// var FILENAME = "data/500laatstestraatnamen.txt"
-var CACHE_SIZE = 3000;
+var FILENAME = "data/500laatstestraatnamen.txt"
+var CACHE_SIZE = 60;
 var fc = new FC("searchfragments", FRAGMENT_SIZE*20, CACHE_SIZE);
 var newB3 = new Tree(FRAGMENT_SIZE, fc);
 
@@ -111,12 +111,20 @@ var calculate_average_fragments_passed = function(b3) {
   console.log("max node children: " + max_node_children_count)
 
   console.log("TESTING EQUALITY", added_triples.length)
+
+
+  /*
+  FLUSHING CACHE, WRITE EVERYTHING BEFORE SEARCHING
+  */
+  fc.flush_cache()
+
   fc.searching = true;
   for (var k = 0; k < added_triples.length; k++) {
     if (k % 100 === 0) {
       console.log("CHECKING  ", k)
     }
-    assert.equal(b3.search_triple(added_triples[k]).get_representation(), added_triples[k].get_representation())
+    let searched_triples = b3.search_triple(added_triples[k])
+    assert.equal(searched_triples[0].get_representation(), added_triples[k].get_representation())
   }
   console.log("ASSERTIONS CORRECT")
 
@@ -144,13 +152,13 @@ var calculate_node_fragments_passed = function(node, distance) {
   } else {
     newdist = distance;
   }
-  if (node.get_triple() != null){
+  if (node.get_triples().length > 0){
     triple_nodes += 1
-    triple_reps_found.add(node.get_triple().get_representation())
+    triple_reps_found.add(node.get_triples()[0].get_representation())
     distances.push(newdist)
     if (newdist > max_dist){
       max_dist = newdist
-      max_word = node.get_triple()
+      max_word = node.get_triples()[0]
     }
   }
 
