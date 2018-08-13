@@ -199,19 +199,21 @@ lineReader.on('line', function (line) {
 lineReader.on('close', function () {
   // calculate_average_fragments_passed(newB3);
   console.log("DONE ADDING")
+  fc.searching = true
   var lineReader2 = require('readline').createInterface({
     input: require('fs').createReadStream(FILENAME)
   });
    
-  linecounter = 0;
+  linecounter = -1;
   lineReader2.on('line', function (line) {
     let newtriple = new Triple(line)
     linecounter += 1;
-    if (linecounter % 100 == 0){
+    console.log(newtriple)
+    if (linecounter % 10 == 0){
       console.log("LINE " + linecounter)
     }
     let searched_triple = newB3.search_triple(newtriple)
-    console.log(searched_triple)[0]
+    // console.log(searched_triple)
     assert.equal(searched_triple[0].get_representation(), newtriple.get_representation())
   });
 
