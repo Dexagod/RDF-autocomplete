@@ -53,16 +53,19 @@ var calculate_average_fragments_passed = function(b3) {
   let totalsize = 0;
   var fragments = Array.from(fragments_set);
 
-  for( var i = 0; i < fragments.length; i++ ){
-    if (fragments[i].get_contents_size() > 0) {
-      totalsize += 1;
-      fragment_sizes.push(fragments[i].get_contents_size())
-    }
-  }
-  let frag_sum = 0
-  var max_frag_size = fragment_sizes.reduce(function(a, b) {
-    return Math.max(a, b);
-  });
+  // for( var i = 0; i < fragments.length; i++ ){
+  //   if (fragments[i]["@graph"].length > 0) {
+  //     totalsize += 1;
+  //     fragment_sizes.push(fragments[i]["@graph"].length)
+  //   }
+  // }
+  // let frag_sum = 0
+  // var max_frag_size = fragment_sizes.reduce(function(a, b) {
+  //   return Math.max(a, b);
+  // });
+
+  var max_frag_size = 0;
+  var frag_sum = 0;
   for( var j = 0; j < fragment_sizes.length; j++ ){
       frag_sum += parseInt( fragment_sizes[j], 10 ); //don't forget to add the base
   }
@@ -188,13 +191,31 @@ lineReader.on('line', function (line) {
   let newtriple = new Triple(line)
   newB3.add_triple(newtriple)
   linecounter += 1;
-  if (linecounter % 1000 == 0){
+  if (linecounter % 100 == 0){
     console.log("LINE " + linecounter)
-  }
-  added_triples.push(newtriple)
-  if (line == "Grüffl") {
-    calculate_average_fragments_passed(newB3);
   }
 });
 
+lineReader.on('close', function () {
+  // calculate_average_fragments_passed(newB3);
+  console.log("DONE ADDING")
+  var lineReader2 = require('readline').createInterface({
+    input: require('fs').createReadStream(FILENAME)
+  });
+   
+  linecounter = 0;
+  lineReader2.on('line', function (line) {
+    let newtriple = new Triple(line)
+    linecounter += 1;
+    if (linecounter % 100 == 0){
+      console.log("LINE " + linecounter)
+    }
+    let searched_triple = newB3.search_triple(newtriple)
+    console.log(searched_triple)[0]
+    assert.equal(searched_triple[0].get_representation(), newtriple.get_representation())
+  });
 
+  lineReader2.on('close', function (line) {
+   console.log("Triples have been successfully added")
+  });
+});
