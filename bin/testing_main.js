@@ -208,9 +208,11 @@ lineReader.on('close', function () {
     if (linecounter % 100 == 0){
       console.log("LINE " + linecounter)
     }
-    let searched_triple = newB3.search_triple(newtriple)
+    if (newtriple.get_representation() != ""){
+      let searched_triple = newB3.search_triple(newtriple)
+      assert.equal(searched_triple[0].get_representation(), newtriple.get_representation())
+    }
     
-    assert.equal(searched_triple[0].get_representation(), newtriple.get_representation())
   });
 
   lineReader2.on('close', function (line) {
