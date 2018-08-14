@@ -14,11 +14,11 @@ var FC = require('../lib/fragment_cache.js')
 /*
   TESTINGGG
 */
-var FRAGMENT_SIZE = 20;
-// var FILENAME = "data/straatnamen.txt"
+var FRAGMENT_SIZE = 25;
+var FILENAME = "data/straatnamen.txt"
 // var FILENAME = "data/5dlaatstestraatnamen.txt"
-var FILENAME = "data/500laatstestraatnamen.txt"
-var CACHE_SIZE = 60;
+// var FILENAME = "data/500laatstestraatnamen.txt"
+var CACHE_SIZE = 8000;
 var fc = new FC("searchfragments", FRAGMENT_SIZE*20, CACHE_SIZE);
 var newB3 = new Tree(FRAGMENT_SIZE, fc);
 
@@ -199,7 +199,9 @@ lineReader.on('line', function (line) {
 lineReader.on('close', function () {
   // calculate_average_fragments_passed(newB3);
   console.log("DONE ADDING")
-  fc.searching = true
+  fc.flush_cache()
+
+  fc.searching = true;
   var lineReader2 = require('readline').createInterface({
     input: require('fs').createReadStream(FILENAME)
   });
@@ -208,12 +210,11 @@ lineReader.on('close', function () {
   lineReader2.on('line', function (line) {
     let newtriple = new Triple(line)
     linecounter += 1;
-    console.log(newtriple)
-    if (linecounter % 10 == 0){
+    if (linecounter % 100 == 0){
       console.log("LINE " + linecounter)
     }
     let searched_triple = newB3.search_triple(newtriple)
-    // console.log(searched_triple)
+    
     assert.equal(searched_triple[0].get_representation(), newtriple.get_representation())
   });
 
