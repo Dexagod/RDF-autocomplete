@@ -1,5 +1,4 @@
 var fs = require('fs');
-var rimraf = require('rimraf');
 const assert = require('assert');
 
 var Tree = require('../lib/tree.js')
@@ -174,10 +173,6 @@ var newB3 = new Tree(FRAGMENT_SIZE, fc);
 
 
 
-// var exec = require('child_process').exec;
-// var unique_lines;
-// function puts(error, stdout, stderr) { unique_lines = parseInt(stdout, 10); }
-// exec("cat " + FILENAME + " | sort -u | wc -l", puts);
 
 added_triples = new Array();
 var lineReader = require('readline').createInterface({
