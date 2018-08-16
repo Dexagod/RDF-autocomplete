@@ -205,6 +205,7 @@ lineReader.on('close', function () {
   lineReader2.on('line', function (line) {
     let newtriple = new Triple(line)
     linecounter += 1;
+
     if (linecounter % 100 == 0){
       console.log("LINE " + linecounter)
     }
