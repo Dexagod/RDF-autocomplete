@@ -16,8 +16,8 @@ var sizeof = require('object-sizeof')
 */
 var DIR = "searchfragments"
 var FRAGMENT_SIZE = 100;
-var FILENAME = "data/straatnamen.txt"
-// var FILENAME = "data/5dlaatstestraatnamen.txt"
+// var FILENAME = "data/straatnamen.txt"
+var FILENAME = "data/5dlaatstestraatnamen.txt"
 // var FILENAME = "data/500laatstestraatnamen.txt"
 var CACHE_SIZE = 10000;
 var fc = new FC(DIR, CACHE_SIZE);
