@@ -15,11 +15,11 @@ var sizeof = require('object-sizeof')
   TESTINGGG
 */
 var DIR = "searchfragments"
-var FRAGMENT_SIZE = 100;
-var FILENAME = "data/straatnamen.txt"
-// var FILENAME = "data/5dlaatstestraatnamen.txt"
+var FRAGMENT_SIZE = 50;
+// var FILENAME = "data/straatnamen.txt"
+var FILENAME = "data/5dlaatstestraatnamen.txt"
 // var FILENAME = "data/500laatstestraatnamen.txt"
-var CACHE_SIZE = 10000;
+var CACHE_SIZE = 500;
 var fc = new FC(DIR, CACHE_SIZE);
 var newB3 = new Tree(FRAGMENT_SIZE, fc);
 
@@ -207,6 +207,8 @@ var calculate_node_fragments_passed = function(node, distance) {
   if (! fragments_set.has(node.get_fragment())){
     // Check if fragment root nodes are set correctly
     assert(node.get_fragment().get_root_node_id() === node.node_id)
+    let total_nodes = test_in_fragment_count(node, node.get_fragment());
+    console.log(total_nodes)
     
     fragment_sizes += node.get_fragment().get_contents_size();
     if (node.get_fragment().get_contents_size() > max_frag_size){
@@ -240,4 +242,19 @@ var calculate_node_fragments_passed = function(node, distance) {
   }
   total_children_count += node.get_child_count();
   assert(node.get_total_children_count() === total_children_count)
+}
+
+function test_in_fragment_count(node, fragment){
+  if (node.get_fragment_id() !== fragment.fragment_id){
+    return 0
+  }
+  let node_children = node.get_children_objects();
+  let in_fragment_children_count = 0;
+  for (var i = 0; i < node_children.length; i++) {
+    in_fragment_children_count += test_in_fragment_count(node_children[i], fragment);
+  }
+  console.log(node.node_id, node.token_string, node.fragment_id, node.parent_node, node.get_in_fragment_children_count(), in_fragment_children_count)
+  
+  // assert (node.get_in_fragment_children_count() == in_fragment_children_count);
+  return in_fragment_children_count + 1;
 }
