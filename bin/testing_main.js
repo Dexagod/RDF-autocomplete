@@ -33,7 +33,7 @@ added_strings = new Set()
 
 lineReader.on('line', function (line) {
   added_strings.add(line);
-  let newtriple = new Triple(line)
+  let newtriple = new Triple(line, {streetname: line})
   newB3.add_triple(newtriple)
   linecounter += 1;
   if (linecounter % 100 === 0){
