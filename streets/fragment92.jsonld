@@ -1,0 +1,3203 @@
+{
+  "root_node_id": "2380",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment92.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "ienstrasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Dahlienstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.770977314934154",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.76687012396851"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2381",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dahlienstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.770977314934154",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.76687012396851"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2378",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dahlienstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dahlienstrasse"
+      ]
+    },
+    {
+      "token_string": "straße",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Dahlstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0978228333392313",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.67715249188143"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2381",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dahlstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0978228333392313",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.67715249188143"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2379",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dahlstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dahlstraße"
+      ]
+    },
+    {
+      "token_string": "D",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2381",
+              "@type": "tree:Node",
+              "token_string": "ahl"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment91.jsonld#2383",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2433",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2451",
+              "@type": "tree:Node",
+              "token_string": "ö"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2455",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2473",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2493",
+              "@type": "tree:Node",
+              "token_string": "ürler"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2496",
+              "@type": "tree:Node",
+              "token_string": "uz"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment1.jsonld#1",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dahlienstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.770977314934154",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.76687012396851"
+        },
+        {
+          "http://example.com/terms#name": "Dahlstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0978228333392313",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.67715249188143"
+        },
+        {
+          "http://example.com/terms#name": "Dederesgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.82526074385033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.435177566146166"
+        },
+        {
+          "http://example.com/terms#name": "Degré des Artisans",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4172745088051184",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.59936848892108"
+        },
+        {
+          "http://example.com/terms#name": "Degrés des Dentellières",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3093689664682127",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.32783169267091"
+        },
+        {
+          "http://example.com/terms#name": "Degr�s Jacques Izoard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.823958890107036",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.01480562689889"
+        },
+        {
+          "http://example.com/terms#name": "Deidenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.566717632406375",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29567853561123"
+        },
+        {
+          "http://example.com/terms#name": "Dellbrück",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.399101224516997",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.244407848406055"
+        },
+        {
+          "http://example.com/terms#name": "Dellenstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5314360167946486",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.18180096669796"
+        },
+        {
+          "http://example.com/terms#name": "Deller Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7705111868874863",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.11288626520802"
+        }
+      ],
+      "total_children_count": 90,
+      "@id": "streetsfragment92.jsonld#2380",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dahlienstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dahlstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dederesgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Degré des Artisans"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Degrés des Dentellières"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Degr�s Jacques Izoard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Deidenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dellbrück"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dellenstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Deller Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ahl",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2378",
+              "@type": "tree:Node",
+              "token_string": "ienstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2379",
+              "@type": "tree:Node",
+              "token_string": "straße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2380",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dahlienstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.770977314934154",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.76687012396851"
+        },
+        {
+          "http://example.com/terms#name": "Dahlstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0978228333392313",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.67715249188143"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment92.jsonld#2381",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dahlienstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dahlstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "hrod",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Dichrod",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9630295267437243",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.48265248217848"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2434",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dichrod",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9630295267437243",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.48265248217848"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2431",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dichrod"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dichrod"
+      ]
+    },
+    {
+      "token_string": "ke Beusch",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Dicke Beusch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9758512397063623",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.135894930358475"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2434",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dicke Beusch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9758512397063623",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.135894930358475"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2432",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dicke Beusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dicke Beusch"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2434",
+              "@type": "tree:Node",
+              "token_string": "c"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2435",
+              "@type": "tree:Node",
+              "token_string": "epert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2436",
+              "@type": "tree:Node",
+              "token_string": "llenheide"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2380",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dichrod",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9630295267437243",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.48265248217848"
+        },
+        {
+          "http://example.com/terms#name": "Dicke Beusch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9758512397063623",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.135894930358475"
+        },
+        {
+          "http://example.com/terms#name": "Diepert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.917674607539371",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.61628000768864"
+        },
+        {
+          "http://example.com/terms#name": "Dillenheide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.747491911162093",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.57879425947469"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment92.jsonld#2433",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dichrod"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dicke Beusch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Diepert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dillenheide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "c",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2431",
+              "@type": "tree:Node",
+              "token_string": "hrod"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2432",
+              "@type": "tree:Node",
+              "token_string": "ke Beusch"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2433",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dichrod",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9630295267437243",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.48265248217848"
+        },
+        {
+          "http://example.com/terms#name": "Dicke Beusch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9758512397063623",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.135894930358475"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment92.jsonld#2434",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dichrod"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dicke Beusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "epert",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Diepert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.917674607539371",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.61628000768864"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2433",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Diepert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.917674607539371",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.61628000768864"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2435",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Diepert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Diepert"
+      ]
+    },
+    {
+      "token_string": "llenheide",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Dillenheide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.747491911162093",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.57879425947469"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2433",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dillenheide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.747491911162093",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.57879425947469"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2436",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dillenheide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dillenheide"
+      ]
+    },
+    {
+      "token_string": "asse Cliche",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Domaine de la Basse Cliche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.481310939358803",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.962680913997026"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2446",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Domaine de la Basse Cliche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.481310939358803",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.962680913997026"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2440",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine de la Basse Cliche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Domaine de la Basse Cliche"
+      ]
+    },
+    {
+      "token_string": "riserie",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Domaine de la Briserie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.634142642769642",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.72910251986557"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2446",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Domaine de la Briserie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.634142642769642",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.72910251986557"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2441",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine de la Briserie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Domaine de la Briserie"
+      ]
+    },
+    {
+      "token_string": "-du-Bonsoy Neige",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Domaine-du-Bonsoy Neige",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.784049582972573",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53185989569131"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2449",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Domaine-du-Bonsoy Neige",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.784049582972573",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53185989569131"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2444",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine-du-Bonsoy Neige"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Domaine-du-Bonsoy Neige"
+      ]
+    },
+    {
+      "token_string": " d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2446",
+              "@type": "tree:Node",
+              "token_string": "e la B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2447",
+              "@type": "tree:Node",
+              "token_string": "u Piou"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2449",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Domaine de la Basse Cliche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.481310939358803",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.962680913997026"
+        },
+        {
+          "http://example.com/terms#name": "Domaine de la Briserie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.634142642769642",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.72910251986557"
+        },
+        {
+          "http://example.com/terms#name": "Domaine du Piou",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4495917288427407",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29170940800035"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment92.jsonld#2445",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine de la Basse Cliche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine de la Briserie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine du Piou"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e la B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2440",
+              "@type": "tree:Node",
+              "token_string": "asse Cliche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2441",
+              "@type": "tree:Node",
+              "token_string": "riserie"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2445",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Domaine de la Basse Cliche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.481310939358803",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.962680913997026"
+        },
+        {
+          "http://example.com/terms#name": "Domaine de la Briserie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.634142642769642",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.72910251986557"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment92.jsonld#2446",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine de la Basse Cliche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine de la Briserie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u Piou",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Domaine du Piou",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4495917288427407",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29170940800035"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2445",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Domaine du Piou",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4495917288427407",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29170940800035"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2447",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine du Piou"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Domaine du Piou"
+      ]
+    },
+    {
+      "token_string": "aine",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2444",
+              "@type": "tree:Node",
+              "token_string": "-du-Bonsoy Neige"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2445",
+              "@type": "tree:Node",
+              "token_string": " d"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2456",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Domaine de la Basse Cliche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.481310939358803",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.962680913997026"
+        },
+        {
+          "http://example.com/terms#name": "Domaine de la Briserie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.634142642769642",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.72910251986557"
+        },
+        {
+          "http://example.com/terms#name": "Domaine-du-Bonsoy Neige",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.784049582972573",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53185989569131"
+        },
+        {
+          "http://example.com/terms#name": "Domaine du Piou",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4495917288427407",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29170940800035"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment92.jsonld#2449",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine de la Basse Cliche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine de la Briserie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine-du-Bonsoy Neige"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine du Piou"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " du Bois de Néverlée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Dom du Bois de Néverlée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.241391002569672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.6363271888262"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2456",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dom du Bois de Néverlée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.241391002569672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.6363271888262"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2450",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dom du Bois de Néverlée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dom du Bois de Néverlée"
+      ]
+    },
+    {
+      "token_string": "ö",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2452",
+              "@type": "tree:Node",
+              "token_string": "ckesvenn"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2453",
+              "@type": "tree:Node",
+              "token_string": "mengasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2468",
+              "@type": "tree:Node",
+              "token_string": "rnchen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2380",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Döckesvenn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6510047837515494",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.98283907980709"
+        },
+        {
+          "http://example.com/terms#name": "Dömengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.898387035825242",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.840725944805854"
+        },
+        {
+          "http://example.com/terms#name": "Dörnchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.430401216897852",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.9311804533136"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment92.jsonld#2451",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Döckesvenn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dömengasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dörnchen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ckesvenn",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Döckesvenn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6510047837515494",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.98283907980709"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2451",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Döckesvenn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6510047837515494",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.98283907980709"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2452",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Döckesvenn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Döckesvenn"
+      ]
+    },
+    {
+      "token_string": "mengasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Dömengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.898387035825242",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.840725944805854"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2451",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dömengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.898387035825242",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.840725944805854"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2453",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dömengasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dömengasse"
+      ]
+    },
+    {
+      "token_string": "pgasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Dompgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5939000816911375",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.8403131758452"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2456",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dompgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5939000816911375",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.8403131758452"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2454",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dompgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dompgasse"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2456",
+              "@type": "tree:Node",
+              "token_string": "m"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2458",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2462",
+              "@type": "tree:Node",
+              "token_string": "rf"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2380",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Domaine de la Basse Cliche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.481310939358803",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.962680913997026"
+        },
+        {
+          "http://example.com/terms#name": "Domaine de la Briserie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.634142642769642",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.72910251986557"
+        },
+        {
+          "http://example.com/terms#name": "Domaine-du-Bonsoy Neige",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.784049582972573",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53185989569131"
+        },
+        {
+          "http://example.com/terms#name": "Domaine du Piou",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4495917288427407",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29170940800035"
+        },
+        {
+          "http://example.com/terms#name": "Dom du Bois de Néverlée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.241391002569672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.6363271888262"
+        },
+        {
+          "http://example.com/terms#name": "Dompgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5939000816911375",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.8403131758452"
+        },
+        {
+          "http://example.com/terms#name": "Donatusweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.520613444669679",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.32512075685595"
+        },
+        {
+          "http://example.com/terms#name": "Donnerkul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1021951218573696",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.04852393796829"
+        },
+        {
+          "http://example.com/terms#name": "Dorfberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1213025077390366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.78999455120023"
+        },
+        {
+          "http://example.com/terms#name": "Dorfstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.802537220520896",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.131731051506335"
+        }
+      ],
+      "total_children_count": 18,
+      "@id": "streetsfragment92.jsonld#2455",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine de la Basse Cliche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine de la Briserie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine-du-Bonsoy Neige"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine du Piou"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dom du Bois de Néverlée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dompgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Donatusweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Donnerkul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dorfberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dorfstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "m",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2449",
+              "@type": "tree:Node",
+              "token_string": "aine"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2450",
+              "@type": "tree:Node",
+              "token_string": " du Bois de Néverlée"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2454",
+              "@type": "tree:Node",
+              "token_string": "pgasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2455",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Domaine de la Basse Cliche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.481310939358803",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.962680913997026"
+        },
+        {
+          "http://example.com/terms#name": "Domaine de la Briserie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.634142642769642",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.72910251986557"
+        },
+        {
+          "http://example.com/terms#name": "Domaine-du-Bonsoy Neige",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.784049582972573",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53185989569131"
+        },
+        {
+          "http://example.com/terms#name": "Domaine du Piou",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4495917288427407",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29170940800035"
+        },
+        {
+          "http://example.com/terms#name": "Dom du Bois de Néverlée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.241391002569672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.6363271888262"
+        },
+        {
+          "http://example.com/terms#name": "Dompgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5939000816911375",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.8403131758452"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "streetsfragment92.jsonld#2456",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine de la Basse Cliche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine de la Briserie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine-du-Bonsoy Neige"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine du Piou"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dom du Bois de Néverlée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dompgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2459",
+              "@type": "tree:Node",
+              "token_string": "atusweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2460",
+              "@type": "tree:Node",
+              "token_string": "nerkul"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2455",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Donatusweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.520613444669679",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.32512075685595"
+        },
+        {
+          "http://example.com/terms#name": "Donnerkul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1021951218573696",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.04852393796829"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment92.jsonld#2458",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Donatusweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Donnerkul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "atusweg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Donatusweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.520613444669679",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.32512075685595"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2458",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Donatusweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.520613444669679",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.32512075685595"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2459",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Donatusweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Donatusweg"
+      ]
+    },
+    {
+      "token_string": "nerkul",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Donnerkul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1021951218573696",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.04852393796829"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2458",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Donnerkul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1021951218573696",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.04852393796829"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2460",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Donnerkul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Donnerkul"
+      ]
+    },
+    {
+      "token_string": "rf",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2463",
+              "@type": "tree:Node",
+              "token_string": "berg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2465",
+              "@type": "tree:Node",
+              "token_string": "stra"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2455",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dorfberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1213025077390366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.78999455120023"
+        },
+        {
+          "http://example.com/terms#name": "Dorfstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.802537220520896",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.131731051506335"
+        },
+        {
+          "http://example.com/terms#name": "Dorfstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.067071451548714",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.603212389478585"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment92.jsonld#2462",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dorfberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dorfstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dorfstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "berg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Dorfberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1213025077390366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.78999455120023"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2462",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dorfberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1213025077390366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.78999455120023"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2463",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dorfberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dorfberg"
+      ]
+    },
+    {
+      "token_string": "stra",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2466",
+              "@type": "tree:Node",
+              "token_string": "sse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2467",
+              "@type": "tree:Node",
+              "token_string": "ße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2462",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dorfstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.802537220520896",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.131731051506335"
+        },
+        {
+          "http://example.com/terms#name": "Dorfstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.067071451548714",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.603212389478585"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment92.jsonld#2465",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dorfstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dorfstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Dorfstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.802537220520896",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.131731051506335"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2465",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dorfstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.802537220520896",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.131731051506335"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2466",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dorfstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dorfstrasse"
+      ]
+    },
+    {
+      "token_string": "ße",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Dorfstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.067071451548714",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.603212389478585"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2465",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dorfstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.067071451548714",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.603212389478585"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2467",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dorfstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dorfstraße"
+      ]
+    },
+    {
+      "token_string": "rnchen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Dörnchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.430401216897852",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.9311804533136"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2451",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dörnchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.430401216897852",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.9311804533136"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2468",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dörnchen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dörnchen"
+      ]
+    },
+    {
+      "token_string": "esweg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Dreesweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9919849561560192",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.67671989690158"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2474",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dreesweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9919849561560192",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.67671989690158"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2471",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dreesweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dreesweg"
+      ]
+    },
+    {
+      "token_string": "ihütten",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Dreihütten",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8188852807184706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56411749069477"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2474",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dreihütten",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8188852807184706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56411749069477"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2472",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dreihütten"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dreihütten"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2474",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2476",
+              "@type": "tree:Node",
+              "token_string": "ève "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2489",
+              "@type": "tree:Node",
+              "token_string": "iesch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2490",
+              "@type": "tree:Node",
+              "token_string": "î Harzy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2491",
+              "@type": "tree:Node",
+              "token_string": "Molly Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2492",
+              "@type": "tree:Node",
+              "token_string": "ömmerpfad"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2380",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dreesweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9919849561560192",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.67671989690158"
+        },
+        {
+          "http://example.com/terms#name": "Dreihütten",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8188852807184706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56411749069477"
+        },
+        {
+          "http://example.com/terms#name": "Drève Boninas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.292026828139516",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.21385223959777"
+        },
+        {
+          "http://example.com/terms#name": "Drève Casaquy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3926554774008832",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78317673536322"
+        },
+        {
+          "http://example.com/terms#name": "Drève de Braffe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2700559465015733",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.18922638220736"
+        },
+        {
+          "http://example.com/terms#name": "Drève de Fayen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.663304857618085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76557354735931"
+        },
+        {
+          "http://example.com/terms#name": "Drève de Hemptinne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2421147339010306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.54005657722927"
+        },
+        {
+          "http://example.com/terms#name": "Drève Eugène Goblet d'Alviella",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3262784942904955",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.998760449273625"
+        },
+        {
+          "http://example.com/terms#name": "Driesch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1647508684310144",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.745877857920085"
+        },
+        {
+          "http://example.com/terms#name": "DrMolly Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.923935418150526",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.002697004790505"
+        }
+      ],
+      "total_children_count": 18,
+      "@id": "streetsfragment92.jsonld#2473",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dreesweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dreihütten"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève Boninas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève Casaquy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Braffe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Fayen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Hemptinne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève Eugène Goblet d'Alviella"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Driesch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "DrMolly Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2471",
+              "@type": "tree:Node",
+              "token_string": "esweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2472",
+              "@type": "tree:Node",
+              "token_string": "ihütten"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dreesweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9919849561560192",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.67671989690158"
+        },
+        {
+          "http://example.com/terms#name": "Dreihütten",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8188852807184706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56411749069477"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment92.jsonld#2474",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dreesweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dreihütten"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ève ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2477",
+              "@type": "tree:Node",
+              "token_string": "Boninas"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2478",
+              "@type": "tree:Node",
+              "token_string": "Casaquy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2485",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2488",
+              "@type": "tree:Node",
+              "token_string": "Eugène Goblet d'Alviella"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Drève Boninas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.292026828139516",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.21385223959777"
+        },
+        {
+          "http://example.com/terms#name": "Drève Casaquy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3926554774008832",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78317673536322"
+        },
+        {
+          "http://example.com/terms#name": "Drève de Braffe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2700559465015733",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.18922638220736"
+        },
+        {
+          "http://example.com/terms#name": "Drève de Fayen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.663304857618085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76557354735931"
+        },
+        {
+          "http://example.com/terms#name": "Drève de Hemptinne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2421147339010306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.54005657722927"
+        },
+        {
+          "http://example.com/terms#name": "Drève de l'Église de Fer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.491434452664189",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.635113546514376"
+        },
+        {
+          "http://example.com/terms#name": "Drève du Moulin Lampach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5910061827612387",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91630967734798"
+        },
+        {
+          "http://example.com/terms#name": "Drève Eugène Goblet d'Alviella",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3262784942904955",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.998760449273625"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "streetsfragment92.jsonld#2476",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève Boninas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève Casaquy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Braffe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Fayen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Hemptinne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de l'Église de Fer"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève du Moulin Lampach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève Eugène Goblet d'Alviella"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Boninas",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Drève Boninas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.292026828139516",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.21385223959777"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2476",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Drève Boninas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.292026828139516",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.21385223959777"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2477",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève Boninas"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drève Boninas"
+      ]
+    },
+    {
+      "token_string": "Casaquy",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Drève Casaquy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3926554774008832",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78317673536322"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2476",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Drève Casaquy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3926554774008832",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78317673536322"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2478",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève Casaquy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drève Casaquy"
+      ]
+    },
+    {
+      "token_string": "Braffe",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Drève de Braffe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2700559465015733",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.18922638220736"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2486",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Drève de Braffe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2700559465015733",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.18922638220736"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2481",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève de Braffe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drève de Braffe"
+      ]
+    },
+    {
+      "token_string": "Fayen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Drève de Fayen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.663304857618085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76557354735931"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2486",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Drève de Fayen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.663304857618085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76557354735931"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2482",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève de Fayen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drève de Fayen"
+      ]
+    },
+    {
+      "token_string": "Hemptinne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Drève de Hemptinne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2421147339010306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.54005657722927"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2486",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Drève de Hemptinne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2421147339010306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.54005657722927"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2483",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève de Hemptinne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drève de Hemptinne"
+      ]
+    },
+    {
+      "token_string": "l'Église de Fer",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Drève de l'Église de Fer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.491434452664189",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.635113546514376"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2486",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Drève de l'Église de Fer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.491434452664189",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.635113546514376"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2484",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève de l'Église de Fer"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drève de l'Église de Fer"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2486",
+              "@type": "tree:Node",
+              "token_string": "e "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2487",
+              "@type": "tree:Node",
+              "token_string": "u Moulin Lampach"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2476",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Drève de Braffe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2700559465015733",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.18922638220736"
+        },
+        {
+          "http://example.com/terms#name": "Drève de Fayen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.663304857618085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76557354735931"
+        },
+        {
+          "http://example.com/terms#name": "Drève de Hemptinne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2421147339010306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.54005657722927"
+        },
+        {
+          "http://example.com/terms#name": "Drève de l'Église de Fer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.491434452664189",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.635113546514376"
+        },
+        {
+          "http://example.com/terms#name": "Drève du Moulin Lampach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5910061827612387",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91630967734798"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment92.jsonld#2485",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève de Braffe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Fayen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Hemptinne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de l'Église de Fer"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève du Moulin Lampach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2481",
+              "@type": "tree:Node",
+              "token_string": "Braffe"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2482",
+              "@type": "tree:Node",
+              "token_string": "Fayen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2483",
+              "@type": "tree:Node",
+              "token_string": "Hemptinne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2484",
+              "@type": "tree:Node",
+              "token_string": "l'Église de Fer"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2485",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Drève de Braffe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2700559465015733",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.18922638220736"
+        },
+        {
+          "http://example.com/terms#name": "Drève de Fayen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.663304857618085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76557354735931"
+        },
+        {
+          "http://example.com/terms#name": "Drève de Hemptinne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2421147339010306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.54005657722927"
+        },
+        {
+          "http://example.com/terms#name": "Drève de l'Église de Fer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.491434452664189",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.635113546514376"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment92.jsonld#2486",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève de Braffe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Fayen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Hemptinne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de l'Église de Fer"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u Moulin Lampach",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Drève du Moulin Lampach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5910061827612387",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91630967734798"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2485",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Drève du Moulin Lampach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5910061827612387",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91630967734798"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2487",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève du Moulin Lampach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drève du Moulin Lampach"
+      ]
+    },
+    {
+      "token_string": "Eugène Goblet d'Alviella",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Drève Eugène Goblet d'Alviella",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3262784942904955",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.998760449273625"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2476",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Drève Eugène Goblet d'Alviella",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3262784942904955",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.998760449273625"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2488",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève Eugène Goblet d'Alviella"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drève Eugène Goblet d'Alviella"
+      ]
+    },
+    {
+      "token_string": "iesch",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Driesch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1647508684310144",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.745877857920085"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Driesch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1647508684310144",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.745877857920085"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2489",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Driesch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Driesch"
+      ]
+    },
+    {
+      "token_string": "î Harzy",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Drî Harzy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.235694541454498",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.271137285749276"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Drî Harzy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.235694541454498",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.271137285749276"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2490",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drî Harzy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drî Harzy"
+      ]
+    },
+    {
+      "token_string": "Molly Strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "DrMolly Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.923935418150526",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.002697004790505"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "DrMolly Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.923935418150526",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.002697004790505"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2491",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "DrMolly Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "DrMolly Strasse"
+      ]
+    },
+    {
+      "token_string": "ömmerpfad",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Drömmerpfad",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.457026624894565",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.84486250615245"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Drömmerpfad",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.457026624894565",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.84486250615245"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2492",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drömmerpfad"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drömmerpfad"
+      ]
+    },
+    {
+      "token_string": "ürler",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Dürler",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.17379523419836",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.80926556670394"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2494",
+              "@type": "tree:Node",
+              "token_string": "hof"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2380",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dürler",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.17379523419836",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.80926556670394"
+        },
+        {
+          "http://example.com/terms#name": "Dürlerhof",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5980827548794014",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.64979311927833"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "streetsfragment92.jsonld#2493",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dürler"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dürlerhof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dürler"
+      ]
+    },
+    {
+      "token_string": "hof",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Dürlerhof",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5980827548794014",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.64979311927833"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2493",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Dürlerhof",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5980827548794014",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.64979311927833"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2494",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dürlerhof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dürlerhof"
+      ]
+    },
+    {
+      "token_string": "uz",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2497",
+              "@type": "tree:Node",
+              "token_string": "eûs l'Ru"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment92.jsonld#2498",
+              "@type": "tree:Node",
+              "token_string": "os lès Batch"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2380",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Duzeûs l'Ru",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6439784251888137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.41251357682285"
+        },
+        {
+          "http://example.com/terms#name": "Duzos lès Batch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4697331784221492",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.785871926548154"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment92.jsonld#2496",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Duzeûs l'Ru"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Duzos lès Batch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eûs l'Ru",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Duzeûs l'Ru",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6439784251888137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.41251357682285"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2496",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Duzeûs l'Ru",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6439784251888137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.41251357682285"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2497",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Duzeûs l'Ru"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Duzeûs l'Ru"
+      ]
+    },
+    {
+      "token_string": "os lès Batch",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Duzos lès Batch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4697331784221492",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.785871926548154"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment92.jsonld#2496",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Duzos lès Batch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4697331784221492",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.785871926548154"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment92.jsonld#2498",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Duzos lès Batch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Duzos lès Batch"
+      ]
+    }
+  ]
+}

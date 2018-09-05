@@ -1,0 +1,4102 @@
+{
+  "root_node_id": "8479",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment285.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": " des Cardamines",
+      "triples": [
+        {
+          "streetname": "Val des Cardamines"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8477",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Val des Cardamines"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8470",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Val des Cardamines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Val des Cardamines"
+      ]
+    },
+    {
+      "token_string": "ender",
+      "triples": [
+        {
+          "streetname": "Valender"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8477",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Valender"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8471",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Valender"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Valender"
+      ]
+    },
+    {
+      "token_string": "lée des ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8474",
+              "@type": "tree:Node",
+              "token_string": "Loups"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8475",
+              "@type": "tree:Node",
+              "token_string": "Oiseaux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8477",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vallée des Loups"
+        },
+        {
+          "streetname": "Vallée des Oiseaux"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment285.jsonld#8473",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vallée des Loups"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vallée des Oiseaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Loups",
+      "triples": [
+        {
+          "streetname": "Vallée des Loups"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vallée des Loups"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8474",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vallée des Loups"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vallée des Loups"
+      ]
+    },
+    {
+      "token_string": "Oiseaux",
+      "triples": [
+        {
+          "streetname": "Vallée des Oiseaux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vallée des Oiseaux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8475",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vallée des Oiseaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vallée des Oiseaux"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8470",
+              "@type": "tree:Node",
+              "token_string": " des Cardamines"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8471",
+              "@type": "tree:Node",
+              "token_string": "ender"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8473",
+              "@type": "tree:Node",
+              "token_string": "lée des "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8480",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Val des Cardamines"
+        },
+        {
+          "streetname": "Valender"
+        },
+        {
+          "streetname": "Vallée des Loups"
+        },
+        {
+          "streetname": "Vallée des Oiseaux"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment285.jsonld#8477",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Val des Cardamines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Valender"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vallée des Loups"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vallée des Oiseaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ussale",
+      "triples": [
+        {
+          "streetname": "Vaussale"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8480",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vaussale"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8478",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vaussale"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vaussale"
+      ]
+    },
+    {
+      "token_string": "V",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8480",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8482",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8540",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8569",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8659",
+              "@type": "tree:Node",
+              "token_string": "ölkersberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8672",
+              "@type": "tree:Node",
+              "token_string": "ôye du Sclassin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8677",
+              "@type": "tree:Node",
+              "token_string": "runertsweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8678",
+              "@type": "tree:Node",
+              "token_string": "yllgasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment1.jsonld#1",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Val des Cardamines"
+        },
+        {
+          "streetname": "Valender"
+        },
+        {
+          "streetname": "Vallée des Loups"
+        },
+        {
+          "streetname": "Vallée des Oiseaux"
+        },
+        {
+          "streetname": "Vaussale"
+        },
+        {
+          "streetname": "Vegdersgasse"
+        },
+        {
+          "streetname": "Venelle Charles Garforth"
+        },
+        {
+          "streetname": "Venelle Ernest Alexander"
+        },
+        {
+          "streetname": "Venelle Le Phare"
+        },
+        {
+          "streetname": "Venelle Robert Cotyle"
+        }
+      ],
+      "total_children_count": 158,
+      "@id": "fragment285.jsonld#8479",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Val des Cardamines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Valender"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vallée des Loups"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vallée des Oiseaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vaussale"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vegdersgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Charles Garforth"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Ernest Alexander"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Le Phare"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Robert Cotyle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8477",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8478",
+              "@type": "tree:Node",
+              "token_string": "ussale"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Val des Cardamines"
+        },
+        {
+          "streetname": "Valender"
+        },
+        {
+          "streetname": "Vallée des Loups"
+        },
+        {
+          "streetname": "Vallée des Oiseaux"
+        },
+        {
+          "streetname": "Vaussale"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment285.jsonld#8480",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Val des Cardamines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Valender"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vallée des Loups"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vallée des Oiseaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vaussale"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8483",
+              "@type": "tree:Node",
+              "token_string": "gdersgasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8522",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8531",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vegdersgasse"
+        },
+        {
+          "streetname": "Venelle Charles Garforth"
+        },
+        {
+          "streetname": "Venelle de Barbançon"
+        },
+        {
+          "streetname": "Venelle de Froidevau"
+        },
+        {
+          "streetname": "Venelle de l'Abbé ChDubois"
+        },
+        {
+          "streetname": "Venelle de la Chavée"
+        },
+        {
+          "streetname": "Venelle Ernest Alexander"
+        },
+        {
+          "streetname": "Venelle Le Phare"
+        },
+        {
+          "streetname": "Venelle Robert Cotyle"
+        },
+        {
+          "streetname": "Venelle Saint-Antoine"
+        }
+      ],
+      "total_children_count": 40,
+      "@id": "fragment285.jsonld#8482",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vegdersgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Charles Garforth"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Barbançon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Froidevau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de l'Abbé ChDubois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Ernest Alexander"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Le Phare"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Robert Cotyle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Saint-Antoine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "gdersgasse",
+      "triples": [
+        {
+          "streetname": "Vegdersgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8482",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vegdersgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8483",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vegdersgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vegdersgasse"
+      ]
+    },
+    {
+      "token_string": "Charles Garforth",
+      "triples": [
+        {
+          "streetname": "Venelle Charles Garforth"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8523",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle Charles Garforth"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8486",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle Charles Garforth"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle Charles Garforth"
+      ]
+    },
+    {
+      "token_string": "Barbançon",
+      "triples": [
+        {
+          "streetname": "Venelle de Barbançon"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8503",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle de Barbançon"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8489",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de Barbançon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle de Barbançon"
+      ]
+    },
+    {
+      "token_string": "Froidevau",
+      "triples": [
+        {
+          "streetname": "Venelle de Froidevau"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8503",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle de Froidevau"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8490",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de Froidevau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle de Froidevau"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8493",
+              "@type": "tree:Node",
+              "token_string": "'Abbé ChDubois"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8495",
+              "@type": "tree:Node",
+              "token_string": "a "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8503",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle de l'Abbé ChDubois"
+        },
+        {
+          "streetname": "Venelle de la Chavée"
+        },
+        {
+          "streetname": "Venelle de la Maladrerie"
+        },
+        {
+          "streetname": "Venelle de la Mine"
+        },
+        {
+          "streetname": "Venelle de la Poste"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment285.jsonld#8492",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de l'Abbé ChDubois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Mine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Poste"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'Abbé ChDubois",
+      "triples": [
+        {
+          "streetname": "Venelle de l'Abbé ChDubois"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8492",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle de l'Abbé ChDubois"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8493",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de l'Abbé ChDubois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle de l'Abbé ChDubois"
+      ]
+    },
+    {
+      "token_string": "a ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8496",
+              "@type": "tree:Node",
+              "token_string": "Chavée"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8498",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8501",
+              "@type": "tree:Node",
+              "token_string": "Poste"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8492",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle de la Chavée"
+        },
+        {
+          "streetname": "Venelle de la Maladrerie"
+        },
+        {
+          "streetname": "Venelle de la Mine"
+        },
+        {
+          "streetname": "Venelle de la Poste"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment285.jsonld#8495",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Mine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Poste"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Chavée",
+      "triples": [
+        {
+          "streetname": "Venelle de la Chavée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8495",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle de la Chavée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8496",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle de la Chavée"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8499",
+              "@type": "tree:Node",
+              "token_string": "aladrerie"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8500",
+              "@type": "tree:Node",
+              "token_string": "ine"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8495",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle de la Maladrerie"
+        },
+        {
+          "streetname": "Venelle de la Mine"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment285.jsonld#8498",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Mine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aladrerie",
+      "triples": [
+        {
+          "streetname": "Venelle de la Maladrerie"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8498",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle de la Maladrerie"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8499",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle de la Maladrerie"
+      ]
+    },
+    {
+      "token_string": "ine",
+      "triples": [
+        {
+          "streetname": "Venelle de la Mine"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8498",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle de la Mine"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8500",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de la Mine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle de la Mine"
+      ]
+    },
+    {
+      "token_string": "Poste",
+      "triples": [
+        {
+          "streetname": "Venelle de la Poste"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8495",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle de la Poste"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8501",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de la Poste"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle de la Poste"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8489",
+              "@type": "tree:Node",
+              "token_string": "Barbançon"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8490",
+              "@type": "tree:Node",
+              "token_string": "Froidevau"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8492",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8512",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle de Barbançon"
+        },
+        {
+          "streetname": "Venelle de Froidevau"
+        },
+        {
+          "streetname": "Venelle de l'Abbé ChDubois"
+        },
+        {
+          "streetname": "Venelle de la Chavée"
+        },
+        {
+          "streetname": "Venelle de la Maladrerie"
+        },
+        {
+          "streetname": "Venelle de la Mine"
+        },
+        {
+          "streetname": "Venelle de la Poste"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "fragment285.jsonld#8503",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de Barbançon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Froidevau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de l'Abbé ChDubois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Mine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Poste"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8506",
+              "@type": "tree:Node",
+              "token_string": "Artistes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8508",
+              "@type": "tree:Node",
+              "token_string": "Cha"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8512",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle des Artistes"
+        },
+        {
+          "streetname": "Venelle des Charmes"
+        },
+        {
+          "streetname": "Venelle des Chaufourniers"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment285.jsonld#8505",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle des Artistes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Charmes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Chaufourniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Artistes",
+      "triples": [
+        {
+          "streetname": "Venelle des Artistes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8505",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle des Artistes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8506",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle des Artistes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle des Artistes"
+      ]
+    },
+    {
+      "token_string": "Cha",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8509",
+              "@type": "tree:Node",
+              "token_string": "rmes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8510",
+              "@type": "tree:Node",
+              "token_string": "ufourniers"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8505",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle des Charmes"
+        },
+        {
+          "streetname": "Venelle des Chaufourniers"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment285.jsonld#8508",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle des Charmes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Chaufourniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rmes",
+      "triples": [
+        {
+          "streetname": "Venelle des Charmes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8508",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle des Charmes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8509",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle des Charmes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle des Charmes"
+      ]
+    },
+    {
+      "token_string": "ufourniers",
+      "triples": [
+        {
+          "streetname": "Venelle des Chaufourniers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8508",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle des Chaufourniers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8510",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle des Chaufourniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle des Chaufourniers"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8512",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8514",
+              "@type": "tree:Node",
+              "token_string": "u "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8523",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle de Barbançon"
+        },
+        {
+          "streetname": "Venelle de Froidevau"
+        },
+        {
+          "streetname": "Venelle de l'Abbé ChDubois"
+        },
+        {
+          "streetname": "Venelle de la Chavée"
+        },
+        {
+          "streetname": "Venelle de la Maladrerie"
+        },
+        {
+          "streetname": "Venelle de la Mine"
+        },
+        {
+          "streetname": "Venelle de la Poste"
+        },
+        {
+          "streetname": "Venelle des Artistes"
+        },
+        {
+          "streetname": "Venelle des Charmes"
+        },
+        {
+          "streetname": "Venelle des Chaufourniers"
+        }
+      ],
+      "total_children_count": 21,
+      "@id": "fragment285.jsonld#8511",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de Barbançon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Froidevau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de l'Abbé ChDubois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Mine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Poste"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Artistes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Charmes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Chaufourniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8503",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8505",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8511",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle de Barbançon"
+        },
+        {
+          "streetname": "Venelle de Froidevau"
+        },
+        {
+          "streetname": "Venelle de l'Abbé ChDubois"
+        },
+        {
+          "streetname": "Venelle de la Chavée"
+        },
+        {
+          "streetname": "Venelle de la Maladrerie"
+        },
+        {
+          "streetname": "Venelle de la Mine"
+        },
+        {
+          "streetname": "Venelle de la Poste"
+        },
+        {
+          "streetname": "Venelle des Artistes"
+        },
+        {
+          "streetname": "Venelle des Charmes"
+        },
+        {
+          "streetname": "Venelle des Chaufourniers"
+        }
+      ],
+      "total_children_count": 16,
+      "@id": "fragment285.jsonld#8512",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de Barbançon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Froidevau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de l'Abbé ChDubois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Mine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Poste"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Artistes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Charmes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Chaufourniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8515",
+              "@type": "tree:Node",
+              "token_string": "Boulanger"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8516",
+              "@type": "tree:Node",
+              "token_string": "Père Damien"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8517",
+              "@type": "tree:Node",
+              "token_string": "Village"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8511",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle du Boulanger"
+        },
+        {
+          "streetname": "Venelle du Père Damien"
+        },
+        {
+          "streetname": "Venelle du Village"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment285.jsonld#8514",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle du Boulanger"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle du Père Damien"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle du Village"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Boulanger",
+      "triples": [
+        {
+          "streetname": "Venelle du Boulanger"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8514",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle du Boulanger"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8515",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle du Boulanger"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle du Boulanger"
+      ]
+    },
+    {
+      "token_string": "Père Damien",
+      "triples": [
+        {
+          "streetname": "Venelle du Père Damien"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8514",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle du Père Damien"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8516",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle du Père Damien"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle du Père Damien"
+      ]
+    },
+    {
+      "token_string": "Village",
+      "triples": [
+        {
+          "streetname": "Venelle du Village"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8514",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle du Village"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8517",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle du Village"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle du Village"
+      ]
+    },
+    {
+      "token_string": "Ernest Alexander",
+      "triples": [
+        {
+          "streetname": "Venelle Ernest Alexander"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8523",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle Ernest Alexander"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8518",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle Ernest Alexander"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle Ernest Alexander"
+      ]
+    },
+    {
+      "token_string": "Le Phare",
+      "triples": [
+        {
+          "streetname": "Venelle Le Phare"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8523",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle Le Phare"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8519",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle Le Phare"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle Le Phare"
+      ]
+    },
+    {
+      "token_string": "Robert Cotyle",
+      "triples": [
+        {
+          "streetname": "Venelle Robert Cotyle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8523",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle Robert Cotyle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8520",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle Robert Cotyle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle Robert Cotyle"
+      ]
+    },
+    {
+      "token_string": "Saint-Antoine",
+      "triples": [
+        {
+          "streetname": "Venelle Saint-Antoine"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8523",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle Saint-Antoine"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8521",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle Saint-Antoine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle Saint-Antoine"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8523",
+              "@type": "tree:Node",
+              "token_string": "elle "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8525",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8482",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle Charles Garforth"
+        },
+        {
+          "streetname": "Venelle de Barbançon"
+        },
+        {
+          "streetname": "Venelle de Froidevau"
+        },
+        {
+          "streetname": "Venelle de l'Abbé ChDubois"
+        },
+        {
+          "streetname": "Venelle de la Chavée"
+        },
+        {
+          "streetname": "Venelle de la Maladrerie"
+        },
+        {
+          "streetname": "Venelle Ernest Alexander"
+        },
+        {
+          "streetname": "Venelle Le Phare"
+        },
+        {
+          "streetname": "Venelle Robert Cotyle"
+        },
+        {
+          "streetname": "Venelle Saint-Antoine"
+        }
+      ],
+      "total_children_count": 33,
+      "@id": "fragment285.jsonld#8522",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle Charles Garforth"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Barbançon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Froidevau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de l'Abbé ChDubois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Ernest Alexander"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Le Phare"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Robert Cotyle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Saint-Antoine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "elle ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8486",
+              "@type": "tree:Node",
+              "token_string": "Charles Garforth"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8511",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8518",
+              "@type": "tree:Node",
+              "token_string": "Ernest Alexander"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8519",
+              "@type": "tree:Node",
+              "token_string": "Le Phare"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8520",
+              "@type": "tree:Node",
+              "token_string": "Robert Cotyle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8521",
+              "@type": "tree:Node",
+              "token_string": "Saint-Antoine"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8522",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Venelle Charles Garforth"
+        },
+        {
+          "streetname": "Venelle de Barbançon"
+        },
+        {
+          "streetname": "Venelle de Froidevau"
+        },
+        {
+          "streetname": "Venelle de l'Abbé ChDubois"
+        },
+        {
+          "streetname": "Venelle de la Chavée"
+        },
+        {
+          "streetname": "Venelle de la Maladrerie"
+        },
+        {
+          "streetname": "Venelle Ernest Alexander"
+        },
+        {
+          "streetname": "Venelle Le Phare"
+        },
+        {
+          "streetname": "Venelle Robert Cotyle"
+        },
+        {
+          "streetname": "Venelle Saint-Antoine"
+        }
+      ],
+      "total_children_count": 27,
+      "@id": "fragment285.jsonld#8523",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle Charles Garforth"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Barbançon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Froidevau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de l'Abbé ChDubois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Ernest Alexander"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Le Phare"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Robert Cotyle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Saint-Antoine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8526",
+              "@type": "tree:Node",
+              "token_string": "bahnstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8527",
+              "@type": "tree:Node",
+              "token_string": "hofstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8528",
+              "@type": "tree:Node",
+              "token_string": "knepp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8529",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8522",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vennbahnstrasse"
+        },
+        {
+          "streetname": "Vennhofstrasse"
+        },
+        {
+          "streetname": "Vennknepp"
+        },
+        {
+          "streetname": "Vennstrasse"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment285.jsonld#8525",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vennbahnstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vennhofstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vennknepp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vennstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bahnstrasse",
+      "triples": [
+        {
+          "streetname": "Vennbahnstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8525",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vennbahnstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8526",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vennbahnstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vennbahnstrasse"
+      ]
+    },
+    {
+      "token_string": "hofstrasse",
+      "triples": [
+        {
+          "streetname": "Vennhofstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8525",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vennhofstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8527",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vennhofstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vennhofstrasse"
+      ]
+    },
+    {
+      "token_string": "knepp",
+      "triples": [
+        {
+          "streetname": "Vennknepp"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8525",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vennknepp"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8528",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vennknepp"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vennknepp"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "streetname": "Vennstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8525",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vennstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8529",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vennstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vennstrasse"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8532",
+              "@type": "tree:Node",
+              "token_string": "bindungsweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8533",
+              "@type": "tree:Node",
+              "token_string": "gefenes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8534",
+              "@type": "tree:Node",
+              "token_string": "ret Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8535",
+              "@type": "tree:Node",
+              "token_string": "vierser Strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8482",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Verbindungsweg"
+        },
+        {
+          "streetname": "Vergefenes"
+        },
+        {
+          "streetname": "Verret Strasse"
+        },
+        {
+          "streetname": "Vervierser Strasse"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment285.jsonld#8531",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Verbindungsweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vergefenes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Verret Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vervierser Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bindungsweg",
+      "triples": [
+        {
+          "streetname": "Verbindungsweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Verbindungsweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8532",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Verbindungsweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Verbindungsweg"
+      ]
+    },
+    {
+      "token_string": "gefenes",
+      "triples": [
+        {
+          "streetname": "Vergefenes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vergefenes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8533",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vergefenes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vergefenes"
+      ]
+    },
+    {
+      "token_string": "ret Strasse",
+      "triples": [
+        {
+          "streetname": "Verret Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Verret Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8534",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Verret Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Verret Strasse"
+      ]
+    },
+    {
+      "token_string": "vierser Strasse",
+      "triples": [
+        {
+          "streetname": "Vervierser Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vervierser Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8535",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vervierser Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vervierser Strasse"
+      ]
+    },
+    {
+      "token_string": "Fregona",
+      "triples": [
+        {
+          "streetname": "Via Fregona"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8541",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Via Fregona"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8538",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Via Fregona"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Via Fregona"
+      ]
+    },
+    {
+      "token_string": "Sesmara",
+      "triples": [
+        {
+          "streetname": "Via Sesmara"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8541",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Via Sesmara"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8539",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Via Sesmara"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Via Sesmara"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8541",
+              "@type": "tree:Node",
+              "token_string": "a "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8546",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8561",
+              "@type": "tree:Node",
+              "token_string": "ktorine-Straße"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8562",
+              "@type": "tree:Node",
+              "token_string": "olinstraße"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8563",
+              "@type": "tree:Node",
+              "token_string": "rée du Hêtre"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8564",
+              "@type": "tree:Node",
+              "token_string": "tus-Ennen-Straße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Via Fregona"
+        },
+        {
+          "streetname": "Via Sesmara"
+        },
+        {
+          "streetname": "Vieille rue de Géromont"
+        },
+        {
+          "streetname": "Vieille Voie du Bois"
+        },
+        {
+          "streetname": "Vielsalmer Straße"
+        },
+        {
+          "streetname": "Vierschaar"
+        },
+        {
+          "streetname": "Vierschillingweg"
+        },
+        {
+          "streetname": "Vieux Chemin Royal"
+        },
+        {
+          "streetname": "Vieux Goley"
+        },
+        {
+          "streetname": "Vieux Hoyemont"
+        }
+      ],
+      "total_children_count": 22,
+      "@id": "fragment285.jsonld#8540",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Via Fregona"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Via Sesmara"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieille rue de Géromont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieille Voie du Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vielsalmer Straße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vierschaar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vierschillingweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Chemin Royal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Goley"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Hoyemont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8538",
+              "@type": "tree:Node",
+              "token_string": "Fregona"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8539",
+              "@type": "tree:Node",
+              "token_string": "Sesmara"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8540",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Via Fregona"
+        },
+        {
+          "streetname": "Via Sesmara"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment285.jsonld#8541",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Via Fregona"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Via Sesmara"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rue de Géromont",
+      "triples": [
+        {
+          "streetname": "Vieille rue de Géromont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8547",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vieille rue de Géromont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8544",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieille rue de Géromont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vieille rue de Géromont"
+      ]
+    },
+    {
+      "token_string": "Voie du Bois",
+      "triples": [
+        {
+          "streetname": "Vieille Voie du Bois"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8547",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vieille Voie du Bois"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8545",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieille Voie du Bois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vieille Voie du Bois"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8547",
+              "@type": "tree:Node",
+              "token_string": "ille "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8548",
+              "@type": "tree:Node",
+              "token_string": "lsalmer Straße"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8550",
+              "@type": "tree:Node",
+              "token_string": "rsch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8554",
+              "@type": "tree:Node",
+              "token_string": "ux "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8540",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vieille rue de Géromont"
+        },
+        {
+          "streetname": "Vieille Voie du Bois"
+        },
+        {
+          "streetname": "Vielsalmer Straße"
+        },
+        {
+          "streetname": "Vierschaar"
+        },
+        {
+          "streetname": "Vierschillingweg"
+        },
+        {
+          "streetname": "Vieux Chemin Royal"
+        },
+        {
+          "streetname": "Vieux Goley"
+        },
+        {
+          "streetname": "Vieux Hoyemont"
+        },
+        {
+          "streetname": "Vieux Mont"
+        },
+        {
+          "streetname": "Vieux Thier de Sprimont"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "fragment285.jsonld#8546",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieille rue de Géromont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieille Voie du Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vielsalmer Straße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vierschaar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vierschillingweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Chemin Royal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Goley"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Hoyemont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Thier de Sprimont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ille ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8544",
+              "@type": "tree:Node",
+              "token_string": "rue de Géromont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8545",
+              "@type": "tree:Node",
+              "token_string": "Voie du Bois"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8546",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vieille rue de Géromont"
+        },
+        {
+          "streetname": "Vieille Voie du Bois"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment285.jsonld#8547",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieille rue de Géromont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieille Voie du Bois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "lsalmer Straße",
+      "triples": [
+        {
+          "streetname": "Vielsalmer Straße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8546",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vielsalmer Straße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8548",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vielsalmer Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vielsalmer Straße"
+      ]
+    },
+    {
+      "token_string": "rsch",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8551",
+              "@type": "tree:Node",
+              "token_string": "aar"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8552",
+              "@type": "tree:Node",
+              "token_string": "illingweg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8546",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vierschaar"
+        },
+        {
+          "streetname": "Vierschillingweg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment285.jsonld#8550",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vierschaar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vierschillingweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aar",
+      "triples": [
+        {
+          "streetname": "Vierschaar"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8550",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vierschaar"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8551",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vierschaar"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vierschaar"
+      ]
+    },
+    {
+      "token_string": "illingweg",
+      "triples": [
+        {
+          "streetname": "Vierschillingweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8550",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vierschillingweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8552",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vierschillingweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vierschillingweg"
+      ]
+    },
+    {
+      "token_string": "ux ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8555",
+              "@type": "tree:Node",
+              "token_string": "chemin de Thines"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8556",
+              "@type": "tree:Node",
+              "token_string": "Chemin Royal"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8557",
+              "@type": "tree:Node",
+              "token_string": "Goley"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8558",
+              "@type": "tree:Node",
+              "token_string": "Hoyemont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8559",
+              "@type": "tree:Node",
+              "token_string": "Mont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment285.jsonld#8560",
+              "@type": "tree:Node",
+              "token_string": "Thier de Sprimont"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8546",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vieux chemin de Thines"
+        },
+        {
+          "streetname": "Vieux Chemin Royal"
+        },
+        {
+          "streetname": "Vieux Goley"
+        },
+        {
+          "streetname": "Vieux Hoyemont"
+        },
+        {
+          "streetname": "Vieux Mont"
+        },
+        {
+          "streetname": "Vieux Thier de Sprimont"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment285.jsonld#8554",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieux chemin de Thines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Chemin Royal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Goley"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Hoyemont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Thier de Sprimont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "chemin de Thines",
+      "triples": [
+        {
+          "streetname": "Vieux chemin de Thines"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vieux chemin de Thines"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8555",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieux chemin de Thines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vieux chemin de Thines"
+      ]
+    },
+    {
+      "token_string": "Chemin Royal",
+      "triples": [
+        {
+          "streetname": "Vieux Chemin Royal"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vieux Chemin Royal"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8556",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieux Chemin Royal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vieux Chemin Royal"
+      ]
+    },
+    {
+      "token_string": "Goley",
+      "triples": [
+        {
+          "streetname": "Vieux Goley"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vieux Goley"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8557",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieux Goley"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vieux Goley"
+      ]
+    },
+    {
+      "token_string": "Hoyemont",
+      "triples": [
+        {
+          "streetname": "Vieux Hoyemont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vieux Hoyemont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8558",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieux Hoyemont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vieux Hoyemont"
+      ]
+    },
+    {
+      "token_string": "Mont",
+      "triples": [
+        {
+          "streetname": "Vieux Mont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vieux Mont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8559",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieux Mont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vieux Mont"
+      ]
+    },
+    {
+      "token_string": "Thier de Sprimont",
+      "triples": [
+        {
+          "streetname": "Vieux Thier de Sprimont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vieux Thier de Sprimont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8560",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieux Thier de Sprimont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vieux Thier de Sprimont"
+      ]
+    },
+    {
+      "token_string": "ktorine-Straße",
+      "triples": [
+        {
+          "streetname": "Viktorine-Straße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8540",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Viktorine-Straße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8561",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Viktorine-Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Viktorine-Straße"
+      ]
+    },
+    {
+      "token_string": "olinstraße",
+      "triples": [
+        {
+          "streetname": "Violinstraße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8540",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Violinstraße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8562",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Violinstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Violinstraße"
+      ]
+    },
+    {
+      "token_string": "rée du Hêtre",
+      "triples": [
+        {
+          "streetname": "Virée du Hêtre"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8540",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Virée du Hêtre"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8563",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Virée du Hêtre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Virée du Hêtre"
+      ]
+    },
+    {
+      "token_string": "tus-Ennen-Straße",
+      "triples": [
+        {
+          "streetname": "Vitus-Ennen-Straße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8540",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vitus-Ennen-Straße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8564",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vitus-Ennen-Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vitus-Ennen-Straße"
+      ]
+    },
+    {
+      "token_string": "ölkersberg",
+      "triples": [
+        {
+          "streetname": "Völkersberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Völkersberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8659",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Völkersberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Völkersberg"
+      ]
+    },
+    {
+      "token_string": "ôye du Sclassin",
+      "triples": [
+        {
+          "streetname": "Vôye du Sclassin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vôye du Sclassin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8672",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vôye du Sclassin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vôye du Sclassin"
+      ]
+    },
+    {
+      "token_string": "runertsweg",
+      "triples": [
+        {
+          "streetname": "Vrunertsweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vrunertsweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8677",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vrunertsweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vrunertsweg"
+      ]
+    },
+    {
+      "token_string": "yllgasse",
+      "triples": [
+        {
+          "streetname": "Vyllgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vyllgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment285.jsonld#8678",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vyllgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vyllgasse"
+      ]
+    }
+  ]
+}

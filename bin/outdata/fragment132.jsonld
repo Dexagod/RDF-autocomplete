@@ -1,0 +1,3274 @@
+{
+  "root_node_id": "4283",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment132.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Béclers",
+      "triples": [
+        {
+          "streetname": "Place de Béclers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4263",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de Béclers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4210",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de Béclers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de Béclers"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4213",
+              "@type": "tree:Node",
+              "token_string": "ourquain"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4214",
+              "@type": "tree:Node",
+              "token_string": "rawhez"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4263",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de Courquain"
+        },
+        {
+          "streetname": "Place de Crawhez"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment132.jsonld#4212",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de Courquain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Crawhez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ourquain",
+      "triples": [
+        {
+          "streetname": "Place de Courquain"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4212",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de Courquain"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4213",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de Courquain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de Courquain"
+      ]
+    },
+    {
+      "token_string": "rawhez",
+      "triples": [
+        {
+          "streetname": "Place de Crawhez"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4212",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de Crawhez"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4214",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de Crawhez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de Crawhez"
+      ]
+    },
+    {
+      "token_string": "Damme",
+      "triples": [
+        {
+          "streetname": "Place de Damme"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4263",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de Damme"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4215",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de Damme"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de Damme"
+      ]
+    },
+    {
+      "token_string": "astognette",
+      "triples": [
+        {
+          "streetname": "Place de la Bastognette"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4222",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Bastognette"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4218",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Bastognette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de la Bastognette"
+      ]
+    },
+    {
+      "token_string": "ergeronnette",
+      "triples": [
+        {
+          "streetname": "Place de la Bergeronnette"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4222",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Bergeronnette"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4219",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Bergeronnette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de la Bergeronnette"
+      ]
+    },
+    {
+      "token_string": "rigade Marsoin",
+      "triples": [
+        {
+          "streetname": "Place de la Brigade Marsoin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4222",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Brigade Marsoin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4220",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Brigade Marsoin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de la Brigade Marsoin"
+      ]
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4218",
+              "@type": "tree:Node",
+              "token_string": "astognette"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4219",
+              "@type": "tree:Node",
+              "token_string": "ergeronnette"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4220",
+              "@type": "tree:Node",
+              "token_string": "rigade Marsoin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4236",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Bastognette"
+        },
+        {
+          "streetname": "Place de la Bergeronnette"
+        },
+        {
+          "streetname": "Place de la Brigade Marsoin"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment132.jsonld#4222",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Bastognette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de la Bergeronnette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de la Brigade Marsoin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Concorde",
+      "triples": [
+        {
+          "streetname": "Place de la Concorde"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4236",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Concorde"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4223",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Concorde"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de la Concorde"
+      ]
+    },
+    {
+      "token_string": "F",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4226",
+              "@type": "tree:Node",
+              "token_string": "erme-Ecole"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4228",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4236",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Ferme-Ecole"
+        },
+        {
+          "streetname": "Place de la Fontaine de Mont"
+        },
+        {
+          "streetname": "Place de la Forge"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment132.jsonld#4225",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Ferme-Ecole"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de la Fontaine de Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de la Forge"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erme-Ecole",
+      "triples": [
+        {
+          "streetname": "Place de la Ferme-Ecole"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4225",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Ferme-Ecole"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4226",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Ferme-Ecole"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de la Ferme-Ecole"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4229",
+              "@type": "tree:Node",
+              "token_string": "ntaine de Mont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4230",
+              "@type": "tree:Node",
+              "token_string": "rge"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4225",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Fontaine de Mont"
+        },
+        {
+          "streetname": "Place de la Forge"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment132.jsonld#4228",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Fontaine de Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de la Forge"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ntaine de Mont",
+      "triples": [
+        {
+          "streetname": "Place de la Fontaine de Mont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4228",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Fontaine de Mont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4229",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Fontaine de Mont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de la Fontaine de Mont"
+      ]
+    },
+    {
+      "token_string": "rge",
+      "triples": [
+        {
+          "streetname": "Place de la Forge"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4228",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Forge"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4230",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Forge"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de la Forge"
+      ]
+    },
+    {
+      "token_string": "Gare",
+      "triples": [
+        {
+          "streetname": "Place de la Gare"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4236",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Gare"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4231",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Gare"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de la Gare"
+      ]
+    },
+    {
+      "token_string": "Libération",
+      "triples": [
+        {
+          "streetname": "Place de la Libération"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4236",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Libération"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4232",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Libération"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de la Libération"
+      ]
+    },
+    {
+      "token_string": "Maison du Peuple",
+      "triples": [
+        {
+          "streetname": "Place de la Maison du Peuple"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4236",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Maison du Peuple"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4234",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Maison du Peuple"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de la Maison du Peuple"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4236",
+              "@type": "tree:Node",
+              "token_string": "a "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4245",
+              "@type": "tree:Node",
+              "token_string": "'"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4263",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Bastognette"
+        },
+        {
+          "streetname": "Place de la Bergeronnette"
+        },
+        {
+          "streetname": "Place de la Brigade Marsoin"
+        },
+        {
+          "streetname": "Place de l'Ancienne Bergerie"
+        },
+        {
+          "streetname": "Place de l'Ardennaise"
+        },
+        {
+          "streetname": "Place de l'Aumônière"
+        },
+        {
+          "streetname": "Place de l'Avoué"
+        },
+        {
+          "streetname": "Place de l'Ecole du Génie"
+        },
+        {
+          "streetname": "Place de l'Eglise"
+        },
+        {
+          "streetname": "Place de l'Esa"
+        }
+      ],
+      "total_children_count": 26,
+      "@id": "fragment132.jsonld#4235",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Bastognette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de la Bergeronnette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de la Brigade Marsoin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Ancienne Bergerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Ardennaise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Aumônière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Avoué"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Ecole du Génie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Eglise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Esa"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4222",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4223",
+              "@type": "tree:Node",
+              "token_string": "Concorde"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4225",
+              "@type": "tree:Node",
+              "token_string": "F"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4231",
+              "@type": "tree:Node",
+              "token_string": "Gare"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4232",
+              "@type": "tree:Node",
+              "token_string": "Libération"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4234",
+              "@type": "tree:Node",
+              "token_string": "Maison du Peuple"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4241",
+              "@type": "tree:Node",
+              "token_string": "Rose des Vents"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4242",
+              "@type": "tree:Node",
+              "token_string": "Tannée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4235",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Bastognette"
+        },
+        {
+          "streetname": "Place de la Bergeronnette"
+        },
+        {
+          "streetname": "Place de la Brigade Marsoin"
+        },
+        {
+          "streetname": "Place de la Concorde"
+        },
+        {
+          "streetname": "Place de la Ferme-Ecole"
+        },
+        {
+          "streetname": "Place de la Fontaine de Mont"
+        },
+        {
+          "streetname": "Place de la Forge"
+        },
+        {
+          "streetname": "Place de la Gare"
+        },
+        {
+          "streetname": "Place de la Libération"
+        },
+        {
+          "streetname": "Place de la Maison du Peuple"
+        }
+      ],
+      "total_children_count": 15,
+      "@id": "fragment132.jsonld#4236",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Bastognette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de la Bergeronnette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de la Brigade Marsoin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de la Concorde"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de la Ferme-Ecole"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de la Fontaine de Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de la Forge"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de la Gare"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de la Libération"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de la Maison du Peuple"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ncienne Bergerie",
+      "triples": [
+        {
+          "streetname": "Place de l'Ancienne Bergerie"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4246",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de l'Ancienne Bergerie"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4239",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de l'Ancienne Bergerie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de l'Ancienne Bergerie"
+      ]
+    },
+    {
+      "token_string": "rdennaise",
+      "triples": [
+        {
+          "streetname": "Place de l'Ardennaise"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4246",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de l'Ardennaise"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4240",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de l'Ardennaise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de l'Ardennaise"
+      ]
+    },
+    {
+      "token_string": "Rose des Vents",
+      "triples": [
+        {
+          "streetname": "Place de la Rose des Vents"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4236",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Rose des Vents"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4241",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Rose des Vents"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de la Rose des Vents"
+      ]
+    },
+    {
+      "token_string": "Tannée",
+      "triples": [
+        {
+          "streetname": "Place de la Tannée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4236",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de la Tannée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4242",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de la Tannée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de la Tannée"
+      ]
+    },
+    {
+      "token_string": "umônière",
+      "triples": [
+        {
+          "streetname": "Place de l'Aumônière"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4246",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de l'Aumônière"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4243",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de l'Aumônière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de l'Aumônière"
+      ]
+    },
+    {
+      "token_string": "voué",
+      "triples": [
+        {
+          "streetname": "Place de l'Avoué"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4246",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de l'Avoué"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4244",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de l'Avoué"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de l'Avoué"
+      ]
+    },
+    {
+      "token_string": "'",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4246",
+              "@type": "tree:Node",
+              "token_string": "A"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4248",
+              "@type": "tree:Node",
+              "token_string": "E"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4235",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de l'Ancienne Bergerie"
+        },
+        {
+          "streetname": "Place de l'Ardennaise"
+        },
+        {
+          "streetname": "Place de l'Aumônière"
+        },
+        {
+          "streetname": "Place de l'Avoué"
+        },
+        {
+          "streetname": "Place de l'Ecole du Génie"
+        },
+        {
+          "streetname": "Place de l'Eglise"
+        },
+        {
+          "streetname": "Place de l'Esa"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "fragment132.jsonld#4245",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de l'Ancienne Bergerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Ardennaise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Aumônière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Avoué"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Ecole du Génie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Eglise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Esa"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4239",
+              "@type": "tree:Node",
+              "token_string": "ncienne Bergerie"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4240",
+              "@type": "tree:Node",
+              "token_string": "rdennaise"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4243",
+              "@type": "tree:Node",
+              "token_string": "umônière"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4244",
+              "@type": "tree:Node",
+              "token_string": "voué"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4245",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de l'Ancienne Bergerie"
+        },
+        {
+          "streetname": "Place de l'Ardennaise"
+        },
+        {
+          "streetname": "Place de l'Aumônière"
+        },
+        {
+          "streetname": "Place de l'Avoué"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment132.jsonld#4246",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de l'Ancienne Bergerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Ardennaise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Aumônière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Avoué"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "E",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4249",
+              "@type": "tree:Node",
+              "token_string": "cole du Génie"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4250",
+              "@type": "tree:Node",
+              "token_string": "glise"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4251",
+              "@type": "tree:Node",
+              "token_string": "sa"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4245",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de l'Ecole du Génie"
+        },
+        {
+          "streetname": "Place de l'Eglise"
+        },
+        {
+          "streetname": "Place de l'Esa"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment132.jsonld#4248",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de l'Ecole du Génie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Eglise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de l'Esa"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "cole du Génie",
+      "triples": [
+        {
+          "streetname": "Place de l'Ecole du Génie"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4248",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de l'Ecole du Génie"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4249",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de l'Ecole du Génie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de l'Ecole du Génie"
+      ]
+    },
+    {
+      "token_string": "glise",
+      "triples": [
+        {
+          "streetname": "Place de l'Eglise"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4248",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de l'Eglise"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4250",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de l'Eglise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de l'Eglise"
+      ]
+    },
+    {
+      "token_string": "sa",
+      "triples": [
+        {
+          "streetname": "Place de l'Esa"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4248",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de l'Esa"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4251",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de l'Esa"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de l'Esa"
+      ]
+    },
+    {
+      "token_string": "L",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4253",
+              "@type": "tree:Node",
+              "token_string": "'Allumoir"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4254",
+              "@type": "tree:Node",
+              "token_string": "ongue Couture"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4263",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de L'Allumoir"
+        },
+        {
+          "streetname": "Place de Longue Couture"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment132.jsonld#4252",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de L'Allumoir"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Longue Couture"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'Allumoir",
+      "triples": [
+        {
+          "streetname": "Place de L'Allumoir"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4252",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de L'Allumoir"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4253",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de L'Allumoir"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de L'Allumoir"
+      ]
+    },
+    {
+      "token_string": "ongue Couture",
+      "triples": [
+        {
+          "streetname": "Place de Longue Couture"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4252",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de Longue Couture"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4254",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de Longue Couture"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de Longue Couture"
+      ]
+    },
+    {
+      "token_string": "e-Mère-Eglise",
+      "triples": [
+        {
+          "streetname": "Place de Sainte-Mère-Eglise"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4260",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de Sainte-Mère-Eglise"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4257",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de Sainte-Mère-Eglise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de Sainte-Mère-Eglise"
+      ]
+    },
+    {
+      "token_string": "-Maur",
+      "triples": [
+        {
+          "streetname": "Place de Saint-Maur"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4260",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de Saint-Maur"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4258",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de Saint-Maur"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de Saint-Maur"
+      ]
+    },
+    {
+      "token_string": "Sa",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4260",
+              "@type": "tree:Node",
+              "token_string": "int"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4261",
+              "@type": "tree:Node",
+              "token_string": "lm"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4263",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de Sainte-Mère-Eglise"
+        },
+        {
+          "streetname": "Place de Saint-Maur"
+        },
+        {
+          "streetname": "Place de Salm"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment132.jsonld#4259",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de Sainte-Mère-Eglise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Saint-Maur"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Salm"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "int",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4257",
+              "@type": "tree:Node",
+              "token_string": "e-Mère-Eglise"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4258",
+              "@type": "tree:Node",
+              "token_string": "-Maur"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4259",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de Sainte-Mère-Eglise"
+        },
+        {
+          "streetname": "Place de Saint-Maur"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment132.jsonld#4260",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de Sainte-Mère-Eglise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Saint-Maur"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "lm",
+      "triples": [
+        {
+          "streetname": "Place de Salm"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4259",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de Salm"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4261",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de Salm"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de Salm"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4210",
+              "@type": "tree:Node",
+              "token_string": "Béclers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4212",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4215",
+              "@type": "tree:Node",
+              "token_string": "Damme"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4235",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4252",
+              "@type": "tree:Node",
+              "token_string": "L"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4259",
+              "@type": "tree:Node",
+              "token_string": "Sa"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4290",
+              "@type": "tree:Node",
+              "token_string": "Verzenay"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4284",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de Béclers"
+        },
+        {
+          "streetname": "Place de Courquain"
+        },
+        {
+          "streetname": "Place de Crawhez"
+        },
+        {
+          "streetname": "Place de Damme"
+        },
+        {
+          "streetname": "Place de L'Allumoir"
+        },
+        {
+          "streetname": "Place de Longue Couture"
+        },
+        {
+          "streetname": "Place de Sainte-Mère-Eglise"
+        },
+        {
+          "streetname": "Place de Saint-Maur"
+        },
+        {
+          "streetname": "Place de Salm"
+        },
+        {
+          "streetname": "Place de Verzenay"
+        }
+      ],
+      "total_children_count": 41,
+      "@id": "fragment132.jsonld#4263",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de Béclers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Courquain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Crawhez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Damme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de L'Allumoir"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Longue Couture"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Sainte-Mère-Eglise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Saint-Maur"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Salm"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Verzenay"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4266",
+              "@type": "tree:Node",
+              "token_string": "Boutons d'or"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4268",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4272",
+              "@type": "tree:Node",
+              "token_string": "De"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4275",
+              "@type": "tree:Node",
+              "token_string": "Fours bouteilles"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4276",
+              "@type": "tree:Node",
+              "token_string": "Hirondelles"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4277",
+              "@type": "tree:Node",
+              "token_string": "Libertés"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4278",
+              "@type": "tree:Node",
+              "token_string": "Meuniers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4280",
+              "@type": "tree:Node",
+              "token_string": "O"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4286",
+              "@type": "tree:Node",
+              "token_string": "Sauverdias"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4287",
+              "@type": "tree:Node",
+              "token_string": "sports d'Andoy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4288",
+              "@type": "tree:Node",
+              "token_string": "Veaux de Mars"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4289",
+              "@type": "tree:Node",
+              "token_string": "Zouaves de Malonne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4284",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Boutons d'or"
+        },
+        {
+          "streetname": "Place des Centenaires"
+        },
+        {
+          "streetname": "Place des Chasseurs Ardennais"
+        },
+        {
+          "streetname": "Place des Demoiselles de Herstal"
+        },
+        {
+          "streetname": "Place des Deportes"
+        },
+        {
+          "streetname": "Place des Fours bouteilles"
+        },
+        {
+          "streetname": "Place des Hirondelles"
+        },
+        {
+          "streetname": "Place des Libertés"
+        },
+        {
+          "streetname": "Place des Meuniers"
+        },
+        {
+          "streetname": "Place des Oiseaux"
+        }
+      ],
+      "total_children_count": 18,
+      "@id": "fragment132.jsonld#4265",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Boutons d'or"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place des Centenaires"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place des Chasseurs Ardennais"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place des Demoiselles de Herstal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place des Deportes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place des Fours bouteilles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place des Hirondelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place des Libertés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place des Meuniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place des Oiseaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Boutons d'or",
+      "triples": [
+        {
+          "streetname": "Place des Boutons d'or"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4265",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Boutons d'or"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4266",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Boutons d'or"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place des Boutons d'or"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4269",
+              "@type": "tree:Node",
+              "token_string": "entenaires"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4270",
+              "@type": "tree:Node",
+              "token_string": "hasseurs Ardennais"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4265",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Centenaires"
+        },
+        {
+          "streetname": "Place des Chasseurs Ardennais"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment132.jsonld#4268",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Centenaires"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place des Chasseurs Ardennais"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "entenaires",
+      "triples": [
+        {
+          "streetname": "Place des Centenaires"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4268",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Centenaires"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4269",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Centenaires"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place des Centenaires"
+      ]
+    },
+    {
+      "token_string": "hasseurs Ardennais",
+      "triples": [
+        {
+          "streetname": "Place des Chasseurs Ardennais"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4268",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Chasseurs Ardennais"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4270",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Chasseurs Ardennais"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place des Chasseurs Ardennais"
+      ]
+    },
+    {
+      "token_string": "De",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4273",
+              "@type": "tree:Node",
+              "token_string": "moiselles de Herstal"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4274",
+              "@type": "tree:Node",
+              "token_string": "portes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4265",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Demoiselles de Herstal"
+        },
+        {
+          "streetname": "Place des Deportes"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment132.jsonld#4272",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Demoiselles de Herstal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place des Deportes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "moiselles de Herstal",
+      "triples": [
+        {
+          "streetname": "Place des Demoiselles de Herstal"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4272",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Demoiselles de Herstal"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4273",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Demoiselles de Herstal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place des Demoiselles de Herstal"
+      ]
+    },
+    {
+      "token_string": "portes",
+      "triples": [
+        {
+          "streetname": "Place des Deportes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4272",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Deportes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4274",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Deportes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place des Deportes"
+      ]
+    },
+    {
+      "token_string": "Fours bouteilles",
+      "triples": [
+        {
+          "streetname": "Place des Fours bouteilles"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4265",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Fours bouteilles"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4275",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Fours bouteilles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place des Fours bouteilles"
+      ]
+    },
+    {
+      "token_string": "Hirondelles",
+      "triples": [
+        {
+          "streetname": "Place des Hirondelles"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4265",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Hirondelles"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4276",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Hirondelles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place des Hirondelles"
+      ]
+    },
+    {
+      "token_string": "Libertés",
+      "triples": [
+        {
+          "streetname": "Place des Libertés"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4265",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Libertés"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4277",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Libertés"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place des Libertés"
+      ]
+    },
+    {
+      "token_string": "Meuniers",
+      "triples": [
+        {
+          "streetname": "Place des Meuniers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4265",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Meuniers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4278",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Meuniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place des Meuniers"
+      ]
+    },
+    {
+      "token_string": "O",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4281",
+              "@type": "tree:Node",
+              "token_string": "iseaux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4282",
+              "@type": "tree:Node",
+              "token_string": "rateurs"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4265",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Oiseaux"
+        },
+        {
+          "streetname": "Place des Orateurs"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment132.jsonld#4280",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Oiseaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place des Orateurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "iseaux",
+      "triples": [
+        {
+          "streetname": "Place des Oiseaux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4280",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Oiseaux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4281",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Oiseaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place des Oiseaux"
+      ]
+    },
+    {
+      "token_string": "rateurs",
+      "triples": [
+        {
+          "streetname": "Place des Orateurs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4280",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Orateurs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4282",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Orateurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place des Orateurs"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4284",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4285",
+              "@type": "tree:Node",
+              "token_string": "'Esplechin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment127.jsonld#4293",
+              "@type": "tree:Node",
+              "token_string": "u "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de Béclers"
+        },
+        {
+          "streetname": "Place de Courquain"
+        },
+        {
+          "streetname": "Place de Crawhez"
+        },
+        {
+          "streetname": "Place de Damme"
+        },
+        {
+          "streetname": "Place de L'Allumoir"
+        },
+        {
+          "streetname": "Place de Longue Couture"
+        },
+        {
+          "streetname": "Place de Sainte-Mère-Eglise"
+        },
+        {
+          "streetname": "Place de Saint-Maur"
+        },
+        {
+          "streetname": "Place de Salm"
+        },
+        {
+          "streetname": "Place d'Esplechin"
+        }
+      ],
+      "total_children_count": 99,
+      "@id": "fragment132.jsonld#4283",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de Béclers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Courquain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Crawhez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Damme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de L'Allumoir"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Longue Couture"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Sainte-Mère-Eglise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Saint-Maur"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Salm"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place d'Esplechin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4263",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4265",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4283",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de Béclers"
+        },
+        {
+          "streetname": "Place de Courquain"
+        },
+        {
+          "streetname": "Place de Crawhez"
+        },
+        {
+          "streetname": "Place de Damme"
+        },
+        {
+          "streetname": "Place de L'Allumoir"
+        },
+        {
+          "streetname": "Place de Longue Couture"
+        },
+        {
+          "streetname": "Place de Sainte-Mère-Eglise"
+        },
+        {
+          "streetname": "Place de Saint-Maur"
+        },
+        {
+          "streetname": "Place de Salm"
+        },
+        {
+          "streetname": "Place de Verzenay"
+        }
+      ],
+      "total_children_count": 61,
+      "@id": "fragment132.jsonld#4284",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de Béclers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Courquain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Crawhez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Damme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de L'Allumoir"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Longue Couture"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Sainte-Mère-Eglise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Saint-Maur"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Salm"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place de Verzenay"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'Esplechin",
+      "triples": [
+        {
+          "streetname": "Place d'Esplechin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4283",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place d'Esplechin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4285",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place d'Esplechin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place d'Esplechin"
+      ]
+    },
+    {
+      "token_string": "Sauverdias",
+      "triples": [
+        {
+          "streetname": "Place des Sauverdias"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4265",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Sauverdias"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4286",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Sauverdias"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place des Sauverdias"
+      ]
+    },
+    {
+      "token_string": "sports d'Andoy",
+      "triples": [
+        {
+          "streetname": "Place des sports d'Andoy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4265",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des sports d'Andoy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4287",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des sports d'Andoy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place des sports d'Andoy"
+      ]
+    },
+    {
+      "token_string": "Veaux de Mars",
+      "triples": [
+        {
+          "streetname": "Place des Veaux de Mars"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4265",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Veaux de Mars"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4288",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Veaux de Mars"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place des Veaux de Mars"
+      ]
+    },
+    {
+      "token_string": "Zouaves de Malonne",
+      "triples": [
+        {
+          "streetname": "Place des Zouaves de Malonne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4265",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place des Zouaves de Malonne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4289",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place des Zouaves de Malonne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place des Zouaves de Malonne"
+      ]
+    },
+    {
+      "token_string": "Verzenay",
+      "triples": [
+        {
+          "streetname": "Place de Verzenay"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment132.jsonld#4263",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place de Verzenay"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment132.jsonld#4290",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place de Verzenay"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place de Verzenay"
+      ]
+    }
+  ]
+}

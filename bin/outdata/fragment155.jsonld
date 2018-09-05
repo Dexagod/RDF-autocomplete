@@ -1,0 +1,192 @@
+{
+  "root_node_id": "4888",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment155.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment155.jsonld#4889",
+              "@type": "tree:Node",
+              "token_string": "élaïde Coudère"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment155.jsonld#4890",
+              "@type": "tree:Node",
+              "token_string": "olphe Renouprez"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment155.jsonld#4891",
+              "@type": "tree:Node",
+              "token_string": "rien Bidoul"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment162.jsonld#4884",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Adélaïde Coudère"
+        },
+        {
+          "streetname": "Rue Adolphe Renouprez"
+        },
+        {
+          "streetname": "Rue Adrien Bidoul"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment155.jsonld#4888",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Adélaïde Coudère"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Adolphe Renouprez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Adrien Bidoul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "élaïde Coudère",
+      "triples": [
+        {
+          "streetname": "Rue Adélaïde Coudère"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment155.jsonld#4888",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Adélaïde Coudère"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment155.jsonld#4889",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Adélaïde Coudère"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Adélaïde Coudère"
+      ]
+    },
+    {
+      "token_string": "olphe Renouprez",
+      "triples": [
+        {
+          "streetname": "Rue Adolphe Renouprez"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment155.jsonld#4888",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Adolphe Renouprez"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment155.jsonld#4890",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Adolphe Renouprez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Adolphe Renouprez"
+      ]
+    },
+    {
+      "token_string": "rien Bidoul",
+      "triples": [
+        {
+          "streetname": "Rue Adrien Bidoul"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment155.jsonld#4888",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Adrien Bidoul"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment155.jsonld#4891",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Adrien Bidoul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Adrien Bidoul"
+      ]
+    }
+  ]
+}

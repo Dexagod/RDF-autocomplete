@@ -1,0 +1,384 @@
+{
+  "root_node_id": "1133",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment40.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment40.jsonld#1134",
+              "@type": "tree:Node",
+              "token_string": "audrenne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment40.jsonld#1136",
+              "@type": "tree:Node",
+              "token_string": "er"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment40.jsonld#1140",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment32.jsonld#1384",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Haudrenne"
+        },
+        {
+          "streetname": "Chemin de Herbiéval"
+        },
+        {
+          "streetname": "Chemin de Herdawe"
+        },
+        {
+          "streetname": "Chemin de Hollange"
+        },
+        {
+          "streetname": "Chemin de Houbaye"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment40.jsonld#1133",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Haudrenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Herbiéval"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Herdawe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Hollange"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Houbaye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "audrenne",
+      "triples": [
+        {
+          "streetname": "Chemin de Haudrenne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment40.jsonld#1133",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Haudrenne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment40.jsonld#1134",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Haudrenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Haudrenne"
+      ]
+    },
+    {
+      "token_string": "er",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment40.jsonld#1137",
+              "@type": "tree:Node",
+              "token_string": "biéval"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment40.jsonld#1138",
+              "@type": "tree:Node",
+              "token_string": "dawe"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment40.jsonld#1133",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Herbiéval"
+        },
+        {
+          "streetname": "Chemin de Herdawe"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment40.jsonld#1136",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Herbiéval"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Herdawe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "biéval",
+      "triples": [
+        {
+          "streetname": "Chemin de Herbiéval"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment40.jsonld#1136",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Herbiéval"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment40.jsonld#1137",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Herbiéval"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Herbiéval"
+      ]
+    },
+    {
+      "token_string": "dawe",
+      "triples": [
+        {
+          "streetname": "Chemin de Herdawe"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment40.jsonld#1136",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Herdawe"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment40.jsonld#1138",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Herdawe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Herdawe"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment40.jsonld#1141",
+              "@type": "tree:Node",
+              "token_string": "llange"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment40.jsonld#1142",
+              "@type": "tree:Node",
+              "token_string": "ubaye"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment40.jsonld#1133",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Hollange"
+        },
+        {
+          "streetname": "Chemin de Houbaye"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment40.jsonld#1140",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Hollange"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Houbaye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "llange",
+      "triples": [
+        {
+          "streetname": "Chemin de Hollange"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment40.jsonld#1140",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Hollange"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment40.jsonld#1141",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Hollange"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Hollange"
+      ]
+    },
+    {
+      "token_string": "ubaye",
+      "triples": [
+        {
+          "streetname": "Chemin de Houbaye"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment40.jsonld#1140",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Houbaye"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment40.jsonld#1142",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Houbaye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Houbaye"
+      ]
+    }
+  ]
+}

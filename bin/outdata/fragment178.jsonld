@@ -1,0 +1,1041 @@
+{
+  "root_node_id": "5506",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment178.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "iterie",
+      "triples": [
+        {
+          "streetname": "Rue de la Laiterie"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5507",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Laiterie"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment178.jsonld#5501",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Laiterie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Laiterie"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5504",
+              "@type": "tree:Node",
+              "token_string": "ge Beek"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5505",
+              "@type": "tree:Node",
+              "token_string": "terne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5507",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Lange Beek"
+        },
+        {
+          "streetname": "Rue de la Lanterne"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment178.jsonld#5503",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Lange Beek"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Lanterne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ge Beek",
+      "triples": [
+        {
+          "streetname": "Rue de la Lange Beek"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5503",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Lange Beek"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment178.jsonld#5504",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Lange Beek"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Lange Beek"
+      ]
+    },
+    {
+      "token_string": "terne",
+      "triples": [
+        {
+          "streetname": "Rue de la Lanterne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5503",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Lanterne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment178.jsonld#5505",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Lanterne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Lanterne"
+      ]
+    },
+    {
+      "token_string": "L",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5507",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5510",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5517",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5526",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment170.jsonld#5285",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Laiterie"
+        },
+        {
+          "streetname": "Rue de la Lange Beek"
+        },
+        {
+          "streetname": "Rue de la Lanterne"
+        },
+        {
+          "streetname": "Rue de la Lembree"
+        },
+        {
+          "streetname": "Rue de la Lesse"
+        },
+        {
+          "streetname": "Rue de la Libération"
+        },
+        {
+          "streetname": "Rue de la Liberté"
+        },
+        {
+          "streetname": "Rue de la Lisière"
+        },
+        {
+          "streetname": "Rue de la Litorne"
+        },
+        {
+          "streetname": "Rue de la Longue Couture"
+        }
+      ],
+      "total_children_count": 20,
+      "@id": "fragment178.jsonld#5506",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Laiterie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Lange Beek"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Lanterne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Lembree"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Lesse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Libération"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Liberté"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Lisière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Litorne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Longue Couture"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5501",
+              "@type": "tree:Node",
+              "token_string": "iterie"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5503",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5506",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Laiterie"
+        },
+        {
+          "streetname": "Rue de la Lange Beek"
+        },
+        {
+          "streetname": "Rue de la Lanterne"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment178.jsonld#5507",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Laiterie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Lange Beek"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Lanterne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5511",
+              "@type": "tree:Node",
+              "token_string": "mbree"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5512",
+              "@type": "tree:Node",
+              "token_string": "sse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5506",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Lembree"
+        },
+        {
+          "streetname": "Rue de la Lesse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment178.jsonld#5510",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Lembree"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Lesse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "mbree",
+      "triples": [
+        {
+          "streetname": "Rue de la Lembree"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5510",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Lembree"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment178.jsonld#5511",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Lembree"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Lembree"
+      ]
+    },
+    {
+      "token_string": "sse",
+      "triples": [
+        {
+          "streetname": "Rue de la Lesse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5510",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Lesse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment178.jsonld#5512",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Lesse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Lesse"
+      ]
+    },
+    {
+      "token_string": "ération",
+      "triples": [
+        {
+          "streetname": "Rue de la Libération"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5518",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Libération"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment178.jsonld#5515",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Libération"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Libération"
+      ]
+    },
+    {
+      "token_string": "erté",
+      "triples": [
+        {
+          "streetname": "Rue de la Liberté"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5518",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Liberté"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment178.jsonld#5516",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Liberté"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Liberté"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5518",
+              "@type": "tree:Node",
+              "token_string": "b"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5519",
+              "@type": "tree:Node",
+              "token_string": "sière"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5520",
+              "@type": "tree:Node",
+              "token_string": "torne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5506",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Libération"
+        },
+        {
+          "streetname": "Rue de la Liberté"
+        },
+        {
+          "streetname": "Rue de la Lisière"
+        },
+        {
+          "streetname": "Rue de la Litorne"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment178.jsonld#5517",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Libération"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Liberté"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Lisière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Litorne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "b",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5515",
+              "@type": "tree:Node",
+              "token_string": "ération"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5516",
+              "@type": "tree:Node",
+              "token_string": "erté"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5517",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Libération"
+        },
+        {
+          "streetname": "Rue de la Liberté"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment178.jsonld#5518",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Libération"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Liberté"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sière",
+      "triples": [
+        {
+          "streetname": "Rue de la Lisière"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5517",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Lisière"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment178.jsonld#5519",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Lisière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Lisière"
+      ]
+    },
+    {
+      "token_string": "torne",
+      "triples": [
+        {
+          "streetname": "Rue de la Litorne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5517",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Litorne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment178.jsonld#5520",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Litorne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Litorne"
+      ]
+    },
+    {
+      "token_string": "Couture",
+      "triples": [
+        {
+          "streetname": "Rue de la Longue Couture"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5527",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Longue Couture"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment178.jsonld#5523",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Longue Couture"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Longue Couture"
+      ]
+    },
+    {
+      "token_string": "Haie",
+      "triples": [
+        {
+          "streetname": "Rue de la Longue Haie"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5527",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Longue Haie"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment178.jsonld#5524",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Longue Haie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Longue Haie"
+      ]
+    },
+    {
+      "token_string": "Virée",
+      "triples": [
+        {
+          "streetname": "Rue de la Longue Virée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5527",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Longue Virée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment178.jsonld#5525",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Longue Virée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Longue Virée"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5527",
+              "@type": "tree:Node",
+              "token_string": "ngue "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5528",
+              "@type": "tree:Node",
+              "token_string": "re"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5506",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Longue Couture"
+        },
+        {
+          "streetname": "Rue de la Longue Haie"
+        },
+        {
+          "streetname": "Rue de la Longue Virée"
+        },
+        {
+          "streetname": "Rue de la Lore"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment178.jsonld#5526",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Longue Couture"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Longue Haie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Longue Virée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Lore"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ngue ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5523",
+              "@type": "tree:Node",
+              "token_string": "Couture"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5524",
+              "@type": "tree:Node",
+              "token_string": "Haie"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment178.jsonld#5525",
+              "@type": "tree:Node",
+              "token_string": "Virée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5526",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Longue Couture"
+        },
+        {
+          "streetname": "Rue de la Longue Haie"
+        },
+        {
+          "streetname": "Rue de la Longue Virée"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment178.jsonld#5527",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Longue Couture"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Longue Haie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Longue Virée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "re",
+      "triples": [
+        {
+          "streetname": "Rue de la Lore"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment178.jsonld#5526",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Lore"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment178.jsonld#5528",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Lore"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Lore"
+      ]
+    }
+  ]
+}

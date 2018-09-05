@@ -1,0 +1,607 @@
+{
+  "root_node_id": "1112",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment38.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "ndry",
+      "triples": [
+        {
+          "streetname": "Chemin de Fandry"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment38.jsonld#1113",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Fandry"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment38.jsonld#1105",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Fandry"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Fandry"
+      ]
+    },
+    {
+      "token_string": "s",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment38.jsonld#1108",
+              "@type": "tree:Node",
+              "token_string": "champs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment38.jsonld#1109",
+              "@type": "tree:Node",
+              "token_string": "trehez"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment38.jsonld#1113",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Faschamps"
+        },
+        {
+          "streetname": "Chemin de Fastrehez"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment38.jsonld#1107",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Faschamps"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Fastrehez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "champs",
+      "triples": [
+        {
+          "streetname": "Chemin de Faschamps"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment38.jsonld#1107",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Faschamps"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment38.jsonld#1108",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Faschamps"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Faschamps"
+      ]
+    },
+    {
+      "token_string": "trehez",
+      "triples": [
+        {
+          "streetname": "Chemin de Fastrehez"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment38.jsonld#1107",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Fastrehez"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment38.jsonld#1109",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Fastrehez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Fastrehez"
+      ]
+    },
+    {
+      "token_string": "ys",
+      "triples": [
+        {
+          "streetname": "Chemin de Fays"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment38.jsonld#1113",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Fays"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment38.jsonld#1110",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Fays"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Fays"
+      ]
+    },
+    {
+      "token_string": "zône",
+      "triples": [
+        {
+          "streetname": "Chemin de Fazône"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment38.jsonld#1113",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Fazône"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment38.jsonld#1111",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Fazône"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Fazône"
+      ]
+    },
+    {
+      "token_string": "F",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment38.jsonld#1113",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment38.jsonld#1115",
+              "@type": "tree:Node",
+              "token_string": "lu"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment38.jsonld#1118",
+              "@type": "tree:Node",
+              "token_string": "ratère"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment32.jsonld#1384",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Fandry"
+        },
+        {
+          "streetname": "Chemin de Faschamps"
+        },
+        {
+          "streetname": "Chemin de Fastrehez"
+        },
+        {
+          "streetname": "Chemin de Fays"
+        },
+        {
+          "streetname": "Chemin de Fazône"
+        },
+        {
+          "streetname": "Chemin de Flumai"
+        },
+        {
+          "streetname": "Chemin de Flupke"
+        },
+        {
+          "streetname": "Chemin de Fratère"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "fragment38.jsonld#1112",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Fandry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Faschamps"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Fastrehez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Fays"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Fazône"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Flumai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Flupke"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Fratère"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment38.jsonld#1105",
+              "@type": "tree:Node",
+              "token_string": "ndry"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment38.jsonld#1107",
+              "@type": "tree:Node",
+              "token_string": "s"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment38.jsonld#1110",
+              "@type": "tree:Node",
+              "token_string": "ys"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment38.jsonld#1111",
+              "@type": "tree:Node",
+              "token_string": "zône"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment38.jsonld#1112",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Fandry"
+        },
+        {
+          "streetname": "Chemin de Faschamps"
+        },
+        {
+          "streetname": "Chemin de Fastrehez"
+        },
+        {
+          "streetname": "Chemin de Fays"
+        },
+        {
+          "streetname": "Chemin de Fazône"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment38.jsonld#1113",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Fandry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Faschamps"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Fastrehez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Fays"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Fazône"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "lu",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment38.jsonld#1116",
+              "@type": "tree:Node",
+              "token_string": "mai"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment38.jsonld#1117",
+              "@type": "tree:Node",
+              "token_string": "pke"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment38.jsonld#1112",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Flumai"
+        },
+        {
+          "streetname": "Chemin de Flupke"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment38.jsonld#1115",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Flumai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Flupke"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "mai",
+      "triples": [
+        {
+          "streetname": "Chemin de Flumai"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment38.jsonld#1115",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Flumai"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment38.jsonld#1116",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Flumai"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Flumai"
+      ]
+    },
+    {
+      "token_string": "pke",
+      "triples": [
+        {
+          "streetname": "Chemin de Flupke"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment38.jsonld#1115",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Flupke"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment38.jsonld#1117",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Flupke"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Flupke"
+      ]
+    },
+    {
+      "token_string": "ratère",
+      "triples": [
+        {
+          "streetname": "Chemin de Fratère"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment38.jsonld#1112",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Fratère"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment38.jsonld#1118",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Fratère"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Fratère"
+      ]
+    }
+  ]
+}

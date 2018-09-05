@@ -1,0 +1,950 @@
+{
+  "root_node_id": "5982",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment194.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "bralles",
+      "triples": [
+        {
+          "streetname": "Rue des Chambralles"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5971",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Chambralles"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment194.jsonld#5967",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Chambralles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Chambralles"
+      ]
+    },
+    {
+      "token_string": "m",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5967",
+              "@type": "tree:Node",
+              "token_string": "bralles"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment193.jsonld#5968",
+              "@type": "tree:Node",
+              "token_string": "ps"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5983",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Chambralles"
+        },
+        {
+          "streetname": "Rue des Champs"
+        },
+        {
+          "streetname": "Rue des Champs Bailly"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment194.jsonld#5971",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Chambralles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Champs Bailly"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "nvires",
+      "triples": [
+        {
+          "streetname": "Rue des Chanvires"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5983",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Chanvires"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment194.jsonld#5972",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Chanvires"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Chanvires"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5975",
+              "@type": "tree:Node",
+              "token_string": "mes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5976",
+              "@type": "tree:Node",
+              "token_string": "treux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5983",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Charmes"
+        },
+        {
+          "streetname": "Rue des Chartreux"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment194.jsonld#5974",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Charmes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Chartreux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "mes",
+      "triples": [
+        {
+          "streetname": "Rue des Charmes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5974",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Charmes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment194.jsonld#5975",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Charmes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Charmes"
+      ]
+    },
+    {
+      "token_string": "treux",
+      "triples": [
+        {
+          "streetname": "Rue des Chartreux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5974",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Chartreux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment194.jsonld#5976",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Chartreux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Chartreux"
+      ]
+    },
+    {
+      "token_string": "sseurs Ardennais",
+      "triples": [
+        {
+          "streetname": "Rue des Chasseurs Ardennais"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5983",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Chasseurs Ardennais"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment194.jsonld#5977",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Chasseurs Ardennais"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Chasseurs Ardennais"
+      ]
+    },
+    {
+      "token_string": "uf",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5980",
+              "@type": "tree:Node",
+              "token_string": "fours"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5981",
+              "@type": "tree:Node",
+              "token_string": "ours"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5983",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Chauffours"
+        },
+        {
+          "streetname": "Rue des Chaufours"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment194.jsonld#5979",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Chauffours"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Chaufours"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "fours",
+      "triples": [
+        {
+          "streetname": "Rue des Chauffours"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5979",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Chauffours"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment194.jsonld#5980",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Chauffours"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Chauffours"
+      ]
+    },
+    {
+      "token_string": "ours",
+      "triples": [
+        {
+          "streetname": "Rue des Chaufours"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5979",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Chaufours"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment194.jsonld#5981",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Chaufours"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Chaufours"
+      ]
+    },
+    {
+      "token_string": "h",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5983",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5984",
+              "@type": "tree:Node",
+              "token_string": "ênes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5986",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment195.jsonld#5962",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Chambralles"
+        },
+        {
+          "streetname": "Rue des Champs"
+        },
+        {
+          "streetname": "Rue des Champs Bailly"
+        },
+        {
+          "streetname": "Rue des Chanvires"
+        },
+        {
+          "streetname": "Rue des Charmes"
+        },
+        {
+          "streetname": "Rue des Chartreux"
+        },
+        {
+          "streetname": "Rue des Chasseurs Ardennais"
+        },
+        {
+          "streetname": "Rue des Chauffours"
+        },
+        {
+          "streetname": "Rue des Chaufours"
+        },
+        {
+          "streetname": "Rue des Chevaliers du Travail"
+        }
+      ],
+      "total_children_count": 19,
+      "@id": "fragment194.jsonld#5982",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Chambralles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Champs Bailly"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Chanvires"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Charmes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Chartreux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Chasseurs Ardennais"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Chauffours"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Chaufours"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Chevaliers du Travail"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5971",
+              "@type": "tree:Node",
+              "token_string": "m"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5972",
+              "@type": "tree:Node",
+              "token_string": "nvires"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5974",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5977",
+              "@type": "tree:Node",
+              "token_string": "sseurs Ardennais"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5979",
+              "@type": "tree:Node",
+              "token_string": "uf"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5982",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Chambralles"
+        },
+        {
+          "streetname": "Rue des Champs"
+        },
+        {
+          "streetname": "Rue des Champs Bailly"
+        },
+        {
+          "streetname": "Rue des Chanvires"
+        },
+        {
+          "streetname": "Rue des Charmes"
+        },
+        {
+          "streetname": "Rue des Chartreux"
+        },
+        {
+          "streetname": "Rue des Chasseurs Ardennais"
+        },
+        {
+          "streetname": "Rue des Chauffours"
+        },
+        {
+          "streetname": "Rue des Chaufours"
+        }
+      ],
+      "total_children_count": 12,
+      "@id": "fragment194.jsonld#5983",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Chambralles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Champs Bailly"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Chanvires"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Charmes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Chartreux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Chasseurs Ardennais"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Chauffours"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Chaufours"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ênes",
+      "triples": [
+        {
+          "streetname": "Rue des Chênes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5982",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Chênes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment194.jsonld#5984",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Chênes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Chênes"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5987",
+              "@type": "tree:Node",
+              "token_string": "ûves"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5989",
+              "@type": "tree:Node",
+              "token_string": "va"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5982",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Cheûves"
+        },
+        {
+          "streetname": "Rue des Chevaliers du Travail"
+        },
+        {
+          "streetname": "Rue des Chevaux-Haleurs"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment194.jsonld#5986",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Cheûves"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Chevaliers du Travail"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Chevaux-Haleurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ûves",
+      "triples": [
+        {
+          "streetname": "Rue des Cheûves"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5986",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Cheûves"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment194.jsonld#5987",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Cheûves"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Cheûves"
+      ]
+    },
+    {
+      "token_string": "va",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5990",
+              "@type": "tree:Node",
+              "token_string": "liers du Travail"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment194.jsonld#5991",
+              "@type": "tree:Node",
+              "token_string": "ux-Haleurs"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5986",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Chevaliers du Travail"
+        },
+        {
+          "streetname": "Rue des Chevaux-Haleurs"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment194.jsonld#5989",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Chevaliers du Travail"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Chevaux-Haleurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "liers du Travail",
+      "triples": [
+        {
+          "streetname": "Rue des Chevaliers du Travail"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5989",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Chevaliers du Travail"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment194.jsonld#5990",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Chevaliers du Travail"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Chevaliers du Travail"
+      ]
+    },
+    {
+      "token_string": "ux-Haleurs",
+      "triples": [
+        {
+          "streetname": "Rue des Chevaux-Haleurs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment194.jsonld#5989",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Chevaux-Haleurs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment194.jsonld#5991",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Chevaux-Haleurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Chevaux-Haleurs"
+      ]
+    }
+  ]
+}

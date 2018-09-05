@@ -1,0 +1,551 @@
+{
+  "root_node_id": "4884",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment162.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "bé Masurelle",
+      "triples": [
+        {
+          "streetname": "Rue Abbé Masurelle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment162.jsonld#4885",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Abbé Masurelle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment162.jsonld#4882",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Abbé Masurelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Abbé Masurelle"
+      ]
+    },
+    {
+      "token_string": "ot",
+      "triples": [
+        {
+          "streetname": "Rue Abot"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment162.jsonld#4885",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Abot"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment162.jsonld#4883",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Abot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Abot"
+      ]
+    },
+    {
+      "token_string": "A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment162.jsonld#4885",
+              "@type": "tree:Node",
+              "token_string": "b"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment162.jsonld#4887",
+              "@type": "tree:Node",
+              "token_string": " Dochain"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment155.jsonld#4888",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment157.jsonld#4893",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment158.jsonld#4928",
+              "@type": "tree:Node",
+              "token_string": "ndré "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment159.jsonld#4934",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment162.jsonld#4943",
+              "@type": "tree:Node",
+              "token_string": "théna"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment162.jsonld#4949",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment162.jsonld#4959",
+              "@type": "tree:Node",
+              "token_string": "zur"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment253.jsonld#7407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Abbé Masurelle"
+        },
+        {
+          "streetname": "Rue Abot"
+        },
+        {
+          "streetname": "Rue Adélaïde Coudère"
+        },
+        {
+          "streetname": "Rue A Dochain"
+        },
+        {
+          "streetname": "Rue Adolphe Renouprez"
+        },
+        {
+          "streetname": "Rue Adrien Bidoul"
+        },
+        {
+          "streetname": "Rue Al Beöle"
+        },
+        {
+          "streetname": "Rue Al'Fontaine"
+        },
+        {
+          "streetname": "Rue Al Quère"
+        },
+        {
+          "streetname": "Rue Al Virée"
+        }
+      ],
+      "total_children_count": 54,
+      "@id": "fragment162.jsonld#4884",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Abbé Masurelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Abot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Adélaïde Coudère"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue A Dochain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Adolphe Renouprez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Adrien Bidoul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Al Beöle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Al'Fontaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Al Quère"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Al Virée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "b",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment162.jsonld#4882",
+              "@type": "tree:Node",
+              "token_string": "bé Masurelle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment162.jsonld#4883",
+              "@type": "tree:Node",
+              "token_string": "ot"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment162.jsonld#4884",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Abbé Masurelle"
+        },
+        {
+          "streetname": "Rue Abot"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment162.jsonld#4885",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Abbé Masurelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Abot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Dochain",
+      "triples": [
+        {
+          "streetname": "Rue A Dochain"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment162.jsonld#4884",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue A Dochain"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment162.jsonld#4887",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue A Dochain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue A Dochain"
+      ]
+    },
+    {
+      "token_string": "théna",
+      "triples": [
+        {
+          "streetname": "Rue Athéna"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment162.jsonld#4884",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Athéna"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment162.jsonld#4943",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Athéna"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Athéna"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment162.jsonld#4950",
+              "@type": "tree:Node",
+              "token_string": "-delá du Pont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment162.jsonld#4951",
+              "@type": "tree:Node",
+              "token_string": "guste Nicodème"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment162.jsonld#4884",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Au-delá du Pont"
+        },
+        {
+          "streetname": "Rue Auguste Nicodème"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment162.jsonld#4949",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Au-delá du Pont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Auguste Nicodème"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "-delá du Pont",
+      "triples": [
+        {
+          "streetname": "Rue Au-delá du Pont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment162.jsonld#4949",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Au-delá du Pont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment162.jsonld#4950",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Au-delá du Pont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Au-delá du Pont"
+      ]
+    },
+    {
+      "token_string": "guste Nicodème",
+      "triples": [
+        {
+          "streetname": "Rue Auguste Nicodème"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment162.jsonld#4949",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Auguste Nicodème"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment162.jsonld#4951",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Auguste Nicodème"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Auguste Nicodème"
+      ]
+    },
+    {
+      "token_string": "zur",
+      "triples": [
+        {
+          "streetname": "Rue Azur"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment162.jsonld#4884",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Azur"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment162.jsonld#4959",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Azur"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Azur"
+      ]
+    }
+  ]
+}

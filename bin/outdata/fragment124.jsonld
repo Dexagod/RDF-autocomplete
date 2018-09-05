@@ -1,0 +1,991 @@
+{
+  "root_node_id": "4017",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment124.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "n am Haag",
+      "triples": [
+        {
+          "streetname": "Oben am Haag"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4018",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Oben am Haag"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment124.jsonld#4002",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Oben am Haag"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Oben am Haag"
+      ]
+    },
+    {
+      "token_string": "O",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4018",
+              "@type": "tree:Node",
+              "token_string": "be"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4020",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4023",
+              "@type": "tree:Node",
+              "token_string": "lengraben"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4024",
+              "@type": "tree:Node",
+              "token_string": " l'Havé"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4029",
+              "@type": "tree:Node",
+              "token_string": "p"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4032",
+              "@type": "tree:Node",
+              "token_string": "rtstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4034",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment1.jsonld#1",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Oben am Haag"
+        },
+        {
+          "streetname": "Obere Ibern"
+        },
+        {
+          "streetname": "Ober-Emmels"
+        },
+        {
+          "streetname": "Obere Rottergasse"
+        },
+        {
+          "streetname": "Oberhausen"
+        },
+        {
+          "streetname": "Ober Meilvenn"
+        },
+        {
+          "streetname": "Oberst-Crombach"
+        },
+        {
+          "streetname": "Oberste Heide"
+        },
+        {
+          "streetname": "Oberstraße"
+        },
+        {
+          "streetname": "O l'Havé"
+        }
+      ],
+      "total_children_count": 29,
+      "@id": "fragment124.jsonld#4017",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Oben am Haag"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Obere Ibern"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ober-Emmels"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Obere Rottergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Oberhausen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ober Meilvenn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Oberst-Crombach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Oberste Heide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Oberstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "O l'Havé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "be",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4002",
+              "@type": "tree:Node",
+              "token_string": "n am Haag"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment123.jsonld#4004",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4017",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Oben am Haag"
+        },
+        {
+          "streetname": "Obere Ibern"
+        },
+        {
+          "streetname": "Ober-Emmels"
+        },
+        {
+          "streetname": "Obere Rottergasse"
+        },
+        {
+          "streetname": "Oberhausen"
+        },
+        {
+          "streetname": "Ober Meilvenn"
+        },
+        {
+          "streetname": "Oberst-Crombach"
+        },
+        {
+          "streetname": "Oberste Heide"
+        },
+        {
+          "streetname": "Oberstraße"
+        }
+      ],
+      "total_children_count": 12,
+      "@id": "fragment124.jsonld#4018",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Oben am Haag"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Obere Ibern"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ober-Emmels"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Obere Rottergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Oberhausen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ober Meilvenn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Oberst-Crombach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Oberste Heide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Oberstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4021",
+              "@type": "tree:Node",
+              "token_string": "berg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4022",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4017",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Oeberg"
+        },
+        {
+          "streetname": "Oestrasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment124.jsonld#4020",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Oeberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Oestrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "berg",
+      "triples": [
+        {
+          "streetname": "Oeberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4020",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Oeberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment124.jsonld#4021",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Oeberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Oeberg"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "streetname": "Oestrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4020",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Oestrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment124.jsonld#4022",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Oestrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Oestrasse"
+      ]
+    },
+    {
+      "token_string": "lengraben",
+      "triples": [
+        {
+          "streetname": "Olengraben"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4017",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Olengraben"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment124.jsonld#4023",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Olengraben"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Olengraben"
+      ]
+    },
+    {
+      "token_string": " l'Havé",
+      "triples": [
+        {
+          "streetname": "O l'Havé"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4017",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "O l'Havé"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment124.jsonld#4024",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "O l'Havé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "O l'Havé"
+      ]
+    },
+    {
+      "token_string": "leef",
+      "triples": [
+        {
+          "streetname": "Op der Schleef"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4030",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Op der Schleef"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment124.jsonld#4027",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Op der Schleef"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Op der Schleef"
+      ]
+    },
+    {
+      "token_string": "üer",
+      "triples": [
+        {
+          "streetname": "Op der Schüer"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4030",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Op der Schüer"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment124.jsonld#4028",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Op der Schüer"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Op der Schüer"
+      ]
+    },
+    {
+      "token_string": "p",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4030",
+              "@type": "tree:Node",
+              "token_string": " der Sch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4031",
+              "@type": "tree:Node",
+              "token_string": "ersbach"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4017",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Op der Schleef"
+        },
+        {
+          "streetname": "Op der Schüer"
+        },
+        {
+          "streetname": "Opersbach"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment124.jsonld#4029",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Op der Schleef"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Op der Schüer"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Opersbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " der Sch",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4027",
+              "@type": "tree:Node",
+              "token_string": "leef"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4028",
+              "@type": "tree:Node",
+              "token_string": "üer"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4029",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Op der Schleef"
+        },
+        {
+          "streetname": "Op der Schüer"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment124.jsonld#4030",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Op der Schleef"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Op der Schüer"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ersbach",
+      "triples": [
+        {
+          "streetname": "Opersbach"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4029",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Opersbach"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment124.jsonld#4031",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Opersbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Opersbach"
+      ]
+    },
+    {
+      "token_string": "rtstrasse",
+      "triples": [
+        {
+          "streetname": "Ortstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4017",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Ortstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment124.jsonld#4032",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ortstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ortstrasse"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4035",
+              "@type": "tree:Node",
+              "token_string": "dler"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4037",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4017",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Oudler"
+        },
+        {
+          "streetname": "Ouren"
+        },
+        {
+          "streetname": "Ourweg"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment124.jsonld#4034",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Oudler"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ouren"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ourweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "dler",
+      "triples": [
+        {
+          "streetname": "Oudler"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4034",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Oudler"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment124.jsonld#4035",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Oudler"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Oudler"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4038",
+              "@type": "tree:Node",
+              "token_string": "en"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment124.jsonld#4039",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4034",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Ouren"
+        },
+        {
+          "streetname": "Ourweg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment124.jsonld#4037",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ouren"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ourweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "en",
+      "triples": [
+        {
+          "streetname": "Ouren"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4037",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Ouren"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment124.jsonld#4038",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ouren"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ouren"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "streetname": "Ourweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment124.jsonld#4037",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Ourweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment124.jsonld#4039",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ourweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ourweg"
+      ]
+    }
+  ]
+}

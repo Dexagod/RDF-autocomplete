@@ -1,0 +1,867 @@
+{
+  "root_node_id": "5158",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment186.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "loy",
+      "triples": [
+        {
+          "streetname": "Rue de Faloy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5159",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Faloy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment186.jsonld#5155",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Faloy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Faloy"
+      ]
+    },
+    {
+      "token_string": "menne",
+      "triples": [
+        {
+          "streetname": "Rue de Famenne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5159",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Famenne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment186.jsonld#5156",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Famenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Famenne"
+      ]
+    },
+    {
+      "token_string": "veaux",
+      "triples": [
+        {
+          "streetname": "Rue de Faveaux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5159",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Faveaux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment186.jsonld#5157",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Faveaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Faveaux"
+      ]
+    },
+    {
+      "token_string": "F",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5159",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5161",
+              "@type": "tree:Node",
+              "token_string": "éronval"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5162",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5165",
+              "@type": "tree:Node",
+              "token_string": "lochi"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5167",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5172",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5175",
+              "@type": "tree:Node",
+              "token_string": "y"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment169.jsonld#5880",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Faloy"
+        },
+        {
+          "streetname": "Rue de Famenne"
+        },
+        {
+          "streetname": "Rue de Faveaux"
+        },
+        {
+          "streetname": "Rue de Fernelmont"
+        },
+        {
+          "streetname": "Rue de Fetinne"
+        },
+        {
+          "streetname": "Rue de Flochi"
+        },
+        {
+          "streetname": "Rue de Fontenal"
+        },
+        {
+          "streetname": "Rue de Formanoir"
+        },
+        {
+          "streetname": "Rue de Foucremont"
+        },
+        {
+          "streetname": "Rue de France"
+        }
+      ],
+      "total_children_count": 17,
+      "@id": "fragment186.jsonld#5158",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Faloy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Famenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Faveaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Fernelmont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Fetinne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Flochi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Fontenal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Formanoir"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Foucremont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de France"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5155",
+              "@type": "tree:Node",
+              "token_string": "loy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5156",
+              "@type": "tree:Node",
+              "token_string": "menne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5157",
+              "@type": "tree:Node",
+              "token_string": "veaux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5158",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Faloy"
+        },
+        {
+          "streetname": "Rue de Famenne"
+        },
+        {
+          "streetname": "Rue de Faveaux"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment186.jsonld#5159",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Faloy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Famenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Faveaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "éronval",
+      "triples": [
+        {
+          "streetname": "Rue de Féronval"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5158",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Féronval"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment186.jsonld#5161",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Féronval"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Féronval"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5163",
+              "@type": "tree:Node",
+              "token_string": "rnelmont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5164",
+              "@type": "tree:Node",
+              "token_string": "tinne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5158",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Fernelmont"
+        },
+        {
+          "streetname": "Rue de Fetinne"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment186.jsonld#5162",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Fernelmont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Fetinne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rnelmont",
+      "triples": [
+        {
+          "streetname": "Rue de Fernelmont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5162",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Fernelmont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment186.jsonld#5163",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Fernelmont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Fernelmont"
+      ]
+    },
+    {
+      "token_string": "tinne",
+      "triples": [
+        {
+          "streetname": "Rue de Fetinne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5162",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Fetinne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment186.jsonld#5164",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Fetinne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Fetinne"
+      ]
+    },
+    {
+      "token_string": "lochi",
+      "triples": [
+        {
+          "streetname": "Rue de Flochi"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5158",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Flochi"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment186.jsonld#5165",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Flochi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Flochi"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5168",
+              "@type": "tree:Node",
+              "token_string": "ntenal"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5169",
+              "@type": "tree:Node",
+              "token_string": "rmanoir"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5170",
+              "@type": "tree:Node",
+              "token_string": "ucremont"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5158",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Fontenal"
+        },
+        {
+          "streetname": "Rue de Formanoir"
+        },
+        {
+          "streetname": "Rue de Foucremont"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment186.jsonld#5167",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Fontenal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Formanoir"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Foucremont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ntenal",
+      "triples": [
+        {
+          "streetname": "Rue de Fontenal"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5167",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Fontenal"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment186.jsonld#5168",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Fontenal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Fontenal"
+      ]
+    },
+    {
+      "token_string": "rmanoir",
+      "triples": [
+        {
+          "streetname": "Rue de Formanoir"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5167",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Formanoir"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment186.jsonld#5169",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Formanoir"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Formanoir"
+      ]
+    },
+    {
+      "token_string": "ucremont",
+      "triples": [
+        {
+          "streetname": "Rue de Foucremont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5167",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Foucremont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment186.jsonld#5170",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Foucremont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Foucremont"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5173",
+              "@type": "tree:Node",
+              "token_string": "ance"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment186.jsonld#5174",
+              "@type": "tree:Node",
+              "token_string": "esin-Vorsen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5158",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de France"
+        },
+        {
+          "streetname": "Rue de Fresin-Vorsen"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment186.jsonld#5172",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de France"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Fresin-Vorsen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ance",
+      "triples": [
+        {
+          "streetname": "Rue de France"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5172",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de France"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment186.jsonld#5173",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de France"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de France"
+      ]
+    },
+    {
+      "token_string": "esin-Vorsen",
+      "triples": [
+        {
+          "streetname": "Rue de Fresin-Vorsen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5172",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Fresin-Vorsen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment186.jsonld#5174",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Fresin-Vorsen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Fresin-Vorsen"
+      ]
+    },
+    {
+      "token_string": "y",
+      "triples": [
+        {
+          "streetname": "Rue de Fy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment186.jsonld#5158",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Fy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment186.jsonld#5175",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Fy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Fy"
+      ]
+    }
+  ]
+}

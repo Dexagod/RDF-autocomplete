@@ -1,0 +1,165 @@
+{
+  "root_node_id": "8449",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment283.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment283.jsonld#8450",
+              "@type": "tree:Node",
+              "token_string": "iversité de Liège Sart-Tilman"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment282.jsonld#8455",
+              "@type": "tree:Node",
+              "token_string": "ter"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment284.jsonld#8446",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Université de Liège Sart-Tilman"
+        },
+        {
+          "streetname": "Unter dem Wittenhof"
+        },
+        {
+          "streetname": "Unter den Linden"
+        },
+        {
+          "streetname": "Untere Büchelstrasse"
+        },
+        {
+          "streetname": "Untere Ibern"
+        },
+        {
+          "streetname": "Untere Rottergasse"
+        },
+        {
+          "streetname": "Untere Rottstrasse"
+        },
+        {
+          "streetname": "Unter Meilvenn"
+        }
+      ],
+      "total_children_count": 13,
+      "@id": "fragment283.jsonld#8449",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Université de Liège Sart-Tilman"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Unter dem Wittenhof"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Unter den Linden"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Untere Büchelstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Untere Ibern"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Untere Rottergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Untere Rottstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Unter Meilvenn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "iversité de Liège Sart-Tilman",
+      "triples": [
+        {
+          "streetname": "Université de Liège Sart-Tilman"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment283.jsonld#8449",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Université de Liège Sart-Tilman"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment283.jsonld#8450",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Université de Liège Sart-Tilman"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Université de Liège Sart-Tilman"
+      ]
+    }
+  ]
+}

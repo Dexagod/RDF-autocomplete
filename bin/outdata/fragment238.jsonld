@@ -1,0 +1,573 @@
+{
+  "root_node_id": "7083",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment238.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment238.jsonld#7084",
+              "@type": "tree:Node",
+              "token_string": "cinal"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment237.jsonld#7086",
+              "@type": "tree:Node",
+              "token_string": "eux "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment238.jsonld#7091",
+              "@type": "tree:Node",
+              "token_string": "llage"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment238.jsonld#7094",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment238.jsonld#7097",
+              "@type": "tree:Node",
+              "token_string": "oloneux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment238.jsonld#7099",
+              "@type": "tree:Node",
+              "token_string": "v"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment226.jsonld#7078",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Vicinal"
+        },
+        {
+          "streetname": "Rue du Vieux Chêne"
+        },
+        {
+          "streetname": "Rue du Vieux Moulin"
+        },
+        {
+          "streetname": "Rue du Vieux Pays"
+        },
+        {
+          "streetname": "Rue du Vieux Triangle"
+        },
+        {
+          "streetname": "Rue du Village"
+        },
+        {
+          "streetname": "Rue du Village gris"
+        },
+        {
+          "streetname": "Rue du Vinâl"
+        },
+        {
+          "streetname": "Rue du Vingt Avril"
+        },
+        {
+          "streetname": "Rue du Violoneux"
+        }
+      ],
+      "total_children_count": 15,
+      "@id": "fragment238.jsonld#7083",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Vicinal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Vieux Chêne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Vieux Moulin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Vieux Pays"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Vieux Triangle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Village"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Village gris"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Vinâl"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Vingt Avril"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Violoneux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "cinal",
+      "triples": [
+        {
+          "streetname": "Rue du Vicinal"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment238.jsonld#7083",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Vicinal"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment238.jsonld#7084",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Vicinal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Vicinal"
+      ]
+    },
+    {
+      "token_string": "llage",
+      "triples": [
+        {
+          "streetname": "Rue du Village"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment238.jsonld#7092",
+              "@type": "tree:Node",
+              "token_string": " gris"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment238.jsonld#7083",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Village"
+        },
+        {
+          "streetname": "Rue du Village gris"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "fragment238.jsonld#7091",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Village"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Village gris"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Village"
+      ]
+    },
+    {
+      "token_string": " gris",
+      "triples": [
+        {
+          "streetname": "Rue du Village gris"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment238.jsonld#7091",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Village gris"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment238.jsonld#7092",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Village gris"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Village gris"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment238.jsonld#7095",
+              "@type": "tree:Node",
+              "token_string": "âl"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment238.jsonld#7096",
+              "@type": "tree:Node",
+              "token_string": "gt Avril"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment238.jsonld#7083",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Vinâl"
+        },
+        {
+          "streetname": "Rue du Vingt Avril"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment238.jsonld#7094",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Vinâl"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Vingt Avril"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "âl",
+      "triples": [
+        {
+          "streetname": "Rue du Vinâl"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment238.jsonld#7094",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Vinâl"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment238.jsonld#7095",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Vinâl"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Vinâl"
+      ]
+    },
+    {
+      "token_string": "gt Avril",
+      "triples": [
+        {
+          "streetname": "Rue du Vingt Avril"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment238.jsonld#7094",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Vingt Avril"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment238.jsonld#7096",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Vingt Avril"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Vingt Avril"
+      ]
+    },
+    {
+      "token_string": "oloneux",
+      "triples": [
+        {
+          "streetname": "Rue du Violoneux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment238.jsonld#7083",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Violoneux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment238.jsonld#7097",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Violoneux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Violoneux"
+      ]
+    },
+    {
+      "token_string": "v",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment238.jsonld#7100",
+              "@type": "tree:Node",
+              "token_string": "ier"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment238.jsonld#7101",
+              "@type": "tree:Node",
+              "token_string": "rou"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment238.jsonld#7083",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Vivier"
+        },
+        {
+          "streetname": "Rue du Vivrou"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment238.jsonld#7099",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Vivier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Vivrou"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ier",
+      "triples": [
+        {
+          "streetname": "Rue du Vivier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment238.jsonld#7099",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Vivier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment238.jsonld#7100",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Vivier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Vivier"
+      ]
+    },
+    {
+      "token_string": "rou",
+      "triples": [
+        {
+          "streetname": "Rue du Vivrou"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment238.jsonld#7099",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Vivrou"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment238.jsonld#7101",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Vivrou"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Vivrou"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "root_node_id": "4190",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment129.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "rchifontaine",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Barchifontaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1511832288896344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.458868788447084"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment129.jsonld#4191",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Barchifontaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1511832288896344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.458868788447084"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment129.jsonld#4188",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Barchifontaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Barchifontaine"
+      ]
+    },
+    {
+      "token_string": "udouin 1er",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Baudouin 1er",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2050950572118033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52150382964875"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment129.jsonld#4191",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Baudouin 1er",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2050950572118033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52150382964875"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment129.jsonld#4189",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Baudouin 1er"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Baudouin 1er"
+      ]
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment129.jsonld#4191",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment129.jsonld#4193",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Barchifontaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1511832288896344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.458868788447084"
+        },
+        {
+          "http://example.com/terms#name": "Place Baudouin 1er",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2050950572118033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52150382964875"
+        },
+        {
+          "http://example.com/terms#name": "Place Beaufort",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.486391342343779",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.401038032454764"
+        },
+        {
+          "http://example.com/terms#name": "Place Bergeronnette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5782976347348217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.50862987370537"
+        },
+        {
+          "http://example.com/terms#name": "Place Berthezène",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.43566737163062",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.36752256063463"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "streetsfragment129.jsonld#4190",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Barchifontaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Baudouin 1er"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Beaufort"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Bergeronnette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Berthezène"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment129.jsonld#4188",
+              "@type": "tree:Node",
+              "token_string": "rchifontaine"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment129.jsonld#4189",
+              "@type": "tree:Node",
+              "token_string": "udouin 1er"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment129.jsonld#4190",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Barchifontaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1511832288896344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.458868788447084"
+        },
+        {
+          "http://example.com/terms#name": "Place Baudouin 1er",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2050950572118033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52150382964875"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment129.jsonld#4191",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Barchifontaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Baudouin 1er"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment129.jsonld#4194",
+              "@type": "tree:Node",
+              "token_string": "aufort"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment129.jsonld#4196",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment129.jsonld#4190",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Beaufort",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.486391342343779",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.401038032454764"
+        },
+        {
+          "http://example.com/terms#name": "Place Bergeronnette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5782976347348217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.50862987370537"
+        },
+        {
+          "http://example.com/terms#name": "Place Berthezène",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.43566737163062",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.36752256063463"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment129.jsonld#4193",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Beaufort"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Bergeronnette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Berthezène"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aufort",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Beaufort",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.486391342343779",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.401038032454764"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment129.jsonld#4193",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Beaufort",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.486391342343779",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.401038032454764"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment129.jsonld#4194",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Beaufort"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Beaufort"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment129.jsonld#4197",
+              "@type": "tree:Node",
+              "token_string": "geronnette"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment129.jsonld#4198",
+              "@type": "tree:Node",
+              "token_string": "thezène"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment129.jsonld#4193",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Bergeronnette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5782976347348217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.50862987370537"
+        },
+        {
+          "http://example.com/terms#name": "Place Berthezène",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.43566737163062",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.36752256063463"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment129.jsonld#4196",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Bergeronnette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Berthezène"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "geronnette",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Bergeronnette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5782976347348217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.50862987370537"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment129.jsonld#4196",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Bergeronnette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5782976347348217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.50862987370537"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment129.jsonld#4197",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Bergeronnette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Bergeronnette"
+      ]
+    },
+    {
+      "token_string": "thezène",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Berthezène",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.43566737163062",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.36752256063463"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment129.jsonld#4196",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Berthezène",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.43566737163062",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.36752256063463"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment129.jsonld#4198",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Berthezène"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Berthezène"
+      ]
+    }
+  ]
+}

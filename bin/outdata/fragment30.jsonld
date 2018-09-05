@@ -1,0 +1,147 @@
+{
+  "root_node_id": "954",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment30.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment30.jsonld#955",
+              "@type": "tree:Node",
+              "token_string": "nolsweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment29.jsonld#957",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#969",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Carnolsweg"
+        },
+        {
+          "streetname": "Carré des Lanciers"
+        },
+        {
+          "streetname": "Carrefour d'en Bas"
+        },
+        {
+          "streetname": "Carrefour d'en Haut"
+        },
+        {
+          "streetname": "Carrefour des Vagues"
+        },
+        {
+          "streetname": "Carrière de la Grande Motte"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "fragment30.jsonld#954",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Carnolsweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carré des Lanciers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour d'en Bas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour d'en Haut"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour des Vagues"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrière de la Grande Motte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "nolsweg",
+      "triples": [
+        {
+          "streetname": "Carnolsweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment30.jsonld#954",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Carnolsweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment30.jsonld#955",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Carnolsweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Carnolsweg"
+      ]
+    }
+  ]
+}

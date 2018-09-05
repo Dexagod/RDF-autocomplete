@@ -1,0 +1,210 @@
+{
+  "root_node_id": "4417",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment138.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "tz",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment138.jsonld#4418",
+              "@type": "tree:Node",
+              "token_string": " des Parlaments"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment138.jsonld#4419",
+              "@type": "tree:Node",
+              "token_string": "egel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment138.jsonld#4420",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment144.jsonld#4422",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Platz des Parlaments",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9514066261489464",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.814373990684835"
+        },
+        {
+          "http://example.com/terms#name": "Platzegel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2991282184142467",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.20918470462783"
+        },
+        {
+          "http://example.com/terms#name": "Platzstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3023453359483694",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.16368710152503"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment138.jsonld#4417",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Platz des Parlaments"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Platzegel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Platzstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " des Parlaments",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Platz des Parlaments",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9514066261489464",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.814373990684835"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment138.jsonld#4417",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Platz des Parlaments",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9514066261489464",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.814373990684835"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment138.jsonld#4418",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Platz des Parlaments"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Platz des Parlaments"
+      ]
+    },
+    {
+      "token_string": "egel",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Platzegel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2991282184142467",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.20918470462783"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment138.jsonld#4417",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Platzegel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2991282184142467",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.20918470462783"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment138.jsonld#4419",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Platzegel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Platzegel"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Platzstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3023453359483694",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.16368710152503"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment138.jsonld#4417",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Platzstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3023453359483694",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.16368710152503"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment138.jsonld#4420",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Platzstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Platzstrasse"
+      ]
+    }
+  ]
+}

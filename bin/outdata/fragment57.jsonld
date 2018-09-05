@@ -1,0 +1,247 @@
+{
+  "root_node_id": "1490",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment57.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "G",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment57.jsonld#1491",
+              "@type": "tree:Node",
+              "token_string": "enêts"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment57.jsonld#1492",
+              "@type": "tree:Node",
+              "token_string": "olets"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment46.jsonld#1498",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment57.jsonld#1502",
+              "@type": "tree:Node",
+              "token_string": "uisselles"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment48.jsonld#1398",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Genêts"
+        },
+        {
+          "streetname": "Chemin des Golets"
+        },
+        {
+          "streetname": "Chemin des Grands Hêtres"
+        },
+        {
+          "streetname": "Chemin des Grands Prés"
+        },
+        {
+          "streetname": "Chemin des Grands Vents"
+        },
+        {
+          "streetname": "Chemin des Gringottes"
+        },
+        {
+          "streetname": "Chemin des Grossarts"
+        },
+        {
+          "streetname": "Chemin des Guisselles"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "fragment57.jsonld#1490",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Genêts"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Golets"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Grands Hêtres"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Grands Prés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Grands Vents"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Gringottes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Grossarts"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Guisselles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "enêts",
+      "triples": [
+        {
+          "streetname": "Chemin des Genêts"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment57.jsonld#1490",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Genêts"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment57.jsonld#1491",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Genêts"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Genêts"
+      ]
+    },
+    {
+      "token_string": "olets",
+      "triples": [
+        {
+          "streetname": "Chemin des Golets"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment57.jsonld#1490",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Golets"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment57.jsonld#1492",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Golets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Golets"
+      ]
+    },
+    {
+      "token_string": "uisselles",
+      "triples": [
+        {
+          "streetname": "Chemin des Guisselles"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment57.jsonld#1490",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Guisselles"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment57.jsonld#1502",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Guisselles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Guisselles"
+      ]
+    }
+  ]
+}

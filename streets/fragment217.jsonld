@@ -1,0 +1,409 @@
+{
+  "root_node_id": "6586",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment217.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "enaire",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Centenaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.941603893662099",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.133942416650015"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment217.jsonld#6587",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Centenaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.941603893662099",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.133942416650015"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment217.jsonld#6580",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Centenaire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Centenaire"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment217.jsonld#6587",
+              "@type": "tree:Node",
+              "token_string": "nt"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment217.jsonld#6588",
+              "@type": "tree:Node",
+              "token_string": "p"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment217.jsonld#6590",
+              "@type": "tree:Node",
+              "token_string": "ris"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment218.jsonld#6576",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Centenaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.941603893662099",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.133942416650015"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Centre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.17221343815074",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12595402756325"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Centre Spatial",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6068617143529895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.83225706326742"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Cep",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6277228807470516",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.57213385173144"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Ceriseau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0027101847108013",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.975609127234215"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Cerisier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.422648870601031",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.968984988963605"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "streetsfragment217.jsonld#6586",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Centenaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Centre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Centre Spatial"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Cep"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Ceriseau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Cerisier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "nt",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment217.jsonld#6580",
+              "@type": "tree:Node",
+              "token_string": "enaire"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment216.jsonld#6581",
+              "@type": "tree:Node",
+              "token_string": "re"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment217.jsonld#6586",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Centenaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.941603893662099",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.133942416650015"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Centre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.17221343815074",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12595402756325"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Centre Spatial",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6068617143529895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.83225706326742"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment217.jsonld#6587",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Centenaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Centre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Centre Spatial"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "p",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Cep",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6277228807470516",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.57213385173144"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment217.jsonld#6586",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Cep",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6277228807470516",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.57213385173144"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment217.jsonld#6588",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Cep"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Cep"
+      ]
+    },
+    {
+      "token_string": "ris",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment217.jsonld#6591",
+              "@type": "tree:Node",
+              "token_string": "eau"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment217.jsonld#6592",
+              "@type": "tree:Node",
+              "token_string": "ier"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment217.jsonld#6586",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Ceriseau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0027101847108013",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.975609127234215"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Cerisier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.422648870601031",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.968984988963605"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment217.jsonld#6590",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Ceriseau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Cerisier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eau",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Ceriseau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0027101847108013",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.975609127234215"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment217.jsonld#6590",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Ceriseau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0027101847108013",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.975609127234215"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment217.jsonld#6591",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Ceriseau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Ceriseau"
+      ]
+    },
+    {
+      "token_string": "ier",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Cerisier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.422648870601031",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.968984988963605"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment217.jsonld#6590",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Cerisier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.422648870601031",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.968984988963605"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment217.jsonld#6592",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Cerisier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Cerisier"
+      ]
+    }
+  ]
+}

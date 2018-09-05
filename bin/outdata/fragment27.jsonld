@@ -1,0 +1,1043 @@
+{
+  "root_node_id": "921",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment27.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "erg",
+      "triples": [
+        {
+          "streetname": "Buchenberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#906",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Buchenberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment27.jsonld#903",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Buchenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Buchenberg"
+      ]
+    },
+    {
+      "token_string": "usch",
+      "triples": [
+        {
+          "streetname": "Buchenbusch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#906",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Buchenbusch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment27.jsonld#904",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Buchenbusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Buchenbusch"
+      ]
+    },
+    {
+      "token_string": "b",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#903",
+              "@type": "tree:Node",
+              "token_string": "erg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#904",
+              "@type": "tree:Node",
+              "token_string": "usch"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#909",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Buchenberg"
+        },
+        {
+          "streetname": "Buchenbusch"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment27.jsonld#906",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Buchenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Buchenbusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "streetname": "Buchenweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#909",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Buchenweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment27.jsonld#907",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Buchenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Buchenweg"
+      ]
+    },
+    {
+      "token_string": "en",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#906",
+              "@type": "tree:Node",
+              "token_string": "b"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#907",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#922",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Buchenberg"
+        },
+        {
+          "streetname": "Buchenbusch"
+        },
+        {
+          "streetname": "Buchenweg"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment27.jsonld#909",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Buchenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Buchenbusch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Buchenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "holz",
+      "triples": [
+        {
+          "streetname": "Buchholz"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#922",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Buchholz"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment27.jsonld#910",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Buchholz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Buchholz"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#922",
+              "@type": "tree:Node",
+              "token_string": "ch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#923",
+              "@type": "tree:Node",
+              "token_string": "rg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#932",
+              "@type": "tree:Node",
+              "token_string": "sch"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment12.jsonld#678",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Buchenberg"
+        },
+        {
+          "streetname": "Buchenbusch"
+        },
+        {
+          "streetname": "Buchenweg"
+        },
+        {
+          "streetname": "Buchholz"
+        },
+        {
+          "streetname": "Burg"
+        },
+        {
+          "streetname": "Burgknopf"
+        },
+        {
+          "streetname": "Burg-Reuland"
+        },
+        {
+          "streetname": "Burgstrasse"
+        },
+        {
+          "streetname": "Burgundstrasse"
+        },
+        {
+          "streetname": "Busch"
+        }
+      ],
+      "total_children_count": 19,
+      "@id": "fragment27.jsonld#921",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Buchenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Buchenbusch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Buchenweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Buchholz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Burg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Burgknopf"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Burg-Reuland"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Burgstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Burgundstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Busch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ch",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#909",
+              "@type": "tree:Node",
+              "token_string": "en"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#910",
+              "@type": "tree:Node",
+              "token_string": "holz"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#921",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Buchenberg"
+        },
+        {
+          "streetname": "Buchenbusch"
+        },
+        {
+          "streetname": "Buchenweg"
+        },
+        {
+          "streetname": "Buchholz"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment27.jsonld#922",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Buchenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Buchenbusch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Buchenweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Buchholz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rg",
+      "triples": [
+        {
+          "streetname": "Burg"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#928",
+              "@type": "tree:Node",
+              "token_string": "knopf"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#929",
+              "@type": "tree:Node",
+              "token_string": "-Reuland"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#930",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#931",
+              "@type": "tree:Node",
+              "token_string": "undstrasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#921",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Burg"
+        },
+        {
+          "streetname": "Burgknopf"
+        },
+        {
+          "streetname": "Burg-Reuland"
+        },
+        {
+          "streetname": "Burgstrasse"
+        },
+        {
+          "streetname": "Burgundstrasse"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment27.jsonld#923",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Burg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Burgknopf"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Burg-Reuland"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Burgstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Burgundstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Burg"
+      ]
+    },
+    {
+      "token_string": "knopf",
+      "triples": [
+        {
+          "streetname": "Burgknopf"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#923",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Burgknopf"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment27.jsonld#928",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Burgknopf"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Burgknopf"
+      ]
+    },
+    {
+      "token_string": "-Reuland",
+      "triples": [
+        {
+          "streetname": "Burg-Reuland"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#923",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Burg-Reuland"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment27.jsonld#929",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Burg-Reuland"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Burg-Reuland"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "streetname": "Burgstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#923",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Burgstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment27.jsonld#930",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Burgstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Burgstrasse"
+      ]
+    },
+    {
+      "token_string": "undstrasse",
+      "triples": [
+        {
+          "streetname": "Burgundstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#923",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Burgundstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment27.jsonld#931",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Burgundstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Burgundstrasse"
+      ]
+    },
+    {
+      "token_string": "sch",
+      "triples": [
+        {
+          "streetname": "Busch"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#933",
+              "@type": "tree:Node",
+              "token_string": "bergerweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#934",
+              "@type": "tree:Node",
+              "token_string": "hausstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#936",
+              "@type": "tree:Node",
+              "token_string": "stra"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#939",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#921",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Busch"
+        },
+        {
+          "streetname": "Buschbergerweg"
+        },
+        {
+          "streetname": "Buschhausstrasse"
+        },
+        {
+          "streetname": "Buschstrasse"
+        },
+        {
+          "streetname": "Buschstraße"
+        },
+        {
+          "streetname": "Buschweg"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment27.jsonld#932",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Busch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Buschbergerweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Buschhausstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Buschstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Buschstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Buschweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Busch"
+      ]
+    },
+    {
+      "token_string": "bergerweg",
+      "triples": [
+        {
+          "streetname": "Buschbergerweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#932",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Buschbergerweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment27.jsonld#933",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Buschbergerweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Buschbergerweg"
+      ]
+    },
+    {
+      "token_string": "hausstrasse",
+      "triples": [
+        {
+          "streetname": "Buschhausstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#932",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Buschhausstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment27.jsonld#934",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Buschhausstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Buschhausstrasse"
+      ]
+    },
+    {
+      "token_string": "stra",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#937",
+              "@type": "tree:Node",
+              "token_string": "sse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment27.jsonld#938",
+              "@type": "tree:Node",
+              "token_string": "ße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#932",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Buschstrasse"
+        },
+        {
+          "streetname": "Buschstraße"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment27.jsonld#936",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Buschstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Buschstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sse",
+      "triples": [
+        {
+          "streetname": "Buschstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#936",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Buschstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment27.jsonld#937",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Buschstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Buschstrasse"
+      ]
+    },
+    {
+      "token_string": "ße",
+      "triples": [
+        {
+          "streetname": "Buschstraße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#936",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Buschstraße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment27.jsonld#938",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Buschstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Buschstraße"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "streetname": "Buschweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment27.jsonld#932",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Buschweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment27.jsonld#939",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Buschweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Buschweg"
+      ]
+    }
+  ]
+}

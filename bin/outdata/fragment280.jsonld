@@ -1,0 +1,1482 @@
+{
+  "root_node_id": "8420",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment280.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "quebois",
+      "triples": [
+        {
+          "streetname": "Traquebois"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8421",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Traquebois"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8402",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Traquebois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Traquebois"
+      ]
+    },
+    {
+      "token_string": "umborn",
+      "triples": [
+        {
+          "streetname": "Traumborn"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8421",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Traumborn"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8403",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Traumborn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Traumborn"
+      ]
+    },
+    {
+      "token_string": "verse ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8406",
+              "@type": "tree:Node",
+              "token_string": "bleue"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8414",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8417",
+              "@type": "tree:Node",
+              "token_string": "Magenta"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8418",
+              "@type": "tree:Node",
+              "token_string": "rouge"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8419",
+              "@type": "tree:Node",
+              "token_string": "verte"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8421",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Traverse bleue"
+        },
+        {
+          "streetname": "Traverse de l'Echange"
+        },
+        {
+          "streetname": "Traverse des Abbayes"
+        },
+        {
+          "streetname": "Traverse des Muses"
+        },
+        {
+          "streetname": "Traverse du Comte Y Du Monceau"
+        },
+        {
+          "streetname": "Traverse Magenta"
+        },
+        {
+          "streetname": "Traverse rouge"
+        },
+        {
+          "streetname": "Traverse verte"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "fragment280.jsonld#8405",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Traverse bleue"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse de l'Echange"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse des Abbayes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse des Muses"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse du Comte Y Du Monceau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse Magenta"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse rouge"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse verte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bleue",
+      "triples": [
+        {
+          "streetname": "Traverse bleue"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8405",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Traverse bleue"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8406",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Traverse bleue"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Traverse bleue"
+      ]
+    },
+    {
+      "token_string": " l'Echange",
+      "triples": [
+        {
+          "streetname": "Traverse de l'Echange"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8415",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Traverse de l'Echange"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8409",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Traverse de l'Echange"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Traverse de l'Echange"
+      ]
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8412",
+              "@type": "tree:Node",
+              "token_string": "Abbayes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8413",
+              "@type": "tree:Node",
+              "token_string": "Muses"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8415",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Traverse des Abbayes"
+        },
+        {
+          "streetname": "Traverse des Muses"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment280.jsonld#8411",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Traverse des Abbayes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse des Muses"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Abbayes",
+      "triples": [
+        {
+          "streetname": "Traverse des Abbayes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Traverse des Abbayes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8412",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Traverse des Abbayes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Traverse des Abbayes"
+      ]
+    },
+    {
+      "token_string": "Muses",
+      "triples": [
+        {
+          "streetname": "Traverse des Muses"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Traverse des Muses"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8413",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Traverse des Muses"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Traverse des Muses"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8415",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8416",
+              "@type": "tree:Node",
+              "token_string": "u Comte Y Du Monceau"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8405",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Traverse de l'Echange"
+        },
+        {
+          "streetname": "Traverse des Abbayes"
+        },
+        {
+          "streetname": "Traverse des Muses"
+        },
+        {
+          "streetname": "Traverse du Comte Y Du Monceau"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment280.jsonld#8414",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Traverse de l'Echange"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse des Abbayes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse des Muses"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse du Comte Y Du Monceau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8409",
+              "@type": "tree:Node",
+              "token_string": " l'Echange"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8411",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8414",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Traverse de l'Echange"
+        },
+        {
+          "streetname": "Traverse des Abbayes"
+        },
+        {
+          "streetname": "Traverse des Muses"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment280.jsonld#8415",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Traverse de l'Echange"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse des Abbayes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse des Muses"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u Comte Y Du Monceau",
+      "triples": [
+        {
+          "streetname": "Traverse du Comte Y Du Monceau"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8414",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Traverse du Comte Y Du Monceau"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8416",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Traverse du Comte Y Du Monceau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Traverse du Comte Y Du Monceau"
+      ]
+    },
+    {
+      "token_string": "Magenta",
+      "triples": [
+        {
+          "streetname": "Traverse Magenta"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8405",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Traverse Magenta"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8417",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Traverse Magenta"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Traverse Magenta"
+      ]
+    },
+    {
+      "token_string": "rouge",
+      "triples": [
+        {
+          "streetname": "Traverse rouge"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8405",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Traverse rouge"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8418",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Traverse rouge"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Traverse rouge"
+      ]
+    },
+    {
+      "token_string": "verte",
+      "triples": [
+        {
+          "streetname": "Traverse verte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8405",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Traverse verte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8419",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Traverse verte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Traverse verte"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8421",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8422",
+              "@type": "tree:Node",
+              "token_string": "î de l'Eglise"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8424",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8428",
+              "@type": "tree:Node",
+              "token_string": "ötgasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8430",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8433",
+              "@type": "tree:Node",
+              "token_string": "üchenstein"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8435",
+              "@type": "tree:Node",
+              "token_string": "y "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8305",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Traquebois"
+        },
+        {
+          "streetname": "Traumborn"
+        },
+        {
+          "streetname": "Traverse bleue"
+        },
+        {
+          "streetname": "Traverse de l'Echange"
+        },
+        {
+          "streetname": "Traverse des Abbayes"
+        },
+        {
+          "streetname": "Traverse des Muses"
+        },
+        {
+          "streetname": "Traverse du Comte Y Du Monceau"
+        },
+        {
+          "streetname": "Traverse Magenta"
+        },
+        {
+          "streetname": "Traverse rouge"
+        },
+        {
+          "streetname": "Traverse verte"
+        }
+      ],
+      "total_children_count": 28,
+      "@id": "fragment280.jsonld#8420",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Traquebois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traumborn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse bleue"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse de l'Echange"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse des Abbayes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse des Muses"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse du Comte Y Du Monceau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse Magenta"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse rouge"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse verte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8402",
+              "@type": "tree:Node",
+              "token_string": "quebois"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8403",
+              "@type": "tree:Node",
+              "token_string": "umborn"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8405",
+              "@type": "tree:Node",
+              "token_string": "verse "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8420",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Traquebois"
+        },
+        {
+          "streetname": "Traumborn"
+        },
+        {
+          "streetname": "Traverse bleue"
+        },
+        {
+          "streetname": "Traverse de l'Echange"
+        },
+        {
+          "streetname": "Traverse des Abbayes"
+        },
+        {
+          "streetname": "Traverse des Muses"
+        },
+        {
+          "streetname": "Traverse du Comte Y Du Monceau"
+        },
+        {
+          "streetname": "Traverse Magenta"
+        },
+        {
+          "streetname": "Traverse rouge"
+        },
+        {
+          "streetname": "Traverse verte"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "fragment280.jsonld#8421",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Traquebois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traumborn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse bleue"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse de l'Echange"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse des Abbayes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse des Muses"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse du Comte Y Du Monceau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse Magenta"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse rouge"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Traverse verte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "î de l'Eglise",
+      "triples": [
+        {
+          "streetname": "Trî de l'Eglise"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8420",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Trî de l'Eglise"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8422",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Trî de l'Eglise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Trî de l'Eglise"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8425",
+              "@type": "tree:Node",
+              "token_string": "erer Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8426",
+              "@type": "tree:Node",
+              "token_string": "fft"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8427",
+              "@type": "tree:Node",
+              "token_string": "ppengasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8420",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Trierer Strasse"
+        },
+        {
+          "streetname": "Trifft"
+        },
+        {
+          "streetname": "Trippengasse"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment280.jsonld#8424",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Trierer Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Trifft"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Trippengasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erer Strasse",
+      "triples": [
+        {
+          "streetname": "Trierer Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8424",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Trierer Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8425",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Trierer Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Trierer Strasse"
+      ]
+    },
+    {
+      "token_string": "fft",
+      "triples": [
+        {
+          "streetname": "Trifft"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8424",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Trifft"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8426",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Trifft"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Trifft"
+      ]
+    },
+    {
+      "token_string": "ppengasse",
+      "triples": [
+        {
+          "streetname": "Trippengasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8424",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Trippengasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8427",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Trippengasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Trippengasse"
+      ]
+    },
+    {
+      "token_string": "ötgasse",
+      "triples": [
+        {
+          "streetname": "Trötgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8420",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Trötgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8428",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Trötgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Trötgasse"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8431",
+              "@type": "tree:Node",
+              "token_string": "tzenburgerweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8432",
+              "@type": "tree:Node",
+              "token_string": "u du Bois"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8420",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Trotzenburgerweg"
+        },
+        {
+          "streetname": "Trou du Bois"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment280.jsonld#8430",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Trotzenburgerweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Trou du Bois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "tzenburgerweg",
+      "triples": [
+        {
+          "streetname": "Trotzenburgerweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8430",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Trotzenburgerweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8431",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Trotzenburgerweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Trotzenburgerweg"
+      ]
+    },
+    {
+      "token_string": "u du Bois",
+      "triples": [
+        {
+          "streetname": "Trou du Bois"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8430",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Trou du Bois"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8432",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Trou du Bois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Trou du Bois"
+      ]
+    },
+    {
+      "token_string": "üchenstein",
+      "triples": [
+        {
+          "streetname": "Trüchenstein"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8420",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Trüchenstein"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8433",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Trüchenstein"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Trüchenstein"
+      ]
+    },
+    {
+      "token_string": "y ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8436",
+              "@type": "tree:Node",
+              "token_string": "á Fourche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8437",
+              "@type": "tree:Node",
+              "token_string": "des Baudets"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8420",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Try á Fourche"
+        },
+        {
+          "streetname": "Try des Baudets"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment280.jsonld#8435",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Try á Fourche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Try des Baudets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "á Fourche",
+      "triples": [
+        {
+          "streetname": "Try á Fourche"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8435",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Try á Fourche"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8436",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Try á Fourche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Try á Fourche"
+      ]
+    },
+    {
+      "token_string": "des Baudets",
+      "triples": [
+        {
+          "streetname": "Try des Baudets"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment280.jsonld#8435",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Try des Baudets"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment280.jsonld#8437",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Try des Baudets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Try des Baudets"
+      ]
+    }
+  ]
+}

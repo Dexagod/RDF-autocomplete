@@ -1,0 +1,1742 @@
+{
+  "root_node_id": "7188",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment243.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "brielle de Coune",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Gabrielle de Coune",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.846369310384937",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.89500448692135"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7189",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Gabrielle de Coune",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.846369310384937",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.89500448692135"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7181",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Gabrielle de Coune"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Gabrielle de Coune"
+      ]
+    },
+    {
+      "token_string": "lilée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Galilée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.54172259062456",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.32924194168434"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7189",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Galilée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.54172259062456",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.32924194168434"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7182",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Galilée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Galilée"
+      ]
+    },
+    {
+      "token_string": "ndhi",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Gandhi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3936152934330046",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.813009260252926"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7189",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Gandhi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3936152934330046",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.813009260252926"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7183",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Gandhi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Gandhi"
+      ]
+    },
+    {
+      "token_string": "ston ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7186",
+              "@type": "tree:Node",
+              "token_string": "Horlait"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7187",
+              "@type": "tree:Node",
+              "token_string": "Lejeune"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7189",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Gaston Horlait",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0796759854980005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.60360336453215"
+        },
+        {
+          "http://example.com/terms#name": "Rue Gaston Lejeune",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.095314773580918",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.453945450740044"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment243.jsonld#7185",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Gaston Horlait"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Gaston Lejeune"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Horlait",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Gaston Horlait",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0796759854980005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.60360336453215"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7185",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Gaston Horlait",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0796759854980005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.60360336453215"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7186",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Gaston Horlait"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Gaston Horlait"
+      ]
+    },
+    {
+      "token_string": "Lejeune",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Gaston Lejeune",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.095314773580918",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.453945450740044"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7185",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Gaston Lejeune",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.095314773580918",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.453945450740044"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7187",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Gaston Lejeune"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Gaston Lejeune"
+      ]
+    },
+    {
+      "token_string": "G",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7189",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7190",
+              "@type": "tree:Node",
+              "token_string": "éo Libbrecht"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7199",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7206",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7214",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7218",
+              "@type": "tree:Node",
+              "token_string": "uillaume Natalis"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment253.jsonld#7407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Gabrielle de Coune",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.846369310384937",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.89500448692135"
+        },
+        {
+          "http://example.com/terms#name": "Rue Galilée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.54172259062456",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.32924194168434"
+        },
+        {
+          "http://example.com/terms#name": "Rue Gandhi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3936152934330046",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.813009260252926"
+        },
+        {
+          "http://example.com/terms#name": "Rue Gaston Horlait",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0796759854980005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.60360336453215"
+        },
+        {
+          "http://example.com/terms#name": "Rue Gaston Lejeune",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.095314773580918",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.453945450740044"
+        },
+        {
+          "http://example.com/terms#name": "Rue Georges Bouché",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.148776076718631",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.00154980255706"
+        },
+        {
+          "http://example.com/terms#name": "Rue Georges Cosse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.410033181256244",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.321430121332924"
+        },
+        {
+          "http://example.com/terms#name": "Rue Georges Delhaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4460192491144674",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.259814186267015"
+        },
+        {
+          "http://example.com/terms#name": "Rue Georges Hennemont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.718204686799633",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.01539467279624"
+        },
+        {
+          "http://example.com/terms#name": "Rue Georges Plumart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.121115586918066",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.7221144458425"
+        }
+      ],
+      "total_children_count": 30,
+      "@id": "streetsfragment243.jsonld#7188",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Gabrielle de Coune"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Galilée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Gandhi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Gaston Horlait"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Gaston Lejeune"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Georges Bouché"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Georges Cosse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Georges Delhaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Georges Hennemont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Georges Plumart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7181",
+              "@type": "tree:Node",
+              "token_string": "brielle de Coune"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7182",
+              "@type": "tree:Node",
+              "token_string": "lilée"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7183",
+              "@type": "tree:Node",
+              "token_string": "ndhi"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7185",
+              "@type": "tree:Node",
+              "token_string": "ston "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7188",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Gabrielle de Coune",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.846369310384937",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.89500448692135"
+        },
+        {
+          "http://example.com/terms#name": "Rue Galilée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.54172259062456",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.32924194168434"
+        },
+        {
+          "http://example.com/terms#name": "Rue Gandhi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3936152934330046",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.813009260252926"
+        },
+        {
+          "http://example.com/terms#name": "Rue Gaston Horlait",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0796759854980005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.60360336453215"
+        },
+        {
+          "http://example.com/terms#name": "Rue Gaston Lejeune",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.095314773580918",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.453945450740044"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment243.jsonld#7189",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Gabrielle de Coune"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Galilée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Gandhi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Gaston Horlait"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Gaston Lejeune"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "éo Libbrecht",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Géo Libbrecht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4752186898531168",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.40615529698571"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7188",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Géo Libbrecht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4752186898531168",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.40615529698571"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7190",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Géo Libbrecht"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Géo Libbrecht"
+      ]
+    },
+    {
+      "token_string": "Bouché",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Georges Bouché",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.148776076718631",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.00154980255706"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7200",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Georges Bouché",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.148776076718631",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.00154980255706"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7193",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Georges Bouché"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Georges Bouché"
+      ]
+    },
+    {
+      "token_string": "Cosse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Georges Cosse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.410033181256244",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.321430121332924"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7200",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Georges Cosse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.410033181256244",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.321430121332924"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7194",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Georges Cosse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Georges Cosse"
+      ]
+    },
+    {
+      "token_string": "Delhaye",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Georges Delhaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4460192491144674",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.259814186267015"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7200",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Georges Delhaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4460192491144674",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.259814186267015"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7195",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Georges Delhaye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Georges Delhaye"
+      ]
+    },
+    {
+      "token_string": "Hennemont",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Georges Hennemont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.718204686799633",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.01539467279624"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7200",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Georges Hennemont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.718204686799633",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.01539467279624"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7196",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Georges Hennemont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Georges Hennemont"
+      ]
+    },
+    {
+      "token_string": "Plumart",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Georges Plumart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.121115586918066",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.7221144458425"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7200",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Georges Plumart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.121115586918066",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.7221144458425"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7197",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Georges Plumart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Georges Plumart"
+      ]
+    },
+    {
+      "token_string": "Romedenne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Georges Romedenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9543196077925873",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.84692026193428"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7200",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Georges Romedenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9543196077925873",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.84692026193428"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7198",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Georges Romedenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Georges Romedenne"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7200",
+              "@type": "tree:Node",
+              "token_string": "orges "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7201",
+              "@type": "tree:Node",
+              "token_string": "rmaine Devalet"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7188",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Georges Bouché",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.148776076718631",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.00154980255706"
+        },
+        {
+          "http://example.com/terms#name": "Rue Georges Cosse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.410033181256244",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.321430121332924"
+        },
+        {
+          "http://example.com/terms#name": "Rue Georges Delhaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4460192491144674",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.259814186267015"
+        },
+        {
+          "http://example.com/terms#name": "Rue Georges Hennemont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.718204686799633",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.01539467279624"
+        },
+        {
+          "http://example.com/terms#name": "Rue Georges Plumart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.121115586918066",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.7221144458425"
+        },
+        {
+          "http://example.com/terms#name": "Rue Georges Romedenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9543196077925873",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.84692026193428"
+        },
+        {
+          "http://example.com/terms#name": "Rue Germaine Devalet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.939214943846981",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79576971033883"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "streetsfragment243.jsonld#7199",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Georges Bouché"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Georges Cosse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Georges Delhaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Georges Hennemont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Georges Plumart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Georges Romedenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Germaine Devalet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "orges ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7193",
+              "@type": "tree:Node",
+              "token_string": "Bouché"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7194",
+              "@type": "tree:Node",
+              "token_string": "Cosse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7195",
+              "@type": "tree:Node",
+              "token_string": "Delhaye"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7196",
+              "@type": "tree:Node",
+              "token_string": "Hennemont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7197",
+              "@type": "tree:Node",
+              "token_string": "Plumart"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7198",
+              "@type": "tree:Node",
+              "token_string": "Romedenne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7199",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Georges Bouché",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.148776076718631",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.00154980255706"
+        },
+        {
+          "http://example.com/terms#name": "Rue Georges Cosse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.410033181256244",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.321430121332924"
+        },
+        {
+          "http://example.com/terms#name": "Rue Georges Delhaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4460192491144674",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.259814186267015"
+        },
+        {
+          "http://example.com/terms#name": "Rue Georges Hennemont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.718204686799633",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.01539467279624"
+        },
+        {
+          "http://example.com/terms#name": "Rue Georges Plumart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.121115586918066",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.7221144458425"
+        },
+        {
+          "http://example.com/terms#name": "Rue Georges Romedenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9543196077925873",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.84692026193428"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment243.jsonld#7200",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Georges Bouché"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Georges Cosse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Georges Delhaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Georges Hennemont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Georges Plumart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Georges Romedenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rmaine Devalet",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Germaine Devalet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.939214943846981",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79576971033883"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7199",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Germaine Devalet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.939214943846981",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79576971033883"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7201",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Germaine Devalet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Germaine Devalet"
+      ]
+    },
+    {
+      "token_string": "bert Delahaye",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Gilbert Delahaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2612535903594075",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.15441279108569"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7207",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Gilbert Delahaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2612535903594075",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.15441279108569"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7204",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Gilbert Delahaye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Gilbert Delahaye"
+      ]
+    },
+    {
+      "token_string": "les de Laittres",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Gilles de Laittres",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.774851654180971",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.415531016225735"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7207",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Gilles de Laittres",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.774851654180971",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.415531016225735"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7205",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Gilles de Laittres"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Gilles de Laittres"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7207",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7208",
+              "@type": "tree:Node",
+              "token_string": "oconda"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7188",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Gilbert Delahaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2612535903594075",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.15441279108569"
+        },
+        {
+          "http://example.com/terms#name": "Rue Gilles de Laittres",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.774851654180971",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.415531016225735"
+        },
+        {
+          "http://example.com/terms#name": "Rue Gioconda",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.674312644708083",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62366671635395"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment243.jsonld#7206",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Gilbert Delahaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Gilles de Laittres"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Gioconda"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7204",
+              "@type": "tree:Node",
+              "token_string": "bert Delahaye"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7205",
+              "@type": "tree:Node",
+              "token_string": "les de Laittres"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7206",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Gilbert Delahaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2612535903594075",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.15441279108569"
+        },
+        {
+          "http://example.com/terms#name": "Rue Gilles de Laittres",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.774851654180971",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.415531016225735"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment243.jsonld#7207",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Gilbert Delahaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Gilles de Laittres"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "oconda",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Gioconda",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.674312644708083",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62366671635395"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7206",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Gioconda",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.674312644708083",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62366671635395"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7208",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Gioconda"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Gioconda"
+      ]
+    },
+    {
+      "token_string": "ham Bell",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Graham Bell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4559561358357147",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.870347224006444"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7215",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Graham Bell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4559561358357147",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.870347224006444"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7211",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Graham Bell"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Graham Bell"
+      ]
+    },
+    {
+      "token_string": "nde",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Grande",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7528651703134166",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.51825642333999"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7213",
+              "@type": "tree:Node",
+              "token_string": " Fagne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7215",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Grande",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7528651703134166",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.51825642333999"
+        },
+        {
+          "http://example.com/terms#name": "Rue Grande Fagne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8253878897618554",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.89776548553608"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "streetsfragment243.jsonld#7212",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Grande"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Grande Fagne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Grande"
+      ]
+    },
+    {
+      "token_string": " Fagne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Grande Fagne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8253878897618554",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.89776548553608"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7212",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Grande Fagne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8253878897618554",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.89776548553608"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7213",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Grande Fagne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Grande Fagne"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7215",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7216",
+              "@type": "tree:Node",
+              "token_string": "isaille"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7217",
+              "@type": "tree:Node",
+              "token_string": "ondal"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7188",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Graham Bell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4559561358357147",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.870347224006444"
+        },
+        {
+          "http://example.com/terms#name": "Rue Grande",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7528651703134166",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.51825642333999"
+        },
+        {
+          "http://example.com/terms#name": "Rue Grande Fagne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8253878897618554",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.89776548553608"
+        },
+        {
+          "http://example.com/terms#name": "Rue Grisaille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1181068433825714",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.62833133041443"
+        },
+        {
+          "http://example.com/terms#name": "Rue Grondal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4887169103509184",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.13525872885526"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment243.jsonld#7214",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Graham Bell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Grande"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Grande Fagne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Grisaille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Grondal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7211",
+              "@type": "tree:Node",
+              "token_string": "ham Bell"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment243.jsonld#7212",
+              "@type": "tree:Node",
+              "token_string": "nde"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7214",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Graham Bell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4559561358357147",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.870347224006444"
+        },
+        {
+          "http://example.com/terms#name": "Rue Grande",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7528651703134166",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.51825642333999"
+        },
+        {
+          "http://example.com/terms#name": "Rue Grande Fagne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8253878897618554",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.89776548553608"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment243.jsonld#7215",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Graham Bell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Grande"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Grande Fagne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "isaille",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Grisaille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1181068433825714",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.62833133041443"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7214",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Grisaille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1181068433825714",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.62833133041443"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7216",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Grisaille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Grisaille"
+      ]
+    },
+    {
+      "token_string": "ondal",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Grondal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4887169103509184",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.13525872885526"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7214",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Grondal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4887169103509184",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.13525872885526"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7217",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Grondal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Grondal"
+      ]
+    },
+    {
+      "token_string": "uillaume Natalis",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Guillaume Natalis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1519662389129404",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.31644143244184"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment243.jsonld#7188",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Guillaume Natalis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1519662389129404",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.31644143244184"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment243.jsonld#7218",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Guillaume Natalis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Guillaume Natalis"
+      ]
+    }
+  ]
+}

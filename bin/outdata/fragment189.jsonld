@@ -1,0 +1,55 @@
+{
+  "root_node_id": "5218",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment189.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Kemptgen",
+      "triples": [
+        {
+          "streetname": "Rue de Kemptgen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment169.jsonld#5880",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Kemptgen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment189.jsonld#5218",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Kemptgen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Kemptgen"
+      ]
+    }
+  ]
+}

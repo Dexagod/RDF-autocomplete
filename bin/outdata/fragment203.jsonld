@@ -1,0 +1,676 @@
+{
+  "root_node_id": "6035",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment203.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "corateurs",
+      "triples": [
+        {
+          "streetname": "Rue des Décorateurs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment203.jsonld#6036",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Décorateurs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment203.jsonld#6033",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Décorateurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Décorateurs"
+      ]
+    },
+    {
+      "token_string": "portés",
+      "triples": [
+        {
+          "streetname": "Rue des Déportés"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment203.jsonld#6036",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Déportés"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment203.jsonld#6034",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Déportés"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Déportés"
+      ]
+    },
+    {
+      "token_string": "D",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment203.jsonld#6036",
+              "@type": "tree:Node",
+              "token_string": "é"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment203.jsonld#6038",
+              "@type": "tree:Node",
+              "token_string": "eux "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment203.jsonld#6042",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment203.jsonld#6046",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment203.jsonld#6049",
+              "@type": "tree:Node",
+              "token_string": "roits de l'Homme"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment200.jsonld#6072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Décorateurs"
+        },
+        {
+          "streetname": "Rue des Déportés"
+        },
+        {
+          "streetname": "Rue des Deux Fontaines"
+        },
+        {
+          "streetname": "Rue des Deux Laiteries"
+        },
+        {
+          "streetname": "Rue des Digues"
+        },
+        {
+          "streetname": "Rue des Dizeaux"
+        },
+        {
+          "streetname": "Rue des Dochards"
+        },
+        {
+          "streetname": "Rue des Doyards"
+        },
+        {
+          "streetname": "Rue des Droits de l'Homme"
+        }
+      ],
+      "total_children_count": 13,
+      "@id": "fragment203.jsonld#6035",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Décorateurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Déportés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Deux Fontaines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Deux Laiteries"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Digues"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Dizeaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Dochards"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Doyards"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Droits de l'Homme"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "é",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment203.jsonld#6033",
+              "@type": "tree:Node",
+              "token_string": "corateurs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment203.jsonld#6034",
+              "@type": "tree:Node",
+              "token_string": "portés"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment203.jsonld#6035",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Décorateurs"
+        },
+        {
+          "streetname": "Rue des Déportés"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment203.jsonld#6036",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Décorateurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Déportés"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eux ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment203.jsonld#6039",
+              "@type": "tree:Node",
+              "token_string": "Fontaines"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment203.jsonld#6040",
+              "@type": "tree:Node",
+              "token_string": "Laiteries"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment203.jsonld#6035",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Deux Fontaines"
+        },
+        {
+          "streetname": "Rue des Deux Laiteries"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment203.jsonld#6038",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Deux Fontaines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Deux Laiteries"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Fontaines",
+      "triples": [
+        {
+          "streetname": "Rue des Deux Fontaines"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment203.jsonld#6038",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Deux Fontaines"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment203.jsonld#6039",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Deux Fontaines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Deux Fontaines"
+      ]
+    },
+    {
+      "token_string": "Laiteries",
+      "triples": [
+        {
+          "streetname": "Rue des Deux Laiteries"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment203.jsonld#6038",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Deux Laiteries"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment203.jsonld#6040",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Deux Laiteries"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Deux Laiteries"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment203.jsonld#6043",
+              "@type": "tree:Node",
+              "token_string": "gues"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment203.jsonld#6044",
+              "@type": "tree:Node",
+              "token_string": "zeaux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment203.jsonld#6035",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Digues"
+        },
+        {
+          "streetname": "Rue des Dizeaux"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment203.jsonld#6042",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Digues"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Dizeaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "gues",
+      "triples": [
+        {
+          "streetname": "Rue des Digues"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment203.jsonld#6042",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Digues"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment203.jsonld#6043",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Digues"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Digues"
+      ]
+    },
+    {
+      "token_string": "zeaux",
+      "triples": [
+        {
+          "streetname": "Rue des Dizeaux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment203.jsonld#6042",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Dizeaux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment203.jsonld#6044",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Dizeaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Dizeaux"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment203.jsonld#6047",
+              "@type": "tree:Node",
+              "token_string": "chards"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment203.jsonld#6048",
+              "@type": "tree:Node",
+              "token_string": "yards"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment203.jsonld#6035",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Dochards"
+        },
+        {
+          "streetname": "Rue des Doyards"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment203.jsonld#6046",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Dochards"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Doyards"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "chards",
+      "triples": [
+        {
+          "streetname": "Rue des Dochards"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment203.jsonld#6046",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Dochards"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment203.jsonld#6047",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Dochards"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Dochards"
+      ]
+    },
+    {
+      "token_string": "yards",
+      "triples": [
+        {
+          "streetname": "Rue des Doyards"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment203.jsonld#6046",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Doyards"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment203.jsonld#6048",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Doyards"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Doyards"
+      ]
+    },
+    {
+      "token_string": "roits de l'Homme",
+      "triples": [
+        {
+          "streetname": "Rue des Droits de l'Homme"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment203.jsonld#6035",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Droits de l'Homme"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment203.jsonld#6049",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Droits de l'Homme"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Droits de l'Homme"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3043 @@
+{
+  "root_node_id": "1935",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment85.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Delaive",
+      "triples": [
+        {
+          "streetname": "Clos Albert Delaive"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1928",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Albert Delaive"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#1925",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Albert Delaive"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Albert Delaive"
+      ]
+    },
+    {
+      "token_string": "Perikel",
+      "triples": [
+        {
+          "streetname": "Clos Albert Perikel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1928",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Albert Perikel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#1926",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Albert Perikel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Albert Perikel"
+      ]
+    },
+    {
+      "token_string": "lbert ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1925",
+              "@type": "tree:Node",
+              "token_string": "Delaive"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1926",
+              "@type": "tree:Node",
+              "token_string": "Perikel"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1936",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Albert Delaive"
+        },
+        {
+          "streetname": "Clos Albert Perikel"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment85.jsonld#1928",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Albert Delaive"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Albert Perikel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1931",
+              "@type": "tree:Node",
+              "token_string": "ne de Chantraine"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1932",
+              "@type": "tree:Node",
+              "token_string": "toine Delobel"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1936",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Anne de Chantraine"
+        },
+        {
+          "streetname": "Clos Antoine Delobel"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment85.jsonld#1930",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Anne de Chantraine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Antoine Delobel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ne de Chantraine",
+      "triples": [
+        {
+          "streetname": "Clos Anne de Chantraine"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1930",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Anne de Chantraine"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#1931",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Anne de Chantraine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Anne de Chantraine"
+      ]
+    },
+    {
+      "token_string": "toine Delobel",
+      "triples": [
+        {
+          "streetname": "Clos Antoine Delobel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1930",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Antoine Delobel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#1932",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Antoine Delobel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Antoine Delobel"
+      ]
+    },
+    {
+      "token_string": "riste Wouters",
+      "triples": [
+        {
+          "streetname": "Clos Ariste Wouters"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1936",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Ariste Wouters"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#1933",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Ariste Wouters"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Ariste Wouters"
+      ]
+    },
+    {
+      "token_string": "th-Plage",
+      "triples": [
+        {
+          "streetname": "Clos Ath-Plage"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1936",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Ath-Plage"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#1934",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Ath-Plage"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Ath-Plage"
+      ]
+    },
+    {
+      "token_string": "os ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1936",
+              "@type": "tree:Node",
+              "token_string": "A"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1938",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1942",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment78.jsonld#2003",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment83.jsonld#2227",
+              "@type": "tree:Node",
+              "token_string": "E"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment84.jsonld#2236",
+              "@type": "tree:Node",
+              "token_string": "F"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2244",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2251",
+              "@type": "tree:Node",
+              "token_string": "J"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2254",
+              "@type": "tree:Node",
+              "token_string": "Louise Pépé"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2262",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2266",
+              "@type": "tree:Node",
+              "token_string": "N"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2269",
+              "@type": "tree:Node",
+              "token_string": "Paul Regnier"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2270",
+              "@type": "tree:Node",
+              "token_string": "petite Waide"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2275",
+              "@type": "tree:Node",
+              "token_string": "R"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2290",
+              "@type": "tree:Node",
+              "token_string": "S"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2294",
+              "@type": "tree:Node",
+              "token_string": "T"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2298",
+              "@type": "tree:Node",
+              "token_string": "V"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1921",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Albert Delaive"
+        },
+        {
+          "streetname": "Clos Albert Perikel"
+        },
+        {
+          "streetname": "Clos Anne de Chantraine"
+        },
+        {
+          "streetname": "Clos Antoine Delobel"
+        },
+        {
+          "streetname": "Clos Ariste Wouters"
+        },
+        {
+          "streetname": "Clos Ath-Plage"
+        },
+        {
+          "streetname": "Clos Badon"
+        },
+        {
+          "streetname": "Clos Blanc"
+        },
+        {
+          "streetname": "Clos Cense du Sart"
+        },
+        {
+          "streetname": "Clos Champ Voie"
+        }
+      ],
+      "total_children_count": 289,
+      "@id": "fragment85.jsonld#1935",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Albert Delaive"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Albert Perikel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Anne de Chantraine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Antoine Delobel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Ariste Wouters"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Ath-Plage"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Badon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Blanc"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Cense du Sart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Champ Voie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1928",
+              "@type": "tree:Node",
+              "token_string": "lbert "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1930",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1933",
+              "@type": "tree:Node",
+              "token_string": "riste Wouters"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1934",
+              "@type": "tree:Node",
+              "token_string": "th-Plage"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Albert Delaive"
+        },
+        {
+          "streetname": "Clos Albert Perikel"
+        },
+        {
+          "streetname": "Clos Anne de Chantraine"
+        },
+        {
+          "streetname": "Clos Antoine Delobel"
+        },
+        {
+          "streetname": "Clos Ariste Wouters"
+        },
+        {
+          "streetname": "Clos Ath-Plage"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment85.jsonld#1936",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Albert Delaive"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Albert Perikel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Anne de Chantraine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Antoine Delobel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Ariste Wouters"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Ath-Plage"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1939",
+              "@type": "tree:Node",
+              "token_string": "adon"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1940",
+              "@type": "tree:Node",
+              "token_string": "lanc"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Badon"
+        },
+        {
+          "streetname": "Clos Blanc"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment85.jsonld#1938",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Badon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Blanc"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "adon",
+      "triples": [
+        {
+          "streetname": "Clos Badon"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1938",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Badon"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#1939",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Badon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Badon"
+      ]
+    },
+    {
+      "token_string": "lanc",
+      "triples": [
+        {
+          "streetname": "Clos Blanc"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1938",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Blanc"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#1940",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Blanc"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Blanc"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1943",
+              "@type": "tree:Node",
+              "token_string": "écile Douard"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1944",
+              "@type": "tree:Node",
+              "token_string": "ense du Sart"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1946",
+              "@type": "tree:Node",
+              "token_string": "ha"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Cécile Douard"
+        },
+        {
+          "streetname": "Clos Cense du Sart"
+        },
+        {
+          "streetname": "Clos Champ Voie"
+        },
+        {
+          "streetname": "Clos Charles Jarvis"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment85.jsonld#1942",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Cécile Douard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Cense du Sart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Champ Voie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Charles Jarvis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "écile Douard",
+      "triples": [
+        {
+          "streetname": "Clos Cécile Douard"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1942",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Cécile Douard"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#1943",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Cécile Douard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Cécile Douard"
+      ]
+    },
+    {
+      "token_string": "ense du Sart",
+      "triples": [
+        {
+          "streetname": "Clos Cense du Sart"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1942",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Cense du Sart"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#1944",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Cense du Sart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Cense du Sart"
+      ]
+    },
+    {
+      "token_string": "ha",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1947",
+              "@type": "tree:Node",
+              "token_string": "mp Voie"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1948",
+              "@type": "tree:Node",
+              "token_string": "rles Jarvis"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1942",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Champ Voie"
+        },
+        {
+          "streetname": "Clos Charles Jarvis"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment85.jsonld#1946",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Champ Voie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Charles Jarvis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "mp Voie",
+      "triples": [
+        {
+          "streetname": "Clos Champ Voie"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1946",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Champ Voie"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#1947",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Champ Voie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Champ Voie"
+      ]
+    },
+    {
+      "token_string": "rles Jarvis",
+      "triples": [
+        {
+          "streetname": "Clos Charles Jarvis"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1946",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Charles Jarvis"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#1948",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Charles Jarvis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Charles Jarvis"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2245",
+              "@type": "tree:Node",
+              "token_string": "ardy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2247",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Hardy"
+        },
+        {
+          "streetname": "Clos Henri Joset"
+        },
+        {
+          "streetname": "Clos Hesbignon"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment85.jsonld#2244",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Hardy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Henri Joset"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Hesbignon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ardy",
+      "triples": [
+        {
+          "streetname": "Clos Hardy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2244",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Hardy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2245",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Hardy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Hardy"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2248",
+              "@type": "tree:Node",
+              "token_string": "nri Joset"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2249",
+              "@type": "tree:Node",
+              "token_string": "sbignon"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2244",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Henri Joset"
+        },
+        {
+          "streetname": "Clos Hesbignon"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment85.jsonld#2247",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Henri Joset"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Hesbignon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "nri Joset",
+      "triples": [
+        {
+          "streetname": "Clos Henri Joset"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2247",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Henri Joset"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2248",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Henri Joset"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Henri Joset"
+      ]
+    },
+    {
+      "token_string": "sbignon",
+      "triples": [
+        {
+          "streetname": "Clos Hesbignon"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2247",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Hesbignon"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2249",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Hesbignon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Hesbignon"
+      ]
+    },
+    {
+      "token_string": "J",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2252",
+              "@type": "tree:Node",
+              "token_string": "acques Sabay"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2253",
+              "@type": "tree:Node",
+              "token_string": "uan Bury"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Jacques Sabay"
+        },
+        {
+          "streetname": "Clos Juan Bury"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment85.jsonld#2251",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Jacques Sabay"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Juan Bury"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "acques Sabay",
+      "triples": [
+        {
+          "streetname": "Clos Jacques Sabay"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2251",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Jacques Sabay"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2252",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Jacques Sabay"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Jacques Sabay"
+      ]
+    },
+    {
+      "token_string": "uan Bury",
+      "triples": [
+        {
+          "streetname": "Clos Juan Bury"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2251",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Juan Bury"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2253",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Juan Bury"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Juan Bury"
+      ]
+    },
+    {
+      "token_string": "Louise Pépé",
+      "triples": [
+        {
+          "streetname": "Clos Louise Pépé"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Louise Pépé"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2254",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Louise Pépé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Louise Pépé"
+      ]
+    },
+    {
+      "token_string": "ie Popelin",
+      "triples": [
+        {
+          "streetname": "Clos Marie Popelin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2260",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Marie Popelin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2257",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Marie Popelin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Marie Popelin"
+      ]
+    },
+    {
+      "token_string": "quet",
+      "triples": [
+        {
+          "streetname": "Clos Marquet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2260",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Marquet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2258",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Marquet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Marquet"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2257",
+              "@type": "tree:Node",
+              "token_string": "ie Popelin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2258",
+              "@type": "tree:Node",
+              "token_string": "quet"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2263",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Marie Popelin"
+        },
+        {
+          "streetname": "Clos Marquet"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment85.jsonld#2260",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Marie Popelin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Marquet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "urice Dease",
+      "triples": [
+        {
+          "streetname": "Clos Maurice Dease"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2263",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Maurice Dease"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2261",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Maurice Dease"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Maurice Dease"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2263",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2264",
+              "@type": "tree:Node",
+              "token_string": "ercator"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Marie Popelin"
+        },
+        {
+          "streetname": "Clos Marquet"
+        },
+        {
+          "streetname": "Clos Maurice Dease"
+        },
+        {
+          "streetname": "Clos Mercator"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment85.jsonld#2262",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Marie Popelin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Marquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Maurice Dease"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Mercator"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2260",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2261",
+              "@type": "tree:Node",
+              "token_string": "urice Dease"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2262",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Marie Popelin"
+        },
+        {
+          "streetname": "Clos Marquet"
+        },
+        {
+          "streetname": "Clos Maurice Dease"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment85.jsonld#2263",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Marie Popelin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Marquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Maurice Dease"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ercator",
+      "triples": [
+        {
+          "streetname": "Clos Mercator"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2262",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Mercator"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2264",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Mercator"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Mercator"
+      ]
+    },
+    {
+      "token_string": "N",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2267",
+              "@type": "tree:Node",
+              "token_string": "estor Nicaise"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2268",
+              "@type": "tree:Node",
+              "token_string": "icolas Colette"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Nestor Nicaise"
+        },
+        {
+          "streetname": "Clos Nicolas Colette"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment85.jsonld#2266",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Nestor Nicaise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Nicolas Colette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "estor Nicaise",
+      "triples": [
+        {
+          "streetname": "Clos Nestor Nicaise"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2266",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Nestor Nicaise"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2267",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Nestor Nicaise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Nestor Nicaise"
+      ]
+    },
+    {
+      "token_string": "icolas Colette",
+      "triples": [
+        {
+          "streetname": "Clos Nicolas Colette"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2266",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Nicolas Colette"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2268",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Nicolas Colette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Nicolas Colette"
+      ]
+    },
+    {
+      "token_string": "Paul Regnier",
+      "triples": [
+        {
+          "streetname": "Clos Paul Regnier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Paul Regnier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2269",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Paul Regnier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Paul Regnier"
+      ]
+    },
+    {
+      "token_string": "petite Waide",
+      "triples": [
+        {
+          "streetname": "Clos petite Waide"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos petite Waide"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2270",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos petite Waide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos petite Waide"
+      ]
+    },
+    {
+      "token_string": "mi Van Den Abeele",
+      "triples": [
+        {
+          "streetname": "Clos Remi Van Den Abeele"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2276",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Remi Van Den Abeele"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2273",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Remi Van Den Abeele"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Remi Van Den Abeele"
+      ]
+    },
+    {
+      "token_string": "née Lemaire",
+      "triples": [
+        {
+          "streetname": "Clos Renée Lemaire"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2276",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Renée Lemaire"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2274",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Renée Lemaire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Renée Lemaire"
+      ]
+    },
+    {
+      "token_string": "R",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2276",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2277",
+              "@type": "tree:Node",
+              "token_string": "oland Ensch"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Remi Van Den Abeele"
+        },
+        {
+          "streetname": "Clos Renée Lemaire"
+        },
+        {
+          "streetname": "Clos Roland Ensch"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment85.jsonld#2275",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Remi Van Den Abeele"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Renée Lemaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Roland Ensch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2273",
+              "@type": "tree:Node",
+              "token_string": "mi Van Den Abeele"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2274",
+              "@type": "tree:Node",
+              "token_string": "née Lemaire"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2275",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Remi Van Den Abeele"
+        },
+        {
+          "streetname": "Clos Renée Lemaire"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment85.jsonld#2276",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Remi Van Den Abeele"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Renée Lemaire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "oland Ensch",
+      "triples": [
+        {
+          "streetname": "Clos Roland Ensch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2275",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Roland Ensch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2277",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Roland Ensch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Roland Ensch"
+      ]
+    },
+    {
+      "token_string": " Jacques",
+      "triples": [
+        {
+          "streetname": "Clos Saint Jacques"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2288",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Saint Jacques"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2281",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint Jacques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Saint Jacques"
+      ]
+    },
+    {
+      "token_string": "-",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2283",
+              "@type": "tree:Node",
+              "token_string": "Georges"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2284",
+              "@type": "tree:Node",
+              "token_string": "Lambert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2285",
+              "@type": "tree:Node",
+              "token_string": "Macaire"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2286",
+              "@type": "tree:Node",
+              "token_string": "Pierre"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2288",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Saint-Georges"
+        },
+        {
+          "streetname": "Clos Saint-Lambert"
+        },
+        {
+          "streetname": "Clos Saint-Macaire"
+        },
+        {
+          "streetname": "Clos Saint-Pierre"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment85.jsonld#2282",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint-Georges"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Lambert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Macaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Pierre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Georges",
+      "triples": [
+        {
+          "streetname": "Clos Saint-Georges"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Saint-Georges"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2283",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint-Georges"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Saint-Georges"
+      ]
+    },
+    {
+      "token_string": "Lambert",
+      "triples": [
+        {
+          "streetname": "Clos Saint-Lambert"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Saint-Lambert"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2284",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint-Lambert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Saint-Lambert"
+      ]
+    },
+    {
+      "token_string": "Macaire",
+      "triples": [
+        {
+          "streetname": "Clos Saint-Macaire"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Saint-Macaire"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2285",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint-Macaire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Saint-Macaire"
+      ]
+    },
+    {
+      "token_string": "Pierre",
+      "triples": [
+        {
+          "streetname": "Clos Saint-Pierre"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Saint-Pierre"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2286",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint-Pierre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Saint-Pierre"
+      ]
+    },
+    {
+      "token_string": "int",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2281",
+              "@type": "tree:Node",
+              "token_string": " Jacques"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2282",
+              "@type": "tree:Node",
+              "token_string": "-"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2291",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Saint-Georges"
+        },
+        {
+          "streetname": "Clos Saint Jacques"
+        },
+        {
+          "streetname": "Clos Saint-Lambert"
+        },
+        {
+          "streetname": "Clos Saint-Macaire"
+        },
+        {
+          "streetname": "Clos Saint-Pierre"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment85.jsonld#2288",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint-Georges"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint Jacques"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Lambert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Macaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Pierre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ns nom",
+      "triples": [
+        {
+          "streetname": "Clos Sans nom"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2291",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Sans nom"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2289",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Sans nom"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Sans nom"
+      ]
+    },
+    {
+      "token_string": "S",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2291",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2292",
+              "@type": "tree:Node",
+              "token_string": "idney Godley"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Saint-Georges"
+        },
+        {
+          "streetname": "Clos Saint Jacques"
+        },
+        {
+          "streetname": "Clos Saint-Lambert"
+        },
+        {
+          "streetname": "Clos Saint-Macaire"
+        },
+        {
+          "streetname": "Clos Saint-Pierre"
+        },
+        {
+          "streetname": "Clos Sans nom"
+        },
+        {
+          "streetname": "Clos Sidney Godley"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "fragment85.jsonld#2290",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint-Georges"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint Jacques"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Lambert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Macaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Pierre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Sans nom"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Sidney Godley"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2288",
+              "@type": "tree:Node",
+              "token_string": "int"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2289",
+              "@type": "tree:Node",
+              "token_string": "ns nom"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2290",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Saint-Georges"
+        },
+        {
+          "streetname": "Clos Saint Jacques"
+        },
+        {
+          "streetname": "Clos Saint-Lambert"
+        },
+        {
+          "streetname": "Clos Saint-Macaire"
+        },
+        {
+          "streetname": "Clos Saint-Pierre"
+        },
+        {
+          "streetname": "Clos Sans nom"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment85.jsonld#2291",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint-Georges"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint Jacques"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Lambert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Macaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Pierre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Sans nom"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "idney Godley",
+      "triples": [
+        {
+          "streetname": "Clos Sidney Godley"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2290",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Sidney Godley"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2292",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Sidney Godley"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Sidney Godley"
+      ]
+    },
+    {
+      "token_string": "T",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2295",
+              "@type": "tree:Node",
+              "token_string": "heodore Wright"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2296",
+              "@type": "tree:Node",
+              "token_string": "ûr Pouillart"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Theodore Wright"
+        },
+        {
+          "streetname": "Clos Tûr Pouillart"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment85.jsonld#2294",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Theodore Wright"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Tûr Pouillart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "heodore Wright",
+      "triples": [
+        {
+          "streetname": "Clos Theodore Wright"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2294",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Theodore Wright"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2295",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Theodore Wright"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Theodore Wright"
+      ]
+    },
+    {
+      "token_string": "ûr Pouillart",
+      "triples": [
+        {
+          "streetname": "Clos Tûr Pouillart"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2294",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Tûr Pouillart"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2296",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Tûr Pouillart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Tûr Pouillart"
+      ]
+    },
+    {
+      "token_string": "V",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2299",
+              "@type": "tree:Node",
+              "token_string": "alentine De Vos"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2300",
+              "@type": "tree:Node",
+              "token_string": "ert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#2301",
+              "@type": "tree:Node",
+              "token_string": "oltaire"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Valentine De Vos"
+        },
+        {
+          "streetname": "Clos Vert"
+        },
+        {
+          "streetname": "Clos Voltaire"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment85.jsonld#2298",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Valentine De Vos"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Vert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Voltaire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "alentine De Vos",
+      "triples": [
+        {
+          "streetname": "Clos Valentine De Vos"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2298",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Valentine De Vos"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2299",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Valentine De Vos"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Valentine De Vos"
+      ]
+    },
+    {
+      "token_string": "ert",
+      "triples": [
+        {
+          "streetname": "Clos Vert"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2298",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Vert"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2300",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Vert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Vert"
+      ]
+    },
+    {
+      "token_string": "oltaire",
+      "triples": [
+        {
+          "streetname": "Clos Voltaire"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#2298",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Voltaire"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment85.jsonld#2301",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Voltaire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Voltaire"
+      ]
+    }
+  ]
+}

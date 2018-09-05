@@ -1,0 +1,242 @@
+{
+  "root_node_id": "789",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment13.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Chamont",
+      "triples": [
+        {
+          "streetname": "Bois de Chamont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment13.jsonld#789",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bois de Chamont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment13.jsonld#785",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bois de Chamont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bois de Chamont"
+      ]
+    },
+    {
+      "token_string": "Géronsarts",
+      "triples": [
+        {
+          "streetname": "Bois de Géronsarts"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment13.jsonld#789",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bois de Géronsarts"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment13.jsonld#786",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bois de Géronsarts"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bois de Géronsarts"
+      ]
+    },
+    {
+      "token_string": "la Bouhaye",
+      "triples": [
+        {
+          "streetname": "Bois de la Bouhaye"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment13.jsonld#789",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bois de la Bouhaye"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment13.jsonld#787",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bois de la Bouhaye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bois de la Bouhaye"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment13.jsonld#785",
+              "@type": "tree:Node",
+              "token_string": "Chamont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment13.jsonld#786",
+              "@type": "tree:Node",
+              "token_string": "Géronsarts"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment13.jsonld#787",
+              "@type": "tree:Node",
+              "token_string": "la Bouhaye"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment13.jsonld#794",
+              "@type": "tree:Node",
+              "token_string": "Tellin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment14.jsonld#796",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bois de Chamont"
+        },
+        {
+          "streetname": "Bois de Géronsarts"
+        },
+        {
+          "streetname": "Bois de la Bouhaye"
+        },
+        {
+          "streetname": "Bois de Tellin"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment13.jsonld#789",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bois de Chamont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bois de Géronsarts"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bois de la Bouhaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bois de Tellin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Tellin",
+      "triples": [
+        {
+          "streetname": "Bois de Tellin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment13.jsonld#789",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bois de Tellin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment13.jsonld#794",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bois de Tellin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bois de Tellin"
+      ]
+    }
+  ]
+}

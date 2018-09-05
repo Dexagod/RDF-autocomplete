@@ -1,0 +1,4612 @@
+{
+  "root_node_id": "4554",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment148.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "park",
+      "triples": [
+        {
+          "streetname": "Raaffpark"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4546",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Raaffpark"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4543",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Raaffpark"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Raaffpark"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "streetname": "Raaffstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4546",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Raaffstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4544",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Raaffstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Raaffstrasse"
+      ]
+    },
+    {
+      "token_string": "aff",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4543",
+              "@type": "tree:Node",
+              "token_string": "park"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4544",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4555",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Raaffpark"
+        },
+        {
+          "streetname": "Raaffstrasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment148.jsonld#4546",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Raaffpark"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Raaffstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "darstation",
+      "triples": [
+        {
+          "streetname": "Radarstation"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4555",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Radarstation"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4549",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Radarstation"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Radarstation"
+      ]
+    },
+    {
+      "token_string": "eren",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4552",
+              "@type": "tree:Node",
+              "token_string": "er Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4553",
+              "@type": "tree:Node",
+              "token_string": "pfad"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4555",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Raerener Strasse"
+        },
+        {
+          "streetname": "Raerenpfad"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment148.jsonld#4551",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Raerener Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Raerenpfad"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "er Strasse",
+      "triples": [
+        {
+          "streetname": "Raerener Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4551",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Raerener Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4552",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Raerener Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Raerener Strasse"
+      ]
+    },
+    {
+      "token_string": "pfad",
+      "triples": [
+        {
+          "streetname": "Raerenpfad"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4551",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Raerenpfad"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4553",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Raerenpfad"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Raerenpfad"
+      ]
+    },
+    {
+      "token_string": "R",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4555",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4556",
+              "@type": "tree:Node",
+              "token_string": "äfenträgersweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment154.jsonld#4568",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4581",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4586",
+              "@type": "tree:Node",
+              "token_string": "ésidence d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4598",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4616",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4638",
+              "@type": "tree:Node",
+              "token_string": "ö"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#6582",
+              "@type": "tree:Node",
+              "token_string": "UE DU "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment160.jsonld#7894",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#7900",
+              "@type": "tree:Node",
+              "token_string": "y des Chenaux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment1.jsonld#1",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "R Croix de Livarchamps"
+        },
+        {
+          "streetname": "R de la Ferme des Trois Moulins"
+        },
+        {
+          "streetname": "R de la Fleur de Bouquette"
+        },
+        {
+          "streetname": "R de l'Echo des Carrières"
+        },
+        {
+          "streetname": "R des Combattans de Vezon"
+        },
+        {
+          "streetname": "R entre Sûre et Strange"
+        },
+        {
+          "streetname": "R Marie-Augustine Leclercq"
+        },
+        {
+          "streetname": "R Ste-Marie des Champs"
+        },
+        {
+          "streetname": "RUE DU BUREAU"
+        },
+        {
+          "streetname": "R Vallée de la Sûre"
+        }
+      ],
+      "total_children_count": 2548,
+      "@id": "fragment148.jsonld#4554",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "R Croix de Livarchamps"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "R de la Ferme des Trois Moulins"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "R de la Fleur de Bouquette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "R de l'Echo des Carrières"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "R des Combattans de Vezon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "R entre Sûre et Strange"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "R Marie-Augustine Leclercq"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "R Ste-Marie des Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "RUE DU BUREAU"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "R Vallée de la Sûre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4546",
+              "@type": "tree:Node",
+              "token_string": "aff"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment147.jsonld#4547",
+              "@type": "tree:Node",
+              "token_string": "botrath"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4549",
+              "@type": "tree:Node",
+              "token_string": "darstation"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4551",
+              "@type": "tree:Node",
+              "token_string": "eren"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4558",
+              "@type": "tree:Node",
+              "token_string": "mpe d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4561",
+              "@type": "tree:Node",
+              "token_string": "ndoux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4563",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4566",
+              "@type": "tree:Node",
+              "token_string": "venhaus"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Raaffpark"
+        },
+        {
+          "streetname": "Raaffstrasse"
+        },
+        {
+          "streetname": "Rabotrath"
+        },
+        {
+          "streetname": "Rabotrather Strasse"
+        },
+        {
+          "streetname": "Radarstation"
+        },
+        {
+          "streetname": "Raerener Strasse"
+        },
+        {
+          "streetname": "Raerenpfad"
+        },
+        {
+          "streetname": "Rampe de la Forge"
+        },
+        {
+          "streetname": "Rampe du Comte Albert II"
+        },
+        {
+          "streetname": "Randoux"
+        }
+      ],
+      "total_children_count": 17,
+      "@id": "fragment148.jsonld#4555",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Raaffpark"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Raaffstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rabotrath"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rabotrather Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Radarstation"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Raerener Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Raerenpfad"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rampe de la Forge"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rampe du Comte Albert II"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Randoux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "äfenträgersweg",
+      "triples": [
+        {
+          "streetname": "Räfenträgersweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Räfenträgersweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4556",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Räfenträgersweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Räfenträgersweg"
+      ]
+    },
+    {
+      "token_string": "mpe d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4559",
+              "@type": "tree:Node",
+              "token_string": "e la Forge"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4560",
+              "@type": "tree:Node",
+              "token_string": "u Comte Albert II"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4555",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rampe de la Forge"
+        },
+        {
+          "streetname": "Rampe du Comte Albert II"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment148.jsonld#4558",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rampe de la Forge"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rampe du Comte Albert II"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e la Forge",
+      "triples": [
+        {
+          "streetname": "Rampe de la Forge"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4558",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rampe de la Forge"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4559",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rampe de la Forge"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rampe de la Forge"
+      ]
+    },
+    {
+      "token_string": "u Comte Albert II",
+      "triples": [
+        {
+          "streetname": "Rampe du Comte Albert II"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4558",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rampe du Comte Albert II"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4560",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rampe du Comte Albert II"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rampe du Comte Albert II"
+      ]
+    },
+    {
+      "token_string": "ndoux",
+      "triples": [
+        {
+          "streetname": "Randoux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4555",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Randoux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4561",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Randoux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Randoux"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4564",
+              "@type": "tree:Node",
+              "token_string": "hausplatz"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4565",
+              "@type": "tree:Node",
+              "token_string": "tenhaus"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4555",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rathausplatz"
+        },
+        {
+          "streetname": "Rattenhaus"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment148.jsonld#4563",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rathausplatz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rattenhaus"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "hausplatz",
+      "triples": [
+        {
+          "streetname": "Rathausplatz"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4563",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rathausplatz"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4564",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rathausplatz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rathausplatz"
+      ]
+    },
+    {
+      "token_string": "tenhaus",
+      "triples": [
+        {
+          "streetname": "Rattenhaus"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4563",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rattenhaus"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4565",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rattenhaus"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rattenhaus"
+      ]
+    },
+    {
+      "token_string": "venhaus",
+      "triples": [
+        {
+          "streetname": "Ravenhaus"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4555",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Ravenhaus"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4566",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ravenhaus"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ravenhaus"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4582",
+              "@type": "tree:Node",
+              "token_string": "chter Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4583",
+              "@type": "tree:Node",
+              "token_string": "ktor-Cremer-Straße"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4589",
+              "@type": "tree:Node",
+              "token_string": "sidenz Europa"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4591",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rechter Strasse"
+        },
+        {
+          "streetname": "Rektor-Cremer-Straße"
+        },
+        {
+          "streetname": "Residenz Europa"
+        },
+        {
+          "streetname": "Reuland-Bahnhof"
+        },
+        {
+          "streetname": "Reutergasse"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment148.jsonld#4581",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rechter Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rektor-Cremer-Straße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Residenz Europa"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Reuland-Bahnhof"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Reutergasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "chter Strasse",
+      "triples": [
+        {
+          "streetname": "Rechter Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4581",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rechter Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4582",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rechter Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rechter Strasse"
+      ]
+    },
+    {
+      "token_string": "ktor-Cremer-Straße",
+      "triples": [
+        {
+          "streetname": "Rektor-Cremer-Straße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4581",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rektor-Cremer-Straße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4583",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rektor-Cremer-Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rektor-Cremer-Straße"
+      ]
+    },
+    {
+      "token_string": "ésidence d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4587",
+              "@type": "tree:Node",
+              "token_string": "e la Baille"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4588",
+              "@type": "tree:Node",
+              "token_string": "u Pont du Berger"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Résidence de la Baille"
+        },
+        {
+          "streetname": "Résidence du Pont du Berger"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment148.jsonld#4586",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Résidence de la Baille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Résidence du Pont du Berger"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e la Baille",
+      "triples": [
+        {
+          "streetname": "Résidence de la Baille"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4586",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Résidence de la Baille"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4587",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Résidence de la Baille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Résidence de la Baille"
+      ]
+    },
+    {
+      "token_string": "u Pont du Berger",
+      "triples": [
+        {
+          "streetname": "Résidence du Pont du Berger"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4586",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Résidence du Pont du Berger"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4588",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Résidence du Pont du Berger"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Résidence du Pont du Berger"
+      ]
+    },
+    {
+      "token_string": "sidenz Europa",
+      "triples": [
+        {
+          "streetname": "Residenz Europa"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4581",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Residenz Europa"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4589",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Residenz Europa"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Residenz Europa"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4592",
+              "@type": "tree:Node",
+              "token_string": "land-Bahnhof"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4593",
+              "@type": "tree:Node",
+              "token_string": "tergasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4581",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Reuland-Bahnhof"
+        },
+        {
+          "streetname": "Reutergasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment148.jsonld#4591",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Reuland-Bahnhof"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Reutergasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "land-Bahnhof",
+      "triples": [
+        {
+          "streetname": "Reuland-Bahnhof"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4591",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Reuland-Bahnhof"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4592",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Reuland-Bahnhof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Reuland-Bahnhof"
+      ]
+    },
+    {
+      "token_string": "tergasse",
+      "triples": [
+        {
+          "streetname": "Reutergasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4591",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Reutergasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4593",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Reutergasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Reutergasse"
+      ]
+    },
+    {
+      "token_string": "htenberg",
+      "triples": [
+        {
+          "streetname": "Richtenberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4599",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Richtenberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4596",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Richtenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Richtenberg"
+      ]
+    },
+    {
+      "token_string": "kshelderweg",
+      "triples": [
+        {
+          "streetname": "Rickshelderweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4599",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rickshelderweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4597",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rickshelderweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rickshelderweg"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4599",
+              "@type": "tree:Node",
+              "token_string": "c"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4600",
+              "@type": "tree:Node",
+              "token_string": "ddebure"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4601",
+              "@type": "tree:Node",
+              "token_string": "èssonsart"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4603",
+              "@type": "tree:Node",
+              "token_string": "vage d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4610",
+              "@type": "tree:Node",
+              "token_string": "zzahof"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Richtenberg"
+        },
+        {
+          "streetname": "Rickshelderweg"
+        },
+        {
+          "streetname": "Riddebure"
+        },
+        {
+          "streetname": "Rièssonsart"
+        },
+        {
+          "streetname": "Rivage des Vanneaux"
+        },
+        {
+          "streetname": "Rivage du Bruille"
+        },
+        {
+          "streetname": "Rivage du Maire"
+        },
+        {
+          "streetname": "Rivage du Pontonnier"
+        },
+        {
+          "streetname": "Rizzahof"
+        }
+      ],
+      "total_children_count": 12,
+      "@id": "fragment148.jsonld#4598",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Richtenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rickshelderweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Riddebure"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rièssonsart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rivage des Vanneaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rivage du Bruille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rivage du Maire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rivage du Pontonnier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rizzahof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "c",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4596",
+              "@type": "tree:Node",
+              "token_string": "htenberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4597",
+              "@type": "tree:Node",
+              "token_string": "kshelderweg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4598",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Richtenberg"
+        },
+        {
+          "streetname": "Rickshelderweg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment148.jsonld#4599",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Richtenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rickshelderweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ddebure",
+      "triples": [
+        {
+          "streetname": "Riddebure"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4598",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Riddebure"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4600",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Riddebure"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Riddebure"
+      ]
+    },
+    {
+      "token_string": "èssonsart",
+      "triples": [
+        {
+          "streetname": "Rièssonsart"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4598",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rièssonsart"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4601",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rièssonsart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rièssonsart"
+      ]
+    },
+    {
+      "token_string": "vage d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4604",
+              "@type": "tree:Node",
+              "token_string": "es Vanneaux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4606",
+              "@type": "tree:Node",
+              "token_string": "u "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4598",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rivage des Vanneaux"
+        },
+        {
+          "streetname": "Rivage du Bruille"
+        },
+        {
+          "streetname": "Rivage du Maire"
+        },
+        {
+          "streetname": "Rivage du Pontonnier"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment148.jsonld#4603",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rivage des Vanneaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rivage du Bruille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rivage du Maire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rivage du Pontonnier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "es Vanneaux",
+      "triples": [
+        {
+          "streetname": "Rivage des Vanneaux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4603",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rivage des Vanneaux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4604",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rivage des Vanneaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rivage des Vanneaux"
+      ]
+    },
+    {
+      "token_string": "u ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4607",
+              "@type": "tree:Node",
+              "token_string": "Bruille"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4608",
+              "@type": "tree:Node",
+              "token_string": "Maire"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4609",
+              "@type": "tree:Node",
+              "token_string": "Pontonnier"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4603",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rivage du Bruille"
+        },
+        {
+          "streetname": "Rivage du Maire"
+        },
+        {
+          "streetname": "Rivage du Pontonnier"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment148.jsonld#4606",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rivage du Bruille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rivage du Maire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rivage du Pontonnier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Bruille",
+      "triples": [
+        {
+          "streetname": "Rivage du Bruille"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4606",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rivage du Bruille"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4607",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rivage du Bruille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rivage du Bruille"
+      ]
+    },
+    {
+      "token_string": "Maire",
+      "triples": [
+        {
+          "streetname": "Rivage du Maire"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4606",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rivage du Maire"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4608",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rivage du Maire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rivage du Maire"
+      ]
+    },
+    {
+      "token_string": "Pontonnier",
+      "triples": [
+        {
+          "streetname": "Rivage du Pontonnier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4606",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rivage du Pontonnier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4609",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rivage du Pontonnier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rivage du Pontonnier"
+      ]
+    },
+    {
+      "token_string": "zzahof",
+      "triples": [
+        {
+          "streetname": "Rizzahof"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4598",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rizzahof"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4610",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rizzahof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rizzahof"
+      ]
+    },
+    {
+      "token_string": "ert-Wetzlar-Strasse",
+      "triples": [
+        {
+          "streetname": "Robert-Wetzlar-Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4617",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Robert-Wetzlar-Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4614",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Robert-Wetzlar-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Robert-Wetzlar-Strasse"
+      ]
+    },
+    {
+      "token_string": "in Thier",
+      "triples": [
+        {
+          "streetname": "Robin Thier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4617",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Robin Thier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4615",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Robin Thier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Robin Thier"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4617",
+              "@type": "tree:Node",
+              "token_string": "b"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4619",
+              "@type": "tree:Node",
+              "token_string": "ch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4627",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4635",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4642",
+              "@type": "tree:Node",
+              "token_string": "nd-"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4654",
+              "@type": "tree:Node",
+              "token_string": "sen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4663",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment153.jsonld#4866",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4870",
+              "@type": "tree:Node",
+              "token_string": "ver"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Robert-Wetzlar-Strasse"
+        },
+        {
+          "streetname": "Robin Thier"
+        },
+        {
+          "streetname": "Rocherath"
+        },
+        {
+          "streetname": "Rochuskapelle"
+        },
+        {
+          "streetname": "Roderstal"
+        },
+        {
+          "streetname": "Rodescht"
+        },
+        {
+          "streetname": "Rodt"
+        },
+        {
+          "streetname": "Rodter Strasse"
+        },
+        {
+          "streetname": "Rodter Weg"
+        },
+        {
+          "streetname": "Roereken"
+        }
+      ],
+      "total_children_count": 194,
+      "@id": "fragment148.jsonld#4616",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Robert-Wetzlar-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Robin Thier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rocherath"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rochuskapelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Roderstal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rodescht"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rodt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rodter Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rodter Weg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Roereken"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "b",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4614",
+              "@type": "tree:Node",
+              "token_string": "ert-Wetzlar-Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4615",
+              "@type": "tree:Node",
+              "token_string": "in Thier"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4616",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Robert-Wetzlar-Strasse"
+        },
+        {
+          "streetname": "Robin Thier"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment148.jsonld#4617",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Robert-Wetzlar-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Robin Thier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ch",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4620",
+              "@type": "tree:Node",
+              "token_string": "erath"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4621",
+              "@type": "tree:Node",
+              "token_string": "uskapelle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4616",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rocherath"
+        },
+        {
+          "streetname": "Rochuskapelle"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment148.jsonld#4619",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rocherath"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rochuskapelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erath",
+      "triples": [
+        {
+          "streetname": "Rocherath"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4619",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rocherath"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4620",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rocherath"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rocherath"
+      ]
+    },
+    {
+      "token_string": "uskapelle",
+      "triples": [
+        {
+          "streetname": "Rochuskapelle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4619",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rochuskapelle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4621",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rochuskapelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rochuskapelle"
+      ]
+    },
+    {
+      "token_string": "rstal",
+      "triples": [
+        {
+          "streetname": "Roderstal"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4628",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Roderstal"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4624",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Roderstal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Roderstal"
+      ]
+    },
+    {
+      "token_string": "scht",
+      "triples": [
+        {
+          "streetname": "Rodescht"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4628",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rodescht"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4625",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rodescht"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rodescht"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4628",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4629",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4616",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Roderstal"
+        },
+        {
+          "streetname": "Rodescht"
+        },
+        {
+          "streetname": "Rodt"
+        },
+        {
+          "streetname": "Rodter Strasse"
+        },
+        {
+          "streetname": "Rodter Weg"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment148.jsonld#4627",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Roderstal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rodescht"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rodt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rodter Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rodter Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4624",
+              "@type": "tree:Node",
+              "token_string": "rstal"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4625",
+              "@type": "tree:Node",
+              "token_string": "scht"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4627",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Roderstal"
+        },
+        {
+          "streetname": "Rodescht"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment148.jsonld#4628",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Roderstal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rodescht"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "t",
+      "triples": [
+        {
+          "streetname": "Rodt"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4631",
+              "@type": "tree:Node",
+              "token_string": "er "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4627",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rodt"
+        },
+        {
+          "streetname": "Rodter Strasse"
+        },
+        {
+          "streetname": "Rodter Weg"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment148.jsonld#4629",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rodt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rodter Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rodter Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rodt"
+      ]
+    },
+    {
+      "token_string": "er ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4632",
+              "@type": "tree:Node",
+              "token_string": "Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4633",
+              "@type": "tree:Node",
+              "token_string": "Weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4629",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rodter Strasse"
+        },
+        {
+          "streetname": "Rodter Weg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment148.jsonld#4631",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rodter Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rodter Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Strasse",
+      "triples": [
+        {
+          "streetname": "Rodter Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4631",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rodter Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4632",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rodter Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rodter Strasse"
+      ]
+    },
+    {
+      "token_string": "Weg",
+      "triples": [
+        {
+          "streetname": "Rodter Weg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4631",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rodter Weg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4633",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rodter Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rodter Weg"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4636",
+              "@type": "tree:Node",
+              "token_string": "reken"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4637",
+              "@type": "tree:Node",
+              "token_string": "tgener Strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4616",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Roereken"
+        },
+        {
+          "streetname": "Roetgener Strasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment148.jsonld#4635",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Roereken"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Roetgener Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "reken",
+      "triples": [
+        {
+          "streetname": "Roereken"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4635",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Roereken"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4636",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Roereken"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Roereken"
+      ]
+    },
+    {
+      "token_string": "tgener Strasse",
+      "triples": [
+        {
+          "streetname": "Roetgener Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4635",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Roetgener Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4637",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Roetgener Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Roetgener Strasse"
+      ]
+    },
+    {
+      "token_string": "ö",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4639",
+              "@type": "tree:Node",
+              "token_string": "dgen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4640",
+              "@type": "tree:Node",
+              "token_string": "merstraße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rödgen"
+        },
+        {
+          "streetname": "Römerstraße"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment148.jsonld#4638",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rödgen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Römerstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "dgen",
+      "triples": [
+        {
+          "streetname": "Rödgen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4638",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rödgen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4639",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rödgen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rödgen"
+      ]
+    },
+    {
+      "token_string": "merstraße",
+      "triples": [
+        {
+          "streetname": "Römerstraße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4638",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Römerstraße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4640",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Römerstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Römerstraße"
+      ]
+    },
+    {
+      "token_string": "nd-",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4643",
+              "@type": "tree:Node",
+              "token_string": "Chenêt"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4645",
+              "@type": "tree:Node",
+              "token_string": "point "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4650",
+              "@type": "tree:Node",
+              "token_string": "Point "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4616",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rond-Chenêt"
+        },
+        {
+          "streetname": "Rond-point Armand Delsemme"
+        },
+        {
+          "streetname": "Rond-point du Scoutisme"
+        },
+        {
+          "streetname": "Rond-point Europax"
+        },
+        {
+          "streetname": "Rond-Point Marcel Florkin"
+        },
+        {
+          "streetname": "Rond-Point Simone David-Constant"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment148.jsonld#4642",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rond-Chenêt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rond-point Armand Delsemme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rond-point du Scoutisme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rond-point Europax"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rond-Point Marcel Florkin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rond-Point Simone David-Constant"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Chenêt",
+      "triples": [
+        {
+          "streetname": "Rond-Chenêt"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4642",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rond-Chenêt"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4643",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rond-Chenêt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rond-Chenêt"
+      ]
+    },
+    {
+      "token_string": "point ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4646",
+              "@type": "tree:Node",
+              "token_string": "Armand Delsemme"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4647",
+              "@type": "tree:Node",
+              "token_string": "du Scoutisme"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4648",
+              "@type": "tree:Node",
+              "token_string": "Europax"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4642",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rond-point Armand Delsemme"
+        },
+        {
+          "streetname": "Rond-point du Scoutisme"
+        },
+        {
+          "streetname": "Rond-point Europax"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment148.jsonld#4645",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rond-point Armand Delsemme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rond-point du Scoutisme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rond-point Europax"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Armand Delsemme",
+      "triples": [
+        {
+          "streetname": "Rond-point Armand Delsemme"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4645",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rond-point Armand Delsemme"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4646",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rond-point Armand Delsemme"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rond-point Armand Delsemme"
+      ]
+    },
+    {
+      "token_string": "du Scoutisme",
+      "triples": [
+        {
+          "streetname": "Rond-point du Scoutisme"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4645",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rond-point du Scoutisme"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4647",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rond-point du Scoutisme"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rond-point du Scoutisme"
+      ]
+    },
+    {
+      "token_string": "Europax",
+      "triples": [
+        {
+          "streetname": "Rond-point Europax"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4645",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rond-point Europax"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4648",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rond-point Europax"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rond-point Europax"
+      ]
+    },
+    {
+      "token_string": "Point ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4651",
+              "@type": "tree:Node",
+              "token_string": "Marcel Florkin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4652",
+              "@type": "tree:Node",
+              "token_string": "Simone David-Constant"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4642",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rond-Point Marcel Florkin"
+        },
+        {
+          "streetname": "Rond-Point Simone David-Constant"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment148.jsonld#4650",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rond-Point Marcel Florkin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rond-Point Simone David-Constant"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Marcel Florkin",
+      "triples": [
+        {
+          "streetname": "Rond-Point Marcel Florkin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4650",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rond-Point Marcel Florkin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4651",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rond-Point Marcel Florkin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rond-Point Marcel Florkin"
+      ]
+    },
+    {
+      "token_string": "Simone David-Constant",
+      "triples": [
+        {
+          "streetname": "Rond-Point Simone David-Constant"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4650",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rond-Point Simone David-Constant"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4652",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rond-Point Simone David-Constant"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rond-Point Simone David-Constant"
+      ]
+    },
+    {
+      "token_string": "sen",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4655",
+              "@type": "tree:Node",
+              "token_string": "hügel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4656",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4657",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4616",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rosenhügel"
+        },
+        {
+          "streetname": "Rosenstrasse"
+        },
+        {
+          "streetname": "Rosenweg"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment148.jsonld#4654",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rosenhügel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rosenstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rosenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "hügel",
+      "triples": [
+        {
+          "streetname": "Rosenhügel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4654",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rosenhügel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4655",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rosenhügel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rosenhügel"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "streetname": "Rosenstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4654",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rosenstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4656",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rosenstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rosenstrasse"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "streetname": "Rosenweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4654",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rosenweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4657",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rosenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rosenweg"
+      ]
+    },
+    {
+      "token_string": "platz",
+      "triples": [
+        {
+          "streetname": "Rotenbergplatz"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4661",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rotenbergplatz"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4659",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rotenbergplatz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rotenbergplatz"
+      ]
+    },
+    {
+      "token_string": "nberg",
+      "triples": [
+        {
+          "streetname": "Rotenberg"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4659",
+              "@type": "tree:Node",
+              "token_string": "platz"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4664",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rotenberg"
+        },
+        {
+          "streetname": "Rotenbergplatz"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "fragment148.jsonld#4661",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rotenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rotenbergplatz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rotenberg"
+      ]
+    },
+    {
+      "token_string": "r Pfuhl",
+      "triples": [
+        {
+          "streetname": "Roter Pfuhl"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4664",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Roter Pfuhl"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4662",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Roter Pfuhl"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Roter Pfuhl"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4664",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4666",
+              "@type": "tree:Node",
+              "token_string": "h"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4671",
+              "@type": "tree:Node",
+              "token_string": "kreuzstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4672",
+              "@type": "tree:Node",
+              "token_string": "scherweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment149.jsonld#4674",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4616",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rotenberg"
+        },
+        {
+          "streetname": "Rotenbergplatz"
+        },
+        {
+          "streetname": "Roter Pfuhl"
+        },
+        {
+          "streetname": "Rothausstrasse"
+        },
+        {
+          "streetname": "Rothbüchel"
+        },
+        {
+          "streetname": "Rotheck"
+        },
+        {
+          "streetname": "Rothfeld"
+        },
+        {
+          "streetname": "Rotkreuzstrasse"
+        },
+        {
+          "streetname": "Rotscherweg"
+        },
+        {
+          "streetname": "Rottdriescherstrasse"
+        }
+      ],
+      "total_children_count": 15,
+      "@id": "fragment148.jsonld#4663",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rotenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rotenbergplatz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Roter Pfuhl"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rothausstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rothbüchel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rotheck"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rothfeld"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rotkreuzstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rotscherweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rottdriescherstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4661",
+              "@type": "tree:Node",
+              "token_string": "nberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4662",
+              "@type": "tree:Node",
+              "token_string": "r Pfuhl"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4663",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rotenberg"
+        },
+        {
+          "streetname": "Rotenbergplatz"
+        },
+        {
+          "streetname": "Roter Pfuhl"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment148.jsonld#4664",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rotenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rotenbergplatz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Roter Pfuhl"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "h",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4667",
+              "@type": "tree:Node",
+              "token_string": "ausstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4668",
+              "@type": "tree:Node",
+              "token_string": "büchel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4669",
+              "@type": "tree:Node",
+              "token_string": "eck"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4670",
+              "@type": "tree:Node",
+              "token_string": "feld"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4663",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rothausstrasse"
+        },
+        {
+          "streetname": "Rothbüchel"
+        },
+        {
+          "streetname": "Rotheck"
+        },
+        {
+          "streetname": "Rothfeld"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment148.jsonld#4666",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rothausstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rothbüchel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rotheck"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rothfeld"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ausstrasse",
+      "triples": [
+        {
+          "streetname": "Rothausstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4666",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rothausstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4667",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rothausstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rothausstrasse"
+      ]
+    },
+    {
+      "token_string": "büchel",
+      "triples": [
+        {
+          "streetname": "Rothbüchel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4666",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rothbüchel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4668",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rothbüchel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rothbüchel"
+      ]
+    },
+    {
+      "token_string": "eck",
+      "triples": [
+        {
+          "streetname": "Rotheck"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4666",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rotheck"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4669",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rotheck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rotheck"
+      ]
+    },
+    {
+      "token_string": "feld",
+      "triples": [
+        {
+          "streetname": "Rothfeld"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4666",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rothfeld"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4670",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rothfeld"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rothfeld"
+      ]
+    },
+    {
+      "token_string": "kreuzstrasse",
+      "triples": [
+        {
+          "streetname": "Rotkreuzstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4663",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rotkreuzstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4671",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rotkreuzstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rotkreuzstrasse"
+      ]
+    },
+    {
+      "token_string": "scherweg",
+      "triples": [
+        {
+          "streetname": "Rotscherweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4663",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rotscherweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4672",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rotscherweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rotscherweg"
+      ]
+    },
+    {
+      "token_string": "ver",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4871",
+              "@type": "tree:Node",
+              "token_string": "heide"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#4872",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4616",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Roverheide"
+        },
+        {
+          "streetname": "Rovert"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment148.jsonld#4870",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Roverheide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rovert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "heide",
+      "triples": [
+        {
+          "streetname": "Roverheide"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4870",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Roverheide"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4871",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Roverheide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Roverheide"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [
+        {
+          "streetname": "Rovert"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4870",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rovert"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#4872",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rovert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rovert"
+      ]
+    },
+    {
+      "token_string": "UE DU ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#6583",
+              "@type": "tree:Node",
+              "token_string": "BUREAU"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment148.jsonld#6584",
+              "@type": "tree:Node",
+              "token_string": "CENTRE"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "RUE DU BUREAU"
+        },
+        {
+          "streetname": "RUE DU CENTRE"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment148.jsonld#6582",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "RUE DU BUREAU"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "RUE DU CENTRE"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "BUREAU",
+      "triples": [
+        {
+          "streetname": "RUE DU BUREAU"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#6582",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "RUE DU BUREAU"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#6583",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "RUE DU BUREAU"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "RUE DU BUREAU"
+      ]
+    },
+    {
+      "token_string": "CENTRE",
+      "triples": [
+        {
+          "streetname": "RUE DU CENTRE"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#6582",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "RUE DU CENTRE"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#6584",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "RUE DU CENTRE"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "RUE DU CENTRE"
+      ]
+    },
+    {
+      "token_string": "y des Chenaux",
+      "triples": [
+        {
+          "streetname": "Ry des Chenaux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment148.jsonld#4554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Ry des Chenaux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment148.jsonld#7900",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ry des Chenaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ry des Chenaux"
+      ]
+    }
+  ]
+}

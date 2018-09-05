@@ -1,0 +1,1486 @@
+{
+  "root_node_id": "5072",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment166.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "bhooz",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'Abhooz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6358161090020094",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12820842568459"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5060",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Abhooz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6358161090020094",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12820842568459"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#5057",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Abhooz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Abhooz"
+      ]
+    },
+    {
+      "token_string": "A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5057",
+              "@type": "tree:Node",
+              "token_string": "bhooz"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5062",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5069",
+              "@type": "tree:Node",
+              "token_string": "msterdam"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5070",
+              "@type": "tree:Node",
+              "token_string": "thènes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5071",
+              "@type": "tree:Node",
+              "token_string": "wans"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Abhooz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6358161090020094",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12820842568459"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Alba",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8042419740971667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1196348633728"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Allouville-Bellefosse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3397234235150908",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.17727487952987"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Amsterdam",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.585925291142434",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.736844470803675"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Athènes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1266364511131806",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70470598506901"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Awans",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3305577087954905",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.62922266947201"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "streetsfragment166.jsonld#5060",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Abhooz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Alba"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Allouville-Bellefosse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Amsterdam"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Athènes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Awans"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5063",
+              "@type": "tree:Node",
+              "token_string": "ba"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5064",
+              "@type": "tree:Node",
+              "token_string": "louville-Bellefosse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5060",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Alba",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8042419740971667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1196348633728"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Allouville-Bellefosse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3397234235150908",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.17727487952987"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment166.jsonld#5062",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Alba"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Allouville-Bellefosse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ba",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'Alba",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8042419740971667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1196348633728"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5062",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Alba",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8042419740971667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1196348633728"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#5063",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Alba"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Alba"
+      ]
+    },
+    {
+      "token_string": "louville-Bellefosse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'Allouville-Bellefosse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3397234235150908",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.17727487952987"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5062",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Allouville-Bellefosse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3397234235150908",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.17727487952987"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#5064",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Allouville-Bellefosse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Allouville-Bellefosse"
+      ]
+    },
+    {
+      "token_string": "al ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5066",
+              "@type": "tree:Node",
+              "token_string": "Bôle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5067",
+              "@type": "tree:Node",
+              "token_string": "Venne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'al Bôle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8424167158122753",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.40060118343731"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'al Venne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7223470379211334",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.59801990332682"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment166.jsonld#5065",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'al Bôle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'al Venne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Bôle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'al Bôle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8424167158122753",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.40060118343731"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5065",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'al Bôle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8424167158122753",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.40060118343731"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#5066",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'al Bôle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'al Bôle"
+      ]
+    },
+    {
+      "token_string": "Venne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'al Venne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7223470379211334",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.59801990332682"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5065",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'al Venne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7223470379211334",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.59801990332682"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#5067",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'al Venne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'al Venne"
+      ]
+    },
+    {
+      "token_string": "msterdam",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'Amsterdam",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.585925291142434",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.736844470803675"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5060",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Amsterdam",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.585925291142434",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.736844470803675"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#5069",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Amsterdam"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Amsterdam"
+      ]
+    },
+    {
+      "token_string": "thènes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'Athènes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1266364511131806",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70470598506901"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5060",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Athènes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1266364511131806",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70470598506901"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#5070",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Athènes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Athènes"
+      ]
+    },
+    {
+      "token_string": "wans",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'Awans",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3305577087954905",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.62922266947201"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5060",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Awans",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3305577087954905",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.62922266947201"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#5071",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Awans"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Awans"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5073",
+              "@type": "tree:Node",
+              "token_string": "'"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5802",
+              "@type": "tree:Node",
+              "token_string": "èl Wêde"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment169.jsonld#5879",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment226.jsonld#6979",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment253.jsonld#7407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Abhooz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6358161090020094",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12820842568459"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Alba",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8042419740971667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1196348633728"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Allouville-Bellefosse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3397234235150908",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.17727487952987"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Amsterdam",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.585925291142434",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.736844470803675"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Athènes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1266364511131806",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70470598506901"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Awans",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3305577087954905",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.62922266947201"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Ecorche Vent",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.384624094090594",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.12723146098973"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Edimbourg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4293691601568965",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.36450329145298"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'En Bry",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.106408108979738",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.510082804067636"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Herinnes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8294672539344847",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.81217627792617"
+        }
+      ],
+      "total_children_count": 1532,
+      "@id": "streetsfragment166.jsonld#5072",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Abhooz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Alba"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Allouville-Bellefosse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Amsterdam"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Athènes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Awans"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Ecorche Vent"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Edimbourg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'En Bry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Herinnes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5060",
+              "@type": "tree:Node",
+              "token_string": "A"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5065",
+              "@type": "tree:Node",
+              "token_string": "al "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5149",
+              "@type": "tree:Node",
+              "token_string": "E"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#6462",
+              "@type": "tree:Node",
+              "token_string": "Herinnes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#6464",
+              "@type": "tree:Node",
+              "token_string": "Italie"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#6477",
+              "@type": "tree:Node",
+              "token_string": "O"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#7106",
+              "@type": "tree:Node",
+              "token_string": "Ychippe"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Abhooz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6358161090020094",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12820842568459"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Alba",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8042419740971667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1196348633728"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Allouville-Bellefosse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3397234235150908",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.17727487952987"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Amsterdam",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.585925291142434",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.736844470803675"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Athènes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1266364511131806",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70470598506901"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Awans",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3305577087954905",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.62922266947201"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Ecorche Vent",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.384624094090594",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.12723146098973"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Edimbourg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4293691601568965",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.36450329145298"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'En Bry",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.106408108979738",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.510082804067636"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Herinnes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8294672539344847",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.81217627792617"
+        }
+      ],
+      "total_children_count": 23,
+      "@id": "streetsfragment166.jsonld#5073",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Abhooz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Alba"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Allouville-Bellefosse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Amsterdam"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Athènes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Awans"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Ecorche Vent"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Edimbourg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'En Bry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Herinnes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "E",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5150",
+              "@type": "tree:Node",
+              "token_string": "corche Vent"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5151",
+              "@type": "tree:Node",
+              "token_string": "dimbourg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#5830",
+              "@type": "tree:Node",
+              "token_string": "n Bry"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Ecorche Vent",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.384624094090594",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.12723146098973"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Edimbourg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4293691601568965",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.36450329145298"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'En Bry",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.106408108979738",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.510082804067636"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment166.jsonld#5149",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Ecorche Vent"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Edimbourg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'En Bry"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "corche Vent",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'Ecorche Vent",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.384624094090594",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.12723146098973"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5149",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Ecorche Vent",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.384624094090594",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.12723146098973"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#5150",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Ecorche Vent"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Ecorche Vent"
+      ]
+    },
+    {
+      "token_string": "dimbourg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'Edimbourg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4293691601568965",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.36450329145298"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5149",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Edimbourg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4293691601568965",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.36450329145298"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#5151",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Edimbourg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Edimbourg"
+      ]
+    },
+    {
+      "token_string": "èl Wêde",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue dèl Wêde",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9674951509535337",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.67077203759875"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue dèl Wêde",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9674951509535337",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.67077203759875"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#5802",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue dèl Wêde"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue dèl Wêde"
+      ]
+    },
+    {
+      "token_string": "n Bry",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'En Bry",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.106408108979738",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.510082804067636"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5149",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'En Bry",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.106408108979738",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.510082804067636"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#5830",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'En Bry"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'En Bry"
+      ]
+    },
+    {
+      "token_string": "Herinnes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'Herinnes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8294672539344847",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.81217627792617"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Herinnes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8294672539344847",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.81217627792617"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#6462",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Herinnes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Herinnes"
+      ]
+    },
+    {
+      "token_string": "Italie",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'Italie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9088072596967525",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.768410636188115"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Italie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9088072596967525",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.768410636188115"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#6464",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Italie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Italie"
+      ]
+    },
+    {
+      "token_string": "reux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'Orreux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.185787700671587",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.70853996986121"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#6478",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Orreux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.185787700671587",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.70853996986121"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#6475",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Orreux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Orreux"
+      ]
+    },
+    {
+      "token_string": "ti",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'Orti",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.925803546810213",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.80263463915231"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#6478",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Orti",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.925803546810213",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.80263463915231"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#6476",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Orti"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Orti"
+      ]
+    },
+    {
+      "token_string": "O",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#6478",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#6479",
+              "@type": "tree:Node",
+              "token_string": "slo"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Orreux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.185787700671587",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.70853996986121"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Orti",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.925803546810213",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.80263463915231"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Oslo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.035924604341421",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.335780099771"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment166.jsonld#6477",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Orreux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Orti"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Oslo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#6475",
+              "@type": "tree:Node",
+              "token_string": "reux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment166.jsonld#6476",
+              "@type": "tree:Node",
+              "token_string": "ti"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#6477",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Orreux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.185787700671587",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.70853996986121"
+        },
+        {
+          "http://example.com/terms#name": "Rue d'Orti",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.925803546810213",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.80263463915231"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment166.jsonld#6478",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Orreux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Orti"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "slo",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'Oslo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.035924604341421",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.335780099771"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#6477",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Oslo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.035924604341421",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.335780099771"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#6479",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Oslo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Oslo"
+      ]
+    },
+    {
+      "token_string": "Ychippe",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue d'Ychippe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6856356874392073",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.4558717145347"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment166.jsonld#5073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue d'Ychippe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6856356874392073",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.4558717145347"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment166.jsonld#7106",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Ychippe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Ychippe"
+      ]
+    }
+  ]
+}

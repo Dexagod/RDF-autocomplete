@@ -1,0 +1,288 @@
+{
+  "root_node_id": "3476",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment108.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment108.jsonld#3477",
+              "@type": "tree:Node",
+              "token_string": "telsweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment108.jsonld#3479",
+              "@type": "tree:Node",
+              "token_string": "uzstra"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment108.jsonld#3482",
+              "@type": "tree:Node",
+              "token_string": "winkel"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment109.jsonld#3473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kretelsweg"
+        },
+        {
+          "streetname": "Kreuzstrasse"
+        },
+        {
+          "streetname": "Kreuzstraße"
+        },
+        {
+          "streetname": "Krewinkel"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment108.jsonld#3476",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kretelsweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kreuzstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kreuzstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Krewinkel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "telsweg",
+      "triples": [
+        {
+          "streetname": "Kretelsweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment108.jsonld#3476",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kretelsweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment108.jsonld#3477",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kretelsweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kretelsweg"
+      ]
+    },
+    {
+      "token_string": "uzstra",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment108.jsonld#3480",
+              "@type": "tree:Node",
+              "token_string": "sse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment108.jsonld#3481",
+              "@type": "tree:Node",
+              "token_string": "ße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment108.jsonld#3476",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kreuzstrasse"
+        },
+        {
+          "streetname": "Kreuzstraße"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment108.jsonld#3479",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kreuzstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kreuzstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sse",
+      "triples": [
+        {
+          "streetname": "Kreuzstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment108.jsonld#3479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kreuzstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment108.jsonld#3480",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kreuzstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kreuzstrasse"
+      ]
+    },
+    {
+      "token_string": "ße",
+      "triples": [
+        {
+          "streetname": "Kreuzstraße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment108.jsonld#3479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kreuzstraße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment108.jsonld#3481",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kreuzstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kreuzstraße"
+      ]
+    },
+    {
+      "token_string": "winkel",
+      "triples": [
+        {
+          "streetname": "Krewinkel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment108.jsonld#3476",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Krewinkel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment108.jsonld#3482",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Krewinkel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Krewinkel"
+      ]
+    }
+  ]
+}

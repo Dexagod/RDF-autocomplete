@@ -1,0 +1,393 @@
+{
+  "root_node_id": "957",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment29.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment29.jsonld#958",
+              "@type": "tree:Node",
+              "token_string": "é des Lanciers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment29.jsonld#963",
+              "@type": "tree:Node",
+              "token_string": "efour d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment29.jsonld#966",
+              "@type": "tree:Node",
+              "token_string": "ière de la Grande Motte"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment30.jsonld#954",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Carré des Lanciers"
+        },
+        {
+          "streetname": "Carrefour d'en Bas"
+        },
+        {
+          "streetname": "Carrefour d'en Haut"
+        },
+        {
+          "streetname": "Carrefour des Vagues"
+        },
+        {
+          "streetname": "Carrière de la Grande Motte"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment29.jsonld#957",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Carré des Lanciers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour d'en Bas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour d'en Haut"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour des Vagues"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrière de la Grande Motte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "é des Lanciers",
+      "triples": [
+        {
+          "streetname": "Carré des Lanciers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment29.jsonld#957",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Carré des Lanciers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment29.jsonld#958",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Carré des Lanciers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Carré des Lanciers"
+      ]
+    },
+    {
+      "token_string": "Bas",
+      "triples": [
+        {
+          "streetname": "Carrefour d'en Bas"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment29.jsonld#964",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Carrefour d'en Bas"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment29.jsonld#961",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Carrefour d'en Bas"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Carrefour d'en Bas"
+      ]
+    },
+    {
+      "token_string": "Haut",
+      "triples": [
+        {
+          "streetname": "Carrefour d'en Haut"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment29.jsonld#964",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Carrefour d'en Haut"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment29.jsonld#962",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Carrefour d'en Haut"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Carrefour d'en Haut"
+      ]
+    },
+    {
+      "token_string": "efour d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment29.jsonld#964",
+              "@type": "tree:Node",
+              "token_string": "'en "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment29.jsonld#965",
+              "@type": "tree:Node",
+              "token_string": "es Vagues"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment29.jsonld#957",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Carrefour d'en Bas"
+        },
+        {
+          "streetname": "Carrefour d'en Haut"
+        },
+        {
+          "streetname": "Carrefour des Vagues"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment29.jsonld#963",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Carrefour d'en Bas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour d'en Haut"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour des Vagues"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'en ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment29.jsonld#961",
+              "@type": "tree:Node",
+              "token_string": "Bas"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment29.jsonld#962",
+              "@type": "tree:Node",
+              "token_string": "Haut"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment29.jsonld#963",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Carrefour d'en Bas"
+        },
+        {
+          "streetname": "Carrefour d'en Haut"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment29.jsonld#964",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Carrefour d'en Bas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour d'en Haut"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "es Vagues",
+      "triples": [
+        {
+          "streetname": "Carrefour des Vagues"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment29.jsonld#963",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Carrefour des Vagues"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment29.jsonld#965",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Carrefour des Vagues"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Carrefour des Vagues"
+      ]
+    },
+    {
+      "token_string": "ière de la Grande Motte",
+      "triples": [
+        {
+          "streetname": "Carrière de la Grande Motte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment29.jsonld#957",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Carrière de la Grande Motte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment29.jsonld#966",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Carrière de la Grande Motte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Carrière de la Grande Motte"
+      ]
+    }
+  ]
+}

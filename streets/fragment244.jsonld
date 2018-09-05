@@ -1,0 +1,800 @@
+{
+  "root_node_id": "7225",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment244.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "baru",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Habaru",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2934212044319735",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.20165701888206"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment244.jsonld#7226",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Habaru",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2934212044319735",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.20165701888206"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment244.jsonld#7221",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Habaru"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Habaru"
+      ]
+    },
+    {
+      "token_string": "ie de la Béguine",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Haie de la Béguine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3391605134655595",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.743608213841334"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment244.jsonld#7226",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Haie de la Béguine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3391605134655595",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.743608213841334"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment244.jsonld#7222",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Haie de la Béguine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Haie de la Béguine"
+      ]
+    },
+    {
+      "token_string": "ute",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Haute",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.493265033280959",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56651710127462"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment244.jsonld#7226",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Haute",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.493265033280959",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56651710127462"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment244.jsonld#7223",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Haute"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Haute"
+      ]
+    },
+    {
+      "token_string": "vane",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Havane",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6024788871801254",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.430510704230706"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment244.jsonld#7226",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Havane",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6024788871801254",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.430510704230706"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment244.jsonld#7224",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Havane"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Havane"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment244.jsonld#7226",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment239.jsonld#7241",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment244.jsonld#7246",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment244.jsonld#7250",
+              "@type": "tree:Node",
+              "token_string": "ub"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment253.jsonld#7407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Habaru",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2934212044319735",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.20165701888206"
+        },
+        {
+          "http://example.com/terms#name": "Rue Haie de la Béguine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3391605134655595",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.743608213841334"
+        },
+        {
+          "http://example.com/terms#name": "Rue Haute",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.493265033280959",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56651710127462"
+        },
+        {
+          "http://example.com/terms#name": "Rue Havane",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6024788871801254",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.430510704230706"
+        },
+        {
+          "http://example.com/terms#name": "Rue Henri Deruelles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8723625544361777",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.00610275958768"
+        },
+        {
+          "http://example.com/terms#name": "Rue Henri Leclercq",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8170103189433076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.60780655230215"
+        },
+        {
+          "http://example.com/terms#name": "Rue Henri Lemaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.216604071629038",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.87215872216255"
+        },
+        {
+          "http://example.com/terms#name": "Rue Henri Schlitz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0153226869158583",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.83393957976045"
+        },
+        {
+          "http://example.com/terms#name": "Rue Henry-François Hensay",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.634281348108302",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.621779266443"
+        },
+        {
+          "http://example.com/terms#name": "Rue Henry Lacoste",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.855614394443133",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.18778473064786"
+        }
+      ],
+      "total_children_count": 26,
+      "@id": "streetsfragment244.jsonld#7225",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Habaru"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Haie de la Béguine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Haute"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Havane"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Henri Deruelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Henri Leclercq"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Henri Lemaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Henri Schlitz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Henry-François Hensay"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Henry Lacoste"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment244.jsonld#7221",
+              "@type": "tree:Node",
+              "token_string": "baru"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment244.jsonld#7222",
+              "@type": "tree:Node",
+              "token_string": "ie de la Béguine"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment244.jsonld#7223",
+              "@type": "tree:Node",
+              "token_string": "ute"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment244.jsonld#7224",
+              "@type": "tree:Node",
+              "token_string": "vane"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment244.jsonld#7225",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Habaru",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2934212044319735",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.20165701888206"
+        },
+        {
+          "http://example.com/terms#name": "Rue Haie de la Béguine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3391605134655595",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.743608213841334"
+        },
+        {
+          "http://example.com/terms#name": "Rue Haute",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.493265033280959",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56651710127462"
+        },
+        {
+          "http://example.com/terms#name": "Rue Havane",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6024788871801254",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.430510704230706"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment244.jsonld#7226",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Habaru"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Haie de la Béguine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Haute"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Havane"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment244.jsonld#7247",
+              "@type": "tree:Node",
+              "token_string": "ntem"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment244.jsonld#7248",
+              "@type": "tree:Node",
+              "token_string": "tteux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment244.jsonld#7225",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Hontem",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.371070712555228",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.58125306237414"
+        },
+        {
+          "http://example.com/terms#name": "Rue Hotteux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4863583842653063",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.63077277645203"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment244.jsonld#7246",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Hontem"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Hotteux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ntem",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Hontem",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.371070712555228",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.58125306237414"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment244.jsonld#7246",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Hontem",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.371070712555228",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.58125306237414"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment244.jsonld#7247",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Hontem"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Hontem"
+      ]
+    },
+    {
+      "token_string": "tteux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Hotteux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4863583842653063",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.63077277645203"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment244.jsonld#7246",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Hotteux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4863583842653063",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.63077277645203"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment244.jsonld#7248",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Hotteux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Hotteux"
+      ]
+    },
+    {
+      "token_string": "ub",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment244.jsonld#7251",
+              "@type": "tree:Node",
+              "token_string": "ble"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment244.jsonld#7253",
+              "@type": "tree:Node",
+              "token_string": "ert "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment244.jsonld#7225",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Hubble",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.540299210948544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.18599504270361"
+        },
+        {
+          "http://example.com/terms#name": "Rue Hubert Debauche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.803931582867671",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.1669148948256"
+        },
+        {
+          "http://example.com/terms#name": "Rue Hubert Parent",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8050873812636152",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.66172442344771"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment244.jsonld#7250",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Hubble"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Hubert Debauche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Hubert Parent"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ble",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Hubble",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.540299210948544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.18599504270361"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment244.jsonld#7250",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Hubble",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.540299210948544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.18599504270361"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment244.jsonld#7251",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Hubble"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Hubble"
+      ]
+    },
+    {
+      "token_string": "ert ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment244.jsonld#7254",
+              "@type": "tree:Node",
+              "token_string": "Debauche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment244.jsonld#7255",
+              "@type": "tree:Node",
+              "token_string": "Parent"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment244.jsonld#7250",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Hubert Debauche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.803931582867671",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.1669148948256"
+        },
+        {
+          "http://example.com/terms#name": "Rue Hubert Parent",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8050873812636152",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.66172442344771"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment244.jsonld#7253",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Hubert Debauche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Hubert Parent"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Debauche",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Hubert Debauche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.803931582867671",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.1669148948256"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment244.jsonld#7253",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Hubert Debauche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.803931582867671",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.1669148948256"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment244.jsonld#7254",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Hubert Debauche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Hubert Debauche"
+      ]
+    },
+    {
+      "token_string": "Parent",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Hubert Parent",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8050873812636152",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.66172442344771"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment244.jsonld#7253",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Hubert Parent",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8050873812636152",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.66172442344771"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment244.jsonld#7255",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Hubert Parent"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Hubert Parent"
+      ]
+    }
+  ]
+}

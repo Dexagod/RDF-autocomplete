@@ -1,0 +1,338 @@
+{
+  "root_node_id": "7616",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment248.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "e Geai",
+      "triples": [
+        {
+          "streetname": "Rue Mont de Geai"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment248.jsonld#7617",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Mont de Geai"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment248.jsonld#7614",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Mont de Geai"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Mont de Geai"
+      ]
+    },
+    {
+      "token_string": "u Berger",
+      "triples": [
+        {
+          "streetname": "Rue Mont du Berger"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment248.jsonld#7617",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Mont du Berger"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment248.jsonld#7615",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Mont du Berger"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Mont du Berger"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment248.jsonld#7617",
+              "@type": "tree:Node",
+              "token_string": " d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment248.jsonld#7618",
+              "@type": "tree:Node",
+              "token_string": "esquieu"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment248.jsonld#7619",
+              "@type": "tree:Node",
+              "token_string": "magny"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment248.jsonld#7620",
+              "@type": "tree:Node",
+              "token_string": "y"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment259.jsonld#7622",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Mont de Geai"
+        },
+        {
+          "streetname": "Rue Mont du Berger"
+        },
+        {
+          "streetname": "Rue Montesquieu"
+        },
+        {
+          "streetname": "Rue Montmagny"
+        },
+        {
+          "streetname": "Rue Monty"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment248.jsonld#7616",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Mont de Geai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Mont du Berger"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Montesquieu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Montmagny"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Monty"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment248.jsonld#7614",
+              "@type": "tree:Node",
+              "token_string": "e Geai"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment248.jsonld#7615",
+              "@type": "tree:Node",
+              "token_string": "u Berger"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment248.jsonld#7616",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Mont de Geai"
+        },
+        {
+          "streetname": "Rue Mont du Berger"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment248.jsonld#7617",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Mont de Geai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Mont du Berger"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "esquieu",
+      "triples": [
+        {
+          "streetname": "Rue Montesquieu"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment248.jsonld#7616",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Montesquieu"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment248.jsonld#7618",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Montesquieu"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Montesquieu"
+      ]
+    },
+    {
+      "token_string": "magny",
+      "triples": [
+        {
+          "streetname": "Rue Montmagny"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment248.jsonld#7616",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Montmagny"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment248.jsonld#7619",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Montmagny"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Montmagny"
+      ]
+    },
+    {
+      "token_string": "y",
+      "triples": [
+        {
+          "streetname": "Rue Monty"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment248.jsonld#7616",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Monty"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment248.jsonld#7620",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Monty"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Monty"
+      ]
+    }
+  ]
+}

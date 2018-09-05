@@ -1,0 +1,595 @@
+{
+  "root_node_id": "248",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment4.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "idborn",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Am Heidborn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0535469163905566",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65638792660639"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment4.jsonld#249",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Am Heidborn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0535469163905566",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65638792660639"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment4.jsonld#242",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Heidborn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Heidborn"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment4.jsonld#245",
+              "@type": "tree:Node",
+              "token_string": "renbrühl"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment4.jsonld#246",
+              "@type": "tree:Node",
+              "token_string": "togenwald"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment4.jsonld#249",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Am Herrenbrühl",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.725948605933023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.85344082842394"
+        },
+        {
+          "http://example.com/terms#name": "Am Hertogenwald",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7917641096096357",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.63461369492465"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment4.jsonld#244",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Herrenbrühl"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Hertogenwald"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "renbrühl",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Am Herrenbrühl",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.725948605933023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.85344082842394"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment4.jsonld#244",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Am Herrenbrühl",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.725948605933023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.85344082842394"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment4.jsonld#245",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Herrenbrühl"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Herrenbrühl"
+      ]
+    },
+    {
+      "token_string": "togenwald",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Am Hertogenwald",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7917641096096357",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.63461369492465"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment4.jsonld#244",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Am Hertogenwald",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7917641096096357",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.63461369492465"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment4.jsonld#246",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Hertogenwald"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Hertogenwald"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment4.jsonld#249",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment4.jsonld#250",
+              "@type": "tree:Node",
+              "token_string": "ohlenweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment4.jsonld#251",
+              "@type": "tree:Node",
+              "token_string": "ölstrich"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment4.jsonld#253",
+              "@type": "tree:Node",
+              "token_string": "ü"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Am Heidborn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0535469163905566",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65638792660639"
+        },
+        {
+          "http://example.com/terms#name": "Am Herrenbrühl",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.725948605933023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.85344082842394"
+        },
+        {
+          "http://example.com/terms#name": "Am Hertogenwald",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7917641096096357",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.63461369492465"
+        },
+        {
+          "http://example.com/terms#name": "Am Hohlenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.416344019363161",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.34794466370784"
+        },
+        {
+          "http://example.com/terms#name": "Am Hölstrich",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.290136899579968",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.928185154857395"
+        },
+        {
+          "http://example.com/terms#name": "Am Hügel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.90201696556712",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.37140868869308"
+        },
+        {
+          "http://example.com/terms#name": "Am Hüjst",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.049216944127992",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.248938557666"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "streetsfragment4.jsonld#248",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Heidborn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Herrenbrühl"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Hertogenwald"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Hohlenweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Hölstrich"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Hügel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Hüjst"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment4.jsonld#242",
+              "@type": "tree:Node",
+              "token_string": "idborn"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment4.jsonld#244",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment4.jsonld#248",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Am Heidborn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0535469163905566",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65638792660639"
+        },
+        {
+          "http://example.com/terms#name": "Am Herrenbrühl",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.725948605933023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.85344082842394"
+        },
+        {
+          "http://example.com/terms#name": "Am Hertogenwald",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7917641096096357",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.63461369492465"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment4.jsonld#249",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Heidborn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Herrenbrühl"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Hertogenwald"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ohlenweg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Am Hohlenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.416344019363161",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.34794466370784"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment4.jsonld#248",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Am Hohlenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.416344019363161",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.34794466370784"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment4.jsonld#250",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Hohlenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Hohlenweg"
+      ]
+    },
+    {
+      "token_string": "ölstrich",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Am Hölstrich",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.290136899579968",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.928185154857395"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment4.jsonld#248",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Am Hölstrich",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.290136899579968",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.928185154857395"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment4.jsonld#251",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Hölstrich"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Hölstrich"
+      ]
+    },
+    {
+      "token_string": "ü",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment4.jsonld#254",
+              "@type": "tree:Node",
+              "token_string": "gel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment4.jsonld#255",
+              "@type": "tree:Node",
+              "token_string": "jst"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment4.jsonld#248",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Am Hügel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.90201696556712",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.37140868869308"
+        },
+        {
+          "http://example.com/terms#name": "Am Hüjst",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.049216944127992",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.248938557666"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment4.jsonld#253",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Hügel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Hüjst"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "gel",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Am Hügel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.90201696556712",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.37140868869308"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment4.jsonld#253",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Am Hügel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.90201696556712",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.37140868869308"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment4.jsonld#254",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Hügel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Hügel"
+      ]
+    },
+    {
+      "token_string": "jst",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Am Hüjst",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.049216944127992",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.248938557666"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment4.jsonld#253",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Am Hüjst",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.049216944127992",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.248938557666"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment4.jsonld#255",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Hüjst"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Hüjst"
+      ]
+    }
+  ]
+}

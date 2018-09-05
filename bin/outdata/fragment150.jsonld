@@ -1,0 +1,4912 @@
+{
+  "root_node_id": "4784",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment150.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "gatelle",
+      "triples": [
+        {
+          "streetname": "Route de Bagatelle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4686",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Bagatelle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4683",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Bagatelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Bagatelle"
+      ]
+    },
+    {
+      "token_string": "stogne",
+      "triples": [
+        {
+          "streetname": "Route de Bastogne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4686",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Bastogne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4684",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Bastogne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Bastogne"
+      ]
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4683",
+              "@type": "tree:Node",
+              "token_string": "gatelle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4684",
+              "@type": "tree:Node",
+              "token_string": "stogne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4689",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Bagatelle"
+        },
+        {
+          "streetname": "Route de Bastogne"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4686",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Bagatelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Bastogne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eaumont",
+      "triples": [
+        {
+          "streetname": "Route de Beaumont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4689",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Beaumont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4687",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Beaumont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Beaumont"
+      ]
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4686",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4687",
+              "@type": "tree:Node",
+              "token_string": "eaumont"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Bagatelle"
+        },
+        {
+          "streetname": "Route de Bastogne"
+        },
+        {
+          "streetname": "Route de Beaumont"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment150.jsonld#4689",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Bagatelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Bastogne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Beaumont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Co",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4692",
+              "@type": "tree:Node",
+              "token_string": "irnaye"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4693",
+              "@type": "tree:Node",
+              "token_string": "rnesse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Coirnaye"
+        },
+        {
+          "streetname": "Route de Cornesse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4691",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Coirnaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Cornesse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "irnaye",
+      "triples": [
+        {
+          "streetname": "Route de Coirnaye"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4691",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Coirnaye"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4692",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Coirnaye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Coirnaye"
+      ]
+    },
+    {
+      "token_string": "rnesse",
+      "triples": [
+        {
+          "streetname": "Route de Cornesse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4691",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Cornesse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4693",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Cornesse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Cornesse"
+      ]
+    },
+    {
+      "token_string": "Dairomont",
+      "triples": [
+        {
+          "streetname": "Route de Dairomont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Dairomont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4694",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Dairomont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Dairomont"
+      ]
+    },
+    {
+      "token_string": "Forêt",
+      "triples": [
+        {
+          "streetname": "Route de Forêt"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Forêt"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4695",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Forêt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Forêt"
+      ]
+    },
+    {
+      "token_string": "G",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4698",
+              "@type": "tree:Node",
+              "token_string": "érasa"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4699",
+              "@type": "tree:Node",
+              "token_string": "rihanster"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Gérasa"
+        },
+        {
+          "streetname": "Route de Grihanster"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4697",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Gérasa"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Grihanster"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "érasa",
+      "triples": [
+        {
+          "streetname": "Route de Gérasa"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4697",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Gérasa"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4698",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Gérasa"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Gérasa"
+      ]
+    },
+    {
+      "token_string": "rihanster",
+      "triples": [
+        {
+          "streetname": "Route de Grihanster"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4697",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Grihanster"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4699",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Grihanster"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Grihanster"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4702",
+              "@type": "tree:Node",
+              "token_string": "esbaye"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4704",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Hesbaye"
+        },
+        {
+          "streetname": "Route de Hockai"
+        },
+        {
+          "streetname": "Route de Houffalize"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment150.jsonld#4701",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Hesbaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Hockai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Houffalize"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "esbaye",
+      "triples": [
+        {
+          "streetname": "Route de Hesbaye"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4701",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Hesbaye"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4702",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Hesbaye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Hesbaye"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4705",
+              "@type": "tree:Node",
+              "token_string": "ckai"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4706",
+              "@type": "tree:Node",
+              "token_string": "uffalize"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4701",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Hockai"
+        },
+        {
+          "streetname": "Route de Houffalize"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4704",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Hockai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Houffalize"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ckai",
+      "triples": [
+        {
+          "streetname": "Route de Hockai"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4704",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Hockai"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4705",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Hockai"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Hockai"
+      ]
+    },
+    {
+      "token_string": "uffalize",
+      "triples": [
+        {
+          "streetname": "Route de Houffalize"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4704",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Houffalize"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4706",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Houffalize"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Houffalize"
+      ]
+    },
+    {
+      "token_string": "Jalhay",
+      "triples": [
+        {
+          "streetname": "Route de Jalhay"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Jalhay"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4707",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Jalhay"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Jalhay"
+      ]
+    },
+    {
+      "token_string": "Barrière",
+      "triples": [
+        {
+          "streetname": "Route de la Barrière"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Barrière"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4710",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Barrière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Barrière"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4713",
+              "@type": "tree:Node",
+              "token_string": "hapelle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4714",
+              "@type": "tree:Node",
+              "token_string": "roix"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Chapelle"
+        },
+        {
+          "streetname": "Route de la Croix"
+        },
+        {
+          "streetname": "Route de la Croix Brognard"
+        },
+        {
+          "streetname": "Route de la Croix de Fays"
+        },
+        {
+          "streetname": "Route de la Croix Renard"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment150.jsonld#4712",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Chapelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Brognard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix de Fays"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Renard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "hapelle",
+      "triples": [
+        {
+          "streetname": "Route de la Chapelle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4712",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Chapelle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4713",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Chapelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Chapelle"
+      ]
+    },
+    {
+      "token_string": "roix",
+      "triples": [
+        {
+          "streetname": "Route de la Croix"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4716",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4712",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Croix"
+        },
+        {
+          "streetname": "Route de la Croix Brognard"
+        },
+        {
+          "streetname": "Route de la Croix de Fays"
+        },
+        {
+          "streetname": "Route de la Croix Renard"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment150.jsonld#4714",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Croix"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Brognard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix de Fays"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Renard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Croix"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4717",
+              "@type": "tree:Node",
+              "token_string": "Brognard"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4718",
+              "@type": "tree:Node",
+              "token_string": "de Fays"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4719",
+              "@type": "tree:Node",
+              "token_string": "Renard"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4714",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Croix Brognard"
+        },
+        {
+          "streetname": "Route de la Croix de Fays"
+        },
+        {
+          "streetname": "Route de la Croix Renard"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment150.jsonld#4716",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Croix Brognard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix de Fays"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Renard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Brognard",
+      "triples": [
+        {
+          "streetname": "Route de la Croix Brognard"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4716",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Croix Brognard"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4717",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Croix Brognard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Croix Brognard"
+      ]
+    },
+    {
+      "token_string": "de Fays",
+      "triples": [
+        {
+          "streetname": "Route de la Croix de Fays"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4716",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Croix de Fays"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4718",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Croix de Fays"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Croix de Fays"
+      ]
+    },
+    {
+      "token_string": "Renard",
+      "triples": [
+        {
+          "streetname": "Route de la Croix Renard"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4716",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Croix Renard"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4719",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Croix Renard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Croix Renard"
+      ]
+    },
+    {
+      "token_string": "Brûlée",
+      "triples": [
+        {
+          "streetname": "Route de la Ferme Brûlée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4725",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Ferme Brûlée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4722",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Ferme Brûlée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Ferme Brûlée"
+      ]
+    },
+    {
+      "token_string": "de Harse",
+      "triples": [
+        {
+          "streetname": "Route de la Ferme de Harse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4725",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Ferme de Harse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4723",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Ferme de Harse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Ferme de Harse"
+      ]
+    },
+    {
+      "token_string": "F",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4725",
+              "@type": "tree:Node",
+              "token_string": "erme "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4726",
+              "@type": "tree:Node",
+              "token_string": "ilature"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4727",
+              "@type": "tree:Node",
+              "token_string": "orêt"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Ferme Brûlée"
+        },
+        {
+          "streetname": "Route de la Ferme de Harse"
+        },
+        {
+          "streetname": "Route de la Filature"
+        },
+        {
+          "streetname": "Route de la Forêt"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment150.jsonld#4724",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Ferme Brûlée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Ferme de Harse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Filature"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Forêt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erme ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4722",
+              "@type": "tree:Node",
+              "token_string": "Brûlée"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4723",
+              "@type": "tree:Node",
+              "token_string": "de Harse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4724",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Ferme Brûlée"
+        },
+        {
+          "streetname": "Route de la Ferme de Harse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4725",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Ferme Brûlée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Ferme de Harse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ilature",
+      "triples": [
+        {
+          "streetname": "Route de la Filature"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4724",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Filature"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4726",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Filature"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Filature"
+      ]
+    },
+    {
+      "token_string": "orêt",
+      "triples": [
+        {
+          "streetname": "Route de la Forêt"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4724",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Forêt"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4727",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Forêt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Forêt"
+      ]
+    },
+    {
+      "token_string": "Lache",
+      "triples": [
+        {
+          "streetname": "Route de la Lache"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Lache"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4728",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Lache"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Lache"
+      ]
+    },
+    {
+      "token_string": "Malle-Poste",
+      "triples": [
+        {
+          "streetname": "Route de la Malle-Poste"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Malle-Poste"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4730",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Malle-Poste"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Malle-Poste"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4732",
+              "@type": "tree:Node",
+              "token_string": "a "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4754",
+              "@type": "tree:Node",
+              "token_string": "'"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Barrière"
+        },
+        {
+          "streetname": "Route de la Chapelle"
+        },
+        {
+          "streetname": "Route de la Croix"
+        },
+        {
+          "streetname": "Route de la Croix Brognard"
+        },
+        {
+          "streetname": "Route de la Croix de Fays"
+        },
+        {
+          "streetname": "Route de la Croix Renard"
+        },
+        {
+          "streetname": "Route de l'Amblève"
+        },
+        {
+          "streetname": "Route de l'Ecole"
+        },
+        {
+          "streetname": "Route de l'Ordenne"
+        },
+        {
+          "streetname": "Route de l'Ourlaine"
+        }
+      ],
+      "total_children_count": 36,
+      "@id": "fragment150.jsonld#4731",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Barrière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Chapelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Brognard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix de Fays"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Renard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de l'Amblève"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de l'Ecole"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de l'Ordenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de l'Ourlaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4710",
+              "@type": "tree:Node",
+              "token_string": "Barrière"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4712",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4724",
+              "@type": "tree:Node",
+              "token_string": "F"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4728",
+              "@type": "tree:Node",
+              "token_string": "Lache"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4730",
+              "@type": "tree:Node",
+              "token_string": "Malle-Poste"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4735",
+              "@type": "tree:Node",
+              "token_string": "P"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4740",
+              "@type": "tree:Node",
+              "token_string": "Ro"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4744",
+              "@type": "tree:Node",
+              "token_string": "St"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4751",
+              "@type": "tree:Node",
+              "token_string": "V"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4731",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Barrière"
+        },
+        {
+          "streetname": "Route de la Chapelle"
+        },
+        {
+          "streetname": "Route de la Croix"
+        },
+        {
+          "streetname": "Route de la Croix Brognard"
+        },
+        {
+          "streetname": "Route de la Croix de Fays"
+        },
+        {
+          "streetname": "Route de la Croix Renard"
+        },
+        {
+          "streetname": "Route de la Ferme Brûlée"
+        },
+        {
+          "streetname": "Route de la Ferme de Harse"
+        },
+        {
+          "streetname": "Route de la Filature"
+        },
+        {
+          "streetname": "Route de la Forêt"
+        }
+      ],
+      "total_children_count": 29,
+      "@id": "fragment150.jsonld#4732",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Barrière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Chapelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Brognard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix de Fays"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Renard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Ferme Brûlée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Ferme de Harse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Filature"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Forêt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "P",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4736",
+              "@type": "tree:Node",
+              "token_string": "atte D'Oie"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4737",
+              "@type": "tree:Node",
+              "token_string": "érî"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4738",
+              "@type": "tree:Node",
+              "token_string": "late Taille"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Patte D'Oie"
+        },
+        {
+          "streetname": "Route de la Pérî"
+        },
+        {
+          "streetname": "Route de la Plate Taille"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment150.jsonld#4735",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Patte D'Oie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Pérî"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Plate Taille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "atte D'Oie",
+      "triples": [
+        {
+          "streetname": "Route de la Patte D'Oie"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4735",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Patte D'Oie"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4736",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Patte D'Oie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Patte D'Oie"
+      ]
+    },
+    {
+      "token_string": "érî",
+      "triples": [
+        {
+          "streetname": "Route de la Pérî"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4735",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Pérî"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4737",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Pérî"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Pérî"
+      ]
+    },
+    {
+      "token_string": "late Taille",
+      "triples": [
+        {
+          "streetname": "Route de la Plate Taille"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4735",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Plate Taille"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4738",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Plate Taille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Plate Taille"
+      ]
+    },
+    {
+      "token_string": "Ro",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4741",
+              "@type": "tree:Node",
+              "token_string": "che"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4742",
+              "@type": "tree:Node",
+              "token_string": "nde Fagne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Roche"
+        },
+        {
+          "streetname": "Route de la Ronde Fagne"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4740",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Roche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Ronde Fagne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "che",
+      "triples": [
+        {
+          "streetname": "Route de la Roche"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4740",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Roche"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4741",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Roche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Roche"
+      ]
+    },
+    {
+      "token_string": "nde Fagne",
+      "triples": [
+        {
+          "streetname": "Route de la Ronde Fagne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4740",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Ronde Fagne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4742",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Ronde Fagne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Ronde Fagne"
+      ]
+    },
+    {
+      "token_string": "St",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4745",
+              "@type": "tree:Node",
+              "token_string": "atte"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4746",
+              "@type": "tree:Node",
+              "token_string": "range"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Statte"
+        },
+        {
+          "streetname": "Route de la Strange"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4744",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Statte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Strange"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "atte",
+      "triples": [
+        {
+          "streetname": "Route de la Statte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4744",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Statte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4745",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Statte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Statte"
+      ]
+    },
+    {
+      "token_string": "range",
+      "triples": [
+        {
+          "streetname": "Route de la Strange"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4744",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Strange"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4746",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Strange"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Strange"
+      ]
+    },
+    {
+      "token_string": "main",
+      "triples": [
+        {
+          "streetname": "Route de Lamain"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4758",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Lamain"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4748",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Lamain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Lamain"
+      ]
+    },
+    {
+      "token_string": "utenne",
+      "triples": [
+        {
+          "streetname": "Route de Lautenne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4758",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Lautenne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4749",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Lautenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Lautenne"
+      ]
+    },
+    {
+      "token_string": "V",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4752",
+              "@type": "tree:Node",
+              "token_string": "enne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4753",
+              "@type": "tree:Node",
+              "token_string": "oie Cuivrée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Venne"
+        },
+        {
+          "streetname": "Route de la Voie Cuivrée"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4751",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Venne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Voie Cuivrée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "enne",
+      "triples": [
+        {
+          "streetname": "Route de la Venne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4751",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Venne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4752",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Venne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Venne"
+      ]
+    },
+    {
+      "token_string": "oie Cuivrée",
+      "triples": [
+        {
+          "streetname": "Route de la Voie Cuivrée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4751",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de la Voie Cuivrée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4753",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Voie Cuivrée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Voie Cuivrée"
+      ]
+    },
+    {
+      "token_string": "'",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4755",
+              "@type": "tree:Node",
+              "token_string": "Amblève"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4756",
+              "@type": "tree:Node",
+              "token_string": "Ecole"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4766",
+              "@type": "tree:Node",
+              "token_string": "O"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4731",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de l'Amblève"
+        },
+        {
+          "streetname": "Route de l'Ecole"
+        },
+        {
+          "streetname": "Route de l'Ordenne"
+        },
+        {
+          "streetname": "Route de l'Ourlaine"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment150.jsonld#4754",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de l'Amblève"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de l'Ecole"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de l'Ordenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de l'Ourlaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Amblève",
+      "triples": [
+        {
+          "streetname": "Route de l'Amblève"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4754",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de l'Amblève"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4755",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de l'Amblève"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de l'Amblève"
+      ]
+    },
+    {
+      "token_string": "Ecole",
+      "triples": [
+        {
+          "streetname": "Route de l'Ecole"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4754",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de l'Ecole"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4756",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de l'Ecole"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de l'Ecole"
+      ]
+    },
+    {
+      "token_string": "L",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4758",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4760",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4770",
+              "@type": "tree:Node",
+              "token_string": "ouvain"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Lamain"
+        },
+        {
+          "streetname": "Route de Lautenne"
+        },
+        {
+          "streetname": "Route de Libramont"
+        },
+        {
+          "streetname": "Route de Liège"
+        },
+        {
+          "streetname": "Route de Ligné"
+        },
+        {
+          "streetname": "Route de Livarchamps"
+        },
+        {
+          "streetname": "Route de Louvain la Neuve"
+        },
+        {
+          "streetname": "Route de Louvain-la-Neuve"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "fragment150.jsonld#4757",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Lamain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Lautenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Libramont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Liège"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Ligné"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Livarchamps"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Louvain la Neuve"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Louvain-la-Neuve"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4748",
+              "@type": "tree:Node",
+              "token_string": "main"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4749",
+              "@type": "tree:Node",
+              "token_string": "utenne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4757",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Lamain"
+        },
+        {
+          "streetname": "Route de Lautenne"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4758",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Lamain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Lautenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4761",
+              "@type": "tree:Node",
+              "token_string": "bramont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4762",
+              "@type": "tree:Node",
+              "token_string": "ège"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4763",
+              "@type": "tree:Node",
+              "token_string": "gné"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4764",
+              "@type": "tree:Node",
+              "token_string": "varchamps"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4757",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Libramont"
+        },
+        {
+          "streetname": "Route de Liège"
+        },
+        {
+          "streetname": "Route de Ligné"
+        },
+        {
+          "streetname": "Route de Livarchamps"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment150.jsonld#4760",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Libramont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Liège"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Ligné"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Livarchamps"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bramont",
+      "triples": [
+        {
+          "streetname": "Route de Libramont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4760",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Libramont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4761",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Libramont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Libramont"
+      ]
+    },
+    {
+      "token_string": "ège",
+      "triples": [
+        {
+          "streetname": "Route de Liège"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4760",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Liège"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4762",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Liège"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Liège"
+      ]
+    },
+    {
+      "token_string": "gné",
+      "triples": [
+        {
+          "streetname": "Route de Ligné"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4760",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Ligné"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4763",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Ligné"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Ligné"
+      ]
+    },
+    {
+      "token_string": "varchamps",
+      "triples": [
+        {
+          "streetname": "Route de Livarchamps"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4760",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Livarchamps"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4764",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Livarchamps"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Livarchamps"
+      ]
+    },
+    {
+      "token_string": "O",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4767",
+              "@type": "tree:Node",
+              "token_string": "rdenne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4768",
+              "@type": "tree:Node",
+              "token_string": "urlaine"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4754",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de l'Ordenne"
+        },
+        {
+          "streetname": "Route de l'Ourlaine"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4766",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de l'Ordenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de l'Ourlaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rdenne",
+      "triples": [
+        {
+          "streetname": "Route de l'Ordenne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4766",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de l'Ordenne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4767",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de l'Ordenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de l'Ordenne"
+      ]
+    },
+    {
+      "token_string": "urlaine",
+      "triples": [
+        {
+          "streetname": "Route de l'Ourlaine"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4766",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de l'Ourlaine"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4768",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de l'Ourlaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de l'Ourlaine"
+      ]
+    },
+    {
+      "token_string": "ouvain",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4771",
+              "@type": "tree:Node",
+              "token_string": " la Neuve"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4772",
+              "@type": "tree:Node",
+              "token_string": "-la-Neuve"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4757",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Louvain la Neuve"
+        },
+        {
+          "streetname": "Route de Louvain-la-Neuve"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4770",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Louvain la Neuve"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Louvain-la-Neuve"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " la Neuve",
+      "triples": [
+        {
+          "streetname": "Route de Louvain la Neuve"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4770",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Louvain la Neuve"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4771",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Louvain la Neuve"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Louvain la Neuve"
+      ]
+    },
+    {
+      "token_string": "-la-Neuve",
+      "triples": [
+        {
+          "streetname": "Route de Louvain-la-Neuve"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4770",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Louvain-la-Neuve"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4772",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Louvain-la-Neuve"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Louvain-la-Neuve"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4775",
+              "@type": "tree:Node",
+              "token_string": "almaison"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4776",
+              "@type": "tree:Node",
+              "token_string": "ons"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Malmaison"
+        },
+        {
+          "streetname": "Route de Mons"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4774",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Malmaison"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Mons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "almaison",
+      "triples": [
+        {
+          "streetname": "Route de Malmaison"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4774",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Malmaison"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4775",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Malmaison"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Malmaison"
+      ]
+    },
+    {
+      "token_string": "ons",
+      "triples": [
+        {
+          "streetname": "Route de Mons"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4774",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Mons"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4776",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Mons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Mons"
+      ]
+    },
+    {
+      "token_string": "Nobressart",
+      "triples": [
+        {
+          "streetname": "Route de Nobressart"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Nobressart"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4777",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Nobressart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Nobressart"
+      ]
+    },
+    {
+      "token_string": "Parfondbois",
+      "triples": [
+        {
+          "streetname": "Route de Parfondbois"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Parfondbois"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4778",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Parfondbois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Parfondbois"
+      ]
+    },
+    {
+      "token_string": "Roïse",
+      "triples": [
+        {
+          "streetname": "Route de Roïse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Roïse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4779",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Roïse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Roïse"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4785",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4790",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment152.jsonld#4781",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Bagatelle"
+        },
+        {
+          "streetname": "Route de Bastogne"
+        },
+        {
+          "streetname": "Route de Beaumont"
+        },
+        {
+          "streetname": "Route de Coirnaye"
+        },
+        {
+          "streetname": "Route de Cornesse"
+        },
+        {
+          "streetname": "Route de Dairomont"
+        },
+        {
+          "streetname": "Route de Forêt"
+        },
+        {
+          "streetname": "Route de Gérasa"
+        },
+        {
+          "streetname": "Route de Grihanster"
+        },
+        {
+          "streetname": "Route de Hesbaye"
+        }
+      ],
+      "total_children_count": 104,
+      "@id": "fragment150.jsonld#4784",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Bagatelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Bastogne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Beaumont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Coirnaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Cornesse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Dairomont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Forêt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Gérasa"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Grihanster"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Hesbaye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4689",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4691",
+              "@type": "tree:Node",
+              "token_string": "Co"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4694",
+              "@type": "tree:Node",
+              "token_string": "Dairomont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4695",
+              "@type": "tree:Node",
+              "token_string": "Forêt"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4697",
+              "@type": "tree:Node",
+              "token_string": "G"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4701",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4707",
+              "@type": "tree:Node",
+              "token_string": "Jalhay"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4731",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4757",
+              "@type": "tree:Node",
+              "token_string": "L"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4774",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4777",
+              "@type": "tree:Node",
+              "token_string": "Nobressart"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4778",
+              "@type": "tree:Node",
+              "token_string": "Parfondbois"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4779",
+              "@type": "tree:Node",
+              "token_string": "Roïse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4798",
+              "@type": "tree:Node",
+              "token_string": "S"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment151.jsonld#4813",
+              "@type": "tree:Node",
+              "token_string": "T"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4817",
+              "@type": "tree:Node",
+              "token_string": "Vaux-sur-Sûre"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4819",
+              "@type": "tree:Node",
+              "token_string": "W"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4784",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Bagatelle"
+        },
+        {
+          "streetname": "Route de Bastogne"
+        },
+        {
+          "streetname": "Route de Beaumont"
+        },
+        {
+          "streetname": "Route de Coirnaye"
+        },
+        {
+          "streetname": "Route de Cornesse"
+        },
+        {
+          "streetname": "Route de Dairomont"
+        },
+        {
+          "streetname": "Route de Forêt"
+        },
+        {
+          "streetname": "Route de Gérasa"
+        },
+        {
+          "streetname": "Route de Grihanster"
+        },
+        {
+          "streetname": "Route de Hesbaye"
+        }
+      ],
+      "total_children_count": 91,
+      "@id": "fragment150.jsonld#4785",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Bagatelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Bastogne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Beaumont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Coirnaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Cornesse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Dairomont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Forêt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Gérasa"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Grihanster"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Hesbaye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "inlez",
+      "triples": [
+        {
+          "streetname": "Route de Sainlez"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4799",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Sainlez"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4788",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Sainlez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Sainlez"
+      ]
+    },
+    {
+      "token_string": "ussin",
+      "triples": [
+        {
+          "streetname": "Route de Saussin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4799",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Saussin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4789",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Saussin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Saussin"
+      ]
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4791",
+              "@type": "tree:Node",
+              "token_string": "Arsins"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4792",
+              "@type": "tree:Node",
+              "token_string": "Courts Champs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4793",
+              "@type": "tree:Node",
+              "token_string": "Épicéas"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4795",
+              "@type": "tree:Node",
+              "token_string": "Grands "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4805",
+              "@type": "tree:Node",
+              "token_string": "Ro"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4809",
+              "@type": "tree:Node",
+              "token_string": "Trembles"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4811",
+              "@type": "tree:Node",
+              "token_string": "Wallons de Suède"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4784",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route des Arsins"
+        },
+        {
+          "streetname": "Route des Courts Champs"
+        },
+        {
+          "streetname": "Route des Épicéas"
+        },
+        {
+          "streetname": "Route des Grands Fagnoux"
+        },
+        {
+          "streetname": "Route des Grands Nids"
+        },
+        {
+          "streetname": "Route des Robiniers"
+        },
+        {
+          "streetname": "Route des Roitelets"
+        },
+        {
+          "streetname": "Route des Trembles"
+        },
+        {
+          "streetname": "Route des Wallons de Suède"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "fragment150.jsonld#4790",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Arsins"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Courts Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Épicéas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Grands Fagnoux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Grands Nids"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Robiniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Roitelets"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Trembles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Wallons de Suède"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Arsins",
+      "triples": [
+        {
+          "streetname": "Route des Arsins"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route des Arsins"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4791",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Arsins"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Arsins"
+      ]
+    },
+    {
+      "token_string": "Courts Champs",
+      "triples": [
+        {
+          "streetname": "Route des Courts Champs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route des Courts Champs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4792",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Courts Champs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Courts Champs"
+      ]
+    },
+    {
+      "token_string": "Épicéas",
+      "triples": [
+        {
+          "streetname": "Route des Épicéas"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route des Épicéas"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4793",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Épicéas"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Épicéas"
+      ]
+    },
+    {
+      "token_string": "Grands ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4796",
+              "@type": "tree:Node",
+              "token_string": "Fagnoux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4797",
+              "@type": "tree:Node",
+              "token_string": "Nids"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route des Grands Fagnoux"
+        },
+        {
+          "streetname": "Route des Grands Nids"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4795",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Grands Fagnoux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Grands Nids"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Fagnoux",
+      "triples": [
+        {
+          "streetname": "Route des Grands Fagnoux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4795",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route des Grands Fagnoux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4796",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Grands Fagnoux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Grands Fagnoux"
+      ]
+    },
+    {
+      "token_string": "Nids",
+      "triples": [
+        {
+          "streetname": "Route des Grands Nids"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4795",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route des Grands Nids"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4797",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Grands Nids"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Grands Nids"
+      ]
+    },
+    {
+      "token_string": "S",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4799",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4801",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4808",
+              "@type": "tree:Node",
+              "token_string": "trainchamps"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4810",
+              "@type": "tree:Node",
+              "token_string": "urré"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Sainlez"
+        },
+        {
+          "streetname": "Route de Saussin"
+        },
+        {
+          "streetname": "Route de Soiron"
+        },
+        {
+          "streetname": "Route de Sommerain"
+        },
+        {
+          "streetname": "Route de Strainchamps"
+        },
+        {
+          "streetname": "Route de Surré"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment150.jsonld#4798",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Sainlez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Saussin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Soiron"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Sommerain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Strainchamps"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Surré"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4788",
+              "@type": "tree:Node",
+              "token_string": "inlez"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4789",
+              "@type": "tree:Node",
+              "token_string": "ussin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4798",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Sainlez"
+        },
+        {
+          "streetname": "Route de Saussin"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4799",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Sainlez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Saussin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4802",
+              "@type": "tree:Node",
+              "token_string": "iron"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4803",
+              "@type": "tree:Node",
+              "token_string": "mmerain"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4798",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Soiron"
+        },
+        {
+          "streetname": "Route de Sommerain"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4801",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Soiron"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Sommerain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "iron",
+      "triples": [
+        {
+          "streetname": "Route de Soiron"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4801",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Soiron"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4802",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Soiron"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Soiron"
+      ]
+    },
+    {
+      "token_string": "mmerain",
+      "triples": [
+        {
+          "streetname": "Route de Sommerain"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4801",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Sommerain"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4803",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Sommerain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Sommerain"
+      ]
+    },
+    {
+      "token_string": "Ro",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4806",
+              "@type": "tree:Node",
+              "token_string": "biniers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4807",
+              "@type": "tree:Node",
+              "token_string": "itelets"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route des Robiniers"
+        },
+        {
+          "streetname": "Route des Roitelets"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4805",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Robiniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Roitelets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "biniers",
+      "triples": [
+        {
+          "streetname": "Route des Robiniers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4805",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route des Robiniers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4806",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Robiniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Robiniers"
+      ]
+    },
+    {
+      "token_string": "itelets",
+      "triples": [
+        {
+          "streetname": "Route des Roitelets"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4805",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route des Roitelets"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4807",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Roitelets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Roitelets"
+      ]
+    },
+    {
+      "token_string": "trainchamps",
+      "triples": [
+        {
+          "streetname": "Route de Strainchamps"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4798",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Strainchamps"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4808",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Strainchamps"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Strainchamps"
+      ]
+    },
+    {
+      "token_string": "Trembles",
+      "triples": [
+        {
+          "streetname": "Route des Trembles"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route des Trembles"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4809",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Trembles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Trembles"
+      ]
+    },
+    {
+      "token_string": "urré",
+      "triples": [
+        {
+          "streetname": "Route de Surré"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4798",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Surré"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4810",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Surré"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Surré"
+      ]
+    },
+    {
+      "token_string": "Wallons de Suède",
+      "triples": [
+        {
+          "streetname": "Route des Wallons de Suède"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route des Wallons de Suède"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4811",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Wallons de Suède"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Wallons de Suède"
+      ]
+    },
+    {
+      "token_string": "Vaux-sur-Sûre",
+      "triples": [
+        {
+          "streetname": "Route de Vaux-sur-Sûre"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Vaux-sur-Sûre"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4817",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Vaux-sur-Sûre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Vaux-sur-Sûre"
+      ]
+    },
+    {
+      "token_string": "W",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4820",
+              "@type": "tree:Node",
+              "token_string": "arnach"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment150.jsonld#4821",
+              "@type": "tree:Node",
+              "token_string": "ideumont"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Warnach"
+        },
+        {
+          "streetname": "Route de Wideumont"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment150.jsonld#4819",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Warnach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Wideumont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "arnach",
+      "triples": [
+        {
+          "streetname": "Route de Warnach"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4819",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Warnach"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4820",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Warnach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Warnach"
+      ]
+    },
+    {
+      "token_string": "ideumont",
+      "triples": [
+        {
+          "streetname": "Route de Wideumont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment150.jsonld#4819",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Route de Wideumont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment150.jsonld#4821",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Wideumont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Wideumont"
+      ]
+    }
+  ]
+}

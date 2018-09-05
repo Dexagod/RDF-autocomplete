@@ -1,0 +1,1259 @@
+{
+  "root_node_id": "7628",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment250.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "rlery",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Narlery",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.053097679461542",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.773329659384444"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7629",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Narlery",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.053097679461542",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.773329659384444"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment250.jsonld#7626",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Narlery"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Narlery"
+      ]
+    },
+    {
+      "token_string": "veprye",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Naveprye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6168956160338634",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.382081240651495"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7629",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Naveprye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6168956160338634",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.382081240651495"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment250.jsonld#7627",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Naveprye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Naveprye"
+      ]
+    },
+    {
+      "token_string": "N",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7629",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment249.jsonld#7631",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7642",
+              "@type": "tree:Node",
+              "token_string": "icol"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7646",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment253.jsonld#7407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Narlery",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.053097679461542",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.773329659384444"
+        },
+        {
+          "http://example.com/terms#name": "Rue Naveprye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6168956160338634",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.382081240651495"
+        },
+        {
+          "http://example.com/terms#name": "Rue Neige",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4254935845584127",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.572554734946266"
+        },
+        {
+          "http://example.com/terms#name": "Rue Nelson Mandela",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.956907588995704",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.86417626970679"
+        },
+        {
+          "http://example.com/terms#name": "Rue Neuve",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2060604816427554",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.74347912663707"
+        },
+        {
+          "http://example.com/terms#name": "Rue Nicolas Arnolis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3969426843356603",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69526403584227"
+        },
+        {
+          "http://example.com/terms#name": "Rue Nicolas Copernic",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0127794926611005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.59584239125614"
+        },
+        {
+          "http://example.com/terms#name": "Rue Nicolas Darche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6469138058580235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.25099130933374"
+        },
+        {
+          "http://example.com/terms#name": "Rue Nicolas Mornard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.070853449364958",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.738490626530805"
+        },
+        {
+          "http://example.com/terms#name": "Rue Nicol Corthouts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.450614865424275",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.64186984491413"
+        }
+      ],
+      "total_children_count": 24,
+      "@id": "streetsfragment250.jsonld#7628",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Narlery"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Naveprye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Neige"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Nelson Mandela"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Neuve"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Nicolas Arnolis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Nicolas Copernic"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Nicolas Darche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Nicolas Mornard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Nicol Corthouts"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7626",
+              "@type": "tree:Node",
+              "token_string": "rlery"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7627",
+              "@type": "tree:Node",
+              "token_string": "veprye"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7628",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Narlery",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.053097679461542",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.773329659384444"
+        },
+        {
+          "http://example.com/terms#name": "Rue Naveprye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6168956160338634",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.382081240651495"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment250.jsonld#7629",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Narlery"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Naveprye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Arnolis",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Nicolas Arnolis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3969426843356603",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69526403584227"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7643",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Nicolas Arnolis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3969426843356603",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69526403584227"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment250.jsonld#7637",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Nicolas Arnolis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Nicolas Arnolis"
+      ]
+    },
+    {
+      "token_string": "Copernic",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Nicolas Copernic",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0127794926611005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.59584239125614"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7643",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Nicolas Copernic",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0127794926611005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.59584239125614"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment250.jsonld#7638",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Nicolas Copernic"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Nicolas Copernic"
+      ]
+    },
+    {
+      "token_string": "Darche",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Nicolas Darche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6469138058580235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.25099130933374"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7643",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Nicolas Darche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6469138058580235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.25099130933374"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment250.jsonld#7639",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Nicolas Darche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Nicolas Darche"
+      ]
+    },
+    {
+      "token_string": "Mornard",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Nicolas Mornard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.070853449364958",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.738490626530805"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7643",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Nicolas Mornard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.070853449364958",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.738490626530805"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment250.jsonld#7640",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Nicolas Mornard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Nicolas Mornard"
+      ]
+    },
+    {
+      "token_string": "Reuter",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Nicolas Reuter",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2852715654451337",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.100538131009905"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7643",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Nicolas Reuter",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2852715654451337",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.100538131009905"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment250.jsonld#7641",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Nicolas Reuter"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Nicolas Reuter"
+      ]
+    },
+    {
+      "token_string": "icol",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7643",
+              "@type": "tree:Node",
+              "token_string": "as "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7644",
+              "@type": "tree:Node",
+              "token_string": " Corthouts"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7628",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Nicolas Arnolis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3969426843356603",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69526403584227"
+        },
+        {
+          "http://example.com/terms#name": "Rue Nicolas Copernic",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0127794926611005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.59584239125614"
+        },
+        {
+          "http://example.com/terms#name": "Rue Nicolas Darche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6469138058580235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.25099130933374"
+        },
+        {
+          "http://example.com/terms#name": "Rue Nicolas Mornard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.070853449364958",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.738490626530805"
+        },
+        {
+          "http://example.com/terms#name": "Rue Nicolas Reuter",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2852715654451337",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.100538131009905"
+        },
+        {
+          "http://example.com/terms#name": "Rue Nicol Corthouts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.450614865424275",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.64186984491413"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "streetsfragment250.jsonld#7642",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Nicolas Arnolis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Nicolas Copernic"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Nicolas Darche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Nicolas Mornard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Nicolas Reuter"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Nicol Corthouts"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "as ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7637",
+              "@type": "tree:Node",
+              "token_string": "Arnolis"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7638",
+              "@type": "tree:Node",
+              "token_string": "Copernic"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7639",
+              "@type": "tree:Node",
+              "token_string": "Darche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7640",
+              "@type": "tree:Node",
+              "token_string": "Mornard"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7641",
+              "@type": "tree:Node",
+              "token_string": "Reuter"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7642",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Nicolas Arnolis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3969426843356603",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69526403584227"
+        },
+        {
+          "http://example.com/terms#name": "Rue Nicolas Copernic",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0127794926611005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.59584239125614"
+        },
+        {
+          "http://example.com/terms#name": "Rue Nicolas Darche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6469138058580235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.25099130933374"
+        },
+        {
+          "http://example.com/terms#name": "Rue Nicolas Mornard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.070853449364958",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.738490626530805"
+        },
+        {
+          "http://example.com/terms#name": "Rue Nicolas Reuter",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2852715654451337",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.100538131009905"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment250.jsonld#7643",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Nicolas Arnolis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Nicolas Copernic"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Nicolas Darche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Nicolas Mornard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Nicolas Reuter"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Corthouts",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Nicol Corthouts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.450614865424275",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.64186984491413"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7642",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Nicol Corthouts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.450614865424275",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.64186984491413"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment250.jsonld#7644",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Nicol Corthouts"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Nicol Corthouts"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7647",
+              "@type": "tree:Node",
+              "token_string": "ir Bonhomme"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7648",
+              "@type": "tree:Node",
+              "token_string": "rbert Bouzin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7649",
+              "@type": "tree:Node",
+              "token_string": "tre-Dame"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7628",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Noir Bonhomme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.727133399263749",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91686358086177"
+        },
+        {
+          "http://example.com/terms#name": "Rue Norbert Bouzin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.74929461767999",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.833196297158494"
+        },
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0837838449935693",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56576964468677"
+        },
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame de Grâces",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8510165477423643",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.78557383288041"
+        },
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame de Haurt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.340363999038628",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.365957694409495"
+        },
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame du Vivier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0472287532573645",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23271739315573"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "streetsfragment250.jsonld#7646",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Noir Bonhomme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Norbert Bouzin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Notre-Dame"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Notre-Dame de Grâces"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Notre-Dame de Haurt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Notre-Dame du Vivier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ir Bonhomme",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Noir Bonhomme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.727133399263749",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91686358086177"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7646",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Noir Bonhomme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.727133399263749",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91686358086177"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment250.jsonld#7647",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Noir Bonhomme"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Noir Bonhomme"
+      ]
+    },
+    {
+      "token_string": "rbert Bouzin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Norbert Bouzin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.74929461767999",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.833196297158494"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7646",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Norbert Bouzin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.74929461767999",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.833196297158494"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment250.jsonld#7648",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Norbert Bouzin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Norbert Bouzin"
+      ]
+    },
+    {
+      "token_string": "tre-Dame",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0837838449935693",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56576964468677"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7654",
+              "@type": "tree:Node",
+              "token_string": " d"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7646",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0837838449935693",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56576964468677"
+        },
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame de Grâces",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8510165477423643",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.78557383288041"
+        },
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame de Haurt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.340363999038628",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.365957694409495"
+        },
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame du Vivier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0472287532573645",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23271739315573"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment250.jsonld#7649",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Notre-Dame"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Notre-Dame de Grâces"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Notre-Dame de Haurt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Notre-Dame du Vivier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Notre-Dame"
+      ]
+    },
+    {
+      "token_string": "Grâces",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame de Grâces",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8510165477423643",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.78557383288041"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7655",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame de Grâces",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8510165477423643",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.78557383288041"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment250.jsonld#7652",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Notre-Dame de Grâces"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Notre-Dame de Grâces"
+      ]
+    },
+    {
+      "token_string": "Haurt",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame de Haurt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.340363999038628",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.365957694409495"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7655",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame de Haurt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.340363999038628",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.365957694409495"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment250.jsonld#7653",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Notre-Dame de Haurt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Notre-Dame de Haurt"
+      ]
+    },
+    {
+      "token_string": " d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7655",
+              "@type": "tree:Node",
+              "token_string": "e "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7656",
+              "@type": "tree:Node",
+              "token_string": "u Vivier"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7649",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame de Grâces",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8510165477423643",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.78557383288041"
+        },
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame de Haurt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.340363999038628",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.365957694409495"
+        },
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame du Vivier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0472287532573645",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23271739315573"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment250.jsonld#7654",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Notre-Dame de Grâces"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Notre-Dame de Haurt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Notre-Dame du Vivier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7652",
+              "@type": "tree:Node",
+              "token_string": "Grâces"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment250.jsonld#7653",
+              "@type": "tree:Node",
+              "token_string": "Haurt"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7654",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame de Grâces",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8510165477423643",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.78557383288041"
+        },
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame de Haurt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.340363999038628",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.365957694409495"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment250.jsonld#7655",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Notre-Dame de Grâces"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Notre-Dame de Haurt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u Vivier",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame du Vivier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0472287532573645",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23271739315573"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment250.jsonld#7654",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Notre-Dame du Vivier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0472287532573645",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23271739315573"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment250.jsonld#7656",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Notre-Dame du Vivier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Notre-Dame du Vivier"
+      ]
+    }
+  ]
+}

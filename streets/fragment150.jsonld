@@ -1,0 +1,5446 @@
+{
+  "root_node_id": "4784",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment150.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "gatelle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Bagatelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9028321372993235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.0179901025507"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4686",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Bagatelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9028321372993235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.0179901025507"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4683",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Bagatelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Bagatelle"
+      ]
+    },
+    {
+      "token_string": "stogne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Bastogne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1569696168286887",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.44164306201441"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4686",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Bastogne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1569696168286887",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.44164306201441"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4684",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Bastogne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Bastogne"
+      ]
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4683",
+              "@type": "tree:Node",
+              "token_string": "gatelle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4684",
+              "@type": "tree:Node",
+              "token_string": "stogne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4689",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Bagatelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9028321372993235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.0179901025507"
+        },
+        {
+          "http://example.com/terms#name": "Route de Bastogne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1569696168286887",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.44164306201441"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4686",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Bagatelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Bastogne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eaumont",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Beaumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2125200060740897",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.020349151253996"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4689",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Beaumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2125200060740897",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.020349151253996"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4687",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Beaumont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Beaumont"
+      ]
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4686",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4687",
+              "@type": "tree:Node",
+              "token_string": "eaumont"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Bagatelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9028321372993235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.0179901025507"
+        },
+        {
+          "http://example.com/terms#name": "Route de Bastogne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1569696168286887",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.44164306201441"
+        },
+        {
+          "http://example.com/terms#name": "Route de Beaumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2125200060740897",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.020349151253996"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment150.jsonld#4689",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Bagatelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Bastogne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Beaumont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Co",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4692",
+              "@type": "tree:Node",
+              "token_string": "irnaye"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4693",
+              "@type": "tree:Node",
+              "token_string": "rnesse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Coirnaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.262678627534752",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.565741257025756"
+        },
+        {
+          "http://example.com/terms#name": "Route de Cornesse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2666193372908303",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.4639520108666"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4691",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Coirnaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Cornesse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "irnaye",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Coirnaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.262678627534752",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.565741257025756"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4691",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Coirnaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.262678627534752",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.565741257025756"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4692",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Coirnaye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Coirnaye"
+      ]
+    },
+    {
+      "token_string": "rnesse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Cornesse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2666193372908303",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.4639520108666"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4691",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Cornesse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2666193372908303",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.4639520108666"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4693",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Cornesse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Cornesse"
+      ]
+    },
+    {
+      "token_string": "Dairomont",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Dairomont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3386663156190246",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.47346377392319"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Dairomont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3386663156190246",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.47346377392319"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4694",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Dairomont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Dairomont"
+      ]
+    },
+    {
+      "token_string": "Forêt",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Forêt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7459548356070913",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.670252138434236"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Forêt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7459548356070913",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.670252138434236"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4695",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Forêt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Forêt"
+      ]
+    },
+    {
+      "token_string": "G",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4698",
+              "@type": "tree:Node",
+              "token_string": "érasa"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4699",
+              "@type": "tree:Node",
+              "token_string": "rihanster"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Gérasa",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3675546899026445",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44235481263958"
+        },
+        {
+          "http://example.com/terms#name": "Route de Grihanster",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5134680617925342",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.820156816110284"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4697",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Gérasa"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Grihanster"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "érasa",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Gérasa",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3675546899026445",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44235481263958"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4697",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Gérasa",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3675546899026445",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44235481263958"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4698",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Gérasa"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Gérasa"
+      ]
+    },
+    {
+      "token_string": "rihanster",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Grihanster",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5134680617925342",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.820156816110284"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4697",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Grihanster",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5134680617925342",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.820156816110284"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4699",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Grihanster"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Grihanster"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4702",
+              "@type": "tree:Node",
+              "token_string": "esbaye"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4704",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Hesbaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.627593429033751",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.72616795946835"
+        },
+        {
+          "http://example.com/terms#name": "Route de Hockai",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9073684097597026",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62272697300941"
+        },
+        {
+          "http://example.com/terms#name": "Route de Houffalize",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.181240463661966",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.871386242091305"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment150.jsonld#4701",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Hesbaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Hockai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Houffalize"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "esbaye",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Hesbaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.627593429033751",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.72616795946835"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4701",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Hesbaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.627593429033751",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.72616795946835"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4702",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Hesbaye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Hesbaye"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4705",
+              "@type": "tree:Node",
+              "token_string": "ckai"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4706",
+              "@type": "tree:Node",
+              "token_string": "uffalize"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4701",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Hockai",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9073684097597026",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62272697300941"
+        },
+        {
+          "http://example.com/terms#name": "Route de Houffalize",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.181240463661966",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.871386242091305"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4704",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Hockai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Houffalize"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ckai",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Hockai",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9073684097597026",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62272697300941"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4704",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Hockai",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9073684097597026",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62272697300941"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4705",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Hockai"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Hockai"
+      ]
+    },
+    {
+      "token_string": "uffalize",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Houffalize",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.181240463661966",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.871386242091305"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4704",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Houffalize",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.181240463661966",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.871386242091305"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4706",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Houffalize"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Houffalize"
+      ]
+    },
+    {
+      "token_string": "Jalhay",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Jalhay",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8221235741291415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.081294233079596"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Jalhay",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8221235741291415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.081294233079596"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4707",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Jalhay"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Jalhay"
+      ]
+    },
+    {
+      "token_string": "Barrière",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Barrière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.134468920604352",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.38249262988123"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Barrière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.134468920604352",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.38249262988123"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4710",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Barrière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Barrière"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4713",
+              "@type": "tree:Node",
+              "token_string": "hapelle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4714",
+              "@type": "tree:Node",
+              "token_string": "roix"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Chapelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3603982164896182",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.693090103515885"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8101254999519676",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.49354261211174"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix Brognard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7362598763943615",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52855967207812"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix de Fays",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.101762556000168",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.793658513320906"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix Renard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3493335422436386",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.795545155109394"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment150.jsonld#4712",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Chapelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Brognard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix de Fays"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Renard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "hapelle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Chapelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3603982164896182",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.693090103515885"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4712",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Chapelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3603982164896182",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.693090103515885"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4713",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Chapelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Chapelle"
+      ]
+    },
+    {
+      "token_string": "roix",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Croix",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8101254999519676",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.49354261211174"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4716",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4712",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Croix",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8101254999519676",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.49354261211174"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix Brognard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7362598763943615",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52855967207812"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix de Fays",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.101762556000168",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.793658513320906"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix Renard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3493335422436386",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.795545155109394"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment150.jsonld#4714",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Croix"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Brognard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix de Fays"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Renard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Croix"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4717",
+              "@type": "tree:Node",
+              "token_string": "Brognard"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4718",
+              "@type": "tree:Node",
+              "token_string": "de Fays"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4719",
+              "@type": "tree:Node",
+              "token_string": "Renard"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4714",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Croix Brognard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7362598763943615",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52855967207812"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix de Fays",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.101762556000168",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.793658513320906"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix Renard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3493335422436386",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.795545155109394"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment150.jsonld#4716",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Croix Brognard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix de Fays"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Renard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Brognard",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Croix Brognard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7362598763943615",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52855967207812"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4716",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Croix Brognard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7362598763943615",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52855967207812"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4717",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Croix Brognard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Croix Brognard"
+      ]
+    },
+    {
+      "token_string": "de Fays",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Croix de Fays",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.101762556000168",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.793658513320906"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4716",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Croix de Fays",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.101762556000168",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.793658513320906"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4718",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Croix de Fays"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Croix de Fays"
+      ]
+    },
+    {
+      "token_string": "Renard",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Croix Renard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3493335422436386",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.795545155109394"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4716",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Croix Renard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3493335422436386",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.795545155109394"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4719",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Croix Renard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Croix Renard"
+      ]
+    },
+    {
+      "token_string": "Brûlée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Ferme Brûlée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2467298297902616",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.08561335781888"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4725",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Ferme Brûlée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2467298297902616",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.08561335781888"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4722",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Ferme Brûlée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Ferme Brûlée"
+      ]
+    },
+    {
+      "token_string": "de Harse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Ferme de Harse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0610431944774845",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08451822234776"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4725",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Ferme de Harse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0610431944774845",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08451822234776"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4723",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Ferme de Harse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Ferme de Harse"
+      ]
+    },
+    {
+      "token_string": "F",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4725",
+              "@type": "tree:Node",
+              "token_string": "erme "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4726",
+              "@type": "tree:Node",
+              "token_string": "ilature"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4727",
+              "@type": "tree:Node",
+              "token_string": "orêt"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Ferme Brûlée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2467298297902616",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.08561335781888"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Ferme de Harse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0610431944774845",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08451822234776"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Filature",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5573501259901117",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.34932166438224"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Forêt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6821551752275155",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.14926509793001"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment150.jsonld#4724",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Ferme Brûlée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Ferme de Harse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Filature"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Forêt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erme ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4722",
+              "@type": "tree:Node",
+              "token_string": "Brûlée"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4723",
+              "@type": "tree:Node",
+              "token_string": "de Harse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4724",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Ferme Brûlée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2467298297902616",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.08561335781888"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Ferme de Harse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0610431944774845",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08451822234776"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4725",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Ferme Brûlée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Ferme de Harse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ilature",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Filature",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5573501259901117",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.34932166438224"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4724",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Filature",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5573501259901117",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.34932166438224"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4726",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Filature"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Filature"
+      ]
+    },
+    {
+      "token_string": "orêt",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Forêt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6821551752275155",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.14926509793001"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4724",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Forêt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6821551752275155",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.14926509793001"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4727",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Forêt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Forêt"
+      ]
+    },
+    {
+      "token_string": "Lache",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Lache",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.881765558534559",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.32131308199005"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Lache",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.881765558534559",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.32131308199005"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4728",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Lache"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Lache"
+      ]
+    },
+    {
+      "token_string": "Malle-Poste",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Malle-Poste",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.604422491866156",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.47725054574106"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Malle-Poste",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.604422491866156",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.47725054574106"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4730",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Malle-Poste"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Malle-Poste"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4732",
+              "@type": "tree:Node",
+              "token_string": "a "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4754",
+              "@type": "tree:Node",
+              "token_string": "'"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Barrière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.134468920604352",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.38249262988123"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Chapelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3603982164896182",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.693090103515885"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8101254999519676",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.49354261211174"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix Brognard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7362598763943615",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52855967207812"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix de Fays",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.101762556000168",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.793658513320906"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix Renard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3493335422436386",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.795545155109394"
+        },
+        {
+          "http://example.com/terms#name": "Route de l'Amblève",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.131795668880037",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.695065998313204"
+        },
+        {
+          "http://example.com/terms#name": "Route de l'Ecole",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.271404215937918",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.68736823991487"
+        },
+        {
+          "http://example.com/terms#name": "Route de l'Ordenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6133697547853414",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.4575432292927"
+        },
+        {
+          "http://example.com/terms#name": "Route de l'Ourlaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.518730859896564",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11441793759104"
+        }
+      ],
+      "total_children_count": 36,
+      "@id": "streetsfragment150.jsonld#4731",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Barrière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Chapelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Brognard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix de Fays"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Renard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de l'Amblève"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de l'Ecole"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de l'Ordenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de l'Ourlaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4710",
+              "@type": "tree:Node",
+              "token_string": "Barrière"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4712",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4724",
+              "@type": "tree:Node",
+              "token_string": "F"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4728",
+              "@type": "tree:Node",
+              "token_string": "Lache"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4730",
+              "@type": "tree:Node",
+              "token_string": "Malle-Poste"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4735",
+              "@type": "tree:Node",
+              "token_string": "P"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4740",
+              "@type": "tree:Node",
+              "token_string": "Ro"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4744",
+              "@type": "tree:Node",
+              "token_string": "St"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4751",
+              "@type": "tree:Node",
+              "token_string": "V"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4731",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Barrière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.134468920604352",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.38249262988123"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Chapelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3603982164896182",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.693090103515885"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8101254999519676",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.49354261211174"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix Brognard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7362598763943615",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52855967207812"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix de Fays",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.101762556000168",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.793658513320906"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Croix Renard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3493335422436386",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.795545155109394"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Ferme Brûlée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2467298297902616",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.08561335781888"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Ferme de Harse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0610431944774845",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08451822234776"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Filature",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5573501259901117",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.34932166438224"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Forêt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6821551752275155",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.14926509793001"
+        }
+      ],
+      "total_children_count": 29,
+      "@id": "streetsfragment150.jsonld#4732",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Barrière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Chapelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Brognard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix de Fays"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Croix Renard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Ferme Brûlée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Ferme de Harse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Filature"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Forêt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "P",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4736",
+              "@type": "tree:Node",
+              "token_string": "atte D'Oie"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4737",
+              "@type": "tree:Node",
+              "token_string": "érî"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4738",
+              "@type": "tree:Node",
+              "token_string": "late Taille"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Patte D'Oie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.344163084179426",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.8905371446937"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Pérî",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.800463879410737",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66017995692671"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Plate Taille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6924051910177305",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.327602019047134"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment150.jsonld#4735",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Patte D'Oie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Pérî"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Plate Taille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "atte D'Oie",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Patte D'Oie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.344163084179426",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.8905371446937"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4735",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Patte D'Oie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.344163084179426",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.8905371446937"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4736",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Patte D'Oie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Patte D'Oie"
+      ]
+    },
+    {
+      "token_string": "érî",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Pérî",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.800463879410737",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66017995692671"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4735",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Pérî",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.800463879410737",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66017995692671"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4737",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Pérî"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Pérî"
+      ]
+    },
+    {
+      "token_string": "late Taille",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Plate Taille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6924051910177305",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.327602019047134"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4735",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Plate Taille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6924051910177305",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.327602019047134"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4738",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Plate Taille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Plate Taille"
+      ]
+    },
+    {
+      "token_string": "Ro",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4741",
+              "@type": "tree:Node",
+              "token_string": "che"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4742",
+              "@type": "tree:Node",
+              "token_string": "nde Fagne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Roche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2373243918957617",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.55026708367924"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Ronde Fagne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.109759516742896",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.07211361260684"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4740",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Roche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Ronde Fagne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "che",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Roche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2373243918957617",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.55026708367924"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4740",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Roche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2373243918957617",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.55026708367924"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4741",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Roche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Roche"
+      ]
+    },
+    {
+      "token_string": "nde Fagne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Ronde Fagne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.109759516742896",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.07211361260684"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4740",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Ronde Fagne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.109759516742896",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.07211361260684"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4742",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Ronde Fagne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Ronde Fagne"
+      ]
+    },
+    {
+      "token_string": "St",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4745",
+              "@type": "tree:Node",
+              "token_string": "atte"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4746",
+              "@type": "tree:Node",
+              "token_string": "range"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Statte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2542645926637546",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35996230374273"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Strange",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9431277605148",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.385159688473884"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4744",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Statte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Strange"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "atte",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Statte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2542645926637546",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35996230374273"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4744",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Statte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2542645926637546",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35996230374273"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4745",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Statte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Statte"
+      ]
+    },
+    {
+      "token_string": "range",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Strange",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9431277605148",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.385159688473884"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4744",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Strange",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9431277605148",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.385159688473884"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4746",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Strange"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Strange"
+      ]
+    },
+    {
+      "token_string": "main",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Lamain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.936419227085608",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.704087416082714"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4758",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Lamain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.936419227085608",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.704087416082714"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4748",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Lamain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Lamain"
+      ]
+    },
+    {
+      "token_string": "utenne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Lautenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8158239745426963",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16711089130469"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4758",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Lautenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8158239745426963",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16711089130469"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4749",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Lautenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Lautenne"
+      ]
+    },
+    {
+      "token_string": "V",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4752",
+              "@type": "tree:Node",
+              "token_string": "enne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4753",
+              "@type": "tree:Node",
+              "token_string": "oie Cuivrée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Venne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4092842465585718",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.184452142613296"
+        },
+        {
+          "http://example.com/terms#name": "Route de la Voie Cuivrée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.200424409312827",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52206391463289"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4751",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Venne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de la Voie Cuivrée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "enne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Venne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4092842465585718",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.184452142613296"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4751",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Venne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4092842465585718",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.184452142613296"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4752",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Venne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Venne"
+      ]
+    },
+    {
+      "token_string": "oie Cuivrée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de la Voie Cuivrée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.200424409312827",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52206391463289"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4751",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de la Voie Cuivrée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.200424409312827",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52206391463289"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4753",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de la Voie Cuivrée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de la Voie Cuivrée"
+      ]
+    },
+    {
+      "token_string": "'",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4755",
+              "@type": "tree:Node",
+              "token_string": "Amblève"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4756",
+              "@type": "tree:Node",
+              "token_string": "Ecole"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4766",
+              "@type": "tree:Node",
+              "token_string": "O"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4731",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de l'Amblève",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.131795668880037",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.695065998313204"
+        },
+        {
+          "http://example.com/terms#name": "Route de l'Ecole",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.271404215937918",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.68736823991487"
+        },
+        {
+          "http://example.com/terms#name": "Route de l'Ordenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6133697547853414",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.4575432292927"
+        },
+        {
+          "http://example.com/terms#name": "Route de l'Ourlaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.518730859896564",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11441793759104"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment150.jsonld#4754",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de l'Amblève"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de l'Ecole"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de l'Ordenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de l'Ourlaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Amblève",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de l'Amblève",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.131795668880037",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.695065998313204"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4754",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de l'Amblève",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.131795668880037",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.695065998313204"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4755",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de l'Amblève"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de l'Amblève"
+      ]
+    },
+    {
+      "token_string": "Ecole",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de l'Ecole",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.271404215937918",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.68736823991487"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4754",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de l'Ecole",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.271404215937918",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.68736823991487"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4756",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de l'Ecole"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de l'Ecole"
+      ]
+    },
+    {
+      "token_string": "L",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4758",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4760",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4770",
+              "@type": "tree:Node",
+              "token_string": "ouvain"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Lamain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.936419227085608",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.704087416082714"
+        },
+        {
+          "http://example.com/terms#name": "Route de Lautenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8158239745426963",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16711089130469"
+        },
+        {
+          "http://example.com/terms#name": "Route de Libramont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5886287359758704",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09434967855603"
+        },
+        {
+          "http://example.com/terms#name": "Route de Liège",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8500804118092242",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.780747566747166"
+        },
+        {
+          "http://example.com/terms#name": "Route de Ligné",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6288845685522957",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.33058260071903"
+        },
+        {
+          "http://example.com/terms#name": "Route de Livarchamps",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1312646713277843",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71564586641106"
+        },
+        {
+          "http://example.com/terms#name": "Route de Louvain la Neuve",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.653635653422133",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.98944439749038"
+        },
+        {
+          "http://example.com/terms#name": "Route de Louvain-la-Neuve",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.231846469416174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.4562228276996"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "streetsfragment150.jsonld#4757",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Lamain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Lautenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Libramont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Liège"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Ligné"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Livarchamps"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Louvain la Neuve"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Louvain-la-Neuve"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4748",
+              "@type": "tree:Node",
+              "token_string": "main"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4749",
+              "@type": "tree:Node",
+              "token_string": "utenne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4757",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Lamain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.936419227085608",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.704087416082714"
+        },
+        {
+          "http://example.com/terms#name": "Route de Lautenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8158239745426963",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16711089130469"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4758",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Lamain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Lautenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4761",
+              "@type": "tree:Node",
+              "token_string": "bramont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4762",
+              "@type": "tree:Node",
+              "token_string": "ège"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4763",
+              "@type": "tree:Node",
+              "token_string": "gné"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4764",
+              "@type": "tree:Node",
+              "token_string": "varchamps"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4757",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Libramont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5886287359758704",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09434967855603"
+        },
+        {
+          "http://example.com/terms#name": "Route de Liège",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8500804118092242",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.780747566747166"
+        },
+        {
+          "http://example.com/terms#name": "Route de Ligné",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6288845685522957",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.33058260071903"
+        },
+        {
+          "http://example.com/terms#name": "Route de Livarchamps",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1312646713277843",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71564586641106"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment150.jsonld#4760",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Libramont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Liège"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Ligné"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Livarchamps"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bramont",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Libramont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5886287359758704",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09434967855603"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4760",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Libramont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5886287359758704",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09434967855603"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4761",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Libramont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Libramont"
+      ]
+    },
+    {
+      "token_string": "ège",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Liège",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8500804118092242",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.780747566747166"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4760",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Liège",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8500804118092242",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.780747566747166"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4762",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Liège"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Liège"
+      ]
+    },
+    {
+      "token_string": "gné",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Ligné",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6288845685522957",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.33058260071903"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4760",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Ligné",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6288845685522957",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.33058260071903"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4763",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Ligné"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Ligné"
+      ]
+    },
+    {
+      "token_string": "varchamps",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Livarchamps",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1312646713277843",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71564586641106"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4760",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Livarchamps",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1312646713277843",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71564586641106"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4764",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Livarchamps"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Livarchamps"
+      ]
+    },
+    {
+      "token_string": "O",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4767",
+              "@type": "tree:Node",
+              "token_string": "rdenne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4768",
+              "@type": "tree:Node",
+              "token_string": "urlaine"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4754",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de l'Ordenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6133697547853414",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.4575432292927"
+        },
+        {
+          "http://example.com/terms#name": "Route de l'Ourlaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.518730859896564",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11441793759104"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4766",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de l'Ordenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de l'Ourlaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rdenne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de l'Ordenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6133697547853414",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.4575432292927"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4766",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de l'Ordenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6133697547853414",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.4575432292927"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4767",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de l'Ordenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de l'Ordenne"
+      ]
+    },
+    {
+      "token_string": "urlaine",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de l'Ourlaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.518730859896564",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11441793759104"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4766",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de l'Ourlaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.518730859896564",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11441793759104"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4768",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de l'Ourlaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de l'Ourlaine"
+      ]
+    },
+    {
+      "token_string": "ouvain",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4771",
+              "@type": "tree:Node",
+              "token_string": " la Neuve"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4772",
+              "@type": "tree:Node",
+              "token_string": "-la-Neuve"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4757",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Louvain la Neuve",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.653635653422133",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.98944439749038"
+        },
+        {
+          "http://example.com/terms#name": "Route de Louvain-la-Neuve",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.231846469416174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.4562228276996"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4770",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Louvain la Neuve"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Louvain-la-Neuve"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " la Neuve",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Louvain la Neuve",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.653635653422133",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.98944439749038"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4770",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Louvain la Neuve",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.653635653422133",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.98944439749038"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4771",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Louvain la Neuve"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Louvain la Neuve"
+      ]
+    },
+    {
+      "token_string": "-la-Neuve",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Louvain-la-Neuve",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.231846469416174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.4562228276996"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4770",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Louvain-la-Neuve",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.231846469416174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.4562228276996"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4772",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Louvain-la-Neuve"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Louvain-la-Neuve"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4775",
+              "@type": "tree:Node",
+              "token_string": "almaison"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4776",
+              "@type": "tree:Node",
+              "token_string": "ons"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Malmaison",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.923717562105293",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.37252288430184"
+        },
+        {
+          "http://example.com/terms#name": "Route de Mons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.729230233843103",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04845436944167"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4774",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Malmaison"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Mons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "almaison",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Malmaison",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.923717562105293",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.37252288430184"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4774",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Malmaison",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.923717562105293",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.37252288430184"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4775",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Malmaison"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Malmaison"
+      ]
+    },
+    {
+      "token_string": "ons",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Mons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.729230233843103",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04845436944167"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4774",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Mons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.729230233843103",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04845436944167"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4776",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Mons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Mons"
+      ]
+    },
+    {
+      "token_string": "Nobressart",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Nobressart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7896237541248903",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.610803897080324"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Nobressart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7896237541248903",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.610803897080324"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4777",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Nobressart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Nobressart"
+      ]
+    },
+    {
+      "token_string": "Parfondbois",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Parfondbois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7693612725536507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.80421011188711"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Parfondbois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7693612725536507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.80421011188711"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4778",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Parfondbois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Parfondbois"
+      ]
+    },
+    {
+      "token_string": "Roïse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Roïse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.605691930304078",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.20670295459548"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Roïse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.605691930304078",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.20670295459548"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4779",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Roïse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Roïse"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4785",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4790",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment152.jsonld#4781",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Bagatelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9028321372993235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.0179901025507"
+        },
+        {
+          "http://example.com/terms#name": "Route de Bastogne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1569696168286887",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.44164306201441"
+        },
+        {
+          "http://example.com/terms#name": "Route de Beaumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2125200060740897",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.020349151253996"
+        },
+        {
+          "http://example.com/terms#name": "Route de Coirnaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.262678627534752",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.565741257025756"
+        },
+        {
+          "http://example.com/terms#name": "Route de Cornesse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2666193372908303",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.4639520108666"
+        },
+        {
+          "http://example.com/terms#name": "Route de Dairomont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3386663156190246",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.47346377392319"
+        },
+        {
+          "http://example.com/terms#name": "Route de Forêt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7459548356070913",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.670252138434236"
+        },
+        {
+          "http://example.com/terms#name": "Route de Gérasa",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3675546899026445",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44235481263958"
+        },
+        {
+          "http://example.com/terms#name": "Route de Grihanster",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5134680617925342",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.820156816110284"
+        },
+        {
+          "http://example.com/terms#name": "Route de Hesbaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.627593429033751",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.72616795946835"
+        }
+      ],
+      "total_children_count": 104,
+      "@id": "streetsfragment150.jsonld#4784",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Bagatelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Bastogne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Beaumont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Coirnaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Cornesse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Dairomont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Forêt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Gérasa"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Grihanster"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Hesbaye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4689",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4691",
+              "@type": "tree:Node",
+              "token_string": "Co"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4694",
+              "@type": "tree:Node",
+              "token_string": "Dairomont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4695",
+              "@type": "tree:Node",
+              "token_string": "Forêt"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4697",
+              "@type": "tree:Node",
+              "token_string": "G"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4701",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4707",
+              "@type": "tree:Node",
+              "token_string": "Jalhay"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4731",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4757",
+              "@type": "tree:Node",
+              "token_string": "L"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4774",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4777",
+              "@type": "tree:Node",
+              "token_string": "Nobressart"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4778",
+              "@type": "tree:Node",
+              "token_string": "Parfondbois"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4779",
+              "@type": "tree:Node",
+              "token_string": "Roïse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4798",
+              "@type": "tree:Node",
+              "token_string": "S"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment151.jsonld#4813",
+              "@type": "tree:Node",
+              "token_string": "T"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4817",
+              "@type": "tree:Node",
+              "token_string": "Vaux-sur-Sûre"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4819",
+              "@type": "tree:Node",
+              "token_string": "W"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4784",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Bagatelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9028321372993235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.0179901025507"
+        },
+        {
+          "http://example.com/terms#name": "Route de Bastogne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1569696168286887",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.44164306201441"
+        },
+        {
+          "http://example.com/terms#name": "Route de Beaumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2125200060740897",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.020349151253996"
+        },
+        {
+          "http://example.com/terms#name": "Route de Coirnaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.262678627534752",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.565741257025756"
+        },
+        {
+          "http://example.com/terms#name": "Route de Cornesse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2666193372908303",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.4639520108666"
+        },
+        {
+          "http://example.com/terms#name": "Route de Dairomont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3386663156190246",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.47346377392319"
+        },
+        {
+          "http://example.com/terms#name": "Route de Forêt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7459548356070913",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.670252138434236"
+        },
+        {
+          "http://example.com/terms#name": "Route de Gérasa",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3675546899026445",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44235481263958"
+        },
+        {
+          "http://example.com/terms#name": "Route de Grihanster",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5134680617925342",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.820156816110284"
+        },
+        {
+          "http://example.com/terms#name": "Route de Hesbaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.627593429033751",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.72616795946835"
+        }
+      ],
+      "total_children_count": 91,
+      "@id": "streetsfragment150.jsonld#4785",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Bagatelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Bastogne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Beaumont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Coirnaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Cornesse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Dairomont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Forêt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Gérasa"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Grihanster"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Hesbaye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "inlez",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Sainlez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2760729784027136",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.31309968730253"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4799",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Sainlez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2760729784027136",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.31309968730253"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4788",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Sainlez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Sainlez"
+      ]
+    },
+    {
+      "token_string": "ussin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Saussin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.987409008425672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.596167573968806"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4799",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Saussin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.987409008425672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.596167573968806"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4789",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Saussin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Saussin"
+      ]
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4791",
+              "@type": "tree:Node",
+              "token_string": "Arsins"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4792",
+              "@type": "tree:Node",
+              "token_string": "Courts Champs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4793",
+              "@type": "tree:Node",
+              "token_string": "Épicéas"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4795",
+              "@type": "tree:Node",
+              "token_string": "Grands "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4805",
+              "@type": "tree:Node",
+              "token_string": "Ro"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4809",
+              "@type": "tree:Node",
+              "token_string": "Trembles"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4811",
+              "@type": "tree:Node",
+              "token_string": "Wallons de Suède"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4784",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route des Arsins",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0914762781278524",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.30584401561669"
+        },
+        {
+          "http://example.com/terms#name": "Route des Courts Champs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.179382155136599",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.92760997741233"
+        },
+        {
+          "http://example.com/terms#name": "Route des Épicéas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5796639719745373",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33521408343045"
+        },
+        {
+          "http://example.com/terms#name": "Route des Grands Fagnoux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7084088622336933",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10740147971768"
+        },
+        {
+          "http://example.com/terms#name": "Route des Grands Nids",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.896833638222805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53781297385476"
+        },
+        {
+          "http://example.com/terms#name": "Route des Robiniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4569790040437685",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91056832642808"
+        },
+        {
+          "http://example.com/terms#name": "Route des Roitelets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.978480121260632",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.416505820913244"
+        },
+        {
+          "http://example.com/terms#name": "Route des Trembles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.063623060951151",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.600309168096"
+        },
+        {
+          "http://example.com/terms#name": "Route des Wallons de Suède",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.948172868135391",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.407047268469874"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "streetsfragment150.jsonld#4790",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Arsins"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Courts Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Épicéas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Grands Fagnoux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Grands Nids"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Robiniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Roitelets"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Trembles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Wallons de Suède"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Arsins",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route des Arsins",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0914762781278524",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.30584401561669"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route des Arsins",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0914762781278524",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.30584401561669"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4791",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Arsins"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Arsins"
+      ]
+    },
+    {
+      "token_string": "Courts Champs",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route des Courts Champs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.179382155136599",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.92760997741233"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route des Courts Champs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.179382155136599",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.92760997741233"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4792",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Courts Champs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Courts Champs"
+      ]
+    },
+    {
+      "token_string": "Épicéas",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route des Épicéas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5796639719745373",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33521408343045"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route des Épicéas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5796639719745373",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33521408343045"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4793",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Épicéas"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Épicéas"
+      ]
+    },
+    {
+      "token_string": "Grands ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4796",
+              "@type": "tree:Node",
+              "token_string": "Fagnoux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4797",
+              "@type": "tree:Node",
+              "token_string": "Nids"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route des Grands Fagnoux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7084088622336933",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10740147971768"
+        },
+        {
+          "http://example.com/terms#name": "Route des Grands Nids",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.896833638222805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53781297385476"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4795",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Grands Fagnoux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Grands Nids"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Fagnoux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route des Grands Fagnoux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7084088622336933",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10740147971768"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4795",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route des Grands Fagnoux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7084088622336933",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10740147971768"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4796",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Grands Fagnoux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Grands Fagnoux"
+      ]
+    },
+    {
+      "token_string": "Nids",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route des Grands Nids",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.896833638222805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53781297385476"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4795",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route des Grands Nids",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.896833638222805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53781297385476"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4797",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Grands Nids"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Grands Nids"
+      ]
+    },
+    {
+      "token_string": "S",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4799",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4801",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4808",
+              "@type": "tree:Node",
+              "token_string": "trainchamps"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4810",
+              "@type": "tree:Node",
+              "token_string": "urré"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Sainlez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2760729784027136",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.31309968730253"
+        },
+        {
+          "http://example.com/terms#name": "Route de Saussin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.987409008425672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.596167573968806"
+        },
+        {
+          "http://example.com/terms#name": "Route de Soiron",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5357546350305156",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.9852452638703"
+        },
+        {
+          "http://example.com/terms#name": "Route de Sommerain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1196955947557696",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.525989512136675"
+        },
+        {
+          "http://example.com/terms#name": "Route de Strainchamps",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.688139717385428",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.76955200768431"
+        },
+        {
+          "http://example.com/terms#name": "Route de Surré",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0553623700825154",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31606474970805"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "streetsfragment150.jsonld#4798",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Sainlez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Saussin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Soiron"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Sommerain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Strainchamps"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Surré"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4788",
+              "@type": "tree:Node",
+              "token_string": "inlez"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4789",
+              "@type": "tree:Node",
+              "token_string": "ussin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4798",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Sainlez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2760729784027136",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.31309968730253"
+        },
+        {
+          "http://example.com/terms#name": "Route de Saussin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.987409008425672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.596167573968806"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4799",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Sainlez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Saussin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4802",
+              "@type": "tree:Node",
+              "token_string": "iron"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4803",
+              "@type": "tree:Node",
+              "token_string": "mmerain"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4798",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Soiron",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5357546350305156",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.9852452638703"
+        },
+        {
+          "http://example.com/terms#name": "Route de Sommerain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1196955947557696",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.525989512136675"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4801",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Soiron"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Sommerain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "iron",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Soiron",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5357546350305156",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.9852452638703"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4801",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Soiron",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5357546350305156",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.9852452638703"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4802",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Soiron"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Soiron"
+      ]
+    },
+    {
+      "token_string": "mmerain",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Sommerain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1196955947557696",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.525989512136675"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4801",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Sommerain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1196955947557696",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.525989512136675"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4803",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Sommerain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Sommerain"
+      ]
+    },
+    {
+      "token_string": "Ro",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4806",
+              "@type": "tree:Node",
+              "token_string": "biniers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4807",
+              "@type": "tree:Node",
+              "token_string": "itelets"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route des Robiniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4569790040437685",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91056832642808"
+        },
+        {
+          "http://example.com/terms#name": "Route des Roitelets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.978480121260632",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.416505820913244"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4805",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Robiniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route des Roitelets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "biniers",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route des Robiniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4569790040437685",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91056832642808"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4805",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route des Robiniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4569790040437685",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91056832642808"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4806",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Robiniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Robiniers"
+      ]
+    },
+    {
+      "token_string": "itelets",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route des Roitelets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.978480121260632",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.416505820913244"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4805",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route des Roitelets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.978480121260632",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.416505820913244"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4807",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Roitelets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Roitelets"
+      ]
+    },
+    {
+      "token_string": "trainchamps",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Strainchamps",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.688139717385428",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.76955200768431"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4798",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Strainchamps",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.688139717385428",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.76955200768431"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4808",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Strainchamps"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Strainchamps"
+      ]
+    },
+    {
+      "token_string": "Trembles",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route des Trembles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.063623060951151",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.600309168096"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route des Trembles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.063623060951151",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.600309168096"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4809",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Trembles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Trembles"
+      ]
+    },
+    {
+      "token_string": "urré",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Surré",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0553623700825154",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31606474970805"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4798",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Surré",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0553623700825154",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31606474970805"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4810",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Surré"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Surré"
+      ]
+    },
+    {
+      "token_string": "Wallons de Suède",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route des Wallons de Suède",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.948172868135391",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.407047268469874"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route des Wallons de Suède",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.948172868135391",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.407047268469874"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4811",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route des Wallons de Suède"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route des Wallons de Suède"
+      ]
+    },
+    {
+      "token_string": "Vaux-sur-Sûre",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Vaux-sur-Sûre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.560119796464978",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.563180908388"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Vaux-sur-Sûre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.560119796464978",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.563180908388"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4817",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Vaux-sur-Sûre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Vaux-sur-Sûre"
+      ]
+    },
+    {
+      "token_string": "W",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4820",
+              "@type": "tree:Node",
+              "token_string": "arnach"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment150.jsonld#4821",
+              "@type": "tree:Node",
+              "token_string": "ideumont"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4785",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Warnach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.16298885974718",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.546526230697204"
+        },
+        {
+          "http://example.com/terms#name": "Route de Wideumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7594277449329474",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.97912918532909"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment150.jsonld#4819",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Warnach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Route de Wideumont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "arnach",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Warnach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.16298885974718",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.546526230697204"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4819",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Warnach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.16298885974718",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.546526230697204"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4820",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Warnach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Warnach"
+      ]
+    },
+    {
+      "token_string": "ideumont",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Route de Wideumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7594277449329474",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.97912918532909"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment150.jsonld#4819",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Route de Wideumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7594277449329474",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.97912918532909"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment150.jsonld#4821",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Route de Wideumont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Route de Wideumont"
+      ]
+    }
+  ]
+}

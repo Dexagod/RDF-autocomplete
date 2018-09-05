@@ -1,0 +1,981 @@
+{
+  "root_node_id": "6145",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment199.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "es de Tillet",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Haies de Tillet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7608777158938556",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.7608208435499"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6140",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Haies de Tillet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7608777158938556",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.7608208435499"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment199.jsonld#6137",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Haies de Tillet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Haies de Tillet"
+      ]
+    },
+    {
+      "token_string": "pes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Haipes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3040388700060697",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.927879513029104"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6140",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Haipes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3040388700060697",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.927879513029104"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment199.jsonld#6138",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Haipes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Haipes"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6137",
+              "@type": "tree:Node",
+              "token_string": "es de Tillet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6138",
+              "@type": "tree:Node",
+              "token_string": "pes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6146",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Haies de Tillet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7608777158938556",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.7608208435499"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Haipes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3040388700060697",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.927879513029104"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment199.jsonld#6140",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Haies de Tillet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Haipes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "leurs",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Haleurs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5553488703982215",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.592481401065896"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6146",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Haleurs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5553488703982215",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.592481401065896"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment199.jsonld#6141",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Haleurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Haleurs"
+      ]
+    },
+    {
+      "token_string": "rmonies",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Harmonies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0457389994989423",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.27275165477596"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6146",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Harmonies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0457389994989423",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.27275165477596"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment199.jsonld#6142",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Harmonies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Harmonies"
+      ]
+    },
+    {
+      "token_string": "uts de Roux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Hauts de Roux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4747316882409924",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2228101888541"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6146",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Hauts de Roux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4747316882409924",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2228101888541"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment199.jsonld#6143",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Hauts de Roux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Hauts de Roux"
+      ]
+    },
+    {
+      "token_string": "yettes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Hayettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.742721373884299",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.516027434198875"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6146",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Hayettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.742721373884299",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.516027434198875"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment199.jsonld#6144",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Hayettes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Hayettes"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6146",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6147",
+              "@type": "tree:Node",
+              "token_string": "erdiers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6148",
+              "@type": "tree:Node",
+              "token_string": "êtres"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6150",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6154",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6157",
+              "@type": "tree:Node",
+              "token_string": "uit Heures"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment200.jsonld#6072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Haies de Tillet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7608777158938556",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.7608208435499"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Haipes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3040388700060697",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.927879513029104"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Haleurs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5553488703982215",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.592481401065896"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Harmonies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0457389994989423",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.27275165477596"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Hauts de Roux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4747316882409924",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2228101888541"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Hayettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.742721373884299",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.516027434198875"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Herdiers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.034631764784069",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.20656872419312"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Hiboux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5891793799777716",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08980423031594"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Hirondelles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.843125109201349",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.78358303690998"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Hortensias",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.963146769590015",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23174612481383"
+        }
+      ],
+      "total_children_count": 17,
+      "@id": "streetsfragment199.jsonld#6145",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Haies de Tillet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Haipes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Haleurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Harmonies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Hauts de Roux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Hayettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Herdiers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Hiboux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Hirondelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Hortensias"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6140",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6141",
+              "@type": "tree:Node",
+              "token_string": "leurs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6142",
+              "@type": "tree:Node",
+              "token_string": "rmonies"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6143",
+              "@type": "tree:Node",
+              "token_string": "uts de Roux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6144",
+              "@type": "tree:Node",
+              "token_string": "yettes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6145",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Haies de Tillet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7608777158938556",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.7608208435499"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Haipes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3040388700060697",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.927879513029104"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Haleurs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5553488703982215",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.592481401065896"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Harmonies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0457389994989423",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.27275165477596"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Hauts de Roux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4747316882409924",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2228101888541"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Hayettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.742721373884299",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.516027434198875"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "streetsfragment199.jsonld#6146",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Haies de Tillet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Haipes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Haleurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Harmonies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Hauts de Roux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Hayettes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erdiers",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Herdiers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.034631764784069",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.20656872419312"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6145",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Herdiers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.034631764784069",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.20656872419312"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment199.jsonld#6147",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Herdiers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Herdiers"
+      ]
+    },
+    {
+      "token_string": "êtres",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Hêtres",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.808412563847276",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.07129974683869"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6145",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Hêtres",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.808412563847276",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.07129974683869"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment199.jsonld#6148",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Hêtres"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Hêtres"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6151",
+              "@type": "tree:Node",
+              "token_string": "boux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6152",
+              "@type": "tree:Node",
+              "token_string": "rondelles"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6145",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Hiboux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5891793799777716",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08980423031594"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Hirondelles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.843125109201349",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.78358303690998"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment199.jsonld#6150",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Hiboux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Hirondelles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "boux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Hiboux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5891793799777716",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08980423031594"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6150",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Hiboux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5891793799777716",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08980423031594"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment199.jsonld#6151",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Hiboux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Hiboux"
+      ]
+    },
+    {
+      "token_string": "rondelles",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Hirondelles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.843125109201349",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.78358303690998"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6150",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Hirondelles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.843125109201349",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.78358303690998"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment199.jsonld#6152",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Hirondelles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Hirondelles"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6155",
+              "@type": "tree:Node",
+              "token_string": "rtensias"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment199.jsonld#6156",
+              "@type": "tree:Node",
+              "token_string": "uillères"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6145",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Hortensias",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.963146769590015",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23174612481383"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Houillères",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.192979813846313",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.371935269418856"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment199.jsonld#6154",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Hortensias"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Houillères"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rtensias",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Hortensias",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.963146769590015",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23174612481383"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6154",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Hortensias",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.963146769590015",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23174612481383"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment199.jsonld#6155",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Hortensias"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Hortensias"
+      ]
+    },
+    {
+      "token_string": "uillères",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Houillères",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.192979813846313",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.371935269418856"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6154",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Houillères",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.192979813846313",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.371935269418856"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment199.jsonld#6156",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Houillères"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Houillères"
+      ]
+    },
+    {
+      "token_string": "uit Heures",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Huit Heures",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.401157787688076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.62508599565472"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment199.jsonld#6145",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Huit Heures",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.401157787688076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.62508599565472"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment199.jsonld#6157",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Huit Heures"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Huit Heures"
+      ]
+    }
+  ]
+}

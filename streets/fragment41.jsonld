@@ -1,0 +1,210 @@
+{
+  "root_node_id": "1144",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment41.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Ja",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment41.jsonld#1145",
+              "@type": "tree:Node",
+              "token_string": "rdinay"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment41.jsonld#1146",
+              "@type": "tree:Node",
+              "token_string": "smin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment41.jsonld#1147",
+              "@type": "tree:Node",
+              "token_string": "vingue"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment32.jsonld#1384",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin de Jardinay",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3735896663894076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.167276900583914"
+        },
+        {
+          "http://example.com/terms#name": "Chemin de Jasmin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0287773437921532",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.73999705244227"
+        },
+        {
+          "http://example.com/terms#name": "Chemin de Javingue",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.37427655564347",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.63758345396475"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment41.jsonld#1144",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Jardinay"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Jasmin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Javingue"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rdinay",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin de Jardinay",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3735896663894076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.167276900583914"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment41.jsonld#1144",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin de Jardinay",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3735896663894076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.167276900583914"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment41.jsonld#1145",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Jardinay"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Jardinay"
+      ]
+    },
+    {
+      "token_string": "smin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin de Jasmin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0287773437921532",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.73999705244227"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment41.jsonld#1144",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin de Jasmin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0287773437921532",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.73999705244227"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment41.jsonld#1146",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Jasmin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Jasmin"
+      ]
+    },
+    {
+      "token_string": "vingue",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin de Javingue",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.37427655564347",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.63758345396475"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment41.jsonld#1144",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin de Javingue",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.37427655564347",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.63758345396475"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment41.jsonld#1147",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Javingue"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Javingue"
+      ]
+    }
+  ]
+}

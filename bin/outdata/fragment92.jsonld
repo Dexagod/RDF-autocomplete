@@ -1,0 +1,2881 @@
+{
+  "root_node_id": "2380",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment92.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "ienstrasse",
+      "triples": [
+        {
+          "streetname": "Dahlienstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2381",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dahlienstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2378",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dahlienstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dahlienstrasse"
+      ]
+    },
+    {
+      "token_string": "straße",
+      "triples": [
+        {
+          "streetname": "Dahlstraße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2381",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dahlstraße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2379",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dahlstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dahlstraße"
+      ]
+    },
+    {
+      "token_string": "D",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2381",
+              "@type": "tree:Node",
+              "token_string": "ahl"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment91.jsonld#2383",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2433",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2451",
+              "@type": "tree:Node",
+              "token_string": "ö"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2455",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2473",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2493",
+              "@type": "tree:Node",
+              "token_string": "ürler"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2496",
+              "@type": "tree:Node",
+              "token_string": "uz"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment1.jsonld#1",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dahlienstrasse"
+        },
+        {
+          "streetname": "Dahlstraße"
+        },
+        {
+          "streetname": "Dederesgasse"
+        },
+        {
+          "streetname": "Degré des Artisans"
+        },
+        {
+          "streetname": "Degrés des Dentellières"
+        },
+        {
+          "streetname": "Degr�s Jacques Izoard"
+        },
+        {
+          "streetname": "Deidenberg"
+        },
+        {
+          "streetname": "Dellbrück"
+        },
+        {
+          "streetname": "Dellenstrasse"
+        },
+        {
+          "streetname": "Deller Weg"
+        }
+      ],
+      "total_children_count": 90,
+      "@id": "fragment92.jsonld#2380",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dahlienstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dahlstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dederesgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Degré des Artisans"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Degrés des Dentellières"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Degr�s Jacques Izoard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Deidenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dellbrück"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dellenstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Deller Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ahl",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2378",
+              "@type": "tree:Node",
+              "token_string": "ienstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2379",
+              "@type": "tree:Node",
+              "token_string": "straße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2380",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dahlienstrasse"
+        },
+        {
+          "streetname": "Dahlstraße"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment92.jsonld#2381",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dahlienstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dahlstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "hrod",
+      "triples": [
+        {
+          "streetname": "Dichrod"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2434",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dichrod"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2431",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dichrod"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dichrod"
+      ]
+    },
+    {
+      "token_string": "ke Beusch",
+      "triples": [
+        {
+          "streetname": "Dicke Beusch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2434",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dicke Beusch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2432",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dicke Beusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dicke Beusch"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2434",
+              "@type": "tree:Node",
+              "token_string": "c"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2435",
+              "@type": "tree:Node",
+              "token_string": "epert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2436",
+              "@type": "tree:Node",
+              "token_string": "llenheide"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2380",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dichrod"
+        },
+        {
+          "streetname": "Dicke Beusch"
+        },
+        {
+          "streetname": "Diepert"
+        },
+        {
+          "streetname": "Dillenheide"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment92.jsonld#2433",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dichrod"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dicke Beusch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Diepert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dillenheide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "c",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2431",
+              "@type": "tree:Node",
+              "token_string": "hrod"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2432",
+              "@type": "tree:Node",
+              "token_string": "ke Beusch"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2433",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dichrod"
+        },
+        {
+          "streetname": "Dicke Beusch"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment92.jsonld#2434",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dichrod"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dicke Beusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "epert",
+      "triples": [
+        {
+          "streetname": "Diepert"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2433",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Diepert"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2435",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Diepert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Diepert"
+      ]
+    },
+    {
+      "token_string": "llenheide",
+      "triples": [
+        {
+          "streetname": "Dillenheide"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2433",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dillenheide"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2436",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dillenheide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dillenheide"
+      ]
+    },
+    {
+      "token_string": "asse Cliche",
+      "triples": [
+        {
+          "streetname": "Domaine de la Basse Cliche"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2446",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Domaine de la Basse Cliche"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2440",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine de la Basse Cliche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Domaine de la Basse Cliche"
+      ]
+    },
+    {
+      "token_string": "riserie",
+      "triples": [
+        {
+          "streetname": "Domaine de la Briserie"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2446",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Domaine de la Briserie"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2441",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine de la Briserie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Domaine de la Briserie"
+      ]
+    },
+    {
+      "token_string": "-du-Bonsoy Neige",
+      "triples": [
+        {
+          "streetname": "Domaine-du-Bonsoy Neige"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2449",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Domaine-du-Bonsoy Neige"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2444",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine-du-Bonsoy Neige"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Domaine-du-Bonsoy Neige"
+      ]
+    },
+    {
+      "token_string": " d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2446",
+              "@type": "tree:Node",
+              "token_string": "e la B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2447",
+              "@type": "tree:Node",
+              "token_string": "u Piou"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2449",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Domaine de la Basse Cliche"
+        },
+        {
+          "streetname": "Domaine de la Briserie"
+        },
+        {
+          "streetname": "Domaine du Piou"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment92.jsonld#2445",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine de la Basse Cliche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine de la Briserie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine du Piou"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e la B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2440",
+              "@type": "tree:Node",
+              "token_string": "asse Cliche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2441",
+              "@type": "tree:Node",
+              "token_string": "riserie"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2445",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Domaine de la Basse Cliche"
+        },
+        {
+          "streetname": "Domaine de la Briserie"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment92.jsonld#2446",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine de la Basse Cliche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine de la Briserie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u Piou",
+      "triples": [
+        {
+          "streetname": "Domaine du Piou"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2445",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Domaine du Piou"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2447",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine du Piou"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Domaine du Piou"
+      ]
+    },
+    {
+      "token_string": "aine",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2444",
+              "@type": "tree:Node",
+              "token_string": "-du-Bonsoy Neige"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2445",
+              "@type": "tree:Node",
+              "token_string": " d"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2456",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Domaine de la Basse Cliche"
+        },
+        {
+          "streetname": "Domaine de la Briserie"
+        },
+        {
+          "streetname": "Domaine-du-Bonsoy Neige"
+        },
+        {
+          "streetname": "Domaine du Piou"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment92.jsonld#2449",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine de la Basse Cliche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine de la Briserie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine-du-Bonsoy Neige"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine du Piou"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " du Bois de Néverlée",
+      "triples": [
+        {
+          "streetname": "Dom du Bois de Néverlée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2456",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dom du Bois de Néverlée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2450",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dom du Bois de Néverlée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dom du Bois de Néverlée"
+      ]
+    },
+    {
+      "token_string": "ö",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2452",
+              "@type": "tree:Node",
+              "token_string": "ckesvenn"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2453",
+              "@type": "tree:Node",
+              "token_string": "mengasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2468",
+              "@type": "tree:Node",
+              "token_string": "rnchen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2380",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Döckesvenn"
+        },
+        {
+          "streetname": "Dömengasse"
+        },
+        {
+          "streetname": "Dörnchen"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment92.jsonld#2451",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Döckesvenn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dömengasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dörnchen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ckesvenn",
+      "triples": [
+        {
+          "streetname": "Döckesvenn"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2451",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Döckesvenn"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2452",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Döckesvenn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Döckesvenn"
+      ]
+    },
+    {
+      "token_string": "mengasse",
+      "triples": [
+        {
+          "streetname": "Dömengasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2451",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dömengasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2453",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dömengasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dömengasse"
+      ]
+    },
+    {
+      "token_string": "pgasse",
+      "triples": [
+        {
+          "streetname": "Dompgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2456",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dompgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2454",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dompgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dompgasse"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2456",
+              "@type": "tree:Node",
+              "token_string": "m"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2458",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2462",
+              "@type": "tree:Node",
+              "token_string": "rf"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2380",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Domaine de la Basse Cliche"
+        },
+        {
+          "streetname": "Domaine de la Briserie"
+        },
+        {
+          "streetname": "Domaine-du-Bonsoy Neige"
+        },
+        {
+          "streetname": "Domaine du Piou"
+        },
+        {
+          "streetname": "Dom du Bois de Néverlée"
+        },
+        {
+          "streetname": "Dompgasse"
+        },
+        {
+          "streetname": "Donatusweg"
+        },
+        {
+          "streetname": "Donnerkul"
+        },
+        {
+          "streetname": "Dorfberg"
+        },
+        {
+          "streetname": "Dorfstrasse"
+        }
+      ],
+      "total_children_count": 18,
+      "@id": "fragment92.jsonld#2455",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine de la Basse Cliche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine de la Briserie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine-du-Bonsoy Neige"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine du Piou"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dom du Bois de Néverlée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dompgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Donatusweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Donnerkul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dorfberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dorfstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "m",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2449",
+              "@type": "tree:Node",
+              "token_string": "aine"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2450",
+              "@type": "tree:Node",
+              "token_string": " du Bois de Néverlée"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2454",
+              "@type": "tree:Node",
+              "token_string": "pgasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2455",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Domaine de la Basse Cliche"
+        },
+        {
+          "streetname": "Domaine de la Briserie"
+        },
+        {
+          "streetname": "Domaine-du-Bonsoy Neige"
+        },
+        {
+          "streetname": "Domaine du Piou"
+        },
+        {
+          "streetname": "Dom du Bois de Néverlée"
+        },
+        {
+          "streetname": "Dompgasse"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "fragment92.jsonld#2456",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Domaine de la Basse Cliche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine de la Briserie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine-du-Bonsoy Neige"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Domaine du Piou"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dom du Bois de Néverlée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dompgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2459",
+              "@type": "tree:Node",
+              "token_string": "atusweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2460",
+              "@type": "tree:Node",
+              "token_string": "nerkul"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2455",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Donatusweg"
+        },
+        {
+          "streetname": "Donnerkul"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment92.jsonld#2458",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Donatusweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Donnerkul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "atusweg",
+      "triples": [
+        {
+          "streetname": "Donatusweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2458",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Donatusweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2459",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Donatusweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Donatusweg"
+      ]
+    },
+    {
+      "token_string": "nerkul",
+      "triples": [
+        {
+          "streetname": "Donnerkul"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2458",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Donnerkul"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2460",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Donnerkul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Donnerkul"
+      ]
+    },
+    {
+      "token_string": "rf",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2463",
+              "@type": "tree:Node",
+              "token_string": "berg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2465",
+              "@type": "tree:Node",
+              "token_string": "stra"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2455",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dorfberg"
+        },
+        {
+          "streetname": "Dorfstrasse"
+        },
+        {
+          "streetname": "Dorfstraße"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment92.jsonld#2462",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dorfberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dorfstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dorfstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "berg",
+      "triples": [
+        {
+          "streetname": "Dorfberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2462",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dorfberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2463",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dorfberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dorfberg"
+      ]
+    },
+    {
+      "token_string": "stra",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2466",
+              "@type": "tree:Node",
+              "token_string": "sse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2467",
+              "@type": "tree:Node",
+              "token_string": "ße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2462",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dorfstrasse"
+        },
+        {
+          "streetname": "Dorfstraße"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment92.jsonld#2465",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dorfstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dorfstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sse",
+      "triples": [
+        {
+          "streetname": "Dorfstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2465",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dorfstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2466",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dorfstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dorfstrasse"
+      ]
+    },
+    {
+      "token_string": "ße",
+      "triples": [
+        {
+          "streetname": "Dorfstraße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2465",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dorfstraße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2467",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dorfstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dorfstraße"
+      ]
+    },
+    {
+      "token_string": "rnchen",
+      "triples": [
+        {
+          "streetname": "Dörnchen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2451",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dörnchen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2468",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dörnchen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dörnchen"
+      ]
+    },
+    {
+      "token_string": "esweg",
+      "triples": [
+        {
+          "streetname": "Dreesweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2474",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dreesweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2471",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dreesweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dreesweg"
+      ]
+    },
+    {
+      "token_string": "ihütten",
+      "triples": [
+        {
+          "streetname": "Dreihütten"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2474",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dreihütten"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2472",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dreihütten"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dreihütten"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2474",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2476",
+              "@type": "tree:Node",
+              "token_string": "ève "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2489",
+              "@type": "tree:Node",
+              "token_string": "iesch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2490",
+              "@type": "tree:Node",
+              "token_string": "î Harzy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2491",
+              "@type": "tree:Node",
+              "token_string": "Molly Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2492",
+              "@type": "tree:Node",
+              "token_string": "ömmerpfad"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2380",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dreesweg"
+        },
+        {
+          "streetname": "Dreihütten"
+        },
+        {
+          "streetname": "Drève Boninas"
+        },
+        {
+          "streetname": "Drève Casaquy"
+        },
+        {
+          "streetname": "Drève de Braffe"
+        },
+        {
+          "streetname": "Drève de Fayen"
+        },
+        {
+          "streetname": "Drève de Hemptinne"
+        },
+        {
+          "streetname": "Drève Eugène Goblet d'Alviella"
+        },
+        {
+          "streetname": "Driesch"
+        },
+        {
+          "streetname": "DrMolly Strasse"
+        }
+      ],
+      "total_children_count": 18,
+      "@id": "fragment92.jsonld#2473",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dreesweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dreihütten"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève Boninas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève Casaquy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Braffe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Fayen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Hemptinne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève Eugène Goblet d'Alviella"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Driesch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "DrMolly Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2471",
+              "@type": "tree:Node",
+              "token_string": "esweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2472",
+              "@type": "tree:Node",
+              "token_string": "ihütten"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dreesweg"
+        },
+        {
+          "streetname": "Dreihütten"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment92.jsonld#2474",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dreesweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dreihütten"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ève ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2477",
+              "@type": "tree:Node",
+              "token_string": "Boninas"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2478",
+              "@type": "tree:Node",
+              "token_string": "Casaquy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2485",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2488",
+              "@type": "tree:Node",
+              "token_string": "Eugène Goblet d'Alviella"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Drève Boninas"
+        },
+        {
+          "streetname": "Drève Casaquy"
+        },
+        {
+          "streetname": "Drève de Braffe"
+        },
+        {
+          "streetname": "Drève de Fayen"
+        },
+        {
+          "streetname": "Drève de Hemptinne"
+        },
+        {
+          "streetname": "Drève de l'Église de Fer"
+        },
+        {
+          "streetname": "Drève du Moulin Lampach"
+        },
+        {
+          "streetname": "Drève Eugène Goblet d'Alviella"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "fragment92.jsonld#2476",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève Boninas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève Casaquy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Braffe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Fayen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Hemptinne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de l'Église de Fer"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève du Moulin Lampach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève Eugène Goblet d'Alviella"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Boninas",
+      "triples": [
+        {
+          "streetname": "Drève Boninas"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2476",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Drève Boninas"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2477",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève Boninas"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drève Boninas"
+      ]
+    },
+    {
+      "token_string": "Casaquy",
+      "triples": [
+        {
+          "streetname": "Drève Casaquy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2476",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Drève Casaquy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2478",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève Casaquy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drève Casaquy"
+      ]
+    },
+    {
+      "token_string": "Braffe",
+      "triples": [
+        {
+          "streetname": "Drève de Braffe"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2486",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Drève de Braffe"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2481",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève de Braffe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drève de Braffe"
+      ]
+    },
+    {
+      "token_string": "Fayen",
+      "triples": [
+        {
+          "streetname": "Drève de Fayen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2486",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Drève de Fayen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2482",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève de Fayen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drève de Fayen"
+      ]
+    },
+    {
+      "token_string": "Hemptinne",
+      "triples": [
+        {
+          "streetname": "Drève de Hemptinne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2486",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Drève de Hemptinne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2483",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève de Hemptinne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drève de Hemptinne"
+      ]
+    },
+    {
+      "token_string": "l'Église de Fer",
+      "triples": [
+        {
+          "streetname": "Drève de l'Église de Fer"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2486",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Drève de l'Église de Fer"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2484",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève de l'Église de Fer"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drève de l'Église de Fer"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2486",
+              "@type": "tree:Node",
+              "token_string": "e "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2487",
+              "@type": "tree:Node",
+              "token_string": "u Moulin Lampach"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2476",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Drève de Braffe"
+        },
+        {
+          "streetname": "Drève de Fayen"
+        },
+        {
+          "streetname": "Drève de Hemptinne"
+        },
+        {
+          "streetname": "Drève de l'Église de Fer"
+        },
+        {
+          "streetname": "Drève du Moulin Lampach"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment92.jsonld#2485",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève de Braffe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Fayen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Hemptinne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de l'Église de Fer"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève du Moulin Lampach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2481",
+              "@type": "tree:Node",
+              "token_string": "Braffe"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2482",
+              "@type": "tree:Node",
+              "token_string": "Fayen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2483",
+              "@type": "tree:Node",
+              "token_string": "Hemptinne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2484",
+              "@type": "tree:Node",
+              "token_string": "l'Église de Fer"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2485",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Drève de Braffe"
+        },
+        {
+          "streetname": "Drève de Fayen"
+        },
+        {
+          "streetname": "Drève de Hemptinne"
+        },
+        {
+          "streetname": "Drève de l'Église de Fer"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment92.jsonld#2486",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève de Braffe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Fayen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de Hemptinne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Drève de l'Église de Fer"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u Moulin Lampach",
+      "triples": [
+        {
+          "streetname": "Drève du Moulin Lampach"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2485",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Drève du Moulin Lampach"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2487",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève du Moulin Lampach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drève du Moulin Lampach"
+      ]
+    },
+    {
+      "token_string": "Eugène Goblet d'Alviella",
+      "triples": [
+        {
+          "streetname": "Drève Eugène Goblet d'Alviella"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2476",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Drève Eugène Goblet d'Alviella"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2488",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drève Eugène Goblet d'Alviella"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drève Eugène Goblet d'Alviella"
+      ]
+    },
+    {
+      "token_string": "iesch",
+      "triples": [
+        {
+          "streetname": "Driesch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Driesch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2489",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Driesch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Driesch"
+      ]
+    },
+    {
+      "token_string": "î Harzy",
+      "triples": [
+        {
+          "streetname": "Drî Harzy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Drî Harzy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2490",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drî Harzy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drî Harzy"
+      ]
+    },
+    {
+      "token_string": "Molly Strasse",
+      "triples": [
+        {
+          "streetname": "DrMolly Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "DrMolly Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2491",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "DrMolly Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "DrMolly Strasse"
+      ]
+    },
+    {
+      "token_string": "ömmerpfad",
+      "triples": [
+        {
+          "streetname": "Drömmerpfad"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Drömmerpfad"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2492",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Drömmerpfad"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Drömmerpfad"
+      ]
+    },
+    {
+      "token_string": "ürler",
+      "triples": [
+        {
+          "streetname": "Dürler"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2494",
+              "@type": "tree:Node",
+              "token_string": "hof"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2380",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dürler"
+        },
+        {
+          "streetname": "Dürlerhof"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "fragment92.jsonld#2493",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dürler"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Dürlerhof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dürler"
+      ]
+    },
+    {
+      "token_string": "hof",
+      "triples": [
+        {
+          "streetname": "Dürlerhof"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2493",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Dürlerhof"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2494",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Dürlerhof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Dürlerhof"
+      ]
+    },
+    {
+      "token_string": "uz",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2497",
+              "@type": "tree:Node",
+              "token_string": "eûs l'Ru"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment92.jsonld#2498",
+              "@type": "tree:Node",
+              "token_string": "os lès Batch"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2380",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Duzeûs l'Ru"
+        },
+        {
+          "streetname": "Duzos lès Batch"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment92.jsonld#2496",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Duzeûs l'Ru"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Duzos lès Batch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eûs l'Ru",
+      "triples": [
+        {
+          "streetname": "Duzeûs l'Ru"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2496",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Duzeûs l'Ru"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2497",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Duzeûs l'Ru"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Duzeûs l'Ru"
+      ]
+    },
+    {
+      "token_string": "os lès Batch",
+      "triples": [
+        {
+          "streetname": "Duzos lès Batch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment92.jsonld#2496",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Duzos lès Batch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment92.jsonld#2498",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Duzos lès Batch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Duzos lès Batch"
+      ]
+    }
+  ]
+}

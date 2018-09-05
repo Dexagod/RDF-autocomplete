@@ -1,0 +1,4321 @@
+{
+  "root_node_id": "2721",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment95.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "des Halles",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Galerie des Halles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.761436217623335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.24728598758202"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2703",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Galerie des Halles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.761436217623335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.24728598758202"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2699",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Galerie des Halles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Galerie des Halles"
+      ]
+    },
+    {
+      "token_string": "Henri Casterman",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Galerie Henri Casterman",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9522921836478226",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.830780091962275"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2703",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Galerie Henri Casterman",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9522921836478226",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.830780091962275"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2700",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Galerie Henri Casterman"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Galerie Henri Casterman"
+      ]
+    },
+    {
+      "token_string": "Opera",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Galerie Opera",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.613889908938611",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.248442077191044"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2703",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Galerie Opera",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.613889908938611",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.248442077191044"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2701",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Galerie Opera"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Galerie Opera"
+      ]
+    },
+    {
+      "token_string": "erie ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2699",
+              "@type": "tree:Node",
+              "token_string": "des Halles"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2700",
+              "@type": "tree:Node",
+              "token_string": "Henri Casterman"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2701",
+              "@type": "tree:Node",
+              "token_string": "Opera"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2711",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Galerie des Halles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.761436217623335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.24728598758202"
+        },
+        {
+          "http://example.com/terms#name": "Galerie Henri Casterman",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9522921836478226",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.830780091962275"
+        },
+        {
+          "http://example.com/terms#name": "Galerie Opera",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.613889908938611",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.248442077191044"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment95.jsonld#2703",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Galerie des Halles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galerie Henri Casterman"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galerie Opera"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "hausen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Galhausen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0760943720724105",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.02088089733815"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2705",
+              "@type": "tree:Node",
+              "token_string": "er Weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2711",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Galhausen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0760943720724105",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.02088089733815"
+        },
+        {
+          "http://example.com/terms#name": "Galhausener Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4607184910207467",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.88005442409684"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "streetsfragment95.jsonld#2704",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Galhausen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galhausener Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Galhausen"
+      ]
+    },
+    {
+      "token_string": "er Weg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Galhausener Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4607184910207467",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.88005442409684"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2704",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Galhausener Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4607184910207467",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.88005442409684"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2705",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Galhausener Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Galhausener Weg"
+      ]
+    },
+    {
+      "token_string": "mei",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2708",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2709",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2711",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Galmeistrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5291751966354017",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.73156471739736"
+        },
+        {
+          "http://example.com/terms#name": "Galmeiweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8977039262126456",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.383790737648184"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment95.jsonld#2707",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Galmeistrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galmeiweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Galmeistrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5291751966354017",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.73156471739736"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2707",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Galmeistrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5291751966354017",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.73156471739736"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2708",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Galmeistrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Galmeistrasse"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Galmeiweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8977039262126456",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.383790737648184"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2707",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Galmeiweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8977039262126456",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.383790737648184"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2709",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Galmeiweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Galmeiweg"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2703",
+              "@type": "tree:Node",
+              "token_string": "erie "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2704",
+              "@type": "tree:Node",
+              "token_string": "hausen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2707",
+              "@type": "tree:Node",
+              "token_string": "mei"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2722",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Galerie des Halles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.761436217623335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.24728598758202"
+        },
+        {
+          "http://example.com/terms#name": "Galerie Henri Casterman",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9522921836478226",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.830780091962275"
+        },
+        {
+          "http://example.com/terms#name": "Galerie Opera",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.613889908938611",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.248442077191044"
+        },
+        {
+          "http://example.com/terms#name": "Galhausen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0760943720724105",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.02088089733815"
+        },
+        {
+          "http://example.com/terms#name": "Galhausener Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4607184910207467",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.88005442409684"
+        },
+        {
+          "http://example.com/terms#name": "Galmeistrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5291751966354017",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.73156471739736"
+        },
+        {
+          "http://example.com/terms#name": "Galmeiweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8977039262126456",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.383790737648184"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "streetsfragment95.jsonld#2711",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Galerie des Halles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galerie Henri Casterman"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galerie Opera"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galhausen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galhausener Weg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galmeistrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galmeiweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ngolfer Weg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gangolfer Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.975279335998561",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.02518040898241"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2722",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gangolfer Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.975279335998561",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.02518040898241"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2712",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gangolfer Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gangolfer Weg"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2715",
+              "@type": "tree:Node",
+              "token_string": "e Autoroutiere"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2717",
+              "@type": "tree:Node",
+              "token_string": "ten"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2722",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gare Autoroutiere",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.17428405899889",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.37952878428378"
+        },
+        {
+          "http://example.com/terms#name": "Gartenstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.945791431673141",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.95103793081724"
+        },
+        {
+          "http://example.com/terms#name": "Gartenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4568330125612823",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.68446409215343"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment95.jsonld#2714",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gare Autoroutiere"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gartenstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gartenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e Autoroutiere",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gare Autoroutiere",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.17428405899889",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.37952878428378"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2714",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gare Autoroutiere",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.17428405899889",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.37952878428378"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2715",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gare Autoroutiere"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gare Autoroutiere"
+      ]
+    },
+    {
+      "token_string": "ten",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2718",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2719",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2714",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gartenstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.945791431673141",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.95103793081724"
+        },
+        {
+          "http://example.com/terms#name": "Gartenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4568330125612823",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.68446409215343"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment95.jsonld#2717",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gartenstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gartenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gartenstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.945791431673141",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.95103793081724"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2717",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gartenstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.945791431673141",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.95103793081724"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2718",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gartenstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gartenstrasse"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gartenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4568330125612823",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.68446409215343"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2717",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gartenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4568330125612823",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.68446409215343"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2719",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gartenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gartenweg"
+      ]
+    },
+    {
+      "token_string": "sperwée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gasperwée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.533014636356728",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.21376814514332"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2722",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gasperwée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.533014636356728",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.21376814514332"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2720",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gasperwée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gasperwée"
+      ]
+    },
+    {
+      "token_string": "G",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2722",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2724",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2728",
+              "@type": "tree:Node",
+              "token_string": "érarheid"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2741",
+              "@type": "tree:Node",
+              "token_string": "Hockéstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2743",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2747",
+              "@type": "tree:Node",
+              "token_string": "öhlstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2749",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2768",
+              "@type": "tree:Node",
+              "token_string": "RAND-ROUTE DE JEMAPPES"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2774",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2794",
+              "@type": "tree:Node",
+              "token_string": "ülcherstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2795",
+              "@type": "tree:Node",
+              "token_string": "ypenhaag"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment1.jsonld#1",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Galerie des Halles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.761436217623335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.24728598758202"
+        },
+        {
+          "http://example.com/terms#name": "Galerie Henri Casterman",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9522921836478226",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.830780091962275"
+        },
+        {
+          "http://example.com/terms#name": "Galerie Opera",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.613889908938611",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.248442077191044"
+        },
+        {
+          "http://example.com/terms#name": "Galhausen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0760943720724105",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.02088089733815"
+        },
+        {
+          "http://example.com/terms#name": "Galhausener Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4607184910207467",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.88005442409684"
+        },
+        {
+          "http://example.com/terms#name": "Galmeistrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5291751966354017",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.73156471739736"
+        },
+        {
+          "http://example.com/terms#name": "Galmeiweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8977039262126456",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.383790737648184"
+        },
+        {
+          "http://example.com/terms#name": "Gangolfer Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.975279335998561",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.02518040898241"
+        },
+        {
+          "http://example.com/terms#name": "GHockéstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5671030903732572",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.87939997284099"
+        },
+        {
+          "http://example.com/terms#name": "GRAND-ROUTE DE JEMAPPES",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3604915739558208",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.933794789042274"
+        }
+      ],
+      "total_children_count": 76,
+      "@id": "streetsfragment95.jsonld#2721",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Galerie des Halles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galerie Henri Casterman"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galerie Opera"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galhausen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galhausener Weg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galmeistrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galmeiweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gangolfer Weg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "GHockéstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "GRAND-ROUTE DE JEMAPPES"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2711",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2712",
+              "@type": "tree:Node",
+              "token_string": "ngolfer Weg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2714",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2720",
+              "@type": "tree:Node",
+              "token_string": "sperwée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2721",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Galerie des Halles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.761436217623335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.24728598758202"
+        },
+        {
+          "http://example.com/terms#name": "Galerie Henri Casterman",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9522921836478226",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.830780091962275"
+        },
+        {
+          "http://example.com/terms#name": "Galerie Opera",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.613889908938611",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.248442077191044"
+        },
+        {
+          "http://example.com/terms#name": "Galhausen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0760943720724105",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.02088089733815"
+        },
+        {
+          "http://example.com/terms#name": "Galhausener Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4607184910207467",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.88005442409684"
+        },
+        {
+          "http://example.com/terms#name": "Galmeistrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5291751966354017",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.73156471739736"
+        },
+        {
+          "http://example.com/terms#name": "Galmeiweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8977039262126456",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.383790737648184"
+        },
+        {
+          "http://example.com/terms#name": "Gangolfer Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.975279335998561",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.02518040898241"
+        },
+        {
+          "http://example.com/terms#name": "Gare Autoroutiere",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.17428405899889",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.37952878428378"
+        },
+        {
+          "http://example.com/terms#name": "Gartenstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.945791431673141",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.95103793081724"
+        }
+      ],
+      "total_children_count": 17,
+      "@id": "streetsfragment95.jsonld#2722",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Galerie des Halles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galerie Henri Casterman"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galerie Opera"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galhausen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galhausener Weg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galmeistrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Galmeiweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gangolfer Weg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gare Autoroutiere"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gartenstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2725",
+              "@type": "tree:Node",
+              "token_string": "issberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2726",
+              "@type": "tree:Node",
+              "token_string": "mehret"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2727",
+              "@type": "tree:Node",
+              "token_string": "ntstraat"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2733",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2736",
+              "@type": "tree:Node",
+              "token_string": "tenberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2738",
+              "@type": "tree:Node",
+              "token_string": "werbe"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2721",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Geissberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.710927270689308",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.614425471001745"
+        },
+        {
+          "http://example.com/terms#name": "Gemehret",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.231173974174599",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.849799286716525"
+        },
+        {
+          "http://example.com/terms#name": "Gentstraat",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.372196104652325",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.58378191358184"
+        },
+        {
+          "http://example.com/terms#name": "Gerberstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.016049178036091",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.066759674890186"
+        },
+        {
+          "http://example.com/terms#name": "Gerberweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6139353056212533",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2882026676806"
+        },
+        {
+          "http://example.com/terms#name": "Gert-Noël-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.966244846665253",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24273685880101"
+        },
+        {
+          "http://example.com/terms#name": "Getenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.211505930847527",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23495769303241"
+        },
+        {
+          "http://example.com/terms#name": "Gewerbestrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.734666086417814",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.01998925578803"
+        },
+        {
+          "http://example.com/terms#name": "Gewerbezone Kaiserbaracke",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7526383165817787",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.255411646068644"
+        }
+      ],
+      "total_children_count": 12,
+      "@id": "streetsfragment95.jsonld#2724",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Geissberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gemehret"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gentstraat"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gerberstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gerberweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gert-Noël-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Getenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gewerbestrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gewerbezone Kaiserbaracke"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "issberg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Geissberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.710927270689308",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.614425471001745"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2724",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Geissberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.710927270689308",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.614425471001745"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2725",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Geissberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Geissberg"
+      ]
+    },
+    {
+      "token_string": "mehret",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gemehret",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.231173974174599",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.849799286716525"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2724",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gemehret",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.231173974174599",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.849799286716525"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2726",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gemehret"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gemehret"
+      ]
+    },
+    {
+      "token_string": "ntstraat",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gentstraat",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.372196104652325",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.58378191358184"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2724",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gentstraat",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.372196104652325",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.58378191358184"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2727",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gentstraat"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gentstraat"
+      ]
+    },
+    {
+      "token_string": "érarheid",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gérarheid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4032534551063955",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.759669816874414"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2721",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gérarheid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4032534551063955",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.759669816874414"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2728",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gérarheid"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gérarheid"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gerberstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.016049178036091",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.066759674890186"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2734",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gerberstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.016049178036091",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.066759674890186"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2731",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gerberstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gerberstrasse"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gerberweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6139353056212533",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2882026676806"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2734",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gerberweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6139353056212533",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2882026676806"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2732",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gerberweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gerberweg"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2734",
+              "@type": "tree:Node",
+              "token_string": "ber"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2735",
+              "@type": "tree:Node",
+              "token_string": "t-Noël-Strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2724",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gerberstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.016049178036091",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.066759674890186"
+        },
+        {
+          "http://example.com/terms#name": "Gerberweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6139353056212533",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2882026676806"
+        },
+        {
+          "http://example.com/terms#name": "Gert-Noël-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.966244846665253",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24273685880101"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment95.jsonld#2733",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gerberstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gerberweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gert-Noël-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ber",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2731",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2732",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2733",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gerberstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.016049178036091",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.066759674890186"
+        },
+        {
+          "http://example.com/terms#name": "Gerberweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6139353056212533",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2882026676806"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment95.jsonld#2734",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gerberstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gerberweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "t-Noël-Strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gert-Noël-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.966244846665253",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24273685880101"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2733",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gert-Noël-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.966244846665253",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24273685880101"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2735",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gert-Noël-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gert-Noël-Strasse"
+      ]
+    },
+    {
+      "token_string": "tenberg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Getenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.211505930847527",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23495769303241"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2724",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Getenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.211505930847527",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23495769303241"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2736",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Getenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Getenberg"
+      ]
+    },
+    {
+      "token_string": "werbe",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2739",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2740",
+              "@type": "tree:Node",
+              "token_string": "zone Kaiserbaracke"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2724",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gewerbestrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.734666086417814",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.01998925578803"
+        },
+        {
+          "http://example.com/terms#name": "Gewerbezone Kaiserbaracke",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7526383165817787",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.255411646068644"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment95.jsonld#2738",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gewerbestrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gewerbezone Kaiserbaracke"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gewerbestrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.734666086417814",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.01998925578803"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2738",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gewerbestrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.734666086417814",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.01998925578803"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2739",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gewerbestrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gewerbestrasse"
+      ]
+    },
+    {
+      "token_string": "zone Kaiserbaracke",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gewerbezone Kaiserbaracke",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7526383165817787",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.255411646068644"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2738",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gewerbezone Kaiserbaracke",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7526383165817787",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.255411646068644"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2740",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gewerbezone Kaiserbaracke"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gewerbezone Kaiserbaracke"
+      ]
+    },
+    {
+      "token_string": "Hockéstrasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "GHockéstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5671030903732572",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.87939997284099"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2721",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "GHockéstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5671030903732572",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.87939997284099"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2741",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "GHockéstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "GHockéstrasse"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2744",
+              "@type": "tree:Node",
+              "token_string": "bet de Harzé"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2745",
+              "@type": "tree:Node",
+              "token_string": "llesheide"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2746",
+              "@type": "tree:Node",
+              "token_string": "nsterweg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2721",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gibet de Harzé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.41985706461789",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53134106463102"
+        },
+        {
+          "http://example.com/terms#name": "Gillesheide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.25460747953703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.54380355099243"
+        },
+        {
+          "http://example.com/terms#name": "Ginsterweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4509869432079525",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70915959997977"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment95.jsonld#2743",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gibet de Harzé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gillesheide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ginsterweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bet de Harzé",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gibet de Harzé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.41985706461789",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53134106463102"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2743",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gibet de Harzé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.41985706461789",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53134106463102"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2744",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gibet de Harzé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gibet de Harzé"
+      ]
+    },
+    {
+      "token_string": "llesheide",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gillesheide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.25460747953703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.54380355099243"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2743",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gillesheide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.25460747953703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.54380355099243"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2745",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gillesheide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gillesheide"
+      ]
+    },
+    {
+      "token_string": "nsterweg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Ginsterweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4509869432079525",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70915959997977"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2743",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Ginsterweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4509869432079525",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70915959997977"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2746",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ginsterweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ginsterweg"
+      ]
+    },
+    {
+      "token_string": "öhlstrasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Göhlstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1470905422399484",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39319953606591"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2721",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Göhlstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1470905422399484",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39319953606591"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2747",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Göhlstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Göhlstrasse"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2750",
+              "@type": "tree:Node",
+              "token_string": "lette Nobiet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2751",
+              "@type": "tree:Node",
+              "token_string": "rges du Loup"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2753",
+              "@type": "tree:Node",
+              "token_string": "s"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2721",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Golette Nobiet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5175189798598194",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.65926810879066"
+        },
+        {
+          "http://example.com/terms#name": "Gorges du Loup",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.500018899462989",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.90506001879881"
+        },
+        {
+          "http://example.com/terms#name": "Gospertstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.920616332396277",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.04915721543431"
+        },
+        {
+          "http://example.com/terms#name": "Gostert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.437601903472473",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.04520076131383"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment95.jsonld#2749",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Golette Nobiet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gorges du Loup"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gospertstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gostert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "lette Nobiet",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Golette Nobiet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5175189798598194",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.65926810879066"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2749",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Golette Nobiet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5175189798598194",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.65926810879066"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2750",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Golette Nobiet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Golette Nobiet"
+      ]
+    },
+    {
+      "token_string": "rges du Loup",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gorges du Loup",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.500018899462989",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.90506001879881"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2749",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gorges du Loup",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.500018899462989",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.90506001879881"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2751",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gorges du Loup"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gorges du Loup"
+      ]
+    },
+    {
+      "token_string": "s",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2754",
+              "@type": "tree:Node",
+              "token_string": "pertstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2755",
+              "@type": "tree:Node",
+              "token_string": "tert"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2749",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gospertstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.920616332396277",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.04915721543431"
+        },
+        {
+          "http://example.com/terms#name": "Gostert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.437601903472473",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.04520076131383"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment95.jsonld#2753",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gospertstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Gostert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "pertstrasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gospertstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.920616332396277",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.04915721543431"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2753",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gospertstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.920616332396277",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.04915721543431"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2754",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gospertstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gospertstrasse"
+      ]
+    },
+    {
+      "token_string": "tert",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gostert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.437601903472473",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.04520076131383"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2753",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gostert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.437601903472473",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.04520076131383"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2755",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gostert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gostert"
+      ]
+    },
+    {
+      "token_string": "chtstrasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grachtstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9945919792546745",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.91648340724762"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2775",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grachtstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9945919792546745",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.91648340724762"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2758",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grachtstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grachtstrasse"
+      ]
+    },
+    {
+      "token_string": "Bosi",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grand Bosi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5024916577325635",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43838940923536"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2766",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grand Bosi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5024916577325635",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43838940923536"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2761",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grand Bosi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grand Bosi"
+      ]
+    },
+    {
+      "token_string": "Champ",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grand Champ",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.162193082870137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.51161820112433"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2766",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grand Champ",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.162193082870137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.51161820112433"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2762",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grand Champ"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grand Champ"
+      ]
+    },
+    {
+      "token_string": "Place",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grand Place",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1443621812377023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43500952766359"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2766",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grand Place",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1443621812377023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43500952766359"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2763",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grand Place"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grand Place"
+      ]
+    },
+    {
+      "token_string": "Route",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grand Route",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.197469328141241",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90814152949415"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2766",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grand Route",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.197469328141241",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90814152949415"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2764",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grand Route"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grand Route"
+      ]
+    },
+    {
+      "token_string": "nd",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2766",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2769",
+              "@type": "tree:Node",
+              "token_string": "-R"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2775",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grand Bosi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5024916577325635",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43838940923536"
+        },
+        {
+          "http://example.com/terms#name": "Grand Champ",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.162193082870137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.51161820112433"
+        },
+        {
+          "http://example.com/terms#name": "Grand Place",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1443621812377023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43500952766359"
+        },
+        {
+          "http://example.com/terms#name": "Grand Route",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.197469328141241",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90814152949415"
+        },
+        {
+          "http://example.com/terms#name": "Grand-Route",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.435345847909056",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.951364835691166"
+        },
+        {
+          "http://example.com/terms#name": "Grand-Rue",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.921421055581663",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2748537201315"
+        },
+        {
+          "http://example.com/terms#name": "Grand Vaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8195434016545113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71382959569119"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "streetsfragment95.jsonld#2765",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grand Bosi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Champ"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Place"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Route"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand-Route"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand-Rue"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Vaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2761",
+              "@type": "tree:Node",
+              "token_string": "Bosi"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2762",
+              "@type": "tree:Node",
+              "token_string": "Champ"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2763",
+              "@type": "tree:Node",
+              "token_string": "Place"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2764",
+              "@type": "tree:Node",
+              "token_string": "Route"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2772",
+              "@type": "tree:Node",
+              "token_string": "Vaux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2765",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grand Bosi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5024916577325635",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43838940923536"
+        },
+        {
+          "http://example.com/terms#name": "Grand Champ",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.162193082870137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.51161820112433"
+        },
+        {
+          "http://example.com/terms#name": "Grand Place",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1443621812377023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43500952766359"
+        },
+        {
+          "http://example.com/terms#name": "Grand Route",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.197469328141241",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90814152949415"
+        },
+        {
+          "http://example.com/terms#name": "Grand Vaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8195434016545113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71382959569119"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment95.jsonld#2766",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grand Bosi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Champ"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Place"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Route"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Vaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "RAND-ROUTE DE JEMAPPES",
+      "triples": [
+        {
+          "http://example.com/terms#name": "GRAND-ROUTE DE JEMAPPES",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3604915739558208",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.933794789042274"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2721",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "GRAND-ROUTE DE JEMAPPES",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3604915739558208",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.933794789042274"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2768",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "GRAND-ROUTE DE JEMAPPES"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "GRAND-ROUTE DE JEMAPPES"
+      ]
+    },
+    {
+      "token_string": "-R",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2770",
+              "@type": "tree:Node",
+              "token_string": "oute"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2771",
+              "@type": "tree:Node",
+              "token_string": "ue"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2765",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grand-Route",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.435345847909056",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.951364835691166"
+        },
+        {
+          "http://example.com/terms#name": "Grand-Rue",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.921421055581663",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2748537201315"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment95.jsonld#2769",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grand-Route"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand-Rue"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "oute",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grand-Route",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.435345847909056",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.951364835691166"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2769",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grand-Route",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.435345847909056",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.951364835691166"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2770",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grand-Route"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grand-Route"
+      ]
+    },
+    {
+      "token_string": "ue",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grand-Rue",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.921421055581663",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2748537201315"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2769",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grand-Rue",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.921421055581663",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2748537201315"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2771",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grand-Rue"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grand-Rue"
+      ]
+    },
+    {
+      "token_string": "Vaux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grand Vaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8195434016545113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71382959569119"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2766",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grand Vaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8195434016545113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71382959569119"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2772",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grand Vaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grand Vaux"
+      ]
+    },
+    {
+      "token_string": "sbenden",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grasbenden",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.91048433785846",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.42140042368291"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2775",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grasbenden",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.91048433785846",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.42140042368291"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2773",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grasbenden"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grasbenden"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2775",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2776",
+              "@type": "tree:Node",
+              "token_string": "enzstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2777",
+              "@type": "tree:Node",
+              "token_string": "ievengasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2779",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2784",
+              "@type": "tree:Node",
+              "token_string": "ubenstraße"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2788",
+              "@type": "tree:Node",
+              "token_string": "ü"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2721",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grachtstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9945919792546745",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.91648340724762"
+        },
+        {
+          "http://example.com/terms#name": "Grand Bosi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5024916577325635",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43838940923536"
+        },
+        {
+          "http://example.com/terms#name": "Grand Champ",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.162193082870137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.51161820112433"
+        },
+        {
+          "http://example.com/terms#name": "Grand Place",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1443621812377023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43500952766359"
+        },
+        {
+          "http://example.com/terms#name": "Grand Route",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.197469328141241",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90814152949415"
+        },
+        {
+          "http://example.com/terms#name": "Grand-Route",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.435345847909056",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.951364835691166"
+        },
+        {
+          "http://example.com/terms#name": "Grand-Rue",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.921421055581663",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2748537201315"
+        },
+        {
+          "http://example.com/terms#name": "Grand Vaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8195434016545113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71382959569119"
+        },
+        {
+          "http://example.com/terms#name": "Grasbenden",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.91048433785846",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.42140042368291"
+        },
+        {
+          "http://example.com/terms#name": "Grenzstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9328091019896645",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.23952909548137"
+        }
+      ],
+      "total_children_count": 28,
+      "@id": "streetsfragment95.jsonld#2774",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grachtstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Bosi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Champ"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Place"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Route"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand-Route"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand-Rue"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Vaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grasbenden"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grenzstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2758",
+              "@type": "tree:Node",
+              "token_string": "chtstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2765",
+              "@type": "tree:Node",
+              "token_string": "nd"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2773",
+              "@type": "tree:Node",
+              "token_string": "sbenden"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2774",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grachtstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9945919792546745",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.91648340724762"
+        },
+        {
+          "http://example.com/terms#name": "Grand Bosi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5024916577325635",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43838940923536"
+        },
+        {
+          "http://example.com/terms#name": "Grand Champ",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.162193082870137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.51161820112433"
+        },
+        {
+          "http://example.com/terms#name": "Grand Place",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1443621812377023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43500952766359"
+        },
+        {
+          "http://example.com/terms#name": "Grand Route",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.197469328141241",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90814152949415"
+        },
+        {
+          "http://example.com/terms#name": "Grand-Route",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.435345847909056",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.951364835691166"
+        },
+        {
+          "http://example.com/terms#name": "Grand-Rue",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.921421055581663",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2748537201315"
+        },
+        {
+          "http://example.com/terms#name": "Grand Vaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8195434016545113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71382959569119"
+        },
+        {
+          "http://example.com/terms#name": "Grasbenden",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.91048433785846",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.42140042368291"
+        }
+      ],
+      "total_children_count": 12,
+      "@id": "streetsfragment95.jsonld#2775",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grachtstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Bosi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Champ"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Place"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Route"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand-Route"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand-Rue"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grand Vaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grasbenden"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "enzstrasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grenzstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9328091019896645",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.23952909548137"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2774",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grenzstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9328091019896645",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.23952909548137"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2776",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grenzstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grenzstrasse"
+      ]
+    },
+    {
+      "token_string": "ievengasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grievengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1869078109035995",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.96069253050157"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2774",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grievengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1869078109035995",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.96069253050157"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2777",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grievengasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grievengasse"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2780",
+              "@type": "tree:Node",
+              "token_string": "etbacherweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2781",
+              "@type": "tree:Node",
+              "token_string": "ndornstraße"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2782",
+              "@type": "tree:Node",
+              "token_string": "ßenborn"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2783",
+              "@type": "tree:Node",
+              "token_string": "ssenbusch"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2774",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Groetbacherweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7902578192058822",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52616134152015"
+        },
+        {
+          "http://example.com/terms#name": "Grondornstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5883401135329493",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.02527294251641"
+        },
+        {
+          "http://example.com/terms#name": "Großenborn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.227936584439668",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.77068680003451"
+        },
+        {
+          "http://example.com/terms#name": "Grossenbusch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.173150087136254",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04709114078767"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment95.jsonld#2779",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Groetbacherweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grondornstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Großenborn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grossenbusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "etbacherweg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Groetbacherweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7902578192058822",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52616134152015"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2779",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Groetbacherweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7902578192058822",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52616134152015"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2780",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Groetbacherweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Groetbacherweg"
+      ]
+    },
+    {
+      "token_string": "ndornstraße",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grondornstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5883401135329493",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.02527294251641"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2779",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grondornstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5883401135329493",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.02527294251641"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2781",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grondornstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grondornstraße"
+      ]
+    },
+    {
+      "token_string": "ßenborn",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Großenborn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.227936584439668",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.77068680003451"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2779",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Großenborn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.227936584439668",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.77068680003451"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2782",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Großenborn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Großenborn"
+      ]
+    },
+    {
+      "token_string": "ssenbusch",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grossenbusch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.173150087136254",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04709114078767"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2779",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grossenbusch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.173150087136254",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04709114078767"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2783",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grossenbusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grossenbusch"
+      ]
+    },
+    {
+      "token_string": "ubenstraße",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grubenstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3788097627120064",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10397953820236"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2774",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grubenstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3788097627120064",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10397953820236"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2784",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grubenstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grubenstraße"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grüffl",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7461397224537047",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.71269517860937"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2787",
+              "@type": "tree:Node",
+              "token_string": "ingen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2789",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grüffl",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7461397224537047",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.71269517860937"
+        },
+        {
+          "http://example.com/terms#name": "Grüfflingen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2935874345424883",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65433845546233"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "streetsfragment95.jsonld#2786",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grüffl"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grüfflingen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grüffl"
+      ]
+    },
+    {
+      "token_string": "ingen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grüfflingen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2935874345424883",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65433845546233"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2786",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grüfflingen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2935874345424883",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65433845546233"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2787",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grüfflingen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grüfflingen"
+      ]
+    },
+    {
+      "token_string": "ü",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2789",
+              "@type": "tree:Node",
+              "token_string": "ff"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2791",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2774",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grüff",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5587868931106983",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.41441049339875"
+        },
+        {
+          "http://example.com/terms#name": "Grüffl",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7461397224537047",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.71269517860937"
+        },
+        {
+          "http://example.com/terms#name": "Grüfflingen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2935874345424883",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65433845546233"
+        },
+        {
+          "http://example.com/terms#name": "Grünstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4585849584922173",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.283758435347195"
+        },
+        {
+          "http://example.com/terms#name": "Grünthal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.628627605307536",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.313327443184015"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment95.jsonld#2788",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grüff"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grüffl"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grüfflingen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grünstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grünthal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ff",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grüff",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5587868931106983",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.41441049339875"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2786",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2788",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grüff",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5587868931106983",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.41441049339875"
+        },
+        {
+          "http://example.com/terms#name": "Grüffl",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7461397224537047",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.71269517860937"
+        },
+        {
+          "http://example.com/terms#name": "Grüfflingen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2935874345424883",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65433845546233"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment95.jsonld#2789",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grüff"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grüffl"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grüfflingen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grüff"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2792",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment95.jsonld#2793",
+              "@type": "tree:Node",
+              "token_string": "thal"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2788",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grünstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4585849584922173",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.283758435347195"
+        },
+        {
+          "http://example.com/terms#name": "Grünthal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.628627605307536",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.313327443184015"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment95.jsonld#2791",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grünstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Grünthal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grünstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4585849584922173",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.283758435347195"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2791",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grünstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4585849584922173",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.283758435347195"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2792",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grünstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grünstrasse"
+      ]
+    },
+    {
+      "token_string": "thal",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Grünthal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.628627605307536",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.313327443184015"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2791",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Grünthal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.628627605307536",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.313327443184015"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2793",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Grünthal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Grünthal"
+      ]
+    },
+    {
+      "token_string": "ülcherstrasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gülcherstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4213066682478335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.95400877291044"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2721",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gülcherstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4213066682478335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.95400877291044"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2794",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gülcherstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gülcherstrasse"
+      ]
+    },
+    {
+      "token_string": "ypenhaag",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Gypenhaag",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6088719225841164",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.9503273334"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment95.jsonld#2721",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Gypenhaag",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6088719225841164",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.9503273334"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment95.jsonld#2795",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Gypenhaag"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Gypenhaag"
+      ]
+    }
+  ]
+}

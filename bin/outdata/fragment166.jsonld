@@ -1,0 +1,1338 @@
+{
+  "root_node_id": "5072",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment166.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "bhooz",
+      "triples": [
+        {
+          "streetname": "Rue d'Abhooz"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5060",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Abhooz"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#5057",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Abhooz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Abhooz"
+      ]
+    },
+    {
+      "token_string": "A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5057",
+              "@type": "tree:Node",
+              "token_string": "bhooz"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5062",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5069",
+              "@type": "tree:Node",
+              "token_string": "msterdam"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5070",
+              "@type": "tree:Node",
+              "token_string": "thènes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5071",
+              "@type": "tree:Node",
+              "token_string": "wans"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Abhooz"
+        },
+        {
+          "streetname": "Rue d'Alba"
+        },
+        {
+          "streetname": "Rue d'Allouville-Bellefosse"
+        },
+        {
+          "streetname": "Rue d'Amsterdam"
+        },
+        {
+          "streetname": "Rue d'Athènes"
+        },
+        {
+          "streetname": "Rue d'Awans"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment166.jsonld#5060",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Abhooz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Alba"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Allouville-Bellefosse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Amsterdam"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Athènes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Awans"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5063",
+              "@type": "tree:Node",
+              "token_string": "ba"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5064",
+              "@type": "tree:Node",
+              "token_string": "louville-Bellefosse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5060",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Alba"
+        },
+        {
+          "streetname": "Rue d'Allouville-Bellefosse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment166.jsonld#5062",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Alba"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Allouville-Bellefosse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ba",
+      "triples": [
+        {
+          "streetname": "Rue d'Alba"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5062",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Alba"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#5063",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Alba"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Alba"
+      ]
+    },
+    {
+      "token_string": "louville-Bellefosse",
+      "triples": [
+        {
+          "streetname": "Rue d'Allouville-Bellefosse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5062",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Allouville-Bellefosse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#5064",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Allouville-Bellefosse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Allouville-Bellefosse"
+      ]
+    },
+    {
+      "token_string": "al ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5066",
+              "@type": "tree:Node",
+              "token_string": "Bôle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5067",
+              "@type": "tree:Node",
+              "token_string": "Venne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'al Bôle"
+        },
+        {
+          "streetname": "Rue d'al Venne"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment166.jsonld#5065",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'al Bôle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'al Venne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Bôle",
+      "triples": [
+        {
+          "streetname": "Rue d'al Bôle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5065",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'al Bôle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#5066",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'al Bôle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'al Bôle"
+      ]
+    },
+    {
+      "token_string": "Venne",
+      "triples": [
+        {
+          "streetname": "Rue d'al Venne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5065",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'al Venne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#5067",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'al Venne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'al Venne"
+      ]
+    },
+    {
+      "token_string": "msterdam",
+      "triples": [
+        {
+          "streetname": "Rue d'Amsterdam"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5060",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Amsterdam"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#5069",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Amsterdam"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Amsterdam"
+      ]
+    },
+    {
+      "token_string": "thènes",
+      "triples": [
+        {
+          "streetname": "Rue d'Athènes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5060",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Athènes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#5070",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Athènes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Athènes"
+      ]
+    },
+    {
+      "token_string": "wans",
+      "triples": [
+        {
+          "streetname": "Rue d'Awans"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5060",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Awans"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#5071",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Awans"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Awans"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5073",
+              "@type": "tree:Node",
+              "token_string": "'"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5802",
+              "@type": "tree:Node",
+              "token_string": "èl Wêde"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment169.jsonld#5879",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment226.jsonld#6979",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment253.jsonld#7407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Abhooz"
+        },
+        {
+          "streetname": "Rue d'Alba"
+        },
+        {
+          "streetname": "Rue d'Allouville-Bellefosse"
+        },
+        {
+          "streetname": "Rue d'Amsterdam"
+        },
+        {
+          "streetname": "Rue d'Athènes"
+        },
+        {
+          "streetname": "Rue d'Awans"
+        },
+        {
+          "streetname": "Rue d'Ecorche Vent"
+        },
+        {
+          "streetname": "Rue d'Edimbourg"
+        },
+        {
+          "streetname": "Rue d'En Bry"
+        },
+        {
+          "streetname": "Rue d'Herinnes"
+        }
+      ],
+      "total_children_count": 1532,
+      "@id": "fragment166.jsonld#5072",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Abhooz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Alba"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Allouville-Bellefosse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Amsterdam"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Athènes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Awans"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Ecorche Vent"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Edimbourg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'En Bry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Herinnes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5060",
+              "@type": "tree:Node",
+              "token_string": "A"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5065",
+              "@type": "tree:Node",
+              "token_string": "al "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5149",
+              "@type": "tree:Node",
+              "token_string": "E"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#6462",
+              "@type": "tree:Node",
+              "token_string": "Herinnes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#6464",
+              "@type": "tree:Node",
+              "token_string": "Italie"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#6477",
+              "@type": "tree:Node",
+              "token_string": "O"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#7106",
+              "@type": "tree:Node",
+              "token_string": "Ychippe"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Abhooz"
+        },
+        {
+          "streetname": "Rue d'Alba"
+        },
+        {
+          "streetname": "Rue d'Allouville-Bellefosse"
+        },
+        {
+          "streetname": "Rue d'Amsterdam"
+        },
+        {
+          "streetname": "Rue d'Athènes"
+        },
+        {
+          "streetname": "Rue d'Awans"
+        },
+        {
+          "streetname": "Rue d'Ecorche Vent"
+        },
+        {
+          "streetname": "Rue d'Edimbourg"
+        },
+        {
+          "streetname": "Rue d'En Bry"
+        },
+        {
+          "streetname": "Rue d'Herinnes"
+        }
+      ],
+      "total_children_count": 23,
+      "@id": "fragment166.jsonld#5073",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Abhooz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Alba"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Allouville-Bellefosse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Amsterdam"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Athènes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Awans"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Ecorche Vent"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Edimbourg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'En Bry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Herinnes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "E",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5150",
+              "@type": "tree:Node",
+              "token_string": "corche Vent"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5151",
+              "@type": "tree:Node",
+              "token_string": "dimbourg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#5830",
+              "@type": "tree:Node",
+              "token_string": "n Bry"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Ecorche Vent"
+        },
+        {
+          "streetname": "Rue d'Edimbourg"
+        },
+        {
+          "streetname": "Rue d'En Bry"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment166.jsonld#5149",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Ecorche Vent"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Edimbourg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'En Bry"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "corche Vent",
+      "triples": [
+        {
+          "streetname": "Rue d'Ecorche Vent"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5149",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Ecorche Vent"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#5150",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Ecorche Vent"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Ecorche Vent"
+      ]
+    },
+    {
+      "token_string": "dimbourg",
+      "triples": [
+        {
+          "streetname": "Rue d'Edimbourg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5149",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Edimbourg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#5151",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Edimbourg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Edimbourg"
+      ]
+    },
+    {
+      "token_string": "èl Wêde",
+      "triples": [
+        {
+          "streetname": "Rue dèl Wêde"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue dèl Wêde"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#5802",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue dèl Wêde"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue dèl Wêde"
+      ]
+    },
+    {
+      "token_string": "n Bry",
+      "triples": [
+        {
+          "streetname": "Rue d'En Bry"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5149",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'En Bry"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#5830",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'En Bry"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'En Bry"
+      ]
+    },
+    {
+      "token_string": "Herinnes",
+      "triples": [
+        {
+          "streetname": "Rue d'Herinnes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Herinnes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#6462",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Herinnes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Herinnes"
+      ]
+    },
+    {
+      "token_string": "Italie",
+      "triples": [
+        {
+          "streetname": "Rue d'Italie"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Italie"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#6464",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Italie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Italie"
+      ]
+    },
+    {
+      "token_string": "reux",
+      "triples": [
+        {
+          "streetname": "Rue d'Orreux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#6478",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Orreux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#6475",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Orreux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Orreux"
+      ]
+    },
+    {
+      "token_string": "ti",
+      "triples": [
+        {
+          "streetname": "Rue d'Orti"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#6478",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Orti"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#6476",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Orti"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Orti"
+      ]
+    },
+    {
+      "token_string": "O",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#6478",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#6479",
+              "@type": "tree:Node",
+              "token_string": "slo"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Orreux"
+        },
+        {
+          "streetname": "Rue d'Orti"
+        },
+        {
+          "streetname": "Rue d'Oslo"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment166.jsonld#6477",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Orreux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Orti"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Oslo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#6475",
+              "@type": "tree:Node",
+              "token_string": "reux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment166.jsonld#6476",
+              "@type": "tree:Node",
+              "token_string": "ti"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#6477",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Orreux"
+        },
+        {
+          "streetname": "Rue d'Orti"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment166.jsonld#6478",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Orreux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue d'Orti"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "slo",
+      "triples": [
+        {
+          "streetname": "Rue d'Oslo"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#6477",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Oslo"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#6479",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Oslo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Oslo"
+      ]
+    },
+    {
+      "token_string": "Ychippe",
+      "triples": [
+        {
+          "streetname": "Rue d'Ychippe"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment166.jsonld#5073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue d'Ychippe"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment166.jsonld#7106",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue d'Ychippe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue d'Ychippe"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,950 @@
+{
+  "root_node_id": "2318",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment89.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment89.jsonld#2319",
+              "@type": "tree:Node",
+              "token_string": "Baduelle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment89.jsonld#2321",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment89.jsonld#2346",
+              "@type": "tree:Node",
+              "token_string": "Durendal"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment89.jsonld#2348",
+              "@type": "tree:Node",
+              "token_string": "Eole"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment89.jsonld#2349",
+              "@type": "tree:Node",
+              "token_string": "Fisher"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment89.jsonld#2350",
+              "@type": "tree:Node",
+              "token_string": "Henri Dumont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment89.jsonld#2352",
+              "@type": "tree:Node",
+              "token_string": "J"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment89.jsonld#2355",
+              "@type": "tree:Node",
+              "token_string": "Mosane"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment89.jsonld#2356",
+              "@type": "tree:Node",
+              "token_string": "Résimont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment89.jsonld#2361",
+              "@type": "tree:Node",
+              "token_string": "Staquet"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2315",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour Baduelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4821458664141045",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09020914857304"
+        },
+        {
+          "http://example.com/terms#name": "Cour Durendal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0753239526903706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.62566559497882"
+        },
+        {
+          "http://example.com/terms#name": "Cour Eole",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7507702109373913",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.806704261082636"
+        },
+        {
+          "http://example.com/terms#name": "Cour Fisher",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.801448903115222",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.881081512671805"
+        },
+        {
+          "http://example.com/terms#name": "Cour Henri Dumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.741106509959529",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.4863844316807"
+        },
+        {
+          "http://example.com/terms#name": "Cour Jean Zuallart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.937095205085735",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.44049377095585"
+        },
+        {
+          "http://example.com/terms#name": "Cour Johan de Sar",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.808953907898149",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.456800668662055"
+        },
+        {
+          "http://example.com/terms#name": "Cour Mosane",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4480299964248347",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.52390387536589"
+        },
+        {
+          "http://example.com/terms#name": "Cour Résimont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2721842947762263",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.24244920392819"
+        },
+        {
+          "http://example.com/terms#name": "Cour Staquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6050242297288557",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.294844905889434"
+        }
+      ],
+      "total_children_count": 31,
+      "@id": "streetsfragment89.jsonld#2318",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour Baduelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Durendal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Eole"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Fisher"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Henri Dumont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Jean Zuallart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Johan de Sar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Mosane"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Résimont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Staquet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Baduelle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour Baduelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4821458664141045",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09020914857304"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment89.jsonld#2318",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour Baduelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4821458664141045",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09020914857304"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment89.jsonld#2319",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour Baduelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour Baduelle"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment87.jsonld#2331",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment89.jsonld#2339",
+              "@type": "tree:Node",
+              "token_string": "'"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment88.jsonld#2343",
+              "@type": "tree:Node",
+              "token_string": "u "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment89.jsonld#2318",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour d'Ayeneux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.822536637650418",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.572920884933076"
+        },
+        {
+          "http://example.com/terms#name": "Cour de l'Abbaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.337374369651107",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.31842218535495"
+        },
+        {
+          "http://example.com/terms#name": "Cour de la Ferme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.945534988004971",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.43255742537306"
+        },
+        {
+          "http://example.com/terms#name": "Cour de la Ferme aux Broux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7321303444017033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.222349904666274"
+        },
+        {
+          "http://example.com/terms#name": "Cour de la Mozée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0761191209425895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.682637786344195"
+        },
+        {
+          "http://example.com/terms#name": "Cour des Brigands",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.587364283921315",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.046959507553055"
+        },
+        {
+          "http://example.com/terms#name": "Cour des Pavillons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.489450727742245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.289644052565016"
+        },
+        {
+          "http://example.com/terms#name": "Cour des Salésiens",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.881225427290063",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.232579970223135"
+        },
+        {
+          "http://example.com/terms#name": "Cour des Terres Noires",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.859753317308199",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.99944352740857"
+        },
+        {
+          "http://example.com/terms#name": "Cour d'Omalius",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9449257852689827",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53412151201526"
+        }
+      ],
+      "total_children_count": 19,
+      "@id": "streetsfragment89.jsonld#2321",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour d'Ayeneux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de l'Abbaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Ferme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Ferme aux Broux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Mozée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour des Brigands"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour des Pavillons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour des Salésiens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour des Terres Noires"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour d'Omalius"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment89.jsonld#2340",
+              "@type": "tree:Node",
+              "token_string": "Ayeneux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment89.jsonld#2341",
+              "@type": "tree:Node",
+              "token_string": "Omalius"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment89.jsonld#2321",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour d'Ayeneux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.822536637650418",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.572920884933076"
+        },
+        {
+          "http://example.com/terms#name": "Cour d'Omalius",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9449257852689827",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53412151201526"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment89.jsonld#2339",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour d'Ayeneux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour d'Omalius"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Ayeneux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour d'Ayeneux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.822536637650418",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.572920884933076"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment89.jsonld#2339",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour d'Ayeneux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.822536637650418",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.572920884933076"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment89.jsonld#2340",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour d'Ayeneux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour d'Ayeneux"
+      ]
+    },
+    {
+      "token_string": "Omalius",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour d'Omalius",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9449257852689827",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53412151201526"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment89.jsonld#2339",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour d'Omalius",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9449257852689827",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53412151201526"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment89.jsonld#2341",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour d'Omalius"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour d'Omalius"
+      ]
+    },
+    {
+      "token_string": "Durendal",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour Durendal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0753239526903706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.62566559497882"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment89.jsonld#2318",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour Durendal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0753239526903706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.62566559497882"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment89.jsonld#2346",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour Durendal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour Durendal"
+      ]
+    },
+    {
+      "token_string": "Eole",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour Eole",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7507702109373913",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.806704261082636"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment89.jsonld#2318",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour Eole",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7507702109373913",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.806704261082636"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment89.jsonld#2348",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour Eole"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour Eole"
+      ]
+    },
+    {
+      "token_string": "Fisher",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour Fisher",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.801448903115222",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.881081512671805"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment89.jsonld#2318",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour Fisher",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.801448903115222",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.881081512671805"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment89.jsonld#2349",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour Fisher"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour Fisher"
+      ]
+    },
+    {
+      "token_string": "Henri Dumont",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour Henri Dumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.741106509959529",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.4863844316807"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment89.jsonld#2318",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour Henri Dumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.741106509959529",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.4863844316807"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment89.jsonld#2350",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour Henri Dumont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour Henri Dumont"
+      ]
+    },
+    {
+      "token_string": "J",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment89.jsonld#2353",
+              "@type": "tree:Node",
+              "token_string": "ean Zuallart"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment89.jsonld#2354",
+              "@type": "tree:Node",
+              "token_string": "ohan de Sar"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment89.jsonld#2318",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour Jean Zuallart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.937095205085735",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.44049377095585"
+        },
+        {
+          "http://example.com/terms#name": "Cour Johan de Sar",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.808953907898149",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.456800668662055"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment89.jsonld#2352",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour Jean Zuallart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Johan de Sar"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ean Zuallart",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour Jean Zuallart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.937095205085735",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.44049377095585"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment89.jsonld#2352",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour Jean Zuallart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.937095205085735",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.44049377095585"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment89.jsonld#2353",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour Jean Zuallart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour Jean Zuallart"
+      ]
+    },
+    {
+      "token_string": "ohan de Sar",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour Johan de Sar",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.808953907898149",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.456800668662055"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment89.jsonld#2352",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour Johan de Sar",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.808953907898149",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.456800668662055"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment89.jsonld#2354",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour Johan de Sar"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour Johan de Sar"
+      ]
+    },
+    {
+      "token_string": "Mosane",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour Mosane",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4480299964248347",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.52390387536589"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment89.jsonld#2318",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour Mosane",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4480299964248347",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.52390387536589"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment89.jsonld#2355",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour Mosane"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour Mosane"
+      ]
+    },
+    {
+      "token_string": "Résimont",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour Résimont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2721842947762263",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.24244920392819"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment89.jsonld#2318",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour Résimont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2721842947762263",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.24244920392819"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment89.jsonld#2356",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour Résimont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour Résimont"
+      ]
+    },
+    {
+      "token_string": "Staquet",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour Staquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6050242297288557",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.294844905889434"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment89.jsonld#2318",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour Staquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6050242297288557",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.294844905889434"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment89.jsonld#2361",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour Staquet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour Staquet"
+      ]
+    }
+  ]
+}

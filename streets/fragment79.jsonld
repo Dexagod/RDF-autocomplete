@@ -1,0 +1,428 @@
+{
+  "root_node_id": "2120",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment79.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "T",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment79.jsonld#2121",
+              "@type": "tree:Node",
+              "token_string": "anneurs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment79.jsonld#2122",
+              "@type": "tree:Node",
+              "token_string": "erroules"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment79.jsonld#2123",
+              "@type": "tree:Node",
+              "token_string": "illeuls"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment79.jsonld#2125",
+              "@type": "tree:Node",
+              "token_string": "rois "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment79.jsonld#2128",
+              "@type": "tree:Node",
+              "token_string": "ulipiers"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos des Tanneurs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9639518544805057",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.75896591558955"
+        },
+        {
+          "http://example.com/terms#name": "Clos des Terroules",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.453545942638088",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.05210246106681"
+        },
+        {
+          "http://example.com/terms#name": "Clos des Tilleuls",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.389611866365343",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.81812651580108"
+        },
+        {
+          "http://example.com/terms#name": "Clos des Trois Allées",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8607341284449466",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79442033993756"
+        },
+        {
+          "http://example.com/terms#name": "Clos des Trois Puits",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3163038480056137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.98116267243025"
+        },
+        {
+          "http://example.com/terms#name": "Clos des Tulipiers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.122891264462355",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.55215452630036"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "streetsfragment79.jsonld#2120",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Tanneurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Terroules"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Tilleuls"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Trois Allées"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Trois Puits"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Tulipiers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "anneurs",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos des Tanneurs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9639518544805057",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.75896591558955"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment79.jsonld#2120",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos des Tanneurs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9639518544805057",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.75896591558955"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment79.jsonld#2121",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Tanneurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Tanneurs"
+      ]
+    },
+    {
+      "token_string": "erroules",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos des Terroules",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.453545942638088",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.05210246106681"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment79.jsonld#2120",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos des Terroules",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.453545942638088",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.05210246106681"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment79.jsonld#2122",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Terroules"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Terroules"
+      ]
+    },
+    {
+      "token_string": "illeuls",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos des Tilleuls",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.389611866365343",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.81812651580108"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment79.jsonld#2120",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos des Tilleuls",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.389611866365343",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.81812651580108"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment79.jsonld#2123",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Tilleuls"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Tilleuls"
+      ]
+    },
+    {
+      "token_string": "rois ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment79.jsonld#2126",
+              "@type": "tree:Node",
+              "token_string": "Allées"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment79.jsonld#2127",
+              "@type": "tree:Node",
+              "token_string": "Puits"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment79.jsonld#2120",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos des Trois Allées",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8607341284449466",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79442033993756"
+        },
+        {
+          "http://example.com/terms#name": "Clos des Trois Puits",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3163038480056137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.98116267243025"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment79.jsonld#2125",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Trois Allées"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Trois Puits"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Allées",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos des Trois Allées",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8607341284449466",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79442033993756"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment79.jsonld#2125",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos des Trois Allées",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8607341284449466",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79442033993756"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment79.jsonld#2126",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Trois Allées"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Trois Allées"
+      ]
+    },
+    {
+      "token_string": "Puits",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos des Trois Puits",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3163038480056137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.98116267243025"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment79.jsonld#2125",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos des Trois Puits",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3163038480056137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.98116267243025"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment79.jsonld#2127",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Trois Puits"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Trois Puits"
+      ]
+    },
+    {
+      "token_string": "ulipiers",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos des Tulipiers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.122891264462355",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.55215452630036"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment79.jsonld#2120",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos des Tulipiers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.122891264462355",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.55215452630036"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment79.jsonld#2128",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Tulipiers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Tulipiers"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2990 @@
+{
+  "root_node_id": "7813",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment255.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "aussant",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Baussant",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6582310883172093",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35061197329178"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7779",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Baussant",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6582310883172093",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35061197329178"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7773",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Baussant"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Baussant"
+      ]
+    },
+    {
+      "token_string": "rèyôd",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Brèyôd",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.977045038970209",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16697954727335"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7779",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Brèyôd",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.977045038970209",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16697954727335"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7774",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Brèyôd"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Brèyôd"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7776",
+              "@type": "tree:Node",
+              "token_string": "Aubin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7777",
+              "@type": "tree:Node",
+              "token_string": "Christophe"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7811",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint Aubin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.179050942950589",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.175734173851936"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint Christophe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.984011872419083",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5710695664951"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment255.jsonld#7775",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint Aubin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint Christophe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Aubin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint Aubin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.179050942950589",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.175734173851936"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7775",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint Aubin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.179050942950589",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.175734173851936"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7776",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint Aubin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint Aubin"
+      ]
+    },
+    {
+      "token_string": "Christophe",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint Christophe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.984011872419083",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5710695664951"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7775",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint Christophe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.984011872419083",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5710695664951"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7777",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint Christophe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint Christophe"
+      ]
+    },
+    {
+      "token_string": "-",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7779",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7781",
+              "@type": "tree:Node",
+              "token_string": "D"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7793",
+              "@type": "tree:Node",
+              "token_string": "Exupéry"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7794",
+              "@type": "tree:Node",
+              "token_string": "Firmin des Prés"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7795",
+              "@type": "tree:Node",
+              "token_string": "Hubert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7797",
+              "@type": "tree:Node",
+              "token_string": "J"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7800",
+              "@type": "tree:Node",
+              "token_string": "Lambert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7802",
+              "@type": "tree:Node",
+              "token_string": "Ma"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7805",
+              "@type": "tree:Node",
+              "token_string": "Nicolas"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7806",
+              "@type": "tree:Node",
+              "token_string": "Ouen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7807",
+              "@type": "tree:Node",
+              "token_string": "Paul"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7808",
+              "@type": "tree:Node",
+              "token_string": "Raboni"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7809",
+              "@type": "tree:Node",
+              "token_string": "Valentin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7811",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Baussant",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6582310883172093",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35061197329178"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Brèyôd",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.977045038970209",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16697954727335"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Denis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.187066385414441",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.09743468179323"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Donat",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.600217016769513",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.06813873618249"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Exupéry",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.957731888924611",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43937382680629"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Firmin des Prés",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.838190891113398",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.436893783975755"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Hubert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1717586855384354",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.904454301064575"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Jacques",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.867171733457099",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.50590065525987"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Jean",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.86437876307917",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.52389885363511"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Lambert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.201397100690514",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.69182119660055"
+        }
+      ],
+      "total_children_count": 21,
+      "@id": "streetsfragment255.jsonld#7778",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Baussant"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Brèyôd"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Denis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Donat"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Exupéry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Firmin des Prés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Hubert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Jacques"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Jean"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Lambert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7773",
+              "@type": "tree:Node",
+              "token_string": "aussant"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7774",
+              "@type": "tree:Node",
+              "token_string": "rèyôd"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Baussant",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6582310883172093",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35061197329178"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Brèyôd",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.977045038970209",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16697954727335"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment255.jsonld#7779",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Baussant"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Brèyôd"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "D",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7782",
+              "@type": "tree:Node",
+              "token_string": "enis"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7783",
+              "@type": "tree:Node",
+              "token_string": "onat"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Denis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.187066385414441",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.09743468179323"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Donat",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.600217016769513",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.06813873618249"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment255.jsonld#7781",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Denis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Donat"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "enis",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Denis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.187066385414441",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.09743468179323"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7781",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Denis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.187066385414441",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.09743468179323"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7782",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Denis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Denis"
+      ]
+    },
+    {
+      "token_string": "onat",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Donat",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.600217016769513",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.06813873618249"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7781",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Donat",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.600217016769513",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.06813873618249"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7783",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Donat"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Donat"
+      ]
+    },
+    {
+      "token_string": "Anne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Sainte-Anne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8540649021531235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.25958977264478"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7789",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sainte-Anne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8540649021531235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.25958977264478"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7786",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sainte-Anne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sainte-Anne"
+      ]
+    },
+    {
+      "token_string": "Barbe",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Sainte-Barbe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8120968812081473",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.90126905809153"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7789",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sainte-Barbe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8120968812081473",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.90126905809153"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7787",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sainte-Barbe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sainte-Barbe"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7789",
+              "@type": "tree:Node",
+              "token_string": "-"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7790",
+              "@type": "tree:Node",
+              "token_string": " Brigide"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7811",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sainte-Anne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8540649021531235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.25958977264478"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sainte-Barbe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8120968812081473",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.90126905809153"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sainte Brigide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8866896749358606",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.53491959826089"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sainte-Marguerite",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8056880791601246",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25497455391151"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sainte-Odile",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2987169397796103",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.78031230370886"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment255.jsonld#7788",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sainte-Anne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sainte-Barbe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sainte Brigide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sainte-Marguerite"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sainte-Odile"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "-",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7786",
+              "@type": "tree:Node",
+              "token_string": "Anne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7787",
+              "@type": "tree:Node",
+              "token_string": "Barbe"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7791",
+              "@type": "tree:Node",
+              "token_string": "Marguerite"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7792",
+              "@type": "tree:Node",
+              "token_string": "Odile"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7788",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sainte-Anne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8540649021531235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.25958977264478"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sainte-Barbe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8120968812081473",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.90126905809153"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sainte-Marguerite",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8056880791601246",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25497455391151"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sainte-Odile",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2987169397796103",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.78031230370886"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment255.jsonld#7789",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sainte-Anne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sainte-Barbe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sainte-Marguerite"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sainte-Odile"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Brigide",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Sainte Brigide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8866896749358606",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.53491959826089"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7788",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sainte Brigide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8866896749358606",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.53491959826089"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7790",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sainte Brigide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sainte Brigide"
+      ]
+    },
+    {
+      "token_string": "Marguerite",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Sainte-Marguerite",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8056880791601246",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25497455391151"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7789",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sainte-Marguerite",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8056880791601246",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25497455391151"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7791",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sainte-Marguerite"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sainte-Marguerite"
+      ]
+    },
+    {
+      "token_string": "Odile",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Sainte-Odile",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2987169397796103",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.78031230370886"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7789",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sainte-Odile",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2987169397796103",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.78031230370886"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7792",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sainte-Odile"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sainte-Odile"
+      ]
+    },
+    {
+      "token_string": "Exupéry",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Exupéry",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.957731888924611",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43937382680629"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Exupéry",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.957731888924611",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43937382680629"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7793",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Exupéry"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Exupéry"
+      ]
+    },
+    {
+      "token_string": "Firmin des Prés",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Firmin des Prés",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.838190891113398",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.436893783975755"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Firmin des Prés",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.838190891113398",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.436893783975755"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7794",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Firmin des Prés"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Firmin des Prés"
+      ]
+    },
+    {
+      "token_string": "Hubert",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Hubert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1717586855384354",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.904454301064575"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Hubert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1717586855384354",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.904454301064575"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7795",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Hubert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Hubert"
+      ]
+    },
+    {
+      "token_string": "J",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7798",
+              "@type": "tree:Node",
+              "token_string": "acques"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7799",
+              "@type": "tree:Node",
+              "token_string": "ean"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Jacques",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.867171733457099",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.50590065525987"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Jean",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.86437876307917",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.52389885363511"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment255.jsonld#7797",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Jacques"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Jean"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "acques",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Jacques",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.867171733457099",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.50590065525987"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7797",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Jacques",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.867171733457099",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.50590065525987"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7798",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Jacques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Jacques"
+      ]
+    },
+    {
+      "token_string": "ean",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Jean",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.86437876307917",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.52389885363511"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7797",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Jean",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.86437876307917",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.52389885363511"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7799",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Jean"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Jean"
+      ]
+    },
+    {
+      "token_string": "Lambert",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Lambert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.201397100690514",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.69182119660055"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Lambert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.201397100690514",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.69182119660055"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7800",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Lambert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Lambert"
+      ]
+    },
+    {
+      "token_string": "Ma",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7803",
+              "@type": "tree:Node",
+              "token_string": "rtin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7804",
+              "@type": "tree:Node",
+              "token_string": "ur"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Martin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1552870967687117",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.07086813187662"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Maur",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4602437488333595",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.652226169410554"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment255.jsonld#7802",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Martin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Maur"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rtin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Martin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1552870967687117",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.07086813187662"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7802",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Martin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1552870967687117",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.07086813187662"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7803",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Martin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Martin"
+      ]
+    },
+    {
+      "token_string": "ur",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Maur",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4602437488333595",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.652226169410554"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7802",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Maur",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4602437488333595",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.652226169410554"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7804",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Maur"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Maur"
+      ]
+    },
+    {
+      "token_string": "Nicolas",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Nicolas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2881155214854614",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.22308279851798"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Nicolas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2881155214854614",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.22308279851798"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7805",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Nicolas"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Nicolas"
+      ]
+    },
+    {
+      "token_string": "Ouen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Ouen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.46710642840876",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.43878198256285"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Ouen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.46710642840876",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.43878198256285"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7806",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Ouen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Ouen"
+      ]
+    },
+    {
+      "token_string": "Paul",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Paul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9347886885203183",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.37904267832936"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Paul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9347886885203183",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.37904267832936"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7807",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Paul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Paul"
+      ]
+    },
+    {
+      "token_string": "Raboni",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Raboni",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8214068334808746",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.93864781945748"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Raboni",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8214068334808746",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.93864781945748"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7808",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Raboni"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Raboni"
+      ]
+    },
+    {
+      "token_string": "Valentin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Valentin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6559786950696953",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.41480393542353"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint-Valentin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6559786950696953",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.41480393542353"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7809",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Valentin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Valentin"
+      ]
+    },
+    {
+      "token_string": "int",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7775",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7778",
+              "@type": "tree:Node",
+              "token_string": "-"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7788",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7814",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint Aubin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.179050942950589",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.175734173851936"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Baussant",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6582310883172093",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35061197329178"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Brèyôd",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.977045038970209",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16697954727335"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint Christophe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.984011872419083",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5710695664951"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Denis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.187066385414441",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.09743468179323"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Donat",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.600217016769513",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.06813873618249"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Exupéry",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.957731888924611",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43937382680629"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Firmin des Prés",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.838190891113398",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.436893783975755"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Hubert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1717586855384354",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.904454301064575"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Jacques",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.867171733457099",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.50590065525987"
+        }
+      ],
+      "total_children_count": 32,
+      "@id": "streetsfragment255.jsonld#7811",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint Aubin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Baussant"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Brèyôd"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint Christophe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Denis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Donat"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Exupéry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Firmin des Prés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Hubert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Jacques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "turne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Saturne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.075282046019008",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29743165570659"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7814",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saturne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.075282046019008",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29743165570659"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7812",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saturne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saturne"
+      ]
+    },
+    {
+      "token_string": "S",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7814",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7815",
+              "@type": "tree:Node",
+              "token_string": "cieur-Lambot"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7816",
+              "@type": "tree:Node",
+              "token_string": "ergent Ratz"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7818",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7821",
+              "@type": "tree:Node",
+              "token_string": "ous-la-Ville"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7835",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment253.jsonld#7407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint Aubin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.179050942950589",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.175734173851936"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Baussant",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6582310883172093",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35061197329178"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Brèyôd",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.977045038970209",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16697954727335"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint Christophe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.984011872419083",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5710695664951"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Denis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.187066385414441",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.09743468179323"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Donat",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.600217016769513",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.06813873618249"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Exupéry",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.957731888924611",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43937382680629"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Firmin des Prés",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.838190891113398",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.436893783975755"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Hubert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1717586855384354",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.904454301064575"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Jacques",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.867171733457099",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.50590065525987"
+        }
+      ],
+      "total_children_count": 52,
+      "@id": "streetsfragment255.jsonld#7813",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint Aubin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Baussant"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Brèyôd"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint Christophe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Denis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Donat"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Exupéry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Firmin des Prés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Hubert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Jacques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7811",
+              "@type": "tree:Node",
+              "token_string": "int"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7812",
+              "@type": "tree:Node",
+              "token_string": "turne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Saint Aubin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.179050942950589",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.175734173851936"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Baussant",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6582310883172093",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35061197329178"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Brèyôd",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.977045038970209",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16697954727335"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint Christophe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.984011872419083",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5710695664951"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Denis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.187066385414441",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.09743468179323"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Donat",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.600217016769513",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.06813873618249"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Exupéry",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.957731888924611",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43937382680629"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Firmin des Prés",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.838190891113398",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.436893783975755"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Hubert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1717586855384354",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.904454301064575"
+        },
+        {
+          "http://example.com/terms#name": "Rue Saint-Jacques",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.867171733457099",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.50590065525987"
+        }
+      ],
+      "total_children_count": 34,
+      "@id": "streetsfragment255.jsonld#7814",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint Aubin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Baussant"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Brèyôd"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint Christophe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Denis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Donat"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Exupéry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Firmin des Prés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Hubert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Jacques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "cieur-Lambot",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Scieur-Lambot",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9655918005248894",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.6225529359428"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Scieur-Lambot",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9655918005248894",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.6225529359428"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7815",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Scieur-Lambot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Scieur-Lambot"
+      ]
+    },
+    {
+      "token_string": "ergent Ratz",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Sergent Ratz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.473649118122123",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.60607414697855"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sergent Ratz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.473649118122123",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.60607414697855"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7816",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sergent Ratz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sergent Ratz"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7819",
+              "@type": "tree:Node",
+              "token_string": "gebert de Gembloux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7820",
+              "@type": "tree:Node",
+              "token_string": "menon-Clos de l'Arboretum"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sigebert de Gembloux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.663043743359686",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44532439242114"
+        },
+        {
+          "http://example.com/terms#name": "Rue Simenon-Clos de l'Arboretum",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.899753762016987",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.26103017914865"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment255.jsonld#7818",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sigebert de Gembloux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Simenon-Clos de l'Arboretum"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "gebert de Gembloux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Sigebert de Gembloux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.663043743359686",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44532439242114"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7818",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sigebert de Gembloux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.663043743359686",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44532439242114"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7819",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sigebert de Gembloux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sigebert de Gembloux"
+      ]
+    },
+    {
+      "token_string": "menon-Clos de l'Arboretum",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Simenon-Clos de l'Arboretum",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.899753762016987",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.26103017914865"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7818",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Simenon-Clos de l'Arboretum",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.899753762016987",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.26103017914865"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7820",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Simenon-Clos de l'Arboretum"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Simenon-Clos de l'Arboretum"
+      ]
+    },
+    {
+      "token_string": "ous-la-Ville",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Sous-la-Ville",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.790728759089007",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.973866473569444"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sous-la-Ville",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.790728759089007",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.973866473569444"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7821",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sous-la-Ville"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sous-la-Ville"
+      ]
+    },
+    {
+      "token_string": "a Champagne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Sur la Champagne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5221091716113575",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.91080580570306"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7836",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sur la Champagne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5221091716113575",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.91080580570306"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7824",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur la Champagne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sur la Champagne"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7829",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7832",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7836",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sur le Mont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.873937923786589",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11566523088423"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sur les Champs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1996160945032925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.379010718679496"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sur les Monts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6055777552499713",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09922979208192"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sur le Thier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.515422578363759",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.983540972573806"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment255.jsonld#7826",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur le Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur les Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur les Monts"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur le Thier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7830",
+              "@type": "tree:Node",
+              "token_string": "Champs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7831",
+              "@type": "tree:Node",
+              "token_string": "Monts"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7826",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sur les Champs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1996160945032925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.379010718679496"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sur les Monts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6055777552499713",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09922979208192"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment255.jsonld#7829",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur les Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur les Monts"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Champs",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Sur les Champs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1996160945032925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.379010718679496"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7829",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sur les Champs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1996160945032925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.379010718679496"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7830",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur les Champs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sur les Champs"
+      ]
+    },
+    {
+      "token_string": "Monts",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Sur les Monts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6055777552499713",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09922979208192"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7829",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sur les Monts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6055777552499713",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09922979208192"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7831",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur les Monts"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sur les Monts"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7833",
+              "@type": "tree:Node",
+              "token_string": "Mont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7834",
+              "@type": "tree:Node",
+              "token_string": "Thier"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7826",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sur le Mont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.873937923786589",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11566523088423"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sur le Thier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.515422578363759",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.983540972573806"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment255.jsonld#7832",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur le Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur le Thier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Mont",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Sur le Mont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.873937923786589",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11566523088423"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7832",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sur le Mont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.873937923786589",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11566523088423"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7833",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur le Mont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sur le Mont"
+      ]
+    },
+    {
+      "token_string": "Thier",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Sur le Thier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.515422578363759",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.983540972573806"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7832",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sur le Thier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.515422578363759",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.983540972573806"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7834",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur le Thier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sur le Thier"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7836",
+              "@type": "tree:Node",
+              "token_string": "r l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7837",
+              "@type": "tree:Node",
+              "token_string": "zanne Grégoire"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sur la Champagne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5221091716113575",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.91080580570306"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sur le Mont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.873937923786589",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11566523088423"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sur les Champs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1996160945032925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.379010718679496"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sur les Monts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6055777552499713",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09922979208192"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sur le Thier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.515422578363759",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.983540972573806"
+        },
+        {
+          "http://example.com/terms#name": "Rue Suzanne Grégoire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6418863404003154",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.45734096497468"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "streetsfragment255.jsonld#7835",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur la Champagne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur le Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur les Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur les Monts"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur le Thier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Suzanne Grégoire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "r l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7824",
+              "@type": "tree:Node",
+              "token_string": "a Champagne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment255.jsonld#7826",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7835",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Sur la Champagne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5221091716113575",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.91080580570306"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sur le Mont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.873937923786589",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11566523088423"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sur les Champs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1996160945032925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.379010718679496"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sur les Monts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6055777552499713",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09922979208192"
+        },
+        {
+          "http://example.com/terms#name": "Rue Sur le Thier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.515422578363759",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.983540972573806"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "streetsfragment255.jsonld#7836",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur la Champagne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur le Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur les Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur les Monts"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur le Thier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "zanne Grégoire",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Suzanne Grégoire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6418863404003154",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.45734096497468"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment255.jsonld#7835",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Suzanne Grégoire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6418863404003154",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.45734096497468"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment255.jsonld#7837",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Suzanne Grégoire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Suzanne Grégoire"
+      ]
+    }
+  ]
+}

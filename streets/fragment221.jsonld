@@ -1,0 +1,1169 @@
+{
+  "root_node_id": "6687",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment221.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": " la Biche",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Fond de la Biche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4404481087970766",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.622588281310016"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment221.jsonld#6673",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Fond de la Biche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4404481087970766",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.622588281310016"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment221.jsonld#6663",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Fond de la Biche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Fond de la Biche"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment221.jsonld#6663",
+              "@type": "tree:Node",
+              "token_string": " la Biche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment219.jsonld#6668",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment221.jsonld#6679",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Fond de la Biche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4404481087970766",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.622588281310016"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Golettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.410962265145267",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65459215325088"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Gottes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9354916529117174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.70441877014458"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Herbes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.648649427427895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.693851381810504"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Roux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7896649710721895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.84825466824916"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "streetsfragment221.jsonld#6673",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Fond de la Biche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Golettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Gottes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Herbes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Roux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment221.jsonld#6676",
+              "@type": "tree:Node",
+              "token_string": "Flo"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment221.jsonld#6677",
+              "@type": "tree:Node",
+              "token_string": "Val"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment221.jsonld#6679",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Fond du Flo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4025095230298525",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.097032970504884"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond du Val",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7731051046493986",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.996461840157"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment221.jsonld#6675",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Fond du Flo"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond du Val"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Flo",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Fond du Flo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4025095230298525",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.097032970504884"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment221.jsonld#6675",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Fond du Flo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4025095230298525",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.097032970504884"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment221.jsonld#6676",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Fond du Flo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Fond du Flo"
+      ]
+    },
+    {
+      "token_string": "Val",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Fond du Val",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7731051046493986",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.996461840157"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment221.jsonld#6675",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Fond du Val",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7731051046493986",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.996461840157"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment221.jsonld#6677",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Fond du Val"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Fond du Val"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment221.jsonld#6673",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment221.jsonld#6675",
+              "@type": "tree:Node",
+              "token_string": "u "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment221.jsonld#6682",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Fond de la Biche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4404481087970766",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.622588281310016"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Golettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.410962265145267",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65459215325088"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Gottes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9354916529117174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.70441877014458"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Herbes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.648649427427895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.693851381810504"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Roux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7896649710721895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.84825466824916"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond du Flo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4025095230298525",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.097032970504884"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond du Val",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7731051046493986",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.996461840157"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "streetsfragment221.jsonld#6679",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Fond de la Biche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Golettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Gottes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Herbes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Roux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond du Flo"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond du Val"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Jamin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Fond Jamin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.461248610335732",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.414971385760126"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment221.jsonld#6682",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Fond Jamin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.461248610335732",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.414971385760126"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment221.jsonld#6680",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Fond Jamin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Fond Jamin"
+      ]
+    },
+    {
+      "token_string": "d ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment221.jsonld#6679",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment221.jsonld#6680",
+              "@type": "tree:Node",
+              "token_string": "Jamin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment221.jsonld#6688",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Fond de la Biche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4404481087970766",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.622588281310016"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Golettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.410962265145267",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65459215325088"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Gottes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9354916529117174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.70441877014458"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Herbes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.648649427427895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.693851381810504"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Roux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7896649710721895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.84825466824916"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond du Flo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4025095230298525",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.097032970504884"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond du Val",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7731051046493986",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.996461840157"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond Jamin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.461248610335732",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.414971385760126"
+        }
+      ],
+      "total_children_count": 13,
+      "@id": "streetsfragment221.jsonld#6682",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Fond de la Biche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Golettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Gottes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Herbes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Roux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond du Flo"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond du Val"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond Jamin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "t",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment221.jsonld#6685",
+              "@type": "tree:Node",
+              "token_string": "ainier"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment221.jsonld#6686",
+              "@type": "tree:Node",
+              "token_string": "eny"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment221.jsonld#6688",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Fontainier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6090202797448128",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.04451178565296"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fonteny",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3540355106086306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.22487796056549"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment221.jsonld#6684",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Fontainier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fonteny"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ainier",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Fontainier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6090202797448128",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.04451178565296"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment221.jsonld#6684",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Fontainier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6090202797448128",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.04451178565296"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment221.jsonld#6685",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Fontainier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Fontainier"
+      ]
+    },
+    {
+      "token_string": "eny",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Fonteny",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3540355106086306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.22487796056549"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment221.jsonld#6684",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Fonteny",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3540355106086306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.22487796056549"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment221.jsonld#6686",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Fonteny"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Fonteny"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment221.jsonld#6688",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment220.jsonld#6689",
+              "@type": "tree:Node",
+              "token_string": "rt"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment221.jsonld#6692",
+              "@type": "tree:Node",
+              "token_string": "ur"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment221.jsonld#6695",
+              "@type": "tree:Node",
+              "token_string": "yer"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment232.jsonld#6657",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Fond de la Biche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4404481087970766",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.622588281310016"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Golettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.410962265145267",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65459215325088"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Gottes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9354916529117174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.70441877014458"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Herbes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.648649427427895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.693851381810504"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Roux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7896649710721895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.84825466824916"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond du Flo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4025095230298525",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.097032970504884"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond du Val",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7731051046493986",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.996461840157"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond Jamin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.461248610335732",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.414971385760126"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fontainier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6090202797448128",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.04451178565296"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fonteny",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3540355106086306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.22487796056549"
+        }
+      ],
+      "total_children_count": 24,
+      "@id": "streetsfragment221.jsonld#6687",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Fond de la Biche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Golettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Gottes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Herbes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Roux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond du Flo"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond du Val"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond Jamin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fontainier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fonteny"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment221.jsonld#6682",
+              "@type": "tree:Node",
+              "token_string": "d "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment221.jsonld#6684",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment221.jsonld#6687",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Fond de la Biche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4404481087970766",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.622588281310016"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Golettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.410962265145267",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65459215325088"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Gottes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9354916529117174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.70441877014458"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Herbes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.648649427427895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.693851381810504"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond des Roux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7896649710721895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.84825466824916"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond du Flo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4025095230298525",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.097032970504884"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond du Val",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7731051046493986",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.996461840157"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fond Jamin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.461248610335732",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.414971385760126"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fontainier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6090202797448128",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.04451178565296"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fonteny",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3540355106086306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.22487796056549"
+        }
+      ],
+      "total_children_count": 17,
+      "@id": "streetsfragment221.jsonld#6688",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Fond de la Biche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Golettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Gottes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Herbes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond des Roux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond du Flo"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond du Val"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fond Jamin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fontainier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fonteny"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ur",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment221.jsonld#6693",
+              "@type": "tree:Node",
+              "token_string": " Banal"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment221.jsonld#6694",
+              "@type": "tree:Node",
+              "token_string": "nil"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment221.jsonld#6687",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Four Banal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5833857218779053",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.40128243539087"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Fournil",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.981861402634364",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.60760843105822"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment221.jsonld#6692",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Four Banal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Fournil"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Banal",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Four Banal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5833857218779053",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.40128243539087"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment221.jsonld#6692",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Four Banal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5833857218779053",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.40128243539087"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment221.jsonld#6693",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Four Banal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Four Banal"
+      ]
+    },
+    {
+      "token_string": "nil",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Fournil",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.981861402634364",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.60760843105822"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment221.jsonld#6692",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Fournil",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.981861402634364",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.60760843105822"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment221.jsonld#6694",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Fournil"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Fournil"
+      ]
+    },
+    {
+      "token_string": "yer",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Foyer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.826894518845377",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.671842107618964"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment221.jsonld#6687",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Foyer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.826894518845377",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.671842107618964"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment221.jsonld#6695",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Foyer"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Foyer"
+      ]
+    }
+  ]
+}

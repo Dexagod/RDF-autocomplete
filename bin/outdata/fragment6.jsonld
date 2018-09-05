@@ -1,0 +1,4490 @@
+{
+  "root_node_id": "229",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment6.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "desberg",
+      "triples": [
+        {
+          "streetname": "Am Adesberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#193",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Adesberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#190",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Adesberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Adesberg"
+      ]
+    },
+    {
+      "token_string": "llerberg",
+      "triples": [
+        {
+          "streetname": "Am Allerberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#193",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Allerberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#191",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Allerberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Allerberg"
+      ]
+    },
+    {
+      "token_string": "A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#190",
+              "@type": "tree:Node",
+              "token_string": "desberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#191",
+              "@type": "tree:Node",
+              "token_string": "llerberg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Adesberg"
+        },
+        {
+          "streetname": "Am Allerberg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment6.jsonld#193",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Adesberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Allerberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ch",
+      "triples": [
+        {
+          "streetname": "Am Bach"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#202",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Bach"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#196",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Bach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Bach"
+      ]
+    },
+    {
+      "token_string": "hn",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#199",
+              "@type": "tree:Node",
+              "token_string": "damm"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#200",
+              "@type": "tree:Node",
+              "token_string": "hof"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#202",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Bahndamm"
+        },
+        {
+          "streetname": "Am Bahnhof"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment6.jsonld#198",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Bahndamm"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Bahnhof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "damm",
+      "triples": [
+        {
+          "streetname": "Am Bahndamm"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#198",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Bahndamm"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#199",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Bahndamm"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Bahndamm"
+      ]
+    },
+    {
+      "token_string": "hof",
+      "triples": [
+        {
+          "streetname": "Am Bahnhof"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#198",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Bahnhof"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#200",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Bahnhof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Bahnhof"
+      ]
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#202",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#204",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#208",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#212",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#215",
+              "@type": "tree:Node",
+              "token_string": "üchel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#217",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Bach"
+        },
+        {
+          "streetname": "Am Bahndamm"
+        },
+        {
+          "streetname": "Am Bahnhof"
+        },
+        {
+          "streetname": "Am Bennet"
+        },
+        {
+          "streetname": "Am Berg"
+        },
+        {
+          "streetname": "Am Bommert"
+        },
+        {
+          "streetname": "Am Born"
+        },
+        {
+          "streetname": "Am Breitenbach"
+        },
+        {
+          "streetname": "Am Brunnen"
+        },
+        {
+          "streetname": "Am Burgwall"
+        }
+      ],
+      "total_children_count": 18,
+      "@id": "fragment6.jsonld#201",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Bach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Bahndamm"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Bahnhof"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Bennet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Berg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Bommert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Born"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Breitenbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Brunnen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Burgwall"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#196",
+              "@type": "tree:Node",
+              "token_string": "ch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#198",
+              "@type": "tree:Node",
+              "token_string": "hn"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#201",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Bach"
+        },
+        {
+          "streetname": "Am Bahndamm"
+        },
+        {
+          "streetname": "Am Bahnhof"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment6.jsonld#202",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Bach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Bahndamm"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Bahnhof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#205",
+              "@type": "tree:Node",
+              "token_string": "nnet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#206",
+              "@type": "tree:Node",
+              "token_string": "rg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#201",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Bennet"
+        },
+        {
+          "streetname": "Am Berg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment6.jsonld#204",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Bennet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Berg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "nnet",
+      "triples": [
+        {
+          "streetname": "Am Bennet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#204",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Bennet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#205",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Bennet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Bennet"
+      ]
+    },
+    {
+      "token_string": "rg",
+      "triples": [
+        {
+          "streetname": "Am Berg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#204",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Berg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#206",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Berg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Berg"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#209",
+              "@type": "tree:Node",
+              "token_string": "mmert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#210",
+              "@type": "tree:Node",
+              "token_string": "rn"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#201",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Bommert"
+        },
+        {
+          "streetname": "Am Born"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment6.jsonld#208",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Bommert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Born"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "mmert",
+      "triples": [
+        {
+          "streetname": "Am Bommert"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#208",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Bommert"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#209",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Bommert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Bommert"
+      ]
+    },
+    {
+      "token_string": "rn",
+      "triples": [
+        {
+          "streetname": "Am Born"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#208",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Born"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#210",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Born"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Born"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#213",
+              "@type": "tree:Node",
+              "token_string": "eitenbach"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#214",
+              "@type": "tree:Node",
+              "token_string": "unnen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#201",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Breitenbach"
+        },
+        {
+          "streetname": "Am Brunnen"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment6.jsonld#212",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Breitenbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Brunnen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eitenbach",
+      "triples": [
+        {
+          "streetname": "Am Breitenbach"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#212",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Breitenbach"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#213",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Breitenbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Breitenbach"
+      ]
+    },
+    {
+      "token_string": "unnen",
+      "triples": [
+        {
+          "streetname": "Am Brunnen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#212",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Brunnen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#214",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Brunnen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Brunnen"
+      ]
+    },
+    {
+      "token_string": "üchel",
+      "triples": [
+        {
+          "streetname": "Am Büchel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#201",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Büchel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#215",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Büchel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Büchel"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#218",
+              "@type": "tree:Node",
+              "token_string": "rgwall"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#219",
+              "@type": "tree:Node",
+              "token_string": "sch"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#201",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Burgwall"
+        },
+        {
+          "streetname": "Am Busch"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment6.jsonld#217",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Burgwall"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Busch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rgwall",
+      "triples": [
+        {
+          "streetname": "Am Burgwall"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#217",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Burgwall"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#218",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Burgwall"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Burgwall"
+      ]
+    },
+    {
+      "token_string": "sch",
+      "triples": [
+        {
+          "streetname": "Am Busch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#217",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Busch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#219",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Busch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Busch"
+      ]
+    },
+    {
+      "token_string": "mp",
+      "triples": [
+        {
+          "streetname": "Am Domp"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#225",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Domp"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#222",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Domp"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Domp"
+      ]
+    },
+    {
+      "token_string": "rnenbusch",
+      "triples": [
+        {
+          "streetname": "Am Dornenbusch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#225",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Dornenbusch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#223",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Dornenbusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Dornenbusch"
+      ]
+    },
+    {
+      "token_string": "D",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#225",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#226",
+              "@type": "tree:Node",
+              "token_string": "riesch"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Domp"
+        },
+        {
+          "streetname": "Am Dornenbusch"
+        },
+        {
+          "streetname": "Am Driesch"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment6.jsonld#224",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Domp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Dornenbusch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Driesch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#222",
+              "@type": "tree:Node",
+              "token_string": "mp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#223",
+              "@type": "tree:Node",
+              "token_string": "rnenbusch"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#224",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Domp"
+        },
+        {
+          "streetname": "Am Dornenbusch"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment6.jsonld#225",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Domp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Dornenbusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "riesch",
+      "triples": [
+        {
+          "streetname": "Am Driesch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#224",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Driesch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#226",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Driesch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Driesch"
+      ]
+    },
+    {
+      "token_string": "Eischbaum",
+      "triples": [
+        {
+          "streetname": "Am Eischbaum"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Eischbaum"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#227",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Eischbaum"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Eischbaum"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#193",
+              "@type": "tree:Node",
+              "token_string": "A"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#201",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#224",
+              "@type": "tree:Node",
+              "token_string": "D"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#227",
+              "@type": "tree:Node",
+              "token_string": "Eischbaum"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#235",
+              "@type": "tree:Node",
+              "token_string": "F"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#239",
+              "@type": "tree:Node",
+              "token_string": "Giesebruch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#247",
+              "@type": "tree:Node",
+              "token_string": "hohen Berg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment4.jsonld#248",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#256",
+              "@type": "tree:Node",
+              "token_string": "Jöstrich"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment5.jsonld#263",
+              "@type": "tree:Node",
+              "token_string": "K"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#276",
+              "@type": "tree:Node",
+              "token_string": "Linebach"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#278",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#285",
+              "@type": "tree:Node",
+              "token_string": "Neugarten"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#286",
+              "@type": "tree:Node",
+              "token_string": "Ochshof"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#289",
+              "@type": "tree:Node",
+              "token_string": "P"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#294",
+              "@type": "tree:Node",
+              "token_string": "R"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#299",
+              "@type": "tree:Node",
+              "token_string": "S"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#313",
+              "@type": "tree:Node",
+              "token_string": "T"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#320",
+              "@type": "tree:Node",
+              "token_string": "V"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#327",
+              "@type": "tree:Node",
+              "token_string": "W"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment1.jsonld#228",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Adesberg"
+        },
+        {
+          "streetname": "Am Allerberg"
+        },
+        {
+          "streetname": "Am Bach"
+        },
+        {
+          "streetname": "Am Bahndamm"
+        },
+        {
+          "streetname": "Am Bahnhof"
+        },
+        {
+          "streetname": "Am Bennet"
+        },
+        {
+          "streetname": "Am Berg"
+        },
+        {
+          "streetname": "Am Bommert"
+        },
+        {
+          "streetname": "Am Born"
+        },
+        {
+          "streetname": "Am Breitenbach"
+        }
+      ],
+      "total_children_count": 119,
+      "@id": "fragment6.jsonld#229",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Adesberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Allerberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Bach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Bahndamm"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Bahnhof"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Bennet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Berg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Bommert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Born"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Breitenbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "F",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#236",
+              "@type": "tree:Node",
+              "token_string": "els"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#237",
+              "@type": "tree:Node",
+              "token_string": "lachsberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#238",
+              "@type": "tree:Node",
+              "token_string": "reudenstein"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Fels"
+        },
+        {
+          "streetname": "Am Flachsberg"
+        },
+        {
+          "streetname": "Am Freudenstein"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment6.jsonld#235",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Fels"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Flachsberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Freudenstein"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "els",
+      "triples": [
+        {
+          "streetname": "Am Fels"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#235",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Fels"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#236",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Fels"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Fels"
+      ]
+    },
+    {
+      "token_string": "lachsberg",
+      "triples": [
+        {
+          "streetname": "Am Flachsberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#235",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Flachsberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#237",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Flachsberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Flachsberg"
+      ]
+    },
+    {
+      "token_string": "reudenstein",
+      "triples": [
+        {
+          "streetname": "Am Freudenstein"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#235",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Freudenstein"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#238",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Freudenstein"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Freudenstein"
+      ]
+    },
+    {
+      "token_string": "Giesebruch",
+      "triples": [
+        {
+          "streetname": "Am Giesebruch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Giesebruch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#239",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Giesebruch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Giesebruch"
+      ]
+    },
+    {
+      "token_string": "hohen Berg",
+      "triples": [
+        {
+          "streetname": "Am hohen Berg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am hohen Berg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#247",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am hohen Berg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am hohen Berg"
+      ]
+    },
+    {
+      "token_string": "Jöstrich",
+      "triples": [
+        {
+          "streetname": "Am Jöstrich"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Jöstrich"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#256",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Jöstrich"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Jöstrich"
+      ]
+    },
+    {
+      "token_string": "Linebach",
+      "triples": [
+        {
+          "streetname": "Am Linebach"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Linebach"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#276",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Linebach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Linebach"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#279",
+              "@type": "tree:Node",
+              "token_string": "arktplatz"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#280",
+              "@type": "tree:Node",
+              "token_string": "ollberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#282",
+              "@type": "tree:Node",
+              "token_string": "ühl"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Marktplatz"
+        },
+        {
+          "streetname": "Am Mollberg"
+        },
+        {
+          "streetname": "Am Mühlenberg"
+        },
+        {
+          "streetname": "Am Mühlstein"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment6.jsonld#278",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Marktplatz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Mollberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Mühlenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Mühlstein"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "arktplatz",
+      "triples": [
+        {
+          "streetname": "Am Marktplatz"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#278",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Marktplatz"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#279",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Marktplatz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Marktplatz"
+      ]
+    },
+    {
+      "token_string": "ollberg",
+      "triples": [
+        {
+          "streetname": "Am Mollberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#278",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Mollberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#280",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Mollberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Mollberg"
+      ]
+    },
+    {
+      "token_string": "ühl",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#283",
+              "@type": "tree:Node",
+              "token_string": "enberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#284",
+              "@type": "tree:Node",
+              "token_string": "stein"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#278",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Mühlenberg"
+        },
+        {
+          "streetname": "Am Mühlstein"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment6.jsonld#282",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Mühlenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Mühlstein"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "enberg",
+      "triples": [
+        {
+          "streetname": "Am Mühlenberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Mühlenberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#283",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Mühlenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Mühlenberg"
+      ]
+    },
+    {
+      "token_string": "stein",
+      "triples": [
+        {
+          "streetname": "Am Mühlstein"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Mühlstein"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#284",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Mühlstein"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Mühlstein"
+      ]
+    },
+    {
+      "token_string": "Neugarten",
+      "triples": [
+        {
+          "streetname": "Am Neugarten"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Neugarten"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#285",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Neugarten"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Neugarten"
+      ]
+    },
+    {
+      "token_string": "Ochshof",
+      "triples": [
+        {
+          "streetname": "Am Ochshof"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Ochshof"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#286",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Ochshof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Ochshof"
+      ]
+    },
+    {
+      "token_string": "P",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#290",
+              "@type": "tree:Node",
+              "token_string": "äsch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#291",
+              "@type": "tree:Node",
+              "token_string": "eisch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#292",
+              "@type": "tree:Node",
+              "token_string": "lei"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Päsch"
+        },
+        {
+          "streetname": "Am Peisch"
+        },
+        {
+          "streetname": "Am Plei"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment6.jsonld#289",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Päsch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Peisch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Plei"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "äsch",
+      "triples": [
+        {
+          "streetname": "Am Päsch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#289",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Päsch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#290",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Päsch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Päsch"
+      ]
+    },
+    {
+      "token_string": "eisch",
+      "triples": [
+        {
+          "streetname": "Am Peisch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#289",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Peisch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#291",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Peisch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Peisch"
+      ]
+    },
+    {
+      "token_string": "lei",
+      "triples": [
+        {
+          "streetname": "Am Plei"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#289",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Plei"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#292",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Plei"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Plei"
+      ]
+    },
+    {
+      "token_string": "R",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#295",
+              "@type": "tree:Node",
+              "token_string": "anzelborn"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#296",
+              "@type": "tree:Node",
+              "token_string": "ömerweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#297",
+              "@type": "tree:Node",
+              "token_string": "urbusch"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Ranzelborn"
+        },
+        {
+          "streetname": "Am Römerweg"
+        },
+        {
+          "streetname": "Am Rurbusch"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment6.jsonld#294",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Ranzelborn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Römerweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Rurbusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "anzelborn",
+      "triples": [
+        {
+          "streetname": "Am Ranzelborn"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#294",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Ranzelborn"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#295",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Ranzelborn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Ranzelborn"
+      ]
+    },
+    {
+      "token_string": "ömerweg",
+      "triples": [
+        {
+          "streetname": "Am Römerweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#294",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Römerweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#296",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Römerweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Römerweg"
+      ]
+    },
+    {
+      "token_string": "urbusch",
+      "triples": [
+        {
+          "streetname": "Am Rurbusch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#294",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Rurbusch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#297",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Rurbusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Rurbusch"
+      ]
+    },
+    {
+      "token_string": "S",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#300",
+              "@type": "tree:Node",
+              "token_string": "chwarzbach"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#301",
+              "@type": "tree:Node",
+              "token_string": "idders"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#302",
+              "@type": "tree:Node",
+              "token_string": "onnenhang"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#303",
+              "@type": "tree:Node",
+              "token_string": "pielplatz"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#309",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Schwarzbach"
+        },
+        {
+          "streetname": "Am Sidders"
+        },
+        {
+          "streetname": "Am Sonnenhang"
+        },
+        {
+          "streetname": "Am Spielplatz"
+        },
+        {
+          "streetname": "Am Stein"
+        },
+        {
+          "streetname": "Am Steinbruch"
+        },
+        {
+          "streetname": "Am Stellwerk"
+        },
+        {
+          "streetname": "Am Struck"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "fragment6.jsonld#299",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Schwarzbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Sidders"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Sonnenhang"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Spielplatz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Stein"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Steinbruch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Stellwerk"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Struck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "chwarzbach",
+      "triples": [
+        {
+          "streetname": "Am Schwarzbach"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#299",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Schwarzbach"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#300",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Schwarzbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Schwarzbach"
+      ]
+    },
+    {
+      "token_string": "idders",
+      "triples": [
+        {
+          "streetname": "Am Sidders"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#299",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Sidders"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#301",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Sidders"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Sidders"
+      ]
+    },
+    {
+      "token_string": "onnenhang",
+      "triples": [
+        {
+          "streetname": "Am Sonnenhang"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#299",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Sonnenhang"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#302",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Sonnenhang"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Sonnenhang"
+      ]
+    },
+    {
+      "token_string": "pielplatz",
+      "triples": [
+        {
+          "streetname": "Am Spielplatz"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#299",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Spielplatz"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#303",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Spielplatz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Spielplatz"
+      ]
+    },
+    {
+      "token_string": "bruch",
+      "triples": [
+        {
+          "streetname": "Am Steinbruch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#307",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Steinbruch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#305",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Steinbruch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Steinbruch"
+      ]
+    },
+    {
+      "token_string": "in",
+      "triples": [
+        {
+          "streetname": "Am Stein"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#305",
+              "@type": "tree:Node",
+              "token_string": "bruch"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#310",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Stein"
+        },
+        {
+          "streetname": "Am Steinbruch"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "fragment6.jsonld#307",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Stein"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Steinbruch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Stein"
+      ]
+    },
+    {
+      "token_string": "llwerk",
+      "triples": [
+        {
+          "streetname": "Am Stellwerk"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#310",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Stellwerk"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#308",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Stellwerk"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Stellwerk"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#310",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#311",
+              "@type": "tree:Node",
+              "token_string": "ruck"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#299",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Stein"
+        },
+        {
+          "streetname": "Am Steinbruch"
+        },
+        {
+          "streetname": "Am Stellwerk"
+        },
+        {
+          "streetname": "Am Struck"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment6.jsonld#309",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Stein"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Steinbruch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Stellwerk"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Struck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#307",
+              "@type": "tree:Node",
+              "token_string": "in"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#308",
+              "@type": "tree:Node",
+              "token_string": "llwerk"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#309",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Stein"
+        },
+        {
+          "streetname": "Am Steinbruch"
+        },
+        {
+          "streetname": "Am Stellwerk"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment6.jsonld#310",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Stein"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Steinbruch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Stellwerk"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ruck",
+      "triples": [
+        {
+          "streetname": "Am Struck"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#309",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Struck"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#311",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Struck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Struck"
+      ]
+    },
+    {
+      "token_string": "T",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#314",
+              "@type": "tree:Node",
+              "token_string": "rog"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#316",
+              "@type": "tree:Node",
+              "token_string": "ü"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Trog"
+        },
+        {
+          "streetname": "Am Tüljebach"
+        },
+        {
+          "streetname": "Am Tümpel"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment6.jsonld#313",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Trog"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Tüljebach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Tümpel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rog",
+      "triples": [
+        {
+          "streetname": "Am Trog"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#313",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Trog"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#314",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Trog"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Trog"
+      ]
+    },
+    {
+      "token_string": "ü",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#317",
+              "@type": "tree:Node",
+              "token_string": "ljebach"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#318",
+              "@type": "tree:Node",
+              "token_string": "mpel"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#313",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Tüljebach"
+        },
+        {
+          "streetname": "Am Tümpel"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment6.jsonld#316",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Tüljebach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Tümpel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ljebach",
+      "triples": [
+        {
+          "streetname": "Am Tüljebach"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#316",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Tüljebach"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#317",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Tüljebach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Tüljebach"
+      ]
+    },
+    {
+      "token_string": "mpel",
+      "triples": [
+        {
+          "streetname": "Am Tümpel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#316",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Tümpel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#318",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Tümpel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Tümpel"
+      ]
+    },
+    {
+      "token_string": "V",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#321",
+              "@type": "tree:Node",
+              "token_string": "enn"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#322",
+              "@type": "tree:Node",
+              "token_string": "lohs"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Venn"
+        },
+        {
+          "streetname": "Am Vlohs"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment6.jsonld#320",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Venn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Vlohs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "enn",
+      "triples": [
+        {
+          "streetname": "Am Venn"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#320",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Venn"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#321",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Venn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Venn"
+      ]
+    },
+    {
+      "token_string": "lohs",
+      "triples": [
+        {
+          "streetname": "Am Vlohs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#320",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Vlohs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#322",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Vlohs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Vlohs"
+      ]
+    },
+    {
+      "token_string": "isenbüschchen",
+      "triples": [
+        {
+          "streetname": "Am Waisenbüschchen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#328",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Waisenbüschchen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#325",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Waisenbüschchen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Waisenbüschchen"
+      ]
+    },
+    {
+      "token_string": "sen",
+      "triples": [
+        {
+          "streetname": "Am Wasen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#328",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Wasen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#326",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Wasen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Wasen"
+      ]
+    },
+    {
+      "token_string": "W",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#328",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#330",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#342",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#350",
+              "@type": "tree:Node",
+              "token_string": "olfs"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#229",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Waisenbüschchen"
+        },
+        {
+          "streetname": "Am Wasen"
+        },
+        {
+          "streetname": "Am Weberbach"
+        },
+        {
+          "streetname": "Am Weidenbruch"
+        },
+        {
+          "streetname": "Am Weiherchen"
+        },
+        {
+          "streetname": "Am Weiherhof"
+        },
+        {
+          "streetname": "Am Weinberg"
+        },
+        {
+          "streetname": "Am Werels"
+        },
+        {
+          "streetname": "Am Wiesengrund"
+        },
+        {
+          "streetname": "Am Winkel"
+        }
+      ],
+      "total_children_count": 21,
+      "@id": "fragment6.jsonld#327",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Waisenbüschchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Wasen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Weberbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Weidenbruch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Weiherchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Weiherhof"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Weinberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Werels"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Wiesengrund"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Winkel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#325",
+              "@type": "tree:Node",
+              "token_string": "isenbüschchen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#326",
+              "@type": "tree:Node",
+              "token_string": "sen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#327",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Waisenbüschchen"
+        },
+        {
+          "streetname": "Am Wasen"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment6.jsonld#328",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Waisenbüschchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Wasen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#331",
+              "@type": "tree:Node",
+              "token_string": "berbach"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#333",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#340",
+              "@type": "tree:Node",
+              "token_string": "rels"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#327",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Weberbach"
+        },
+        {
+          "streetname": "Am Weidenbruch"
+        },
+        {
+          "streetname": "Am Weiherchen"
+        },
+        {
+          "streetname": "Am Weiherhof"
+        },
+        {
+          "streetname": "Am Weinberg"
+        },
+        {
+          "streetname": "Am Werels"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment6.jsonld#330",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Weberbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Weidenbruch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Weiherchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Weiherhof"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Weinberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Werels"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "berbach",
+      "triples": [
+        {
+          "streetname": "Am Weberbach"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#330",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Weberbach"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#331",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Weberbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Weberbach"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#334",
+              "@type": "tree:Node",
+              "token_string": "denbruch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#336",
+              "@type": "tree:Node",
+              "token_string": "her"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#339",
+              "@type": "tree:Node",
+              "token_string": "nberg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#330",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Weidenbruch"
+        },
+        {
+          "streetname": "Am Weiherchen"
+        },
+        {
+          "streetname": "Am Weiherhof"
+        },
+        {
+          "streetname": "Am Weinberg"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment6.jsonld#333",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Weidenbruch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Weiherchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Weiherhof"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Weinberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "denbruch",
+      "triples": [
+        {
+          "streetname": "Am Weidenbruch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#333",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Weidenbruch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#334",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Weidenbruch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Weidenbruch"
+      ]
+    },
+    {
+      "token_string": "her",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#337",
+              "@type": "tree:Node",
+              "token_string": "chen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#338",
+              "@type": "tree:Node",
+              "token_string": "hof"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#333",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Weiherchen"
+        },
+        {
+          "streetname": "Am Weiherhof"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment6.jsonld#336",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Weiherchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Weiherhof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "chen",
+      "triples": [
+        {
+          "streetname": "Am Weiherchen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#336",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Weiherchen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#337",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Weiherchen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Weiherchen"
+      ]
+    },
+    {
+      "token_string": "hof",
+      "triples": [
+        {
+          "streetname": "Am Weiherhof"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#336",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Weiherhof"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#338",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Weiherhof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Weiherhof"
+      ]
+    },
+    {
+      "token_string": "nberg",
+      "triples": [
+        {
+          "streetname": "Am Weinberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#333",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Weinberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#339",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Weinberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Weinberg"
+      ]
+    },
+    {
+      "token_string": "rels",
+      "triples": [
+        {
+          "streetname": "Am Werels"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#330",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Werels"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#340",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Werels"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Werels"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#343",
+              "@type": "tree:Node",
+              "token_string": "esengrund"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#345",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#348",
+              "@type": "tree:Node",
+              "token_string": "ttumhof"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#327",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Wiesengrund"
+        },
+        {
+          "streetname": "Am Winkel"
+        },
+        {
+          "streetname": "Am Winterborn"
+        },
+        {
+          "streetname": "Am Wittumhof"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment6.jsonld#342",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Wiesengrund"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Winkel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Winterborn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Wittumhof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "esengrund",
+      "triples": [
+        {
+          "streetname": "Am Wiesengrund"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#342",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Wiesengrund"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#343",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Wiesengrund"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Wiesengrund"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#346",
+              "@type": "tree:Node",
+              "token_string": "kel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#347",
+              "@type": "tree:Node",
+              "token_string": "terborn"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#342",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Winkel"
+        },
+        {
+          "streetname": "Am Winterborn"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment6.jsonld#345",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Winkel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Winterborn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "kel",
+      "triples": [
+        {
+          "streetname": "Am Winkel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#345",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Winkel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#346",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Winkel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Winkel"
+      ]
+    },
+    {
+      "token_string": "terborn",
+      "triples": [
+        {
+          "streetname": "Am Winterborn"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#345",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Winterborn"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#347",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Winterborn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Winterborn"
+      ]
+    },
+    {
+      "token_string": "ttumhof",
+      "triples": [
+        {
+          "streetname": "Am Wittumhof"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#342",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Wittumhof"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#348",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Wittumhof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Wittumhof"
+      ]
+    },
+    {
+      "token_string": "olfs",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#351",
+              "@type": "tree:Node",
+              "token_string": "busch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment6.jsonld#352",
+              "@type": "tree:Node",
+              "token_string": "hof"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#327",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Wolfsbusch"
+        },
+        {
+          "streetname": "Am Wolfshof"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment6.jsonld#350",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Wolfsbusch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Am Wolfshof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "busch",
+      "triples": [
+        {
+          "streetname": "Am Wolfsbusch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#350",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Wolfsbusch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#351",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Wolfsbusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Wolfsbusch"
+      ]
+    },
+    {
+      "token_string": "hof",
+      "triples": [
+        {
+          "streetname": "Am Wolfshof"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment6.jsonld#350",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Am Wolfshof"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment6.jsonld#352",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Am Wolfshof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Am Wolfshof"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1920 @@
+{
+  "root_node_id": "4534",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment146.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Arthur Rimbaud",
+      "triples": [
+        {
+          "streetname": "Quai Arthur Rimbaud"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4515",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quai Arthur Rimbaud"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4497",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quai Arthur Rimbaud"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quai Arthur Rimbaud"
+      ]
+    },
+    {
+      "token_string": "a Batte",
+      "triples": [
+        {
+          "streetname": "Quai de la Batte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4506",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quai de la Batte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4500",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quai de la Batte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quai de la Batte"
+      ]
+    },
+    {
+      "token_string": "'",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4503",
+              "@type": "tree:Node",
+              "token_string": "Île Quaden"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4504",
+              "@type": "tree:Node",
+              "token_string": "Innovation"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4506",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quai de l'Île Quaden"
+        },
+        {
+          "streetname": "Quai de l'Innovation"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment146.jsonld#4502",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quai de l'Île Quaden"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai de l'Innovation"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Île Quaden",
+      "triples": [
+        {
+          "streetname": "Quai de l'Île Quaden"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4502",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quai de l'Île Quaden"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4503",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quai de l'Île Quaden"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quai de l'Île Quaden"
+      ]
+    },
+    {
+      "token_string": "Innovation",
+      "triples": [
+        {
+          "streetname": "Quai de l'Innovation"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4502",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quai de l'Innovation"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4504",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quai de l'Innovation"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quai de l'Innovation"
+      ]
+    },
+    {
+      "token_string": " l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4500",
+              "@type": "tree:Node",
+              "token_string": "a Batte"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4502",
+              "@type": "tree:Node",
+              "token_string": "'"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4509",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quai de la Batte"
+        },
+        {
+          "streetname": "Quai de l'Île Quaden"
+        },
+        {
+          "streetname": "Quai de l'Innovation"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment146.jsonld#4506",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quai de la Batte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai de l'Île Quaden"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai de l'Innovation"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "s Chasseurs Ardennais",
+      "triples": [
+        {
+          "streetname": "Quai des Chasseurs Ardennais"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4509",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quai des Chasseurs Ardennais"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4507",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quai des Chasseurs Ardennais"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quai des Chasseurs Ardennais"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4509",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4510",
+              "@type": "tree:Node",
+              "token_string": "'Oisquercq"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4515",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quai de la Batte"
+        },
+        {
+          "streetname": "Quai de l'Île Quaden"
+        },
+        {
+          "streetname": "Quai de l'Innovation"
+        },
+        {
+          "streetname": "Quai des Chasseurs Ardennais"
+        },
+        {
+          "streetname": "Quai d'Oisquercq"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment146.jsonld#4508",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quai de la Batte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai de l'Île Quaden"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai de l'Innovation"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai des Chasseurs Ardennais"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai d'Oisquercq"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4506",
+              "@type": "tree:Node",
+              "token_string": " l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4507",
+              "@type": "tree:Node",
+              "token_string": "s Chasseurs Ardennais"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4508",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quai de la Batte"
+        },
+        {
+          "streetname": "Quai de l'Île Quaden"
+        },
+        {
+          "streetname": "Quai de l'Innovation"
+        },
+        {
+          "streetname": "Quai des Chasseurs Ardennais"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment146.jsonld#4509",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quai de la Batte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai de l'Île Quaden"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai de l'Innovation"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai des Chasseurs Ardennais"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'Oisquercq",
+      "triples": [
+        {
+          "streetname": "Quai d'Oisquercq"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4508",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quai d'Oisquercq"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4510",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quai d'Oisquercq"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quai d'Oisquercq"
+      ]
+    },
+    {
+      "token_string": "Franche Garenne",
+      "triples": [
+        {
+          "streetname": "Quai Franche Garenne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4515",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quai Franche Garenne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4511",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quai Franche Garenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quai Franche Garenne"
+      ]
+    },
+    {
+      "token_string": "Ottokar",
+      "triples": [
+        {
+          "streetname": "Quai Ottokar"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4515",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quai Ottokar"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4512",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quai Ottokar"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quai Ottokar"
+      ]
+    },
+    {
+      "token_string": "Paul Verlaine",
+      "triples": [
+        {
+          "streetname": "Quai Paul Verlaine"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4515",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quai Paul Verlaine"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4513",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quai Paul Verlaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quai Paul Verlaine"
+      ]
+    },
+    {
+      "token_string": "i ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4497",
+              "@type": "tree:Node",
+              "token_string": "Arthur Rimbaud"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4508",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4511",
+              "@type": "tree:Node",
+              "token_string": "Franche Garenne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4512",
+              "@type": "tree:Node",
+              "token_string": "Ottokar"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4513",
+              "@type": "tree:Node",
+              "token_string": "Paul Verlaine"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4535",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quai Arthur Rimbaud"
+        },
+        {
+          "streetname": "Quai de la Batte"
+        },
+        {
+          "streetname": "Quai de l'Île Quaden"
+        },
+        {
+          "streetname": "Quai de l'Innovation"
+        },
+        {
+          "streetname": "Quai des Chasseurs Ardennais"
+        },
+        {
+          "streetname": "Quai d'Oisquercq"
+        },
+        {
+          "streetname": "Quai Franche Garenne"
+        },
+        {
+          "streetname": "Quai Ottokar"
+        },
+        {
+          "streetname": "Quai Paul Verlaine"
+        }
+      ],
+      "total_children_count": 13,
+      "@id": "fragment146.jsonld#4515",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quai Arthur Rimbaud"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai de la Batte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai de l'Île Quaden"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai de l'Innovation"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai des Chasseurs Ardennais"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai d'Oisquercq"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai Franche Garenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai Ottokar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai Paul Verlaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rt",
+      "triples": [
+        {
+          "streetname": "Quart"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4518",
+              "@type": "tree:Node",
+              "token_string": "ier "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4535",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quart"
+        },
+        {
+          "streetname": "Quartier Alphonse Balat"
+        },
+        {
+          "streetname": "Quartier d'Apt"
+        },
+        {
+          "streetname": "Quartier des Artisans"
+        },
+        {
+          "streetname": "Quartier des Aubépines"
+        },
+        {
+          "streetname": "Quartier du Mayeur"
+        },
+        {
+          "streetname": "Quartier du Poncia"
+        },
+        {
+          "streetname": "Quartier du Schiste"
+        },
+        {
+          "streetname": "Quartier Haynol"
+        },
+        {
+          "streetname": "Quartier Renaquoi"
+        }
+      ],
+      "total_children_count": 13,
+      "@id": "fragment146.jsonld#4516",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier Alphonse Balat"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier d'Apt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier des Artisans"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier des Aubépines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier du Mayeur"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier du Poncia"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier du Schiste"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier Haynol"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier Renaquoi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quart"
+      ]
+    },
+    {
+      "token_string": "ier ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4519",
+              "@type": "tree:Node",
+              "token_string": "Alphonse Balat"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4521",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4532",
+              "@type": "tree:Node",
+              "token_string": "Haynol"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4533",
+              "@type": "tree:Node",
+              "token_string": "Renaquoi"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4516",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quartier Alphonse Balat"
+        },
+        {
+          "streetname": "Quartier d'Apt"
+        },
+        {
+          "streetname": "Quartier des Artisans"
+        },
+        {
+          "streetname": "Quartier des Aubépines"
+        },
+        {
+          "streetname": "Quartier du Mayeur"
+        },
+        {
+          "streetname": "Quartier du Poncia"
+        },
+        {
+          "streetname": "Quartier du Schiste"
+        },
+        {
+          "streetname": "Quartier Haynol"
+        },
+        {
+          "streetname": "Quartier Renaquoi"
+        }
+      ],
+      "total_children_count": 12,
+      "@id": "fragment146.jsonld#4518",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quartier Alphonse Balat"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier d'Apt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier des Artisans"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier des Aubépines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier du Mayeur"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier du Poncia"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier du Schiste"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier Haynol"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier Renaquoi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Alphonse Balat",
+      "triples": [
+        {
+          "streetname": "Quartier Alphonse Balat"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4518",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quartier Alphonse Balat"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4519",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quartier Alphonse Balat"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quartier Alphonse Balat"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4522",
+              "@type": "tree:Node",
+              "token_string": "'Apt"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4524",
+              "@type": "tree:Node",
+              "token_string": "es A"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4528",
+              "@type": "tree:Node",
+              "token_string": "u "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4518",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quartier d'Apt"
+        },
+        {
+          "streetname": "Quartier des Artisans"
+        },
+        {
+          "streetname": "Quartier des Aubépines"
+        },
+        {
+          "streetname": "Quartier du Mayeur"
+        },
+        {
+          "streetname": "Quartier du Poncia"
+        },
+        {
+          "streetname": "Quartier du Schiste"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment146.jsonld#4521",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quartier d'Apt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier des Artisans"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier des Aubépines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier du Mayeur"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier du Poncia"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier du Schiste"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'Apt",
+      "triples": [
+        {
+          "streetname": "Quartier d'Apt"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4521",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quartier d'Apt"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4522",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quartier d'Apt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quartier d'Apt"
+      ]
+    },
+    {
+      "token_string": "es A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4525",
+              "@type": "tree:Node",
+              "token_string": "rtisans"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4526",
+              "@type": "tree:Node",
+              "token_string": "ubépines"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4521",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quartier des Artisans"
+        },
+        {
+          "streetname": "Quartier des Aubépines"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment146.jsonld#4524",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quartier des Artisans"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier des Aubépines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rtisans",
+      "triples": [
+        {
+          "streetname": "Quartier des Artisans"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4524",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quartier des Artisans"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4525",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quartier des Artisans"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quartier des Artisans"
+      ]
+    },
+    {
+      "token_string": "ubépines",
+      "triples": [
+        {
+          "streetname": "Quartier des Aubépines"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4524",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quartier des Aubépines"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4526",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quartier des Aubépines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quartier des Aubépines"
+      ]
+    },
+    {
+      "token_string": "u ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4529",
+              "@type": "tree:Node",
+              "token_string": "Mayeur"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4530",
+              "@type": "tree:Node",
+              "token_string": "Poncia"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4531",
+              "@type": "tree:Node",
+              "token_string": "Schiste"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4521",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quartier du Mayeur"
+        },
+        {
+          "streetname": "Quartier du Poncia"
+        },
+        {
+          "streetname": "Quartier du Schiste"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment146.jsonld#4528",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quartier du Mayeur"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier du Poncia"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quartier du Schiste"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Mayeur",
+      "triples": [
+        {
+          "streetname": "Quartier du Mayeur"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quartier du Mayeur"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4529",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quartier du Mayeur"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quartier du Mayeur"
+      ]
+    },
+    {
+      "token_string": "Poncia",
+      "triples": [
+        {
+          "streetname": "Quartier du Poncia"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quartier du Poncia"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4530",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quartier du Poncia"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quartier du Poncia"
+      ]
+    },
+    {
+      "token_string": "Schiste",
+      "triples": [
+        {
+          "streetname": "Quartier du Schiste"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quartier du Schiste"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4531",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quartier du Schiste"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quartier du Schiste"
+      ]
+    },
+    {
+      "token_string": "Haynol",
+      "triples": [
+        {
+          "streetname": "Quartier Haynol"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4518",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quartier Haynol"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4532",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quartier Haynol"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quartier Haynol"
+      ]
+    },
+    {
+      "token_string": "Renaquoi",
+      "triples": [
+        {
+          "streetname": "Quartier Renaquoi"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4518",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quartier Renaquoi"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4533",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quartier Renaquoi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quartier Renaquoi"
+      ]
+    },
+    {
+      "token_string": "Qu",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4535",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4536",
+              "@type": "tree:Node",
+              "token_string": "ellenberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4538",
+              "@type": "tree:Node",
+              "token_string": "irin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment1.jsonld#1",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quai Arthur Rimbaud"
+        },
+        {
+          "streetname": "Quai de la Batte"
+        },
+        {
+          "streetname": "Quai de l'Île Quaden"
+        },
+        {
+          "streetname": "Quai de l'Innovation"
+        },
+        {
+          "streetname": "Quai des Chasseurs Ardennais"
+        },
+        {
+          "streetname": "Quai d'Oisquercq"
+        },
+        {
+          "streetname": "Quai Franche Garenne"
+        },
+        {
+          "streetname": "Quai Ottokar"
+        },
+        {
+          "streetname": "Quai Paul Verlaine"
+        },
+        {
+          "streetname": "Quart"
+        }
+      ],
+      "total_children_count": 33,
+      "@id": "fragment146.jsonld#4534",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quai Arthur Rimbaud"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai de la Batte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai de l'Île Quaden"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai de l'Innovation"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai des Chasseurs Ardennais"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai d'Oisquercq"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai Franche Garenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai Ottokar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai Paul Verlaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4515",
+              "@type": "tree:Node",
+              "token_string": "i "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4516",
+              "@type": "tree:Node",
+              "token_string": "rt"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4534",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quai Arthur Rimbaud"
+        },
+        {
+          "streetname": "Quai de la Batte"
+        },
+        {
+          "streetname": "Quai de l'Île Quaden"
+        },
+        {
+          "streetname": "Quai de l'Innovation"
+        },
+        {
+          "streetname": "Quai des Chasseurs Ardennais"
+        },
+        {
+          "streetname": "Quai d'Oisquercq"
+        },
+        {
+          "streetname": "Quai Franche Garenne"
+        },
+        {
+          "streetname": "Quai Ottokar"
+        },
+        {
+          "streetname": "Quai Paul Verlaine"
+        },
+        {
+          "streetname": "Quart"
+        }
+      ],
+      "total_children_count": 28,
+      "@id": "fragment146.jsonld#4535",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quai Arthur Rimbaud"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai de la Batte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai de l'Île Quaden"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai de l'Innovation"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai des Chasseurs Ardennais"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai d'Oisquercq"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai Franche Garenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai Ottokar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quai Paul Verlaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ellenberg",
+      "triples": [
+        {
+          "streetname": "Quellenberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4534",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quellenberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4536",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quellenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quellenberg"
+      ]
+    },
+    {
+      "token_string": "irin",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4539",
+              "@type": "tree:Node",
+              "token_string": "straße"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment146.jsonld#4540",
+              "@type": "tree:Node",
+              "token_string": "usstraße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4534",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quirinstraße"
+        },
+        {
+          "streetname": "Quirinusstraße"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment146.jsonld#4538",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quirinstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Quirinusstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "straße",
+      "triples": [
+        {
+          "streetname": "Quirinstraße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4538",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quirinstraße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4539",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quirinstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quirinstraße"
+      ]
+    },
+    {
+      "token_string": "usstraße",
+      "triples": [
+        {
+          "streetname": "Quirinusstraße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment146.jsonld#4538",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Quirinusstraße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment146.jsonld#4540",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Quirinusstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Quirinusstraße"
+      ]
+    }
+  ]
+}

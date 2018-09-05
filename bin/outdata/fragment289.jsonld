@@ -1,0 +1,869 @@
+{
+  "root_node_id": "8687",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment289.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "ring",
+      "triples": [
+        {
+          "streetname": "Waldring"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment289.jsonld#8688",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Waldring"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment289.jsonld#8684",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Waldring"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Waldring"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "streetname": "Waldstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment289.jsonld#8688",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Waldstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment289.jsonld#8685",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Waldstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Waldstrasse"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "streetname": "Waldweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment289.jsonld#8688",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Waldweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment289.jsonld#8686",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Waldweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Waldweg"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment289.jsonld#8688",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment289.jsonld#8689",
+              "@type": "tree:Node",
+              "token_string": "enweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment289.jsonld#8691",
+              "@type": "tree:Node",
+              "token_string": "h"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment289.jsonld#8698",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment290.jsonld#8711",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Waldring"
+        },
+        {
+          "streetname": "Waldstrasse"
+        },
+        {
+          "streetname": "Waldweg"
+        },
+        {
+          "streetname": "Walenweg"
+        },
+        {
+          "streetname": "Walheimer Strasse"
+        },
+        {
+          "streetname": "Walhorner Feld"
+        },
+        {
+          "streetname": "Walhorner Strasse"
+        },
+        {
+          "streetname": "Wallbrückstrasse"
+        },
+        {
+          "streetname": "Wallerode"
+        },
+        {
+          "streetname": "Walleroder Brücke"
+        }
+      ],
+      "total_children_count": 16,
+      "@id": "fragment289.jsonld#8687",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Waldring"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Waldstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Waldweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Walenweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Walheimer Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Walhorner Feld"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Walhorner Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Wallbrückstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Wallerode"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Walleroder Brücke"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment289.jsonld#8684",
+              "@type": "tree:Node",
+              "token_string": "ring"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment289.jsonld#8685",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment289.jsonld#8686",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment289.jsonld#8687",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Waldring"
+        },
+        {
+          "streetname": "Waldstrasse"
+        },
+        {
+          "streetname": "Waldweg"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment289.jsonld#8688",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Waldring"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Waldstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Waldweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "enweg",
+      "triples": [
+        {
+          "streetname": "Walenweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment289.jsonld#8687",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Walenweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment289.jsonld#8689",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Walenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Walenweg"
+      ]
+    },
+    {
+      "token_string": "h",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment289.jsonld#8692",
+              "@type": "tree:Node",
+              "token_string": "eimer Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment289.jsonld#8694",
+              "@type": "tree:Node",
+              "token_string": "orner "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment289.jsonld#8687",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Walheimer Strasse"
+        },
+        {
+          "streetname": "Walhorner Feld"
+        },
+        {
+          "streetname": "Walhorner Strasse"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment289.jsonld#8691",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Walheimer Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Walhorner Feld"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Walhorner Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eimer Strasse",
+      "triples": [
+        {
+          "streetname": "Walheimer Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment289.jsonld#8691",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Walheimer Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment289.jsonld#8692",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Walheimer Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Walheimer Strasse"
+      ]
+    },
+    {
+      "token_string": "orner ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment289.jsonld#8695",
+              "@type": "tree:Node",
+              "token_string": "Feld"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment289.jsonld#8696",
+              "@type": "tree:Node",
+              "token_string": "Strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment289.jsonld#8691",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Walhorner Feld"
+        },
+        {
+          "streetname": "Walhorner Strasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment289.jsonld#8694",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Walhorner Feld"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Walhorner Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Feld",
+      "triples": [
+        {
+          "streetname": "Walhorner Feld"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment289.jsonld#8694",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Walhorner Feld"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment289.jsonld#8695",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Walhorner Feld"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Walhorner Feld"
+      ]
+    },
+    {
+      "token_string": "Strasse",
+      "triples": [
+        {
+          "streetname": "Walhorner Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment289.jsonld#8694",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Walhorner Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment289.jsonld#8696",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Walhorner Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Walhorner Strasse"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment289.jsonld#8699",
+              "@type": "tree:Node",
+              "token_string": "brückstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment289.jsonld#8700",
+              "@type": "tree:Node",
+              "token_string": "erode"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment289.jsonld#8687",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Wallbrückstrasse"
+        },
+        {
+          "streetname": "Wallerode"
+        },
+        {
+          "streetname": "Walleroder Brücke"
+        },
+        {
+          "streetname": "Walleroder Weg"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment289.jsonld#8698",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Wallbrückstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Wallerode"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Walleroder Brücke"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Walleroder Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "brückstrasse",
+      "triples": [
+        {
+          "streetname": "Wallbrückstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment289.jsonld#8698",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Wallbrückstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment289.jsonld#8699",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Wallbrückstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Wallbrückstrasse"
+      ]
+    },
+    {
+      "token_string": "erode",
+      "triples": [
+        {
+          "streetname": "Wallerode"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment289.jsonld#8702",
+              "@type": "tree:Node",
+              "token_string": "r "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment289.jsonld#8698",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Wallerode"
+        },
+        {
+          "streetname": "Walleroder Brücke"
+        },
+        {
+          "streetname": "Walleroder Weg"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment289.jsonld#8700",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Wallerode"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Walleroder Brücke"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Walleroder Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Wallerode"
+      ]
+    },
+    {
+      "token_string": "r ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment289.jsonld#8703",
+              "@type": "tree:Node",
+              "token_string": "Brücke"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment289.jsonld#8704",
+              "@type": "tree:Node",
+              "token_string": "Weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment289.jsonld#8700",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Walleroder Brücke"
+        },
+        {
+          "streetname": "Walleroder Weg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment289.jsonld#8702",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Walleroder Brücke"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Walleroder Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Brücke",
+      "triples": [
+        {
+          "streetname": "Walleroder Brücke"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment289.jsonld#8702",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Walleroder Brücke"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment289.jsonld#8703",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Walleroder Brücke"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Walleroder Brücke"
+      ]
+    },
+    {
+      "token_string": "Weg",
+      "triples": [
+        {
+          "streetname": "Walleroder Weg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment289.jsonld#8702",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Walleroder Weg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment289.jsonld#8704",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Walleroder Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Walleroder Weg"
+      ]
+    }
+  ]
+}

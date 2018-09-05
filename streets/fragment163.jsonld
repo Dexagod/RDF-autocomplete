@@ -1,0 +1,433 @@
+{
+  "root_node_id": "4952",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment163.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Bord de l'Eau",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue au Bord de l'Eau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5978528548811415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.39254725827795"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment163.jsonld#4953",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue au Bord de l'Eau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5978528548811415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.39254725827795"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment163.jsonld#4947",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue au Bord de l'Eau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue au Bord de l'Eau"
+      ]
+    },
+    {
+      "token_string": "Flot",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue au Flot",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0321193253621113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.48102734245719"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment163.jsonld#4953",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue au Flot",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0321193253621113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.48102734245719"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment163.jsonld#4948",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue au Flot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue au Flot"
+      ]
+    },
+    {
+      "token_string": "au",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment163.jsonld#4953",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment163.jsonld#4955",
+              "@type": "tree:Node",
+              "token_string": "x "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment253.jsonld#7407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue au Bord de l'Eau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5978528548811415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.39254725827795"
+        },
+        {
+          "http://example.com/terms#name": "Rue au Flot",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0321193253621113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.48102734245719"
+        },
+        {
+          "http://example.com/terms#name": "Rue aux Ônous",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.316836156000249",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.696466556191226"
+        },
+        {
+          "http://example.com/terms#name": "Rue aux Quatre Vents",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3056786650236707",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.58142784937034"
+        },
+        {
+          "http://example.com/terms#name": "Rue aux Tailles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3404975692163394",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.30000252570119"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "streetsfragment163.jsonld#4952",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue au Bord de l'Eau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue au Flot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue aux Ônous"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue aux Quatre Vents"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue aux Tailles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment163.jsonld#4947",
+              "@type": "tree:Node",
+              "token_string": "Bord de l'Eau"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment163.jsonld#4948",
+              "@type": "tree:Node",
+              "token_string": "Flot"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment163.jsonld#4952",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue au Bord de l'Eau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5978528548811415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.39254725827795"
+        },
+        {
+          "http://example.com/terms#name": "Rue au Flot",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0321193253621113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.48102734245719"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment163.jsonld#4953",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue au Bord de l'Eau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue au Flot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "x ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment163.jsonld#4956",
+              "@type": "tree:Node",
+              "token_string": "Ônous"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment163.jsonld#4957",
+              "@type": "tree:Node",
+              "token_string": "Quatre Vents"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment163.jsonld#4958",
+              "@type": "tree:Node",
+              "token_string": "Tailles"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment163.jsonld#4952",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue aux Ônous",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.316836156000249",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.696466556191226"
+        },
+        {
+          "http://example.com/terms#name": "Rue aux Quatre Vents",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3056786650236707",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.58142784937034"
+        },
+        {
+          "http://example.com/terms#name": "Rue aux Tailles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3404975692163394",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.30000252570119"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment163.jsonld#4955",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue aux Ônous"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue aux Quatre Vents"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue aux Tailles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Ônous",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue aux Ônous",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.316836156000249",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.696466556191226"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment163.jsonld#4955",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue aux Ônous",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.316836156000249",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.696466556191226"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment163.jsonld#4956",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue aux Ônous"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue aux Ônous"
+      ]
+    },
+    {
+      "token_string": "Quatre Vents",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue aux Quatre Vents",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3056786650236707",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.58142784937034"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment163.jsonld#4955",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue aux Quatre Vents",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3056786650236707",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.58142784937034"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment163.jsonld#4957",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue aux Quatre Vents"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue aux Quatre Vents"
+      ]
+    },
+    {
+      "token_string": "Tailles",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue aux Tailles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3404975692163394",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.30000252570119"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment163.jsonld#4955",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue aux Tailles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3404975692163394",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.30000252570119"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment163.jsonld#4958",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue aux Tailles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue aux Tailles"
+      ]
+    }
+  ]
+}

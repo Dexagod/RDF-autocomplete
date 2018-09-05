@@ -1,0 +1,3710 @@
+{
+  "root_node_id": "3073",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment102.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": " Hof",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Igelmonder Hof",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2298994136391377",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.055812113031514"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3074",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Igelmonder Hof",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2298994136391377",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.055812113031514"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3071",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Igelmonder Hof"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Igelmonder Hof"
+      ]
+    },
+    {
+      "token_string": "mühle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Igelmondermühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.742056158681291",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.85040051660446"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3074",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Igelmondermühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.742056158681291",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.85040051660446"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3072",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Igelmondermühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Igelmondermühle"
+      ]
+    },
+    {
+      "token_string": "I",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3074",
+              "@type": "tree:Node",
+              "token_string": "gelmonder"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3075",
+              "@type": "tree:Node",
+              "token_string": "lôt Christian Dourt"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3104",
+              "@type": "tree:Node",
+              "token_string": "m"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3256",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3263",
+              "@type": "tree:Node",
+              "token_string": "terstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3264",
+              "@type": "tree:Node",
+              "token_string": "veldingen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment1.jsonld#1",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Igelmonder Hof",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2298994136391377",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.055812113031514"
+        },
+        {
+          "http://example.com/terms#name": "Igelmondermühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.742056158681291",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.85040051660446"
+        },
+        {
+          "http://example.com/terms#name": "Ilôt Christian Dourt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.504504458246019",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69785973256252"
+        },
+        {
+          "http://example.com/terms#name": "Im Astert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5356996740646647",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5314912815157"
+        },
+        {
+          "http://example.com/terms#name": "Im Auel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6632061564702174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.351646314603634"
+        },
+        {
+          "http://example.com/terms#name": "Im Eck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0968747650645776",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.20096513031657"
+        },
+        {
+          "http://example.com/terms#name": "Im Gässchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.150813873993979",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.14884657422352"
+        },
+        {
+          "http://example.com/terms#name": "Im Himmelchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0354838087943703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.01688264032158"
+        },
+        {
+          "http://example.com/terms#name": "Im Holzweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2489442320142534",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.35411701852172"
+        },
+        {
+          "http://example.com/terms#name": "Im Jölert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0427668164971187",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.38904879351066"
+        }
+      ],
+      "total_children_count": 149,
+      "@id": "streetsfragment102.jsonld#3073",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Igelmonder Hof"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Igelmondermühle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ilôt Christian Dourt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Astert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Auel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Eck"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Gässchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Himmelchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Holzweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Jölert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "gelmonder",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3071",
+              "@type": "tree:Node",
+              "token_string": " Hof"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3072",
+              "@type": "tree:Node",
+              "token_string": "mühle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Igelmonder Hof",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2298994136391377",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.055812113031514"
+        },
+        {
+          "http://example.com/terms#name": "Igelmondermühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.742056158681291",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.85040051660446"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment102.jsonld#3074",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Igelmonder Hof"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Igelmondermühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "lôt Christian Dourt",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Ilôt Christian Dourt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.504504458246019",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69785973256252"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Ilôt Christian Dourt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.504504458246019",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69785973256252"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3075",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ilôt Christian Dourt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ilôt Christian Dourt"
+      ]
+    },
+    {
+      "token_string": "stert",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Astert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5356996740646647",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5314912815157"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3081",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Astert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5356996740646647",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5314912815157"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3078",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Astert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Astert"
+      ]
+    },
+    {
+      "token_string": "uel",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Auel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6632061564702174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.351646314603634"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3081",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Auel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6632061564702174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.351646314603634"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3079",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Auel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Auel"
+      ]
+    },
+    {
+      "token_string": "A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3078",
+              "@type": "tree:Node",
+              "token_string": "stert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3079",
+              "@type": "tree:Node",
+              "token_string": "uel"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3105",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Astert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5356996740646647",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5314912815157"
+        },
+        {
+          "http://example.com/terms#name": "Im Auel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6632061564702174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.351646314603634"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment102.jsonld#3081",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Astert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Auel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Eck",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Eck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0968747650645776",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.20096513031657"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3105",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Eck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0968747650645776",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.20096513031657"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3082",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Eck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Eck"
+      ]
+    },
+    {
+      "token_string": "Gässchen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Gässchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.150813873993979",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.14884657422352"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3105",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Gässchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.150813873993979",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.14884657422352"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3083",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Gässchen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Gässchen"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3086",
+              "@type": "tree:Node",
+              "token_string": "immelchen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3087",
+              "@type": "tree:Node",
+              "token_string": "olzweg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3105",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Himmelchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0354838087943703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.01688264032158"
+        },
+        {
+          "http://example.com/terms#name": "Im Holzweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2489442320142534",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.35411701852172"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment102.jsonld#3085",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Himmelchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Holzweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "immelchen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Himmelchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0354838087943703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.01688264032158"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3085",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Himmelchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0354838087943703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.01688264032158"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3086",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Himmelchen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Himmelchen"
+      ]
+    },
+    {
+      "token_string": "olzweg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Holzweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2489442320142534",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.35411701852172"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3085",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Holzweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2489442320142534",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.35411701852172"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3087",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Holzweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Holzweg"
+      ]
+    },
+    {
+      "token_string": "Jölert",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Jölert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0427668164971187",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.38904879351066"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3105",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Jölert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0427668164971187",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.38904879351066"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3088",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Jölert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Jölert"
+      ]
+    },
+    {
+      "token_string": "K",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3091",
+              "@type": "tree:Node",
+              "token_string": "äfer"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3093",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3097",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3100",
+              "@type": "tree:Node",
+              "token_string": "oelchen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3101",
+              "@type": "tree:Node",
+              "token_string": "ulei"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3105",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Käfer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8008907740872107",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.43087954975702"
+        },
+        {
+          "http://example.com/terms#name": "Im Kell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2168562065241875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12755606470823"
+        },
+        {
+          "http://example.com/terms#name": "Im Kessel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8512208473886393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.74824512006619"
+        },
+        {
+          "http://example.com/terms#name": "Im Kips",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.678934973607509",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.16781580461485"
+        },
+        {
+          "http://example.com/terms#name": "Im Kirchbend",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2264509692636683",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.81499089502976"
+        },
+        {
+          "http://example.com/terms#name": "Im Koelchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.806006386272312",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.05998422536592"
+        },
+        {
+          "http://example.com/terms#name": "Im Kulei",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7997582337264224",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.465723952773644"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "streetsfragment102.jsonld#3090",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Käfer"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Kell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Kessel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Kips"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Kirchbend"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Koelchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Kulei"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "äfer",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Käfer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8008907740872107",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.43087954975702"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3090",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Käfer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8008907740872107",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.43087954975702"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3091",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Käfer"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Käfer"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3094",
+              "@type": "tree:Node",
+              "token_string": "ll"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3095",
+              "@type": "tree:Node",
+              "token_string": "ssel"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3090",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Kell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2168562065241875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12755606470823"
+        },
+        {
+          "http://example.com/terms#name": "Im Kessel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8512208473886393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.74824512006619"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment102.jsonld#3093",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Kell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Kessel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ll",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Kell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2168562065241875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12755606470823"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3093",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Kell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2168562065241875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12755606470823"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3094",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Kell"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Kell"
+      ]
+    },
+    {
+      "token_string": "ssel",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Kessel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8512208473886393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.74824512006619"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3093",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Kessel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8512208473886393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.74824512006619"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3095",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Kessel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Kessel"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3098",
+              "@type": "tree:Node",
+              "token_string": "ps"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3099",
+              "@type": "tree:Node",
+              "token_string": "rchbend"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3090",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Kips",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.678934973607509",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.16781580461485"
+        },
+        {
+          "http://example.com/terms#name": "Im Kirchbend",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2264509692636683",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.81499089502976"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment102.jsonld#3097",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Kips"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Kirchbend"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ps",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Kips",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.678934973607509",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.16781580461485"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3097",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Kips",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.678934973607509",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.16781580461485"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3098",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Kips"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Kips"
+      ]
+    },
+    {
+      "token_string": "rchbend",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Kirchbend",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2264509692636683",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.81499089502976"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3097",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Kirchbend",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2264509692636683",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.81499089502976"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3099",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Kirchbend"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Kirchbend"
+      ]
+    },
+    {
+      "token_string": "oelchen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Koelchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.806006386272312",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.05998422536592"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3090",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Koelchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.806006386272312",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.05998422536592"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3100",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Koelchen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Koelchen"
+      ]
+    },
+    {
+      "token_string": "ulei",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Kulei",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7997582337264224",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.465723952773644"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3090",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Kulei",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7997582337264224",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.465723952773644"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3101",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Kulei"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Kulei"
+      ]
+    },
+    {
+      "token_string": "Obachtal",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Obachtal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.595928391020314",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.42845305121069"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3105",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Obachtal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.595928391020314",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.42845305121069"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3102",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Obachtal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Obachtal"
+      ]
+    },
+    {
+      "token_string": "m",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3105",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment103.jsonld#3107",
+              "@type": "tree:Node",
+              "token_string": "passe "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Astert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5356996740646647",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5314912815157"
+        },
+        {
+          "http://example.com/terms#name": "Im Auel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6632061564702174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.351646314603634"
+        },
+        {
+          "http://example.com/terms#name": "Im Eck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0968747650645776",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.20096513031657"
+        },
+        {
+          "http://example.com/terms#name": "Im Gässchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.150813873993979",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.14884657422352"
+        },
+        {
+          "http://example.com/terms#name": "Im Himmelchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0354838087943703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.01688264032158"
+        },
+        {
+          "http://example.com/terms#name": "Im Holzweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2489442320142534",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.35411701852172"
+        },
+        {
+          "http://example.com/terms#name": "Im Jölert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0427668164971187",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.38904879351066"
+        },
+        {
+          "http://example.com/terms#name": "Im Kell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2168562065241875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12755606470823"
+        },
+        {
+          "http://example.com/terms#name": "Im Kessel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8512208473886393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.74824512006619"
+        },
+        {
+          "http://example.com/terms#name": "Im Kips",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.678934973607509",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.16781580461485"
+        }
+      ],
+      "total_children_count": 115,
+      "@id": "streetsfragment102.jsonld#3104",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Astert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Auel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Eck"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Gässchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Himmelchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Holzweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Jölert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Kell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Kessel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Kips"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3081",
+              "@type": "tree:Node",
+              "token_string": "A"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3082",
+              "@type": "tree:Node",
+              "token_string": "Eck"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3083",
+              "@type": "tree:Node",
+              "token_string": "Gässchen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3085",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3088",
+              "@type": "tree:Node",
+              "token_string": "Jölert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3090",
+              "@type": "tree:Node",
+              "token_string": "K"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3102",
+              "@type": "tree:Node",
+              "token_string": "Obachtal"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3216",
+              "@type": "tree:Node",
+              "token_string": "P"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3219",
+              "@type": "tree:Node",
+              "token_string": "Sief"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3220",
+              "@type": "tree:Node",
+              "token_string": "Tömmel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3221",
+              "@type": "tree:Node",
+              "token_string": "Uhrenfeld"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3223",
+              "@type": "tree:Node",
+              "token_string": "W"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3104",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Astert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5356996740646647",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5314912815157"
+        },
+        {
+          "http://example.com/terms#name": "Im Auel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6632061564702174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.351646314603634"
+        },
+        {
+          "http://example.com/terms#name": "Im Eck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0968747650645776",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.20096513031657"
+        },
+        {
+          "http://example.com/terms#name": "Im Gässchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.150813873993979",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.14884657422352"
+        },
+        {
+          "http://example.com/terms#name": "Im Himmelchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0354838087943703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.01688264032158"
+        },
+        {
+          "http://example.com/terms#name": "Im Holzweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2489442320142534",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.35411701852172"
+        },
+        {
+          "http://example.com/terms#name": "Im Jölert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0427668164971187",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.38904879351066"
+        },
+        {
+          "http://example.com/terms#name": "Im Kell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2168562065241875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12755606470823"
+        },
+        {
+          "http://example.com/terms#name": "Im Kessel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8512208473886393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.74824512006619"
+        },
+        {
+          "http://example.com/terms#name": "Im Kips",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.678934973607509",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.16781580461485"
+        }
+      ],
+      "total_children_count": 30,
+      "@id": "streetsfragment102.jsonld#3105",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Astert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Auel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Eck"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Gässchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Himmelchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Holzweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Jölert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Kell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Kessel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Kips"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "P",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3217",
+              "@type": "tree:Node",
+              "token_string": "annes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3218",
+              "@type": "tree:Node",
+              "token_string": "eschgen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3105",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Pannes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5429426020948243",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.83937776814767"
+        },
+        {
+          "http://example.com/terms#name": "Im Peschgen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1329933156649092",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.80644488514716"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment102.jsonld#3216",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Pannes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Peschgen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "annes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Pannes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5429426020948243",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.83937776814767"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3216",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Pannes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5429426020948243",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.83937776814767"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3217",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Pannes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Pannes"
+      ]
+    },
+    {
+      "token_string": "eschgen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Peschgen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1329933156649092",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.80644488514716"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3216",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Peschgen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1329933156649092",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.80644488514716"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3218",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Peschgen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Peschgen"
+      ]
+    },
+    {
+      "token_string": "Sief",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Sief",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3302206034805155",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.37189170022157"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3105",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Sief",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3302206034805155",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.37189170022157"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3219",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Sief"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Sief"
+      ]
+    },
+    {
+      "token_string": "Tömmel",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Tömmel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.330719595982744",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.954621478184336"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3105",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Tömmel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.330719595982744",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.954621478184336"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3220",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Tömmel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Tömmel"
+      ]
+    },
+    {
+      "token_string": "Uhrenfeld",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Uhrenfeld",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6124525099949274",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.64711027644037"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3105",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Uhrenfeld",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6124525099949274",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.64711027644037"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3221",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Uhrenfeld"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Uhrenfeld"
+      ]
+    },
+    {
+      "token_string": "W",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3224",
+              "@type": "tree:Node",
+              "token_string": "erest"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3225",
+              "@type": "tree:Node",
+              "token_string": "inkel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3226",
+              "@type": "tree:Node",
+              "token_string": "ohnwagen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3105",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Werest",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9002801701451153",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.729992120350225"
+        },
+        {
+          "http://example.com/terms#name": "Im Winkel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9588795315362773",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56821243703448"
+        },
+        {
+          "http://example.com/terms#name": "Im Wohnwagen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3218741998495767",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.45219707036559"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment102.jsonld#3223",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Werest"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Winkel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Im Wohnwagen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erest",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Werest",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9002801701451153",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.729992120350225"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3223",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Werest",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9002801701451153",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.729992120350225"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3224",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Werest"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Werest"
+      ]
+    },
+    {
+      "token_string": "inkel",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Winkel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9588795315362773",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56821243703448"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3223",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Winkel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9588795315362773",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56821243703448"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3225",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Winkel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Winkel"
+      ]
+    },
+    {
+      "token_string": "ohnwagen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Im Wohnwagen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3218741998495767",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.45219707036559"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3223",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Im Wohnwagen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3218741998495767",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.45219707036559"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3226",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Im Wohnwagen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Im Wohnwagen"
+      ]
+    },
+    {
+      "token_string": "Höfen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "In den Höfen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.61497083859655",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.40616708158588"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3233",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In den Höfen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.61497083859655",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.40616708158588"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3229",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In den Höfen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "In den Höfen"
+      ]
+    },
+    {
+      "token_string": "Siepen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "In den Siepen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1853423458633703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.05492860889401"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3233",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In den Siepen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1853423458633703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.05492860889401"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3230",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In den Siepen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "In den Siepen"
+      ]
+    },
+    {
+      "token_string": "Wegen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "In den Wegen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.776250274107851",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33145842763272"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3233",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In den Wegen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.776250274107851",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33145842763272"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3231",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In den Wegen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "In den Wegen"
+      ]
+    },
+    {
+      "token_string": "n ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3229",
+              "@type": "tree:Node",
+              "token_string": "Höfen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3230",
+              "@type": "tree:Node",
+              "token_string": "Siepen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3231",
+              "@type": "tree:Node",
+              "token_string": "Wegen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3257",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In den Höfen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.61497083859655",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.40616708158588"
+        },
+        {
+          "http://example.com/terms#name": "In den Siepen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1853423458633703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.05492860889401"
+        },
+        {
+          "http://example.com/terms#name": "In den Wegen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.776250274107851",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33145842763272"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment102.jsonld#3233",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In den Höfen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In den Siepen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In den Wegen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "r ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3236",
+              "@type": "tree:Node",
+              "token_string": "Bracht"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3237",
+              "@type": "tree:Node",
+              "token_string": "Dell"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3238",
+              "@type": "tree:Node",
+              "token_string": "Grube"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3240",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3244",
+              "@type": "tree:Node",
+              "token_string": "Kir"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3248",
+              "@type": "tree:Node",
+              "token_string": "R"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3254",
+              "@type": "tree:Node",
+              "token_string": "Schwong"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3255",
+              "@type": "tree:Node",
+              "token_string": "Tröt"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3257",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Bracht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0714078965872185",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.79480408689371"
+        },
+        {
+          "http://example.com/terms#name": "In der Dell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.766013904195076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.67145578932201"
+        },
+        {
+          "http://example.com/terms#name": "In der Grube",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.266399392364067",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.604900108997384"
+        },
+        {
+          "http://example.com/terms#name": "In der Hattenbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7584910325647023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.28174816022606"
+        },
+        {
+          "http://example.com/terms#name": "In der Helt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.503042488850036",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.87956758156057"
+        },
+        {
+          "http://example.com/terms#name": "In der Kirmesdell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.112181852544404",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.343551989324375"
+        },
+        {
+          "http://example.com/terms#name": "In der Kirrbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3027557556451934",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62858881431887"
+        },
+        {
+          "http://example.com/terms#name": "In der Reisbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.37001243170159",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.60056873704476"
+        },
+        {
+          "http://example.com/terms#name": "In der Rostert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5914645712311186",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43206194687167"
+        },
+        {
+          "http://example.com/terms#name": "In der Rotheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.280632726037152",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.55328874827578"
+        }
+      ],
+      "total_children_count": 16,
+      "@id": "streetsfragment102.jsonld#3235",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Bracht"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Dell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Grube"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Hattenbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Helt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Kirmesdell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Kirrbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Reisbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Rostert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Rotheck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Bracht",
+      "triples": [
+        {
+          "http://example.com/terms#name": "In der Bracht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0714078965872185",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.79480408689371"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3235",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Bracht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0714078965872185",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.79480408689371"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3236",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Bracht"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "In der Bracht"
+      ]
+    },
+    {
+      "token_string": "Dell",
+      "triples": [
+        {
+          "http://example.com/terms#name": "In der Dell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.766013904195076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.67145578932201"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3235",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Dell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.766013904195076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.67145578932201"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3237",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Dell"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "In der Dell"
+      ]
+    },
+    {
+      "token_string": "Grube",
+      "triples": [
+        {
+          "http://example.com/terms#name": "In der Grube",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.266399392364067",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.604900108997384"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3235",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Grube",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.266399392364067",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.604900108997384"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3238",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Grube"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "In der Grube"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3241",
+              "@type": "tree:Node",
+              "token_string": "attenbach"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3242",
+              "@type": "tree:Node",
+              "token_string": "elt"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3235",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Hattenbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7584910325647023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.28174816022606"
+        },
+        {
+          "http://example.com/terms#name": "In der Helt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.503042488850036",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.87956758156057"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment102.jsonld#3240",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Hattenbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Helt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "attenbach",
+      "triples": [
+        {
+          "http://example.com/terms#name": "In der Hattenbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7584910325647023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.28174816022606"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3240",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Hattenbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7584910325647023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.28174816022606"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3241",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Hattenbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "In der Hattenbach"
+      ]
+    },
+    {
+      "token_string": "elt",
+      "triples": [
+        {
+          "http://example.com/terms#name": "In der Helt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.503042488850036",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.87956758156057"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3240",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Helt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.503042488850036",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.87956758156057"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3242",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Helt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "In der Helt"
+      ]
+    },
+    {
+      "token_string": "Kir",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3245",
+              "@type": "tree:Node",
+              "token_string": "mesdell"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3246",
+              "@type": "tree:Node",
+              "token_string": "rbach"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3235",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Kirmesdell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.112181852544404",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.343551989324375"
+        },
+        {
+          "http://example.com/terms#name": "In der Kirrbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3027557556451934",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62858881431887"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment102.jsonld#3244",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Kirmesdell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Kirrbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "mesdell",
+      "triples": [
+        {
+          "http://example.com/terms#name": "In der Kirmesdell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.112181852544404",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.343551989324375"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3244",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Kirmesdell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.112181852544404",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.343551989324375"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3245",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Kirmesdell"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "In der Kirmesdell"
+      ]
+    },
+    {
+      "token_string": "rbach",
+      "triples": [
+        {
+          "http://example.com/terms#name": "In der Kirrbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3027557556451934",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62858881431887"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3244",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Kirrbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3027557556451934",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62858881431887"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3246",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Kirrbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "In der Kirrbach"
+      ]
+    },
+    {
+      "token_string": "R",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3249",
+              "@type": "tree:Node",
+              "token_string": "eisbach"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3251",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3235",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Reisbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.37001243170159",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.60056873704476"
+        },
+        {
+          "http://example.com/terms#name": "In der Rostert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5914645712311186",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43206194687167"
+        },
+        {
+          "http://example.com/terms#name": "In der Rotheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.280632726037152",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.55328874827578"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment102.jsonld#3248",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Reisbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Rostert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Rotheck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eisbach",
+      "triples": [
+        {
+          "http://example.com/terms#name": "In der Reisbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.37001243170159",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.60056873704476"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3248",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Reisbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.37001243170159",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.60056873704476"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3249",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Reisbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "In der Reisbach"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3252",
+              "@type": "tree:Node",
+              "token_string": "stert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3253",
+              "@type": "tree:Node",
+              "token_string": "theck"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3248",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Rostert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5914645712311186",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43206194687167"
+        },
+        {
+          "http://example.com/terms#name": "In der Rotheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.280632726037152",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.55328874827578"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment102.jsonld#3251",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Rostert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Rotheck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "stert",
+      "triples": [
+        {
+          "http://example.com/terms#name": "In der Rostert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5914645712311186",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43206194687167"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3251",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Rostert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5914645712311186",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.43206194687167"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3252",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Rostert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "In der Rostert"
+      ]
+    },
+    {
+      "token_string": "theck",
+      "triples": [
+        {
+          "http://example.com/terms#name": "In der Rotheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.280632726037152",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.55328874827578"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3251",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Rotheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.280632726037152",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.55328874827578"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3253",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Rotheck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "In der Rotheck"
+      ]
+    },
+    {
+      "token_string": "Schwong",
+      "triples": [
+        {
+          "http://example.com/terms#name": "In der Schwong",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0410114948948688",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.69261237841391"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3235",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Schwong",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0410114948948688",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.69261237841391"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3254",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Schwong"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "In der Schwong"
+      ]
+    },
+    {
+      "token_string": "Tröt",
+      "triples": [
+        {
+          "http://example.com/terms#name": "In der Tröt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5980736653379264",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.337575540988766"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3235",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In der Tröt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5980736653379264",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.337575540988766"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3255",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In der Tröt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "In der Tröt"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3257",
+              "@type": "tree:Node",
+              "token_string": " de"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3258",
+              "@type": "tree:Node",
+              "token_string": "dustriestrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3260",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In den Höfen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.61497083859655",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.40616708158588"
+        },
+        {
+          "http://example.com/terms#name": "In den Siepen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1853423458633703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.05492860889401"
+        },
+        {
+          "http://example.com/terms#name": "In den Wegen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.776250274107851",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33145842763272"
+        },
+        {
+          "http://example.com/terms#name": "In der Bracht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0714078965872185",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.79480408689371"
+        },
+        {
+          "http://example.com/terms#name": "In der Dell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.766013904195076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.67145578932201"
+        },
+        {
+          "http://example.com/terms#name": "In der Grube",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.266399392364067",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.604900108997384"
+        },
+        {
+          "http://example.com/terms#name": "In der Hattenbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7584910325647023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.28174816022606"
+        },
+        {
+          "http://example.com/terms#name": "In der Helt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.503042488850036",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.87956758156057"
+        },
+        {
+          "http://example.com/terms#name": "In der Kirmesdell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.112181852544404",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.343551989324375"
+        },
+        {
+          "http://example.com/terms#name": "In der Kirrbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3027557556451934",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62858881431887"
+        }
+      ],
+      "total_children_count": 26,
+      "@id": "streetsfragment102.jsonld#3256",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In den Höfen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In den Siepen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In den Wegen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Bracht"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Dell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Grube"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Hattenbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Helt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Kirmesdell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Kirrbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " de",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3233",
+              "@type": "tree:Node",
+              "token_string": "n "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3235",
+              "@type": "tree:Node",
+              "token_string": "r "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3256",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "In den Höfen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.61497083859655",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.40616708158588"
+        },
+        {
+          "http://example.com/terms#name": "In den Siepen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1853423458633703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.05492860889401"
+        },
+        {
+          "http://example.com/terms#name": "In den Wegen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.776250274107851",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33145842763272"
+        },
+        {
+          "http://example.com/terms#name": "In der Bracht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0714078965872185",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.79480408689371"
+        },
+        {
+          "http://example.com/terms#name": "In der Dell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.766013904195076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.67145578932201"
+        },
+        {
+          "http://example.com/terms#name": "In der Grube",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.266399392364067",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.604900108997384"
+        },
+        {
+          "http://example.com/terms#name": "In der Hattenbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7584910325647023",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.28174816022606"
+        },
+        {
+          "http://example.com/terms#name": "In der Helt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.503042488850036",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.87956758156057"
+        },
+        {
+          "http://example.com/terms#name": "In der Kirmesdell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.112181852544404",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.343551989324375"
+        },
+        {
+          "http://example.com/terms#name": "In der Kirrbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3027557556451934",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62858881431887"
+        }
+      ],
+      "total_children_count": 21,
+      "@id": "streetsfragment102.jsonld#3257",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "In den Höfen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In den Siepen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In den Wegen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Bracht"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Dell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Grube"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Hattenbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Helt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Kirmesdell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "In der Kirrbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "dustriestrasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Industriestrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.094359329092972",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.20794073677132"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3256",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Industriestrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.094359329092972",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.20794073677132"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3258",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Industriestrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Industriestrasse"
+      ]
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3261",
+              "@type": "tree:Node",
+              "token_string": "Flostal"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment102.jsonld#3262",
+              "@type": "tree:Node",
+              "token_string": "Kolvendertal"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3256",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Ins Flostal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7454951563995955",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09373100604424"
+        },
+        {
+          "http://example.com/terms#name": "Ins Kolvendertal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.644774863236627",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.96603458174684"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment102.jsonld#3260",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ins Flostal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ins Kolvendertal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Flostal",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Ins Flostal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7454951563995955",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09373100604424"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3260",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Ins Flostal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7454951563995955",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09373100604424"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3261",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ins Flostal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ins Flostal"
+      ]
+    },
+    {
+      "token_string": "Kolvendertal",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Ins Kolvendertal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.644774863236627",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.96603458174684"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3260",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Ins Kolvendertal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.644774863236627",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.96603458174684"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3262",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ins Kolvendertal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ins Kolvendertal"
+      ]
+    },
+    {
+      "token_string": "terstrasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Iterstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.807830120143801",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.018603119101925"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Iterstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.807830120143801",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.018603119101925"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3263",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Iterstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Iterstrasse"
+      ]
+    },
+    {
+      "token_string": "veldingen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Iveldingen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4182557488186407",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.99335518557337"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment102.jsonld#3073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Iveldingen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4182557488186407",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.99335518557337"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment102.jsonld#3264",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Iveldingen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Iveldingen"
+      ]
+    }
+  ]
+}

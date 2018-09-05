@@ -1,0 +1,297 @@
+{
+  "root_node_id": "4078",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment140.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "ARKING AUTOROUTE E4",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment140.jsonld#4081",
+              "@type": "tree:Node",
+              "token_string": "2"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment140.jsonld#4079",
+              "@type": "tree:Node",
+              "token_string": "11"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment125.jsonld#4075",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "PARKING AUTOROUTE E411"
+        },
+        {
+          "streetname": "PARKING AUTOROUTE E429/A8"
+        },
+        {
+          "streetname": "PARKING AUTOROUTE E42/E19 -Thieu"
+        },
+        {
+          "streetname": "PARKING AUTOROUTE E42 - Spy"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment140.jsonld#4078",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "PARKING AUTOROUTE E411"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "PARKING AUTOROUTE E429/A8"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "PARKING AUTOROUTE E42/E19 -Thieu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "PARKING AUTOROUTE E42 - Spy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "11",
+      "triples": [
+        {
+          "streetname": "PARKING AUTOROUTE E411"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment140.jsonld#4078",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "PARKING AUTOROUTE E411"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment140.jsonld#4079",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "PARKING AUTOROUTE E411"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "PARKING AUTOROUTE E411"
+      ]
+    },
+    {
+      "token_string": "2",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment140.jsonld#4082",
+              "@type": "tree:Node",
+              "token_string": "9/A8"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment140.jsonld#4083",
+              "@type": "tree:Node",
+              "token_string": "/E19 -Thieu"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment140.jsonld#4084",
+              "@type": "tree:Node",
+              "token_string": " - Spy"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment140.jsonld#4078",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "PARKING AUTOROUTE E429/A8"
+        },
+        {
+          "streetname": "PARKING AUTOROUTE E42/E19 -Thieu"
+        },
+        {
+          "streetname": "PARKING AUTOROUTE E42 - Spy"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment140.jsonld#4081",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "PARKING AUTOROUTE E429/A8"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "PARKING AUTOROUTE E42/E19 -Thieu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "PARKING AUTOROUTE E42 - Spy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "9/A8",
+      "triples": [
+        {
+          "streetname": "PARKING AUTOROUTE E429/A8"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment140.jsonld#4081",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "PARKING AUTOROUTE E429/A8"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment140.jsonld#4082",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "PARKING AUTOROUTE E429/A8"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "PARKING AUTOROUTE E429/A8"
+      ]
+    },
+    {
+      "token_string": "/E19 -Thieu",
+      "triples": [
+        {
+          "streetname": "PARKING AUTOROUTE E42/E19 -Thieu"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment140.jsonld#4081",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "PARKING AUTOROUTE E42/E19 -Thieu"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment140.jsonld#4083",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "PARKING AUTOROUTE E42/E19 -Thieu"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "PARKING AUTOROUTE E42/E19 -Thieu"
+      ]
+    },
+    {
+      "token_string": " - Spy",
+      "triples": [
+        {
+          "streetname": "PARKING AUTOROUTE E42 - Spy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment140.jsonld#4081",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "PARKING AUTOROUTE E42 - Spy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment140.jsonld#4084",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "PARKING AUTOROUTE E42 - Spy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "PARKING AUTOROUTE E42 - Spy"
+      ]
+    }
+  ]
+}

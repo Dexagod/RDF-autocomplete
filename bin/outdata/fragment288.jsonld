@@ -1,0 +1,1543 @@
+{
+  "root_node_id": "8569",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment288.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "ang",
+      "triples": [
+        {
+          "streetname": "Vogelsang"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8570",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vogelsang"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8567",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vogelsang"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vogelsang"
+      ]
+    },
+    {
+      "token_string": "gasse",
+      "triples": [
+        {
+          "streetname": "Vogelsgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8570",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vogelsgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8568",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vogelsgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vogelsgasse"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8570",
+              "@type": "tree:Node",
+              "token_string": "gels"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8650",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8661",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8665",
+              "@type": "tree:Node",
+              "token_string": "s"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8671",
+              "@type": "tree:Node",
+              "token_string": "ulfeld"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8674",
+              "@type": "tree:Node",
+              "token_string": "ye "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment285.jsonld#8479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vogelsang"
+        },
+        {
+          "streetname": "Vogelsgasse"
+        },
+        {
+          "streetname": "Voie Abbé"
+        },
+        {
+          "streetname": "Voie Campo"
+        },
+        {
+          "streetname": "Voie Colette"
+        },
+        {
+          "streetname": "Voie de Comblain"
+        },
+        {
+          "streetname": "Voie de Liège"
+        },
+        {
+          "streetname": "Voie Pirson"
+        },
+        {
+          "streetname": "Voie Saint Remacle"
+        },
+        {
+          "streetname": "Voie Verdi"
+        }
+      ],
+      "total_children_count": 81,
+      "@id": "fragment288.jsonld#8569",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vogelsang"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vogelsgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Abbé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Campo"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Colette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Comblain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Liège"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Pirson"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Saint Remacle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Verdi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "gels",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8567",
+              "@type": "tree:Node",
+              "token_string": "ang"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8568",
+              "@type": "tree:Node",
+              "token_string": "gasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8569",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vogelsang"
+        },
+        {
+          "streetname": "Vogelsgasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment288.jsonld#8570",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vogelsang"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vogelsgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Abbé",
+      "triples": [
+        {
+          "streetname": "Voie Abbé"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8651",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voie Abbé"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8573",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie Abbé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie Abbé"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8576",
+              "@type": "tree:Node",
+              "token_string": "ampo"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8577",
+              "@type": "tree:Node",
+              "token_string": "olette"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8651",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voie Campo"
+        },
+        {
+          "streetname": "Voie Colette"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment288.jsonld#8575",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie Campo"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Colette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ampo",
+      "triples": [
+        {
+          "streetname": "Voie Campo"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8575",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voie Campo"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8576",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie Campo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie Campo"
+      ]
+    },
+    {
+      "token_string": "olette",
+      "triples": [
+        {
+          "streetname": "Voie Colette"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8575",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voie Colette"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8577",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie Colette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie Colette"
+      ]
+    },
+    {
+      "token_string": "Pirson",
+      "triples": [
+        {
+          "streetname": "Voie Pirson"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8651",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voie Pirson"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8647",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie Pirson"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie Pirson"
+      ]
+    },
+    {
+      "token_string": "Saint Remacle",
+      "triples": [
+        {
+          "streetname": "Voie Saint Remacle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8651",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voie Saint Remacle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8648",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie Saint Remacle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie Saint Remacle"
+      ]
+    },
+    {
+      "token_string": "Verdi",
+      "triples": [
+        {
+          "streetname": "Voie Verdi"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8651",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voie Verdi"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8649",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie Verdi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie Verdi"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8651",
+              "@type": "tree:Node",
+              "token_string": "e "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8653",
+              "@type": "tree:Node",
+              "token_string": "sinage de"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8569",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voie Abbé"
+        },
+        {
+          "streetname": "Voie Campo"
+        },
+        {
+          "streetname": "Voie Colette"
+        },
+        {
+          "streetname": "Voie de Comblain"
+        },
+        {
+          "streetname": "Voie de Liège"
+        },
+        {
+          "streetname": "Voie de Maastricht"
+        },
+        {
+          "streetname": "Voie de Pierroi"
+        },
+        {
+          "streetname": "Voie Pirson"
+        },
+        {
+          "streetname": "Voie Saint Remacle"
+        },
+        {
+          "streetname": "Voie Verdi"
+        }
+      ],
+      "total_children_count": 65,
+      "@id": "fragment288.jsonld#8650",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie Abbé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Campo"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Colette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Comblain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Liège"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Maastricht"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Pierroi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Pirson"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Saint Remacle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Verdi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8573",
+              "@type": "tree:Node",
+              "token_string": "Abbé"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8575",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment287.jsonld#8620",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8647",
+              "@type": "tree:Node",
+              "token_string": "Pirson"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8648",
+              "@type": "tree:Node",
+              "token_string": "Saint Remacle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8649",
+              "@type": "tree:Node",
+              "token_string": "Verdi"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8650",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voie Abbé"
+        },
+        {
+          "streetname": "Voie Campo"
+        },
+        {
+          "streetname": "Voie Colette"
+        },
+        {
+          "streetname": "Voie de Comblain"
+        },
+        {
+          "streetname": "Voie de Liège"
+        },
+        {
+          "streetname": "Voie de Maastricht"
+        },
+        {
+          "streetname": "Voie de Pierroi"
+        },
+        {
+          "streetname": "Voie Pirson"
+        },
+        {
+          "streetname": "Voie Saint Remacle"
+        },
+        {
+          "streetname": "Voie Verdi"
+        }
+      ],
+      "total_children_count": 59,
+      "@id": "fragment288.jsonld#8651",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie Abbé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Campo"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Colette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Comblain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Liège"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Maastricht"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Pierroi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Pirson"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Saint Remacle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie Verdi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sinage de",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8654",
+              "@type": "tree:Node",
+              "token_string": " la Croatie"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8656",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8650",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voisinage de la Croatie"
+        },
+        {
+          "streetname": "Voisinage des Cellites"
+        },
+        {
+          "streetname": "Voisinage des Griottes"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment288.jsonld#8653",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voisinage de la Croatie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voisinage des Cellites"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voisinage des Griottes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " la Croatie",
+      "triples": [
+        {
+          "streetname": "Voisinage de la Croatie"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8653",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voisinage de la Croatie"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8654",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voisinage de la Croatie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voisinage de la Croatie"
+      ]
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8657",
+              "@type": "tree:Node",
+              "token_string": "Cellites"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8658",
+              "@type": "tree:Node",
+              "token_string": "Griottes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8653",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voisinage des Cellites"
+        },
+        {
+          "streetname": "Voisinage des Griottes"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment288.jsonld#8656",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voisinage des Cellites"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voisinage des Griottes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Cellites",
+      "triples": [
+        {
+          "streetname": "Voisinage des Cellites"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8656",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voisinage des Cellites"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8657",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voisinage des Cellites"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voisinage des Cellites"
+      ]
+    },
+    {
+      "token_string": "Griottes",
+      "triples": [
+        {
+          "streetname": "Voisinage des Griottes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8656",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voisinage des Griottes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8658",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voisinage des Griottes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voisinage des Griottes"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8662",
+              "@type": "tree:Node",
+              "token_string": "-Korff-Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8663",
+              "@type": "tree:Node",
+              "token_string": "s"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8569",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Von-Korff-Strasse"
+        },
+        {
+          "streetname": "Vons"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment288.jsonld#8661",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Von-Korff-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "-Korff-Strasse",
+      "triples": [
+        {
+          "streetname": "Von-Korff-Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8661",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Von-Korff-Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8662",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Von-Korff-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Von-Korff-Strasse"
+      ]
+    },
+    {
+      "token_string": "s",
+      "triples": [
+        {
+          "streetname": "Vons"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8661",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vons"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8663",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vons"
+      ]
+    },
+    {
+      "token_string": "s",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8666",
+              "@type": "tree:Node",
+              "token_string": "engasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8668",
+              "@type": "tree:Node",
+              "token_string": "s"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8569",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vosengasse"
+        },
+        {
+          "streetname": "Vossengasse"
+        },
+        {
+          "streetname": "Vossölder"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment288.jsonld#8665",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vosengasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vossengasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vossölder"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "engasse",
+      "triples": [
+        {
+          "streetname": "Vosengasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8665",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vosengasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8666",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vosengasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vosengasse"
+      ]
+    },
+    {
+      "token_string": "s",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8669",
+              "@type": "tree:Node",
+              "token_string": "engasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8670",
+              "@type": "tree:Node",
+              "token_string": "ölder"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8665",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vossengasse"
+        },
+        {
+          "streetname": "Vossölder"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment288.jsonld#8668",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vossengasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vossölder"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "engasse",
+      "triples": [
+        {
+          "streetname": "Vossengasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8668",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vossengasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8669",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vossengasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vossengasse"
+      ]
+    },
+    {
+      "token_string": "ölder",
+      "triples": [
+        {
+          "streetname": "Vossölder"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8668",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Vossölder"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8670",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vossölder"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vossölder"
+      ]
+    },
+    {
+      "token_string": "ulfeld",
+      "triples": [
+        {
+          "streetname": "Voulfeld"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8569",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voulfeld"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8671",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voulfeld"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voulfeld"
+      ]
+    },
+    {
+      "token_string": "ye ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8675",
+              "@type": "tree:Node",
+              "token_string": "Giay"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment288.jsonld#8676",
+              "@type": "tree:Node",
+              "token_string": "Ma Campagne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8569",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voye Giay"
+        },
+        {
+          "streetname": "Voye Ma Campagne"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment288.jsonld#8674",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voye Giay"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voye Ma Campagne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Giay",
+      "triples": [
+        {
+          "streetname": "Voye Giay"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8674",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voye Giay"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8675",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voye Giay"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voye Giay"
+      ]
+    },
+    {
+      "token_string": "Ma Campagne",
+      "triples": [
+        {
+          "streetname": "Voye Ma Campagne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment288.jsonld#8674",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Voye Ma Campagne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment288.jsonld#8676",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voye Ma Campagne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voye Ma Campagne"
+      ]
+    }
+  ]
+}

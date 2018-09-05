@@ -1,0 +1,3669 @@
+{
+  "root_node_id": "3536",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment114.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "ille",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Basseille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.887405023335749",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.41031360783726"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3509",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Basseille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.887405023335749",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.41031360783726"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3507",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Basseille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Basseille"
+      ]
+    },
+    {
+      "token_string": "asse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Basse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4062924476497654",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.50438654532665"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3507",
+              "@type": "tree:Node",
+              "token_string": "ille"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3513",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Basse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4062924476497654",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.50438654532665"
+        },
+        {
+          "http://example.com/terms#name": "La Basseille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.887405023335749",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.41031360783726"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "streetsfragment114.jsonld#3509",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Basse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Basseille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Basse"
+      ]
+    },
+    {
+      "token_string": "elle Liégeoise",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Belle Liégeoise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3171273081628163",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.73566539500423"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3513",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Belle Liégeoise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3171273081628163",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.73566539500423"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3510",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Belle Liégeoise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Belle Liégeoise"
+      ]
+    },
+    {
+      "token_string": "riqueterie",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Briqueterie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.217576975812514",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78227702732787"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3513",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Briqueterie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.217576975812514",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78227702732787"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3511",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Briqueterie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Briqueterie"
+      ]
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3509",
+              "@type": "tree:Node",
+              "token_string": "asse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3510",
+              "@type": "tree:Node",
+              "token_string": "elle Liégeoise"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3511",
+              "@type": "tree:Node",
+              "token_string": "riqueterie"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Basse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4062924476497654",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.50438654532665"
+        },
+        {
+          "http://example.com/terms#name": "La Basseille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.887405023335749",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.41031360783726"
+        },
+        {
+          "http://example.com/terms#name": "La Belle Liégeoise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3171273081628163",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.73566539500423"
+        },
+        {
+          "http://example.com/terms#name": "La Briqueterie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.217576975812514",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78227702732787"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment114.jsonld#3513",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Basse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Basseille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Belle Liégeoise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Briqueterie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3516",
+              "@type": "tree:Node",
+              "token_string": "ense"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3518",
+              "@type": "tree:Node",
+              "token_string": "ha"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3521",
+              "@type": "tree:Node",
+              "token_string": "lef des Champs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3522",
+              "@type": "tree:Node",
+              "token_string": "roquette"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Cense",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.139057917877198",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.49938281369776"
+        },
+        {
+          "http://example.com/terms#name": "La Chaussée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.879376487124738",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.51383648025582"
+        },
+        {
+          "http://example.com/terms#name": "La Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1398282554213526",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.68638438262401"
+        },
+        {
+          "http://example.com/terms#name": "La Clef des Champs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.807496479830118",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.056384845695625"
+        },
+        {
+          "http://example.com/terms#name": "La Croquette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.969600657417726",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.58683984995881"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment114.jsonld#3515",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Cense"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Chaussée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Clef des Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Croquette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ense",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Cense",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.139057917877198",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.49938281369776"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3515",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Cense",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.139057917877198",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.49938281369776"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3516",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Cense"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Cense"
+      ]
+    },
+    {
+      "token_string": "ha",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3519",
+              "@type": "tree:Node",
+              "token_string": "ussée"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3520",
+              "@type": "tree:Node",
+              "token_string": "vée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3515",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Chaussée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.879376487124738",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.51383648025582"
+        },
+        {
+          "http://example.com/terms#name": "La Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1398282554213526",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.68638438262401"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment114.jsonld#3518",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Chaussée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Chavée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ussée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Chaussée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.879376487124738",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.51383648025582"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3518",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Chaussée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.879376487124738",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.51383648025582"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3519",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Chaussée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Chaussée"
+      ]
+    },
+    {
+      "token_string": "vée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1398282554213526",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.68638438262401"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3518",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1398282554213526",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.68638438262401"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3520",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Chavée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Chavée"
+      ]
+    },
+    {
+      "token_string": "lef des Champs",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Clef des Champs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.807496479830118",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.056384845695625"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3515",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Clef des Champs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.807496479830118",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.056384845695625"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3521",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Clef des Champs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Clef des Champs"
+      ]
+    },
+    {
+      "token_string": "roquette",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Croquette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.969600657417726",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.58683984995881"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3515",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Croquette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.969600657417726",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.58683984995881"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3522",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Croquette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Croquette"
+      ]
+    },
+    {
+      "token_string": "F",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3525",
+              "@type": "tree:Node",
+              "token_string": "erme du Bru"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3526",
+              "@type": "tree:Node",
+              "token_string": "ieltz"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Ferme du Bru",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.305875526985964",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.281567257472"
+        },
+        {
+          "http://example.com/terms#name": "La Fieltz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3323134702867625",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.257546775677156"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment114.jsonld#3524",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Ferme du Bru"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Fieltz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erme du Bru",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Ferme du Bru",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.305875526985964",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.281567257472"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3524",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Ferme du Bru",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.305875526985964",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.281567257472"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3525",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Ferme du Bru"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Ferme du Bru"
+      ]
+    },
+    {
+      "token_string": "ieltz",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Fieltz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3323134702867625",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.257546775677156"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3524",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Fieltz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3323134702867625",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.257546775677156"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3526",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Fieltz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Fieltz"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3513",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3515",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3524",
+              "@type": "tree:Node",
+              "token_string": "F"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3538",
+              "@type": "tree:Node",
+              "token_string": "Journée"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3542",
+              "@type": "tree:Node",
+              "token_string": "Marlière"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3550",
+              "@type": "tree:Node",
+              "token_string": "Neuville"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3568",
+              "@type": "tree:Node",
+              "token_string": "Petite "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3576",
+              "@type": "tree:Node",
+              "token_string": "rue de l'"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3579",
+              "@type": "tree:Node",
+              "token_string": "R"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3593",
+              "@type": "tree:Node",
+              "token_string": "S"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3599",
+              "@type": "tree:Node",
+              "token_string": "V"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3536",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Basse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4062924476497654",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.50438654532665"
+        },
+        {
+          "http://example.com/terms#name": "La Basseille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.887405023335749",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.41031360783726"
+        },
+        {
+          "http://example.com/terms#name": "La Belle Liégeoise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3171273081628163",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.73566539500423"
+        },
+        {
+          "http://example.com/terms#name": "La Briqueterie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.217576975812514",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78227702732787"
+        },
+        {
+          "http://example.com/terms#name": "La Cense",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.139057917877198",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.49938281369776"
+        },
+        {
+          "http://example.com/terms#name": "La Chaussée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.879376487124738",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.51383648025582"
+        },
+        {
+          "http://example.com/terms#name": "La Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1398282554213526",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.68638438262401"
+        },
+        {
+          "http://example.com/terms#name": "La Clef des Champs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.807496479830118",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.056384845695625"
+        },
+        {
+          "http://example.com/terms#name": "La Croquette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.969600657417726",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.58683984995881"
+        },
+        {
+          "http://example.com/terms#name": "La Ferme du Bru",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.305875526985964",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.281567257472"
+        }
+      ],
+      "total_children_count": 38,
+      "@id": "streetsfragment114.jsonld#3528",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Basse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Basseille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Belle Liégeoise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Briqueterie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Cense"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Chaussée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Clef des Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Croquette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Ferme du Bru"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Elsenborn",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lager-Camp Elsenborn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.779417154438647",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.06201012261206"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3532",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lager-Camp Elsenborn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.779417154438647",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.06201012261206"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3530",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lager-Camp Elsenborn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lager-Camp Elsenborn"
+      ]
+    },
+    {
+      "token_string": "ger",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3532",
+              "@type": "tree:Node",
+              "token_string": "-Camp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3533",
+              "@type": "tree:Node",
+              "token_string": " Elsenborn Camp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3534",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3536",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lager-Camp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.202275146751112",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.984239556826516"
+        },
+        {
+          "http://example.com/terms#name": "Lager-Camp Elsenborn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.779417154438647",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.06201012261206"
+        },
+        {
+          "http://example.com/terms#name": "Lager Elsenborn Camp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.260896163490226",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.22987912336775"
+        },
+        {
+          "http://example.com/terms#name": "Lagerstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6112743422737825",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.303509538937305"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment114.jsonld#3531",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lager-Camp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lager-Camp Elsenborn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lager Elsenborn Camp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lagerstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "-Camp",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lager-Camp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.202275146751112",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.984239556826516"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3530",
+              "@type": "tree:Node",
+              "token_string": " Elsenborn"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lager-Camp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.202275146751112",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.984239556826516"
+        },
+        {
+          "http://example.com/terms#name": "Lager-Camp Elsenborn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.779417154438647",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.06201012261206"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "streetsfragment114.jsonld#3532",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lager-Camp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lager-Camp Elsenborn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lager-Camp"
+      ]
+    },
+    {
+      "token_string": " Elsenborn Camp",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lager Elsenborn Camp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.260896163490226",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.22987912336775"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lager Elsenborn Camp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.260896163490226",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.22987912336775"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3533",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lager Elsenborn Camp"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lager Elsenborn Camp"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lagerstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6112743422737825",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.303509538937305"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lagerstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6112743422737825",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.303509538937305"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3534",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lagerstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lagerstrasse"
+      ]
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3528",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3531",
+              "@type": "tree:Node",
+              "token_string": "ger"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3543",
+              "@type": "tree:Node",
+              "token_string": "mouline L'Enclos Hardy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3551",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3587",
+              "@type": "tree:Node",
+              "token_string": "sche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3596",
+              "@type": "tree:Node",
+              "token_string": "tenbau"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3597",
+              "@type": "tree:Node",
+              "token_string": "urian-Moris-Strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment111.jsonld#3535",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Basse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4062924476497654",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.50438654532665"
+        },
+        {
+          "http://example.com/terms#name": "La Basseille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.887405023335749",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.41031360783726"
+        },
+        {
+          "http://example.com/terms#name": "La Belle Liégeoise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3171273081628163",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.73566539500423"
+        },
+        {
+          "http://example.com/terms#name": "La Briqueterie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.217576975812514",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78227702732787"
+        },
+        {
+          "http://example.com/terms#name": "La Cense",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.139057917877198",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.49938281369776"
+        },
+        {
+          "http://example.com/terms#name": "La Chaussée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.879376487124738",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.51383648025582"
+        },
+        {
+          "http://example.com/terms#name": "La Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1398282554213526",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.68638438262401"
+        },
+        {
+          "http://example.com/terms#name": "La Clef des Champs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.807496479830118",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.056384845695625"
+        },
+        {
+          "http://example.com/terms#name": "La Croquette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.969600657417726",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.58683984995881"
+        },
+        {
+          "http://example.com/terms#name": "La Ferme du Bru",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.305875526985964",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.281567257472"
+        }
+      ],
+      "total_children_count": 67,
+      "@id": "streetsfragment114.jsonld#3536",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Basse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Basseille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Belle Liégeoise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Briqueterie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Cense"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Chaussée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Clef des Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Croquette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Ferme du Bru"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Journée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Journée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2791183329307243",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31644574344618"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Journée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2791183329307243",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31644574344618"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3538",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Journée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Journée"
+      ]
+    },
+    {
+      "token_string": "Marlière",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Marlière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5156419080000116",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.28893293603899"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Marlière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5156419080000116",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.28893293603899"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3542",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Marlière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Marlière"
+      ]
+    },
+    {
+      "token_string": "mouline L'Enclos Hardy",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lamouline L'Enclos Hardy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7367765418185095",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04837758125228"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3536",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lamouline L'Enclos Hardy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7367765418185095",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04837758125228"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3543",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lamouline L'Enclos Hardy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lamouline L'Enclos Hardy"
+      ]
+    },
+    {
+      "token_string": "graben",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Landgraben",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7639774532847645",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.0293109866545"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3552",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Landgraben",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7639774532847645",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.0293109866545"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3548",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Landgraben"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Landgraben"
+      ]
+    },
+    {
+      "token_string": "wehring",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Landwehring",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9627095002342805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.861045192021194"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3552",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Landwehring",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9627095002342805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.861045192021194"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3549",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Landwehring"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Landwehring"
+      ]
+    },
+    {
+      "token_string": "Neuville",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Neuville",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.402683347880121",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.1255846907062"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Neuville",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.402683347880121",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.1255846907062"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3550",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Neuville"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Neuville"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3552",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3561",
+              "@type": "tree:Node",
+              "token_string": "g"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3565",
+              "@type": "tree:Node",
+              "token_string": "schepeisch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3566",
+              "@type": "tree:Node",
+              "token_string": "zerath"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3536",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Landgraben",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7639774532847645",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.0293109866545"
+        },
+        {
+          "http://example.com/terms#name": "Landwehring",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9627095002342805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.861045192021194"
+        },
+        {
+          "http://example.com/terms#name": "Langenbend",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7529379412949084",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.32966300354536"
+        },
+        {
+          "http://example.com/terms#name": "Langen Driescher",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.781407444311848",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09325817914444"
+        },
+        {
+          "http://example.com/terms#name": "Langergasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5313494519983113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.726381537963626"
+        },
+        {
+          "http://example.com/terms#name": "Langesthal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.042875809910235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.822779300795084"
+        },
+        {
+          "http://example.com/terms#name": "Langmüs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.860116920820553",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.45020597964677"
+        },
+        {
+          "http://example.com/terms#name": "Langstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9952794518039765",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.16529040558241"
+        },
+        {
+          "http://example.com/terms#name": "Lanschepeisch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.638022678266699",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.67617546780834"
+        },
+        {
+          "http://example.com/terms#name": "Lanzerath",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2728207572450105",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.960587532843746"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "streetsfragment114.jsonld#3551",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Landgraben"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Landwehring"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langenbend"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langen Driescher"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langesthal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langmüs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lanschepeisch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lanzerath"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3548",
+              "@type": "tree:Node",
+              "token_string": "graben"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3549",
+              "@type": "tree:Node",
+              "token_string": "wehring"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3551",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Landgraben",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7639774532847645",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.0293109866545"
+        },
+        {
+          "http://example.com/terms#name": "Landwehring",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9627095002342805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.861045192021194"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment114.jsonld#3552",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Landgraben"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Landwehring"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bend",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Langenbend",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7529379412949084",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.32966300354536"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3558",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Langenbend",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7529379412949084",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.32966300354536"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3555",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langenbend"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Langenbend"
+      ]
+    },
+    {
+      "token_string": " Driescher",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Langen Driescher",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.781407444311848",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09325817914444"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3558",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Langen Driescher",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.781407444311848",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09325817914444"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3556",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langen Driescher"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Langen Driescher"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3555",
+              "@type": "tree:Node",
+              "token_string": "bend"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3556",
+              "@type": "tree:Node",
+              "token_string": " Driescher"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3562",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Langenbend",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7529379412949084",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.32966300354536"
+        },
+        {
+          "http://example.com/terms#name": "Langen Driescher",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.781407444311848",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09325817914444"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment114.jsonld#3558",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langenbend"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langen Driescher"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rgasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Langergasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5313494519983113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.726381537963626"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3562",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Langergasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5313494519983113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.726381537963626"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3559",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langergasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Langergasse"
+      ]
+    },
+    {
+      "token_string": "sthal",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Langesthal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.042875809910235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.822779300795084"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3562",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Langesthal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.042875809910235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.822779300795084"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3560",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langesthal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Langesthal"
+      ]
+    },
+    {
+      "token_string": "g",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3562",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3563",
+              "@type": "tree:Node",
+              "token_string": "müs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3564",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3551",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Langenbend",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7529379412949084",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.32966300354536"
+        },
+        {
+          "http://example.com/terms#name": "Langen Driescher",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.781407444311848",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09325817914444"
+        },
+        {
+          "http://example.com/terms#name": "Langergasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5313494519983113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.726381537963626"
+        },
+        {
+          "http://example.com/terms#name": "Langesthal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.042875809910235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.822779300795084"
+        },
+        {
+          "http://example.com/terms#name": "Langmüs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.860116920820553",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.45020597964677"
+        },
+        {
+          "http://example.com/terms#name": "Langstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9952794518039765",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.16529040558241"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "streetsfragment114.jsonld#3561",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langenbend"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langen Driescher"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langesthal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langmüs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3558",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3559",
+              "@type": "tree:Node",
+              "token_string": "rgasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3560",
+              "@type": "tree:Node",
+              "token_string": "sthal"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3561",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Langenbend",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7529379412949084",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.32966300354536"
+        },
+        {
+          "http://example.com/terms#name": "Langen Driescher",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.781407444311848",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09325817914444"
+        },
+        {
+          "http://example.com/terms#name": "Langergasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5313494519983113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.726381537963626"
+        },
+        {
+          "http://example.com/terms#name": "Langesthal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.042875809910235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.822779300795084"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment114.jsonld#3562",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langenbend"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langen Driescher"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langesthal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "müs",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Langmüs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.860116920820553",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.45020597964677"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3561",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Langmüs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.860116920820553",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.45020597964677"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3563",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langmüs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Langmüs"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Langstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9952794518039765",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.16529040558241"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3561",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Langstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9952794518039765",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.16529040558241"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3564",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Langstrasse"
+      ]
+    },
+    {
+      "token_string": "schepeisch",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lanschepeisch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.638022678266699",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.67617546780834"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3551",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lanschepeisch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.638022678266699",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.67617546780834"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3565",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lanschepeisch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lanschepeisch"
+      ]
+    },
+    {
+      "token_string": "zerath",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lanzerath",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2728207572450105",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.960587532843746"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3551",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lanzerath",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2728207572450105",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.960587532843746"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3566",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lanzerath"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lanzerath"
+      ]
+    },
+    {
+      "token_string": "Petite ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3569",
+              "@type": "tree:Node",
+              "token_string": "Bouvière"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3570",
+              "@type": "tree:Node",
+              "token_string": "Chavée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Petite Bouvière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.685807348587362",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.95470573877726"
+        },
+        {
+          "http://example.com/terms#name": "La Petite Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.098714287005194",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.26533973107832"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment114.jsonld#3568",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Petite Bouvière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Petite Chavée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Bouvière",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Petite Bouvière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.685807348587362",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.95470573877726"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3568",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Petite Bouvière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.685807348587362",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.95470573877726"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3569",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Petite Bouvière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Petite Bouvière"
+      ]
+    },
+    {
+      "token_string": "Chavée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Petite Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.098714287005194",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.26533973107832"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3568",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Petite Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.098714287005194",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.26533973107832"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3570",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Petite Chavée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Petite Chavée"
+      ]
+    },
+    {
+      "token_string": "aille",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Rocaille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5353533504955323",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.136986712084074"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3580",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Rocaille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5353533504955323",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.136986712084074"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3573",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Rocaille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Rocaille"
+      ]
+    },
+    {
+      "token_string": "helle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Rochelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8431279910896294",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.0180066384507"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3580",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Rochelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8431279910896294",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.0180066384507"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3574",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Rochelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Rochelle"
+      ]
+    },
+    {
+      "token_string": "rue de l'",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3577",
+              "@type": "tree:Node",
+              "token_string": "Entreprise"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3578",
+              "@type": "tree:Node",
+              "token_string": "Initiative"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La rue de l'Entreprise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3984888281501995",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.66878901344738"
+        },
+        {
+          "http://example.com/terms#name": "La rue de l'Initiative",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3413557791825275",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.42342069534212"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment114.jsonld#3576",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La rue de l'Entreprise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La rue de l'Initiative"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Entreprise",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La rue de l'Entreprise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3984888281501995",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.66878901344738"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3576",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La rue de l'Entreprise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3984888281501995",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.66878901344738"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3577",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La rue de l'Entreprise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La rue de l'Entreprise"
+      ]
+    },
+    {
+      "token_string": "Initiative",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La rue de l'Initiative",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3413557791825275",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.42342069534212"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3576",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La rue de l'Initiative",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3413557791825275",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.42342069534212"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3578",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La rue de l'Initiative"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La rue de l'Initiative"
+      ]
+    },
+    {
+      "token_string": "R",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3580",
+              "@type": "tree:Node",
+              "token_string": "oc"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3581",
+              "@type": "tree:Node",
+              "token_string": "uelle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Rocaille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5353533504955323",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.136986712084074"
+        },
+        {
+          "http://example.com/terms#name": "La Rochelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8431279910896294",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.0180066384507"
+        },
+        {
+          "http://example.com/terms#name": "La Ruelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.592359055227718",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.16438221589149"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment114.jsonld#3579",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Rocaille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Rochelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Ruelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "oc",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3573",
+              "@type": "tree:Node",
+              "token_string": "aille"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3574",
+              "@type": "tree:Node",
+              "token_string": "helle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3579",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Rocaille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5353533504955323",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.136986712084074"
+        },
+        {
+          "http://example.com/terms#name": "La Rochelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8431279910896294",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.0180066384507"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment114.jsonld#3580",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Rocaille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Rochelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "uelle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Ruelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.592359055227718",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.16438221589149"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3579",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Ruelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.592359055227718",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.16438221589149"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3581",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Ruelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Ruelle"
+      ]
+    },
+    {
+      "token_string": "ière",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Sablière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.049304802444344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.94912892813188"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3594",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Sablière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.049304802444344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.94912892813188"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3584",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Sablière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Sablière"
+      ]
+    },
+    {
+      "token_string": "onnière",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Sablonnière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7220063830268755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.49573008826639"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3594",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Sablonnière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7220063830268755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.49573008826639"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3585",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Sablonnière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Sablonnière"
+      ]
+    },
+    {
+      "token_string": "sche",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3588",
+              "@type": "tree:Node",
+              "token_string": "id"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3590",
+              "@type": "tree:Node",
+              "token_string": "ter"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3536",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lascheid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6679189158012195",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.237618532509714"
+        },
+        {
+          "http://example.com/terms#name": "Lascheterfeld",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3619401685455435",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.41556688349561"
+        },
+        {
+          "http://example.com/terms#name": "Lascheterweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.600315927107477",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.54594916404671"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment114.jsonld#3587",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lascheid"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lascheterfeld"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lascheterweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "id",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lascheid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6679189158012195",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.237618532509714"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3587",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lascheid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6679189158012195",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.237618532509714"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3588",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lascheid"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lascheid"
+      ]
+    },
+    {
+      "token_string": "ter",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3591",
+              "@type": "tree:Node",
+              "token_string": "feld"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3592",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3587",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lascheterfeld",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3619401685455435",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.41556688349561"
+        },
+        {
+          "http://example.com/terms#name": "Lascheterweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.600315927107477",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.54594916404671"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment114.jsonld#3590",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lascheterfeld"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lascheterweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "feld",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lascheterfeld",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3619401685455435",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.41556688349561"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3590",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lascheterfeld",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3619401685455435",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.41556688349561"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3591",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lascheterfeld"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lascheterfeld"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lascheterweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.600315927107477",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.54594916404671"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3590",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lascheterweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.600315927107477",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.54594916404671"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3592",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lascheterweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lascheterweg"
+      ]
+    },
+    {
+      "token_string": "S",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3594",
+              "@type": "tree:Node",
+              "token_string": "abl"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3595",
+              "@type": "tree:Node",
+              "token_string": "trée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Sablière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.049304802444344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.94912892813188"
+        },
+        {
+          "http://example.com/terms#name": "La Sablonnière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7220063830268755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.49573008826639"
+        },
+        {
+          "http://example.com/terms#name": "La Strée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.953085951848165",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.880187161251385"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment114.jsonld#3593",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Sablière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Sablonnière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Strée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "abl",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3584",
+              "@type": "tree:Node",
+              "token_string": "ière"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3585",
+              "@type": "tree:Node",
+              "token_string": "onnière"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3593",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Sablière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.049304802444344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.94912892813188"
+        },
+        {
+          "http://example.com/terms#name": "La Sablonnière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7220063830268755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.49573008826639"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment114.jsonld#3594",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Sablière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Sablonnière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "trée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Strée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.953085951848165",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.880187161251385"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3593",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Strée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.953085951848165",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.880187161251385"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3595",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Strée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Strée"
+      ]
+    },
+    {
+      "token_string": "tenbau",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Latenbau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8701735642959765",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.75271465892007"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3536",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Latenbau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8701735642959765",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.75271465892007"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3596",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Latenbau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Latenbau"
+      ]
+    },
+    {
+      "token_string": "urian-Moris-Strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Laurian-Moris-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6890441131291345",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.9570690690243"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3536",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Laurian-Moris-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6890441131291345",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.9570690690243"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3597",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Laurian-Moris-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Laurian-Moris-Strasse"
+      ]
+    },
+    {
+      "token_string": "V",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3600",
+              "@type": "tree:Node",
+              "token_string": "enelle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3601",
+              "@type": "tree:Node",
+              "token_string": "oierie"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Venelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.872224268678078",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.40852706480228"
+        },
+        {
+          "http://example.com/terms#name": "La Voierie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3611647136150706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.07173697336564"
+        },
+        {
+          "http://example.com/terms#name": "La Voierie Orgeo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4419683526801146",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04177368512559"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment114.jsonld#3599",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Venelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Voierie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Voierie Orgeo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "enelle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Venelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.872224268678078",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.40852706480228"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3599",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Venelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.872224268678078",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.40852706480228"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3600",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Venelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Venelle"
+      ]
+    },
+    {
+      "token_string": "oierie",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Voierie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3611647136150706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.07173697336564"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment114.jsonld#3602",
+              "@type": "tree:Node",
+              "token_string": " Orgeo"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3599",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Voierie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3611647136150706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.07173697336564"
+        },
+        {
+          "http://example.com/terms#name": "La Voierie Orgeo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4419683526801146",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04177368512559"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "streetsfragment114.jsonld#3601",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Voierie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Voierie Orgeo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Voierie"
+      ]
+    },
+    {
+      "token_string": " Orgeo",
+      "triples": [
+        {
+          "http://example.com/terms#name": "La Voierie Orgeo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4419683526801146",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04177368512559"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment114.jsonld#3601",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "La Voierie Orgeo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4419683526801146",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04177368512559"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment114.jsonld#3602",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Voierie Orgeo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Voierie Orgeo"
+      ]
+    }
+  ]
+}

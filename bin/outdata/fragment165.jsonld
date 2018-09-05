@@ -1,0 +1,2974 @@
+{
+  "root_node_id": "4990",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment165.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "fea",
+      "triples": [
+        {
+          "streetname": "Rue Cafea"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4991",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Cafea"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#4978",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Cafea"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Cafea"
+      ]
+    },
+    {
+      "token_string": "m",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#4981",
+              "@type": "tree:Node",
+              "token_string": "ille Schmit"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#4986",
+              "@type": "tree:Node",
+              "token_string": "p"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4991",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Camille Schmit"
+        },
+        {
+          "streetname": "Rue Campagne del'Bossette"
+        },
+        {
+          "streetname": "Rue Campagne du Moulin"
+        },
+        {
+          "streetname": "Rue Camp des Baltes"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment165.jsonld#4980",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Camille Schmit"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Campagne del'Bossette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Campagne du Moulin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Camp des Baltes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ille Schmit",
+      "triples": [
+        {
+          "streetname": "Rue Camille Schmit"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4980",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Camille Schmit"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#4981",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Camille Schmit"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Camille Schmit"
+      ]
+    },
+    {
+      "token_string": "el'Bossette",
+      "triples": [
+        {
+          "streetname": "Rue Campagne del'Bossette"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4987",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Campagne del'Bossette"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#4984",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Campagne del'Bossette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Campagne del'Bossette"
+      ]
+    },
+    {
+      "token_string": "u Moulin",
+      "triples": [
+        {
+          "streetname": "Rue Campagne du Moulin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4987",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Campagne du Moulin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#4985",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Campagne du Moulin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Campagne du Moulin"
+      ]
+    },
+    {
+      "token_string": "p",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#4987",
+              "@type": "tree:Node",
+              "token_string": "agne d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#4988",
+              "@type": "tree:Node",
+              "token_string": " des Baltes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4980",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Campagne del'Bossette"
+        },
+        {
+          "streetname": "Rue Campagne du Moulin"
+        },
+        {
+          "streetname": "Rue Camp des Baltes"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment165.jsonld#4986",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Campagne del'Bossette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Campagne du Moulin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Camp des Baltes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "agne d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#4984",
+              "@type": "tree:Node",
+              "token_string": "el'Bossette"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#4985",
+              "@type": "tree:Node",
+              "token_string": "u Moulin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4986",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Campagne del'Bossette"
+        },
+        {
+          "streetname": "Rue Campagne du Moulin"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment165.jsonld#4987",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Campagne del'Bossette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Campagne du Moulin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " des Baltes",
+      "triples": [
+        {
+          "streetname": "Rue Camp des Baltes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4986",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Camp des Baltes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#4988",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Camp des Baltes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Camp des Baltes"
+      ]
+    },
+    {
+      "token_string": "roline Popp",
+      "triples": [
+        {
+          "streetname": "Rue Caroline Popp"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4991",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Caroline Popp"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#4989",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Caroline Popp"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Caroline Popp"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#4991",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5017",
+              "@type": "tree:Node",
+              "token_string": "h"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5023",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5027",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5043",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5052",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment253.jsonld#7407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Cafea"
+        },
+        {
+          "streetname": "Rue Camille Schmit"
+        },
+        {
+          "streetname": "Rue Campagne del'Bossette"
+        },
+        {
+          "streetname": "Rue Campagne du Moulin"
+        },
+        {
+          "streetname": "Rue Camp des Baltes"
+        },
+        {
+          "streetname": "Rue Caroline Popp"
+        },
+        {
+          "streetname": "Rue Champ du Moulin"
+        },
+        {
+          "streetname": "Rue Champêtre"
+        },
+        {
+          "streetname": "Rue Chapelle à Fourmis"
+        },
+        {
+          "streetname": "Rue Chapelle Coppée"
+        }
+      ],
+      "total_children_count": 58,
+      "@id": "fragment165.jsonld#4990",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Cafea"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Camille Schmit"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Campagne del'Bossette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Campagne du Moulin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Camp des Baltes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Caroline Popp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Champ du Moulin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Champêtre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Chapelle à Fourmis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Chapelle Coppée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#4978",
+              "@type": "tree:Node",
+              "token_string": "fea"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#4980",
+              "@type": "tree:Node",
+              "token_string": "m"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#4989",
+              "@type": "tree:Node",
+              "token_string": "roline Popp"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4990",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Cafea"
+        },
+        {
+          "streetname": "Rue Camille Schmit"
+        },
+        {
+          "streetname": "Rue Campagne del'Bossette"
+        },
+        {
+          "streetname": "Rue Campagne du Moulin"
+        },
+        {
+          "streetname": "Rue Camp des Baltes"
+        },
+        {
+          "streetname": "Rue Caroline Popp"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "fragment165.jsonld#4991",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Cafea"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Camille Schmit"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Campagne del'Bossette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Campagne du Moulin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Camp des Baltes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Caroline Popp"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " du Moulin",
+      "triples": [
+        {
+          "streetname": "Rue Champ du Moulin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4997",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Champ du Moulin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#4994",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Champ du Moulin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Champ du Moulin"
+      ]
+    },
+    {
+      "token_string": "être",
+      "triples": [
+        {
+          "streetname": "Rue Champêtre"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4997",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Champêtre"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#4995",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Champêtre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Champêtre"
+      ]
+    },
+    {
+      "token_string": "mp",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#4994",
+              "@type": "tree:Node",
+              "token_string": " du Moulin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#4995",
+              "@type": "tree:Node",
+              "token_string": "être"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5018",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Champ du Moulin"
+        },
+        {
+          "streetname": "Rue Champêtre"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment165.jsonld#4997",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Champ du Moulin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Champêtre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "p",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5000",
+              "@type": "tree:Node",
+              "token_string": "échêne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5002",
+              "@type": "tree:Node",
+              "token_string": "elle "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5018",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Chapéchêne"
+        },
+        {
+          "streetname": "Rue Chapelle à Fourmis"
+        },
+        {
+          "streetname": "Rue Chapelle Coppée"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment165.jsonld#4999",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Chapéchêne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Chapelle à Fourmis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Chapelle Coppée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "échêne",
+      "triples": [
+        {
+          "streetname": "Rue Chapéchêne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4999",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Chapéchêne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5000",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Chapéchêne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Chapéchêne"
+      ]
+    },
+    {
+      "token_string": "elle ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5003",
+              "@type": "tree:Node",
+              "token_string": "à Fourmis"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5004",
+              "@type": "tree:Node",
+              "token_string": "Coppée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4999",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Chapelle à Fourmis"
+        },
+        {
+          "streetname": "Rue Chapelle Coppée"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment165.jsonld#5002",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Chapelle à Fourmis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Chapelle Coppée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "à Fourmis",
+      "triples": [
+        {
+          "streetname": "Rue Chapelle à Fourmis"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5002",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Chapelle à Fourmis"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5003",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Chapelle à Fourmis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Chapelle à Fourmis"
+      ]
+    },
+    {
+      "token_string": "Coppée",
+      "triples": [
+        {
+          "streetname": "Rue Chapelle Coppée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5002",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Chapelle Coppée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5004",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Chapelle Coppée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Chapelle Coppée"
+      ]
+    },
+    {
+      "token_string": "rles ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5007",
+              "@type": "tree:Node",
+              "token_string": "Cornet d'Elzius"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5008",
+              "@type": "tree:Node",
+              "token_string": "De Coster"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5009",
+              "@type": "tree:Node",
+              "token_string": "François Loos"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5010",
+              "@type": "tree:Node",
+              "token_string": "Gonthier"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5011",
+              "@type": "tree:Node",
+              "token_string": "Herreman"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5013",
+              "@type": "tree:Node",
+              "token_string": "P"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5016",
+              "@type": "tree:Node",
+              "token_string": "Rogier"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5018",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Charles Cornet d'Elzius"
+        },
+        {
+          "streetname": "Rue Charles De Coster"
+        },
+        {
+          "streetname": "Rue Charles François Loos"
+        },
+        {
+          "streetname": "Rue Charles Gonthier"
+        },
+        {
+          "streetname": "Rue Charles Herreman"
+        },
+        {
+          "streetname": "Rue Charles Pinot Duclos"
+        },
+        {
+          "streetname": "Rue Charles Plisnier"
+        },
+        {
+          "streetname": "Rue Charles Rogier"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "fragment165.jsonld#5006",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Charles Cornet d'Elzius"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles De Coster"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles François Loos"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles Gonthier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles Herreman"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles Pinot Duclos"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles Plisnier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles Rogier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Cornet d'Elzius",
+      "triples": [
+        {
+          "streetname": "Rue Charles Cornet d'Elzius"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5006",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Charles Cornet d'Elzius"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5007",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Charles Cornet d'Elzius"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Charles Cornet d'Elzius"
+      ]
+    },
+    {
+      "token_string": "De Coster",
+      "triples": [
+        {
+          "streetname": "Rue Charles De Coster"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5006",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Charles De Coster"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5008",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Charles De Coster"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Charles De Coster"
+      ]
+    },
+    {
+      "token_string": "François Loos",
+      "triples": [
+        {
+          "streetname": "Rue Charles François Loos"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5006",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Charles François Loos"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5009",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Charles François Loos"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Charles François Loos"
+      ]
+    },
+    {
+      "token_string": "Gonthier",
+      "triples": [
+        {
+          "streetname": "Rue Charles Gonthier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5006",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Charles Gonthier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5010",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Charles Gonthier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Charles Gonthier"
+      ]
+    },
+    {
+      "token_string": "Herreman",
+      "triples": [
+        {
+          "streetname": "Rue Charles Herreman"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5006",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Charles Herreman"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5011",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Charles Herreman"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Charles Herreman"
+      ]
+    },
+    {
+      "token_string": "P",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5014",
+              "@type": "tree:Node",
+              "token_string": "inot Duclos"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5015",
+              "@type": "tree:Node",
+              "token_string": "lisnier"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5006",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Charles Pinot Duclos"
+        },
+        {
+          "streetname": "Rue Charles Plisnier"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment165.jsonld#5013",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Charles Pinot Duclos"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles Plisnier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "inot Duclos",
+      "triples": [
+        {
+          "streetname": "Rue Charles Pinot Duclos"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5013",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Charles Pinot Duclos"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5014",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Charles Pinot Duclos"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Charles Pinot Duclos"
+      ]
+    },
+    {
+      "token_string": "lisnier",
+      "triples": [
+        {
+          "streetname": "Rue Charles Plisnier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5013",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Charles Plisnier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5015",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Charles Plisnier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Charles Plisnier"
+      ]
+    },
+    {
+      "token_string": "Rogier",
+      "triples": [
+        {
+          "streetname": "Rue Charles Rogier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5006",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Charles Rogier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5016",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Charles Rogier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Charles Rogier"
+      ]
+    },
+    {
+      "token_string": "h",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5018",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5019",
+              "@type": "tree:Node",
+              "token_string": "âteau d'Eau"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5021",
+              "@type": "tree:Node",
+              "token_string": "ristian Pineau"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4990",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Champ du Moulin"
+        },
+        {
+          "streetname": "Rue Champêtre"
+        },
+        {
+          "streetname": "Rue Chapéchêne"
+        },
+        {
+          "streetname": "Rue Chapelle à Fourmis"
+        },
+        {
+          "streetname": "Rue Chapelle Coppée"
+        },
+        {
+          "streetname": "Rue Charles Cornet d'Elzius"
+        },
+        {
+          "streetname": "Rue Charles De Coster"
+        },
+        {
+          "streetname": "Rue Charles François Loos"
+        },
+        {
+          "streetname": "Rue Charles Gonthier"
+        },
+        {
+          "streetname": "Rue Charles Herreman"
+        }
+      ],
+      "total_children_count": 22,
+      "@id": "fragment165.jsonld#5017",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Champ du Moulin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Champêtre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Chapéchêne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Chapelle à Fourmis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Chapelle Coppée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles Cornet d'Elzius"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles De Coster"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles François Loos"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles Gonthier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles Herreman"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#4997",
+              "@type": "tree:Node",
+              "token_string": "mp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#4999",
+              "@type": "tree:Node",
+              "token_string": "p"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5006",
+              "@type": "tree:Node",
+              "token_string": "rles "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5020",
+              "@type": "tree:Node",
+              "token_string": "véchamps"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5017",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Champ du Moulin"
+        },
+        {
+          "streetname": "Rue Champêtre"
+        },
+        {
+          "streetname": "Rue Chapéchêne"
+        },
+        {
+          "streetname": "Rue Chapelle à Fourmis"
+        },
+        {
+          "streetname": "Rue Chapelle Coppée"
+        },
+        {
+          "streetname": "Rue Charles Cornet d'Elzius"
+        },
+        {
+          "streetname": "Rue Charles De Coster"
+        },
+        {
+          "streetname": "Rue Charles François Loos"
+        },
+        {
+          "streetname": "Rue Charles Gonthier"
+        },
+        {
+          "streetname": "Rue Charles Herreman"
+        }
+      ],
+      "total_children_count": 19,
+      "@id": "fragment165.jsonld#5018",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Champ du Moulin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Champêtre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Chapéchêne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Chapelle à Fourmis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Chapelle Coppée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles Cornet d'Elzius"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles De Coster"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles François Loos"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles Gonthier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Charles Herreman"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "âteau d'Eau",
+      "triples": [
+        {
+          "streetname": "Rue Château d'Eau"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5017",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Château d'Eau"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5019",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Château d'Eau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Château d'Eau"
+      ]
+    },
+    {
+      "token_string": "véchamps",
+      "triples": [
+        {
+          "streetname": "Rue Chavéchamps"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5018",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Chavéchamps"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5020",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Chavéchamps"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Chavéchamps"
+      ]
+    },
+    {
+      "token_string": "ristian Pineau",
+      "triples": [
+        {
+          "streetname": "Rue Christian Pineau"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5017",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Christian Pineau"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5021",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Christian Pineau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Christian Pineau"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5024",
+              "@type": "tree:Node",
+              "token_string": "aude Strebelle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5025",
+              "@type": "tree:Node",
+              "token_string": "os Spote"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4990",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Claude Strebelle"
+        },
+        {
+          "streetname": "Rue Clos Spote"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment165.jsonld#5023",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Claude Strebelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Clos Spote"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aude Strebelle",
+      "triples": [
+        {
+          "streetname": "Rue Claude Strebelle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5023",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Claude Strebelle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5024",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Claude Strebelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Claude Strebelle"
+      ]
+    },
+    {
+      "token_string": "os Spote",
+      "triples": [
+        {
+          "streetname": "Rue Clos Spote"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5023",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Clos Spote"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5025",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Clos Spote"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Clos Spote"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5028",
+              "@type": "tree:Node",
+              "token_string": "mte Albert du Bois"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5030",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5033",
+              "@type": "tree:Node",
+              "token_string": "penhague"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5034",
+              "@type": "tree:Node",
+              "token_string": "rail"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5036",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4990",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Comte Albert du Bois"
+        },
+        {
+          "streetname": "Rue Condorcet"
+        },
+        {
+          "streetname": "Rue Constant Dozo"
+        },
+        {
+          "streetname": "Rue Copenhague"
+        },
+        {
+          "streetname": "Rue Corail"
+        },
+        {
+          "streetname": "Rue Coupée"
+        },
+        {
+          "streetname": "Rue Coursi"
+        },
+        {
+          "streetname": "Rue Courte"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "fragment165.jsonld#5027",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Comte Albert du Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Condorcet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Constant Dozo"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Copenhague"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Corail"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Coupée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Coursi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Courte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "mte Albert du Bois",
+      "triples": [
+        {
+          "streetname": "Rue Comte Albert du Bois"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5027",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Comte Albert du Bois"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5028",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Comte Albert du Bois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Comte Albert du Bois"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5031",
+              "@type": "tree:Node",
+              "token_string": "dorcet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5032",
+              "@type": "tree:Node",
+              "token_string": "stant Dozo"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5027",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Condorcet"
+        },
+        {
+          "streetname": "Rue Constant Dozo"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment165.jsonld#5030",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Condorcet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Constant Dozo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "dorcet",
+      "triples": [
+        {
+          "streetname": "Rue Condorcet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5030",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Condorcet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5031",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Condorcet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Condorcet"
+      ]
+    },
+    {
+      "token_string": "stant Dozo",
+      "triples": [
+        {
+          "streetname": "Rue Constant Dozo"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5030",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Constant Dozo"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5032",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Constant Dozo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Constant Dozo"
+      ]
+    },
+    {
+      "token_string": "penhague",
+      "triples": [
+        {
+          "streetname": "Rue Copenhague"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5027",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Copenhague"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5033",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Copenhague"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Copenhague"
+      ]
+    },
+    {
+      "token_string": "rail",
+      "triples": [
+        {
+          "streetname": "Rue Corail"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5027",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Corail"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5034",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Corail"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Corail"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5037",
+              "@type": "tree:Node",
+              "token_string": "pée"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5039",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5027",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Coupée"
+        },
+        {
+          "streetname": "Rue Coursi"
+        },
+        {
+          "streetname": "Rue Courte"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment165.jsonld#5036",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Coupée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Coursi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Courte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "pée",
+      "triples": [
+        {
+          "streetname": "Rue Coupée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5036",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Coupée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5037",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Coupée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Coupée"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5040",
+              "@type": "tree:Node",
+              "token_string": "si"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5041",
+              "@type": "tree:Node",
+              "token_string": "te"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5036",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Coursi"
+        },
+        {
+          "streetname": "Rue Courte"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment165.jsonld#5039",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Coursi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Courte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "si",
+      "triples": [
+        {
+          "streetname": "Rue Coursi"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5039",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Coursi"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5040",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Coursi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Coursi"
+      ]
+    },
+    {
+      "token_string": "te",
+      "triples": [
+        {
+          "streetname": "Rue Courte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5039",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Courte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5041",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Courte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Courte"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5044",
+              "@type": "tree:Node",
+              "token_string": "épion"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5045",
+              "@type": "tree:Node",
+              "token_string": "esses des Nûtons"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5047",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4990",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Crépion"
+        },
+        {
+          "streetname": "Rue Cresses des Nûtons"
+        },
+        {
+          "streetname": "Rue Croix de Mission"
+        },
+        {
+          "streetname": "Rue Cronos"
+        },
+        {
+          "streetname": "Rue Croteux"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment165.jsonld#5043",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Crépion"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Cresses des Nûtons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Croix de Mission"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Cronos"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Croteux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "épion",
+      "triples": [
+        {
+          "streetname": "Rue Crépion"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5043",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Crépion"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5044",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Crépion"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Crépion"
+      ]
+    },
+    {
+      "token_string": "esses des Nûtons",
+      "triples": [
+        {
+          "streetname": "Rue Cresses des Nûtons"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5043",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Cresses des Nûtons"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5045",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Cresses des Nûtons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Cresses des Nûtons"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5048",
+              "@type": "tree:Node",
+              "token_string": "ix de Mission"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5049",
+              "@type": "tree:Node",
+              "token_string": "nos"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5050",
+              "@type": "tree:Node",
+              "token_string": "teux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5043",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Croix de Mission"
+        },
+        {
+          "streetname": "Rue Cronos"
+        },
+        {
+          "streetname": "Rue Croteux"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment165.jsonld#5047",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Croix de Mission"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Cronos"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Croteux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ix de Mission",
+      "triples": [
+        {
+          "streetname": "Rue Croix de Mission"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5047",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Croix de Mission"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5048",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Croix de Mission"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Croix de Mission"
+      ]
+    },
+    {
+      "token_string": "nos",
+      "triples": [
+        {
+          "streetname": "Rue Cronos"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5047",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Cronos"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5049",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Cronos"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Cronos"
+      ]
+    },
+    {
+      "token_string": "teux",
+      "triples": [
+        {
+          "streetname": "Rue Croteux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5047",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Croteux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5050",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Croteux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Croteux"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5053",
+              "@type": "tree:Node",
+              "token_string": "pis de Camargo"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment165.jsonld#5054",
+              "@type": "tree:Node",
+              "token_string": "ré Labie"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#4990",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Cupis de Camargo"
+        },
+        {
+          "streetname": "Rue Curé Labie"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment165.jsonld#5052",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Cupis de Camargo"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Curé Labie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "pis de Camargo",
+      "triples": [
+        {
+          "streetname": "Rue Cupis de Camargo"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5052",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Cupis de Camargo"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5053",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Cupis de Camargo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Cupis de Camargo"
+      ]
+    },
+    {
+      "token_string": "ré Labie",
+      "triples": [
+        {
+          "streetname": "Rue Curé Labie"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment165.jsonld#5052",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Curé Labie"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment165.jsonld#5054",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Curé Labie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Curé Labie"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "root_node_id": "3499",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment110.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "gasse",
+      "triples": [
+        {
+          "streetname": "Kuhgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment110.jsonld#3500",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kuhgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment110.jsonld#3497",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kuhgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kuhgasse"
+      ]
+    },
+    {
+      "token_string": "nenbrunnen",
+      "triples": [
+        {
+          "streetname": "Kuhnenbrunnen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment110.jsonld#3500",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kuhnenbrunnen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment110.jsonld#3498",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kuhnenbrunnen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kuhnenbrunnen"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment110.jsonld#3500",
+              "@type": "tree:Node",
+              "token_string": "h"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment110.jsonld#3501",
+              "@type": "tree:Node",
+              "token_string": "pferstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment110.jsonld#3503",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3344",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kuhgasse"
+        },
+        {
+          "streetname": "Kuhnenbrunnen"
+        },
+        {
+          "streetname": "Kupferstrasse"
+        },
+        {
+          "streetname": "Kurtrierer Strasse"
+        },
+        {
+          "streetname": "Kurzstrasse"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment110.jsonld#3499",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kuhgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kuhnenbrunnen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kupferstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kurtrierer Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kurzstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "h",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment110.jsonld#3497",
+              "@type": "tree:Node",
+              "token_string": "gasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment110.jsonld#3498",
+              "@type": "tree:Node",
+              "token_string": "nenbrunnen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment110.jsonld#3499",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kuhgasse"
+        },
+        {
+          "streetname": "Kuhnenbrunnen"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment110.jsonld#3500",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kuhgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kuhnenbrunnen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "pferstrasse",
+      "triples": [
+        {
+          "streetname": "Kupferstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment110.jsonld#3499",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kupferstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment110.jsonld#3501",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kupferstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kupferstrasse"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment110.jsonld#3504",
+              "@type": "tree:Node",
+              "token_string": "trierer Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment110.jsonld#3505",
+              "@type": "tree:Node",
+              "token_string": "zstrasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment110.jsonld#3499",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kurtrierer Strasse"
+        },
+        {
+          "streetname": "Kurzstrasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment110.jsonld#3503",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kurtrierer Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kurzstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "trierer Strasse",
+      "triples": [
+        {
+          "streetname": "Kurtrierer Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment110.jsonld#3503",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kurtrierer Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment110.jsonld#3504",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kurtrierer Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kurtrierer Strasse"
+      ]
+    },
+    {
+      "token_string": "zstrasse",
+      "triples": [
+        {
+          "streetname": "Kurzstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment110.jsonld#3503",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kurzstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment110.jsonld#3505",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kurzstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kurzstrasse"
+      ]
+    }
+  ]
+}

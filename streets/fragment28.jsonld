@@ -1,0 +1,59 @@
+{
+  "root_node_id": "911",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment28.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "UILDING S7",
+      "triples": [
+        {
+          "http://example.com/terms#name": "BUILDING S7",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.323073990436788",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.896102067682804"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment12.jsonld#678",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "BUILDING S7",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.323073990436788",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.896102067682804"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment28.jsonld#911",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "BUILDING S7"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "BUILDING S7"
+      ]
+    }
+  ]
+}

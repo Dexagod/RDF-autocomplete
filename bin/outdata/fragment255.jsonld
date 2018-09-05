@@ -1,0 +1,2686 @@
+{
+  "root_node_id": "7813",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment255.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "aussant",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Baussant"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7779",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Baussant"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7773",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Baussant"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Baussant"
+      ]
+    },
+    {
+      "token_string": "rèyôd",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Brèyôd"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7779",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Brèyôd"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7774",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Brèyôd"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Brèyôd"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7776",
+              "@type": "tree:Node",
+              "token_string": "Aubin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7777",
+              "@type": "tree:Node",
+              "token_string": "Christophe"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7811",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint Aubin"
+        },
+        {
+          "streetname": "Rue Saint Christophe"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment255.jsonld#7775",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint Aubin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint Christophe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Aubin",
+      "triples": [
+        {
+          "streetname": "Rue Saint Aubin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7775",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint Aubin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7776",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint Aubin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint Aubin"
+      ]
+    },
+    {
+      "token_string": "Christophe",
+      "triples": [
+        {
+          "streetname": "Rue Saint Christophe"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7775",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint Christophe"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7777",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint Christophe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint Christophe"
+      ]
+    },
+    {
+      "token_string": "-",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7779",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7781",
+              "@type": "tree:Node",
+              "token_string": "D"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7793",
+              "@type": "tree:Node",
+              "token_string": "Exupéry"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7794",
+              "@type": "tree:Node",
+              "token_string": "Firmin des Prés"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7795",
+              "@type": "tree:Node",
+              "token_string": "Hubert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7797",
+              "@type": "tree:Node",
+              "token_string": "J"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7800",
+              "@type": "tree:Node",
+              "token_string": "Lambert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7802",
+              "@type": "tree:Node",
+              "token_string": "Ma"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7805",
+              "@type": "tree:Node",
+              "token_string": "Nicolas"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7806",
+              "@type": "tree:Node",
+              "token_string": "Ouen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7807",
+              "@type": "tree:Node",
+              "token_string": "Paul"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7808",
+              "@type": "tree:Node",
+              "token_string": "Raboni"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7809",
+              "@type": "tree:Node",
+              "token_string": "Valentin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7811",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Baussant"
+        },
+        {
+          "streetname": "Rue Saint-Brèyôd"
+        },
+        {
+          "streetname": "Rue Saint-Denis"
+        },
+        {
+          "streetname": "Rue Saint-Donat"
+        },
+        {
+          "streetname": "Rue Saint-Exupéry"
+        },
+        {
+          "streetname": "Rue Saint-Firmin des Prés"
+        },
+        {
+          "streetname": "Rue Saint-Hubert"
+        },
+        {
+          "streetname": "Rue Saint-Jacques"
+        },
+        {
+          "streetname": "Rue Saint-Jean"
+        },
+        {
+          "streetname": "Rue Saint-Lambert"
+        }
+      ],
+      "total_children_count": 21,
+      "@id": "fragment255.jsonld#7778",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Baussant"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Brèyôd"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Denis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Donat"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Exupéry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Firmin des Prés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Hubert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Jacques"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Jean"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Lambert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7773",
+              "@type": "tree:Node",
+              "token_string": "aussant"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7774",
+              "@type": "tree:Node",
+              "token_string": "rèyôd"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Baussant"
+        },
+        {
+          "streetname": "Rue Saint-Brèyôd"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment255.jsonld#7779",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Baussant"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Brèyôd"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "D",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7782",
+              "@type": "tree:Node",
+              "token_string": "enis"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7783",
+              "@type": "tree:Node",
+              "token_string": "onat"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Denis"
+        },
+        {
+          "streetname": "Rue Saint-Donat"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment255.jsonld#7781",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Denis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Donat"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "enis",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Denis"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7781",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Denis"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7782",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Denis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Denis"
+      ]
+    },
+    {
+      "token_string": "onat",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Donat"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7781",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Donat"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7783",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Donat"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Donat"
+      ]
+    },
+    {
+      "token_string": "Anne",
+      "triples": [
+        {
+          "streetname": "Rue Sainte-Anne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7789",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sainte-Anne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7786",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sainte-Anne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sainte-Anne"
+      ]
+    },
+    {
+      "token_string": "Barbe",
+      "triples": [
+        {
+          "streetname": "Rue Sainte-Barbe"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7789",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sainte-Barbe"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7787",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sainte-Barbe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sainte-Barbe"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7789",
+              "@type": "tree:Node",
+              "token_string": "-"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7790",
+              "@type": "tree:Node",
+              "token_string": " Brigide"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7811",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sainte-Anne"
+        },
+        {
+          "streetname": "Rue Sainte-Barbe"
+        },
+        {
+          "streetname": "Rue Sainte Brigide"
+        },
+        {
+          "streetname": "Rue Sainte-Marguerite"
+        },
+        {
+          "streetname": "Rue Sainte-Odile"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment255.jsonld#7788",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sainte-Anne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sainte-Barbe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sainte Brigide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sainte-Marguerite"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sainte-Odile"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "-",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7786",
+              "@type": "tree:Node",
+              "token_string": "Anne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7787",
+              "@type": "tree:Node",
+              "token_string": "Barbe"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7791",
+              "@type": "tree:Node",
+              "token_string": "Marguerite"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7792",
+              "@type": "tree:Node",
+              "token_string": "Odile"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7788",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sainte-Anne"
+        },
+        {
+          "streetname": "Rue Sainte-Barbe"
+        },
+        {
+          "streetname": "Rue Sainte-Marguerite"
+        },
+        {
+          "streetname": "Rue Sainte-Odile"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment255.jsonld#7789",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sainte-Anne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sainte-Barbe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sainte-Marguerite"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sainte-Odile"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Brigide",
+      "triples": [
+        {
+          "streetname": "Rue Sainte Brigide"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7788",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sainte Brigide"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7790",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sainte Brigide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sainte Brigide"
+      ]
+    },
+    {
+      "token_string": "Marguerite",
+      "triples": [
+        {
+          "streetname": "Rue Sainte-Marguerite"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7789",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sainte-Marguerite"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7791",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sainte-Marguerite"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sainte-Marguerite"
+      ]
+    },
+    {
+      "token_string": "Odile",
+      "triples": [
+        {
+          "streetname": "Rue Sainte-Odile"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7789",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sainte-Odile"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7792",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sainte-Odile"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sainte-Odile"
+      ]
+    },
+    {
+      "token_string": "Exupéry",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Exupéry"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Exupéry"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7793",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Exupéry"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Exupéry"
+      ]
+    },
+    {
+      "token_string": "Firmin des Prés",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Firmin des Prés"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Firmin des Prés"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7794",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Firmin des Prés"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Firmin des Prés"
+      ]
+    },
+    {
+      "token_string": "Hubert",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Hubert"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Hubert"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7795",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Hubert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Hubert"
+      ]
+    },
+    {
+      "token_string": "J",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7798",
+              "@type": "tree:Node",
+              "token_string": "acques"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7799",
+              "@type": "tree:Node",
+              "token_string": "ean"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Jacques"
+        },
+        {
+          "streetname": "Rue Saint-Jean"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment255.jsonld#7797",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Jacques"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Jean"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "acques",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Jacques"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7797",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Jacques"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7798",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Jacques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Jacques"
+      ]
+    },
+    {
+      "token_string": "ean",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Jean"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7797",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Jean"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7799",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Jean"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Jean"
+      ]
+    },
+    {
+      "token_string": "Lambert",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Lambert"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Lambert"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7800",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Lambert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Lambert"
+      ]
+    },
+    {
+      "token_string": "Ma",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7803",
+              "@type": "tree:Node",
+              "token_string": "rtin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7804",
+              "@type": "tree:Node",
+              "token_string": "ur"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Martin"
+        },
+        {
+          "streetname": "Rue Saint-Maur"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment255.jsonld#7802",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Martin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Maur"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rtin",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Martin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7802",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Martin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7803",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Martin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Martin"
+      ]
+    },
+    {
+      "token_string": "ur",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Maur"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7802",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Maur"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7804",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Maur"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Maur"
+      ]
+    },
+    {
+      "token_string": "Nicolas",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Nicolas"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Nicolas"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7805",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Nicolas"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Nicolas"
+      ]
+    },
+    {
+      "token_string": "Ouen",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Ouen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Ouen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7806",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Ouen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Ouen"
+      ]
+    },
+    {
+      "token_string": "Paul",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Paul"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Paul"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7807",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Paul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Paul"
+      ]
+    },
+    {
+      "token_string": "Raboni",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Raboni"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Raboni"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7808",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Raboni"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Raboni"
+      ]
+    },
+    {
+      "token_string": "Valentin",
+      "triples": [
+        {
+          "streetname": "Rue Saint-Valentin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7778",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint-Valentin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7809",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint-Valentin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saint-Valentin"
+      ]
+    },
+    {
+      "token_string": "int",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7775",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7778",
+              "@type": "tree:Node",
+              "token_string": "-"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7788",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7814",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint Aubin"
+        },
+        {
+          "streetname": "Rue Saint-Baussant"
+        },
+        {
+          "streetname": "Rue Saint-Brèyôd"
+        },
+        {
+          "streetname": "Rue Saint Christophe"
+        },
+        {
+          "streetname": "Rue Saint-Denis"
+        },
+        {
+          "streetname": "Rue Saint-Donat"
+        },
+        {
+          "streetname": "Rue Saint-Exupéry"
+        },
+        {
+          "streetname": "Rue Saint-Firmin des Prés"
+        },
+        {
+          "streetname": "Rue Saint-Hubert"
+        },
+        {
+          "streetname": "Rue Saint-Jacques"
+        }
+      ],
+      "total_children_count": 32,
+      "@id": "fragment255.jsonld#7811",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint Aubin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Baussant"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Brèyôd"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint Christophe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Denis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Donat"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Exupéry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Firmin des Prés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Hubert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Jacques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "turne",
+      "triples": [
+        {
+          "streetname": "Rue Saturne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7814",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saturne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7812",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saturne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Saturne"
+      ]
+    },
+    {
+      "token_string": "S",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7814",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7815",
+              "@type": "tree:Node",
+              "token_string": "cieur-Lambot"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7816",
+              "@type": "tree:Node",
+              "token_string": "ergent Ratz"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7818",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7821",
+              "@type": "tree:Node",
+              "token_string": "ous-la-Ville"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7835",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment253.jsonld#7407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint Aubin"
+        },
+        {
+          "streetname": "Rue Saint-Baussant"
+        },
+        {
+          "streetname": "Rue Saint-Brèyôd"
+        },
+        {
+          "streetname": "Rue Saint Christophe"
+        },
+        {
+          "streetname": "Rue Saint-Denis"
+        },
+        {
+          "streetname": "Rue Saint-Donat"
+        },
+        {
+          "streetname": "Rue Saint-Exupéry"
+        },
+        {
+          "streetname": "Rue Saint-Firmin des Prés"
+        },
+        {
+          "streetname": "Rue Saint-Hubert"
+        },
+        {
+          "streetname": "Rue Saint-Jacques"
+        }
+      ],
+      "total_children_count": 52,
+      "@id": "fragment255.jsonld#7813",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint Aubin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Baussant"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Brèyôd"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint Christophe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Denis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Donat"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Exupéry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Firmin des Prés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Hubert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Jacques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7811",
+              "@type": "tree:Node",
+              "token_string": "int"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7812",
+              "@type": "tree:Node",
+              "token_string": "turne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Saint Aubin"
+        },
+        {
+          "streetname": "Rue Saint-Baussant"
+        },
+        {
+          "streetname": "Rue Saint-Brèyôd"
+        },
+        {
+          "streetname": "Rue Saint Christophe"
+        },
+        {
+          "streetname": "Rue Saint-Denis"
+        },
+        {
+          "streetname": "Rue Saint-Donat"
+        },
+        {
+          "streetname": "Rue Saint-Exupéry"
+        },
+        {
+          "streetname": "Rue Saint-Firmin des Prés"
+        },
+        {
+          "streetname": "Rue Saint-Hubert"
+        },
+        {
+          "streetname": "Rue Saint-Jacques"
+        }
+      ],
+      "total_children_count": 34,
+      "@id": "fragment255.jsonld#7814",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Saint Aubin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Baussant"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Brèyôd"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint Christophe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Denis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Donat"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Exupéry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Firmin des Prés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Hubert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Saint-Jacques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "cieur-Lambot",
+      "triples": [
+        {
+          "streetname": "Rue Scieur-Lambot"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Scieur-Lambot"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7815",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Scieur-Lambot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Scieur-Lambot"
+      ]
+    },
+    {
+      "token_string": "ergent Ratz",
+      "triples": [
+        {
+          "streetname": "Rue Sergent Ratz"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sergent Ratz"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7816",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sergent Ratz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sergent Ratz"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7819",
+              "@type": "tree:Node",
+              "token_string": "gebert de Gembloux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7820",
+              "@type": "tree:Node",
+              "token_string": "menon-Clos de l'Arboretum"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sigebert de Gembloux"
+        },
+        {
+          "streetname": "Rue Simenon-Clos de l'Arboretum"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment255.jsonld#7818",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sigebert de Gembloux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Simenon-Clos de l'Arboretum"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "gebert de Gembloux",
+      "triples": [
+        {
+          "streetname": "Rue Sigebert de Gembloux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7818",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sigebert de Gembloux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7819",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sigebert de Gembloux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sigebert de Gembloux"
+      ]
+    },
+    {
+      "token_string": "menon-Clos de l'Arboretum",
+      "triples": [
+        {
+          "streetname": "Rue Simenon-Clos de l'Arboretum"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7818",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Simenon-Clos de l'Arboretum"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7820",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Simenon-Clos de l'Arboretum"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Simenon-Clos de l'Arboretum"
+      ]
+    },
+    {
+      "token_string": "ous-la-Ville",
+      "triples": [
+        {
+          "streetname": "Rue Sous-la-Ville"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sous-la-Ville"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7821",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sous-la-Ville"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sous-la-Ville"
+      ]
+    },
+    {
+      "token_string": "a Champagne",
+      "triples": [
+        {
+          "streetname": "Rue Sur la Champagne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7836",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sur la Champagne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7824",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur la Champagne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sur la Champagne"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7829",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7832",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7836",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sur le Mont"
+        },
+        {
+          "streetname": "Rue Sur les Champs"
+        },
+        {
+          "streetname": "Rue Sur les Monts"
+        },
+        {
+          "streetname": "Rue Sur le Thier"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment255.jsonld#7826",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur le Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur les Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur les Monts"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur le Thier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7830",
+              "@type": "tree:Node",
+              "token_string": "Champs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7831",
+              "@type": "tree:Node",
+              "token_string": "Monts"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7826",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sur les Champs"
+        },
+        {
+          "streetname": "Rue Sur les Monts"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment255.jsonld#7829",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur les Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur les Monts"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Champs",
+      "triples": [
+        {
+          "streetname": "Rue Sur les Champs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7829",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sur les Champs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7830",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur les Champs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sur les Champs"
+      ]
+    },
+    {
+      "token_string": "Monts",
+      "triples": [
+        {
+          "streetname": "Rue Sur les Monts"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7829",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sur les Monts"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7831",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur les Monts"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sur les Monts"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7833",
+              "@type": "tree:Node",
+              "token_string": "Mont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7834",
+              "@type": "tree:Node",
+              "token_string": "Thier"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7826",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sur le Mont"
+        },
+        {
+          "streetname": "Rue Sur le Thier"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment255.jsonld#7832",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur le Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur le Thier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Mont",
+      "triples": [
+        {
+          "streetname": "Rue Sur le Mont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7832",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sur le Mont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7833",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur le Mont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sur le Mont"
+      ]
+    },
+    {
+      "token_string": "Thier",
+      "triples": [
+        {
+          "streetname": "Rue Sur le Thier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7832",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sur le Thier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7834",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur le Thier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Sur le Thier"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7836",
+              "@type": "tree:Node",
+              "token_string": "r l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7837",
+              "@type": "tree:Node",
+              "token_string": "zanne Grégoire"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sur la Champagne"
+        },
+        {
+          "streetname": "Rue Sur le Mont"
+        },
+        {
+          "streetname": "Rue Sur les Champs"
+        },
+        {
+          "streetname": "Rue Sur les Monts"
+        },
+        {
+          "streetname": "Rue Sur le Thier"
+        },
+        {
+          "streetname": "Rue Suzanne Grégoire"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "fragment255.jsonld#7835",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur la Champagne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur le Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur les Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur les Monts"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur le Thier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Suzanne Grégoire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "r l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7824",
+              "@type": "tree:Node",
+              "token_string": "a Champagne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment255.jsonld#7826",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7835",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Sur la Champagne"
+        },
+        {
+          "streetname": "Rue Sur le Mont"
+        },
+        {
+          "streetname": "Rue Sur les Champs"
+        },
+        {
+          "streetname": "Rue Sur les Monts"
+        },
+        {
+          "streetname": "Rue Sur le Thier"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment255.jsonld#7836",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Sur la Champagne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur le Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur les Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur les Monts"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Sur le Thier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "zanne Grégoire",
+      "triples": [
+        {
+          "streetname": "Rue Suzanne Grégoire"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment255.jsonld#7835",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Suzanne Grégoire"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment255.jsonld#7837",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Suzanne Grégoire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Suzanne Grégoire"
+      ]
+    }
+  ]
+}

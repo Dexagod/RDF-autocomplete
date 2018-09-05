@@ -1,0 +1,3363 @@
+{
+  "root_node_id": "1935",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment85.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Delaive",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Albert Delaive",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3733906087291046",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.7597960219967"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1928",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Albert Delaive",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3733906087291046",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.7597960219967"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#1925",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Albert Delaive"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Albert Delaive"
+      ]
+    },
+    {
+      "token_string": "Perikel",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Albert Perikel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.360631365656666",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.6204038201353"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1928",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Albert Perikel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.360631365656666",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.6204038201353"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#1926",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Albert Perikel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Albert Perikel"
+      ]
+    },
+    {
+      "token_string": "lbert ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1925",
+              "@type": "tree:Node",
+              "token_string": "Delaive"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1926",
+              "@type": "tree:Node",
+              "token_string": "Perikel"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1936",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Albert Delaive",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3733906087291046",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.7597960219967"
+        },
+        {
+          "http://example.com/terms#name": "Clos Albert Perikel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.360631365656666",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.6204038201353"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment85.jsonld#1928",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Albert Delaive"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Albert Perikel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1931",
+              "@type": "tree:Node",
+              "token_string": "ne de Chantraine"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1932",
+              "@type": "tree:Node",
+              "token_string": "toine Delobel"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1936",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Anne de Chantraine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.710468130588231",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39557695967544"
+        },
+        {
+          "http://example.com/terms#name": "Clos Antoine Delobel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3653881028034354",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.33720741037531"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment85.jsonld#1930",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Anne de Chantraine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Antoine Delobel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ne de Chantraine",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Anne de Chantraine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.710468130588231",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39557695967544"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1930",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Anne de Chantraine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.710468130588231",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39557695967544"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#1931",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Anne de Chantraine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Anne de Chantraine"
+      ]
+    },
+    {
+      "token_string": "toine Delobel",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Antoine Delobel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3653881028034354",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.33720741037531"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1930",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Antoine Delobel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3653881028034354",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.33720741037531"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#1932",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Antoine Delobel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Antoine Delobel"
+      ]
+    },
+    {
+      "token_string": "riste Wouters",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Ariste Wouters",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.978190523248805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.701731376594616"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1936",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Ariste Wouters",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.978190523248805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.701731376594616"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#1933",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Ariste Wouters"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Ariste Wouters"
+      ]
+    },
+    {
+      "token_string": "th-Plage",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Ath-Plage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.919164089049809",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.45069952998585"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1936",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Ath-Plage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.919164089049809",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.45069952998585"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#1934",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Ath-Plage"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Ath-Plage"
+      ]
+    },
+    {
+      "token_string": "os ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1936",
+              "@type": "tree:Node",
+              "token_string": "A"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1938",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1942",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment78.jsonld#2003",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment83.jsonld#2227",
+              "@type": "tree:Node",
+              "token_string": "E"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment84.jsonld#2236",
+              "@type": "tree:Node",
+              "token_string": "F"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2244",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2251",
+              "@type": "tree:Node",
+              "token_string": "J"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2254",
+              "@type": "tree:Node",
+              "token_string": "Louise Pépé"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2262",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2266",
+              "@type": "tree:Node",
+              "token_string": "N"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2269",
+              "@type": "tree:Node",
+              "token_string": "Paul Regnier"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2270",
+              "@type": "tree:Node",
+              "token_string": "petite Waide"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2275",
+              "@type": "tree:Node",
+              "token_string": "R"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2290",
+              "@type": "tree:Node",
+              "token_string": "S"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2294",
+              "@type": "tree:Node",
+              "token_string": "T"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2298",
+              "@type": "tree:Node",
+              "token_string": "V"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1921",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Albert Delaive",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3733906087291046",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.7597960219967"
+        },
+        {
+          "http://example.com/terms#name": "Clos Albert Perikel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.360631365656666",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.6204038201353"
+        },
+        {
+          "http://example.com/terms#name": "Clos Anne de Chantraine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.710468130588231",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39557695967544"
+        },
+        {
+          "http://example.com/terms#name": "Clos Antoine Delobel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3653881028034354",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.33720741037531"
+        },
+        {
+          "http://example.com/terms#name": "Clos Ariste Wouters",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.978190523248805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.701731376594616"
+        },
+        {
+          "http://example.com/terms#name": "Clos Ath-Plage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.919164089049809",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.45069952998585"
+        },
+        {
+          "http://example.com/terms#name": "Clos Badon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5459726991270197",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.027510918479564"
+        },
+        {
+          "http://example.com/terms#name": "Clos Blanc",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.835736028319676",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.27429078882504"
+        },
+        {
+          "http://example.com/terms#name": "Clos Cense du Sart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9182728877079067",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.8609701381911"
+        },
+        {
+          "http://example.com/terms#name": "Clos Champ Voie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.377434633451818",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.82884411893892"
+        }
+      ],
+      "total_children_count": 289,
+      "@id": "streetsfragment85.jsonld#1935",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Albert Delaive"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Albert Perikel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Anne de Chantraine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Antoine Delobel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Ariste Wouters"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Ath-Plage"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Badon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Blanc"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Cense du Sart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Champ Voie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1928",
+              "@type": "tree:Node",
+              "token_string": "lbert "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1930",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1933",
+              "@type": "tree:Node",
+              "token_string": "riste Wouters"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1934",
+              "@type": "tree:Node",
+              "token_string": "th-Plage"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Albert Delaive",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3733906087291046",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.7597960219967"
+        },
+        {
+          "http://example.com/terms#name": "Clos Albert Perikel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.360631365656666",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.6204038201353"
+        },
+        {
+          "http://example.com/terms#name": "Clos Anne de Chantraine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.710468130588231",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39557695967544"
+        },
+        {
+          "http://example.com/terms#name": "Clos Antoine Delobel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3653881028034354",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.33720741037531"
+        },
+        {
+          "http://example.com/terms#name": "Clos Ariste Wouters",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.978190523248805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.701731376594616"
+        },
+        {
+          "http://example.com/terms#name": "Clos Ath-Plage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.919164089049809",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.45069952998585"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "streetsfragment85.jsonld#1936",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Albert Delaive"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Albert Perikel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Anne de Chantraine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Antoine Delobel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Ariste Wouters"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Ath-Plage"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1939",
+              "@type": "tree:Node",
+              "token_string": "adon"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1940",
+              "@type": "tree:Node",
+              "token_string": "lanc"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Badon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5459726991270197",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.027510918479564"
+        },
+        {
+          "http://example.com/terms#name": "Clos Blanc",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.835736028319676",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.27429078882504"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment85.jsonld#1938",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Badon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Blanc"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "adon",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Badon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5459726991270197",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.027510918479564"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1938",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Badon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5459726991270197",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.027510918479564"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#1939",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Badon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Badon"
+      ]
+    },
+    {
+      "token_string": "lanc",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Blanc",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.835736028319676",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.27429078882504"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1938",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Blanc",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.835736028319676",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.27429078882504"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#1940",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Blanc"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Blanc"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1943",
+              "@type": "tree:Node",
+              "token_string": "écile Douard"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1944",
+              "@type": "tree:Node",
+              "token_string": "ense du Sart"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1946",
+              "@type": "tree:Node",
+              "token_string": "ha"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Cécile Douard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7223703635634062",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.500383059360686"
+        },
+        {
+          "http://example.com/terms#name": "Clos Cense du Sart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9182728877079067",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.8609701381911"
+        },
+        {
+          "http://example.com/terms#name": "Clos Champ Voie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.377434633451818",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.82884411893892"
+        },
+        {
+          "http://example.com/terms#name": "Clos Charles Jarvis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6635195665993763",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.17189865824375"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment85.jsonld#1942",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Cécile Douard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Cense du Sart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Champ Voie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Charles Jarvis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "écile Douard",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Cécile Douard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7223703635634062",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.500383059360686"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1942",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Cécile Douard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7223703635634062",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.500383059360686"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#1943",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Cécile Douard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Cécile Douard"
+      ]
+    },
+    {
+      "token_string": "ense du Sart",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Cense du Sart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9182728877079067",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.8609701381911"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1942",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Cense du Sart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9182728877079067",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.8609701381911"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#1944",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Cense du Sart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Cense du Sart"
+      ]
+    },
+    {
+      "token_string": "ha",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1947",
+              "@type": "tree:Node",
+              "token_string": "mp Voie"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1948",
+              "@type": "tree:Node",
+              "token_string": "rles Jarvis"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1942",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Champ Voie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.377434633451818",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.82884411893892"
+        },
+        {
+          "http://example.com/terms#name": "Clos Charles Jarvis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6635195665993763",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.17189865824375"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment85.jsonld#1946",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Champ Voie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Charles Jarvis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "mp Voie",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Champ Voie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.377434633451818",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.82884411893892"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1946",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Champ Voie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.377434633451818",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.82884411893892"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#1947",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Champ Voie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Champ Voie"
+      ]
+    },
+    {
+      "token_string": "rles Jarvis",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Charles Jarvis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6635195665993763",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.17189865824375"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1946",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Charles Jarvis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6635195665993763",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.17189865824375"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#1948",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Charles Jarvis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Charles Jarvis"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2245",
+              "@type": "tree:Node",
+              "token_string": "ardy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2247",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Hardy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4306303699659653",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.10042149913298"
+        },
+        {
+          "http://example.com/terms#name": "Clos Henri Joset",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7789137489041473",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.09121620710956"
+        },
+        {
+          "http://example.com/terms#name": "Clos Hesbignon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2059279262896667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.48731026585956"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment85.jsonld#2244",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Hardy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Henri Joset"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Hesbignon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ardy",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Hardy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4306303699659653",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.10042149913298"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2244",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Hardy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4306303699659653",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.10042149913298"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2245",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Hardy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Hardy"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2248",
+              "@type": "tree:Node",
+              "token_string": "nri Joset"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2249",
+              "@type": "tree:Node",
+              "token_string": "sbignon"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2244",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Henri Joset",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7789137489041473",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.09121620710956"
+        },
+        {
+          "http://example.com/terms#name": "Clos Hesbignon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2059279262896667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.48731026585956"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment85.jsonld#2247",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Henri Joset"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Hesbignon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "nri Joset",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Henri Joset",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7789137489041473",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.09121620710956"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2247",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Henri Joset",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7789137489041473",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.09121620710956"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2248",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Henri Joset"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Henri Joset"
+      ]
+    },
+    {
+      "token_string": "sbignon",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Hesbignon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2059279262896667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.48731026585956"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2247",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Hesbignon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2059279262896667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.48731026585956"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2249",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Hesbignon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Hesbignon"
+      ]
+    },
+    {
+      "token_string": "J",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2252",
+              "@type": "tree:Node",
+              "token_string": "acques Sabay"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2253",
+              "@type": "tree:Node",
+              "token_string": "uan Bury"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Jacques Sabay",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.187214149182592",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.86358881757153"
+        },
+        {
+          "http://example.com/terms#name": "Clos Juan Bury",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.770019846576189",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.60082390518679"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment85.jsonld#2251",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Jacques Sabay"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Juan Bury"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "acques Sabay",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Jacques Sabay",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.187214149182592",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.86358881757153"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2251",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Jacques Sabay",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.187214149182592",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.86358881757153"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2252",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Jacques Sabay"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Jacques Sabay"
+      ]
+    },
+    {
+      "token_string": "uan Bury",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Juan Bury",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.770019846576189",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.60082390518679"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2251",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Juan Bury",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.770019846576189",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.60082390518679"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2253",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Juan Bury"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Juan Bury"
+      ]
+    },
+    {
+      "token_string": "Louise Pépé",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Louise Pépé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.624060798181925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.3887146152018"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Louise Pépé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.624060798181925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.3887146152018"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2254",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Louise Pépé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Louise Pépé"
+      ]
+    },
+    {
+      "token_string": "ie Popelin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Marie Popelin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.818033265295675",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.83350962787453"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2260",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Marie Popelin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.818033265295675",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.83350962787453"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2257",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Marie Popelin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Marie Popelin"
+      ]
+    },
+    {
+      "token_string": "quet",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Marquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5585895628906914",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.72062942212936"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2260",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Marquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5585895628906914",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.72062942212936"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2258",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Marquet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Marquet"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2257",
+              "@type": "tree:Node",
+              "token_string": "ie Popelin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2258",
+              "@type": "tree:Node",
+              "token_string": "quet"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2263",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Marie Popelin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.818033265295675",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.83350962787453"
+        },
+        {
+          "http://example.com/terms#name": "Clos Marquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5585895628906914",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.72062942212936"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment85.jsonld#2260",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Marie Popelin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Marquet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "urice Dease",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Maurice Dease",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1003059353698235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.813021235147914"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2263",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Maurice Dease",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1003059353698235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.813021235147914"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2261",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Maurice Dease"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Maurice Dease"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2263",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2264",
+              "@type": "tree:Node",
+              "token_string": "ercator"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Marie Popelin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.818033265295675",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.83350962787453"
+        },
+        {
+          "http://example.com/terms#name": "Clos Marquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5585895628906914",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.72062942212936"
+        },
+        {
+          "http://example.com/terms#name": "Clos Maurice Dease",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1003059353698235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.813021235147914"
+        },
+        {
+          "http://example.com/terms#name": "Clos Mercator",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.927989900253707",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.40839530261512"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment85.jsonld#2262",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Marie Popelin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Marquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Maurice Dease"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Mercator"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2260",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2261",
+              "@type": "tree:Node",
+              "token_string": "urice Dease"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2262",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Marie Popelin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.818033265295675",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.83350962787453"
+        },
+        {
+          "http://example.com/terms#name": "Clos Marquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5585895628906914",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.72062942212936"
+        },
+        {
+          "http://example.com/terms#name": "Clos Maurice Dease",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1003059353698235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.813021235147914"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment85.jsonld#2263",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Marie Popelin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Marquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Maurice Dease"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ercator",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Mercator",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.927989900253707",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.40839530261512"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2262",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Mercator",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.927989900253707",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.40839530261512"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2264",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Mercator"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Mercator"
+      ]
+    },
+    {
+      "token_string": "N",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2267",
+              "@type": "tree:Node",
+              "token_string": "estor Nicaise"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2268",
+              "@type": "tree:Node",
+              "token_string": "icolas Colette"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Nestor Nicaise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.651703237022338",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.21025445716369"
+        },
+        {
+          "http://example.com/terms#name": "Clos Nicolas Colette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1439302838824417",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.27270732659116"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment85.jsonld#2266",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Nestor Nicaise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Nicolas Colette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "estor Nicaise",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Nestor Nicaise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.651703237022338",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.21025445716369"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2266",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Nestor Nicaise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.651703237022338",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.21025445716369"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2267",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Nestor Nicaise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Nestor Nicaise"
+      ]
+    },
+    {
+      "token_string": "icolas Colette",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Nicolas Colette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1439302838824417",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.27270732659116"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2266",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Nicolas Colette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1439302838824417",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.27270732659116"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2268",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Nicolas Colette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Nicolas Colette"
+      ]
+    },
+    {
+      "token_string": "Paul Regnier",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Paul Regnier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6964746268253768",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.85759163944945"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Paul Regnier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6964746268253768",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.85759163944945"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2269",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Paul Regnier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Paul Regnier"
+      ]
+    },
+    {
+      "token_string": "petite Waide",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos petite Waide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.508223033839243",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.310415339769804"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos petite Waide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.508223033839243",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.310415339769804"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2270",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos petite Waide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos petite Waide"
+      ]
+    },
+    {
+      "token_string": "mi Van Den Abeele",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Remi Van Den Abeele",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5312158445568085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.87316031006136"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2276",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Remi Van Den Abeele",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5312158445568085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.87316031006136"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2273",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Remi Van Den Abeele"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Remi Van Den Abeele"
+      ]
+    },
+    {
+      "token_string": "née Lemaire",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Renée Lemaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4292372437214467",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10688967792443"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2276",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Renée Lemaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4292372437214467",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10688967792443"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2274",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Renée Lemaire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Renée Lemaire"
+      ]
+    },
+    {
+      "token_string": "R",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2276",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2277",
+              "@type": "tree:Node",
+              "token_string": "oland Ensch"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Remi Van Den Abeele",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5312158445568085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.87316031006136"
+        },
+        {
+          "http://example.com/terms#name": "Clos Renée Lemaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4292372437214467",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10688967792443"
+        },
+        {
+          "http://example.com/terms#name": "Clos Roland Ensch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.911560527624114",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.32457558756503"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment85.jsonld#2275",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Remi Van Den Abeele"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Renée Lemaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Roland Ensch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2273",
+              "@type": "tree:Node",
+              "token_string": "mi Van Den Abeele"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2274",
+              "@type": "tree:Node",
+              "token_string": "née Lemaire"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2275",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Remi Van Den Abeele",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5312158445568085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.87316031006136"
+        },
+        {
+          "http://example.com/terms#name": "Clos Renée Lemaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4292372437214467",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10688967792443"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment85.jsonld#2276",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Remi Van Den Abeele"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Renée Lemaire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "oland Ensch",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Roland Ensch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.911560527624114",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.32457558756503"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2275",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Roland Ensch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.911560527624114",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.32457558756503"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2277",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Roland Ensch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Roland Ensch"
+      ]
+    },
+    {
+      "token_string": " Jacques",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Saint Jacques",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3694508201059916",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.8862359840397"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2288",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Saint Jacques",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3694508201059916",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.8862359840397"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2281",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint Jacques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Saint Jacques"
+      ]
+    },
+    {
+      "token_string": "-",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2283",
+              "@type": "tree:Node",
+              "token_string": "Georges"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2284",
+              "@type": "tree:Node",
+              "token_string": "Lambert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2285",
+              "@type": "tree:Node",
+              "token_string": "Macaire"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2286",
+              "@type": "tree:Node",
+              "token_string": "Pierre"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2288",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Saint-Georges",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7168458361079053",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.428530947715586"
+        },
+        {
+          "http://example.com/terms#name": "Clos Saint-Lambert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.686313136569172",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.250203619845976"
+        },
+        {
+          "http://example.com/terms#name": "Clos Saint-Macaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.118342960635029",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.80638559244372"
+        },
+        {
+          "http://example.com/terms#name": "Clos Saint-Pierre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9885515674171046",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2794331271958"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment85.jsonld#2282",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint-Georges"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Lambert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Macaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Pierre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Georges",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Saint-Georges",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7168458361079053",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.428530947715586"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Saint-Georges",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7168458361079053",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.428530947715586"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2283",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint-Georges"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Saint-Georges"
+      ]
+    },
+    {
+      "token_string": "Lambert",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Saint-Lambert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.686313136569172",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.250203619845976"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Saint-Lambert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.686313136569172",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.250203619845976"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2284",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint-Lambert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Saint-Lambert"
+      ]
+    },
+    {
+      "token_string": "Macaire",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Saint-Macaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.118342960635029",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.80638559244372"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Saint-Macaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.118342960635029",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.80638559244372"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2285",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint-Macaire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Saint-Macaire"
+      ]
+    },
+    {
+      "token_string": "Pierre",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Saint-Pierre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9885515674171046",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2794331271958"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Saint-Pierre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9885515674171046",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2794331271958"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2286",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint-Pierre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Saint-Pierre"
+      ]
+    },
+    {
+      "token_string": "int",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2281",
+              "@type": "tree:Node",
+              "token_string": " Jacques"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2282",
+              "@type": "tree:Node",
+              "token_string": "-"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2291",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Saint-Georges",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7168458361079053",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.428530947715586"
+        },
+        {
+          "http://example.com/terms#name": "Clos Saint Jacques",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3694508201059916",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.8862359840397"
+        },
+        {
+          "http://example.com/terms#name": "Clos Saint-Lambert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.686313136569172",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.250203619845976"
+        },
+        {
+          "http://example.com/terms#name": "Clos Saint-Macaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.118342960635029",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.80638559244372"
+        },
+        {
+          "http://example.com/terms#name": "Clos Saint-Pierre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9885515674171046",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2794331271958"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment85.jsonld#2288",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint-Georges"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint Jacques"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Lambert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Macaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Pierre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ns nom",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Sans nom",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5110483963579306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69540616607639"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2291",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Sans nom",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5110483963579306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69540616607639"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2289",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Sans nom"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Sans nom"
+      ]
+    },
+    {
+      "token_string": "S",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2291",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2292",
+              "@type": "tree:Node",
+              "token_string": "idney Godley"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Saint-Georges",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7168458361079053",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.428530947715586"
+        },
+        {
+          "http://example.com/terms#name": "Clos Saint Jacques",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3694508201059916",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.8862359840397"
+        },
+        {
+          "http://example.com/terms#name": "Clos Saint-Lambert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.686313136569172",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.250203619845976"
+        },
+        {
+          "http://example.com/terms#name": "Clos Saint-Macaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.118342960635029",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.80638559244372"
+        },
+        {
+          "http://example.com/terms#name": "Clos Saint-Pierre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9885515674171046",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2794331271958"
+        },
+        {
+          "http://example.com/terms#name": "Clos Sans nom",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5110483963579306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69540616607639"
+        },
+        {
+          "http://example.com/terms#name": "Clos Sidney Godley",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7966351683781356",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.98608207127435"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "streetsfragment85.jsonld#2290",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint-Georges"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint Jacques"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Lambert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Macaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Pierre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Sans nom"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Sidney Godley"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2288",
+              "@type": "tree:Node",
+              "token_string": "int"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2289",
+              "@type": "tree:Node",
+              "token_string": "ns nom"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2290",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Saint-Georges",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7168458361079053",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.428530947715586"
+        },
+        {
+          "http://example.com/terms#name": "Clos Saint Jacques",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3694508201059916",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.8862359840397"
+        },
+        {
+          "http://example.com/terms#name": "Clos Saint-Lambert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.686313136569172",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.250203619845976"
+        },
+        {
+          "http://example.com/terms#name": "Clos Saint-Macaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.118342960635029",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.80638559244372"
+        },
+        {
+          "http://example.com/terms#name": "Clos Saint-Pierre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9885515674171046",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2794331271958"
+        },
+        {
+          "http://example.com/terms#name": "Clos Sans nom",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5110483963579306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69540616607639"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "streetsfragment85.jsonld#2291",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Saint-Georges"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint Jacques"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Lambert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Macaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Saint-Pierre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Sans nom"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "idney Godley",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Sidney Godley",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7966351683781356",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.98608207127435"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2290",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Sidney Godley",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7966351683781356",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.98608207127435"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2292",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Sidney Godley"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Sidney Godley"
+      ]
+    },
+    {
+      "token_string": "T",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2295",
+              "@type": "tree:Node",
+              "token_string": "heodore Wright"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2296",
+              "@type": "tree:Node",
+              "token_string": "ûr Pouillart"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Theodore Wright",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.675777131736452",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.58178396671564"
+        },
+        {
+          "http://example.com/terms#name": "Clos Tûr Pouillart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5290846265573617",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.94880247970081"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment85.jsonld#2294",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Theodore Wright"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Tûr Pouillart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "heodore Wright",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Theodore Wright",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.675777131736452",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.58178396671564"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2294",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Theodore Wright",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.675777131736452",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.58178396671564"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2295",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Theodore Wright"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Theodore Wright"
+      ]
+    },
+    {
+      "token_string": "ûr Pouillart",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Tûr Pouillart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5290846265573617",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.94880247970081"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2294",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Tûr Pouillart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5290846265573617",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.94880247970081"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2296",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Tûr Pouillart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Tûr Pouillart"
+      ]
+    },
+    {
+      "token_string": "V",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2299",
+              "@type": "tree:Node",
+              "token_string": "alentine De Vos"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2300",
+              "@type": "tree:Node",
+              "token_string": "ert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#2301",
+              "@type": "tree:Node",
+              "token_string": "oltaire"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Valentine De Vos",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.122491160591852",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23013799753638"
+        },
+        {
+          "http://example.com/terms#name": "Clos Vert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.777892914103317",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.854230915668374"
+        },
+        {
+          "http://example.com/terms#name": "Clos Voltaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.043157988434241",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24221271906081"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment85.jsonld#2298",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Valentine De Vos"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Vert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Voltaire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "alentine De Vos",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Valentine De Vos",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.122491160591852",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23013799753638"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2298",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Valentine De Vos",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.122491160591852",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23013799753638"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2299",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Valentine De Vos"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Valentine De Vos"
+      ]
+    },
+    {
+      "token_string": "ert",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Vert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.777892914103317",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.854230915668374"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2298",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Vert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.777892914103317",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.854230915668374"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2300",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Vert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Vert"
+      ]
+    },
+    {
+      "token_string": "oltaire",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Voltaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.043157988434241",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24221271906081"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#2298",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Voltaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.043157988434241",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24221271906081"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment85.jsonld#2301",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Voltaire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Voltaire"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "root_node_id": "1317",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment43.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "L",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment43.jsonld#1318",
+              "@type": "tree:Node",
+              "token_string": "annoy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment43.jsonld#1319",
+              "@type": "tree:Node",
+              "token_string": "'Étang"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment43.jsonld#1327",
+              "@type": "tree:Node",
+              "token_string": "ovagne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment32.jsonld#1384",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Lannoy"
+        },
+        {
+          "streetname": "Chemin de L'Étang"
+        },
+        {
+          "streetname": "Chemin de Lovagne"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment43.jsonld#1317",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Lannoy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de L'Étang"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Lovagne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "annoy",
+      "triples": [
+        {
+          "streetname": "Chemin de Lannoy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment43.jsonld#1317",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Lannoy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment43.jsonld#1318",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Lannoy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Lannoy"
+      ]
+    },
+    {
+      "token_string": "'Étang",
+      "triples": [
+        {
+          "streetname": "Chemin de L'Étang"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment43.jsonld#1317",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de L'Étang"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment43.jsonld#1319",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de L'Étang"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de L'Étang"
+      ]
+    },
+    {
+      "token_string": "ovagne",
+      "triples": [
+        {
+          "streetname": "Chemin de Lovagne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment43.jsonld#1317",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Lovagne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment43.jsonld#1327",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Lovagne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Lovagne"
+      ]
+    }
+  ]
+}

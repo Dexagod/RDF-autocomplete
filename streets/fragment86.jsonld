@@ -1,0 +1,266 @@
+{
+  "root_node_id": "2334",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment86.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment86.jsonld#2335",
+              "@type": "tree:Node",
+              "token_string": "Brigands"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment86.jsonld#2336",
+              "@type": "tree:Node",
+              "token_string": "Pavillons"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment86.jsonld#2337",
+              "@type": "tree:Node",
+              "token_string": "Salésiens"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment86.jsonld#2338",
+              "@type": "tree:Node",
+              "token_string": "Terres Noires"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment87.jsonld#2331",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour des Brigands",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.587364283921315",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.046959507553055"
+        },
+        {
+          "http://example.com/terms#name": "Cour des Pavillons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.489450727742245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.289644052565016"
+        },
+        {
+          "http://example.com/terms#name": "Cour des Salésiens",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.881225427290063",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.232579970223135"
+        },
+        {
+          "http://example.com/terms#name": "Cour des Terres Noires",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.859753317308199",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.99944352740857"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment86.jsonld#2334",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour des Brigands"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour des Pavillons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour des Salésiens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour des Terres Noires"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Brigands",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour des Brigands",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.587364283921315",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.046959507553055"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment86.jsonld#2334",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour des Brigands",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.587364283921315",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.046959507553055"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment86.jsonld#2335",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour des Brigands"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour des Brigands"
+      ]
+    },
+    {
+      "token_string": "Pavillons",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour des Pavillons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.489450727742245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.289644052565016"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment86.jsonld#2334",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour des Pavillons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.489450727742245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.289644052565016"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment86.jsonld#2336",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour des Pavillons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour des Pavillons"
+      ]
+    },
+    {
+      "token_string": "Salésiens",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour des Salésiens",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.881225427290063",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.232579970223135"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment86.jsonld#2334",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour des Salésiens",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.881225427290063",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.232579970223135"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment86.jsonld#2337",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour des Salésiens"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour des Salésiens"
+      ]
+    },
+    {
+      "token_string": "Terres Noires",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour des Terres Noires",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.859753317308199",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.99944352740857"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment86.jsonld#2334",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour des Terres Noires",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.859753317308199",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.99944352740857"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment86.jsonld#2338",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour des Terres Noires"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour des Terres Noires"
+      ]
+    }
+  ]
+}

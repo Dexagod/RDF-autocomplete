@@ -1,0 +1,210 @@
+{
+  "root_node_id": "6486",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment228.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "1 Novembre",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du 11 Novembre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.982862292693126",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.01851160790474"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment228.jsonld#6486",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du 11 Novembre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.982862292693126",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.01851160790474"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment228.jsonld#6482",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du 11 Novembre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du 11 Novembre"
+      ]
+    },
+    {
+      "token_string": "27 ème RIF",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du 127 ème RIF",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.376829100929689",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.20889851553068"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment228.jsonld#6486",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du 127 ème RIF",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.376829100929689",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.20889851553068"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment228.jsonld#6483",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du 127 ème RIF"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du 127 ème RIF"
+      ]
+    },
+    {
+      "token_string": "5 août 1914",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du 15 août 1914",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0524474673301847",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.77529529332525"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment228.jsonld#6486",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du 15 août 1914",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0524474673301847",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.77529529332525"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment228.jsonld#6484",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du 15 août 1914"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du 15 août 1914"
+      ]
+    },
+    {
+      "token_string": "1",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment228.jsonld#6482",
+              "@type": "tree:Node",
+              "token_string": "1 Novembre"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment228.jsonld#6483",
+              "@type": "tree:Node",
+              "token_string": "27 ème RIF"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment228.jsonld#6484",
+              "@type": "tree:Node",
+              "token_string": "5 août 1914"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment226.jsonld#6980",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du 11 Novembre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.982862292693126",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.01851160790474"
+        },
+        {
+          "http://example.com/terms#name": "Rue du 127 ème RIF",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.376829100929689",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.20889851553068"
+        },
+        {
+          "http://example.com/terms#name": "Rue du 15 août 1914",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0524474673301847",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.77529529332525"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment228.jsonld#6486",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du 11 Novembre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du 127 ème RIF"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du 15 août 1914"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    }
+  ]
+}

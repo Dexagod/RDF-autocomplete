@@ -1,0 +1,210 @@
+{
+  "root_node_id": "4888",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment155.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment155.jsonld#4889",
+              "@type": "tree:Node",
+              "token_string": "élaïde Coudère"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment155.jsonld#4890",
+              "@type": "tree:Node",
+              "token_string": "olphe Renouprez"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment155.jsonld#4891",
+              "@type": "tree:Node",
+              "token_string": "rien Bidoul"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment162.jsonld#4884",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Adélaïde Coudère",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5443357916835554",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.982281142155834"
+        },
+        {
+          "http://example.com/terms#name": "Rue Adolphe Renouprez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3384679576644265",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.60088035071478"
+        },
+        {
+          "http://example.com/terms#name": "Rue Adrien Bidoul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2088573985653124",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.82665945375471"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment155.jsonld#4888",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Adélaïde Coudère"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Adolphe Renouprez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Adrien Bidoul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "élaïde Coudère",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Adélaïde Coudère",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5443357916835554",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.982281142155834"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment155.jsonld#4888",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Adélaïde Coudère",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5443357916835554",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.982281142155834"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment155.jsonld#4889",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Adélaïde Coudère"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Adélaïde Coudère"
+      ]
+    },
+    {
+      "token_string": "olphe Renouprez",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Adolphe Renouprez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3384679576644265",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.60088035071478"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment155.jsonld#4888",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Adolphe Renouprez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3384679576644265",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.60088035071478"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment155.jsonld#4890",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Adolphe Renouprez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Adolphe Renouprez"
+      ]
+    },
+    {
+      "token_string": "rien Bidoul",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Adrien Bidoul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2088573985653124",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.82665945375471"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment155.jsonld#4888",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Adrien Bidoul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2088573985653124",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.82665945375471"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment155.jsonld#4891",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Adrien Bidoul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Adrien Bidoul"
+      ]
+    }
+  ]
+}

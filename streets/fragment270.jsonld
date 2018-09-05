@@ -1,0 +1,540 @@
+{
+  "root_node_id": "8098",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment270.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": " d'Orjo",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier du Bois d'Orjo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.925765423770885",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.972786315203095"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment270.jsonld#8099",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier du Bois d'Orjo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.925765423770885",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.972786315203095"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment270.jsonld#8097",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier du Bois d'Orjo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier du Bois d'Orjo"
+      ]
+    },
+    {
+      "token_string": "u ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment270.jsonld#8099",
+              "@type": "tree:Node",
+              "token_string": "Bois"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment269.jsonld#8101",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment270.jsonld#8111",
+              "@type": "tree:Node",
+              "token_string": "Grand Rieux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment270.jsonld#8113",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment270.jsonld#8116",
+              "@type": "tree:Node",
+              "token_string": "Nordet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment270.jsonld#8117",
+              "@type": "tree:Node",
+              "token_string": "Pré des Monts"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment271.jsonld#8094",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier du Bois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.006279682936325",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.48402767575097"
+        },
+        {
+          "http://example.com/terms#name": "Sentier du Bois d'Orjo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.925765423770885",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.972786315203095"
+        },
+        {
+          "http://example.com/terms#name": "Sentier du Caramel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.854842674843728",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.50197999773231"
+        },
+        {
+          "http://example.com/terms#name": "Sentier du Chafor",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.031737585557556",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.08903319337843"
+        },
+        {
+          "http://example.com/terms#name": "Sentier du Champ",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.02885063166518",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23413934427059"
+        },
+        {
+          "http://example.com/terms#name": "Sentier du Champ de Blé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7384204424037843",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.83816233301677"
+        },
+        {
+          "http://example.com/terms#name": "Sentier du Château",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5645368042097165",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.873927819739116"
+        },
+        {
+          "http://example.com/terms#name": "Sentier du Grand Rieux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.18889110917583",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.67176558859682"
+        },
+        {
+          "http://example.com/terms#name": "Sentier du Méteil",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.133274449412755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1885202875756"
+        },
+        {
+          "http://example.com/terms#name": "Sentier du Mouchet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3412971237740448",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.94887071961137"
+        }
+      ],
+      "total_children_count": 16,
+      "@id": "streetsfragment270.jsonld#8098",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier du Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier du Bois d'Orjo"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier du Caramel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier du Chafor"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier du Champ"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier du Champ de Blé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier du Château"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier du Grand Rieux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier du Méteil"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier du Mouchet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Bois",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier du Bois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.006279682936325",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.48402767575097"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment270.jsonld#8097",
+              "@type": "tree:Node",
+              "token_string": " d'Orjo"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment270.jsonld#8098",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier du Bois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.006279682936325",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.48402767575097"
+        },
+        {
+          "http://example.com/terms#name": "Sentier du Bois d'Orjo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.925765423770885",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.972786315203095"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "streetsfragment270.jsonld#8099",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier du Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier du Bois d'Orjo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier du Bois"
+      ]
+    },
+    {
+      "token_string": "Grand Rieux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier du Grand Rieux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.18889110917583",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.67176558859682"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment270.jsonld#8098",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier du Grand Rieux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.18889110917583",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.67176558859682"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment270.jsonld#8111",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier du Grand Rieux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier du Grand Rieux"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment270.jsonld#8114",
+              "@type": "tree:Node",
+              "token_string": "éteil"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment270.jsonld#8115",
+              "@type": "tree:Node",
+              "token_string": "ouchet"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment270.jsonld#8098",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier du Méteil",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.133274449412755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1885202875756"
+        },
+        {
+          "http://example.com/terms#name": "Sentier du Mouchet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3412971237740448",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.94887071961137"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment270.jsonld#8113",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier du Méteil"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier du Mouchet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "éteil",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier du Méteil",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.133274449412755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1885202875756"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment270.jsonld#8113",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier du Méteil",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.133274449412755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1885202875756"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment270.jsonld#8114",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier du Méteil"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier du Méteil"
+      ]
+    },
+    {
+      "token_string": "ouchet",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier du Mouchet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3412971237740448",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.94887071961137"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment270.jsonld#8113",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier du Mouchet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3412971237740448",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.94887071961137"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment270.jsonld#8115",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier du Mouchet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier du Mouchet"
+      ]
+    },
+    {
+      "token_string": "Nordet",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier du Nordet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.904663530241977",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.9743262834047"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment270.jsonld#8098",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier du Nordet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.904663530241977",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.9743262834047"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment270.jsonld#8116",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier du Nordet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier du Nordet"
+      ]
+    },
+    {
+      "token_string": "Pré des Monts",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier du Pré des Monts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.830099708676342",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.87103264785724"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment270.jsonld#8098",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier du Pré des Monts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.830099708676342",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.87103264785724"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment270.jsonld#8117",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier du Pré des Monts"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier du Pré des Monts"
+      ]
+    }
+  ]
+}

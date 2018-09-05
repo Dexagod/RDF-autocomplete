@@ -1,0 +1,2703 @@
+{
+  "root_node_id": "3761",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment120.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "gässchen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Maasgässchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0610973711028366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33837865495069"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3762",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Maasgässchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0610973711028366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33837865495069"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3756",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Maasgässchen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Maasgässchen"
+      ]
+    },
+    {
+      "token_string": "-Rhein-Straße",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Maas-Rhein-Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1042770897885306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52789541883642"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3762",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Maas-Rhein-Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1042770897885306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52789541883642"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3757",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Maas-Rhein-Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Maas-Rhein-Straße"
+      ]
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3762",
+              "@type": "tree:Node",
+              "token_string": "as"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3764",
+              "@type": "tree:Node",
+              "token_string": "ison "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3767",
+              "@type": "tree:Node",
+              "token_string": "jor-Long-Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3768",
+              "@type": "tree:Node",
+              "token_string": "kejaas"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3770",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3780",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3800",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3822",
+              "@type": "tree:Node",
+              "token_string": "spelt"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3824",
+              "@type": "tree:Node",
+              "token_string": "xstrasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment121.jsonld#3758",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Maasgässchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0610973711028366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33837865495069"
+        },
+        {
+          "http://example.com/terms#name": "Maas-Rhein-Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1042770897885306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52789541883642"
+        },
+        {
+          "http://example.com/terms#name": "Maison Bois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.171086349666492",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.98973874415602"
+        },
+        {
+          "http://example.com/terms#name": "Maison communale annexe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.92439100151065",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.94463359850192"
+        },
+        {
+          "http://example.com/terms#name": "Major-Long-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.115433325823507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.086192773500215"
+        },
+        {
+          "http://example.com/terms#name": "Makejaas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7538527360582634",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35927901954415"
+        },
+        {
+          "http://example.com/terms#name": "Maldingen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.451432124634867",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.39583210562184"
+        },
+        {
+          "http://example.com/terms#name": "Malmedyer Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.068502763740415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.453304095639574"
+        },
+        {
+          "http://example.com/terms#name": "Malmedyer Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8350539620768",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91350429760578"
+        },
+        {
+          "http://example.com/terms#name": "Malscheid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8843839799824322",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.54250990498964"
+        }
+      ],
+      "total_children_count": 48,
+      "@id": "streetsfragment120.jsonld#3761",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Maasgässchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Maas-Rhein-Straße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Maison Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Maison communale annexe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Major-Long-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Makejaas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Maldingen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Malmedyer Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Malmedyer Weg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Malscheid"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "as",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3756",
+              "@type": "tree:Node",
+              "token_string": "gässchen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3757",
+              "@type": "tree:Node",
+              "token_string": "-Rhein-Straße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3761",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Maasgässchen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0610973711028366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33837865495069"
+        },
+        {
+          "http://example.com/terms#name": "Maas-Rhein-Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1042770897885306",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52789541883642"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment120.jsonld#3762",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Maasgässchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Maas-Rhein-Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ison ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3765",
+              "@type": "tree:Node",
+              "token_string": "Bois"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3766",
+              "@type": "tree:Node",
+              "token_string": "communale annexe"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3761",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Maison Bois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.171086349666492",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.98973874415602"
+        },
+        {
+          "http://example.com/terms#name": "Maison communale annexe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.92439100151065",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.94463359850192"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment120.jsonld#3764",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Maison Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Maison communale annexe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Bois",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Maison Bois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.171086349666492",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.98973874415602"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3764",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Maison Bois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.171086349666492",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.98973874415602"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3765",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Maison Bois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Maison Bois"
+      ]
+    },
+    {
+      "token_string": "communale annexe",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Maison communale annexe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.92439100151065",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.94463359850192"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3764",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Maison communale annexe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.92439100151065",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.94463359850192"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3766",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Maison communale annexe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Maison communale annexe"
+      ]
+    },
+    {
+      "token_string": "jor-Long-Strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Major-Long-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.115433325823507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.086192773500215"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3761",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Major-Long-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.115433325823507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.086192773500215"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3767",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Major-Long-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Major-Long-Strasse"
+      ]
+    },
+    {
+      "token_string": "kejaas",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Makejaas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7538527360582634",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35927901954415"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3761",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Makejaas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7538527360582634",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35927901954415"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3768",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Makejaas"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Makejaas"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3771",
+              "@type": "tree:Node",
+              "token_string": "dingen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3773",
+              "@type": "tree:Node",
+              "token_string": "medyer "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3776",
+              "@type": "tree:Node",
+              "token_string": "scheid"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3777",
+              "@type": "tree:Node",
+              "token_string": "venweg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3761",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Maldingen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.451432124634867",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.39583210562184"
+        },
+        {
+          "http://example.com/terms#name": "Malmedyer Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.068502763740415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.453304095639574"
+        },
+        {
+          "http://example.com/terms#name": "Malmedyer Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8350539620768",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91350429760578"
+        },
+        {
+          "http://example.com/terms#name": "Malscheid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8843839799824322",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.54250990498964"
+        },
+        {
+          "http://example.com/terms#name": "Malvenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.621470965184031",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70578569928562"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment120.jsonld#3770",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Maldingen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Malmedyer Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Malmedyer Weg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Malscheid"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Malvenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "dingen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Maldingen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.451432124634867",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.39583210562184"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3770",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Maldingen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.451432124634867",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.39583210562184"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3771",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Maldingen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Maldingen"
+      ]
+    },
+    {
+      "token_string": "medyer ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3774",
+              "@type": "tree:Node",
+              "token_string": "Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3775",
+              "@type": "tree:Node",
+              "token_string": "Weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3770",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Malmedyer Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.068502763740415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.453304095639574"
+        },
+        {
+          "http://example.com/terms#name": "Malmedyer Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8350539620768",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91350429760578"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment120.jsonld#3773",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Malmedyer Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Malmedyer Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Malmedyer Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.068502763740415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.453304095639574"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3773",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Malmedyer Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.068502763740415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.453304095639574"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3774",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Malmedyer Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Malmedyer Strasse"
+      ]
+    },
+    {
+      "token_string": "Weg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Malmedyer Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8350539620768",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91350429760578"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3773",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Malmedyer Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8350539620768",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91350429760578"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3775",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Malmedyer Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Malmedyer Weg"
+      ]
+    },
+    {
+      "token_string": "scheid",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Malscheid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8843839799824322",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.54250990498964"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3770",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Malscheid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8843839799824322",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.54250990498964"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3776",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Malscheid"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Malscheid"
+      ]
+    },
+    {
+      "token_string": "venweg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Malvenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.621470965184031",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70578569928562"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3770",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Malvenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.621470965184031",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70578569928562"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3777",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Malvenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Malvenweg"
+      ]
+    },
+    {
+      "token_string": "er Strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Manderfelder Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1619421440652733",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23207124293246"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3781",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Manderfelder Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1619421440652733",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23207124293246"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3779",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Manderfelder Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Manderfelder Strasse"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3781",
+              "@type": "tree:Node",
+              "token_string": "derfeld"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3782",
+              "@type": "tree:Node",
+              "token_string": "nefeld"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3761",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Manderfeld",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3853997565647655",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.810201168327985"
+        },
+        {
+          "http://example.com/terms#name": "Manderfelder Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1619421440652733",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23207124293246"
+        },
+        {
+          "http://example.com/terms#name": "Mannefeld",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0575183699290713",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.00430959671666"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment120.jsonld#3780",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Manderfeld"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Manderfelder Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Mannefeld"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "derfeld",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Manderfeld",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3853997565647655",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.810201168327985"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3779",
+              "@type": "tree:Node",
+              "token_string": "er Strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3780",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Manderfeld",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3853997565647655",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.810201168327985"
+        },
+        {
+          "http://example.com/terms#name": "Manderfelder Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1619421440652733",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.23207124293246"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "streetsfragment120.jsonld#3781",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Manderfeld"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Manderfelder Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Manderfeld"
+      ]
+    },
+    {
+      "token_string": "nefeld",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Mannefeld",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0575183699290713",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.00430959671666"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3780",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Mannefeld",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0575183699290713",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.00430959671666"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3782",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Mannefeld"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Mannefeld"
+      ]
+    },
+    {
+      "token_string": "nusstraße",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Marianusstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0907106218864966",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31294917289333"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3788",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Marianusstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0907106218864966",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31294917289333"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3785",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Marianusstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Marianusstraße"
+      ]
+    },
+    {
+      "token_string": "-Theresia-Strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Maria-Theresia-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.274587533665712",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.8117113119015"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3788",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Maria-Theresia-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.274587533665712",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.8117113119015"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3786",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Maria-Theresia-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Maria-Theresia-Strasse"
+      ]
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3785",
+              "@type": "tree:Node",
+              "token_string": "nusstraße"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3786",
+              "@type": "tree:Node",
+              "token_string": "-Theresia-Strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3801",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Marianusstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0907106218864966",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31294917289333"
+        },
+        {
+          "http://example.com/terms#name": "Maria-Theresia-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.274587533665712",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.8117113119015"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment120.jsonld#3788",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Marianusstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Maria-Theresia-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "en",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3791",
+              "@type": "tree:Node",
+              "token_string": "gasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3792",
+              "@type": "tree:Node",
+              "token_string": "heide"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3793",
+              "@type": "tree:Node",
+              "token_string": "platz"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3794",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3795",
+              "@type": "tree:Node",
+              "token_string": "thalstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3796",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3801",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Mariengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5457845959632497",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.167756691490595"
+        },
+        {
+          "http://example.com/terms#name": "Marienheide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.574442145523456",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.85447682192424"
+        },
+        {
+          "http://example.com/terms#name": "Marienplatz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.002757855668387",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.74489301399512"
+        },
+        {
+          "http://example.com/terms#name": "Marienstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0528371523176507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.5047359212227"
+        },
+        {
+          "http://example.com/terms#name": "Marienthalstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.18425987017917",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.6218897151157"
+        },
+        {
+          "http://example.com/terms#name": "Marienweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.917027010443469",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44604045189426"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment120.jsonld#3790",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Mariengasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marienheide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marienplatz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marienstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marienthalstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marienweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "gasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Mariengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5457845959632497",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.167756691490595"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Mariengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5457845959632497",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.167756691490595"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3791",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Mariengasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Mariengasse"
+      ]
+    },
+    {
+      "token_string": "heide",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Marienheide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.574442145523456",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.85447682192424"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Marienheide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.574442145523456",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.85447682192424"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3792",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Marienheide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Marienheide"
+      ]
+    },
+    {
+      "token_string": "platz",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Marienplatz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.002757855668387",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.74489301399512"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Marienplatz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.002757855668387",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.74489301399512"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3793",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Marienplatz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Marienplatz"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Marienstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0528371523176507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.5047359212227"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Marienstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0528371523176507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.5047359212227"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3794",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Marienstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Marienstrasse"
+      ]
+    },
+    {
+      "token_string": "thalstrasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Marienthalstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.18425987017917",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.6218897151157"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Marienthalstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.18425987017917",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.6218897151157"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3795",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Marienthalstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Marienthalstrasse"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Marienweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.917027010443469",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44604045189426"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3790",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Marienweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.917027010443469",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44604045189426"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3796",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Marienweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Marienweg"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3801",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3802",
+              "@type": "tree:Node",
+              "token_string": "ktplatz"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3807",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3818",
+              "@type": "tree:Node",
+              "token_string": "x"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3821",
+              "@type": "tree:Node",
+              "token_string": "zelheide"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3761",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Marianusstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0907106218864966",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31294917289333"
+        },
+        {
+          "http://example.com/terms#name": "Maria-Theresia-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.274587533665712",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.8117113119015"
+        },
+        {
+          "http://example.com/terms#name": "Mariengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5457845959632497",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.167756691490595"
+        },
+        {
+          "http://example.com/terms#name": "Marienheide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.574442145523456",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.85447682192424"
+        },
+        {
+          "http://example.com/terms#name": "Marienplatz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.002757855668387",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.74489301399512"
+        },
+        {
+          "http://example.com/terms#name": "Marienstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0528371523176507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.5047359212227"
+        },
+        {
+          "http://example.com/terms#name": "Marienthalstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.18425987017917",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.6218897151157"
+        },
+        {
+          "http://example.com/terms#name": "Marienweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.917027010443469",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44604045189426"
+        },
+        {
+          "http://example.com/terms#name": "Marktplatz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.558055282708562",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.55349579113975"
+        },
+        {
+          "http://example.com/terms#name": "Martelwée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9272555280073345",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.45989537847626"
+        }
+      ],
+      "total_children_count": 26,
+      "@id": "streetsfragment120.jsonld#3800",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Marianusstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Maria-Theresia-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Mariengasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marienheide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marienplatz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marienstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marienthalstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marienweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marktplatz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Martelwée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3788",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3790",
+              "@type": "tree:Node",
+              "token_string": "en"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3800",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Marianusstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0907106218864966",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31294917289333"
+        },
+        {
+          "http://example.com/terms#name": "Maria-Theresia-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.274587533665712",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.8117113119015"
+        },
+        {
+          "http://example.com/terms#name": "Mariengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5457845959632497",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.167756691490595"
+        },
+        {
+          "http://example.com/terms#name": "Marienheide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.574442145523456",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.85447682192424"
+        },
+        {
+          "http://example.com/terms#name": "Marienplatz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.002757855668387",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.74489301399512"
+        },
+        {
+          "http://example.com/terms#name": "Marienstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0528371523176507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.5047359212227"
+        },
+        {
+          "http://example.com/terms#name": "Marienthalstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.18425987017917",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.6218897151157"
+        },
+        {
+          "http://example.com/terms#name": "Marienweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.917027010443469",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44604045189426"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "streetsfragment120.jsonld#3801",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Marianusstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Maria-Theresia-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Mariengasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marienheide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marienplatz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marienstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marienthalstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marienweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ktplatz",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Marktplatz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.558055282708562",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.55349579113975"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3800",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Marktplatz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.558055282708562",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.55349579113975"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3802",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Marktplatz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Marktplatz"
+      ]
+    },
+    {
+      "token_string": "lwée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Martelwée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9272555280073345",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.45989537847626"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3808",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Martelwée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9272555280073345",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.45989537847626"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3805",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Martelwée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Martelwée"
+      ]
+    },
+    {
+      "token_string": "wlée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Martewlée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.534693949679882",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.26765348385408"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3808",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Martewlée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.534693949679882",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.26765348385408"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3806",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Martewlée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Martewlée"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3808",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3810",
+              "@type": "tree:Node",
+              "token_string": "in"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3800",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Martelwée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9272555280073345",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.45989537847626"
+        },
+        {
+          "http://example.com/terms#name": "Martewlée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.534693949679882",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.26765348385408"
+        },
+        {
+          "http://example.com/terms#name": "Martinmont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9638136177601355",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.257448761580406"
+        },
+        {
+          "http://example.com/terms#name": "Martinsplatz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5207083933663372",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.618813741502585"
+        },
+        {
+          "http://example.com/terms#name": "Martinsstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5822695052337217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.270687393232386"
+        },
+        {
+          "http://example.com/terms#name": "Martinusstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.651620573453122",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.23705117956548"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "streetsfragment120.jsonld#3807",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Martelwée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Martewlée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Martinmont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Martinsplatz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Martinsstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Martinusstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3805",
+              "@type": "tree:Node",
+              "token_string": "lwée"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3806",
+              "@type": "tree:Node",
+              "token_string": "wlée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3807",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Martelwée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9272555280073345",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.45989537847626"
+        },
+        {
+          "http://example.com/terms#name": "Martewlée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.534693949679882",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.26765348385408"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment120.jsonld#3808",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Martelwée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Martewlée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "in",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3811",
+              "@type": "tree:Node",
+              "token_string": "mont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3813",
+              "@type": "tree:Node",
+              "token_string": "s"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3816",
+              "@type": "tree:Node",
+              "token_string": "usstraße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3807",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Martinmont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9638136177601355",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.257448761580406"
+        },
+        {
+          "http://example.com/terms#name": "Martinsplatz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5207083933663372",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.618813741502585"
+        },
+        {
+          "http://example.com/terms#name": "Martinsstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5822695052337217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.270687393232386"
+        },
+        {
+          "http://example.com/terms#name": "Martinusstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.651620573453122",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.23705117956548"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment120.jsonld#3810",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Martinmont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Martinsplatz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Martinsstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Martinusstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "mont",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Martinmont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9638136177601355",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.257448761580406"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3810",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Martinmont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9638136177601355",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.257448761580406"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3811",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Martinmont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Martinmont"
+      ]
+    },
+    {
+      "token_string": "s",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3814",
+              "@type": "tree:Node",
+              "token_string": "platz"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3815",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3810",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Martinsplatz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5207083933663372",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.618813741502585"
+        },
+        {
+          "http://example.com/terms#name": "Martinsstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5822695052337217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.270687393232386"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment120.jsonld#3813",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Martinsplatz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Martinsstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "platz",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Martinsplatz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5207083933663372",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.618813741502585"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Martinsplatz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5207083933663372",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.618813741502585"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3814",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Martinsplatz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Martinsplatz"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Martinsstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5822695052337217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.270687393232386"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Martinsstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5822695052337217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.270687393232386"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3815",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Martinsstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Martinsstrasse"
+      ]
+    },
+    {
+      "token_string": "usstraße",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Martinusstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.651620573453122",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.23705117956548"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3810",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Martinusstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.651620573453122",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.23705117956548"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3816",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Martinusstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Martinusstraße"
+      ]
+    },
+    {
+      "token_string": "x",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3819",
+              "@type": "tree:Node",
+              "token_string": "engasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment120.jsonld#3820",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3800",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Marxengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.878279320711264",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.75248280210216"
+        },
+        {
+          "http://example.com/terms#name": "Marxweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4820697910072953",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.951061608778986"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment120.jsonld#3818",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Marxengasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Marxweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "engasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Marxengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.878279320711264",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.75248280210216"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3818",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Marxengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.878279320711264",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.75248280210216"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3819",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Marxengasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Marxengasse"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Marxweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4820697910072953",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.951061608778986"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3818",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Marxweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4820697910072953",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.951061608778986"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3820",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Marxweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Marxweg"
+      ]
+    },
+    {
+      "token_string": "zelheide",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Marzelheide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.077446438911831",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.163441879551215"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3800",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Marzelheide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.077446438911831",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.163441879551215"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3821",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Marzelheide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Marzelheide"
+      ]
+    },
+    {
+      "token_string": "spelt",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Maspelt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.918950892502307",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.61214397805827"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3761",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Maspelt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.918950892502307",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.61214397805827"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3822",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Maspelt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Maspelt"
+      ]
+    },
+    {
+      "token_string": "xstrasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Maxstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1524453318458443",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.238970919297856"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment120.jsonld#3761",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Maxstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1524453318458443",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.238970919297856"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment120.jsonld#3824",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Maxstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Maxstrasse"
+      ]
+    }
+  ]
+}

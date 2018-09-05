@@ -1,0 +1,117 @@
+{
+  "root_node_id": "859",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment15.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "d",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Brand",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7974960000971176",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.053392350823756"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment15.jsonld#860",
+              "@type": "tree:Node",
+              "token_string": "ehövel"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment18.jsonld#857",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Brand",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7974960000971176",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.053392350823756"
+        },
+        {
+          "http://example.com/terms#name": "Brandehövel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.322886257123001",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.72565386128577"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "streetsfragment15.jsonld#859",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Brand"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Brandehövel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Brand"
+      ]
+    },
+    {
+      "token_string": "ehövel",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Brandehövel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.322886257123001",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.72565386128577"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment15.jsonld#859",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Brandehövel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.322886257123001",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.72565386128577"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment15.jsonld#860",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Brandehövel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Brandehövel"
+      ]
+    }
+  ]
+}

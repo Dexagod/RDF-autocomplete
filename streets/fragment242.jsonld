@@ -1,0 +1,1677 @@
+{
+  "root_node_id": "7141",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment242.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "gne de Boca",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Fagne de Boca",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5861049649208514",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.11112423440846"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7142",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fagne de Boca",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5861049649208514",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.11112423440846"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7139",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fagne de Boca"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Fagne de Boca"
+      ]
+    },
+    {
+      "token_string": "uve",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Fauve",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.362232354908522",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.92727702662664"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7142",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fauve",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.362232354908522",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.92727702662664"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7140",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fauve"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Fauve"
+      ]
+    },
+    {
+      "token_string": "F",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7142",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7143",
+              "@type": "tree:Node",
+              "token_string": "élix Thomas"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7145",
+              "@type": "tree:Node",
+              "token_string": "er"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7155",
+              "@type": "tree:Node",
+              "token_string": "lorentine Joos-Lambert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7163",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7176",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment253.jsonld#7407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fagne de Boca",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5861049649208514",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.11112423440846"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fauve",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.362232354908522",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.92727702662664"
+        },
+        {
+          "http://example.com/terms#name": "Rue Ferdinand Desmons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8665929385885316",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.911412184913715"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fernand Bourgeois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.567341734998811",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.6483826897705"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fernande Coulon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.680639158015993",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.7586247689278"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fernand Herman",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.579481879406127",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.73616842772878"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fernand Khnopff",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.778187287672687",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5132649061897"
+        },
+        {
+          "http://example.com/terms#name": "Rue Florentine Joos-Lambert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.332729517154227",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.15678661992575"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fond de Pré",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.747237680306329",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11520339335681"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fond de Villereau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.99753900891029",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71756835610301"
+        }
+      ],
+      "total_children_count": 29,
+      "@id": "streetsfragment242.jsonld#7141",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fagne de Boca"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fauve"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Ferdinand Desmons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fernand Bourgeois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fernande Coulon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fernand Herman"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fernand Khnopff"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Florentine Joos-Lambert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fond de Pré"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fond de Villereau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7139",
+              "@type": "tree:Node",
+              "token_string": "gne de Boca"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7140",
+              "@type": "tree:Node",
+              "token_string": "uve"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7141",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fagne de Boca",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5861049649208514",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.11112423440846"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fauve",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.362232354908522",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.92727702662664"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment242.jsonld#7142",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fagne de Boca"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fauve"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "élix Thomas",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Félix Thomas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.282303094572872",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.927247702840326"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7141",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Félix Thomas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.282303094572872",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.927247702840326"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7143",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Félix Thomas"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Félix Thomas"
+      ]
+    },
+    {
+      "token_string": "er",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7146",
+              "@type": "tree:Node",
+              "token_string": "dinand Desmons"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7148",
+              "@type": "tree:Node",
+              "token_string": "nand"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7141",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Ferdinand Desmons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8665929385885316",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.911412184913715"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fernand Bourgeois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.567341734998811",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.6483826897705"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fernande Coulon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.680639158015993",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.7586247689278"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fernand Herman",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.579481879406127",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.73616842772878"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fernand Khnopff",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.778187287672687",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5132649061897"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "streetsfragment242.jsonld#7145",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Ferdinand Desmons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fernand Bourgeois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fernande Coulon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fernand Herman"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fernand Khnopff"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "dinand Desmons",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Ferdinand Desmons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8665929385885316",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.911412184913715"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7145",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Ferdinand Desmons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8665929385885316",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.911412184913715"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7146",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Ferdinand Desmons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Ferdinand Desmons"
+      ]
+    },
+    {
+      "token_string": "nand",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7150",
+              "@type": "tree:Node",
+              "token_string": "e Coulon"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7151",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7145",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fernand Bourgeois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.567341734998811",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.6483826897705"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fernande Coulon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.680639158015993",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.7586247689278"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fernand Herman",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.579481879406127",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.73616842772878"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fernand Khnopff",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.778187287672687",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5132649061897"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment242.jsonld#7148",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fernand Bourgeois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fernande Coulon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fernand Herman"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fernand Khnopff"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e Coulon",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Fernande Coulon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.680639158015993",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.7586247689278"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7148",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fernande Coulon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.680639158015993",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.7586247689278"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7150",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fernande Coulon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Fernande Coulon"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7152",
+              "@type": "tree:Node",
+              "token_string": "Bourgeois"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7153",
+              "@type": "tree:Node",
+              "token_string": "Herman"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7154",
+              "@type": "tree:Node",
+              "token_string": "Khnopff"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7148",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fernand Bourgeois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.567341734998811",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.6483826897705"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fernand Herman",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.579481879406127",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.73616842772878"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fernand Khnopff",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.778187287672687",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5132649061897"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment242.jsonld#7151",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fernand Bourgeois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fernand Herman"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fernand Khnopff"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Bourgeois",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Fernand Bourgeois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.567341734998811",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.6483826897705"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7151",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fernand Bourgeois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.567341734998811",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.6483826897705"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7152",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fernand Bourgeois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Fernand Bourgeois"
+      ]
+    },
+    {
+      "token_string": "Herman",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Fernand Herman",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.579481879406127",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.73616842772878"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7151",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fernand Herman",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.579481879406127",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.73616842772878"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7153",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fernand Herman"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Fernand Herman"
+      ]
+    },
+    {
+      "token_string": "Khnopff",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Fernand Khnopff",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.778187287672687",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5132649061897"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7151",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fernand Khnopff",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.778187287672687",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5132649061897"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7154",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fernand Khnopff"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Fernand Khnopff"
+      ]
+    },
+    {
+      "token_string": "lorentine Joos-Lambert",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Florentine Joos-Lambert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.332729517154227",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.15678661992575"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7141",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Florentine Joos-Lambert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.332729517154227",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.15678661992575"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7155",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Florentine Joos-Lambert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Florentine Joos-Lambert"
+      ]
+    },
+    {
+      "token_string": "Pré",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Fond de Pré",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.747237680306329",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11520339335681"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7161",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fond de Pré",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.747237680306329",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11520339335681"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7158",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fond de Pré"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Fond de Pré"
+      ]
+    },
+    {
+      "token_string": "Villereau",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Fond de Villereau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.99753900891029",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71756835610301"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7161",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fond de Villereau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.99753900891029",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71756835610301"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7159",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fond de Villereau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Fond de Villereau"
+      ]
+    },
+    {
+      "token_string": " de ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7158",
+              "@type": "tree:Node",
+              "token_string": "Pré"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7159",
+              "@type": "tree:Node",
+              "token_string": "Villereau"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7164",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fond de Pré",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.747237680306329",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11520339335681"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fond de Villereau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.99753900891029",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71756835610301"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment242.jsonld#7161",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fond de Pré"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fond de Villereau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "s de Nismes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Fonds de Nismes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2083791049275336",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.28881198847955"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7164",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fonds de Nismes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2083791049275336",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.28881198847955"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7162",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fonds de Nismes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Fonds de Nismes"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7164",
+              "@type": "tree:Node",
+              "token_string": "nd"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7165",
+              "@type": "tree:Node",
+              "token_string": "ssé aux Chênes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7141",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fond de Pré",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.747237680306329",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11520339335681"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fond de Villereau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.99753900891029",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71756835610301"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fonds de Nismes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2083791049275336",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.28881198847955"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fossé aux Chênes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.075350138479114",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.058023593113354"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment242.jsonld#7163",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fond de Pré"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fond de Villereau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fonds de Nismes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fossé aux Chênes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "nd",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7161",
+              "@type": "tree:Node",
+              "token_string": " de "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7162",
+              "@type": "tree:Node",
+              "token_string": "s de Nismes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7163",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fond de Pré",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.747237680306329",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.11520339335681"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fond de Villereau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.99753900891029",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71756835610301"
+        },
+        {
+          "http://example.com/terms#name": "Rue Fonds de Nismes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2083791049275336",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.28881198847955"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment242.jsonld#7164",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fond de Pré"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fond de Villereau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Fonds de Nismes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ssé aux Chênes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Fossé aux Chênes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.075350138479114",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.058023593113354"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7163",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Fossé aux Chênes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.075350138479114",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.058023593113354"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7165",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Fossé aux Chênes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Fossé aux Chênes"
+      ]
+    },
+    {
+      "token_string": "ourg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue François Bourg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4754327916690686",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.29289064577766"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7171",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue François Bourg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4754327916690686",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.29289064577766"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7168",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue François Bourg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue François Bourg"
+      ]
+    },
+    {
+      "token_string": "runin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue François Brunin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.422626182057277",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.880912958694296"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7171",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue François Brunin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.422626182057277",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.880912958694296"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7169",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue François Brunin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue François Brunin"
+      ]
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7168",
+              "@type": "tree:Node",
+              "token_string": "ourg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7169",
+              "@type": "tree:Node",
+              "token_string": "runin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7174",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue François Bourg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4754327916690686",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.29289064577766"
+        },
+        {
+          "http://example.com/terms#name": "Rue François Brunin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.422626182057277",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.880912958694296"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment242.jsonld#7171",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue François Bourg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue François Brunin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Mathot",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue François Mathot",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.825107692638076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62795852621733"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7174",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue François Mathot",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.825107692638076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62795852621733"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7172",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue François Mathot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue François Mathot"
+      ]
+    },
+    {
+      "token_string": "çois ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7171",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7172",
+              "@type": "tree:Node",
+              "token_string": "Mathot"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7177",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue François Bourg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4754327916690686",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.29289064577766"
+        },
+        {
+          "http://example.com/terms#name": "Rue François Brunin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.422626182057277",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.880912958694296"
+        },
+        {
+          "http://example.com/terms#name": "Rue François Mathot",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.825107692638076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62795852621733"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment242.jsonld#7174",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue François Bourg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue François Brunin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue François Mathot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "co Rasetti",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Franco Rasetti",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.940800941037559",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.238633208369485"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7177",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Franco Rasetti",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.940800941037559",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.238633208369485"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7175",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Franco Rasetti"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Franco Rasetti"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7177",
+              "@type": "tree:Node",
+              "token_string": "an"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7178",
+              "@type": "tree:Node",
+              "token_string": "édérique Lenger"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7141",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue François Bourg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4754327916690686",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.29289064577766"
+        },
+        {
+          "http://example.com/terms#name": "Rue François Brunin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.422626182057277",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.880912958694296"
+        },
+        {
+          "http://example.com/terms#name": "Rue François Mathot",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.825107692638076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62795852621733"
+        },
+        {
+          "http://example.com/terms#name": "Rue Franco Rasetti",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.940800941037559",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.238633208369485"
+        },
+        {
+          "http://example.com/terms#name": "Rue Frédérique Lenger",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.654305319694944",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.972266640829005"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "streetsfragment242.jsonld#7176",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue François Bourg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue François Brunin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue François Mathot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Franco Rasetti"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Frédérique Lenger"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "an",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7174",
+              "@type": "tree:Node",
+              "token_string": "çois "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment242.jsonld#7175",
+              "@type": "tree:Node",
+              "token_string": "co Rasetti"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7176",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue François Bourg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4754327916690686",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.29289064577766"
+        },
+        {
+          "http://example.com/terms#name": "Rue François Brunin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.422626182057277",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.880912958694296"
+        },
+        {
+          "http://example.com/terms#name": "Rue François Mathot",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.825107692638076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.62795852621733"
+        },
+        {
+          "http://example.com/terms#name": "Rue Franco Rasetti",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.940800941037559",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.238633208369485"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment242.jsonld#7177",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue François Bourg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue François Brunin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue François Mathot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Franco Rasetti"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "édérique Lenger",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Frédérique Lenger",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.654305319694944",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.972266640829005"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment242.jsonld#7176",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Frédérique Lenger",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.654305319694944",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.972266640829005"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment242.jsonld#7178",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Frédérique Lenger"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Frédérique Lenger"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,495 @@
+{
+  "root_node_id": "1202",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment33.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": " Collin",
+      "triples": [
+        {
+          "streetname": "Chemin de la Fagne Collin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment33.jsonld#1203",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de la Fagne Collin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment33.jsonld#1201",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de la Fagne Collin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de la Fagne Collin"
+      ]
+    },
+    {
+      "token_string": "F",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment33.jsonld#1203",
+              "@type": "tree:Node",
+              "token_string": "agne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment33.jsonld#1205",
+              "@type": "tree:Node",
+              "token_string": "erme "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment33.jsonld#1209",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment33.jsonld#1212",
+              "@type": "tree:Node",
+              "token_string": "rise"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment35.jsonld#1225",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de la Fagne"
+        },
+        {
+          "streetname": "Chemin de la Fagne Collin"
+        },
+        {
+          "streetname": "Chemin de la Ferme du Garde"
+        },
+        {
+          "streetname": "Chemin de la Ferme Poliard"
+        },
+        {
+          "streetname": "Chemin de la Fontaine"
+        },
+        {
+          "streetname": "Chemin de la Forêt"
+        },
+        {
+          "streetname": "Chemin de la Frise"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "fragment33.jsonld#1202",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de la Fagne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de la Fagne Collin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de la Ferme du Garde"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de la Ferme Poliard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de la Fontaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de la Forêt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de la Frise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "agne",
+      "triples": [
+        {
+          "streetname": "Chemin de la Fagne"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment33.jsonld#1201",
+              "@type": "tree:Node",
+              "token_string": " Collin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment33.jsonld#1202",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de la Fagne"
+        },
+        {
+          "streetname": "Chemin de la Fagne Collin"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "fragment33.jsonld#1203",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de la Fagne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de la Fagne Collin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de la Fagne"
+      ]
+    },
+    {
+      "token_string": "erme ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment33.jsonld#1206",
+              "@type": "tree:Node",
+              "token_string": "du Garde"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment33.jsonld#1207",
+              "@type": "tree:Node",
+              "token_string": "Poliard"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment33.jsonld#1202",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de la Ferme du Garde"
+        },
+        {
+          "streetname": "Chemin de la Ferme Poliard"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment33.jsonld#1205",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de la Ferme du Garde"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de la Ferme Poliard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "du Garde",
+      "triples": [
+        {
+          "streetname": "Chemin de la Ferme du Garde"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment33.jsonld#1205",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de la Ferme du Garde"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment33.jsonld#1206",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de la Ferme du Garde"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de la Ferme du Garde"
+      ]
+    },
+    {
+      "token_string": "Poliard",
+      "triples": [
+        {
+          "streetname": "Chemin de la Ferme Poliard"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment33.jsonld#1205",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de la Ferme Poliard"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment33.jsonld#1207",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de la Ferme Poliard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de la Ferme Poliard"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment33.jsonld#1210",
+              "@type": "tree:Node",
+              "token_string": "ntaine"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment33.jsonld#1211",
+              "@type": "tree:Node",
+              "token_string": "rêt"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment33.jsonld#1202",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de la Fontaine"
+        },
+        {
+          "streetname": "Chemin de la Forêt"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment33.jsonld#1209",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de la Fontaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de la Forêt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ntaine",
+      "triples": [
+        {
+          "streetname": "Chemin de la Fontaine"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment33.jsonld#1209",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de la Fontaine"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment33.jsonld#1210",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de la Fontaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de la Fontaine"
+      ]
+    },
+    {
+      "token_string": "rêt",
+      "triples": [
+        {
+          "streetname": "Chemin de la Forêt"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment33.jsonld#1209",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de la Forêt"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment33.jsonld#1211",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de la Forêt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de la Forêt"
+      ]
+    },
+    {
+      "token_string": "rise",
+      "triples": [
+        {
+          "streetname": "Chemin de la Frise"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment33.jsonld#1202",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de la Frise"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment33.jsonld#1212",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de la Frise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de la Frise"
+      ]
+    }
+  ]
+}

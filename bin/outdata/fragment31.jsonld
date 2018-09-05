@@ -1,0 +1,5278 @@
+{
+  "root_node_id": "968",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment31.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "eche",
+      "triples": [
+        {
+          "streetname": "Campagne de Beche"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#946",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Campagne de Beche"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#943",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campagne de Beche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Campagne de Beche"
+      ]
+    },
+    {
+      "token_string": "êche",
+      "triples": [
+        {
+          "streetname": "Campagne de Bêche"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#946",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Campagne de Bêche"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#944",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campagne de Bêche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Campagne de Bêche"
+      ]
+    },
+    {
+      "token_string": "e B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#943",
+              "@type": "tree:Node",
+              "token_string": "eche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#944",
+              "@type": "tree:Node",
+              "token_string": "êche"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#949",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Campagne de Beche"
+        },
+        {
+          "streetname": "Campagne de Bêche"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment31.jsonld#946",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campagne de Beche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne de Bêche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'Enée",
+      "triples": [
+        {
+          "streetname": "Campagne d'Enée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#949",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Campagne d'Enée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#947",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campagne d'Enée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Campagne d'Enée"
+      ]
+    },
+    {
+      "token_string": "agne d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#946",
+              "@type": "tree:Node",
+              "token_string": "e B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#947",
+              "@type": "tree:Node",
+              "token_string": "'Enée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#952",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Campagne de Beche"
+        },
+        {
+          "streetname": "Campagne de Bêche"
+        },
+        {
+          "streetname": "Campagne d'Enée"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment31.jsonld#949",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campagne de Beche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne de Bêche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne d'Enée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "us Straße",
+      "triples": [
+        {
+          "streetname": "Campus Straße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#952",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Campus Straße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#950",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campus Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Campus Straße"
+      ]
+    },
+    {
+      "token_string": "mp",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#949",
+              "@type": "tree:Node",
+              "token_string": "agne d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#950",
+              "@type": "tree:Node",
+              "token_string": "us Straße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#969",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Campagne de Beche"
+        },
+        {
+          "streetname": "Campagne de Bêche"
+        },
+        {
+          "streetname": "Campagne d'Enée"
+        },
+        {
+          "streetname": "Campus Straße"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment31.jsonld#952",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campagne de Beche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne de Bêche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne d'Enée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campus Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sinostrasse",
+      "triples": [
+        {
+          "streetname": "Casinostrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#969",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Casinostrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#967",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Casinostrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Casinostrasse"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#969",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#970",
+              "@type": "tree:Node",
+              "token_string": "entre Commercial \\\"Ville 2\\\""
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1014",
+              "@type": "tree:Node",
+              "token_string": "HA"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1032",
+              "@type": "tree:Node",
+              "token_string": "h"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1917",
+              "@type": "tree:Node",
+              "token_string": "ité "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1921",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2303",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment90.jsonld#2368",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment1.jsonld#1",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Campagne de Beche"
+        },
+        {
+          "streetname": "Campagne de Bêche"
+        },
+        {
+          "streetname": "Campagne d'Enée"
+        },
+        {
+          "streetname": "Campus Straße"
+        },
+        {
+          "streetname": "Carnolsweg"
+        },
+        {
+          "streetname": "Carrefour d'en Bas"
+        },
+        {
+          "streetname": "Carrefour d'en Haut"
+        },
+        {
+          "streetname": "Carrefour des Vagues"
+        },
+        {
+          "streetname": "CHARLEROI AIRPORT BUILDING"
+        },
+        {
+          "streetname": "CHAUSSEE DE TIRLEMONT"
+        }
+      ],
+      "total_children_count": 1085,
+      "@id": "fragment31.jsonld#968",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campagne de Beche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne de Bêche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne d'Enée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campus Straße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carnolsweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour d'en Bas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour d'en Haut"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour des Vagues"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "CHARLEROI AIRPORT BUILDING"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "CHAUSSEE DE TIRLEMONT"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#952",
+              "@type": "tree:Node",
+              "token_string": "mp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment30.jsonld#954",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#967",
+              "@type": "tree:Node",
+              "token_string": "sinostrasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#968",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Campagne de Beche"
+        },
+        {
+          "streetname": "Campagne de Bêche"
+        },
+        {
+          "streetname": "Campagne d'Enée"
+        },
+        {
+          "streetname": "Campus Straße"
+        },
+        {
+          "streetname": "Carnolsweg"
+        },
+        {
+          "streetname": "Carré des Lanciers"
+        },
+        {
+          "streetname": "Carrefour d'en Bas"
+        },
+        {
+          "streetname": "Carrefour d'en Haut"
+        },
+        {
+          "streetname": "Carrefour des Vagues"
+        },
+        {
+          "streetname": "Carrière de la Grande Motte"
+        }
+      ],
+      "total_children_count": 18,
+      "@id": "fragment31.jsonld#969",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campagne de Beche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne de Bêche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne d'Enée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campus Straße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carnolsweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carré des Lanciers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour d'en Bas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour d'en Haut"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour des Vagues"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrière de la Grande Motte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "entre Commercial \\\"Ville 2\\\"",
+      "triples": [
+        {
+          "streetname": "Centre Commercial \\\"Ville 2\\\""
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#968",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Centre Commercial \\\"Ville 2\\\""
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#970",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Centre Commercial \\\"Ville 2\\\""
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Centre Commercial \\\"Ville 2\\\""
+      ]
+    },
+    {
+      "token_string": "agner Strasse",
+      "triples": [
+        {
+          "streetname": "Champagner Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#993",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champagner Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#973",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champagner Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champagner Strasse"
+      ]
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#979",
+              "@type": "tree:Node",
+              "token_string": "Cinq Bonniers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#980",
+              "@type": "tree:Node",
+              "token_string": "Oies"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#985",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champ des Cinq Bonniers"
+        },
+        {
+          "streetname": "Champ des Oies"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment31.jsonld#978",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ des Cinq Bonniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Oies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Cinq Bonniers",
+      "triples": [
+        {
+          "streetname": "Champ des Cinq Bonniers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#978",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champ des Cinq Bonniers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#979",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ des Cinq Bonniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champ des Cinq Bonniers"
+      ]
+    },
+    {
+      "token_string": "Oies",
+      "triples": [
+        {
+          "streetname": "Champ des Oies"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#978",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champ des Oies"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#980",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ des Oies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champ des Oies"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#982",
+              "@type": "tree:Node",
+              "token_string": "la Garenne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#983",
+              "@type": "tree:Node",
+              "token_string": "Wez"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#985",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champ de la Garenne"
+        },
+        {
+          "streetname": "Champ de Wez"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment31.jsonld#981",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ de la Garenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ de Wez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "la Garenne",
+      "triples": [
+        {
+          "streetname": "Champ de la Garenne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#981",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champ de la Garenne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#982",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ de la Garenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champ de la Garenne"
+      ]
+    },
+    {
+      "token_string": "Wez",
+      "triples": [
+        {
+          "streetname": "Champ de Wez"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#981",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champ de Wez"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#983",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ de Wez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champ de Wez"
+      ]
+    },
+    {
+      "token_string": " d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#985",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#987",
+              "@type": "tree:Node",
+              "token_string": "u "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#993",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champ de la Garenne"
+        },
+        {
+          "streetname": "Champ des Cinq Bonniers"
+        },
+        {
+          "streetname": "Champ des Oies"
+        },
+        {
+          "streetname": "Champ de Wez"
+        },
+        {
+          "streetname": "Champ du Bosquet"
+        },
+        {
+          "streetname": "Champ du Gros Chêne"
+        },
+        {
+          "streetname": "Champ du Mont"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "fragment31.jsonld#984",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ de la Garenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Cinq Bonniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Oies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ de Wez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Bosquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Gros Chêne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Mont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#978",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#981",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#984",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champ de la Garenne"
+        },
+        {
+          "streetname": "Champ des Cinq Bonniers"
+        },
+        {
+          "streetname": "Champ des Oies"
+        },
+        {
+          "streetname": "Champ de Wez"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment31.jsonld#985",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ de la Garenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Cinq Bonniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Oies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ de Wez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#988",
+              "@type": "tree:Node",
+              "token_string": "Bosquet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#989",
+              "@type": "tree:Node",
+              "token_string": "Gros Chêne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#990",
+              "@type": "tree:Node",
+              "token_string": "Mont"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#984",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champ du Bosquet"
+        },
+        {
+          "streetname": "Champ du Gros Chêne"
+        },
+        {
+          "streetname": "Champ du Mont"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment31.jsonld#987",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ du Bosquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Gros Chêne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Mont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Bosquet",
+      "triples": [
+        {
+          "streetname": "Champ du Bosquet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#987",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champ du Bosquet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#988",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ du Bosquet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champ du Bosquet"
+      ]
+    },
+    {
+      "token_string": "Gros Chêne",
+      "triples": [
+        {
+          "streetname": "Champ du Gros Chêne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#987",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champ du Gros Chêne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#989",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ du Gros Chêne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champ du Gros Chêne"
+      ]
+    },
+    {
+      "token_string": "Mont",
+      "triples": [
+        {
+          "streetname": "Champ du Mont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#987",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champ du Mont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#990",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ du Mont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champ du Mont"
+      ]
+    },
+    {
+      "token_string": "s des Fonds",
+      "triples": [
+        {
+          "streetname": "Champs des Fonds"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#993",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champs des Fonds"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#991",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champs des Fonds"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champs des Fonds"
+      ]
+    },
+    {
+      "token_string": "mp",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#973",
+              "@type": "tree:Node",
+              "token_string": "agner Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#984",
+              "@type": "tree:Node",
+              "token_string": " d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#991",
+              "@type": "tree:Node",
+              "token_string": "s des Fonds"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1033",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champagner Strasse"
+        },
+        {
+          "streetname": "Champ de la Garenne"
+        },
+        {
+          "streetname": "Champ des Cinq Bonniers"
+        },
+        {
+          "streetname": "Champ des Oies"
+        },
+        {
+          "streetname": "Champ de Wez"
+        },
+        {
+          "streetname": "Champ du Bosquet"
+        },
+        {
+          "streetname": "Champ du Gros Chêne"
+        },
+        {
+          "streetname": "Champ du Mont"
+        },
+        {
+          "streetname": "Champs des Fonds"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "fragment31.jsonld#993",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champagner Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ de la Garenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Cinq Bonniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Oies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ de Wez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Bosquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Gros Chêne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champs des Fonds"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "nts des Oiseaux",
+      "triples": [
+        {
+          "streetname": "Chants des Oiseaux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1033",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chants des Oiseaux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#994",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chants des Oiseaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chants des Oiseaux"
+      ]
+    },
+    {
+      "token_string": "pelle du Faweux",
+      "triples": [
+        {
+          "streetname": "Chapelle du Faweux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1033",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chapelle du Faweux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#995",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chapelle du Faweux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chapelle du Faweux"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#999",
+              "@type": "tree:Node",
+              "token_string": "les Cravatte-Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1000",
+              "@type": "tree:Node",
+              "token_string": "rau du Bocq"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1033",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Charles Cravatte-Strasse"
+        },
+        {
+          "streetname": "Charrau du Bocq"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment31.jsonld#998",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Charles Cravatte-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Charrau du Bocq"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "les Cravatte-Strasse",
+      "triples": [
+        {
+          "streetname": "Charles Cravatte-Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#998",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Charles Cravatte-Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#999",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Charles Cravatte-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Charles Cravatte-Strasse"
+      ]
+    },
+    {
+      "token_string": "rau du Bocq",
+      "triples": [
+        {
+          "streetname": "Charrau du Bocq"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#998",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Charrau du Bocq"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1000",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Charrau du Bocq"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Charrau du Bocq"
+      ]
+    },
+    {
+      "token_string": "Bruxelles",
+      "triples": [
+        {
+          "streetname": "Chaussée de Bruxelles"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée de Bruxelles"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1003",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Bruxelles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Bruxelles"
+      ]
+    },
+    {
+      "token_string": "Courtrai",
+      "triples": [
+        {
+          "streetname": "Chaussée de Courtrai"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée de Courtrai"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1004",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Courtrai"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Courtrai"
+      ]
+    },
+    {
+      "token_string": "Frasnes",
+      "triples": [
+        {
+          "streetname": "Chaussée de Frasnes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée de Frasnes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1005",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Frasnes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Frasnes"
+      ]
+    },
+    {
+      "token_string": "la ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1008",
+              "@type": "tree:Node",
+              "token_string": "Blanche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1009",
+              "@type": "tree:Node",
+              "token_string": "Sucrerie"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée de la Blanche"
+        },
+        {
+          "streetname": "Chaussée de la Sucrerie"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment31.jsonld#1007",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de la Blanche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de la Sucrerie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Blanche",
+      "triples": [
+        {
+          "streetname": "Chaussée de la Blanche"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1007",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée de la Blanche"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1008",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de la Blanche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de la Blanche"
+      ]
+    },
+    {
+      "token_string": "Sucrerie",
+      "triples": [
+        {
+          "streetname": "Chaussée de la Sucrerie"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1007",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée de la Sucrerie"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1009",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de la Sucrerie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de la Sucrerie"
+      ]
+    },
+    {
+      "token_string": "Liege",
+      "triples": [
+        {
+          "streetname": "Chaussée de Liege"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée de Liege"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1010",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Liege"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Liege"
+      ]
+    },
+    {
+      "token_string": "Mons",
+      "triples": [
+        {
+          "streetname": "Chaussée de Mons"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée de Mons"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1011",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Mons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Mons"
+      ]
+    },
+    {
+      "token_string": "Nivelles",
+      "triples": [
+        {
+          "streetname": "Chaussée de Nivelles"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée de Nivelles"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1012",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Nivelles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Nivelles"
+      ]
+    },
+    {
+      "token_string": "HA",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1015",
+              "@type": "tree:Node",
+              "token_string": "RLEROI AIRPORT BUILDING"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1016",
+              "@type": "tree:Node",
+              "token_string": "USSEE DE TIRLEMONT"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#968",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "CHARLEROI AIRPORT BUILDING"
+        },
+        {
+          "streetname": "CHAUSSEE DE TIRLEMONT"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment31.jsonld#1014",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "CHARLEROI AIRPORT BUILDING"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "CHAUSSEE DE TIRLEMONT"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "RLEROI AIRPORT BUILDING",
+      "triples": [
+        {
+          "streetname": "CHARLEROI AIRPORT BUILDING"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1014",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "CHARLEROI AIRPORT BUILDING"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1015",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "CHARLEROI AIRPORT BUILDING"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "CHARLEROI AIRPORT BUILDING"
+      ]
+    },
+    {
+      "token_string": "USSEE DE TIRLEMONT",
+      "triples": [
+        {
+          "streetname": "CHAUSSEE DE TIRLEMONT"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1014",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "CHAUSSEE DE TIRLEMONT"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1016",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "CHAUSSEE DE TIRLEMONT"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "CHAUSSEE DE TIRLEMONT"
+      ]
+    },
+    {
+      "token_string": "T",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1018",
+              "@type": "tree:Node",
+              "token_string": "huin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1019",
+              "@type": "tree:Node",
+              "token_string": "ubize"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée de Thuin"
+        },
+        {
+          "streetname": "Chaussée de Tubize"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment31.jsonld#1017",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Thuin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Tubize"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "huin",
+      "triples": [
+        {
+          "streetname": "Chaussée de Thuin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1017",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée de Thuin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1018",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Thuin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Thuin"
+      ]
+    },
+    {
+      "token_string": "ubize",
+      "triples": [
+        {
+          "streetname": "Chaussée de Tubize"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1017",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée de Tubize"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1019",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Tubize"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Tubize"
+      ]
+    },
+    {
+      "token_string": "Wavre",
+      "triples": [
+        {
+          "streetname": "Chaussée de Wavre"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée de Wavre"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1020",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Wavre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Wavre"
+      ]
+    },
+    {
+      "token_string": "e ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1003",
+              "@type": "tree:Node",
+              "token_string": "Bruxelles"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1004",
+              "@type": "tree:Node",
+              "token_string": "Courtrai"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1005",
+              "@type": "tree:Node",
+              "token_string": "Frasnes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1007",
+              "@type": "tree:Node",
+              "token_string": "la "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1010",
+              "@type": "tree:Node",
+              "token_string": "Liege"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1011",
+              "@type": "tree:Node",
+              "token_string": "Mons"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1012",
+              "@type": "tree:Node",
+              "token_string": "Nivelles"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1017",
+              "@type": "tree:Node",
+              "token_string": "T"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1020",
+              "@type": "tree:Node",
+              "token_string": "Wavre"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1028",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée de Bruxelles"
+        },
+        {
+          "streetname": "Chaussée de Courtrai"
+        },
+        {
+          "streetname": "Chaussée de Frasnes"
+        },
+        {
+          "streetname": "Chaussée de la Blanche"
+        },
+        {
+          "streetname": "Chaussée de Liege"
+        },
+        {
+          "streetname": "Chaussée de Mons"
+        },
+        {
+          "streetname": "Chaussée de Nivelles"
+        },
+        {
+          "streetname": "Chaussée de Thuin"
+        },
+        {
+          "streetname": "Chaussée de Tubize"
+        },
+        {
+          "streetname": "Chaussée de Wavre"
+        }
+      ],
+      "total_children_count": 13,
+      "@id": "fragment31.jsonld#1022",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Bruxelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Courtrai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Frasnes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de la Blanche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Liege"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Mons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Nivelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Thuin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Tubize"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Wavre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1025",
+              "@type": "tree:Node",
+              "token_string": "Château Mondron"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1026",
+              "@type": "tree:Node",
+              "token_string": "Pont Royal"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1028",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée du Château Mondron"
+        },
+        {
+          "streetname": "Chaussée du Pont Royal"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment31.jsonld#1024",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée du Château Mondron"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée du Pont Royal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Château Mondron",
+      "triples": [
+        {
+          "streetname": "Chaussée du Château Mondron"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1024",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée du Château Mondron"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1025",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée du Château Mondron"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée du Château Mondron"
+      ]
+    },
+    {
+      "token_string": "Pont Royal",
+      "triples": [
+        {
+          "streetname": "Chaussée du Pont Royal"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1024",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée du Pont Royal"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1026",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée du Pont Royal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée du Pont Royal"
+      ]
+    },
+    {
+      "token_string": "ussée ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1028",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1029",
+              "@type": "tree:Node",
+              "token_string": "Impériale"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1030",
+              "@type": "tree:Node",
+              "token_string": "Romaine"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1033",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée de Bruxelles"
+        },
+        {
+          "streetname": "Chaussée de Courtrai"
+        },
+        {
+          "streetname": "Chaussée de Frasnes"
+        },
+        {
+          "streetname": "Chaussée de Liege"
+        },
+        {
+          "streetname": "Chaussée de Mons"
+        },
+        {
+          "streetname": "Chaussée de Nivelles"
+        },
+        {
+          "streetname": "Chaussée de Thuin"
+        },
+        {
+          "streetname": "Chaussée de Tubize"
+        },
+        {
+          "streetname": "Chaussée Impériale"
+        },
+        {
+          "streetname": "Chaussée Romaine"
+        }
+      ],
+      "total_children_count": 20,
+      "@id": "fragment31.jsonld#1027",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Bruxelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Courtrai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Frasnes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Liege"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Mons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Nivelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Thuin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Tubize"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée Impériale"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée Romaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1022",
+              "@type": "tree:Node",
+              "token_string": "e "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1024",
+              "@type": "tree:Node",
+              "token_string": "u "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1027",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée de Bruxelles"
+        },
+        {
+          "streetname": "Chaussée de Courtrai"
+        },
+        {
+          "streetname": "Chaussée de Frasnes"
+        },
+        {
+          "streetname": "Chaussée de la Blanche"
+        },
+        {
+          "streetname": "Chaussée de Liege"
+        },
+        {
+          "streetname": "Chaussée de Mons"
+        },
+        {
+          "streetname": "Chaussée de Nivelles"
+        },
+        {
+          "streetname": "Chaussée de Thuin"
+        },
+        {
+          "streetname": "Chaussée de Tubize"
+        },
+        {
+          "streetname": "Chaussée de Wavre"
+        }
+      ],
+      "total_children_count": 17,
+      "@id": "fragment31.jsonld#1028",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Bruxelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Courtrai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Frasnes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de la Blanche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Liege"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Mons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Nivelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Thuin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Tubize"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Wavre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Impériale",
+      "triples": [
+        {
+          "streetname": "Chaussée Impériale"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1027",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée Impériale"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1029",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée Impériale"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée Impériale"
+      ]
+    },
+    {
+      "token_string": "Romaine",
+      "triples": [
+        {
+          "streetname": "Chaussée Romaine"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1027",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chaussée Romaine"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1030",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée Romaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée Romaine"
+      ]
+    },
+    {
+      "token_string": "vée aux Consires",
+      "triples": [
+        {
+          "streetname": "Chavée aux Consires"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1033",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chavée aux Consires"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1031",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chavée aux Consires"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chavée aux Consires"
+      ]
+    },
+    {
+      "token_string": "h",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1033",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1039",
+              "@type": "tree:Node",
+              "token_string": " de "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1046",
+              "@type": "tree:Node",
+              "token_string": "em"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1911",
+              "@type": "tree:Node",
+              "token_string": "êne à l'Alôre"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1913",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#968",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champ de la Garenne"
+        },
+        {
+          "streetname": "Champ des Cinq Bonniers"
+        },
+        {
+          "streetname": "Champ des Oies"
+        },
+        {
+          "streetname": "Champ de Wez"
+        },
+        {
+          "streetname": "Champ du Bosquet"
+        },
+        {
+          "streetname": "Champ du Gros Chêne"
+        },
+        {
+          "streetname": "Ch de la 84e DivAméricaine"
+        },
+        {
+          "streetname": "Ch de la Grübermülhe"
+        },
+        {
+          "streetname": "Ch de la petite Campagnette"
+        },
+        {
+          "streetname": "Ch de St-Jacques"
+        }
+      ],
+      "total_children_count": 709,
+      "@id": "fragment31.jsonld#1032",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ de la Garenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Cinq Bonniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Oies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ de Wez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Bosquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Gros Chêne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de la 84e DivAméricaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de la Grübermülhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de la petite Campagnette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de St-Jacques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#993",
+              "@type": "tree:Node",
+              "token_string": "mp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#994",
+              "@type": "tree:Node",
+              "token_string": "nts des Oiseaux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#995",
+              "@type": "tree:Node",
+              "token_string": "pelle du Faweux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#998",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1027",
+              "@type": "tree:Node",
+              "token_string": "ussée "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1031",
+              "@type": "tree:Node",
+              "token_string": "vée aux Consires"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1032",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Champagner Strasse"
+        },
+        {
+          "streetname": "Champ de la Garenne"
+        },
+        {
+          "streetname": "Champ des Cinq Bonniers"
+        },
+        {
+          "streetname": "Champ des Oies"
+        },
+        {
+          "streetname": "Champ de Wez"
+        },
+        {
+          "streetname": "Champ du Bosquet"
+        },
+        {
+          "streetname": "Champ du Gros Chêne"
+        },
+        {
+          "streetname": "Champ du Mont"
+        },
+        {
+          "streetname": "Champs des Fonds"
+        },
+        {
+          "streetname": "Chants des Oiseaux"
+        }
+      ],
+      "total_children_count": 42,
+      "@id": "fragment31.jsonld#1033",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champagner Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ de la Garenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Cinq Bonniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Oies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ de Wez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Bosquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Gros Chêne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champs des Fonds"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chants des Oiseaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "84e DivAméricaine",
+      "triples": [
+        {
+          "streetname": "Ch de la 84e DivAméricaine"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1040",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Ch de la 84e DivAméricaine"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1036",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ch de la 84e DivAméricaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ch de la 84e DivAméricaine"
+      ]
+    },
+    {
+      "token_string": "Grübermülhe",
+      "triples": [
+        {
+          "streetname": "Ch de la Grübermülhe"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1040",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Ch de la Grübermülhe"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1037",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ch de la Grübermülhe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ch de la Grübermülhe"
+      ]
+    },
+    {
+      "token_string": "petite Campagnette",
+      "triples": [
+        {
+          "streetname": "Ch de la petite Campagnette"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1040",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Ch de la petite Campagnette"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1038",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ch de la petite Campagnette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ch de la petite Campagnette"
+      ]
+    },
+    {
+      "token_string": " de ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1040",
+              "@type": "tree:Node",
+              "token_string": "la "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1041",
+              "@type": "tree:Node",
+              "token_string": "St-Jacques"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1032",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Ch de la 84e DivAméricaine"
+        },
+        {
+          "streetname": "Ch de la Grübermülhe"
+        },
+        {
+          "streetname": "Ch de la petite Campagnette"
+        },
+        {
+          "streetname": "Ch de St-Jacques"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment31.jsonld#1039",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ch de la 84e DivAméricaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de la Grübermülhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de la petite Campagnette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de St-Jacques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "la ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1036",
+              "@type": "tree:Node",
+              "token_string": "84e DivAméricaine"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1037",
+              "@type": "tree:Node",
+              "token_string": "Grübermülhe"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1038",
+              "@type": "tree:Node",
+              "token_string": "petite Campagnette"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1039",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Ch de la 84e DivAméricaine"
+        },
+        {
+          "streetname": "Ch de la Grübermülhe"
+        },
+        {
+          "streetname": "Ch de la petite Campagnette"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment31.jsonld#1040",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ch de la 84e DivAméricaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de la Grübermülhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de la petite Campagnette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "St-Jacques",
+      "triples": [
+        {
+          "streetname": "Ch de St-Jacques"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1039",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Ch de St-Jacques"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1041",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ch de St-Jacques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ch de St-Jacques"
+      ]
+    },
+    {
+      "token_string": "rque",
+      "triples": [
+        {
+          "streetname": "Chem de la Barque"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1909",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chem de la Barque"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1044",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chem de la Barque"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chem de la Barque"
+      ]
+    },
+    {
+      "token_string": "taille de Bouvines",
+      "triples": [
+        {
+          "streetname": "Chem de la Bataille de Bouvines"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1909",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chem de la Bataille de Bouvines"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1045",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chem de la Bataille de Bouvines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chem de la Bataille de Bouvines"
+      ]
+    },
+    {
+      "token_string": "em",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment74.jsonld#1895",
+              "@type": "tree:Node",
+              "token_string": "in"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1908",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1032",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chem de la Barque"
+        },
+        {
+          "streetname": "Chem de la Bataille de Bouvines"
+        },
+        {
+          "streetname": "Chemin Al Goffe"
+        },
+        {
+          "streetname": "Chemin Arthur Vanoverberghe"
+        },
+        {
+          "streetname": "Chemin Barons de Rosée"
+        },
+        {
+          "streetname": "Chemin Bouillot"
+        },
+        {
+          "streetname": "Chemin Caporal Dartois"
+        },
+        {
+          "streetname": "Chemin Côte Lambot"
+        },
+        {
+          "streetname": "Chemin Georges Lemaître"
+        },
+        {
+          "streetname": "Chem Joseph Lacasse"
+        }
+      ],
+      "total_children_count": 655,
+      "@id": "fragment31.jsonld#1046",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chem de la Barque"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chem de la Bataille de Bouvines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Al Goffe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Arthur Vanoverberghe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Barons de Rosée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Bouillot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Caporal Dartois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Côte Lambot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Georges Lemaître"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chem Joseph Lacasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1909",
+              "@type": "tree:Node",
+              "token_string": "de la Ba"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1910",
+              "@type": "tree:Node",
+              "token_string": "Joseph Lacasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1046",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chem de la Barque"
+        },
+        {
+          "streetname": "Chem de la Bataille de Bouvines"
+        },
+        {
+          "streetname": "Chem Joseph Lacasse"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment31.jsonld#1908",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chem de la Barque"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chem de la Bataille de Bouvines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chem Joseph Lacasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "de la Ba",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1044",
+              "@type": "tree:Node",
+              "token_string": "rque"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1045",
+              "@type": "tree:Node",
+              "token_string": "taille de Bouvines"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1908",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chem de la Barque"
+        },
+        {
+          "streetname": "Chem de la Bataille de Bouvines"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment31.jsonld#1909",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chem de la Barque"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chem de la Bataille de Bouvines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Joseph Lacasse",
+      "triples": [
+        {
+          "streetname": "Chem Joseph Lacasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1908",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chem Joseph Lacasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1910",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chem Joseph Lacasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chem Joseph Lacasse"
+      ]
+    },
+    {
+      "token_string": "êne à l'Alôre",
+      "triples": [
+        {
+          "streetname": "Chêne à l'Alôre"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1032",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chêne à l'Alôre"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1911",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chêne à l'Alôre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chêne à l'Alôre"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1914",
+              "@type": "tree:Node",
+              "token_string": "enrue"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1915",
+              "@type": "tree:Node",
+              "token_string": "nehotte"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1032",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chienrue"
+        },
+        {
+          "streetname": "Chinehotte"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment31.jsonld#1913",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chienrue"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chinehotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "enrue",
+      "triples": [
+        {
+          "streetname": "Chienrue"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1913",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chienrue"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1914",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chienrue"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chienrue"
+      ]
+    },
+    {
+      "token_string": "nehotte",
+      "triples": [
+        {
+          "streetname": "Chinehotte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1913",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chinehotte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1915",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chinehotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chinehotte"
+      ]
+    },
+    {
+      "token_string": "ité ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1918",
+              "@type": "tree:Node",
+              "token_string": "Armand Déderich"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1919",
+              "@type": "tree:Node",
+              "token_string": "Jansmühle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#968",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Cité Armand Déderich"
+        },
+        {
+          "streetname": "Cité Jansmühle"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment31.jsonld#1917",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cité Armand Déderich"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cité Jansmühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Armand Déderich",
+      "triples": [
+        {
+          "streetname": "Cité Armand Déderich"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1917",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Cité Armand Déderich"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1918",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cité Armand Déderich"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cité Armand Déderich"
+      ]
+    },
+    {
+      "token_string": "Jansmühle",
+      "triples": [
+        {
+          "streetname": "Cité Jansmühle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1917",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Cité Jansmühle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1919",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cité Jansmühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cité Jansmühle"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#1922",
+              "@type": "tree:Node",
+              "token_string": "airière du Tibet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment85.jsonld#1935",
+              "@type": "tree:Node",
+              "token_string": "os "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#968",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clairière du Tibet"
+        },
+        {
+          "streetname": "Clos Albert Delaive"
+        },
+        {
+          "streetname": "Clos Albert Perikel"
+        },
+        {
+          "streetname": "Clos Anne de Chantraine"
+        },
+        {
+          "streetname": "Clos Antoine Delobel"
+        },
+        {
+          "streetname": "Clos Ariste Wouters"
+        },
+        {
+          "streetname": "Clos Ath-Plage"
+        },
+        {
+          "streetname": "Clos Badon"
+        },
+        {
+          "streetname": "Clos Blanc"
+        },
+        {
+          "streetname": "Clos Cense du Sart"
+        }
+      ],
+      "total_children_count": 291,
+      "@id": "fragment31.jsonld#1921",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clairière du Tibet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Albert Delaive"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Albert Perikel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Anne de Chantraine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Antoine Delobel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Ariste Wouters"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Ath-Plage"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Badon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Blanc"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Cense du Sart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "airière du Tibet",
+      "triples": [
+        {
+          "streetname": "Clairière du Tibet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#1921",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clairière du Tibet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#1922",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clairière du Tibet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clairière du Tibet"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2304",
+              "@type": "tree:Node",
+              "token_string": "lline du Mardasson"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2305",
+              "@type": "tree:Node",
+              "token_string": "mouthstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2306",
+              "@type": "tree:Node",
+              "token_string": "ntrescarpe Alphonse Darville"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2308",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2312",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#968",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Colline du Mardasson"
+        },
+        {
+          "streetname": "Comouthstrasse"
+        },
+        {
+          "streetname": "Contrescarpe Alphonse Darville"
+        },
+        {
+          "streetname": "Coray"
+        },
+        {
+          "streetname": "Cortil de Villers"
+        },
+        {
+          "streetname": "Coucoumont"
+        },
+        {
+          "streetname": "Cour Baduelle"
+        },
+        {
+          "streetname": "Cour Durendal"
+        },
+        {
+          "streetname": "Cour Eole"
+        },
+        {
+          "streetname": "Cour Fisher"
+        }
+      ],
+      "total_children_count": 49,
+      "@id": "fragment31.jsonld#2303",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Colline du Mardasson"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Comouthstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Contrescarpe Alphonse Darville"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Coray"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cortil de Villers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Coucoumont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Baduelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Durendal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Eole"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Fisher"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "lline du Mardasson",
+      "triples": [
+        {
+          "streetname": "Colline du Mardasson"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2303",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Colline du Mardasson"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#2304",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Colline du Mardasson"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Colline du Mardasson"
+      ]
+    },
+    {
+      "token_string": "mouthstrasse",
+      "triples": [
+        {
+          "streetname": "Comouthstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2303",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Comouthstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#2305",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Comouthstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Comouthstrasse"
+      ]
+    },
+    {
+      "token_string": "ntrescarpe Alphonse Darville",
+      "triples": [
+        {
+          "streetname": "Contrescarpe Alphonse Darville"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2303",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Contrescarpe Alphonse Darville"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#2306",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Contrescarpe Alphonse Darville"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Contrescarpe Alphonse Darville"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2309",
+              "@type": "tree:Node",
+              "token_string": "ay"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2310",
+              "@type": "tree:Node",
+              "token_string": "til de Villers"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2303",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Coray"
+        },
+        {
+          "streetname": "Cortil de Villers"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment31.jsonld#2308",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Coray"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cortil de Villers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ay",
+      "triples": [
+        {
+          "streetname": "Coray"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2308",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Coray"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#2309",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Coray"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Coray"
+      ]
+    },
+    {
+      "token_string": "til de Villers",
+      "triples": [
+        {
+          "streetname": "Cortil de Villers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2308",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Cortil de Villers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#2310",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cortil de Villers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cortil de Villers"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2313",
+              "@type": "tree:Node",
+              "token_string": "coumont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2315",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2366",
+              "@type": "tree:Node",
+              "token_string": "venplatz"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2303",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Coucoumont"
+        },
+        {
+          "streetname": "Cour Baduelle"
+        },
+        {
+          "streetname": "Cour Durendal"
+        },
+        {
+          "streetname": "Cour Eole"
+        },
+        {
+          "streetname": "Cour Fisher"
+        },
+        {
+          "streetname": "Cour Henri Dumont"
+        },
+        {
+          "streetname": "Cour Jean Zuallart"
+        },
+        {
+          "streetname": "Cour Johan de Sar"
+        },
+        {
+          "streetname": "Cour Mosane"
+        },
+        {
+          "streetname": "Cour Résimont"
+        }
+      ],
+      "total_children_count": 42,
+      "@id": "fragment31.jsonld#2312",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Coucoumont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Baduelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Durendal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Eole"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Fisher"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Henri Dumont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Jean Zuallart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Johan de Sar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Mosane"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Résimont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "coumont",
+      "triples": [
+        {
+          "streetname": "Coucoumont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2312",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Coucoumont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#2313",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Coucoumont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Coucoumont"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2317",
+              "@type": "tree:Node",
+              "token_string": "be du circuit poste 19"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment89.jsonld#2318",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2358",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2363",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2312",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Cour Baduelle"
+        },
+        {
+          "streetname": "Cour Durendal"
+        },
+        {
+          "streetname": "Cour Eole"
+        },
+        {
+          "streetname": "Cour Fisher"
+        },
+        {
+          "streetname": "Cour Henri Dumont"
+        },
+        {
+          "streetname": "Cour Jean Zuallart"
+        },
+        {
+          "streetname": "Cour Johan de Sar"
+        },
+        {
+          "streetname": "Cour Mosane"
+        },
+        {
+          "streetname": "Cour Résimont"
+        },
+        {
+          "streetname": "Cour Staquet"
+        }
+      ],
+      "total_children_count": 39,
+      "@id": "fragment31.jsonld#2315",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour Baduelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Durendal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Eole"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Fisher"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Henri Dumont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Jean Zuallart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Johan de Sar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Mosane"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Résimont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Staquet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "be du circuit poste 19",
+      "triples": [
+        {
+          "streetname": "Courbe du circuit poste 19"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2315",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Courbe du circuit poste 19"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#2317",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Courbe du circuit poste 19"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Courbe du circuit poste 19"
+      ]
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2359",
+              "@type": "tree:Node",
+              "token_string": "Garibaldi"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2360",
+              "@type": "tree:Node",
+              "token_string": "Michel Woitrin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2315",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Cours Garibaldi"
+        },
+        {
+          "streetname": "Cours Michel Woitrin"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment31.jsonld#2358",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cours Garibaldi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cours Michel Woitrin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Garibaldi",
+      "triples": [
+        {
+          "streetname": "Cours Garibaldi"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2358",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Cours Garibaldi"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#2359",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cours Garibaldi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cours Garibaldi"
+      ]
+    },
+    {
+      "token_string": "Michel Woitrin",
+      "triples": [
+        {
+          "streetname": "Cours Michel Woitrin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2358",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Cours Michel Woitrin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#2360",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cours Michel Woitrin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cours Michel Woitrin"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2364",
+              "@type": "tree:Node",
+              "token_string": "e Rue"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment31.jsonld#2365",
+              "@type": "tree:Node",
+              "token_string": "il Marchand"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2315",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Courte Rue"
+        },
+        {
+          "streetname": "Courtil Marchand"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment31.jsonld#2363",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Courte Rue"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Courtil Marchand"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e Rue",
+      "triples": [
+        {
+          "streetname": "Courte Rue"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2363",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Courte Rue"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#2364",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Courte Rue"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Courte Rue"
+      ]
+    },
+    {
+      "token_string": "il Marchand",
+      "triples": [
+        {
+          "streetname": "Courtil Marchand"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2363",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Courtil Marchand"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#2365",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Courtil Marchand"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Courtil Marchand"
+      ]
+    },
+    {
+      "token_string": "venplatz",
+      "triples": [
+        {
+          "streetname": "Couvenplatz"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment31.jsonld#2312",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Couvenplatz"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment31.jsonld#2366",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Couvenplatz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Couvenplatz"
+      ]
+    }
+  ]
+}

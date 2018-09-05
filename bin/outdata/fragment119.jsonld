@@ -1,0 +1,238 @@
+{
+  "root_node_id": "3745",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment119.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "ü",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment119.jsonld#3746",
+              "@type": "tree:Node",
+              "token_string": "sdell"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment119.jsonld#3748",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment111.jsonld#3535",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lüsdell"
+        },
+        {
+          "streetname": "Lütscheborren"
+        },
+        {
+          "streetname": "Lütticher Strasse"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment119.jsonld#3745",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lüsdell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lütscheborren"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lütticher Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sdell",
+      "triples": [
+        {
+          "streetname": "Lüsdell"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment119.jsonld#3745",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lüsdell"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment119.jsonld#3746",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lüsdell"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lüsdell"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment119.jsonld#3749",
+              "@type": "tree:Node",
+              "token_string": "scheborren"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment119.jsonld#3750",
+              "@type": "tree:Node",
+              "token_string": "ticher Strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment119.jsonld#3745",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lütscheborren"
+        },
+        {
+          "streetname": "Lütticher Strasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment119.jsonld#3748",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lütscheborren"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lütticher Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "scheborren",
+      "triples": [
+        {
+          "streetname": "Lütscheborren"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment119.jsonld#3748",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lütscheborren"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment119.jsonld#3749",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lütscheborren"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lütscheborren"
+      ]
+    },
+    {
+      "token_string": "ticher Strasse",
+      "triples": [
+        {
+          "streetname": "Lütticher Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment119.jsonld#3748",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lütticher Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment119.jsonld#3750",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lütticher Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lütticher Strasse"
+      ]
+    }
+  ]
+}

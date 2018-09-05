@@ -1,0 +1,154 @@
+{
+  "root_node_id": "7125",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment241.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "en",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment241.jsonld#7126",
+              "@type": "tree:Node",
+              "token_string": " Fraiture"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment241.jsonld#7127",
+              "@type": "tree:Node",
+              "token_string": "tre Deux Eaux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment253.jsonld#7407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue en Fraiture",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3319318121272934",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.80442992136067"
+        },
+        {
+          "http://example.com/terms#name": "Rue entre Deux Eaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.556149580713634",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.72436004984063"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment241.jsonld#7125",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue en Fraiture"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue entre Deux Eaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Fraiture",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue en Fraiture",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3319318121272934",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.80442992136067"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment241.jsonld#7125",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue en Fraiture",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3319318121272934",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.80442992136067"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment241.jsonld#7126",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue en Fraiture"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue en Fraiture"
+      ]
+    },
+    {
+      "token_string": "tre Deux Eaux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue entre Deux Eaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.556149580713634",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.72436004984063"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment241.jsonld#7125",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue entre Deux Eaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.556149580713634",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.72436004984063"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment241.jsonld#7127",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue entre Deux Eaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue entre Deux Eaux"
+      ]
+    }
+  ]
+}

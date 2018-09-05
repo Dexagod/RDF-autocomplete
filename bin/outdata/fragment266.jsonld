@@ -1,0 +1,1488 @@
+{
+  "root_node_id": "8057",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment266.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "eux",
+      "triples": [
+        {
+          "streetname": "Sentier des Amoureux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8058",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Amoureux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8055",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Amoureux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Amoureux"
+      ]
+    },
+    {
+      "token_string": "s",
+      "triples": [
+        {
+          "streetname": "Sentier des Amours"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8058",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Amours"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8056",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Amours"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Amours"
+      ]
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8058",
+              "@type": "tree:Node",
+              "token_string": "Amour"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8059",
+              "@type": "tree:Node",
+              "token_string": "Ânes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8061",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8064",
+              "@type": "tree:Node",
+              "token_string": "Flibustiers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8065",
+              "@type": "tree:Node",
+              "token_string": "Gruzias"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8067",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8072",
+              "@type": "tree:Node",
+              "token_string": "P"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8080",
+              "@type": "tree:Node",
+              "token_string": "R"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8083",
+              "@type": "tree:Node",
+              "token_string": "Sorcières"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8085",
+              "@type": "tree:Node",
+              "token_string": "T"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8092",
+              "@type": "tree:Node",
+              "token_string": "vaches"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8093",
+              "@type": "tree:Node",
+              "token_string": "Valérianes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment271.jsonld#8095",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Amoureux"
+        },
+        {
+          "streetname": "Sentier des Amours"
+        },
+        {
+          "streetname": "Sentier des Chardons"
+        },
+        {
+          "streetname": "Sentier des Cinq Clochers"
+        },
+        {
+          "streetname": "Sentier des Flibustiers"
+        },
+        {
+          "streetname": "Sentier des Gruzias"
+        },
+        {
+          "streetname": "Sentier des Marmots"
+        },
+        {
+          "streetname": "Sentier des Ménétriers"
+        },
+        {
+          "streetname": "Sentier des Meuniers"
+        },
+        {
+          "streetname": "Sentier des Pirates"
+        }
+      ],
+      "total_children_count": 31,
+      "@id": "fragment266.jsonld#8057",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Amoureux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Amours"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Chardons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Cinq Clochers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Flibustiers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Gruzias"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Marmots"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Ménétriers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Meuniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Pirates"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Amour",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8055",
+              "@type": "tree:Node",
+              "token_string": "eux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8056",
+              "@type": "tree:Node",
+              "token_string": "s"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8057",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Amoureux"
+        },
+        {
+          "streetname": "Sentier des Amours"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment266.jsonld#8058",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Amoureux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Amours"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Ânes",
+      "triples": [
+        {
+          "streetname": "Sentier des Ânes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8057",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Ânes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8059",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Ânes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Ânes"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8062",
+              "@type": "tree:Node",
+              "token_string": "hardons"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8063",
+              "@type": "tree:Node",
+              "token_string": "inq Clochers"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8057",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Chardons"
+        },
+        {
+          "streetname": "Sentier des Cinq Clochers"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment266.jsonld#8061",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Chardons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Cinq Clochers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "hardons",
+      "triples": [
+        {
+          "streetname": "Sentier des Chardons"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8061",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Chardons"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8062",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Chardons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Chardons"
+      ]
+    },
+    {
+      "token_string": "inq Clochers",
+      "triples": [
+        {
+          "streetname": "Sentier des Cinq Clochers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8061",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Cinq Clochers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8063",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Cinq Clochers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Cinq Clochers"
+      ]
+    },
+    {
+      "token_string": "Flibustiers",
+      "triples": [
+        {
+          "streetname": "Sentier des Flibustiers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8057",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Flibustiers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8064",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Flibustiers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Flibustiers"
+      ]
+    },
+    {
+      "token_string": "Gruzias",
+      "triples": [
+        {
+          "streetname": "Sentier des Gruzias"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8057",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Gruzias"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8065",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Gruzias"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Gruzias"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8068",
+              "@type": "tree:Node",
+              "token_string": "armots"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8069",
+              "@type": "tree:Node",
+              "token_string": "énétriers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8070",
+              "@type": "tree:Node",
+              "token_string": "euniers"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8057",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Marmots"
+        },
+        {
+          "streetname": "Sentier des Ménétriers"
+        },
+        {
+          "streetname": "Sentier des Meuniers"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment266.jsonld#8067",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Marmots"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Ménétriers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Meuniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "armots",
+      "triples": [
+        {
+          "streetname": "Sentier des Marmots"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8067",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Marmots"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8068",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Marmots"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Marmots"
+      ]
+    },
+    {
+      "token_string": "énétriers",
+      "triples": [
+        {
+          "streetname": "Sentier des Ménétriers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8067",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Ménétriers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8069",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Ménétriers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Ménétriers"
+      ]
+    },
+    {
+      "token_string": "euniers",
+      "triples": [
+        {
+          "streetname": "Sentier des Meuniers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8067",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Meuniers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8070",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Meuniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Meuniers"
+      ]
+    },
+    {
+      "token_string": "P",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8073",
+              "@type": "tree:Node",
+              "token_string": "étrâles"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8075",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8078",
+              "@type": "tree:Node",
+              "token_string": "ommiers"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8057",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Pétrâles"
+        },
+        {
+          "streetname": "Sentier des Piètris"
+        },
+        {
+          "streetname": "Sentier des Pirates"
+        },
+        {
+          "streetname": "Sentier des Pommiers"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment266.jsonld#8072",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Pétrâles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Piètris"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Pirates"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Pommiers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "étrâles",
+      "triples": [
+        {
+          "streetname": "Sentier des Pétrâles"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Pétrâles"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8073",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Pétrâles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Pétrâles"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8076",
+              "@type": "tree:Node",
+              "token_string": "ètris"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8077",
+              "@type": "tree:Node",
+              "token_string": "rates"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Piètris"
+        },
+        {
+          "streetname": "Sentier des Pirates"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment266.jsonld#8075",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Piètris"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Pirates"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ètris",
+      "triples": [
+        {
+          "streetname": "Sentier des Piètris"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8075",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Piètris"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8076",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Piètris"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Piètris"
+      ]
+    },
+    {
+      "token_string": "rates",
+      "triples": [
+        {
+          "streetname": "Sentier des Pirates"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8075",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Pirates"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8077",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Pirates"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Pirates"
+      ]
+    },
+    {
+      "token_string": "ommiers",
+      "triples": [
+        {
+          "streetname": "Sentier des Pommiers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Pommiers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8078",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Pommiers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Pommiers"
+      ]
+    },
+    {
+      "token_string": "R",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8081",
+              "@type": "tree:Node",
+              "token_string": "édemptoristes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8082",
+              "@type": "tree:Node",
+              "token_string": "obettes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8057",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Rédemptoristes"
+        },
+        {
+          "streetname": "Sentier des Robettes"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment266.jsonld#8080",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Rédemptoristes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Robettes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "édemptoristes",
+      "triples": [
+        {
+          "streetname": "Sentier des Rédemptoristes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8080",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Rédemptoristes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8081",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Rédemptoristes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Rédemptoristes"
+      ]
+    },
+    {
+      "token_string": "obettes",
+      "triples": [
+        {
+          "streetname": "Sentier des Robettes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8080",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Robettes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8082",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Robettes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Robettes"
+      ]
+    },
+    {
+      "token_string": "Sorcières",
+      "triples": [
+        {
+          "streetname": "Sentier des Sorcières"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8057",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Sorcières"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8083",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Sorcières"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Sorcières"
+      ]
+    },
+    {
+      "token_string": "T",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8086",
+              "@type": "tree:Node",
+              "token_string": "ambourins"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8087",
+              "@type": "tree:Node",
+              "token_string": "illeuls"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8089",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8057",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Tambourins"
+        },
+        {
+          "streetname": "Sentier des Tilleuls"
+        },
+        {
+          "streetname": "Sentier des Trieuses"
+        },
+        {
+          "streetname": "Sentier des Trois Chemins"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment266.jsonld#8085",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Tambourins"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Tilleuls"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Trieuses"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Trois Chemins"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ambourins",
+      "triples": [
+        {
+          "streetname": "Sentier des Tambourins"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8085",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Tambourins"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8086",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Tambourins"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Tambourins"
+      ]
+    },
+    {
+      "token_string": "illeuls",
+      "triples": [
+        {
+          "streetname": "Sentier des Tilleuls"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8085",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Tilleuls"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8087",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Tilleuls"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Tilleuls"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8090",
+              "@type": "tree:Node",
+              "token_string": "ieuses"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment266.jsonld#8091",
+              "@type": "tree:Node",
+              "token_string": "ois Chemins"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8085",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Trieuses"
+        },
+        {
+          "streetname": "Sentier des Trois Chemins"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment266.jsonld#8089",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Trieuses"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier des Trois Chemins"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ieuses",
+      "triples": [
+        {
+          "streetname": "Sentier des Trieuses"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8089",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Trieuses"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8090",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Trieuses"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Trieuses"
+      ]
+    },
+    {
+      "token_string": "ois Chemins",
+      "triples": [
+        {
+          "streetname": "Sentier des Trois Chemins"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8089",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Trois Chemins"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8091",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Trois Chemins"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Trois Chemins"
+      ]
+    },
+    {
+      "token_string": "vaches",
+      "triples": [
+        {
+          "streetname": "Sentier des vaches"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8057",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des vaches"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8092",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des vaches"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des vaches"
+      ]
+    },
+    {
+      "token_string": "Valérianes",
+      "triples": [
+        {
+          "streetname": "Sentier des Valérianes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment266.jsonld#8057",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier des Valérianes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment266.jsonld#8093",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier des Valérianes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier des Valérianes"
+      ]
+    }
+  ]
+}

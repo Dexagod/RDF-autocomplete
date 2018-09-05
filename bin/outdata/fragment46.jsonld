@@ -1,0 +1,347 @@
+{
+  "root_node_id": "1498",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment46.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Hêtres",
+      "triples": [
+        {
+          "streetname": "Chemin des Grands Hêtres"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment46.jsonld#1499",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Grands Hêtres"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment46.jsonld#1495",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Grands Hêtres"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Grands Hêtres"
+      ]
+    },
+    {
+      "token_string": "Prés",
+      "triples": [
+        {
+          "streetname": "Chemin des Grands Prés"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment46.jsonld#1499",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Grands Prés"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment46.jsonld#1496",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Grands Prés"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Grands Prés"
+      ]
+    },
+    {
+      "token_string": "Vents",
+      "triples": [
+        {
+          "streetname": "Chemin des Grands Vents"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment46.jsonld#1499",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Grands Vents"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment46.jsonld#1497",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Grands Vents"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Grands Vents"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment46.jsonld#1499",
+              "@type": "tree:Node",
+              "token_string": "ands "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment46.jsonld#1500",
+              "@type": "tree:Node",
+              "token_string": "ingottes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment46.jsonld#1501",
+              "@type": "tree:Node",
+              "token_string": "ossarts"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment57.jsonld#1490",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Grands Hêtres"
+        },
+        {
+          "streetname": "Chemin des Grands Prés"
+        },
+        {
+          "streetname": "Chemin des Grands Vents"
+        },
+        {
+          "streetname": "Chemin des Gringottes"
+        },
+        {
+          "streetname": "Chemin des Grossarts"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment46.jsonld#1498",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Grands Hêtres"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Grands Prés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Grands Vents"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Gringottes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Grossarts"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ands ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment46.jsonld#1495",
+              "@type": "tree:Node",
+              "token_string": "Hêtres"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment46.jsonld#1496",
+              "@type": "tree:Node",
+              "token_string": "Prés"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment46.jsonld#1497",
+              "@type": "tree:Node",
+              "token_string": "Vents"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment46.jsonld#1498",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Grands Hêtres"
+        },
+        {
+          "streetname": "Chemin des Grands Prés"
+        },
+        {
+          "streetname": "Chemin des Grands Vents"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment46.jsonld#1499",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Grands Hêtres"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Grands Prés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Grands Vents"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ingottes",
+      "triples": [
+        {
+          "streetname": "Chemin des Gringottes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment46.jsonld#1498",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Gringottes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment46.jsonld#1500",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Gringottes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Gringottes"
+      ]
+    },
+    {
+      "token_string": "ossarts",
+      "triples": [
+        {
+          "streetname": "Chemin des Grossarts"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment46.jsonld#1498",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Grossarts"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment46.jsonld#1501",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Grossarts"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Grossarts"
+      ]
+    }
+  ]
+}

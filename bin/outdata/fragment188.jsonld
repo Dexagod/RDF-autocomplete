@@ -1,0 +1,142 @@
+{
+  "root_node_id": "5215",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment188.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "J",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment188.jsonld#5216",
+              "@type": "tree:Node",
+              "token_string": "eannette"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment188.jsonld#5217",
+              "@type": "tree:Node",
+              "token_string": "indron"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment169.jsonld#5880",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Jeannette"
+        },
+        {
+          "streetname": "Rue de Jindron"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment188.jsonld#5215",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Jeannette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Jindron"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eannette",
+      "triples": [
+        {
+          "streetname": "Rue de Jeannette"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment188.jsonld#5215",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Jeannette"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment188.jsonld#5216",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Jeannette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Jeannette"
+      ]
+    },
+    {
+      "token_string": "indron",
+      "triples": [
+        {
+          "streetname": "Rue de Jindron"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment188.jsonld#5215",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Jindron"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment188.jsonld#5217",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Jindron"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Jindron"
+      ]
+    }
+  ]
+}

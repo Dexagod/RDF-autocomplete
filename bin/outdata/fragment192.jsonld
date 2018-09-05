@@ -1,0 +1,238 @@
+{
+  "root_node_id": "5831",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment192.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "ast",
+      "triples": [
+        {
+          "streetname": "Rue de Naast"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment192.jsonld#5832",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Naast"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment192.jsonld#5828",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Naast"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Naast"
+      ]
+    },
+    {
+      "token_string": "nciry",
+      "triples": [
+        {
+          "streetname": "Rue de Nanciry"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment192.jsonld#5832",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Nanciry"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment192.jsonld#5829",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Nanciry"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Nanciry"
+      ]
+    },
+    {
+      "token_string": "N",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment192.jsonld#5832",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment192.jsonld#5833",
+              "@type": "tree:Node",
+              "token_string": "icosie"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment169.jsonld#5880",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Naast"
+        },
+        {
+          "streetname": "Rue de Nanciry"
+        },
+        {
+          "streetname": "Rue de Nicosie"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment192.jsonld#5831",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Naast"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Nanciry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Nicosie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment192.jsonld#5828",
+              "@type": "tree:Node",
+              "token_string": "ast"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment192.jsonld#5829",
+              "@type": "tree:Node",
+              "token_string": "nciry"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment192.jsonld#5831",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Naast"
+        },
+        {
+          "streetname": "Rue de Nanciry"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment192.jsonld#5832",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Naast"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Nanciry"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "icosie",
+      "triples": [
+        {
+          "streetname": "Rue de Nicosie"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment192.jsonld#5831",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Nicosie"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment192.jsonld#5833",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Nicosie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Nicosie"
+      ]
+    }
+  ]
+}

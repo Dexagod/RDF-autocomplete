@@ -1,0 +1,630 @@
+{
+  "root_node_id": "3729",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment113.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "mühle",
+      "triples": [
+        {
+          "streetname": "Lohmühle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment113.jsonld#3730",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lohmühle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment113.jsonld#3727",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lohmühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lohmühle"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "streetname": "Lohweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment113.jsonld#3730",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lohweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment113.jsonld#3728",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lohweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lohweg"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment113.jsonld#3730",
+              "@type": "tree:Node",
+              "token_string": "h"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment113.jsonld#3732",
+              "@type": "tree:Node",
+              "token_string": "mmer"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment113.jsonld#3735",
+              "@type": "tree:Node",
+              "token_string": "ngastraat"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment113.jsonld#3737",
+              "@type": "tree:Node",
+              "token_string": "sheimergraben"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment113.jsonld#3739",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment113.jsonld#3742",
+              "@type": "tree:Node",
+              "token_string": "uisenstrasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment111.jsonld#3535",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lohmühle"
+        },
+        {
+          "streetname": "Lohweg"
+        },
+        {
+          "streetname": "Lommericher Gasse"
+        },
+        {
+          "streetname": "Lommersweiler"
+        },
+        {
+          "streetname": "Longastraat"
+        },
+        {
+          "streetname": "Losheimergraben"
+        },
+        {
+          "streetname": "Loten"
+        },
+        {
+          "streetname": "Lothringer Weg"
+        },
+        {
+          "streetname": "Louisenstrasse"
+        }
+      ],
+      "total_children_count": 12,
+      "@id": "fragment113.jsonld#3729",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lohmühle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lohweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lommericher Gasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lommersweiler"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Longastraat"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Losheimergraben"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Loten"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lothringer Weg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Louisenstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "h",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment113.jsonld#3727",
+              "@type": "tree:Node",
+              "token_string": "mühle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment113.jsonld#3728",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment113.jsonld#3729",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lohmühle"
+        },
+        {
+          "streetname": "Lohweg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment113.jsonld#3730",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lohmühle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lohweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "mmer",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment113.jsonld#3733",
+              "@type": "tree:Node",
+              "token_string": "icher Gasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment113.jsonld#3734",
+              "@type": "tree:Node",
+              "token_string": "sweiler"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment113.jsonld#3729",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lommericher Gasse"
+        },
+        {
+          "streetname": "Lommersweiler"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment113.jsonld#3732",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lommericher Gasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lommersweiler"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "icher Gasse",
+      "triples": [
+        {
+          "streetname": "Lommericher Gasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment113.jsonld#3732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lommericher Gasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment113.jsonld#3733",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lommericher Gasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lommericher Gasse"
+      ]
+    },
+    {
+      "token_string": "sweiler",
+      "triples": [
+        {
+          "streetname": "Lommersweiler"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment113.jsonld#3732",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lommersweiler"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment113.jsonld#3734",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lommersweiler"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lommersweiler"
+      ]
+    },
+    {
+      "token_string": "ngastraat",
+      "triples": [
+        {
+          "streetname": "Longastraat"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment113.jsonld#3729",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Longastraat"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment113.jsonld#3735",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Longastraat"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Longastraat"
+      ]
+    },
+    {
+      "token_string": "sheimergraben",
+      "triples": [
+        {
+          "streetname": "Losheimergraben"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment113.jsonld#3729",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Losheimergraben"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment113.jsonld#3737",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Losheimergraben"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Losheimergraben"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment113.jsonld#3740",
+              "@type": "tree:Node",
+              "token_string": "en"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment113.jsonld#3741",
+              "@type": "tree:Node",
+              "token_string": "hringer Weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment113.jsonld#3729",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Loten"
+        },
+        {
+          "streetname": "Lothringer Weg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment113.jsonld#3739",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Loten"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lothringer Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "en",
+      "triples": [
+        {
+          "streetname": "Loten"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment113.jsonld#3739",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Loten"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment113.jsonld#3740",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Loten"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Loten"
+      ]
+    },
+    {
+      "token_string": "hringer Weg",
+      "triples": [
+        {
+          "streetname": "Lothringer Weg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment113.jsonld#3739",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lothringer Weg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment113.jsonld#3741",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lothringer Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lothringer Weg"
+      ]
+    },
+    {
+      "token_string": "uisenstrasse",
+      "triples": [
+        {
+          "streetname": "Louisenstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment113.jsonld#3729",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Louisenstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment113.jsonld#3742",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Louisenstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Louisenstrasse"
+      ]
+    }
+  ]
+}

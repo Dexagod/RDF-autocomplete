@@ -1,0 +1,1076 @@
+{
+  "root_node_id": "3703",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment117.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "llenweg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Libellenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.508833186732472",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5194262474135"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3704",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Libellenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.508833186732472",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5194262474135"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment117.jsonld#3701",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Libellenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Libellenweg"
+      ]
+    },
+    {
+      "token_string": "rmé",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Libermé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.15170800250313",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.998579591027514"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3704",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Libermé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.15170800250313",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.998579591027514"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment117.jsonld#3702",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Libermé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Libermé"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3704",
+              "@type": "tree:Node",
+              "token_string": "be"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3705",
+              "@type": "tree:Node",
+              "token_string": "chtenbuscher Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3706",
+              "@type": "tree:Node",
+              "token_string": "ège Airport bureau 06 bat"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3711",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3716",
+              "@type": "tree:Node",
+              "token_string": "mburger "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3720",
+              "@type": "tree:Node",
+              "token_string": "nden"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment111.jsonld#3535",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Libellenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.508833186732472",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5194262474135"
+        },
+        {
+          "http://example.com/terms#name": "Libermé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.15170800250313",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.998579591027514"
+        },
+        {
+          "http://example.com/terms#name": "Lichtenbuscher Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8756142903884268",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71717251944611"
+        },
+        {
+          "http://example.com/terms#name": "Liege Airport Hall Fret 3",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3913315446315444",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.65078436956997"
+        },
+        {
+          "http://example.com/terms#name": "Liegweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.727694952460748",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29783510023537"
+        },
+        {
+          "http://example.com/terms#name": "Lierweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.879694245158713",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.42849002553086"
+        },
+        {
+          "http://example.com/terms#name": "Liesengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.075145838526915",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.923535988966066"
+        },
+        {
+          "http://example.com/terms#name": "Limburger Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8142305099276026",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.527995315341606"
+        },
+        {
+          "http://example.com/terms#name": "Limburger Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2666862854728524",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.183760966805984"
+        },
+        {
+          "http://example.com/terms#name": "Lindenallee",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3095190384498827",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39219065211394"
+        }
+      ],
+      "total_children_count": 19,
+      "@id": "streetsfragment117.jsonld#3703",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Libellenweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Libermé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lichtenbuscher Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Liege Airport Hall Fret 3"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Liegweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lierweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Liesengasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Limburger Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Limburger Weg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lindenallee"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "be",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3701",
+              "@type": "tree:Node",
+              "token_string": "llenweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3702",
+              "@type": "tree:Node",
+              "token_string": "rmé"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3703",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Libellenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.508833186732472",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5194262474135"
+        },
+        {
+          "http://example.com/terms#name": "Libermé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.15170800250313",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.998579591027514"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment117.jsonld#3704",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Libellenweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Libermé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "chtenbuscher Strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lichtenbuscher Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8756142903884268",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71717251944611"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3703",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lichtenbuscher Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8756142903884268",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.71717251944611"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment117.jsonld#3705",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lichtenbuscher Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lichtenbuscher Strasse"
+      ]
+    },
+    {
+      "token_string": "ège Airport bureau 06 bat",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Liège Airport bureau 06 bat",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.700501302423654",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.97388368303591"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3703",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Liège Airport bureau 06 bat",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.700501302423654",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.97388368303591"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment117.jsonld#3706",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Liège Airport bureau 06 bat"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Liège Airport bureau 06 bat"
+      ]
+    },
+    {
+      "token_string": "e Airport Hall Fret 3",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Liege Airport Hall Fret 3",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3913315446315444",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.65078436956997"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3712",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Liege Airport Hall Fret 3",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3913315446315444",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.65078436956997"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment117.jsonld#3709",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Liege Airport Hall Fret 3"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Liege Airport Hall Fret 3"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Liegweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.727694952460748",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29783510023537"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3712",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Liegweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.727694952460748",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29783510023537"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment117.jsonld#3710",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Liegweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Liegweg"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3712",
+              "@type": "tree:Node",
+              "token_string": "g"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3713",
+              "@type": "tree:Node",
+              "token_string": "rweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3714",
+              "@type": "tree:Node",
+              "token_string": "sengasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3703",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Liege Airport Hall Fret 3",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3913315446315444",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.65078436956997"
+        },
+        {
+          "http://example.com/terms#name": "Liegweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.727694952460748",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29783510023537"
+        },
+        {
+          "http://example.com/terms#name": "Lierweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.879694245158713",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.42849002553086"
+        },
+        {
+          "http://example.com/terms#name": "Liesengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.075145838526915",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.923535988966066"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment117.jsonld#3711",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Liege Airport Hall Fret 3"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Liegweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lierweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Liesengasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "g",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3709",
+              "@type": "tree:Node",
+              "token_string": "e Airport Hall Fret 3"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3710",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3711",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Liege Airport Hall Fret 3",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3913315446315444",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.65078436956997"
+        },
+        {
+          "http://example.com/terms#name": "Liegweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.727694952460748",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29783510023537"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment117.jsonld#3712",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Liege Airport Hall Fret 3"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Liegweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rweg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lierweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.879694245158713",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.42849002553086"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3711",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lierweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.879694245158713",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.42849002553086"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment117.jsonld#3713",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lierweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lierweg"
+      ]
+    },
+    {
+      "token_string": "sengasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Liesengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.075145838526915",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.923535988966066"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3711",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Liesengasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.075145838526915",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.923535988966066"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment117.jsonld#3714",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Liesengasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Liesengasse"
+      ]
+    },
+    {
+      "token_string": "mburger ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3717",
+              "@type": "tree:Node",
+              "token_string": "Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3718",
+              "@type": "tree:Node",
+              "token_string": "Weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3703",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Limburger Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8142305099276026",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.527995315341606"
+        },
+        {
+          "http://example.com/terms#name": "Limburger Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2666862854728524",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.183760966805984"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment117.jsonld#3716",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Limburger Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Limburger Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Limburger Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8142305099276026",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.527995315341606"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3716",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Limburger Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8142305099276026",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.527995315341606"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment117.jsonld#3717",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Limburger Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Limburger Strasse"
+      ]
+    },
+    {
+      "token_string": "Weg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Limburger Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2666862854728524",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.183760966805984"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3716",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Limburger Weg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2666862854728524",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.183760966805984"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment117.jsonld#3718",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Limburger Weg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Limburger Weg"
+      ]
+    },
+    {
+      "token_string": "nden",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3721",
+              "@type": "tree:Node",
+              "token_string": "allee"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3722",
+              "@type": "tree:Node",
+              "token_string": "berg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3723",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment117.jsonld#3724",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3703",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lindenallee",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3095190384498827",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39219065211394"
+        },
+        {
+          "http://example.com/terms#name": "Lindenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7021019615902366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.007198451280026"
+        },
+        {
+          "http://example.com/terms#name": "Lindenstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9225888746916073",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.598716870783576"
+        },
+        {
+          "http://example.com/terms#name": "Lindenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6943048851461753",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.8899242775172"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment117.jsonld#3720",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lindenallee"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lindenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lindenstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lindenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "allee",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lindenallee",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3095190384498827",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39219065211394"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3720",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lindenallee",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3095190384498827",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39219065211394"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment117.jsonld#3721",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lindenallee"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lindenallee"
+      ]
+    },
+    {
+      "token_string": "berg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lindenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7021019615902366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.007198451280026"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3720",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lindenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7021019615902366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.007198451280026"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment117.jsonld#3722",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lindenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lindenberg"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lindenstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9225888746916073",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.598716870783576"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3720",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lindenstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9225888746916073",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.598716870783576"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment117.jsonld#3723",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lindenstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lindenstrasse"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lindenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6943048851461753",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.8899242775172"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment117.jsonld#3720",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lindenweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6943048851461753",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.8899242775172"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment117.jsonld#3724",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lindenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lindenweg"
+      ]
+    }
+  ]
+}

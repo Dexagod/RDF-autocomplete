@@ -1,0 +1,4588 @@
+{
+  "root_node_id": "8479",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment285.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": " des Cardamines",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Val des Cardamines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6969465682744636",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25929876135055"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8477",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Val des Cardamines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6969465682744636",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25929876135055"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8470",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Val des Cardamines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Val des Cardamines"
+      ]
+    },
+    {
+      "token_string": "ender",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Valender",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.182256818763427",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.74269376620251"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8477",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Valender",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.182256818763427",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.74269376620251"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8471",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Valender"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Valender"
+      ]
+    },
+    {
+      "token_string": "lée des ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8474",
+              "@type": "tree:Node",
+              "token_string": "Loups"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8475",
+              "@type": "tree:Node",
+              "token_string": "Oiseaux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8477",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vallée des Loups",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1217729048495393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.291766663586934"
+        },
+        {
+          "http://example.com/terms#name": "Vallée des Oiseaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.791500059164507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.277307228808255"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment285.jsonld#8473",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vallée des Loups"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vallée des Oiseaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Loups",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vallée des Loups",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1217729048495393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.291766663586934"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vallée des Loups",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1217729048495393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.291766663586934"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8474",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vallée des Loups"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vallée des Loups"
+      ]
+    },
+    {
+      "token_string": "Oiseaux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vallée des Oiseaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.791500059164507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.277307228808255"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8473",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vallée des Oiseaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.791500059164507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.277307228808255"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8475",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vallée des Oiseaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vallée des Oiseaux"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8470",
+              "@type": "tree:Node",
+              "token_string": " des Cardamines"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8471",
+              "@type": "tree:Node",
+              "token_string": "ender"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8473",
+              "@type": "tree:Node",
+              "token_string": "lée des "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8480",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Val des Cardamines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6969465682744636",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25929876135055"
+        },
+        {
+          "http://example.com/terms#name": "Valender",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.182256818763427",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.74269376620251"
+        },
+        {
+          "http://example.com/terms#name": "Vallée des Loups",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1217729048495393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.291766663586934"
+        },
+        {
+          "http://example.com/terms#name": "Vallée des Oiseaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.791500059164507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.277307228808255"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment285.jsonld#8477",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Val des Cardamines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Valender"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vallée des Loups"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vallée des Oiseaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ussale",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vaussale",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7618597784416097",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09810978882296"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8480",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vaussale",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7618597784416097",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09810978882296"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8478",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vaussale"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vaussale"
+      ]
+    },
+    {
+      "token_string": "V",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8480",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8482",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8540",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment288.jsonld#8569",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8659",
+              "@type": "tree:Node",
+              "token_string": "ölkersberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8672",
+              "@type": "tree:Node",
+              "token_string": "ôye du Sclassin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8677",
+              "@type": "tree:Node",
+              "token_string": "runertsweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8678",
+              "@type": "tree:Node",
+              "token_string": "yllgasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment1.jsonld#1",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Val des Cardamines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6969465682744636",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25929876135055"
+        },
+        {
+          "http://example.com/terms#name": "Valender",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.182256818763427",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.74269376620251"
+        },
+        {
+          "http://example.com/terms#name": "Vallée des Loups",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1217729048495393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.291766663586934"
+        },
+        {
+          "http://example.com/terms#name": "Vallée des Oiseaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.791500059164507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.277307228808255"
+        },
+        {
+          "http://example.com/terms#name": "Vaussale",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7618597784416097",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09810978882296"
+        },
+        {
+          "http://example.com/terms#name": "Vegdersgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.210375056187933",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.30210623013072"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Charles Garforth",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.717507917484755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.88428931255401"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Ernest Alexander",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2514083699952807",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.876331259383974"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Le Phare",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7299138819662985",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.18942387399642"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Robert Cotyle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7363652404016667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.657802568558516"
+        }
+      ],
+      "total_children_count": 158,
+      "@id": "streetsfragment285.jsonld#8479",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Val des Cardamines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Valender"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vallée des Loups"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vallée des Oiseaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vaussale"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vegdersgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Charles Garforth"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Ernest Alexander"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Le Phare"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Robert Cotyle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8477",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8478",
+              "@type": "tree:Node",
+              "token_string": "ussale"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Val des Cardamines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6969465682744636",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25929876135055"
+        },
+        {
+          "http://example.com/terms#name": "Valender",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.182256818763427",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.74269376620251"
+        },
+        {
+          "http://example.com/terms#name": "Vallée des Loups",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1217729048495393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.291766663586934"
+        },
+        {
+          "http://example.com/terms#name": "Vallée des Oiseaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.791500059164507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.277307228808255"
+        },
+        {
+          "http://example.com/terms#name": "Vaussale",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7618597784416097",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09810978882296"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "streetsfragment285.jsonld#8480",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Val des Cardamines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Valender"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vallée des Loups"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vallée des Oiseaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vaussale"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8483",
+              "@type": "tree:Node",
+              "token_string": "gdersgasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8522",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8531",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vegdersgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.210375056187933",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.30210623013072"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Charles Garforth",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.717507917484755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.88428931255401"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de Barbançon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8710386535699217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.761466731697965"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de Froidevau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.758480611914143",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.28733431227784"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de l'Abbé ChDubois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.241327984552734",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16088335480042"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4925408462664578",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.594794857641986"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Ernest Alexander",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2514083699952807",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.876331259383974"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Le Phare",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7299138819662985",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.18942387399642"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Robert Cotyle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7363652404016667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.657802568558516"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Saint-Antoine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5547324984234714",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.21410439865873"
+        }
+      ],
+      "total_children_count": 40,
+      "@id": "streetsfragment285.jsonld#8482",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vegdersgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Charles Garforth"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Barbançon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Froidevau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de l'Abbé ChDubois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Ernest Alexander"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Le Phare"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Robert Cotyle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Saint-Antoine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "gdersgasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vegdersgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.210375056187933",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.30210623013072"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8482",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vegdersgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.210375056187933",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.30210623013072"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8483",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vegdersgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vegdersgasse"
+      ]
+    },
+    {
+      "token_string": "Charles Garforth",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle Charles Garforth",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.717507917484755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.88428931255401"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8523",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle Charles Garforth",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.717507917484755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.88428931255401"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8486",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle Charles Garforth"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle Charles Garforth"
+      ]
+    },
+    {
+      "token_string": "Barbançon",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle de Barbançon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8710386535699217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.761466731697965"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8503",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle de Barbançon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8710386535699217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.761466731697965"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8489",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de Barbançon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle de Barbançon"
+      ]
+    },
+    {
+      "token_string": "Froidevau",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle de Froidevau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.758480611914143",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.28733431227784"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8503",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle de Froidevau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.758480611914143",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.28733431227784"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8490",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de Froidevau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle de Froidevau"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8493",
+              "@type": "tree:Node",
+              "token_string": "'Abbé ChDubois"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8495",
+              "@type": "tree:Node",
+              "token_string": "a "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8503",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle de l'Abbé ChDubois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.241327984552734",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16088335480042"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4925408462664578",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.594794857641986"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Maladrerie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.365722996656659",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.907183170955626"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Mine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.850986793188698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.99278431350651"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Poste",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.460042733821698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.001809015848025"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "streetsfragment285.jsonld#8492",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de l'Abbé ChDubois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Mine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Poste"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'Abbé ChDubois",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle de l'Abbé ChDubois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.241327984552734",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16088335480042"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8492",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle de l'Abbé ChDubois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.241327984552734",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16088335480042"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8493",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de l'Abbé ChDubois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle de l'Abbé ChDubois"
+      ]
+    },
+    {
+      "token_string": "a ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8496",
+              "@type": "tree:Node",
+              "token_string": "Chavée"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8498",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8501",
+              "@type": "tree:Node",
+              "token_string": "Poste"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8492",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle de la Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4925408462664578",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.594794857641986"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Maladrerie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.365722996656659",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.907183170955626"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Mine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.850986793188698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.99278431350651"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Poste",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.460042733821698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.001809015848025"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment285.jsonld#8495",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Mine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Poste"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Chavée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle de la Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4925408462664578",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.594794857641986"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8495",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle de la Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4925408462664578",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.594794857641986"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8496",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle de la Chavée"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8499",
+              "@type": "tree:Node",
+              "token_string": "aladrerie"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8500",
+              "@type": "tree:Node",
+              "token_string": "ine"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8495",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle de la Maladrerie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.365722996656659",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.907183170955626"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Mine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.850986793188698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.99278431350651"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment285.jsonld#8498",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Mine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aladrerie",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle de la Maladrerie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.365722996656659",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.907183170955626"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8498",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle de la Maladrerie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.365722996656659",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.907183170955626"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8499",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle de la Maladrerie"
+      ]
+    },
+    {
+      "token_string": "ine",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle de la Mine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.850986793188698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.99278431350651"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8498",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle de la Mine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.850986793188698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.99278431350651"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8500",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de la Mine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle de la Mine"
+      ]
+    },
+    {
+      "token_string": "Poste",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle de la Poste",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.460042733821698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.001809015848025"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8495",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle de la Poste",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.460042733821698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.001809015848025"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8501",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de la Poste"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle de la Poste"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8489",
+              "@type": "tree:Node",
+              "token_string": "Barbançon"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8490",
+              "@type": "tree:Node",
+              "token_string": "Froidevau"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8492",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8512",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle de Barbançon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8710386535699217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.761466731697965"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de Froidevau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.758480611914143",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.28733431227784"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de l'Abbé ChDubois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.241327984552734",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16088335480042"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4925408462664578",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.594794857641986"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Maladrerie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.365722996656659",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.907183170955626"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Mine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.850986793188698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.99278431350651"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Poste",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.460042733821698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.001809015848025"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "streetsfragment285.jsonld#8503",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de Barbançon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Froidevau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de l'Abbé ChDubois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Mine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Poste"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8506",
+              "@type": "tree:Node",
+              "token_string": "Artistes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8508",
+              "@type": "tree:Node",
+              "token_string": "Cha"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8512",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle des Artistes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.434063227061099",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.859691117594544"
+        },
+        {
+          "http://example.com/terms#name": "Venelle des Charmes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3122441136528886",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.89558580548065"
+        },
+        {
+          "http://example.com/terms#name": "Venelle des Chaufourniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8054321598472085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.648074069448775"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment285.jsonld#8505",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle des Artistes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Charmes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Chaufourniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Artistes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle des Artistes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.434063227061099",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.859691117594544"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8505",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle des Artistes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.434063227061099",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.859691117594544"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8506",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle des Artistes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle des Artistes"
+      ]
+    },
+    {
+      "token_string": "Cha",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8509",
+              "@type": "tree:Node",
+              "token_string": "rmes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8510",
+              "@type": "tree:Node",
+              "token_string": "ufourniers"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8505",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle des Charmes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3122441136528886",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.89558580548065"
+        },
+        {
+          "http://example.com/terms#name": "Venelle des Chaufourniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8054321598472085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.648074069448775"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment285.jsonld#8508",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle des Charmes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Chaufourniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rmes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle des Charmes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3122441136528886",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.89558580548065"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8508",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle des Charmes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3122441136528886",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.89558580548065"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8509",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle des Charmes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle des Charmes"
+      ]
+    },
+    {
+      "token_string": "ufourniers",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle des Chaufourniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8054321598472085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.648074069448775"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8508",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle des Chaufourniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8054321598472085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.648074069448775"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8510",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle des Chaufourniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle des Chaufourniers"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8512",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8514",
+              "@type": "tree:Node",
+              "token_string": "u "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8523",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle de Barbançon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8710386535699217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.761466731697965"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de Froidevau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.758480611914143",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.28733431227784"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de l'Abbé ChDubois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.241327984552734",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16088335480042"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4925408462664578",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.594794857641986"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Maladrerie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.365722996656659",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.907183170955626"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Mine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.850986793188698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.99278431350651"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Poste",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.460042733821698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.001809015848025"
+        },
+        {
+          "http://example.com/terms#name": "Venelle des Artistes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.434063227061099",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.859691117594544"
+        },
+        {
+          "http://example.com/terms#name": "Venelle des Charmes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3122441136528886",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.89558580548065"
+        },
+        {
+          "http://example.com/terms#name": "Venelle des Chaufourniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8054321598472085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.648074069448775"
+        }
+      ],
+      "total_children_count": 21,
+      "@id": "streetsfragment285.jsonld#8511",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de Barbançon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Froidevau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de l'Abbé ChDubois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Mine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Poste"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Artistes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Charmes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Chaufourniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8503",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8505",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8511",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle de Barbançon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8710386535699217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.761466731697965"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de Froidevau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.758480611914143",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.28733431227784"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de l'Abbé ChDubois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.241327984552734",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16088335480042"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4925408462664578",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.594794857641986"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Maladrerie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.365722996656659",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.907183170955626"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Mine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.850986793188698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.99278431350651"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Poste",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.460042733821698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.001809015848025"
+        },
+        {
+          "http://example.com/terms#name": "Venelle des Artistes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.434063227061099",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.859691117594544"
+        },
+        {
+          "http://example.com/terms#name": "Venelle des Charmes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3122441136528886",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.89558580548065"
+        },
+        {
+          "http://example.com/terms#name": "Venelle des Chaufourniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8054321598472085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.648074069448775"
+        }
+      ],
+      "total_children_count": 16,
+      "@id": "streetsfragment285.jsonld#8512",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle de Barbançon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Froidevau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de l'Abbé ChDubois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Mine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Poste"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Artistes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Charmes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle des Chaufourniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8515",
+              "@type": "tree:Node",
+              "token_string": "Boulanger"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8516",
+              "@type": "tree:Node",
+              "token_string": "Père Damien"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8517",
+              "@type": "tree:Node",
+              "token_string": "Village"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8511",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle du Boulanger",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.075165561926344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.23343191302217"
+        },
+        {
+          "http://example.com/terms#name": "Venelle du Père Damien",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3495518055254774",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.676358693714555"
+        },
+        {
+          "http://example.com/terms#name": "Venelle du Village",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.040508383648206",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.29690109381042"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment285.jsonld#8514",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle du Boulanger"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle du Père Damien"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle du Village"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Boulanger",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle du Boulanger",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.075165561926344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.23343191302217"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8514",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle du Boulanger",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.075165561926344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.23343191302217"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8515",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle du Boulanger"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle du Boulanger"
+      ]
+    },
+    {
+      "token_string": "Père Damien",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle du Père Damien",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3495518055254774",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.676358693714555"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8514",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle du Père Damien",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3495518055254774",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.676358693714555"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8516",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle du Père Damien"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle du Père Damien"
+      ]
+    },
+    {
+      "token_string": "Village",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle du Village",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.040508383648206",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.29690109381042"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8514",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle du Village",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.040508383648206",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.29690109381042"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8517",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle du Village"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle du Village"
+      ]
+    },
+    {
+      "token_string": "Ernest Alexander",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle Ernest Alexander",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2514083699952807",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.876331259383974"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8523",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle Ernest Alexander",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2514083699952807",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.876331259383974"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8518",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle Ernest Alexander"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle Ernest Alexander"
+      ]
+    },
+    {
+      "token_string": "Le Phare",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle Le Phare",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7299138819662985",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.18942387399642"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8523",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle Le Phare",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7299138819662985",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.18942387399642"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8519",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle Le Phare"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle Le Phare"
+      ]
+    },
+    {
+      "token_string": "Robert Cotyle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle Robert Cotyle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7363652404016667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.657802568558516"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8523",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle Robert Cotyle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7363652404016667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.657802568558516"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8520",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle Robert Cotyle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle Robert Cotyle"
+      ]
+    },
+    {
+      "token_string": "Saint-Antoine",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Venelle Saint-Antoine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5547324984234714",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.21410439865873"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8523",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle Saint-Antoine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5547324984234714",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.21410439865873"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8521",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle Saint-Antoine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Venelle Saint-Antoine"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8523",
+              "@type": "tree:Node",
+              "token_string": "elle "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8525",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8482",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle Charles Garforth",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.717507917484755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.88428931255401"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de Barbançon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8710386535699217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.761466731697965"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de Froidevau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.758480611914143",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.28733431227784"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de l'Abbé ChDubois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.241327984552734",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16088335480042"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4925408462664578",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.594794857641986"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Maladrerie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.365722996656659",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.907183170955626"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Ernest Alexander",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2514083699952807",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.876331259383974"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Le Phare",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7299138819662985",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.18942387399642"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Robert Cotyle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7363652404016667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.657802568558516"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Saint-Antoine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5547324984234714",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.21410439865873"
+        }
+      ],
+      "total_children_count": 33,
+      "@id": "streetsfragment285.jsonld#8522",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle Charles Garforth"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Barbançon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Froidevau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de l'Abbé ChDubois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Ernest Alexander"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Le Phare"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Robert Cotyle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Saint-Antoine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "elle ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8486",
+              "@type": "tree:Node",
+              "token_string": "Charles Garforth"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8511",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8518",
+              "@type": "tree:Node",
+              "token_string": "Ernest Alexander"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8519",
+              "@type": "tree:Node",
+              "token_string": "Le Phare"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8520",
+              "@type": "tree:Node",
+              "token_string": "Robert Cotyle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8521",
+              "@type": "tree:Node",
+              "token_string": "Saint-Antoine"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8522",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Venelle Charles Garforth",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.717507917484755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.88428931255401"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de Barbançon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8710386535699217",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.761466731697965"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de Froidevau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.758480611914143",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.28733431227784"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de l'Abbé ChDubois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.241327984552734",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16088335480042"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Chavée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4925408462664578",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.594794857641986"
+        },
+        {
+          "http://example.com/terms#name": "Venelle de la Maladrerie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.365722996656659",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.907183170955626"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Ernest Alexander",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2514083699952807",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.876331259383974"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Le Phare",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7299138819662985",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.18942387399642"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Robert Cotyle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7363652404016667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.657802568558516"
+        },
+        {
+          "http://example.com/terms#name": "Venelle Saint-Antoine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5547324984234714",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.21410439865873"
+        }
+      ],
+      "total_children_count": 27,
+      "@id": "streetsfragment285.jsonld#8523",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Venelle Charles Garforth"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Barbançon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de Froidevau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de l'Abbé ChDubois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle de la Maladrerie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Ernest Alexander"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Le Phare"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Robert Cotyle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Venelle Saint-Antoine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8526",
+              "@type": "tree:Node",
+              "token_string": "bahnstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8527",
+              "@type": "tree:Node",
+              "token_string": "hofstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8528",
+              "@type": "tree:Node",
+              "token_string": "knepp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8529",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8522",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vennbahnstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.518991750411614",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.30116107983228"
+        },
+        {
+          "http://example.com/terms#name": "Vennhofstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.789200104129966",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.80727630963891"
+        },
+        {
+          "http://example.com/terms#name": "Vennknepp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.613745416121102",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.575504964211405"
+        },
+        {
+          "http://example.com/terms#name": "Vennstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8841233897025593",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.7511543029773"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment285.jsonld#8525",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vennbahnstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vennhofstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vennknepp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vennstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bahnstrasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vennbahnstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.518991750411614",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.30116107983228"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8525",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vennbahnstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.518991750411614",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.30116107983228"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8526",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vennbahnstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vennbahnstrasse"
+      ]
+    },
+    {
+      "token_string": "hofstrasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vennhofstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.789200104129966",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.80727630963891"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8525",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vennhofstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.789200104129966",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.80727630963891"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8527",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vennhofstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vennhofstrasse"
+      ]
+    },
+    {
+      "token_string": "knepp",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vennknepp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.613745416121102",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.575504964211405"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8525",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vennknepp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.613745416121102",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.575504964211405"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8528",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vennknepp"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vennknepp"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vennstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8841233897025593",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.7511543029773"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8525",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vennstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8841233897025593",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.7511543029773"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8529",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vennstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vennstrasse"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8532",
+              "@type": "tree:Node",
+              "token_string": "bindungsweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8533",
+              "@type": "tree:Node",
+              "token_string": "gefenes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8534",
+              "@type": "tree:Node",
+              "token_string": "ret Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8535",
+              "@type": "tree:Node",
+              "token_string": "vierser Strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8482",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Verbindungsweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9848181012809034",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.106977241425184"
+        },
+        {
+          "http://example.com/terms#name": "Vergefenes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.057228367438632",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.58973665185313"
+        },
+        {
+          "http://example.com/terms#name": "Verret Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4833203756201727",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.18145137703361"
+        },
+        {
+          "http://example.com/terms#name": "Vervierser Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.317553116073561",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08246085959826"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment285.jsonld#8531",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Verbindungsweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vergefenes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Verret Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vervierser Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bindungsweg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Verbindungsweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9848181012809034",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.106977241425184"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Verbindungsweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9848181012809034",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.106977241425184"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8532",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Verbindungsweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Verbindungsweg"
+      ]
+    },
+    {
+      "token_string": "gefenes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vergefenes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.057228367438632",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.58973665185313"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vergefenes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.057228367438632",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.58973665185313"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8533",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vergefenes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vergefenes"
+      ]
+    },
+    {
+      "token_string": "ret Strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Verret Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4833203756201727",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.18145137703361"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Verret Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4833203756201727",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.18145137703361"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8534",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Verret Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Verret Strasse"
+      ]
+    },
+    {
+      "token_string": "vierser Strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vervierser Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.317553116073561",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08246085959826"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vervierser Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.317553116073561",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08246085959826"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8535",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vervierser Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vervierser Strasse"
+      ]
+    },
+    {
+      "token_string": "Fregona",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Via Fregona",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.138432378780336",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.25690315429291"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8541",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Via Fregona",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.138432378780336",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.25690315429291"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8538",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Via Fregona"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Via Fregona"
+      ]
+    },
+    {
+      "token_string": "Sesmara",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Via Sesmara",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1680295732849757",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.98328405304473"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8541",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Via Sesmara",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1680295732849757",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.98328405304473"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8539",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Via Sesmara"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Via Sesmara"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8541",
+              "@type": "tree:Node",
+              "token_string": "a "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8546",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8561",
+              "@type": "tree:Node",
+              "token_string": "ktorine-Straße"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8562",
+              "@type": "tree:Node",
+              "token_string": "olinstraße"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8563",
+              "@type": "tree:Node",
+              "token_string": "rée du Hêtre"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8564",
+              "@type": "tree:Node",
+              "token_string": "tus-Ennen-Straße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Via Fregona",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.138432378780336",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.25690315429291"
+        },
+        {
+          "http://example.com/terms#name": "Via Sesmara",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1680295732849757",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.98328405304473"
+        },
+        {
+          "http://example.com/terms#name": "Vieille rue de Géromont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.057444293457199",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.97357110761535"
+        },
+        {
+          "http://example.com/terms#name": "Vieille Voie du Bois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1662088412428817",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25767270770728"
+        },
+        {
+          "http://example.com/terms#name": "Vielsalmer Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3658931553397635",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.974409272369435"
+        },
+        {
+          "http://example.com/terms#name": "Vierschaar",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2209160210507837",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.29534613235322"
+        },
+        {
+          "http://example.com/terms#name": "Vierschillingweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.972226072082704",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.407488915460846"
+        },
+        {
+          "http://example.com/terms#name": "Vieux Chemin Royal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.205339943479599",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24602432952143"
+        },
+        {
+          "http://example.com/terms#name": "Vieux Goley",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.050152471717672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.01271500030022"
+        },
+        {
+          "http://example.com/terms#name": "Vieux Hoyemont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.566211790954364",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.41567532691148"
+        }
+      ],
+      "total_children_count": 22,
+      "@id": "streetsfragment285.jsonld#8540",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Via Fregona"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Via Sesmara"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieille rue de Géromont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieille Voie du Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vielsalmer Straße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vierschaar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vierschillingweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Chemin Royal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Goley"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Hoyemont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8538",
+              "@type": "tree:Node",
+              "token_string": "Fregona"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8539",
+              "@type": "tree:Node",
+              "token_string": "Sesmara"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8540",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Via Fregona",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.138432378780336",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.25690315429291"
+        },
+        {
+          "http://example.com/terms#name": "Via Sesmara",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1680295732849757",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.98328405304473"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment285.jsonld#8541",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Via Fregona"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Via Sesmara"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rue de Géromont",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vieille rue de Géromont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.057444293457199",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.97357110761535"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8547",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vieille rue de Géromont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.057444293457199",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.97357110761535"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8544",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieille rue de Géromont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vieille rue de Géromont"
+      ]
+    },
+    {
+      "token_string": "Voie du Bois",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vieille Voie du Bois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1662088412428817",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25767270770728"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8547",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vieille Voie du Bois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1662088412428817",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25767270770728"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8545",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieille Voie du Bois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vieille Voie du Bois"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8547",
+              "@type": "tree:Node",
+              "token_string": "ille "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8548",
+              "@type": "tree:Node",
+              "token_string": "lsalmer Straße"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8550",
+              "@type": "tree:Node",
+              "token_string": "rsch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8554",
+              "@type": "tree:Node",
+              "token_string": "ux "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8540",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vieille rue de Géromont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.057444293457199",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.97357110761535"
+        },
+        {
+          "http://example.com/terms#name": "Vieille Voie du Bois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1662088412428817",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25767270770728"
+        },
+        {
+          "http://example.com/terms#name": "Vielsalmer Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3658931553397635",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.974409272369435"
+        },
+        {
+          "http://example.com/terms#name": "Vierschaar",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2209160210507837",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.29534613235322"
+        },
+        {
+          "http://example.com/terms#name": "Vierschillingweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.972226072082704",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.407488915460846"
+        },
+        {
+          "http://example.com/terms#name": "Vieux Chemin Royal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.205339943479599",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24602432952143"
+        },
+        {
+          "http://example.com/terms#name": "Vieux Goley",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.050152471717672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.01271500030022"
+        },
+        {
+          "http://example.com/terms#name": "Vieux Hoyemont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.566211790954364",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.41567532691148"
+        },
+        {
+          "http://example.com/terms#name": "Vieux Mont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.586702250571076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.9243210966415"
+        },
+        {
+          "http://example.com/terms#name": "Vieux Thier de Sprimont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5218359845265295",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.35592497168243"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "streetsfragment285.jsonld#8546",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieille rue de Géromont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieille Voie du Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vielsalmer Straße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vierschaar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vierschillingweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Chemin Royal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Goley"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Hoyemont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Thier de Sprimont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ille ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8544",
+              "@type": "tree:Node",
+              "token_string": "rue de Géromont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8545",
+              "@type": "tree:Node",
+              "token_string": "Voie du Bois"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8546",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vieille rue de Géromont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.057444293457199",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.97357110761535"
+        },
+        {
+          "http://example.com/terms#name": "Vieille Voie du Bois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1662088412428817",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25767270770728"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment285.jsonld#8547",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieille rue de Géromont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieille Voie du Bois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "lsalmer Straße",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vielsalmer Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3658931553397635",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.974409272369435"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8546",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vielsalmer Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3658931553397635",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.974409272369435"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8548",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vielsalmer Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vielsalmer Straße"
+      ]
+    },
+    {
+      "token_string": "rsch",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8551",
+              "@type": "tree:Node",
+              "token_string": "aar"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8552",
+              "@type": "tree:Node",
+              "token_string": "illingweg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8546",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vierschaar",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2209160210507837",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.29534613235322"
+        },
+        {
+          "http://example.com/terms#name": "Vierschillingweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.972226072082704",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.407488915460846"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment285.jsonld#8550",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vierschaar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vierschillingweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aar",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vierschaar",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2209160210507837",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.29534613235322"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8550",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vierschaar",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2209160210507837",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.29534613235322"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8551",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vierschaar"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vierschaar"
+      ]
+    },
+    {
+      "token_string": "illingweg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vierschillingweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.972226072082704",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.407488915460846"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8550",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vierschillingweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.972226072082704",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.407488915460846"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8552",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vierschillingweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vierschillingweg"
+      ]
+    },
+    {
+      "token_string": "ux ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8555",
+              "@type": "tree:Node",
+              "token_string": "chemin de Thines"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8556",
+              "@type": "tree:Node",
+              "token_string": "Chemin Royal"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8557",
+              "@type": "tree:Node",
+              "token_string": "Goley"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8558",
+              "@type": "tree:Node",
+              "token_string": "Hoyemont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8559",
+              "@type": "tree:Node",
+              "token_string": "Mont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment285.jsonld#8560",
+              "@type": "tree:Node",
+              "token_string": "Thier de Sprimont"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8546",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vieux chemin de Thines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2859937107265274",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.436028363389795"
+        },
+        {
+          "http://example.com/terms#name": "Vieux Chemin Royal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.205339943479599",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24602432952143"
+        },
+        {
+          "http://example.com/terms#name": "Vieux Goley",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.050152471717672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.01271500030022"
+        },
+        {
+          "http://example.com/terms#name": "Vieux Hoyemont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.566211790954364",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.41567532691148"
+        },
+        {
+          "http://example.com/terms#name": "Vieux Mont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.586702250571076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.9243210966415"
+        },
+        {
+          "http://example.com/terms#name": "Vieux Thier de Sprimont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5218359845265295",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.35592497168243"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment285.jsonld#8554",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieux chemin de Thines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Chemin Royal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Goley"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Hoyemont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Vieux Thier de Sprimont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "chemin de Thines",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vieux chemin de Thines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2859937107265274",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.436028363389795"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vieux chemin de Thines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2859937107265274",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.436028363389795"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8555",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieux chemin de Thines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vieux chemin de Thines"
+      ]
+    },
+    {
+      "token_string": "Chemin Royal",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vieux Chemin Royal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.205339943479599",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24602432952143"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vieux Chemin Royal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.205339943479599",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24602432952143"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8556",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieux Chemin Royal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vieux Chemin Royal"
+      ]
+    },
+    {
+      "token_string": "Goley",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vieux Goley",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.050152471717672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.01271500030022"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vieux Goley",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.050152471717672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.01271500030022"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8557",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieux Goley"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vieux Goley"
+      ]
+    },
+    {
+      "token_string": "Hoyemont",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vieux Hoyemont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.566211790954364",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.41567532691148"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vieux Hoyemont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.566211790954364",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.41567532691148"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8558",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieux Hoyemont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vieux Hoyemont"
+      ]
+    },
+    {
+      "token_string": "Mont",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vieux Mont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.586702250571076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.9243210966415"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vieux Mont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.586702250571076",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.9243210966415"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8559",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieux Mont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vieux Mont"
+      ]
+    },
+    {
+      "token_string": "Thier de Sprimont",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vieux Thier de Sprimont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5218359845265295",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.35592497168243"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8554",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vieux Thier de Sprimont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5218359845265295",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.35592497168243"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8560",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vieux Thier de Sprimont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vieux Thier de Sprimont"
+      ]
+    },
+    {
+      "token_string": "ktorine-Straße",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Viktorine-Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.034049580754614",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.80130486083875"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8540",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Viktorine-Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.034049580754614",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.80130486083875"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8561",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Viktorine-Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Viktorine-Straße"
+      ]
+    },
+    {
+      "token_string": "olinstraße",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Violinstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.162533664242133",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.66062736015084"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8540",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Violinstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.162533664242133",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.66062736015084"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8562",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Violinstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Violinstraße"
+      ]
+    },
+    {
+      "token_string": "rée du Hêtre",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Virée du Hêtre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6046049091716097",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.37584837309168"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8540",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Virée du Hêtre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6046049091716097",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.37584837309168"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8563",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Virée du Hêtre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Virée du Hêtre"
+      ]
+    },
+    {
+      "token_string": "tus-Ennen-Straße",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vitus-Ennen-Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.696187760336509",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.05480406479912"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8540",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vitus-Ennen-Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.696187760336509",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.05480406479912"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8564",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vitus-Ennen-Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vitus-Ennen-Straße"
+      ]
+    },
+    {
+      "token_string": "ölkersberg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Völkersberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.132272149961788",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.95617547854779"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Völkersberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.132272149961788",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.95617547854779"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8659",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Völkersberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Völkersberg"
+      ]
+    },
+    {
+      "token_string": "ôye du Sclassin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vôye du Sclassin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.336361407508964",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.40504925462328"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vôye du Sclassin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.336361407508964",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.40504925462328"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8672",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vôye du Sclassin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vôye du Sclassin"
+      ]
+    },
+    {
+      "token_string": "runertsweg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vrunertsweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6918099572775716",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.10228667247556"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vrunertsweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6918099572775716",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.10228667247556"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8677",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vrunertsweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vrunertsweg"
+      ]
+    },
+    {
+      "token_string": "yllgasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Vyllgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6962174563850896",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.89534281566653"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment285.jsonld#8479",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Vyllgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6962174563850896",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.89534281566653"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment285.jsonld#8678",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Vyllgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Vyllgasse"
+      ]
+    }
+  ]
+}

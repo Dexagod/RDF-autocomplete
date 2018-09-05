@@ -1,0 +1,2537 @@
+{
+  "root_node_id": "4410",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment126.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": " de Flandre",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Jean de Flandre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.935582066469896",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39573458466348"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4362",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Jean de Flandre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.935582066469896",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39573458466348"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4359",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Jean de Flandre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Jean de Flandre"
+      ]
+    },
+    {
+      "token_string": "-Marie Martens",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Jean-Marie Martens",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.92608849384125",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.64931111641359"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4362",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Jean-Marie Martens",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.92608849384125",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.64931111641359"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4360",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Jean-Marie Martens"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Jean-Marie Martens"
+      ]
+    },
+    {
+      "token_string": "J",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4362",
+              "@type": "tree:Node",
+              "token_string": "ean"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4364",
+              "@type": "tree:Node",
+              "token_string": "oseph "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Jean de Flandre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.935582066469896",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39573458466348"
+        },
+        {
+          "http://example.com/terms#name": "Place Jean-Marie Martens",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.92608849384125",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.64931111641359"
+        },
+        {
+          "http://example.com/terms#name": "Place Joseph Henry",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.319374043743457",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.600076433992896"
+        },
+        {
+          "http://example.com/terms#name": "Place Joseph Matoul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0531300705262763",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.70985641383348"
+        },
+        {
+          "http://example.com/terms#name": "Place Joseph Ramoux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8776944992030096",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.713272666333815"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "streetsfragment126.jsonld#4361",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Jean de Flandre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Jean-Marie Martens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Joseph Henry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Joseph Matoul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Joseph Ramoux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ean",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4359",
+              "@type": "tree:Node",
+              "token_string": " de Flandre"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4360",
+              "@type": "tree:Node",
+              "token_string": "-Marie Martens"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4361",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Jean de Flandre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.935582066469896",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39573458466348"
+        },
+        {
+          "http://example.com/terms#name": "Place Jean-Marie Martens",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.92608849384125",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.64931111641359"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment126.jsonld#4362",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Jean de Flandre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Jean-Marie Martens"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "oseph ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4365",
+              "@type": "tree:Node",
+              "token_string": "Henry"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4366",
+              "@type": "tree:Node",
+              "token_string": "Matoul"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4367",
+              "@type": "tree:Node",
+              "token_string": "Ramoux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4361",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Joseph Henry",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.319374043743457",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.600076433992896"
+        },
+        {
+          "http://example.com/terms#name": "Place Joseph Matoul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0531300705262763",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.70985641383348"
+        },
+        {
+          "http://example.com/terms#name": "Place Joseph Ramoux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8776944992030096",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.713272666333815"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment126.jsonld#4364",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Joseph Henry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Joseph Matoul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Joseph Ramoux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Henry",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Joseph Henry",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.319374043743457",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.600076433992896"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4364",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Joseph Henry",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.319374043743457",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.600076433992896"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4365",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Joseph Henry"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Joseph Henry"
+      ]
+    },
+    {
+      "token_string": "Matoul",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Joseph Matoul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0531300705262763",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.70985641383348"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4364",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Joseph Matoul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0531300705262763",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.70985641383348"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4366",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Joseph Matoul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Joseph Matoul"
+      ]
+    },
+    {
+      "token_string": "Ramoux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Joseph Ramoux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8776944992030096",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.713272666333815"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4364",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Joseph Ramoux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8776944992030096",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.713272666333815"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4367",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Joseph Ramoux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Joseph Ramoux"
+      ]
+    },
+    {
+      "token_string": "La",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4370",
+              "@type": "tree:Node",
+              "token_string": "mbert Laurent"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4371",
+              "@type": "tree:Node",
+              "token_string": "nguillier"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Lambert Laurent",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.548282733412039",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.234091264206036"
+        },
+        {
+          "http://example.com/terms#name": "Place Languillier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8932502346042797",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.99533040450948"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment126.jsonld#4369",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Lambert Laurent"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Languillier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "mbert Laurent",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Lambert Laurent",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.548282733412039",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.234091264206036"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4369",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Lambert Laurent",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.548282733412039",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.234091264206036"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4370",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Lambert Laurent"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Lambert Laurent"
+      ]
+    },
+    {
+      "token_string": "nguillier",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Languillier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8932502346042797",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.99533040450948"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4369",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Languillier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8932502346042797",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.99533040450948"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4371",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Languillier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Languillier"
+      ]
+    },
+    {
+      "token_string": "quet",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Maquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0818572009643415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90399623281774"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4384",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Maquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0818572009643415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90399623281774"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4374",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Maquet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Maquet"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4377",
+              "@type": "tree:Node",
+              "token_string": "guerite Yourcenar"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4379",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4384",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Marguerite Yourcenar",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.741491968931245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.22874760234561"
+        },
+        {
+          "http://example.com/terms#name": "Place Maria Arte-Ansotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4142223616385112",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.34501916828124"
+        },
+        {
+          "http://example.com/terms#name": "Place Marie-Thérèse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.310493771261921",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.230126929049085"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment126.jsonld#4376",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Marguerite Yourcenar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Maria Arte-Ansotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Marie-Thérèse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "guerite Yourcenar",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Marguerite Yourcenar",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.741491968931245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.22874760234561"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4376",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Marguerite Yourcenar",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.741491968931245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.22874760234561"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4377",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Marguerite Yourcenar"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Marguerite Yourcenar"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4380",
+              "@type": "tree:Node",
+              "token_string": "a Arte-Ansotte"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4381",
+              "@type": "tree:Node",
+              "token_string": "e-Thérèse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4376",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Maria Arte-Ansotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4142223616385112",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.34501916828124"
+        },
+        {
+          "http://example.com/terms#name": "Place Marie-Thérèse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.310493771261921",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.230126929049085"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment126.jsonld#4379",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Maria Arte-Ansotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Marie-Thérèse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a Arte-Ansotte",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Maria Arte-Ansotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4142223616385112",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.34501916828124"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4379",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Maria Arte-Ansotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4142223616385112",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.34501916828124"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4380",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Maria Arte-Ansotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Maria Arte-Ansotte"
+      ]
+    },
+    {
+      "token_string": "e-Thérèse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Marie-Thérèse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.310493771261921",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.230126929049085"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4379",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Marie-Thérèse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.310493771261921",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.230126929049085"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4381",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Marie-Thérèse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Marie-Thérèse"
+      ]
+    },
+    {
+      "token_string": "urice Hamon",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Maurice Hamon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.235279241219909",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35696675889138"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4384",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Maurice Hamon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.235279241219909",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35696675889138"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4382",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Maurice Hamon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Maurice Hamon"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4384",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4385",
+              "@type": "tree:Node",
+              "token_string": "ontesquieu"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Maquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0818572009643415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90399623281774"
+        },
+        {
+          "http://example.com/terms#name": "Place Marguerite Yourcenar",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.741491968931245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.22874760234561"
+        },
+        {
+          "http://example.com/terms#name": "Place Maria Arte-Ansotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4142223616385112",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.34501916828124"
+        },
+        {
+          "http://example.com/terms#name": "Place Marie-Thérèse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.310493771261921",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.230126929049085"
+        },
+        {
+          "http://example.com/terms#name": "Place Maurice Hamon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.235279241219909",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35696675889138"
+        },
+        {
+          "http://example.com/terms#name": "Place Montesquieu",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2502652588579393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.0873169332936"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "streetsfragment126.jsonld#4383",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Maquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Marguerite Yourcenar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Maria Arte-Ansotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Marie-Thérèse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Maurice Hamon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Montesquieu"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4374",
+              "@type": "tree:Node",
+              "token_string": "quet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4376",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4382",
+              "@type": "tree:Node",
+              "token_string": "urice Hamon"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4383",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Maquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0818572009643415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90399623281774"
+        },
+        {
+          "http://example.com/terms#name": "Place Marguerite Yourcenar",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.741491968931245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.22874760234561"
+        },
+        {
+          "http://example.com/terms#name": "Place Maria Arte-Ansotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4142223616385112",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.34501916828124"
+        },
+        {
+          "http://example.com/terms#name": "Place Marie-Thérèse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.310493771261921",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.230126929049085"
+        },
+        {
+          "http://example.com/terms#name": "Place Maurice Hamon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.235279241219909",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.35696675889138"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "streetsfragment126.jsonld#4384",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Maquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Marguerite Yourcenar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Maria Arte-Ansotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Marie-Thérèse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Maurice Hamon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ontesquieu",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Montesquieu",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2502652588579393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.0873169332936"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4383",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Montesquieu",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2502652588579393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.0873169332936"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4385",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Montesquieu"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Montesquieu"
+      ]
+    },
+    {
+      "token_string": "Ovide Decroly",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Ovide Decroly",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0572395779309294",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.589916779290235"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Ovide Decroly",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0572395779309294",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.589916779290235"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4386",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Ovide Decroly"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Ovide Decroly"
+      ]
+    },
+    {
+      "token_string": "P",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4389",
+              "@type": "tree:Node",
+              "token_string": "aul Heupgen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4390",
+              "@type": "tree:Node",
+              "token_string": "eduzzi"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4392",
+              "@type": "tree:Node",
+              "token_string": "ierre"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Paul Heupgen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3119992522968635",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65141952716458"
+        },
+        {
+          "http://example.com/terms#name": "Place Peduzzi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.704252346101383",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.947017994846014"
+        },
+        {
+          "http://example.com/terms#name": "Place Pierre Delannoy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9531207490123945",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.49137598112709"
+        },
+        {
+          "http://example.com/terms#name": "Place Pierre-Joseph Comblain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.593019755942294",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.84176745383031"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment126.jsonld#4388",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Paul Heupgen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Peduzzi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Pierre Delannoy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Pierre-Joseph Comblain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aul Heupgen",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Paul Heupgen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3119992522968635",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65141952716458"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4388",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Paul Heupgen",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3119992522968635",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65141952716458"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4389",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Paul Heupgen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Paul Heupgen"
+      ]
+    },
+    {
+      "token_string": "eduzzi",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Peduzzi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.704252346101383",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.947017994846014"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4388",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Peduzzi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.704252346101383",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.947017994846014"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4390",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Peduzzi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Peduzzi"
+      ]
+    },
+    {
+      "token_string": "ierre",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4393",
+              "@type": "tree:Node",
+              "token_string": " Delannoy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4394",
+              "@type": "tree:Node",
+              "token_string": "-Joseph Comblain"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4388",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Pierre Delannoy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9531207490123945",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.49137598112709"
+        },
+        {
+          "http://example.com/terms#name": "Place Pierre-Joseph Comblain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.593019755942294",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.84176745383031"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment126.jsonld#4392",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Pierre Delannoy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Pierre-Joseph Comblain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Delannoy",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Pierre Delannoy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9531207490123945",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.49137598112709"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4392",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Pierre Delannoy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9531207490123945",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.49137598112709"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4393",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Pierre Delannoy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Pierre Delannoy"
+      ]
+    },
+    {
+      "token_string": "-Joseph Comblain",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Pierre-Joseph Comblain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.593019755942294",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.84176745383031"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4392",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Pierre-Joseph Comblain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.593019755942294",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.84176745383031"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4394",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Pierre-Joseph Comblain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Pierre-Joseph Comblain"
+      ]
+    },
+    {
+      "token_string": "R",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4397",
+              "@type": "tree:Node",
+              "token_string": "abanère"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4399",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4403",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Rabanère",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.237155333414069",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.96038075087185"
+        },
+        {
+          "http://example.com/terms#name": "Place Reine Fabiola",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.402370458868641",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44832108542798"
+        },
+        {
+          "http://example.com/terms#name": "Place René Jérôme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0707599164740094",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.26661875258263"
+        },
+        {
+          "http://example.com/terms#name": "Place Robert Praillet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6732008130002245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.73021087856383"
+        },
+        {
+          "http://example.com/terms#name": "Place Roger Desaise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3195831437121237",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.18850549272982"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "streetsfragment126.jsonld#4396",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Rabanère"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Reine Fabiola"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place René Jérôme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Robert Praillet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Roger Desaise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "abanère",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Rabanère",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.237155333414069",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.96038075087185"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4396",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Rabanère",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.237155333414069",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.96038075087185"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4397",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Rabanère"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Rabanère"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4400",
+              "@type": "tree:Node",
+              "token_string": "ine Fabiola"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4401",
+              "@type": "tree:Node",
+              "token_string": "né Jérôme"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4396",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Reine Fabiola",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.402370458868641",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44832108542798"
+        },
+        {
+          "http://example.com/terms#name": "Place René Jérôme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0707599164740094",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.26661875258263"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment126.jsonld#4399",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Reine Fabiola"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place René Jérôme"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ine Fabiola",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Reine Fabiola",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.402370458868641",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44832108542798"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4399",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Reine Fabiola",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.402370458868641",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44832108542798"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4400",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Reine Fabiola"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Reine Fabiola"
+      ]
+    },
+    {
+      "token_string": "né Jérôme",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place René Jérôme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0707599164740094",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.26661875258263"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4399",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place René Jérôme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0707599164740094",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.26661875258263"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4401",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place René Jérôme"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place René Jérôme"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4404",
+              "@type": "tree:Node",
+              "token_string": "bert Praillet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4405",
+              "@type": "tree:Node",
+              "token_string": "ger Desaise"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4396",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Robert Praillet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6732008130002245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.73021087856383"
+        },
+        {
+          "http://example.com/terms#name": "Place Roger Desaise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3195831437121237",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.18850549272982"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment126.jsonld#4403",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Robert Praillet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Roger Desaise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bert Praillet",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Robert Praillet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6732008130002245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.73021087856383"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4403",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Robert Praillet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6732008130002245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.73021087856383"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4404",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Robert Praillet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Robert Praillet"
+      ]
+    },
+    {
+      "token_string": "ger Desaise",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Roger Desaise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3195831437121237",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.18850549272982"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4403",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Roger Desaise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3195831437121237",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.18850549272982"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4405",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Roger Desaise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Roger Desaise"
+      ]
+    },
+    {
+      "token_string": "Saint",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4408",
+              "@type": "tree:Node",
+              "token_string": "e-Genviève"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4409",
+              "@type": "tree:Node",
+              "token_string": "-Zèle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Sainte-Genviève",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.528027983474999",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.06746262391582"
+        },
+        {
+          "http://example.com/terms#name": "Place Saint-Zèle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.67690795746637",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.53592327008291"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment126.jsonld#4407",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Sainte-Genviève"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Saint-Zèle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e-Genviève",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Sainte-Genviève",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.528027983474999",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.06746262391582"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Sainte-Genviève",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.528027983474999",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.06746262391582"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4408",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Sainte-Genviève"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Sainte-Genviève"
+      ]
+    },
+    {
+      "token_string": "-Zèle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Saint-Zèle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.67690795746637",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.53592327008291"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Saint-Zèle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.67690795746637",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.53592327008291"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4409",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Saint-Zèle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Saint-Zèle"
+      ]
+    },
+    {
+      "token_string": "ce",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4411",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4412",
+              "@type": "tree:Node",
+              "token_string": "tte de la Fauvée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment144.jsonld#4422",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Abbé Michel Gigi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1158329218351333",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.74076037589181"
+        },
+        {
+          "http://example.com/terms#name": "Place A de Lamartine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.188494107862413",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.39563744221212"
+        },
+        {
+          "http://example.com/terms#name": "Place Albert Ier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7571514666394115",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.16281919999494"
+        },
+        {
+          "http://example.com/terms#name": "Place Albert Plaetens",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3295712797569657",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.26212709276439"
+        },
+        {
+          "http://example.com/terms#name": "Place André Hancre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.14175808944932",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.737279327845"
+        },
+        {
+          "http://example.com/terms#name": "Place Antoine-Louis Hennepin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9546410605302054",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78631036364658"
+        },
+        {
+          "http://example.com/terms#name": "Place Arthur Borlée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9308327658271685",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.94500139006795"
+        },
+        {
+          "http://example.com/terms#name": "Place Barchifontaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1511832288896344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.458868788447084"
+        },
+        {
+          "http://example.com/terms#name": "Place Baudouin 1er",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2050950572118033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52150382964875"
+        },
+        {
+          "http://example.com/terms#name": "Place Beaufort",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.486391342343779",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.401038032454764"
+        }
+      ],
+      "total_children_count": 182,
+      "@id": "streetsfragment126.jsonld#4410",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Abbé Michel Gigi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place A de Lamartine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Albert Ier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Albert Plaetens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place André Hancre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Antoine-Louis Hennepin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Arthur Borlée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Barchifontaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Baudouin 1er"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Beaufort"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment128.jsonld#4185",
+              "@type": "tree:Node",
+              "token_string": "A"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment129.jsonld#4190",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment130.jsonld#4200",
+              "@type": "tree:Node",
+              "token_string": "chateau Tremblant"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment131.jsonld#4204",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment132.jsonld#4283",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment133.jsonld#4291",
+              "@type": "tree:Node",
+              "token_string": "Docteur Pierre Dupont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment134.jsonld#4342",
+              "@type": "tree:Node",
+              "token_string": "Emile "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment135.jsonld#4346",
+              "@type": "tree:Node",
+              "token_string": "F"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment136.jsonld#4353",
+              "@type": "tree:Node",
+              "token_string": "G"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment137.jsonld#4356",
+              "@type": "tree:Node",
+              "token_string": "Hergé"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4361",
+              "@type": "tree:Node",
+              "token_string": "J"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4369",
+              "@type": "tree:Node",
+              "token_string": "La"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4383",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4386",
+              "@type": "tree:Node",
+              "token_string": "Ovide Decroly"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4388",
+              "@type": "tree:Node",
+              "token_string": "P"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4396",
+              "@type": "tree:Node",
+              "token_string": "R"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4407",
+              "@type": "tree:Node",
+              "token_string": "Saint"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4413",
+              "@type": "tree:Node",
+              "token_string": "Verte"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment126.jsonld#4414",
+              "@type": "tree:Node",
+              "token_string": "Willy Dieudonné"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4410",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Abbé Michel Gigi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1158329218351333",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.74076037589181"
+        },
+        {
+          "http://example.com/terms#name": "Place A de Lamartine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.188494107862413",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.39563744221212"
+        },
+        {
+          "http://example.com/terms#name": "Place Albert Ier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7571514666394115",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.16281919999494"
+        },
+        {
+          "http://example.com/terms#name": "Place Albert Plaetens",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3295712797569657",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.26212709276439"
+        },
+        {
+          "http://example.com/terms#name": "Place André Hancre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.14175808944932",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.737279327845"
+        },
+        {
+          "http://example.com/terms#name": "Place Antoine-Louis Hennepin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9546410605302054",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78631036364658"
+        },
+        {
+          "http://example.com/terms#name": "Place Arthur Borlée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9308327658271685",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.94500139006795"
+        },
+        {
+          "http://example.com/terms#name": "Place Barchifontaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1511832288896344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.458868788447084"
+        },
+        {
+          "http://example.com/terms#name": "Place Baudouin 1er",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2050950572118033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52150382964875"
+        },
+        {
+          "http://example.com/terms#name": "Place Beaufort",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.486391342343779",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.401038032454764"
+        }
+      ],
+      "total_children_count": 180,
+      "@id": "streetsfragment126.jsonld#4411",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Abbé Michel Gigi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place A de Lamartine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Albert Ier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Albert Plaetens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place André Hancre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Antoine-Louis Hennepin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Arthur Borlée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Barchifontaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Baudouin 1er"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Beaufort"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "tte de la Fauvée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Placette de la Fauvée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7828545711514954",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.75795646592057"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4410",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Placette de la Fauvée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7828545711514954",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.75795646592057"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4412",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Placette de la Fauvée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Placette de la Fauvée"
+      ]
+    },
+    {
+      "token_string": "Verte",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Verte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.742986196263055",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.862291152005724"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Verte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.742986196263055",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.862291152005724"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4413",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Verte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Verte"
+      ]
+    },
+    {
+      "token_string": "Willy Dieudonné",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Place Willy Dieudonné",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7372501973418206",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.260478970557706"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Place Willy Dieudonné",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7372501973418206",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.260478970557706"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment126.jsonld#4414",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Willy Dieudonné"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Willy Dieudonné"
+      ]
+    }
+  ]
+}

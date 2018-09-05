@@ -1,0 +1,196 @@
+{
+  "root_node_id": "8446",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment284.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "U",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment284.jsonld#8447",
+              "@type": "tree:Node",
+              "token_string": "m Bechel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment283.jsonld#8449",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment1.jsonld#1",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Um Bechel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6583713605076196",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.0141614091804"
+        },
+        {
+          "http://example.com/terms#name": "Université de Liège Sart-Tilman",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6997099794228077",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.50067366082053"
+        },
+        {
+          "http://example.com/terms#name": "Unter dem Wittenhof",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8409270229598196",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.0871223497411"
+        },
+        {
+          "http://example.com/terms#name": "Unter den Linden",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1529278869431505",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.321745671419805"
+        },
+        {
+          "http://example.com/terms#name": "Untere Büchelstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.57742661349248",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.222195598047584"
+        },
+        {
+          "http://example.com/terms#name": "Untere Ibern",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9220938794851476",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.95658283867382"
+        },
+        {
+          "http://example.com/terms#name": "Untere Rottergasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6625893424901914",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.60586494559265"
+        },
+        {
+          "http://example.com/terms#name": "Untere Rottstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.208880764410363",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.09346345880099"
+        },
+        {
+          "http://example.com/terms#name": "Unter Meilvenn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7206888549953305",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.99740361750299"
+        }
+      ],
+      "total_children_count": 15,
+      "@id": "streetsfragment284.jsonld#8446",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Um Bechel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Université de Liège Sart-Tilman"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Unter dem Wittenhof"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Unter den Linden"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Untere Büchelstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Untere Ibern"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Untere Rottergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Untere Rottstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Unter Meilvenn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "m Bechel",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Um Bechel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6583713605076196",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.0141614091804"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment284.jsonld#8446",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Um Bechel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6583713605076196",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.0141614091804"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment284.jsonld#8447",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Um Bechel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Um Bechel"
+      ]
+    }
+  ]
+}

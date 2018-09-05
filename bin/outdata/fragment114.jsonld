@@ -1,0 +1,3309 @@
+{
+  "root_node_id": "3536",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment114.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "ille",
+      "triples": [
+        {
+          "streetname": "La Basseille"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3509",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Basseille"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3507",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Basseille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Basseille"
+      ]
+    },
+    {
+      "token_string": "asse",
+      "triples": [
+        {
+          "streetname": "La Basse"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3507",
+              "@type": "tree:Node",
+              "token_string": "ille"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3513",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Basse"
+        },
+        {
+          "streetname": "La Basseille"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "fragment114.jsonld#3509",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Basse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Basseille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Basse"
+      ]
+    },
+    {
+      "token_string": "elle Liégeoise",
+      "triples": [
+        {
+          "streetname": "La Belle Liégeoise"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3513",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Belle Liégeoise"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3510",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Belle Liégeoise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Belle Liégeoise"
+      ]
+    },
+    {
+      "token_string": "riqueterie",
+      "triples": [
+        {
+          "streetname": "La Briqueterie"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3513",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Briqueterie"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3511",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Briqueterie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Briqueterie"
+      ]
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3509",
+              "@type": "tree:Node",
+              "token_string": "asse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3510",
+              "@type": "tree:Node",
+              "token_string": "elle Liégeoise"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3511",
+              "@type": "tree:Node",
+              "token_string": "riqueterie"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Basse"
+        },
+        {
+          "streetname": "La Basseille"
+        },
+        {
+          "streetname": "La Belle Liégeoise"
+        },
+        {
+          "streetname": "La Briqueterie"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment114.jsonld#3513",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Basse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Basseille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Belle Liégeoise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Briqueterie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3516",
+              "@type": "tree:Node",
+              "token_string": "ense"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3518",
+              "@type": "tree:Node",
+              "token_string": "ha"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3521",
+              "@type": "tree:Node",
+              "token_string": "lef des Champs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3522",
+              "@type": "tree:Node",
+              "token_string": "roquette"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Cense"
+        },
+        {
+          "streetname": "La Chaussée"
+        },
+        {
+          "streetname": "La Chavée"
+        },
+        {
+          "streetname": "La Clef des Champs"
+        },
+        {
+          "streetname": "La Croquette"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment114.jsonld#3515",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Cense"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Chaussée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Clef des Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Croquette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ense",
+      "triples": [
+        {
+          "streetname": "La Cense"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3515",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Cense"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3516",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Cense"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Cense"
+      ]
+    },
+    {
+      "token_string": "ha",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3519",
+              "@type": "tree:Node",
+              "token_string": "ussée"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3520",
+              "@type": "tree:Node",
+              "token_string": "vée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3515",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Chaussée"
+        },
+        {
+          "streetname": "La Chavée"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment114.jsonld#3518",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Chaussée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Chavée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ussée",
+      "triples": [
+        {
+          "streetname": "La Chaussée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3518",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Chaussée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3519",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Chaussée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Chaussée"
+      ]
+    },
+    {
+      "token_string": "vée",
+      "triples": [
+        {
+          "streetname": "La Chavée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3518",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Chavée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3520",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Chavée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Chavée"
+      ]
+    },
+    {
+      "token_string": "lef des Champs",
+      "triples": [
+        {
+          "streetname": "La Clef des Champs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3515",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Clef des Champs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3521",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Clef des Champs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Clef des Champs"
+      ]
+    },
+    {
+      "token_string": "roquette",
+      "triples": [
+        {
+          "streetname": "La Croquette"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3515",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Croquette"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3522",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Croquette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Croquette"
+      ]
+    },
+    {
+      "token_string": "F",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3525",
+              "@type": "tree:Node",
+              "token_string": "erme du Bru"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3526",
+              "@type": "tree:Node",
+              "token_string": "ieltz"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Ferme du Bru"
+        },
+        {
+          "streetname": "La Fieltz"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment114.jsonld#3524",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Ferme du Bru"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Fieltz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erme du Bru",
+      "triples": [
+        {
+          "streetname": "La Ferme du Bru"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3524",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Ferme du Bru"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3525",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Ferme du Bru"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Ferme du Bru"
+      ]
+    },
+    {
+      "token_string": "ieltz",
+      "triples": [
+        {
+          "streetname": "La Fieltz"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3524",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Fieltz"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3526",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Fieltz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Fieltz"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3513",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3515",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3524",
+              "@type": "tree:Node",
+              "token_string": "F"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3538",
+              "@type": "tree:Node",
+              "token_string": "Journée"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3542",
+              "@type": "tree:Node",
+              "token_string": "Marlière"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3550",
+              "@type": "tree:Node",
+              "token_string": "Neuville"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3568",
+              "@type": "tree:Node",
+              "token_string": "Petite "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3576",
+              "@type": "tree:Node",
+              "token_string": "rue de l'"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3579",
+              "@type": "tree:Node",
+              "token_string": "R"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3593",
+              "@type": "tree:Node",
+              "token_string": "S"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3599",
+              "@type": "tree:Node",
+              "token_string": "V"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3536",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Basse"
+        },
+        {
+          "streetname": "La Basseille"
+        },
+        {
+          "streetname": "La Belle Liégeoise"
+        },
+        {
+          "streetname": "La Briqueterie"
+        },
+        {
+          "streetname": "La Cense"
+        },
+        {
+          "streetname": "La Chaussée"
+        },
+        {
+          "streetname": "La Chavée"
+        },
+        {
+          "streetname": "La Clef des Champs"
+        },
+        {
+          "streetname": "La Croquette"
+        },
+        {
+          "streetname": "La Ferme du Bru"
+        }
+      ],
+      "total_children_count": 38,
+      "@id": "fragment114.jsonld#3528",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Basse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Basseille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Belle Liégeoise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Briqueterie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Cense"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Chaussée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Clef des Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Croquette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Ferme du Bru"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Elsenborn",
+      "triples": [
+        {
+          "streetname": "Lager-Camp Elsenborn"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3532",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lager-Camp Elsenborn"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3530",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lager-Camp Elsenborn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lager-Camp Elsenborn"
+      ]
+    },
+    {
+      "token_string": "ger",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3532",
+              "@type": "tree:Node",
+              "token_string": "-Camp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3533",
+              "@type": "tree:Node",
+              "token_string": " Elsenborn Camp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3534",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3536",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lager-Camp"
+        },
+        {
+          "streetname": "Lager-Camp Elsenborn"
+        },
+        {
+          "streetname": "Lager Elsenborn Camp"
+        },
+        {
+          "streetname": "Lagerstrasse"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment114.jsonld#3531",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lager-Camp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lager-Camp Elsenborn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lager Elsenborn Camp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lagerstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "-Camp",
+      "triples": [
+        {
+          "streetname": "Lager-Camp"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3530",
+              "@type": "tree:Node",
+              "token_string": " Elsenborn"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lager-Camp"
+        },
+        {
+          "streetname": "Lager-Camp Elsenborn"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "fragment114.jsonld#3532",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lager-Camp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lager-Camp Elsenborn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lager-Camp"
+      ]
+    },
+    {
+      "token_string": " Elsenborn Camp",
+      "triples": [
+        {
+          "streetname": "Lager Elsenborn Camp"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lager Elsenborn Camp"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3533",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lager Elsenborn Camp"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lager Elsenborn Camp"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "streetname": "Lagerstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lagerstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3534",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lagerstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lagerstrasse"
+      ]
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3528",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3531",
+              "@type": "tree:Node",
+              "token_string": "ger"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3543",
+              "@type": "tree:Node",
+              "token_string": "mouline L'Enclos Hardy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3551",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3587",
+              "@type": "tree:Node",
+              "token_string": "sche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3596",
+              "@type": "tree:Node",
+              "token_string": "tenbau"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3597",
+              "@type": "tree:Node",
+              "token_string": "urian-Moris-Strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment111.jsonld#3535",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Basse"
+        },
+        {
+          "streetname": "La Basseille"
+        },
+        {
+          "streetname": "La Belle Liégeoise"
+        },
+        {
+          "streetname": "La Briqueterie"
+        },
+        {
+          "streetname": "La Cense"
+        },
+        {
+          "streetname": "La Chaussée"
+        },
+        {
+          "streetname": "La Chavée"
+        },
+        {
+          "streetname": "La Clef des Champs"
+        },
+        {
+          "streetname": "La Croquette"
+        },
+        {
+          "streetname": "La Ferme du Bru"
+        }
+      ],
+      "total_children_count": 67,
+      "@id": "fragment114.jsonld#3536",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Basse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Basseille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Belle Liégeoise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Briqueterie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Cense"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Chaussée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Chavée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Clef des Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Croquette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Ferme du Bru"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Journée",
+      "triples": [
+        {
+          "streetname": "La Journée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Journée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3538",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Journée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Journée"
+      ]
+    },
+    {
+      "token_string": "Marlière",
+      "triples": [
+        {
+          "streetname": "La Marlière"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Marlière"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3542",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Marlière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Marlière"
+      ]
+    },
+    {
+      "token_string": "mouline L'Enclos Hardy",
+      "triples": [
+        {
+          "streetname": "Lamouline L'Enclos Hardy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3536",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lamouline L'Enclos Hardy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3543",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lamouline L'Enclos Hardy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lamouline L'Enclos Hardy"
+      ]
+    },
+    {
+      "token_string": "graben",
+      "triples": [
+        {
+          "streetname": "Landgraben"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3552",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Landgraben"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3548",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Landgraben"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Landgraben"
+      ]
+    },
+    {
+      "token_string": "wehring",
+      "triples": [
+        {
+          "streetname": "Landwehring"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3552",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Landwehring"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3549",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Landwehring"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Landwehring"
+      ]
+    },
+    {
+      "token_string": "Neuville",
+      "triples": [
+        {
+          "streetname": "La Neuville"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Neuville"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3550",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Neuville"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Neuville"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3552",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3561",
+              "@type": "tree:Node",
+              "token_string": "g"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3565",
+              "@type": "tree:Node",
+              "token_string": "schepeisch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3566",
+              "@type": "tree:Node",
+              "token_string": "zerath"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3536",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Landgraben"
+        },
+        {
+          "streetname": "Landwehring"
+        },
+        {
+          "streetname": "Langenbend"
+        },
+        {
+          "streetname": "Langen Driescher"
+        },
+        {
+          "streetname": "Langergasse"
+        },
+        {
+          "streetname": "Langesthal"
+        },
+        {
+          "streetname": "Langmüs"
+        },
+        {
+          "streetname": "Langstrasse"
+        },
+        {
+          "streetname": "Lanschepeisch"
+        },
+        {
+          "streetname": "Lanzerath"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "fragment114.jsonld#3551",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Landgraben"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Landwehring"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langenbend"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langen Driescher"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langesthal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langmüs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lanschepeisch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lanzerath"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3548",
+              "@type": "tree:Node",
+              "token_string": "graben"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3549",
+              "@type": "tree:Node",
+              "token_string": "wehring"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3551",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Landgraben"
+        },
+        {
+          "streetname": "Landwehring"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment114.jsonld#3552",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Landgraben"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Landwehring"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bend",
+      "triples": [
+        {
+          "streetname": "Langenbend"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3558",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Langenbend"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3555",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langenbend"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Langenbend"
+      ]
+    },
+    {
+      "token_string": " Driescher",
+      "triples": [
+        {
+          "streetname": "Langen Driescher"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3558",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Langen Driescher"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3556",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langen Driescher"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Langen Driescher"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3555",
+              "@type": "tree:Node",
+              "token_string": "bend"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3556",
+              "@type": "tree:Node",
+              "token_string": " Driescher"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3562",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Langenbend"
+        },
+        {
+          "streetname": "Langen Driescher"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment114.jsonld#3558",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langenbend"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langen Driescher"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rgasse",
+      "triples": [
+        {
+          "streetname": "Langergasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3562",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Langergasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3559",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langergasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Langergasse"
+      ]
+    },
+    {
+      "token_string": "sthal",
+      "triples": [
+        {
+          "streetname": "Langesthal"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3562",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Langesthal"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3560",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langesthal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Langesthal"
+      ]
+    },
+    {
+      "token_string": "g",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3562",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3563",
+              "@type": "tree:Node",
+              "token_string": "müs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3564",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3551",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Langenbend"
+        },
+        {
+          "streetname": "Langen Driescher"
+        },
+        {
+          "streetname": "Langergasse"
+        },
+        {
+          "streetname": "Langesthal"
+        },
+        {
+          "streetname": "Langmüs"
+        },
+        {
+          "streetname": "Langstrasse"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment114.jsonld#3561",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langenbend"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langen Driescher"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langesthal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langmüs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3558",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3559",
+              "@type": "tree:Node",
+              "token_string": "rgasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3560",
+              "@type": "tree:Node",
+              "token_string": "sthal"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3561",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Langenbend"
+        },
+        {
+          "streetname": "Langen Driescher"
+        },
+        {
+          "streetname": "Langergasse"
+        },
+        {
+          "streetname": "Langesthal"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment114.jsonld#3562",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langenbend"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langen Driescher"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Langesthal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "müs",
+      "triples": [
+        {
+          "streetname": "Langmüs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3561",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Langmüs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3563",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langmüs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Langmüs"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "streetname": "Langstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3561",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Langstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3564",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Langstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Langstrasse"
+      ]
+    },
+    {
+      "token_string": "schepeisch",
+      "triples": [
+        {
+          "streetname": "Lanschepeisch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3551",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lanschepeisch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3565",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lanschepeisch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lanschepeisch"
+      ]
+    },
+    {
+      "token_string": "zerath",
+      "triples": [
+        {
+          "streetname": "Lanzerath"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3551",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lanzerath"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3566",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lanzerath"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lanzerath"
+      ]
+    },
+    {
+      "token_string": "Petite ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3569",
+              "@type": "tree:Node",
+              "token_string": "Bouvière"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3570",
+              "@type": "tree:Node",
+              "token_string": "Chavée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Petite Bouvière"
+        },
+        {
+          "streetname": "La Petite Chavée"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment114.jsonld#3568",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Petite Bouvière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Petite Chavée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Bouvière",
+      "triples": [
+        {
+          "streetname": "La Petite Bouvière"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3568",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Petite Bouvière"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3569",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Petite Bouvière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Petite Bouvière"
+      ]
+    },
+    {
+      "token_string": "Chavée",
+      "triples": [
+        {
+          "streetname": "La Petite Chavée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3568",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Petite Chavée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3570",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Petite Chavée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Petite Chavée"
+      ]
+    },
+    {
+      "token_string": "aille",
+      "triples": [
+        {
+          "streetname": "La Rocaille"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3580",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Rocaille"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3573",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Rocaille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Rocaille"
+      ]
+    },
+    {
+      "token_string": "helle",
+      "triples": [
+        {
+          "streetname": "La Rochelle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3580",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Rochelle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3574",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Rochelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Rochelle"
+      ]
+    },
+    {
+      "token_string": "rue de l'",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3577",
+              "@type": "tree:Node",
+              "token_string": "Entreprise"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3578",
+              "@type": "tree:Node",
+              "token_string": "Initiative"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La rue de l'Entreprise"
+        },
+        {
+          "streetname": "La rue de l'Initiative"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment114.jsonld#3576",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La rue de l'Entreprise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La rue de l'Initiative"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Entreprise",
+      "triples": [
+        {
+          "streetname": "La rue de l'Entreprise"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3576",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La rue de l'Entreprise"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3577",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La rue de l'Entreprise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La rue de l'Entreprise"
+      ]
+    },
+    {
+      "token_string": "Initiative",
+      "triples": [
+        {
+          "streetname": "La rue de l'Initiative"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3576",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La rue de l'Initiative"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3578",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La rue de l'Initiative"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La rue de l'Initiative"
+      ]
+    },
+    {
+      "token_string": "R",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3580",
+              "@type": "tree:Node",
+              "token_string": "oc"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3581",
+              "@type": "tree:Node",
+              "token_string": "uelle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Rocaille"
+        },
+        {
+          "streetname": "La Rochelle"
+        },
+        {
+          "streetname": "La Ruelle"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment114.jsonld#3579",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Rocaille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Rochelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Ruelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "oc",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3573",
+              "@type": "tree:Node",
+              "token_string": "aille"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3574",
+              "@type": "tree:Node",
+              "token_string": "helle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3579",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Rocaille"
+        },
+        {
+          "streetname": "La Rochelle"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment114.jsonld#3580",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Rocaille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Rochelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "uelle",
+      "triples": [
+        {
+          "streetname": "La Ruelle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3579",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Ruelle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3581",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Ruelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Ruelle"
+      ]
+    },
+    {
+      "token_string": "ière",
+      "triples": [
+        {
+          "streetname": "La Sablière"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3594",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Sablière"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3584",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Sablière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Sablière"
+      ]
+    },
+    {
+      "token_string": "onnière",
+      "triples": [
+        {
+          "streetname": "La Sablonnière"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3594",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Sablonnière"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3585",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Sablonnière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Sablonnière"
+      ]
+    },
+    {
+      "token_string": "sche",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3588",
+              "@type": "tree:Node",
+              "token_string": "id"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3590",
+              "@type": "tree:Node",
+              "token_string": "ter"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3536",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lascheid"
+        },
+        {
+          "streetname": "Lascheterfeld"
+        },
+        {
+          "streetname": "Lascheterweg"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment114.jsonld#3587",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lascheid"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lascheterfeld"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lascheterweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "id",
+      "triples": [
+        {
+          "streetname": "Lascheid"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3587",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lascheid"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3588",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lascheid"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lascheid"
+      ]
+    },
+    {
+      "token_string": "ter",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3591",
+              "@type": "tree:Node",
+              "token_string": "feld"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3592",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3587",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lascheterfeld"
+        },
+        {
+          "streetname": "Lascheterweg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment114.jsonld#3590",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lascheterfeld"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lascheterweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "feld",
+      "triples": [
+        {
+          "streetname": "Lascheterfeld"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3590",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lascheterfeld"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3591",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lascheterfeld"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lascheterfeld"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "streetname": "Lascheterweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3590",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Lascheterweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3592",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lascheterweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lascheterweg"
+      ]
+    },
+    {
+      "token_string": "S",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3594",
+              "@type": "tree:Node",
+              "token_string": "abl"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3595",
+              "@type": "tree:Node",
+              "token_string": "trée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Sablière"
+        },
+        {
+          "streetname": "La Sablonnière"
+        },
+        {
+          "streetname": "La Strée"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment114.jsonld#3593",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Sablière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Sablonnière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Strée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "abl",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3584",
+              "@type": "tree:Node",
+              "token_string": "ière"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3585",
+              "@type": "tree:Node",
+              "token_string": "onnière"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3593",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Sablière"
+        },
+        {
+          "streetname": "La Sablonnière"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment114.jsonld#3594",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Sablière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Sablonnière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "trée",
+      "triples": [
+        {
+          "streetname": "La Strée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3593",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Strée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3595",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Strée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Strée"
+      ]
+    },
+    {
+      "token_string": "tenbau",
+      "triples": [
+        {
+          "streetname": "Latenbau"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3536",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Latenbau"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3596",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Latenbau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Latenbau"
+      ]
+    },
+    {
+      "token_string": "urian-Moris-Strasse",
+      "triples": [
+        {
+          "streetname": "Laurian-Moris-Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3536",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Laurian-Moris-Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3597",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Laurian-Moris-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Laurian-Moris-Strasse"
+      ]
+    },
+    {
+      "token_string": "V",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3600",
+              "@type": "tree:Node",
+              "token_string": "enelle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3601",
+              "@type": "tree:Node",
+              "token_string": "oierie"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3528",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Venelle"
+        },
+        {
+          "streetname": "La Voierie"
+        },
+        {
+          "streetname": "La Voierie Orgeo"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment114.jsonld#3599",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Venelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Voierie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Voierie Orgeo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "enelle",
+      "triples": [
+        {
+          "streetname": "La Venelle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3599",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Venelle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3600",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Venelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Venelle"
+      ]
+    },
+    {
+      "token_string": "oierie",
+      "triples": [
+        {
+          "streetname": "La Voierie"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment114.jsonld#3602",
+              "@type": "tree:Node",
+              "token_string": " Orgeo"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3599",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Voierie"
+        },
+        {
+          "streetname": "La Voierie Orgeo"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "fragment114.jsonld#3601",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Voierie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "La Voierie Orgeo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Voierie"
+      ]
+    },
+    {
+      "token_string": " Orgeo",
+      "triples": [
+        {
+          "streetname": "La Voierie Orgeo"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment114.jsonld#3601",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "La Voierie Orgeo"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment114.jsonld#3602",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "La Voierie Orgeo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "La Voierie Orgeo"
+      ]
+    }
+  ]
+}

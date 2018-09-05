@@ -1,0 +1,885 @@
+{
+  "root_node_id": "6145",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment199.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "es de Tillet",
+      "triples": [
+        {
+          "streetname": "Rue des Haies de Tillet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6140",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Haies de Tillet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment199.jsonld#6137",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Haies de Tillet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Haies de Tillet"
+      ]
+    },
+    {
+      "token_string": "pes",
+      "triples": [
+        {
+          "streetname": "Rue des Haipes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6140",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Haipes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment199.jsonld#6138",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Haipes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Haipes"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6137",
+              "@type": "tree:Node",
+              "token_string": "es de Tillet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6138",
+              "@type": "tree:Node",
+              "token_string": "pes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6146",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Haies de Tillet"
+        },
+        {
+          "streetname": "Rue des Haipes"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment199.jsonld#6140",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Haies de Tillet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Haipes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "leurs",
+      "triples": [
+        {
+          "streetname": "Rue des Haleurs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6146",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Haleurs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment199.jsonld#6141",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Haleurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Haleurs"
+      ]
+    },
+    {
+      "token_string": "rmonies",
+      "triples": [
+        {
+          "streetname": "Rue des Harmonies"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6146",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Harmonies"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment199.jsonld#6142",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Harmonies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Harmonies"
+      ]
+    },
+    {
+      "token_string": "uts de Roux",
+      "triples": [
+        {
+          "streetname": "Rue des Hauts de Roux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6146",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Hauts de Roux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment199.jsonld#6143",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Hauts de Roux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Hauts de Roux"
+      ]
+    },
+    {
+      "token_string": "yettes",
+      "triples": [
+        {
+          "streetname": "Rue des Hayettes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6146",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Hayettes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment199.jsonld#6144",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Hayettes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Hayettes"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6146",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6147",
+              "@type": "tree:Node",
+              "token_string": "erdiers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6148",
+              "@type": "tree:Node",
+              "token_string": "êtres"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6150",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6154",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6157",
+              "@type": "tree:Node",
+              "token_string": "uit Heures"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment200.jsonld#6072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Haies de Tillet"
+        },
+        {
+          "streetname": "Rue des Haipes"
+        },
+        {
+          "streetname": "Rue des Haleurs"
+        },
+        {
+          "streetname": "Rue des Harmonies"
+        },
+        {
+          "streetname": "Rue des Hauts de Roux"
+        },
+        {
+          "streetname": "Rue des Hayettes"
+        },
+        {
+          "streetname": "Rue des Herdiers"
+        },
+        {
+          "streetname": "Rue des Hiboux"
+        },
+        {
+          "streetname": "Rue des Hirondelles"
+        },
+        {
+          "streetname": "Rue des Hortensias"
+        }
+      ],
+      "total_children_count": 17,
+      "@id": "fragment199.jsonld#6145",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Haies de Tillet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Haipes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Haleurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Harmonies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Hauts de Roux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Hayettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Herdiers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Hiboux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Hirondelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Hortensias"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6140",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6141",
+              "@type": "tree:Node",
+              "token_string": "leurs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6142",
+              "@type": "tree:Node",
+              "token_string": "rmonies"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6143",
+              "@type": "tree:Node",
+              "token_string": "uts de Roux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6144",
+              "@type": "tree:Node",
+              "token_string": "yettes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6145",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Haies de Tillet"
+        },
+        {
+          "streetname": "Rue des Haipes"
+        },
+        {
+          "streetname": "Rue des Haleurs"
+        },
+        {
+          "streetname": "Rue des Harmonies"
+        },
+        {
+          "streetname": "Rue des Hauts de Roux"
+        },
+        {
+          "streetname": "Rue des Hayettes"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment199.jsonld#6146",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Haies de Tillet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Haipes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Haleurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Harmonies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Hauts de Roux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Hayettes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erdiers",
+      "triples": [
+        {
+          "streetname": "Rue des Herdiers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6145",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Herdiers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment199.jsonld#6147",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Herdiers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Herdiers"
+      ]
+    },
+    {
+      "token_string": "êtres",
+      "triples": [
+        {
+          "streetname": "Rue des Hêtres"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6145",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Hêtres"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment199.jsonld#6148",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Hêtres"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Hêtres"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6151",
+              "@type": "tree:Node",
+              "token_string": "boux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6152",
+              "@type": "tree:Node",
+              "token_string": "rondelles"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6145",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Hiboux"
+        },
+        {
+          "streetname": "Rue des Hirondelles"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment199.jsonld#6150",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Hiboux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Hirondelles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "boux",
+      "triples": [
+        {
+          "streetname": "Rue des Hiboux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6150",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Hiboux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment199.jsonld#6151",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Hiboux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Hiboux"
+      ]
+    },
+    {
+      "token_string": "rondelles",
+      "triples": [
+        {
+          "streetname": "Rue des Hirondelles"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6150",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Hirondelles"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment199.jsonld#6152",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Hirondelles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Hirondelles"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6155",
+              "@type": "tree:Node",
+              "token_string": "rtensias"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment199.jsonld#6156",
+              "@type": "tree:Node",
+              "token_string": "uillères"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6145",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Hortensias"
+        },
+        {
+          "streetname": "Rue des Houillères"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment199.jsonld#6154",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Hortensias"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Houillères"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rtensias",
+      "triples": [
+        {
+          "streetname": "Rue des Hortensias"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6154",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Hortensias"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment199.jsonld#6155",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Hortensias"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Hortensias"
+      ]
+    },
+    {
+      "token_string": "uillères",
+      "triples": [
+        {
+          "streetname": "Rue des Houillères"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6154",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Houillères"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment199.jsonld#6156",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Houillères"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Houillères"
+      ]
+    },
+    {
+      "token_string": "uit Heures",
+      "triples": [
+        {
+          "streetname": "Rue des Huit Heures"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment199.jsonld#6145",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Huit Heures"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment199.jsonld#6157",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Huit Heures"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Huit Heures"
+      ]
+    }
+  ]
+}

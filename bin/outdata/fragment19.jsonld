@@ -1,0 +1,1219 @@
+{
+  "root_node_id": "679",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment19.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "gasse",
+      "triples": [
+        {
+          "streetname": "Bachgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#661",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bachgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment19.jsonld#655",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bachgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bachgasse"
+      ]
+    },
+    {
+      "token_string": "stra",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#658",
+              "@type": "tree:Node",
+              "token_string": "sse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#659",
+              "@type": "tree:Node",
+              "token_string": "ße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#661",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bachstrasse"
+        },
+        {
+          "streetname": "Bachstraße"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment19.jsonld#657",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bachstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bachstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sse",
+      "triples": [
+        {
+          "streetname": "Bachstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#657",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bachstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment19.jsonld#658",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bachstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bachstrasse"
+      ]
+    },
+    {
+      "token_string": "ße",
+      "triples": [
+        {
+          "streetname": "Bachstraße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#657",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bachstraße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment19.jsonld#659",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bachstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bachstraße"
+      ]
+    },
+    {
+      "token_string": "h",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#655",
+              "@type": "tree:Node",
+              "token_string": "gasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#657",
+              "@type": "tree:Node",
+              "token_string": "stra"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#664",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bachgasse"
+        },
+        {
+          "streetname": "Bachstrasse"
+        },
+        {
+          "streetname": "Bachstraße"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment19.jsonld#661",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bachgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bachstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bachstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "kesweg",
+      "triples": [
+        {
+          "streetname": "Backesweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#664",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Backesweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment19.jsonld#662",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Backesweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Backesweg"
+      ]
+    },
+    {
+      "token_string": "c",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#661",
+              "@type": "tree:Node",
+              "token_string": "h"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#662",
+              "@type": "tree:Node",
+              "token_string": "kesweg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#679",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bachgasse"
+        },
+        {
+          "streetname": "Bachstrasse"
+        },
+        {
+          "streetname": "Bachstraße"
+        },
+        {
+          "streetname": "Backesweg"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment19.jsonld#664",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bachgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bachstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bachstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Backesweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "guemont",
+      "triples": [
+        {
+          "streetname": "Baguemont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#679",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Baguemont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment19.jsonld#665",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Baguemont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Baguemont"
+      ]
+    },
+    {
+      "token_string": "hn",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#668",
+              "@type": "tree:Node",
+              "token_string": "allee"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#670",
+              "@type": "tree:Node",
+              "token_string": "hof"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#679",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bahnallee"
+        },
+        {
+          "streetname": "Bahnhof Lammersdorf"
+        },
+        {
+          "streetname": "Bahnhofsgasse"
+        },
+        {
+          "streetname": "Bahnhofstrasse"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment19.jsonld#667",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bahnallee"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhof Lammersdorf"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhofsgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhofstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "allee",
+      "triples": [
+        {
+          "streetname": "Bahnallee"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#667",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bahnallee"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment19.jsonld#668",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bahnallee"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bahnallee"
+      ]
+    },
+    {
+      "token_string": "hof",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#671",
+              "@type": "tree:Node",
+              "token_string": " Lammersdorf"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#673",
+              "@type": "tree:Node",
+              "token_string": "s"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#667",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bahnhof Lammersdorf"
+        },
+        {
+          "streetname": "Bahnhofsgasse"
+        },
+        {
+          "streetname": "Bahnhofstrasse"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment19.jsonld#670",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bahnhof Lammersdorf"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhofsgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhofstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Lammersdorf",
+      "triples": [
+        {
+          "streetname": "Bahnhof Lammersdorf"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#670",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bahnhof Lammersdorf"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment19.jsonld#671",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bahnhof Lammersdorf"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bahnhof Lammersdorf"
+      ]
+    },
+    {
+      "token_string": "s",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#674",
+              "@type": "tree:Node",
+              "token_string": "gasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#675",
+              "@type": "tree:Node",
+              "token_string": "trasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#670",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bahnhofsgasse"
+        },
+        {
+          "streetname": "Bahnhofstrasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment19.jsonld#673",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bahnhofsgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhofstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "gasse",
+      "triples": [
+        {
+          "streetname": "Bahnhofsgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#673",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bahnhofsgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment19.jsonld#674",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bahnhofsgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bahnhofsgasse"
+      ]
+    },
+    {
+      "token_string": "trasse",
+      "triples": [
+        {
+          "streetname": "Bahnhofstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#673",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bahnhofstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment19.jsonld#675",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bahnhofstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bahnhofstrasse"
+      ]
+    },
+    {
+      "token_string": "n de Vin",
+      "triples": [
+        {
+          "streetname": "Ban de Vin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#679",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Ban de Vin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment19.jsonld#676",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ban de Vin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ban de Vin"
+      ]
+    },
+    {
+      "token_string": "rbarastraße",
+      "triples": [
+        {
+          "streetname": "Barbarastraße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#679",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Barbarastraße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment19.jsonld#677",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Barbarastraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Barbarastraße"
+      ]
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#664",
+              "@type": "tree:Node",
+              "token_string": "c"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#665",
+              "@type": "tree:Node",
+              "token_string": "guemont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#667",
+              "@type": "tree:Node",
+              "token_string": "hn"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#676",
+              "@type": "tree:Node",
+              "token_string": "n de Vin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#677",
+              "@type": "tree:Node",
+              "token_string": "rbarastraße"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#682",
+              "@type": "tree:Node",
+              "token_string": "s"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#686",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment12.jsonld#678",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bachgasse"
+        },
+        {
+          "streetname": "Bachstrasse"
+        },
+        {
+          "streetname": "Bachstraße"
+        },
+        {
+          "streetname": "Backesweg"
+        },
+        {
+          "streetname": "Baguemont"
+        },
+        {
+          "streetname": "Bahnallee"
+        },
+        {
+          "streetname": "Bahnhof Lammersdorf"
+        },
+        {
+          "streetname": "Bahnhofsgasse"
+        },
+        {
+          "streetname": "Bahnhofstrasse"
+        },
+        {
+          "streetname": "Ban de Vin"
+        }
+      ],
+      "total_children_count": 24,
+      "@id": "fragment19.jsonld#679",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bachgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bachstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bachstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Backesweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Baguemont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnallee"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhof Lammersdorf"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhofsgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhofstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ban de Vin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "s",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#683",
+              "@type": "tree:Node",
+              "token_string": "e Aérienne de ChièvresB20005"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#684",
+              "@type": "tree:Node",
+              "token_string": " Gardin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#679",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Base Aérienne de ChièvresB20005"
+        },
+        {
+          "streetname": "Bas Gardin"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment19.jsonld#682",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Base Aérienne de ChièvresB20005"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bas Gardin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e Aérienne de ChièvresB20005",
+      "triples": [
+        {
+          "streetname": "Base Aérienne de ChièvresB20005"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#682",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Base Aérienne de ChièvresB20005"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment19.jsonld#683",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Base Aérienne de ChièvresB20005"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Base Aérienne de ChièvresB20005"
+      ]
+    },
+    {
+      "token_string": " Gardin",
+      "triples": [
+        {
+          "streetname": "Bas Gardin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#682",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bas Gardin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment19.jsonld#684",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bas Gardin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bas Gardin"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#687",
+              "@type": "tree:Node",
+              "token_string": "elsbusch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#688",
+              "@type": "tree:Node",
+              "token_string": "gnée"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment19.jsonld#689",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#679",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bauelsbusch"
+        },
+        {
+          "streetname": "Baugnée"
+        },
+        {
+          "streetname": "Bauweg"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment19.jsonld#686",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bauelsbusch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Baugnée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bauweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "elsbusch",
+      "triples": [
+        {
+          "streetname": "Bauelsbusch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#686",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bauelsbusch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment19.jsonld#687",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bauelsbusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bauelsbusch"
+      ]
+    },
+    {
+      "token_string": "gnée",
+      "triples": [
+        {
+          "streetname": "Baugnée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#686",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Baugnée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment19.jsonld#688",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Baugnée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Baugnée"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "streetname": "Bauweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment19.jsonld#686",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bauweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment19.jsonld#689",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bauweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bauweg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,925 @@
+{
+  "root_node_id": "1820",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment68.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "cristain",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin du Sacristain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.349599224977807",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.81259376332716"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment68.jsonld#1821",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Sacristain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.349599224977807",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.81259376332716"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment68.jsonld#1813",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Sacristain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Sacristain"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment68.jsonld#1816",
+              "@type": "tree:Node",
+              "token_string": "atorium"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment68.jsonld#1817",
+              "@type": "tree:Node",
+              "token_string": "g"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment68.jsonld#1821",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Sanatorium",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.353684051565291",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.17440065336373"
+        },
+        {
+          "http://example.com/terms#name": "Chemin du Sang",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.472659451140399",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.66312179817306"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment68.jsonld#1815",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Sanatorium"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Sang"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "atorium",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin du Sanatorium",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.353684051565291",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.17440065336373"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment68.jsonld#1815",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Sanatorium",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.353684051565291",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.17440065336373"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment68.jsonld#1816",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Sanatorium"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Sanatorium"
+      ]
+    },
+    {
+      "token_string": "g",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin du Sang",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.472659451140399",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.66312179817306"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment68.jsonld#1815",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Sang",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.472659451140399",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.66312179817306"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment68.jsonld#1817",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Sang"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Sang"
+      ]
+    },
+    {
+      "token_string": "rt",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin du Sart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6980622065598925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.906767999031466"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment68.jsonld#1821",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Sart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6980622065598925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.906767999031466"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment68.jsonld#1818",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Sart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Sart"
+      ]
+    },
+    {
+      "token_string": "utou",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin du Sautou",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2327661966608487",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.903657127628136"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment68.jsonld#1821",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Sautou",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2327661966608487",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.903657127628136"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment68.jsonld#1819",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Sautou"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Sautou"
+      ]
+    },
+    {
+      "token_string": "S",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment68.jsonld#1821",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment68.jsonld#1822",
+              "@type": "tree:Node",
+              "token_string": "cheid"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment68.jsonld#1825",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment68.jsonld#1828",
+              "@type": "tree:Node",
+              "token_string": "é"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment68.jsonld#1831",
+              "@type": "tree:Node",
+              "token_string": "ignaleur"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment68.jsonld#1832",
+              "@type": "tree:Node",
+              "token_string": "oirfa"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment65.jsonld#1618",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Sacristain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.349599224977807",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.81259376332716"
+        },
+        {
+          "http://example.com/terms#name": "Chemin du Sanatorium",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.353684051565291",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.17440065336373"
+        },
+        {
+          "http://example.com/terms#name": "Chemin du Sang",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.472659451140399",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.66312179817306"
+        },
+        {
+          "http://example.com/terms#name": "Chemin du Sart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6980622065598925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.906767999031466"
+        },
+        {
+          "http://example.com/terms#name": "Chemin du Sautou",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2327661966608487",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.903657127628136"
+        },
+        {
+          "http://example.com/terms#name": "Chemin du Scheid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3704050859322416",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.50954442622685"
+        },
+        {
+          "http://example.com/terms#name": "Chemin du Secrétaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.423991000435069",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.89185383309113"
+        },
+        {
+          "http://example.com/terms#name": "Chemin du Serroy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.324594817733227",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.951417724463916"
+        },
+        {
+          "http://example.com/terms#name": "Chemin du Signaleur",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2839258122618444",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.330514240086124"
+        },
+        {
+          "http://example.com/terms#name": "Chemin du Soirfa",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.349477542532335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.25608772979864"
+        }
+      ],
+      "total_children_count": 16,
+      "@id": "streetsfragment68.jsonld#1820",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Sacristain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Sanatorium"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Sang"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Sart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Sautou"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Scheid"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Secrétaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Serroy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Signaleur"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Soirfa"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment68.jsonld#1813",
+              "@type": "tree:Node",
+              "token_string": "cristain"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment68.jsonld#1815",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment68.jsonld#1818",
+              "@type": "tree:Node",
+              "token_string": "rt"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment68.jsonld#1819",
+              "@type": "tree:Node",
+              "token_string": "utou"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment68.jsonld#1820",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Sacristain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.349599224977807",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.81259376332716"
+        },
+        {
+          "http://example.com/terms#name": "Chemin du Sanatorium",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.353684051565291",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.17440065336373"
+        },
+        {
+          "http://example.com/terms#name": "Chemin du Sang",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.472659451140399",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.66312179817306"
+        },
+        {
+          "http://example.com/terms#name": "Chemin du Sart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6980622065598925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.906767999031466"
+        },
+        {
+          "http://example.com/terms#name": "Chemin du Sautou",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2327661966608487",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.903657127628136"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment68.jsonld#1821",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Sacristain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Sanatorium"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Sang"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Sart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Sautou"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "cheid",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin du Scheid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3704050859322416",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.50954442622685"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment68.jsonld#1820",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Scheid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3704050859322416",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.50954442622685"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment68.jsonld#1822",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Scheid"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Scheid"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment68.jsonld#1826",
+              "@type": "tree:Node",
+              "token_string": "crétaire"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment68.jsonld#1827",
+              "@type": "tree:Node",
+              "token_string": "rroy"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment68.jsonld#1820",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Secrétaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.423991000435069",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.89185383309113"
+        },
+        {
+          "http://example.com/terms#name": "Chemin du Serroy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.324594817733227",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.951417724463916"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment68.jsonld#1825",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Secrétaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Serroy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "crétaire",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin du Secrétaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.423991000435069",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.89185383309113"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment68.jsonld#1825",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Secrétaire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.423991000435069",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.89185383309113"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment68.jsonld#1826",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Secrétaire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Secrétaire"
+      ]
+    },
+    {
+      "token_string": "rroy",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin du Serroy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.324594817733227",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.951417724463916"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment68.jsonld#1825",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Serroy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.324594817733227",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.951417724463916"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment68.jsonld#1827",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Serroy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Serroy"
+      ]
+    },
+    {
+      "token_string": "é",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment68.jsonld#1829",
+              "@type": "tree:Node",
+              "token_string": "chiron"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment68.jsonld#1830",
+              "@type": "tree:Node",
+              "token_string": "vreux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment68.jsonld#1820",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Séchiron",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.476228706784512",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.60040916383012"
+        },
+        {
+          "http://example.com/terms#name": "Chemin du Sévreux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0910117086174873",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53772527747031"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment68.jsonld#1828",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Séchiron"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Sévreux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "chiron",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin du Séchiron",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.476228706784512",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.60040916383012"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment68.jsonld#1828",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Séchiron",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.476228706784512",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.60040916383012"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment68.jsonld#1829",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Séchiron"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Séchiron"
+      ]
+    },
+    {
+      "token_string": "vreux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin du Sévreux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0910117086174873",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53772527747031"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment68.jsonld#1828",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Sévreux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0910117086174873",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53772527747031"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment68.jsonld#1830",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Sévreux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Sévreux"
+      ]
+    },
+    {
+      "token_string": "ignaleur",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin du Signaleur",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2839258122618444",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.330514240086124"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment68.jsonld#1820",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Signaleur",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2839258122618444",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.330514240086124"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment68.jsonld#1831",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Signaleur"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Signaleur"
+      ]
+    },
+    {
+      "token_string": "oirfa",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin du Soirfa",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.349477542532335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.25608772979864"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment68.jsonld#1820",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin du Soirfa",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.349477542532335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.25608772979864"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment68.jsonld#1832",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Soirfa"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Soirfa"
+      ]
+    }
+  ]
+}

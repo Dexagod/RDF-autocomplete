@@ -1,0 +1,253 @@
+{
+  "root_node_id": "3063",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment101.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "tte",
+      "triples": [
+        {
+          "streetname": "Hütte"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment101.jsonld#3065",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment101.jsonld#3068",
+              "@type": "tree:Node",
+              "token_string": "rprivatweg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment96.jsonld#3045",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Hütte"
+        },
+        {
+          "streetname": "Hüttenberg"
+        },
+        {
+          "streetname": "Hüttengasse"
+        },
+        {
+          "streetname": "Hütterprivatweg"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment101.jsonld#3063",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Hütte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Hüttenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Hüttengasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Hütterprivatweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Hütte"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment101.jsonld#3066",
+              "@type": "tree:Node",
+              "token_string": "berg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment101.jsonld#3067",
+              "@type": "tree:Node",
+              "token_string": "gasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment101.jsonld#3063",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Hüttenberg"
+        },
+        {
+          "streetname": "Hüttengasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment101.jsonld#3065",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Hüttenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Hüttengasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "berg",
+      "triples": [
+        {
+          "streetname": "Hüttenberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment101.jsonld#3065",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Hüttenberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment101.jsonld#3066",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Hüttenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Hüttenberg"
+      ]
+    },
+    {
+      "token_string": "gasse",
+      "triples": [
+        {
+          "streetname": "Hüttengasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment101.jsonld#3065",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Hüttengasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment101.jsonld#3067",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Hüttengasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Hüttengasse"
+      ]
+    },
+    {
+      "token_string": "rprivatweg",
+      "triples": [
+        {
+          "streetname": "Hütterprivatweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment101.jsonld#3063",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Hütterprivatweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment101.jsonld#3068",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Hütterprivatweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Hütterprivatweg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "root_node_id": "4896",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment156.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "bert ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment156.jsonld#4897",
+              "@type": "tree:Node",
+              "token_string": "Camus"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment156.jsonld#4899",
+              "@type": "tree:Node",
+              "token_string": "D"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment156.jsonld#4902",
+              "@type": "tree:Node",
+              "token_string": "Einstein"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment156.jsonld#4903",
+              "@type": "tree:Node",
+              "token_string": "Jamot"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment156.jsonld#4904",
+              "@type": "tree:Node",
+              "token_string": "Lemal"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment156.jsonld#4905",
+              "@type": "tree:Node",
+              "token_string": "Plennevaux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment157.jsonld#4893",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Albert Camus"
+        },
+        {
+          "streetname": "Rue Albert Delwarte"
+        },
+        {
+          "streetname": "Rue Albert Durant"
+        },
+        {
+          "streetname": "Rue Albert Einstein"
+        },
+        {
+          "streetname": "Rue Albert Jamot"
+        },
+        {
+          "streetname": "Rue Albert Lemal"
+        },
+        {
+          "streetname": "Rue Albert Plennevaux"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment156.jsonld#4896",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Albert Camus"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Albert Delwarte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Albert Durant"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Albert Einstein"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Albert Jamot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Albert Lemal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Albert Plennevaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Camus",
+      "triples": [
+        {
+          "streetname": "Rue Albert Camus"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment156.jsonld#4896",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Albert Camus"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment156.jsonld#4897",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Albert Camus"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Albert Camus"
+      ]
+    },
+    {
+      "token_string": "D",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment156.jsonld#4900",
+              "@type": "tree:Node",
+              "token_string": "elwarte"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment156.jsonld#4901",
+              "@type": "tree:Node",
+              "token_string": "urant"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment156.jsonld#4896",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Albert Delwarte"
+        },
+        {
+          "streetname": "Rue Albert Durant"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment156.jsonld#4899",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Albert Delwarte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Albert Durant"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "elwarte",
+      "triples": [
+        {
+          "streetname": "Rue Albert Delwarte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment156.jsonld#4899",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Albert Delwarte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment156.jsonld#4900",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Albert Delwarte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Albert Delwarte"
+      ]
+    },
+    {
+      "token_string": "urant",
+      "triples": [
+        {
+          "streetname": "Rue Albert Durant"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment156.jsonld#4899",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Albert Durant"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment156.jsonld#4901",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Albert Durant"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Albert Durant"
+      ]
+    },
+    {
+      "token_string": "Einstein",
+      "triples": [
+        {
+          "streetname": "Rue Albert Einstein"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment156.jsonld#4896",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Albert Einstein"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment156.jsonld#4902",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Albert Einstein"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Albert Einstein"
+      ]
+    },
+    {
+      "token_string": "Jamot",
+      "triples": [
+        {
+          "streetname": "Rue Albert Jamot"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment156.jsonld#4896",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Albert Jamot"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment156.jsonld#4903",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Albert Jamot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Albert Jamot"
+      ]
+    },
+    {
+      "token_string": "Lemal",
+      "triples": [
+        {
+          "streetname": "Rue Albert Lemal"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment156.jsonld#4896",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Albert Lemal"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment156.jsonld#4904",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Albert Lemal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Albert Lemal"
+      ]
+    },
+    {
+      "token_string": "Plennevaux",
+      "triples": [
+        {
+          "streetname": "Rue Albert Plennevaux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment156.jsonld#4896",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Albert Plennevaux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment156.jsonld#4905",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Albert Plennevaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Albert Plennevaux"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3812 @@
+{
+  "root_node_id": "154",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment3.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "lbert Caupain",
+      "triples": [
+        {
+          "streetname": "Allée Albert Caupain"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#48",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Albert Caupain"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#42",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Albert Caupain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée Albert Caupain"
+      ]
+    },
+    {
+      "token_string": "ndré ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#45",
+              "@type": "tree:Node",
+              "token_string": "Delvaux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#46",
+              "@type": "tree:Node",
+              "token_string": "Lieds"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#48",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée André Delvaux"
+        },
+        {
+          "streetname": "Allée André Lieds"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment3.jsonld#44",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée André Delvaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée André Lieds"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Delvaux",
+      "triples": [
+        {
+          "streetname": "Allée André Delvaux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#44",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée André Delvaux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#45",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée André Delvaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée André Delvaux"
+      ]
+    },
+    {
+      "token_string": "Lieds",
+      "triples": [
+        {
+          "streetname": "Allée André Lieds"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#44",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée André Lieds"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#46",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée André Lieds"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée André Lieds"
+      ]
+    },
+    {
+      "token_string": "A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#42",
+              "@type": "tree:Node",
+              "token_string": "lbert Caupain"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#44",
+              "@type": "tree:Node",
+              "token_string": "ndré "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#155",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Albert Caupain"
+        },
+        {
+          "streetname": "Allée André Delvaux"
+        },
+        {
+          "streetname": "Allée André Lieds"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment3.jsonld#48",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Albert Caupain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée André Delvaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée André Lieds"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Bonaparte",
+      "triples": [
+        {
+          "streetname": "Allée Bonaparte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#155",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Bonaparte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#49",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Bonaparte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée Bonaparte"
+      ]
+    },
+    {
+      "token_string": "Casteltermini",
+      "triples": [
+        {
+          "streetname": "Allée de Casteltermini"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#76",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de Casteltermini"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#52",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de Casteltermini"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée de Casteltermini"
+      ]
+    },
+    {
+      "token_string": "Fribourg",
+      "triples": [
+        {
+          "streetname": "Allée de Fribourg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#76",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de Fribourg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#53",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de Fribourg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée de Fribourg"
+      ]
+    },
+    {
+      "token_string": "chette",
+      "triples": [
+        {
+          "streetname": "Allée de la Cachette"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#59",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de la Cachette"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#56",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de la Cachette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée de la Cachette"
+      ]
+    },
+    {
+      "token_string": "rdamine",
+      "triples": [
+        {
+          "streetname": "Allée de la Cardamine"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#59",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de la Cardamine"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#57",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de la Cardamine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée de la Cardamine"
+      ]
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#56",
+              "@type": "tree:Node",
+              "token_string": "chette"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#57",
+              "@type": "tree:Node",
+              "token_string": "rdamine"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#62",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de la Cachette"
+        },
+        {
+          "streetname": "Allée de la Cardamine"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment3.jsonld#59",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de la Cachette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Cardamine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ense du Colombier",
+      "triples": [
+        {
+          "streetname": "Allée de la Cense du Colombier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#62",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de la Cense du Colombier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#60",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de la Cense du Colombier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée de la Cense du Colombier"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#59",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#60",
+              "@type": "tree:Node",
+              "token_string": "ense du Colombier"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#72",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de la Cachette"
+        },
+        {
+          "streetname": "Allée de la Cardamine"
+        },
+        {
+          "streetname": "Allée de la Cense du Colombier"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment3.jsonld#62",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de la Cachette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Cardamine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Cense du Colombier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Découverte",
+      "triples": [
+        {
+          "streetname": "Allée de la Découverte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#72",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de la Découverte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#63",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de la Découverte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée de la Découverte"
+      ]
+    },
+    {
+      "token_string": "Ferme Detry",
+      "triples": [
+        {
+          "streetname": "Allée de la Ferme Detry"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#72",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de la Ferme Detry"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#64",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de la Ferme Detry"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée de la Ferme Detry"
+      ]
+    },
+    {
+      "token_string": "G",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#67",
+              "@type": "tree:Node",
+              "token_string": "loriette"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#68",
+              "@type": "tree:Node",
+              "token_string": "rande Prêle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#72",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de la Gloriette"
+        },
+        {
+          "streetname": "Allée de la Grande Prêle"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment3.jsonld#66",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de la Gloriette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Grande Prêle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "loriette",
+      "triples": [
+        {
+          "streetname": "Allée de la Gloriette"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#66",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de la Gloriette"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#67",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de la Gloriette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée de la Gloriette"
+      ]
+    },
+    {
+      "token_string": "rande Prêle",
+      "triples": [
+        {
+          "streetname": "Allée de la Grande Prêle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#66",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de la Grande Prêle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#68",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de la Grande Prêle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée de la Grande Prêle"
+      ]
+    },
+    {
+      "token_string": "Marbrite",
+      "triples": [
+        {
+          "streetname": "Allée de la Marbrite"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#72",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de la Marbrite"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#69",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de la Marbrite"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée de la Marbrite"
+      ]
+    },
+    {
+      "token_string": "Source",
+      "triples": [
+        {
+          "streetname": "Allée de la Source"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#72",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de la Source"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#70",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de la Source"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée de la Source"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#72",
+              "@type": "tree:Node",
+              "token_string": "a "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#73",
+              "@type": "tree:Node",
+              "token_string": "'Innovation"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#76",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de la Cachette"
+        },
+        {
+          "streetname": "Allée de la Cardamine"
+        },
+        {
+          "streetname": "Allée de la Cense du Colombier"
+        },
+        {
+          "streetname": "Allée de la Découverte"
+        },
+        {
+          "streetname": "Allée de la Ferme Detry"
+        },
+        {
+          "streetname": "Allée de la Gloriette"
+        },
+        {
+          "streetname": "Allée de la Grande Prêle"
+        },
+        {
+          "streetname": "Allée de la Marbrite"
+        },
+        {
+          "streetname": "Allée de la Source"
+        },
+        {
+          "streetname": "Allée de l'Innovation"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "fragment3.jsonld#71",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de la Cachette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Cardamine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Cense du Colombier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Découverte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Ferme Detry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Gloriette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Grande Prêle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Marbrite"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Source"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de l'Innovation"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#62",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#63",
+              "@type": "tree:Node",
+              "token_string": "Découverte"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#64",
+              "@type": "tree:Node",
+              "token_string": "Ferme Detry"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#66",
+              "@type": "tree:Node",
+              "token_string": "G"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#69",
+              "@type": "tree:Node",
+              "token_string": "Marbrite"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#70",
+              "@type": "tree:Node",
+              "token_string": "Source"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#71",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de la Cachette"
+        },
+        {
+          "streetname": "Allée de la Cardamine"
+        },
+        {
+          "streetname": "Allée de la Cense du Colombier"
+        },
+        {
+          "streetname": "Allée de la Découverte"
+        },
+        {
+          "streetname": "Allée de la Ferme Detry"
+        },
+        {
+          "streetname": "Allée de la Gloriette"
+        },
+        {
+          "streetname": "Allée de la Grande Prêle"
+        },
+        {
+          "streetname": "Allée de la Marbrite"
+        },
+        {
+          "streetname": "Allée de la Source"
+        }
+      ],
+      "total_children_count": 12,
+      "@id": "fragment3.jsonld#72",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de la Cachette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Cardamine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Cense du Colombier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Découverte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Ferme Detry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Gloriette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Grande Prêle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Marbrite"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Source"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'Innovation",
+      "triples": [
+        {
+          "streetname": "Allée de l'Innovation"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#71",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de l'Innovation"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#73",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de l'Innovation"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée de l'Innovation"
+      ]
+    },
+    {
+      "token_string": "Salmonsart",
+      "triples": [
+        {
+          "streetname": "Allée de Salmonsart"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#76",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de Salmonsart"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#74",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de Salmonsart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée de Salmonsart"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#52",
+              "@type": "tree:Node",
+              "token_string": "Casteltermini"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#53",
+              "@type": "tree:Node",
+              "token_string": "Fribourg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#71",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#74",
+              "@type": "tree:Node",
+              "token_string": "Salmonsart"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#119",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de Casteltermini"
+        },
+        {
+          "streetname": "Allée de Fribourg"
+        },
+        {
+          "streetname": "Allée de la Cachette"
+        },
+        {
+          "streetname": "Allée de la Cardamine"
+        },
+        {
+          "streetname": "Allée de la Cense du Colombier"
+        },
+        {
+          "streetname": "Allée de la Découverte"
+        },
+        {
+          "streetname": "Allée de la Ferme Detry"
+        },
+        {
+          "streetname": "Allée de la Gloriette"
+        },
+        {
+          "streetname": "Allée de l'Innovation"
+        },
+        {
+          "streetname": "Allée de Salmonsart"
+        }
+      ],
+      "total_children_count": 18,
+      "@id": "fragment3.jsonld#76",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de Casteltermini"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de Fribourg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Cachette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Cardamine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Cense du Colombier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Découverte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Ferme Detry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Gloriette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de l'Innovation"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de Salmonsart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "nciens Ateliers",
+      "triples": [
+        {
+          "streetname": "Allée des Anciens Ateliers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#82",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Anciens Ateliers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#79",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Anciens Ateliers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Anciens Ateliers"
+      ]
+    },
+    {
+      "token_string": "rtistes",
+      "triples": [
+        {
+          "streetname": "Allée des Artistes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#82",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Artistes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#80",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Artistes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Artistes"
+      ]
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#82",
+              "@type": "tree:Node",
+              "token_string": "A"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#84",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#92",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#100",
+              "@type": "tree:Node",
+              "token_string": "F"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#106",
+              "@type": "tree:Node",
+              "token_string": "Grenadiers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#108",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#111",
+              "@type": "tree:Node",
+              "token_string": "Jardins"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#112",
+              "@type": "tree:Node",
+              "token_string": "Oiseaux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#114",
+              "@type": "tree:Node",
+              "token_string": "Ramonîs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#115",
+              "@type": "tree:Node",
+              "token_string": "Sports"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#116",
+              "@type": "tree:Node",
+              "token_string": "Tilleuls"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#117",
+              "@type": "tree:Node",
+              "token_string": "Vergers"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#119",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Anciens Ateliers"
+        },
+        {
+          "streetname": "Allée des Artistes"
+        },
+        {
+          "streetname": "Allée des Bâtisseurs"
+        },
+        {
+          "streetname": "Allée des Bleuets"
+        },
+        {
+          "streetname": "Allée des Boutons d'or"
+        },
+        {
+          "streetname": "Allée des Cailloux"
+        },
+        {
+          "streetname": "Allée des Calamites"
+        },
+        {
+          "streetname": "Allée des Chanterelles"
+        },
+        {
+          "streetname": "Allée des Coquelicots"
+        },
+        {
+          "streetname": "Allée des Couteliers"
+        }
+      ],
+      "total_children_count": 30,
+      "@id": "fragment3.jsonld#81",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Anciens Ateliers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Artistes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Bâtisseurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Bleuets"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Boutons d'or"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Cailloux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Calamites"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Chanterelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Coquelicots"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Couteliers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#79",
+              "@type": "tree:Node",
+              "token_string": "nciens Ateliers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#80",
+              "@type": "tree:Node",
+              "token_string": "rtistes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#81",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Anciens Ateliers"
+        },
+        {
+          "streetname": "Allée des Artistes"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment3.jsonld#82",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Anciens Ateliers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Artistes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#85",
+              "@type": "tree:Node",
+              "token_string": "âtisseurs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#86",
+              "@type": "tree:Node",
+              "token_string": "leuets"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#87",
+              "@type": "tree:Node",
+              "token_string": "outons d'or"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#81",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Bâtisseurs"
+        },
+        {
+          "streetname": "Allée des Bleuets"
+        },
+        {
+          "streetname": "Allée des Boutons d'or"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment3.jsonld#84",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Bâtisseurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Bleuets"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Boutons d'or"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "âtisseurs",
+      "triples": [
+        {
+          "streetname": "Allée des Bâtisseurs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#84",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Bâtisseurs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#85",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Bâtisseurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Bâtisseurs"
+      ]
+    },
+    {
+      "token_string": "leuets",
+      "triples": [
+        {
+          "streetname": "Allée des Bleuets"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#84",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Bleuets"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#86",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Bleuets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Bleuets"
+      ]
+    },
+    {
+      "token_string": "outons d'or",
+      "triples": [
+        {
+          "streetname": "Allée des Boutons d'or"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#84",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Boutons d'or"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#87",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Boutons d'or"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Boutons d'or"
+      ]
+    },
+    {
+      "token_string": "illoux",
+      "triples": [
+        {
+          "streetname": "Allée des Cailloux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#93",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Cailloux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#90",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Cailloux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Cailloux"
+      ]
+    },
+    {
+      "token_string": "lamites",
+      "triples": [
+        {
+          "streetname": "Allée des Calamites"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#93",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Calamites"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#91",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Calamites"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Calamites"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#93",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#94",
+              "@type": "tree:Node",
+              "token_string": "hanterelles"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#96",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#81",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Cailloux"
+        },
+        {
+          "streetname": "Allée des Calamites"
+        },
+        {
+          "streetname": "Allée des Chanterelles"
+        },
+        {
+          "streetname": "Allée des Coquelicots"
+        },
+        {
+          "streetname": "Allée des Couteliers"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment3.jsonld#92",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Cailloux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Calamites"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Chanterelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Coquelicots"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Couteliers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#90",
+              "@type": "tree:Node",
+              "token_string": "illoux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#91",
+              "@type": "tree:Node",
+              "token_string": "lamites"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#92",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Cailloux"
+        },
+        {
+          "streetname": "Allée des Calamites"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment3.jsonld#93",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Cailloux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Calamites"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "hanterelles",
+      "triples": [
+        {
+          "streetname": "Allée des Chanterelles"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#92",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Chanterelles"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#94",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Chanterelles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Chanterelles"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#97",
+              "@type": "tree:Node",
+              "token_string": "quelicots"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#98",
+              "@type": "tree:Node",
+              "token_string": "uteliers"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#92",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Coquelicots"
+        },
+        {
+          "streetname": "Allée des Couteliers"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment3.jsonld#96",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Coquelicots"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Couteliers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "quelicots",
+      "triples": [
+        {
+          "streetname": "Allée des Coquelicots"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#96",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Coquelicots"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#97",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Coquelicots"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Coquelicots"
+      ]
+    },
+    {
+      "token_string": "uteliers",
+      "triples": [
+        {
+          "streetname": "Allée des Couteliers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#96",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Couteliers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#98",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Couteliers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Couteliers"
+      ]
+    },
+    {
+      "token_string": "F",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#101",
+              "@type": "tree:Node",
+              "token_string": "ougères"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#103",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#81",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Fougères"
+        },
+        {
+          "streetname": "Allée des Frênes"
+        },
+        {
+          "streetname": "Allée des Friquets"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment3.jsonld#100",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Fougères"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Frênes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Friquets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ougères",
+      "triples": [
+        {
+          "streetname": "Allée des Fougères"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#100",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Fougères"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#101",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Fougères"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Fougères"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#104",
+              "@type": "tree:Node",
+              "token_string": "ênes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#105",
+              "@type": "tree:Node",
+              "token_string": "iquets"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#100",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Frênes"
+        },
+        {
+          "streetname": "Allée des Friquets"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment3.jsonld#103",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Frênes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Friquets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ênes",
+      "triples": [
+        {
+          "streetname": "Allée des Frênes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#103",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Frênes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#104",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Frênes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Frênes"
+      ]
+    },
+    {
+      "token_string": "iquets",
+      "triples": [
+        {
+          "streetname": "Allée des Friquets"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#103",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Friquets"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#105",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Friquets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Friquets"
+      ]
+    },
+    {
+      "token_string": "Grenadiers",
+      "triples": [
+        {
+          "streetname": "Allée des Grenadiers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#81",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Grenadiers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#106",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Grenadiers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Grenadiers"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#109",
+              "@type": "tree:Node",
+              "token_string": "êtres"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#110",
+              "@type": "tree:Node",
+              "token_string": "irondelles"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#81",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Hêtres"
+        },
+        {
+          "streetname": "Allée des Hirondelles"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment3.jsonld#108",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Hêtres"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée des Hirondelles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "êtres",
+      "triples": [
+        {
+          "streetname": "Allée des Hêtres"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#108",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Hêtres"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#109",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Hêtres"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Hêtres"
+      ]
+    },
+    {
+      "token_string": "irondelles",
+      "triples": [
+        {
+          "streetname": "Allée des Hirondelles"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#108",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Hirondelles"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#110",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Hirondelles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Hirondelles"
+      ]
+    },
+    {
+      "token_string": "Jardins",
+      "triples": [
+        {
+          "streetname": "Allée des Jardins"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#81",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Jardins"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#111",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Jardins"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Jardins"
+      ]
+    },
+    {
+      "token_string": "Oiseaux",
+      "triples": [
+        {
+          "streetname": "Allée des Oiseaux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#81",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Oiseaux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#112",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Oiseaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Oiseaux"
+      ]
+    },
+    {
+      "token_string": "Des Ormes",
+      "triples": [
+        {
+          "streetname": "Allée Des Ormes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#155",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Des Ormes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#113",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Des Ormes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée Des Ormes"
+      ]
+    },
+    {
+      "token_string": "Ramonîs",
+      "triples": [
+        {
+          "streetname": "Allée des Ramonîs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#81",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Ramonîs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#114",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Ramonîs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Ramonîs"
+      ]
+    },
+    {
+      "token_string": "Sports",
+      "triples": [
+        {
+          "streetname": "Allée des Sports"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#81",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Sports"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#115",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Sports"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Sports"
+      ]
+    },
+    {
+      "token_string": "Tilleuls",
+      "triples": [
+        {
+          "streetname": "Allée des Tilleuls"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#81",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Tilleuls"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#116",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Tilleuls"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Tilleuls"
+      ]
+    },
+    {
+      "token_string": "Vergers",
+      "triples": [
+        {
+          "streetname": "Allée des Vergers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#81",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée des Vergers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#117",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée des Vergers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée des Vergers"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#119",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment2.jsonld#121",
+              "@type": "tree:Node",
+              "token_string": "u "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#155",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de Casteltermini"
+        },
+        {
+          "streetname": "Allée de Fribourg"
+        },
+        {
+          "streetname": "Allée de la Cachette"
+        },
+        {
+          "streetname": "Allée de la Cardamine"
+        },
+        {
+          "streetname": "Allée de la Cense du Colombier"
+        },
+        {
+          "streetname": "Allée de la Découverte"
+        },
+        {
+          "streetname": "Allée de la Ferme Detry"
+        },
+        {
+          "streetname": "Allée de la Gloriette"
+        },
+        {
+          "streetname": "Allée de l'Innovation"
+        },
+        {
+          "streetname": "Allée de Salmonsart"
+        }
+      ],
+      "total_children_count": 67,
+      "@id": "fragment3.jsonld#118",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de Casteltermini"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de Fribourg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Cachette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Cardamine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Cense du Colombier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Découverte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Ferme Detry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Gloriette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de l'Innovation"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de Salmonsart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#76",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#81",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#118",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée de Casteltermini"
+        },
+        {
+          "streetname": "Allée de Fribourg"
+        },
+        {
+          "streetname": "Allée de la Cachette"
+        },
+        {
+          "streetname": "Allée de la Cardamine"
+        },
+        {
+          "streetname": "Allée de la Cense du Colombier"
+        },
+        {
+          "streetname": "Allée de la Découverte"
+        },
+        {
+          "streetname": "Allée de la Ferme Detry"
+        },
+        {
+          "streetname": "Allée de la Gloriette"
+        },
+        {
+          "streetname": "Allée de l'Innovation"
+        },
+        {
+          "streetname": "Allée de Salmonsart"
+        }
+      ],
+      "total_children_count": 50,
+      "@id": "fragment3.jsonld#119",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée de Casteltermini"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de Fribourg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Cachette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Cardamine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Cense du Colombier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Découverte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Ferme Detry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de la Gloriette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de l'Innovation"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée de Salmonsart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Henri Pousseur",
+      "triples": [
+        {
+          "streetname": "Allée Henri Pousseur"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#155",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Henri Pousseur"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#141",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Henri Pousseur"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée Henri Pousseur"
+      ]
+    },
+    {
+      "token_string": "J",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#144",
+              "@type": "tree:Node",
+              "token_string": "ack Gondry"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#145",
+              "@type": "tree:Node",
+              "token_string": "ean Hainaut"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#146",
+              "@type": "tree:Node",
+              "token_string": "oseph Noiret"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#155",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Jack Gondry"
+        },
+        {
+          "streetname": "Allée Jean Hainaut"
+        },
+        {
+          "streetname": "Allée Joseph Noiret"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment3.jsonld#143",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Jack Gondry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée Jean Hainaut"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée Joseph Noiret"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ack Gondry",
+      "triples": [
+        {
+          "streetname": "Allée Jack Gondry"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#143",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Jack Gondry"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#144",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Jack Gondry"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée Jack Gondry"
+      ]
+    },
+    {
+      "token_string": "ean Hainaut",
+      "triples": [
+        {
+          "streetname": "Allée Jean Hainaut"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#143",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Jean Hainaut"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#145",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Jean Hainaut"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée Jean Hainaut"
+      ]
+    },
+    {
+      "token_string": "oseph Noiret",
+      "triples": [
+        {
+          "streetname": "Allée Joseph Noiret"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#143",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Joseph Noiret"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#146",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Joseph Noiret"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée Joseph Noiret"
+      ]
+    },
+    {
+      "token_string": "Lucien Glibert",
+      "triples": [
+        {
+          "streetname": "Allée Lucien Glibert"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#155",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Lucien Glibert"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#147",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Lucien Glibert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée Lucien Glibert"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#150",
+              "@type": "tree:Node",
+              "token_string": "arcel Ladrière"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#151",
+              "@type": "tree:Node",
+              "token_string": "oulin des Prés"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#155",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Marcel Ladrière"
+        },
+        {
+          "streetname": "Allée Moulin des Prés"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment3.jsonld#149",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Marcel Ladrière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée Moulin des Prés"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "arcel Ladrière",
+      "triples": [
+        {
+          "streetname": "Allée Marcel Ladrière"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#149",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Marcel Ladrière"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#150",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Marcel Ladrière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée Marcel Ladrière"
+      ]
+    },
+    {
+      "token_string": "oulin des Prés",
+      "triples": [
+        {
+          "streetname": "Allée Moulin des Prés"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#149",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Moulin des Prés"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#151",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Moulin des Prés"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée Moulin des Prés"
+      ]
+    },
+    {
+      "token_string": "Rohan Chabot",
+      "triples": [
+        {
+          "streetname": "Allée Rohan Chabot"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#155",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Rohan Chabot"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#152",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Rohan Chabot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée Rohan Chabot"
+      ]
+    },
+    {
+      "token_string": "Willy Chaufoureau",
+      "triples": [
+        {
+          "streetname": "Allée Willy Chaufoureau"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#155",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Willy Chaufoureau"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#153",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Willy Chaufoureau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée Willy Chaufoureau"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#155",
+              "@type": "tree:Node",
+              "token_string": "ée "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#156",
+              "@type": "tree:Node",
+              "token_string": "erbach"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#157",
+              "@type": "tree:Node",
+              "token_string": "muthen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment1.jsonld#29",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Albert Caupain"
+        },
+        {
+          "streetname": "Allée André Delvaux"
+        },
+        {
+          "streetname": "Allée André Lieds"
+        },
+        {
+          "streetname": "Allée Bonaparte"
+        },
+        {
+          "streetname": "Allée Des Ormes"
+        },
+        {
+          "streetname": "Allée Henri Pousseur"
+        },
+        {
+          "streetname": "Allée Jack Gondry"
+        },
+        {
+          "streetname": "Allée Jean Hainaut"
+        },
+        {
+          "streetname": "Allerbach"
+        },
+        {
+          "streetname": "Allmuthen"
+        }
+      ],
+      "total_children_count": 89,
+      "@id": "fragment3.jsonld#154",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Albert Caupain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée André Delvaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée André Lieds"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée Bonaparte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée Des Ormes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée Henri Pousseur"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée Jack Gondry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée Jean Hainaut"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allerbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allmuthen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ée ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#48",
+              "@type": "tree:Node",
+              "token_string": "A"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#49",
+              "@type": "tree:Node",
+              "token_string": "Bonaparte"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#113",
+              "@type": "tree:Node",
+              "token_string": "Des Ormes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#118",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#141",
+              "@type": "tree:Node",
+              "token_string": "Henri Pousseur"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#143",
+              "@type": "tree:Node",
+              "token_string": "J"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#147",
+              "@type": "tree:Node",
+              "token_string": "Lucien Glibert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#149",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#152",
+              "@type": "tree:Node",
+              "token_string": "Rohan Chabot"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment3.jsonld#153",
+              "@type": "tree:Node",
+              "token_string": "Willy Chaufoureau"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#154",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allée Albert Caupain"
+        },
+        {
+          "streetname": "Allée André Delvaux"
+        },
+        {
+          "streetname": "Allée André Lieds"
+        },
+        {
+          "streetname": "Allée Bonaparte"
+        },
+        {
+          "streetname": "Allée Des Ormes"
+        },
+        {
+          "streetname": "Allée Henri Pousseur"
+        },
+        {
+          "streetname": "Allée Jack Gondry"
+        },
+        {
+          "streetname": "Allée Jean Hainaut"
+        },
+        {
+          "streetname": "Allée Joseph Noiret"
+        },
+        {
+          "streetname": "Allée Lucien Glibert"
+        }
+      ],
+      "total_children_count": 86,
+      "@id": "fragment3.jsonld#155",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée Albert Caupain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée André Delvaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée André Lieds"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée Bonaparte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée Des Ormes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée Henri Pousseur"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée Jack Gondry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée Jean Hainaut"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée Joseph Noiret"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée Lucien Glibert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erbach",
+      "triples": [
+        {
+          "streetname": "Allerbach"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#154",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allerbach"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#156",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allerbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allerbach"
+      ]
+    },
+    {
+      "token_string": "muthen",
+      "triples": [
+        {
+          "streetname": "Allmuthen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment3.jsonld#154",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Allmuthen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment3.jsonld#157",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allmuthen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allmuthen"
+      ]
+    }
+  ]
+}

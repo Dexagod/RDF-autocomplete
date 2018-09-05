@@ -1,0 +1,744 @@
+{
+  "root_node_id": "1411",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment51.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "lles Forts",
+      "triples": [
+        {
+          "streetname": "Chemin des Belles Forts"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment51.jsonld#1412",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Belles Forts"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment51.jsonld#1409",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Belles Forts"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Belles Forts"
+      ]
+    },
+    {
+      "token_string": "rlines",
+      "triples": [
+        {
+          "streetname": "Chemin des Berlines"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment51.jsonld#1412",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Berlines"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment51.jsonld#1410",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Berlines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Berlines"
+      ]
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment51.jsonld#1412",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment51.jsonld#1413",
+              "@type": "tree:Node",
+              "token_string": "iquettes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment51.jsonld#1415",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment51.jsonld#1420",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment51.jsonld#1426",
+              "@type": "tree:Node",
+              "token_string": "resses"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment48.jsonld#1398",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Belles Forts"
+        },
+        {
+          "streetname": "Chemin des Berlines"
+        },
+        {
+          "streetname": "Chemin des Biquettes"
+        },
+        {
+          "streetname": "Chemin des Blancs Batis"
+        },
+        {
+          "streetname": "Chemin des Blés"
+        },
+        {
+          "streetname": "Chemin des Bleuets"
+        },
+        {
+          "streetname": "Chemin des Boeufs"
+        },
+        {
+          "streetname": "Chemin des Bourdaines"
+        },
+        {
+          "streetname": "Chemin des Boutons d'Or"
+        },
+        {
+          "streetname": "Chemin des Bresses"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "fragment51.jsonld#1411",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Belles Forts"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Berlines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Biquettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Blancs Batis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Blés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Bleuets"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Boeufs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Bourdaines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Boutons d'Or"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Bresses"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment51.jsonld#1409",
+              "@type": "tree:Node",
+              "token_string": "lles Forts"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment51.jsonld#1410",
+              "@type": "tree:Node",
+              "token_string": "rlines"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment51.jsonld#1411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Belles Forts"
+        },
+        {
+          "streetname": "Chemin des Berlines"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment51.jsonld#1412",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Belles Forts"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Berlines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "iquettes",
+      "triples": [
+        {
+          "streetname": "Chemin des Biquettes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment51.jsonld#1411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Biquettes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment51.jsonld#1413",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Biquettes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Biquettes"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment51.jsonld#1416",
+              "@type": "tree:Node",
+              "token_string": "ancs Batis"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment51.jsonld#1417",
+              "@type": "tree:Node",
+              "token_string": "és"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment51.jsonld#1418",
+              "@type": "tree:Node",
+              "token_string": "euets"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment51.jsonld#1411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Blancs Batis"
+        },
+        {
+          "streetname": "Chemin des Blés"
+        },
+        {
+          "streetname": "Chemin des Bleuets"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment51.jsonld#1415",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Blancs Batis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Blés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Bleuets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ancs Batis",
+      "triples": [
+        {
+          "streetname": "Chemin des Blancs Batis"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment51.jsonld#1415",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Blancs Batis"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment51.jsonld#1416",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Blancs Batis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Blancs Batis"
+      ]
+    },
+    {
+      "token_string": "és",
+      "triples": [
+        {
+          "streetname": "Chemin des Blés"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment51.jsonld#1415",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Blés"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment51.jsonld#1417",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Blés"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Blés"
+      ]
+    },
+    {
+      "token_string": "euets",
+      "triples": [
+        {
+          "streetname": "Chemin des Bleuets"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment51.jsonld#1415",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Bleuets"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment51.jsonld#1418",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Bleuets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Bleuets"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment51.jsonld#1421",
+              "@type": "tree:Node",
+              "token_string": "eufs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment51.jsonld#1423",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment51.jsonld#1411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Boeufs"
+        },
+        {
+          "streetname": "Chemin des Bourdaines"
+        },
+        {
+          "streetname": "Chemin des Boutons d'Or"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment51.jsonld#1420",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Boeufs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Bourdaines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Boutons d'Or"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eufs",
+      "triples": [
+        {
+          "streetname": "Chemin des Boeufs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment51.jsonld#1420",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Boeufs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment51.jsonld#1421",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Boeufs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Boeufs"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment51.jsonld#1424",
+              "@type": "tree:Node",
+              "token_string": "rdaines"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment51.jsonld#1425",
+              "@type": "tree:Node",
+              "token_string": "tons d'Or"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment51.jsonld#1420",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Bourdaines"
+        },
+        {
+          "streetname": "Chemin des Boutons d'Or"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment51.jsonld#1423",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Bourdaines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Boutons d'Or"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rdaines",
+      "triples": [
+        {
+          "streetname": "Chemin des Bourdaines"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment51.jsonld#1423",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Bourdaines"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment51.jsonld#1424",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Bourdaines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Bourdaines"
+      ]
+    },
+    {
+      "token_string": "tons d'Or",
+      "triples": [
+        {
+          "streetname": "Chemin des Boutons d'Or"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment51.jsonld#1423",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Boutons d'Or"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment51.jsonld#1425",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Boutons d'Or"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Boutons d'Or"
+      ]
+    },
+    {
+      "token_string": "resses",
+      "triples": [
+        {
+          "streetname": "Chemin des Bresses"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment51.jsonld#1411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Bresses"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment51.jsonld#1426",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Bresses"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Bresses"
+      ]
+    }
+  ]
+}

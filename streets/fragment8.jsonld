@@ -1,0 +1,2668 @@
+{
+  "root_node_id": "508",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment8.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Berg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf dem Berg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0147199349193006",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33109575664867"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Berg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0147199349193006",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33109575664867"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#458",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Berg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Berg"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#461",
+              "@type": "tree:Node",
+              "token_string": "au"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#462",
+              "@type": "tree:Node",
+              "token_string": "öchst"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#464",
+              "@type": "tree:Node",
+              "token_string": "ü"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Hau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.85293431513995",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.65172137917458"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Höchst",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9979016409945567",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08722963883822"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Hügel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7923834220111337",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.46951560789477"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Hütel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6512187172308326",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.069899400250776"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment8.jsonld#460",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Hau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Höchst"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hügel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hütel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "au",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf dem Hau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.85293431513995",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.65172137917458"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#460",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Hau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.85293431513995",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.65172137917458"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#461",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Hau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Hau"
+      ]
+    },
+    {
+      "token_string": "öchst",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf dem Höchst",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9979016409945567",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08722963883822"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#460",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Höchst",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9979016409945567",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08722963883822"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#462",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Höchst"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Höchst"
+      ]
+    },
+    {
+      "token_string": "ü",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#465",
+              "@type": "tree:Node",
+              "token_string": "gel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#466",
+              "@type": "tree:Node",
+              "token_string": "tel"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#460",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Hügel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7923834220111337",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.46951560789477"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Hütel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6512187172308326",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.069899400250776"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment8.jsonld#464",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Hügel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hütel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "gel",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf dem Hügel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7923834220111337",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.46951560789477"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#464",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Hügel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7923834220111337",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.46951560789477"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#465",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Hügel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Hügel"
+      ]
+    },
+    {
+      "token_string": "tel",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf dem Hütel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6512187172308326",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.069899400250776"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#464",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Hütel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6512187172308326",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.069899400250776"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#466",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Hütel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Hütel"
+      ]
+    },
+    {
+      "token_string": "Joch",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf dem Joch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8648174077946256",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24325829624339"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Joch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8648174077946256",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24325829624339"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#467",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Joch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Joch"
+      ]
+    },
+    {
+      "token_string": "K",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#470",
+              "@type": "tree:Node",
+              "token_string": "amp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#471",
+              "@type": "tree:Node",
+              "token_string": "öttenberg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Kamp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9549439204500065",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.14732610114246"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Köttenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0129851464659323",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.923945306049745"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment8.jsonld#469",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Kamp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Köttenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "amp",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf dem Kamp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9549439204500065",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.14732610114246"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#469",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Kamp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9549439204500065",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.14732610114246"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#470",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Kamp"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Kamp"
+      ]
+    },
+    {
+      "token_string": "öttenberg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf dem Köttenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0129851464659323",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.923945306049745"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#469",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Köttenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0129851464659323",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.923945306049745"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#471",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Köttenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Köttenberg"
+      ]
+    },
+    {
+      "token_string": "Land",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf dem Land",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7871577157296277",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.50753808699502"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Land",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7871577157296277",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.50753808699502"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#472",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Land"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Land"
+      ]
+    },
+    {
+      "token_string": "Mühlenberg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf dem Mühlenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5071490923461033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.47530690297436"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Mühlenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5071490923461033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.47530690297436"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#473",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Mühlenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Mühlenberg"
+      ]
+    },
+    {
+      "token_string": "Plon",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf dem Plon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7663074334203546",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.31796433300052"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Plon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7663074334203546",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.31796433300052"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#474",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Plon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Plon"
+      ]
+    },
+    {
+      "token_string": "Queckenberg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf dem Queckenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.419263025361923",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.68387385168331"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Queckenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.419263025361923",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.68387385168331"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#475",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Queckenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Queckenberg"
+      ]
+    },
+    {
+      "token_string": "S",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#478",
+              "@type": "tree:Node",
+              "token_string": "chwirtzberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#480",
+              "@type": "tree:Node",
+              "token_string": "p"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Schwirtzberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.41989545133017",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.60137910952893"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Spitzberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1586537958441303",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.46705944896901"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Sprung",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7007724149712344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.535049798832986"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment8.jsonld#477",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Schwirtzberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Spitzberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Sprung"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "chwirtzberg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf dem Schwirtzberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.41989545133017",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.60137910952893"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#477",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Schwirtzberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.41989545133017",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.60137910952893"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#478",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Schwirtzberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Schwirtzberg"
+      ]
+    },
+    {
+      "token_string": "p",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#481",
+              "@type": "tree:Node",
+              "token_string": "itzberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#482",
+              "@type": "tree:Node",
+              "token_string": "rung"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#477",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Spitzberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1586537958441303",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.46705944896901"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Sprung",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7007724149712344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.535049798832986"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment8.jsonld#480",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Spitzberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Sprung"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "itzberg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf dem Spitzberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1586537958441303",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.46705944896901"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#480",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Spitzberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1586537958441303",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.46705944896901"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#481",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Spitzberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Spitzberg"
+      ]
+    },
+    {
+      "token_string": "rung",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf dem Sprung",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7007724149712344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.535049798832986"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#480",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Sprung",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7007724149712344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.535049798832986"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#482",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Sprung"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Sprung"
+      ]
+    },
+    {
+      "token_string": "m ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#458",
+              "@type": "tree:Node",
+              "token_string": "Berg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#460",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#467",
+              "@type": "tree:Node",
+              "token_string": "Joch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#469",
+              "@type": "tree:Node",
+              "token_string": "K"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#472",
+              "@type": "tree:Node",
+              "token_string": "Land"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#473",
+              "@type": "tree:Node",
+              "token_string": "Mühlenberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#474",
+              "@type": "tree:Node",
+              "token_string": "Plon"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#475",
+              "@type": "tree:Node",
+              "token_string": "Queckenberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#477",
+              "@type": "tree:Node",
+              "token_string": "S"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#503",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Berg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0147199349193006",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33109575664867"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Hau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.85293431513995",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.65172137917458"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Höchst",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9979016409945567",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08722963883822"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Hügel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7923834220111337",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.46951560789477"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Hütel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6512187172308326",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.069899400250776"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Joch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8648174077946256",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24325829624339"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Kamp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9549439204500065",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.14732610114246"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Köttenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0129851464659323",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.923945306049745"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Land",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7871577157296277",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.50753808699502"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Mühlenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5071490923461033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.47530690297436"
+        }
+      ],
+      "total_children_count": 20,
+      "@id": "streetsfragment8.jsonld#484",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Berg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Höchst"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hügel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hütel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Joch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Kamp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Köttenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Land"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Mühlenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "n Burgfeldern",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf den Burgfeldern",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.236432488229121",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70775761418146"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#503",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf den Burgfeldern",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.236432488229121",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70775761418146"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#485",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf den Burgfeldern"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf den Burgfeldern"
+      ]
+    },
+    {
+      "token_string": "r ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#488",
+              "@type": "tree:Node",
+              "token_string": "Gasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#490",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#495",
+              "@type": "tree:Node",
+              "token_string": "Kull"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#497",
+              "@type": "tree:Node",
+              "token_string": "L"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#500",
+              "@type": "tree:Node",
+              "token_string": "Roll"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#501",
+              "@type": "tree:Node",
+              "token_string": "Tomm"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#503",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf der Gasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5253702790414314",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33015504798306"
+        },
+        {
+          "http://example.com/terms#name": "Auf der Hall",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.152268423845396",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.440662670675444"
+        },
+        {
+          "http://example.com/terms#name": "Auf der Heide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.578699133488395",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.54482074297385"
+        },
+        {
+          "http://example.com/terms#name": "Auf der Höh",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2808134899718193",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.4681732845478"
+        },
+        {
+          "http://example.com/terms#name": "Auf der Höhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.511921468914041",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.59125771171987"
+        },
+        {
+          "http://example.com/terms#name": "Auf der Kull",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7967478392943597",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.87192980274286"
+        },
+        {
+          "http://example.com/terms#name": "Auf der Leu",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4686738630270346",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.90579463836916"
+        },
+        {
+          "http://example.com/terms#name": "Auf der Luft",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.957897484718152",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.47521872112854"
+        },
+        {
+          "http://example.com/terms#name": "Auf der Roll",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.570881082945821",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33756538157561"
+        },
+        {
+          "http://example.com/terms#name": "Auf der Tomm",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.383062075041245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.27514474762197"
+        }
+      ],
+      "total_children_count": 12,
+      "@id": "streetsfragment8.jsonld#487",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Gasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Hall"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Heide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Höh"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Höhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Kull"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Leu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Luft"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Roll"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Tomm"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Gasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf der Gasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5253702790414314",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33015504798306"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#487",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf der Gasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5253702790414314",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33015504798306"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#488",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Gasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Gasse"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#491",
+              "@type": "tree:Node",
+              "token_string": "all"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#492",
+              "@type": "tree:Node",
+              "token_string": "eide"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#493",
+              "@type": "tree:Node",
+              "token_string": "öh"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#487",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf der Hall",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.152268423845396",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.440662670675444"
+        },
+        {
+          "http://example.com/terms#name": "Auf der Heide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.578699133488395",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.54482074297385"
+        },
+        {
+          "http://example.com/terms#name": "Auf der Höh",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2808134899718193",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.4681732845478"
+        },
+        {
+          "http://example.com/terms#name": "Auf der Höhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.511921468914041",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.59125771171987"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment8.jsonld#490",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Hall"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Heide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Höh"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Höhe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "all",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf der Hall",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.152268423845396",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.440662670675444"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#490",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf der Hall",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.152268423845396",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.440662670675444"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#491",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Hall"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Hall"
+      ]
+    },
+    {
+      "token_string": "eide",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf der Heide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.578699133488395",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.54482074297385"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#490",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf der Heide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.578699133488395",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.54482074297385"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#492",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Heide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Heide"
+      ]
+    },
+    {
+      "token_string": "öh",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf der Höh",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2808134899718193",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.4681732845478"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#494",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#490",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf der Höh",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2808134899718193",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.4681732845478"
+        },
+        {
+          "http://example.com/terms#name": "Auf der Höhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.511921468914041",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.59125771171987"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "streetsfragment8.jsonld#493",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Höh"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Höhe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Höh"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf der Höhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.511921468914041",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.59125771171987"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#493",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf der Höhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.511921468914041",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.59125771171987"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#494",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Höhe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Höhe"
+      ]
+    },
+    {
+      "token_string": "Kull",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf der Kull",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7967478392943597",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.87192980274286"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#487",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf der Kull",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7967478392943597",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.87192980274286"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#495",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Kull"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Kull"
+      ]
+    },
+    {
+      "token_string": "L",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#498",
+              "@type": "tree:Node",
+              "token_string": "eu"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#499",
+              "@type": "tree:Node",
+              "token_string": "uft"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#487",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf der Leu",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4686738630270346",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.90579463836916"
+        },
+        {
+          "http://example.com/terms#name": "Auf der Luft",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.957897484718152",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.47521872112854"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment8.jsonld#497",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Leu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Luft"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eu",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf der Leu",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4686738630270346",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.90579463836916"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#497",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf der Leu",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4686738630270346",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.90579463836916"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#498",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Leu"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Leu"
+      ]
+    },
+    {
+      "token_string": "uft",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf der Luft",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.957897484718152",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.47521872112854"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#497",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf der Luft",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.957897484718152",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.47521872112854"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#499",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Luft"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Luft"
+      ]
+    },
+    {
+      "token_string": "Roll",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf der Roll",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.570881082945821",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33756538157561"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#487",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf der Roll",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.570881082945821",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33756538157561"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#500",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Roll"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Roll"
+      ]
+    },
+    {
+      "token_string": "Tomm",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf der Tomm",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.383062075041245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.27514474762197"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#487",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf der Tomm",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.383062075041245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.27514474762197"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#501",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Tomm"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Tomm"
+      ]
+    },
+    {
+      "token_string": "de",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#484",
+              "@type": "tree:Node",
+              "token_string": "m "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#485",
+              "@type": "tree:Node",
+              "token_string": "n Burgfeldern"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#487",
+              "@type": "tree:Node",
+              "token_string": "r "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#509",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Berg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0147199349193006",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33109575664867"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Hau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.85293431513995",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.65172137917458"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Höchst",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9979016409945567",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08722963883822"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Hügel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7923834220111337",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.46951560789477"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Hütel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6512187172308326",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.069899400250776"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Joch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8648174077946256",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24325829624339"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Kamp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9549439204500065",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.14732610114246"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Köttenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0129851464659323",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.923945306049745"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Land",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7871577157296277",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.50753808699502"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Mühlenberg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5071490923461033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.47530690297436"
+        }
+      ],
+      "total_children_count": 35,
+      "@id": "streetsfragment8.jsonld#503",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Berg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Höchst"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hügel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hütel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Joch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Kamp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Köttenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Land"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Mühlenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Eichenhardt",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf Eichenhardt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.601550666731528",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.961948579183975"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#509",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf Eichenhardt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.601550666731528",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.961948579183975"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#504",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf Eichenhardt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf Eichenhardt"
+      ]
+    },
+    {
+      "token_string": "Geckert",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf Geckert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.325437891145994",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78505717561741"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#509",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf Geckert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.325437891145994",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78505717561741"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#505",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf Geckert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf Geckert"
+      ]
+    },
+    {
+      "token_string": "Hoch",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf Hoch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.656350458977728",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.24441473793667"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#509",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf Hoch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.656350458977728",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.24441473793667"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#506",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf Hoch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf Hoch"
+      ]
+    },
+    {
+      "token_string": "Kahlert",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf Kahlert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9009554204322514",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.360333109248884"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#509",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf Kahlert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9009554204322514",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.360333109248884"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#507",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf Kahlert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf Kahlert"
+      ]
+    },
+    {
+      "token_string": "f",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#509",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#511",
+              "@type": "tree:Node",
+              "token_string": "'m "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment1.jsonld#449",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Berg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0147199349193006",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33109575664867"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Hau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.85293431513995",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.65172137917458"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Höchst",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9979016409945567",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08722963883822"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Hügel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7923834220111337",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.46951560789477"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Hütel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6512187172308326",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.069899400250776"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Joch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8648174077946256",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24325829624339"
+        },
+        {
+          "http://example.com/terms#name": "Auf Eichenhardt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.601550666731528",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.961948579183975"
+        },
+        {
+          "http://example.com/terms#name": "Auf Geckert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.325437891145994",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78505717561741"
+        },
+        {
+          "http://example.com/terms#name": "Auf Hoch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.656350458977728",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.24441473793667"
+        },
+        {
+          "http://example.com/terms#name": "Auf Kahlert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9009554204322514",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.360333109248884"
+        }
+      ],
+      "total_children_count": 45,
+      "@id": "streetsfragment8.jsonld#508",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Berg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Höchst"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hügel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hütel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Joch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf Eichenhardt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf Geckert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf Hoch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf Kahlert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#503",
+              "@type": "tree:Node",
+              "token_string": "de"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#504",
+              "@type": "tree:Node",
+              "token_string": "Eichenhardt"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#505",
+              "@type": "tree:Node",
+              "token_string": "Geckert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#506",
+              "@type": "tree:Node",
+              "token_string": "Hoch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#507",
+              "@type": "tree:Node",
+              "token_string": "Kahlert"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#508",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf dem Berg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0147199349193006",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.33109575664867"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Hau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.85293431513995",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.65172137917458"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Höchst",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9979016409945567",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08722963883822"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Hügel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7923834220111337",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.46951560789477"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Hütel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6512187172308326",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.069899400250776"
+        },
+        {
+          "http://example.com/terms#name": "Auf dem Joch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8648174077946256",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.24325829624339"
+        },
+        {
+          "http://example.com/terms#name": "Auf Eichenhardt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.601550666731528",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.961948579183975"
+        },
+        {
+          "http://example.com/terms#name": "Auf Geckert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.325437891145994",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78505717561741"
+        },
+        {
+          "http://example.com/terms#name": "Auf Hoch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.656350458977728",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.24441473793667"
+        },
+        {
+          "http://example.com/terms#name": "Auf Kahlert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9009554204322514",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.360333109248884"
+        }
+      ],
+      "total_children_count": 40,
+      "@id": "streetsfragment8.jsonld#509",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Berg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Höchst"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hügel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hütel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Joch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf Eichenhardt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf Geckert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf Hoch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf Kahlert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'m ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#512",
+              "@type": "tree:Node",
+              "token_string": "Bach"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#513",
+              "@type": "tree:Node",
+              "token_string": "Genster"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment8.jsonld#514",
+              "@type": "tree:Node",
+              "token_string": "Rain"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#508",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf'm Bach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9026211403428053",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.145872109300505"
+        },
+        {
+          "http://example.com/terms#name": "Auf'm Genster",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5798289306523814",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.15314668857155"
+        },
+        {
+          "http://example.com/terms#name": "Auf'm Rain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.13100784616598",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.15468391971609"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment8.jsonld#511",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf'm Bach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf'm Genster"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf'm Rain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Bach",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf'm Bach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9026211403428053",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.145872109300505"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#511",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf'm Bach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9026211403428053",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.145872109300505"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#512",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf'm Bach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf'm Bach"
+      ]
+    },
+    {
+      "token_string": "Genster",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf'm Genster",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5798289306523814",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.15314668857155"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#511",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf'm Genster",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5798289306523814",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.15314668857155"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#513",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf'm Genster"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf'm Genster"
+      ]
+    },
+    {
+      "token_string": "Rain",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Auf'm Rain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.13100784616598",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.15468391971609"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment8.jsonld#511",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Auf'm Rain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.13100784616598",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.15468391971609"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment8.jsonld#514",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf'm Rain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf'm Rain"
+      ]
+    }
+  ]
+}

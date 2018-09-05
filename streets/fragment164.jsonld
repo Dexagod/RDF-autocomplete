@@ -1,0 +1,761 @@
+{
+  "root_node_id": "4966",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment164.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "latum",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Balatum",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.502314553573639",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.092008629212"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment164.jsonld#4967",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Balatum",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.502314553573639",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.092008629212"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment164.jsonld#4962",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Balatum"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Balatum"
+      ]
+    },
+    {
+      "token_string": "sse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Basse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4177086144198405",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.536245812297814"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment164.jsonld#4964",
+              "@type": "tree:Node",
+              "token_string": " du Clerc"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment164.jsonld#4967",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Basse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4177086144198405",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.536245812297814"
+        },
+        {
+          "http://example.com/terms#name": "Rue Basse du Clerc",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.952552795100309",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.560539656934566"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "streetsfragment164.jsonld#4963",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Basse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Basse du Clerc"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Basse"
+      ]
+    },
+    {
+      "token_string": " du Clerc",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Basse du Clerc",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.952552795100309",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.560539656934566"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment164.jsonld#4963",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Basse du Clerc",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.952552795100309",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.560539656934566"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment164.jsonld#4964",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Basse du Clerc"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Basse du Clerc"
+      ]
+    },
+    {
+      "token_string": "ty des Puissances",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Baty des Puissances",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.162332705524307",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.741279492889134"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment164.jsonld#4967",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Baty des Puissances",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.162332705524307",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.741279492889134"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment164.jsonld#4965",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Baty des Puissances"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Baty des Puissances"
+      ]
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment164.jsonld#4967",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment164.jsonld#4968",
+              "@type": "tree:Node",
+              "token_string": "enalbois"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment164.jsonld#4969",
+              "@type": "tree:Node",
+              "token_string": "lanc"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment164.jsonld#4972",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment253.jsonld#7407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Balatum",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.502314553573639",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.092008629212"
+        },
+        {
+          "http://example.com/terms#name": "Rue Basse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4177086144198405",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.536245812297814"
+        },
+        {
+          "http://example.com/terms#name": "Rue Basse du Clerc",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.952552795100309",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.560539656934566"
+        },
+        {
+          "http://example.com/terms#name": "Rue Baty des Puissances",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.162332705524307",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.741279492889134"
+        },
+        {
+          "http://example.com/terms#name": "Rue Benalbois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2670737854450698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.20532238334391"
+        },
+        {
+          "http://example.com/terms#name": "Rue Blanc",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.86494105739362",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.749580487382936"
+        },
+        {
+          "http://example.com/terms#name": "Rue Blanc Champ",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.977677899644235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76303665138852"
+        },
+        {
+          "http://example.com/terms#name": "Rue Bob Morane",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8920489977380615",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.48448116390324"
+        },
+        {
+          "http://example.com/terms#name": "Rue Bois de Mer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.881912140446275",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.066727072108534"
+        },
+        {
+          "http://example.com/terms#name": "Rue Bon Dieu de la Noël",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.087506344866085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.19321213881985"
+        }
+      ],
+      "total_children_count": 12,
+      "@id": "streetsfragment164.jsonld#4966",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Balatum"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Basse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Basse du Clerc"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Baty des Puissances"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Benalbois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Blanc"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Blanc Champ"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Bob Morane"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Bois de Mer"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Bon Dieu de la Noël"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment164.jsonld#4962",
+              "@type": "tree:Node",
+              "token_string": "latum"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment164.jsonld#4963",
+              "@type": "tree:Node",
+              "token_string": "sse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment164.jsonld#4965",
+              "@type": "tree:Node",
+              "token_string": "ty des Puissances"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment164.jsonld#4966",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Balatum",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.502314553573639",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.092008629212"
+        },
+        {
+          "http://example.com/terms#name": "Rue Basse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4177086144198405",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.536245812297814"
+        },
+        {
+          "http://example.com/terms#name": "Rue Basse du Clerc",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.952552795100309",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.560539656934566"
+        },
+        {
+          "http://example.com/terms#name": "Rue Baty des Puissances",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.162332705524307",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.741279492889134"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment164.jsonld#4967",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Balatum"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Basse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Basse du Clerc"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Baty des Puissances"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "enalbois",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Benalbois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2670737854450698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.20532238334391"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment164.jsonld#4966",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Benalbois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2670737854450698",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.20532238334391"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment164.jsonld#4968",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Benalbois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Benalbois"
+      ]
+    },
+    {
+      "token_string": "lanc",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Blanc",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.86494105739362",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.749580487382936"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment164.jsonld#4970",
+              "@type": "tree:Node",
+              "token_string": " Champ"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment164.jsonld#4966",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Blanc",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.86494105739362",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.749580487382936"
+        },
+        {
+          "http://example.com/terms#name": "Rue Blanc Champ",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.977677899644235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76303665138852"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "streetsfragment164.jsonld#4969",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Blanc"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Blanc Champ"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Blanc"
+      ]
+    },
+    {
+      "token_string": " Champ",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Blanc Champ",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.977677899644235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76303665138852"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment164.jsonld#4969",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Blanc Champ",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.977677899644235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76303665138852"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment164.jsonld#4970",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Blanc Champ"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Blanc Champ"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment164.jsonld#4973",
+              "@type": "tree:Node",
+              "token_string": "b Morane"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment164.jsonld#4974",
+              "@type": "tree:Node",
+              "token_string": "is de Mer"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment164.jsonld#4975",
+              "@type": "tree:Node",
+              "token_string": "n Dieu de la Noël"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment164.jsonld#4966",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Bob Morane",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8920489977380615",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.48448116390324"
+        },
+        {
+          "http://example.com/terms#name": "Rue Bois de Mer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.881912140446275",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.066727072108534"
+        },
+        {
+          "http://example.com/terms#name": "Rue Bon Dieu de la Noël",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.087506344866085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.19321213881985"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment164.jsonld#4972",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Bob Morane"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Bois de Mer"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Bon Dieu de la Noël"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "b Morane",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Bob Morane",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8920489977380615",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.48448116390324"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment164.jsonld#4972",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Bob Morane",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8920489977380615",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.48448116390324"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment164.jsonld#4973",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Bob Morane"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Bob Morane"
+      ]
+    },
+    {
+      "token_string": "is de Mer",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Bois de Mer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.881912140446275",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.066727072108534"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment164.jsonld#4972",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Bois de Mer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.881912140446275",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.066727072108534"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment164.jsonld#4974",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Bois de Mer"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Bois de Mer"
+      ]
+    },
+    {
+      "token_string": "n Dieu de la Noël",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Bon Dieu de la Noël",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.087506344866085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.19321213881985"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment164.jsonld#4972",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Bon Dieu de la Noël",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.087506344866085",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.19321213881985"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment164.jsonld#4975",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Bon Dieu de la Noël"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Bon Dieu de la Noël"
+      ]
+    }
+  ]
+}

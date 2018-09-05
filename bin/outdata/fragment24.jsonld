@@ -1,0 +1,334 @@
+{
+  "root_node_id": "764",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment24.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "r",
+      "triples": [
+        {
+          "streetname": "Blar"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment24.jsonld#765",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Blar"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment24.jsonld#762",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Blar"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Blar"
+      ]
+    },
+    {
+      "token_string": "usteinstraße",
+      "triples": [
+        {
+          "streetname": "Blausteinstraße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment24.jsonld#765",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Blausteinstraße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment24.jsonld#763",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Blausteinstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Blausteinstraße"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment24.jsonld#765",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment24.jsonld#767",
+              "@type": "tree:Node",
+              "token_string": "ei"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment12.jsonld#678",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Blar"
+        },
+        {
+          "streetname": "Blausteinstraße"
+        },
+        {
+          "streetname": "Bleialfer Strasse"
+        },
+        {
+          "streetname": "Bleichstrasse"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment24.jsonld#764",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Blar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Blausteinstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bleialfer Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bleichstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment24.jsonld#762",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment24.jsonld#763",
+              "@type": "tree:Node",
+              "token_string": "usteinstraße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment24.jsonld#764",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Blar"
+        },
+        {
+          "streetname": "Blausteinstraße"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment24.jsonld#765",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Blar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Blausteinstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ei",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment24.jsonld#768",
+              "@type": "tree:Node",
+              "token_string": "alfer Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment24.jsonld#769",
+              "@type": "tree:Node",
+              "token_string": "chstrasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment24.jsonld#764",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bleialfer Strasse"
+        },
+        {
+          "streetname": "Bleichstrasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment24.jsonld#767",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bleialfer Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bleichstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "alfer Strasse",
+      "triples": [
+        {
+          "streetname": "Bleialfer Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment24.jsonld#767",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bleialfer Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment24.jsonld#768",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bleialfer Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bleialfer Strasse"
+      ]
+    },
+    {
+      "token_string": "chstrasse",
+      "triples": [
+        {
+          "streetname": "Bleichstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment24.jsonld#767",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bleichstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment24.jsonld#769",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bleichstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bleichstrasse"
+      ]
+    }
+  ]
+}

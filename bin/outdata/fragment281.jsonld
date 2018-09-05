@@ -1,0 +1,288 @@
+{
+  "root_node_id": "8458",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment281.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "e ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment281.jsonld#8459",
+              "@type": "tree:Node",
+              "token_string": "Büchelstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment281.jsonld#8460",
+              "@type": "tree:Node",
+              "token_string": "Ibern"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment281.jsonld#8462",
+              "@type": "tree:Node",
+              "token_string": "Rott"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment282.jsonld#8455",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Untere Büchelstrasse"
+        },
+        {
+          "streetname": "Untere Ibern"
+        },
+        {
+          "streetname": "Untere Rottergasse"
+        },
+        {
+          "streetname": "Untere Rottstrasse"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment281.jsonld#8458",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Untere Büchelstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Untere Ibern"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Untere Rottergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Untere Rottstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Büchelstrasse",
+      "triples": [
+        {
+          "streetname": "Untere Büchelstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment281.jsonld#8458",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Untere Büchelstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment281.jsonld#8459",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Untere Büchelstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Untere Büchelstrasse"
+      ]
+    },
+    {
+      "token_string": "Ibern",
+      "triples": [
+        {
+          "streetname": "Untere Ibern"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment281.jsonld#8458",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Untere Ibern"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment281.jsonld#8460",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Untere Ibern"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Untere Ibern"
+      ]
+    },
+    {
+      "token_string": "Rott",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment281.jsonld#8463",
+              "@type": "tree:Node",
+              "token_string": "ergasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment281.jsonld#8464",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment281.jsonld#8458",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Untere Rottergasse"
+        },
+        {
+          "streetname": "Untere Rottstrasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment281.jsonld#8462",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Untere Rottergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Untere Rottstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ergasse",
+      "triples": [
+        {
+          "streetname": "Untere Rottergasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment281.jsonld#8462",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Untere Rottergasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment281.jsonld#8463",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Untere Rottergasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Untere Rottergasse"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "streetname": "Untere Rottstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment281.jsonld#8462",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Untere Rottstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment281.jsonld#8464",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Untere Rottstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Untere Rottstrasse"
+      ]
+    }
+  ]
+}

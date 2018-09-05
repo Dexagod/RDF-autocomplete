@@ -1,0 +1,2849 @@
+{
+  "root_node_id": "8961",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment293.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Buche",
+      "triples": [
+        {
+          "streetname": "Zur Alten Buche"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8962",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Alten Buche"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8958",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Alten Buche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Alten Buche"
+      ]
+    },
+    {
+      "token_string": "Molkerei",
+      "triples": [
+        {
+          "streetname": "Zur Alten Molkerei"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8962",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Alten Molkerei"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8959",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Alten Molkerei"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Alten Molkerei"
+      ]
+    },
+    {
+      "token_string": "Schule",
+      "triples": [
+        {
+          "streetname": "Zur Alten Schule"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8962",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Alten Schule"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8960",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Alten Schule"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Alten Schule"
+      ]
+    },
+    {
+      "token_string": "r ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8962",
+              "@type": "tree:Node",
+              "token_string": "Alten "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8964",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8969",
+              "@type": "tree:Node",
+              "token_string": "Domäne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8974",
+              "@type": "tree:Node",
+              "token_string": "Ei"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8977",
+              "@type": "tree:Node",
+              "token_string": "Gewandel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8984",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8999",
+              "@type": "tree:Node",
+              "token_string": "K"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9003",
+              "@type": "tree:Node",
+              "token_string": "Le"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9007",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9011",
+              "@type": "tree:Node",
+              "token_string": "N"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9015",
+              "@type": "tree:Node",
+              "token_string": "O"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9022",
+              "@type": "tree:Node",
+              "token_string": "R"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9025",
+              "@type": "tree:Node",
+              "token_string": "runden Heide"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9030",
+              "@type": "tree:Node",
+              "token_string": "S"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9036",
+              "@type": "tree:Node",
+              "token_string": "Weddem"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment291.jsonld#8867",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Alten Buche"
+        },
+        {
+          "streetname": "Zur Alten Molkerei"
+        },
+        {
+          "streetname": "Zur Alten Schule"
+        },
+        {
+          "streetname": "Zur Bannmühle"
+        },
+        {
+          "streetname": "Zur Berkaul"
+        },
+        {
+          "streetname": "Zur Breitenbach"
+        },
+        {
+          "streetname": "Zur Burg"
+        },
+        {
+          "streetname": "Zur Domäne"
+        },
+        {
+          "streetname": "Zur Eichenheck"
+        },
+        {
+          "streetname": "Zur Eicht"
+        }
+      ],
+      "total_children_count": 60,
+      "@id": "fragment293.jsonld#8961",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Alten Buche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Alten Molkerei"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Alten Schule"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Bannmühle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Berkaul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Breitenbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Burg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Domäne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Eichenheck"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Eicht"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Alten ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8958",
+              "@type": "tree:Node",
+              "token_string": "Buche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8959",
+              "@type": "tree:Node",
+              "token_string": "Molkerei"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8960",
+              "@type": "tree:Node",
+              "token_string": "Schule"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Alten Buche"
+        },
+        {
+          "streetname": "Zur Alten Molkerei"
+        },
+        {
+          "streetname": "Zur Alten Schule"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment293.jsonld#8962",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Alten Buche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Alten Molkerei"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Alten Schule"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8965",
+              "@type": "tree:Node",
+              "token_string": "annmühle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8966",
+              "@type": "tree:Node",
+              "token_string": "erkaul"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8967",
+              "@type": "tree:Node",
+              "token_string": "reitenbach"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8968",
+              "@type": "tree:Node",
+              "token_string": "urg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Bannmühle"
+        },
+        {
+          "streetname": "Zur Berkaul"
+        },
+        {
+          "streetname": "Zur Breitenbach"
+        },
+        {
+          "streetname": "Zur Burg"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment293.jsonld#8964",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Bannmühle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Berkaul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Breitenbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Burg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "annmühle",
+      "triples": [
+        {
+          "streetname": "Zur Bannmühle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8964",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Bannmühle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8965",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Bannmühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Bannmühle"
+      ]
+    },
+    {
+      "token_string": "erkaul",
+      "triples": [
+        {
+          "streetname": "Zur Berkaul"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8964",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Berkaul"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8966",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Berkaul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Berkaul"
+      ]
+    },
+    {
+      "token_string": "reitenbach",
+      "triples": [
+        {
+          "streetname": "Zur Breitenbach"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8964",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Breitenbach"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8967",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Breitenbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Breitenbach"
+      ]
+    },
+    {
+      "token_string": "urg",
+      "triples": [
+        {
+          "streetname": "Zur Burg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8964",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Burg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8968",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Burg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Burg"
+      ]
+    },
+    {
+      "token_string": "Domäne",
+      "triples": [
+        {
+          "streetname": "Zur Domäne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Domäne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8969",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Domäne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Domäne"
+      ]
+    },
+    {
+      "token_string": "enheck",
+      "triples": [
+        {
+          "streetname": "Zur Eichenheck"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8975",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Eichenheck"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8972",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Eichenheck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Eichenheck"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [
+        {
+          "streetname": "Zur Eicht"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8975",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Eicht"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8973",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Eicht"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Eicht"
+      ]
+    },
+    {
+      "token_string": "Ei",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8975",
+              "@type": "tree:Node",
+              "token_string": "ch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8976",
+              "@type": "tree:Node",
+              "token_string": "dt"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Eichenheck"
+        },
+        {
+          "streetname": "Zur Eicht"
+        },
+        {
+          "streetname": "Zur Eidt"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment293.jsonld#8974",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Eichenheck"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Eicht"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Eidt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ch",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8972",
+              "@type": "tree:Node",
+              "token_string": "enheck"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8973",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8974",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Eichenheck"
+        },
+        {
+          "streetname": "Zur Eicht"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment293.jsonld#8975",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Eichenheck"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Eicht"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "dt",
+      "triples": [
+        {
+          "streetname": "Zur Eidt"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8974",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Eidt"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8976",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Eidt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Eidt"
+      ]
+    },
+    {
+      "token_string": "Gewandel",
+      "triples": [
+        {
+          "streetname": "Zur Gewandel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Gewandel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8977",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Gewandel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Gewandel"
+      ]
+    },
+    {
+      "token_string": "hnendell",
+      "triples": [
+        {
+          "streetname": "Zur Hahnendell"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8985",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Hahnendell"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8980",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hahnendell"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Hahnendell"
+      ]
+    },
+    {
+      "token_string": "llbacher Mühle",
+      "triples": [
+        {
+          "streetname": "Zur Hallbacher Mühle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8985",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Hallbacher Mühle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8981",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hallbacher Mühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Hallbacher Mühle"
+      ]
+    },
+    {
+      "token_string": "rdt",
+      "triples": [
+        {
+          "streetname": "Zur Hardt"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8985",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Hardt"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8982",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hardt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Hardt"
+      ]
+    },
+    {
+      "token_string": "sendelle",
+      "triples": [
+        {
+          "streetname": "Zur Hasendelle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8985",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Hasendelle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8983",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hasendelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Hasendelle"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8985",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8987",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8990",
+              "@type": "tree:Node",
+              "token_string": "olzwarche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8995",
+              "@type": "tree:Node",
+              "token_string": "ü"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Hahnendell"
+        },
+        {
+          "streetname": "Zur Hallbacher Mühle"
+        },
+        {
+          "streetname": "Zur Hardt"
+        },
+        {
+          "streetname": "Zur Hasendelle"
+        },
+        {
+          "streetname": "Zur Heide"
+        },
+        {
+          "streetname": "Zur Held"
+        },
+        {
+          "streetname": "Zur Holzwarche"
+        },
+        {
+          "streetname": "Zur Hüll"
+        },
+        {
+          "streetname": "Zur Hülsburg"
+        },
+        {
+          "streetname": "Zur Hütte"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "fragment293.jsonld#8984",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hahnendell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hallbacher Mühle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hardt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hasendelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Heide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Held"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Holzwarche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hüll"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hülsburg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hütte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8980",
+              "@type": "tree:Node",
+              "token_string": "hnendell"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8981",
+              "@type": "tree:Node",
+              "token_string": "llbacher Mühle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8982",
+              "@type": "tree:Node",
+              "token_string": "rdt"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8983",
+              "@type": "tree:Node",
+              "token_string": "sendelle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8984",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Hahnendell"
+        },
+        {
+          "streetname": "Zur Hallbacher Mühle"
+        },
+        {
+          "streetname": "Zur Hardt"
+        },
+        {
+          "streetname": "Zur Hasendelle"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment293.jsonld#8985",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hahnendell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hallbacher Mühle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hardt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hasendelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8988",
+              "@type": "tree:Node",
+              "token_string": "ide"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8989",
+              "@type": "tree:Node",
+              "token_string": "ld"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8984",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Heide"
+        },
+        {
+          "streetname": "Zur Held"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment293.jsonld#8987",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Heide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Held"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ide",
+      "triples": [
+        {
+          "streetname": "Zur Heide"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8987",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Heide"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8988",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Heide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Heide"
+      ]
+    },
+    {
+      "token_string": "ld",
+      "triples": [
+        {
+          "streetname": "Zur Held"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8987",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Held"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8989",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Held"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Held"
+      ]
+    },
+    {
+      "token_string": "olzwarche",
+      "triples": [
+        {
+          "streetname": "Zur Holzwarche"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8984",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Holzwarche"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8990",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Holzwarche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Holzwarche"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [
+        {
+          "streetname": "Zur Hüll"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8996",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Hüll"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8993",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hüll"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Hüll"
+      ]
+    },
+    {
+      "token_string": "sburg",
+      "triples": [
+        {
+          "streetname": "Zur Hülsburg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8996",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Hülsburg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8994",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hülsburg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Hülsburg"
+      ]
+    },
+    {
+      "token_string": "ü",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8996",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8997",
+              "@type": "tree:Node",
+              "token_string": "tte"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8984",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Hüll"
+        },
+        {
+          "streetname": "Zur Hülsburg"
+        },
+        {
+          "streetname": "Zur Hütte"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment293.jsonld#8995",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hüll"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hülsburg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hütte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8993",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#8994",
+              "@type": "tree:Node",
+              "token_string": "sburg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8995",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Hüll"
+        },
+        {
+          "streetname": "Zur Hülsburg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment293.jsonld#8996",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hüll"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hülsburg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "tte",
+      "triples": [
+        {
+          "streetname": "Zur Hütte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8995",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Hütte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#8997",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hütte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Hütte"
+      ]
+    },
+    {
+      "token_string": "K",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9000",
+              "@type": "tree:Node",
+              "token_string": "aiserbaracke"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9001",
+              "@type": "tree:Node",
+              "token_string": "leinen Hecke"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Kaiserbaracke"
+        },
+        {
+          "streetname": "Zur Kleinen Hecke"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment293.jsonld#8999",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Kaiserbaracke"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Kleinen Hecke"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aiserbaracke",
+      "triples": [
+        {
+          "streetname": "Zur Kaiserbaracke"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8999",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Kaiserbaracke"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9000",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Kaiserbaracke"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Kaiserbaracke"
+      ]
+    },
+    {
+      "token_string": "leinen Hecke",
+      "triples": [
+        {
+          "streetname": "Zur Kleinen Hecke"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8999",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Kleinen Hecke"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9001",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Kleinen Hecke"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Kleinen Hecke"
+      ]
+    },
+    {
+      "token_string": "Le",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9004",
+              "@type": "tree:Node",
+              "token_string": "hmkaul"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9005",
+              "@type": "tree:Node",
+              "token_string": "y"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Lehmkaul"
+        },
+        {
+          "streetname": "Zur Ley"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment293.jsonld#9003",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Lehmkaul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Ley"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "hmkaul",
+      "triples": [
+        {
+          "streetname": "Zur Lehmkaul"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9003",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Lehmkaul"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9004",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Lehmkaul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Lehmkaul"
+      ]
+    },
+    {
+      "token_string": "y",
+      "triples": [
+        {
+          "streetname": "Zur Ley"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9003",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Ley"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9005",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Ley"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Ley"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9008",
+              "@type": "tree:Node",
+              "token_string": "orsheck"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9009",
+              "@type": "tree:Node",
+              "token_string": "ühle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Morsheck"
+        },
+        {
+          "streetname": "Zur Mühle"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment293.jsonld#9007",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Morsheck"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Mühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "orsheck",
+      "triples": [
+        {
+          "streetname": "Zur Morsheck"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9007",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Morsheck"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9008",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Morsheck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Morsheck"
+      ]
+    },
+    {
+      "token_string": "ühle",
+      "triples": [
+        {
+          "streetname": "Zur Mühle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9007",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Mühle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9009",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Mühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Mühle"
+      ]
+    },
+    {
+      "token_string": "N",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9012",
+              "@type": "tree:Node",
+              "token_string": "eumühle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9013",
+              "@type": "tree:Node",
+              "token_string": "ohn"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Neumühle"
+        },
+        {
+          "streetname": "Zur Nohn"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment293.jsonld#9011",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Neumühle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Nohn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eumühle",
+      "triples": [
+        {
+          "streetname": "Zur Neumühle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9011",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Neumühle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9012",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Neumühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Neumühle"
+      ]
+    },
+    {
+      "token_string": "ohn",
+      "triples": [
+        {
+          "streetname": "Zur Nohn"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9011",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Nohn"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9013",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Nohn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Nohn"
+      ]
+    },
+    {
+      "token_string": "O",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9016",
+              "@type": "tree:Node",
+              "token_string": "chsenbaracke"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9017",
+              "@type": "tree:Node",
+              "token_string": "sterbach"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Ochsenbaracke"
+        },
+        {
+          "streetname": "Zur Osterbach"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment293.jsonld#9015",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Ochsenbaracke"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Osterbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "chsenbaracke",
+      "triples": [
+        {
+          "streetname": "Zur Ochsenbaracke"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9015",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Ochsenbaracke"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9016",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Ochsenbaracke"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Ochsenbaracke"
+      ]
+    },
+    {
+      "token_string": "sterbach",
+      "triples": [
+        {
+          "streetname": "Zur Osterbach"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9015",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Osterbach"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9017",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Osterbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Osterbach"
+      ]
+    },
+    {
+      "token_string": "dder Höhe",
+      "triples": [
+        {
+          "streetname": "Zur Rodder Höhe"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9023",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Rodder Höhe"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9020",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Rodder Höhe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Rodder Höhe"
+      ]
+    },
+    {
+      "token_string": "theck",
+      "triples": [
+        {
+          "streetname": "Zur Rotheck"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9023",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Rotheck"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9021",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Rotheck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Rotheck"
+      ]
+    },
+    {
+      "token_string": "R",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9023",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9024",
+              "@type": "tree:Node",
+              "token_string": "uest"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Rodder Höhe"
+        },
+        {
+          "streetname": "Zur Rotheck"
+        },
+        {
+          "streetname": "Zur Ruest"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment293.jsonld#9022",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Rodder Höhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Rotheck"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Ruest"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9020",
+              "@type": "tree:Node",
+              "token_string": "dder Höhe"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9021",
+              "@type": "tree:Node",
+              "token_string": "theck"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Rodder Höhe"
+        },
+        {
+          "streetname": "Zur Rotheck"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment293.jsonld#9023",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Rodder Höhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Rotheck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "uest",
+      "triples": [
+        {
+          "streetname": "Zur Ruest"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Ruest"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9024",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Ruest"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Ruest"
+      ]
+    },
+    {
+      "token_string": "runden Heide",
+      "triples": [
+        {
+          "streetname": "Zur runden Heide"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur runden Heide"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9025",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur runden Heide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur runden Heide"
+      ]
+    },
+    {
+      "token_string": "leid",
+      "triples": [
+        {
+          "streetname": "Zur Schleid"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9031",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Schleid"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9028",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Schleid"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Schleid"
+      ]
+    },
+    {
+      "token_string": "miede",
+      "triples": [
+        {
+          "streetname": "Zur Schmiede"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9031",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Schmiede"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9029",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Schmiede"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Schmiede"
+      ]
+    },
+    {
+      "token_string": "S",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9031",
+              "@type": "tree:Node",
+              "token_string": "ch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9033",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Schleid"
+        },
+        {
+          "streetname": "Zur Schmiede"
+        },
+        {
+          "streetname": "Zur Steinkaul"
+        },
+        {
+          "streetname": "Zur Stöck"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment293.jsonld#9030",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Schleid"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Schmiede"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Steinkaul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Stöck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ch",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9028",
+              "@type": "tree:Node",
+              "token_string": "leid"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9029",
+              "@type": "tree:Node",
+              "token_string": "miede"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9030",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Schleid"
+        },
+        {
+          "streetname": "Zur Schmiede"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment293.jsonld#9031",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Schleid"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Schmiede"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "t",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9034",
+              "@type": "tree:Node",
+              "token_string": "einkaul"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment293.jsonld#9035",
+              "@type": "tree:Node",
+              "token_string": "öck"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9030",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Steinkaul"
+        },
+        {
+          "streetname": "Zur Stöck"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment293.jsonld#9033",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Steinkaul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Stöck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "einkaul",
+      "triples": [
+        {
+          "streetname": "Zur Steinkaul"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9033",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Steinkaul"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9034",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Steinkaul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Steinkaul"
+      ]
+    },
+    {
+      "token_string": "öck",
+      "triples": [
+        {
+          "streetname": "Zur Stöck"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#9033",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Stöck"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9035",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Stöck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Stöck"
+      ]
+    },
+    {
+      "token_string": "Weddem",
+      "triples": [
+        {
+          "streetname": "Zur Weddem"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Zur Weddem"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment293.jsonld#9036",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Weddem"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Weddem"
+      ]
+    }
+  ]
+}

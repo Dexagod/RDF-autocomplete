@@ -1,0 +1,4765 @@
+{
+  "root_node_id": "2011",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment81.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Jehanster",
+      "triples": [
+        {
+          "streetname": "Clos de Jehanster"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2012",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos de Jehanster"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#1951",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos de Jehanster"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos de Jehanster"
+      ]
+    },
+    {
+      "token_string": "Letavertes",
+      "triples": [
+        {
+          "streetname": "Clos de Letavertes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2012",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos de Letavertes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#1992",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos de Letavertes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos de Letavertes"
+      ]
+    },
+    {
+      "token_string": "Massiet",
+      "triples": [
+        {
+          "streetname": "Clos de Massiet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2012",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos de Massiet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#1998",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos de Massiet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos de Massiet"
+      ]
+    },
+    {
+      "token_string": "N",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2001",
+              "@type": "tree:Node",
+              "token_string": "achinal"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2002",
+              "@type": "tree:Node",
+              "token_string": "olupré"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2012",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos de Nachinal"
+        },
+        {
+          "streetname": "Clos de Nolupré"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment81.jsonld#2000",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos de Nachinal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Nolupré"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "achinal",
+      "triples": [
+        {
+          "streetname": "Clos de Nachinal"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2000",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos de Nachinal"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2001",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos de Nachinal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos de Nachinal"
+      ]
+    },
+    {
+      "token_string": "olupré",
+      "triples": [
+        {
+          "streetname": "Clos de Nolupré"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2000",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos de Nolupré"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2002",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos de Nolupré"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos de Nolupré"
+      ]
+    },
+    {
+      "token_string": "P",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2008",
+              "@type": "tree:Node",
+              "token_string": "ierreuse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2009",
+              "@type": "tree:Node",
+              "token_string": "riesville"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2012",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos de Pierreuse"
+        },
+        {
+          "streetname": "Clos de Priesville"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment81.jsonld#2007",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos de Pierreuse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Priesville"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ierreuse",
+      "triples": [
+        {
+          "streetname": "Clos de Pierreuse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2007",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos de Pierreuse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2008",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos de Pierreuse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos de Pierreuse"
+      ]
+    },
+    {
+      "token_string": "riesville",
+      "triples": [
+        {
+          "streetname": "Clos de Priesville"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2007",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos de Priesville"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2009",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos de Priesville"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos de Priesville"
+      ]
+    },
+    {
+      "token_string": "Rossart",
+      "triples": [
+        {
+          "streetname": "Clos de Rossart"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2012",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos de Rossart"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2010",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos de Rossart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos de Rossart"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2012",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2025",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment78.jsonld#2003",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos de Jehanster"
+        },
+        {
+          "streetname": "Clos de l'Abri"
+        },
+        {
+          "streetname": "Clos de Letavertes"
+        },
+        {
+          "streetname": "Clos de Massiet"
+        },
+        {
+          "streetname": "Clos de Nachinal"
+        },
+        {
+          "streetname": "Clos de Nolupré"
+        },
+        {
+          "streetname": "Clos de Pierreuse"
+        },
+        {
+          "streetname": "Clos de Priesville"
+        },
+        {
+          "streetname": "Clos de Rossart"
+        },
+        {
+          "streetname": "Clos de Selh"
+        }
+      ],
+      "total_children_count": 142,
+      "@id": "fragment81.jsonld#2011",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos de Jehanster"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de l'Abri"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Letavertes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Massiet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Nachinal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Nolupré"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Pierreuse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Priesville"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Rossart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Selh"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#1951",
+              "@type": "tree:Node",
+              "token_string": "Jehanster"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment77.jsonld#1953",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#1992",
+              "@type": "tree:Node",
+              "token_string": "Letavertes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#1998",
+              "@type": "tree:Node",
+              "token_string": "Massiet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2000",
+              "@type": "tree:Node",
+              "token_string": "N"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2007",
+              "@type": "tree:Node",
+              "token_string": "P"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2010",
+              "@type": "tree:Node",
+              "token_string": "Rossart"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2055",
+              "@type": "tree:Node",
+              "token_string": "Selh"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2011",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos de Jehanster"
+        },
+        {
+          "streetname": "Clos de l'Abri"
+        },
+        {
+          "streetname": "Clos de Letavertes"
+        },
+        {
+          "streetname": "Clos de Massiet"
+        },
+        {
+          "streetname": "Clos de Nachinal"
+        },
+        {
+          "streetname": "Clos de Nolupré"
+        },
+        {
+          "streetname": "Clos de Pierreuse"
+        },
+        {
+          "streetname": "Clos de Priesville"
+        },
+        {
+          "streetname": "Clos de Rossart"
+        },
+        {
+          "streetname": "Clos de Selh"
+        }
+      ],
+      "total_children_count": 47,
+      "@id": "fragment81.jsonld#2012",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos de Jehanster"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de l'Abri"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Letavertes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Massiet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Nachinal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Nolupré"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Pierreuse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Priesville"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Rossart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos de Selh"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "géliques des Prés",
+      "triples": [
+        {
+          "streetname": "Clos des Angéliques des Prés"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2018",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Angéliques des Prés"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2015",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Angéliques des Prés"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Angéliques des Prés"
+      ]
+    },
+    {
+      "token_string": "nonciades",
+      "triples": [
+        {
+          "streetname": "Clos des Annonciades"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2018",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Annonciades"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2016",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Annonciades"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Annonciades"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2015",
+              "@type": "tree:Node",
+              "token_string": "géliques des Prés"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2016",
+              "@type": "tree:Node",
+              "token_string": "nonciades"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2026",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Angéliques des Prés"
+        },
+        {
+          "streetname": "Clos des Annonciades"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment81.jsonld#2018",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Angéliques des Prés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Annonciades"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2021",
+              "@type": "tree:Node",
+              "token_string": "balétriers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2022",
+              "@type": "tree:Node",
+              "token_string": "muriers"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2026",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Arbalétriers"
+        },
+        {
+          "streetname": "Clos des Armuriers"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment81.jsonld#2020",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Arbalétriers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Armuriers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "balétriers",
+      "triples": [
+        {
+          "streetname": "Clos des Arbalétriers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2020",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Arbalétriers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2021",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Arbalétriers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Arbalétriers"
+      ]
+    },
+    {
+      "token_string": "muriers",
+      "triples": [
+        {
+          "streetname": "Clos des Armuriers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2020",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Armuriers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2022",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Armuriers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Armuriers"
+      ]
+    },
+    {
+      "token_string": "ubépines",
+      "triples": [
+        {
+          "streetname": "Clos des Aubépines"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2026",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Aubépines"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2023",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Aubépines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Aubépines"
+      ]
+    },
+    {
+      "token_string": "velines",
+      "triples": [
+        {
+          "streetname": "Clos des Avelines"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2026",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Avelines"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2024",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Avelines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Avelines"
+      ]
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2026",
+              "@type": "tree:Node",
+              "token_string": "A"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2028",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2041",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2051",
+              "@type": "tree:Node",
+              "token_string": "D"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2056",
+              "@type": "tree:Node",
+              "token_string": "E"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2061",
+              "@type": "tree:Node",
+              "token_string": "F"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2068",
+              "@type": "tree:Node",
+              "token_string": "Groseilliers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2070",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2073",
+              "@type": "tree:Node",
+              "token_string": "Jonquilles"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2075",
+              "@type": "tree:Node",
+              "token_string": "L"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2088",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2092",
+              "@type": "tree:Node",
+              "token_string": "Neiges"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2093",
+              "@type": "tree:Node",
+              "token_string": "Orchidées"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2098",
+              "@type": "tree:Node",
+              "token_string": "P"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2108",
+              "@type": "tree:Node",
+              "token_string": "Rouges-Gorges"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2113",
+              "@type": "tree:Node",
+              "token_string": "S"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment79.jsonld#2120",
+              "@type": "tree:Node",
+              "token_string": "T"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2130",
+              "@type": "tree:Node",
+              "token_string": "V"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2011",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Angéliques des Prés"
+        },
+        {
+          "streetname": "Clos des Annonciades"
+        },
+        {
+          "streetname": "Clos des Arbalétriers"
+        },
+        {
+          "streetname": "Clos des Armuriers"
+        },
+        {
+          "streetname": "Clos des Aubépines"
+        },
+        {
+          "streetname": "Clos des Avelines"
+        },
+        {
+          "streetname": "Clos des Baies sauvages"
+        },
+        {
+          "streetname": "Clos des Bigarreaux"
+        },
+        {
+          "streetname": "Clos des Blés"
+        },
+        {
+          "streetname": "Clos des Bolets"
+        }
+      ],
+      "total_children_count": 93,
+      "@id": "fragment81.jsonld#2025",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Angéliques des Prés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Annonciades"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Arbalétriers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Armuriers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Aubépines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Avelines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Baies sauvages"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Bigarreaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Blés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Bolets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2018",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2020",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2023",
+              "@type": "tree:Node",
+              "token_string": "ubépines"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2024",
+              "@type": "tree:Node",
+              "token_string": "velines"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Angéliques des Prés"
+        },
+        {
+          "streetname": "Clos des Annonciades"
+        },
+        {
+          "streetname": "Clos des Arbalétriers"
+        },
+        {
+          "streetname": "Clos des Armuriers"
+        },
+        {
+          "streetname": "Clos des Aubépines"
+        },
+        {
+          "streetname": "Clos des Avelines"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment81.jsonld#2026",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Angéliques des Prés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Annonciades"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Arbalétriers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Armuriers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Aubépines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Avelines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2029",
+              "@type": "tree:Node",
+              "token_string": "aies sauvages"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2030",
+              "@type": "tree:Node",
+              "token_string": "igarreaux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2031",
+              "@type": "tree:Node",
+              "token_string": "lés"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2032",
+              "@type": "tree:Node",
+              "token_string": "olets"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2033",
+              "@type": "tree:Node",
+              "token_string": "riquetiers"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Baies sauvages"
+        },
+        {
+          "streetname": "Clos des Bigarreaux"
+        },
+        {
+          "streetname": "Clos des Blés"
+        },
+        {
+          "streetname": "Clos des Bolets"
+        },
+        {
+          "streetname": "Clos des Briquetiers"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment81.jsonld#2028",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Baies sauvages"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Bigarreaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Blés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Bolets"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Briquetiers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aies sauvages",
+      "triples": [
+        {
+          "streetname": "Clos des Baies sauvages"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2028",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Baies sauvages"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2029",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Baies sauvages"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Baies sauvages"
+      ]
+    },
+    {
+      "token_string": "igarreaux",
+      "triples": [
+        {
+          "streetname": "Clos des Bigarreaux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2028",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Bigarreaux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2030",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Bigarreaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Bigarreaux"
+      ]
+    },
+    {
+      "token_string": "lés",
+      "triples": [
+        {
+          "streetname": "Clos des Blés"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2028",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Blés"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2031",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Blés"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Blés"
+      ]
+    },
+    {
+      "token_string": "olets",
+      "triples": [
+        {
+          "streetname": "Clos des Bolets"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2028",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Bolets"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2032",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Bolets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Bolets"
+      ]
+    },
+    {
+      "token_string": "riquetiers",
+      "triples": [
+        {
+          "streetname": "Clos des Briquetiers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2028",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Briquetiers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2033",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Briquetiers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Briquetiers"
+      ]
+    },
+    {
+      "token_string": "anules",
+      "triples": [
+        {
+          "streetname": "Clos des Campanules"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2039",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Campanules"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2036",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Campanules"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Campanules"
+      ]
+    },
+    {
+      "token_string": "inaires",
+      "triples": [
+        {
+          "streetname": "Clos des Campinaires"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2039",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Campinaires"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2037",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Campinaires"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Campinaires"
+      ]
+    },
+    {
+      "token_string": "mp",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2036",
+              "@type": "tree:Node",
+              "token_string": "anules"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2037",
+              "@type": "tree:Node",
+              "token_string": "inaires"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2042",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Campanules"
+        },
+        {
+          "streetname": "Clos des Campinaires"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment81.jsonld#2039",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Campanules"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Campinaires"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "stors",
+      "triples": [
+        {
+          "streetname": "Clos des Castors"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2042",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Castors"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2040",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Castors"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Castors"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2042",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2043",
+              "@type": "tree:Node",
+              "token_string": "entenaires"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2045",
+              "@type": "tree:Node",
+              "token_string": "ha"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2048",
+              "@type": "tree:Node",
+              "token_string": "oudriers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2049",
+              "@type": "tree:Node",
+              "token_string": "ytises"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Campanules"
+        },
+        {
+          "streetname": "Clos des Campinaires"
+        },
+        {
+          "streetname": "Clos des Castors"
+        },
+        {
+          "streetname": "Clos des Centenaires"
+        },
+        {
+          "streetname": "Clos des Champs"
+        },
+        {
+          "streetname": "Clos des Charmes"
+        },
+        {
+          "streetname": "Clos des Coudriers"
+        },
+        {
+          "streetname": "Clos des Cytises"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "fragment81.jsonld#2041",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Campanules"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Campinaires"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Castors"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Centenaires"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Charmes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Coudriers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Cytises"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2039",
+              "@type": "tree:Node",
+              "token_string": "mp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2040",
+              "@type": "tree:Node",
+              "token_string": "stors"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2041",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Campanules"
+        },
+        {
+          "streetname": "Clos des Campinaires"
+        },
+        {
+          "streetname": "Clos des Castors"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment81.jsonld#2042",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Campanules"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Campinaires"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Castors"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "entenaires",
+      "triples": [
+        {
+          "streetname": "Clos des Centenaires"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2041",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Centenaires"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2043",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Centenaires"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Centenaires"
+      ]
+    },
+    {
+      "token_string": "ha",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2046",
+              "@type": "tree:Node",
+              "token_string": "mps"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2047",
+              "@type": "tree:Node",
+              "token_string": "rmes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2041",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Champs"
+        },
+        {
+          "streetname": "Clos des Charmes"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment81.jsonld#2045",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Champs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Charmes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "mps",
+      "triples": [
+        {
+          "streetname": "Clos des Champs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2045",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Champs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2046",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Champs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Champs"
+      ]
+    },
+    {
+      "token_string": "rmes",
+      "triples": [
+        {
+          "streetname": "Clos des Charmes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2045",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Charmes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2047",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Charmes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Charmes"
+      ]
+    },
+    {
+      "token_string": "oudriers",
+      "triples": [
+        {
+          "streetname": "Clos des Coudriers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2041",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Coudriers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2048",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Coudriers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Coudriers"
+      ]
+    },
+    {
+      "token_string": "ytises",
+      "triples": [
+        {
+          "streetname": "Clos des Cytises"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2041",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Cytises"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2049",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Cytises"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Cytises"
+      ]
+    },
+    {
+      "token_string": "D",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2052",
+              "@type": "tree:Node",
+              "token_string": "ames"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2053",
+              "@type": "tree:Node",
+              "token_string": "ucs de Brabant"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Dames"
+        },
+        {
+          "streetname": "Clos des Ducs de Brabant"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment81.jsonld#2051",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Dames"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Ducs de Brabant"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ames",
+      "triples": [
+        {
+          "streetname": "Clos des Dames"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2051",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Dames"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2052",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Dames"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Dames"
+      ]
+    },
+    {
+      "token_string": "ucs de Brabant",
+      "triples": [
+        {
+          "streetname": "Clos des Ducs de Brabant"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2051",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Ducs de Brabant"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2053",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Ducs de Brabant"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Ducs de Brabant"
+      ]
+    },
+    {
+      "token_string": "Selh",
+      "triples": [
+        {
+          "streetname": "Clos de Selh"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2012",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos de Selh"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2055",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos de Selh"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos de Selh"
+      ]
+    },
+    {
+      "token_string": "E",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2057",
+              "@type": "tree:Node",
+              "token_string": "claireurs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2058",
+              "@type": "tree:Node",
+              "token_string": "rables"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2059",
+              "@type": "tree:Node",
+              "token_string": "viaux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Eclaireurs"
+        },
+        {
+          "streetname": "Clos des Erables"
+        },
+        {
+          "streetname": "Clos des Eviaux"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment81.jsonld#2056",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Eclaireurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Erables"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Eviaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "claireurs",
+      "triples": [
+        {
+          "streetname": "Clos des Eclaireurs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2056",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Eclaireurs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2057",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Eclaireurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Eclaireurs"
+      ]
+    },
+    {
+      "token_string": "rables",
+      "triples": [
+        {
+          "streetname": "Clos des Erables"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2056",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Erables"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2058",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Erables"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Erables"
+      ]
+    },
+    {
+      "token_string": "viaux",
+      "triples": [
+        {
+          "streetname": "Clos des Eviaux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2056",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Eviaux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2059",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Eviaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Eviaux"
+      ]
+    },
+    {
+      "token_string": "F",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2062",
+              "@type": "tree:Node",
+              "token_string": "ifres"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2064",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2067",
+              "@type": "tree:Node",
+              "token_string": "rancs Jeux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Fifres"
+        },
+        {
+          "streetname": "Clos des Forgerons"
+        },
+        {
+          "streetname": "Clos des Fougères"
+        },
+        {
+          "streetname": "Clos des Francs Jeux"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment81.jsonld#2061",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Fifres"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Forgerons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Fougères"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Francs Jeux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ifres",
+      "triples": [
+        {
+          "streetname": "Clos des Fifres"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2061",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Fifres"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2062",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Fifres"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Fifres"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2065",
+              "@type": "tree:Node",
+              "token_string": "rgerons"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2066",
+              "@type": "tree:Node",
+              "token_string": "ugères"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2061",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Forgerons"
+        },
+        {
+          "streetname": "Clos des Fougères"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment81.jsonld#2064",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Forgerons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Fougères"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rgerons",
+      "triples": [
+        {
+          "streetname": "Clos des Forgerons"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2064",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Forgerons"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2065",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Forgerons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Forgerons"
+      ]
+    },
+    {
+      "token_string": "ugères",
+      "triples": [
+        {
+          "streetname": "Clos des Fougères"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2064",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Fougères"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2066",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Fougères"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Fougères"
+      ]
+    },
+    {
+      "token_string": "rancs Jeux",
+      "triples": [
+        {
+          "streetname": "Clos des Francs Jeux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2061",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Francs Jeux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2067",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Francs Jeux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Francs Jeux"
+      ]
+    },
+    {
+      "token_string": "Groseilliers",
+      "triples": [
+        {
+          "streetname": "Clos des Groseilliers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Groseilliers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2068",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Groseilliers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Groseilliers"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2071",
+              "@type": "tree:Node",
+              "token_string": "auts Trieux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2072",
+              "@type": "tree:Node",
+              "token_string": "ouyeux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Hauts Trieux"
+        },
+        {
+          "streetname": "Clos des Houyeux"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment81.jsonld#2070",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Hauts Trieux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Houyeux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "auts Trieux",
+      "triples": [
+        {
+          "streetname": "Clos des Hauts Trieux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2070",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Hauts Trieux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2071",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Hauts Trieux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Hauts Trieux"
+      ]
+    },
+    {
+      "token_string": "ouyeux",
+      "triples": [
+        {
+          "streetname": "Clos des Houyeux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2070",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Houyeux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2072",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Houyeux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Houyeux"
+      ]
+    },
+    {
+      "token_string": "Jonquilles",
+      "triples": [
+        {
+          "streetname": "Clos des Jonquilles"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Jonquilles"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2073",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Jonquilles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Jonquilles"
+      ]
+    },
+    {
+      "token_string": "L",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2076",
+              "@type": "tree:Node",
+              "token_string": "avandières"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2078",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2081",
+              "@type": "tree:Node",
+              "token_string": "ongues Pièces"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Lavandières"
+        },
+        {
+          "streetname": "Clos des Libellules"
+        },
+        {
+          "streetname": "Clos des Lilas"
+        },
+        {
+          "streetname": "Clos des Longues Pièces"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment81.jsonld#2075",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Lavandières"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Libellules"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Lilas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Longues Pièces"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "avandières",
+      "triples": [
+        {
+          "streetname": "Clos des Lavandières"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2075",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Lavandières"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2076",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Lavandières"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Lavandières"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2079",
+              "@type": "tree:Node",
+              "token_string": "bellules"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2080",
+              "@type": "tree:Node",
+              "token_string": "las"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2075",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Libellules"
+        },
+        {
+          "streetname": "Clos des Lilas"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment81.jsonld#2078",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Libellules"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Lilas"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bellules",
+      "triples": [
+        {
+          "streetname": "Clos des Libellules"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2078",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Libellules"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2079",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Libellules"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Libellules"
+      ]
+    },
+    {
+      "token_string": "las",
+      "triples": [
+        {
+          "streetname": "Clos des Lilas"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2078",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Lilas"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2080",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Lilas"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Lilas"
+      ]
+    },
+    {
+      "token_string": "ongues Pièces",
+      "triples": [
+        {
+          "streetname": "Clos des Longues Pièces"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2075",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Longues Pièces"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2081",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Longues Pièces"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Longues Pièces"
+      ]
+    },
+    {
+      "token_string": "aîchers",
+      "triples": [
+        {
+          "streetname": "Clos des Maraîchers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2089",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Maraîchers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2084",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Maraîchers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Maraîchers"
+      ]
+    },
+    {
+      "token_string": "cotias",
+      "triples": [
+        {
+          "streetname": "Clos des Marcotias"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2089",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Marcotias"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2085",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Marcotias"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Marcotias"
+      ]
+    },
+    {
+      "token_string": "nières",
+      "triples": [
+        {
+          "streetname": "Clos des Marnières"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2089",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Marnières"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2086",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Marnières"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Marnières"
+      ]
+    },
+    {
+      "token_string": "teleurs",
+      "triples": [
+        {
+          "streetname": "Clos des Marteleurs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2089",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Marteleurs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2087",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Marteleurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Marteleurs"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2089",
+              "@type": "tree:Node",
+              "token_string": "ar"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2090",
+              "@type": "tree:Node",
+              "token_string": "euniers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2091",
+              "@type": "tree:Node",
+              "token_string": "uguets"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Maraîchers"
+        },
+        {
+          "streetname": "Clos des Marcotias"
+        },
+        {
+          "streetname": "Clos des Marnières"
+        },
+        {
+          "streetname": "Clos des Marteleurs"
+        },
+        {
+          "streetname": "Clos des Meuniers"
+        },
+        {
+          "streetname": "Clos des Muguets"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment81.jsonld#2088",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Maraîchers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Marcotias"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Marnières"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Marteleurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Meuniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Muguets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ar",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2084",
+              "@type": "tree:Node",
+              "token_string": "aîchers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2085",
+              "@type": "tree:Node",
+              "token_string": "cotias"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2086",
+              "@type": "tree:Node",
+              "token_string": "nières"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2087",
+              "@type": "tree:Node",
+              "token_string": "teleurs"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2088",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Maraîchers"
+        },
+        {
+          "streetname": "Clos des Marcotias"
+        },
+        {
+          "streetname": "Clos des Marnières"
+        },
+        {
+          "streetname": "Clos des Marteleurs"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment81.jsonld#2089",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Maraîchers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Marcotias"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Marnières"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Marteleurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "euniers",
+      "triples": [
+        {
+          "streetname": "Clos des Meuniers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2088",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Meuniers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2090",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Meuniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Meuniers"
+      ]
+    },
+    {
+      "token_string": "uguets",
+      "triples": [
+        {
+          "streetname": "Clos des Muguets"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2088",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Muguets"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2091",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Muguets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Muguets"
+      ]
+    },
+    {
+      "token_string": "Neiges",
+      "triples": [
+        {
+          "streetname": "Clos des Neiges"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Neiges"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2092",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Neiges"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Neiges"
+      ]
+    },
+    {
+      "token_string": "Orchidées",
+      "triples": [
+        {
+          "streetname": "Clos des Orchidées"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Orchidées"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2093",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Orchidées"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Orchidées"
+      ]
+    },
+    {
+      "token_string": "eteries",
+      "triples": [
+        {
+          "streetname": "Clos des Papeteries"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2099",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Papeteries"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2096",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Papeteries"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Papeteries"
+      ]
+    },
+    {
+      "token_string": "illons",
+      "triples": [
+        {
+          "streetname": "Clos des Papillons"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2099",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Papillons"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2097",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Papillons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Papillons"
+      ]
+    },
+    {
+      "token_string": "P",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2099",
+              "@type": "tree:Node",
+              "token_string": "ap"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2101",
+              "@type": "tree:Node",
+              "token_string": "â"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2104",
+              "@type": "tree:Node",
+              "token_string": "erdrix"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2105",
+              "@type": "tree:Node",
+              "token_string": "ins Sylvestres"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2106",
+              "@type": "tree:Node",
+              "token_string": "ommiers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2107",
+              "@type": "tree:Node",
+              "token_string": "rinces-Évêques"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Papeteries"
+        },
+        {
+          "streetname": "Clos des Papillons"
+        },
+        {
+          "streetname": "Clos des Pâquerettes"
+        },
+        {
+          "streetname": "Clos des Pâturages"
+        },
+        {
+          "streetname": "Clos des Perdrix"
+        },
+        {
+          "streetname": "Clos des Pins Sylvestres"
+        },
+        {
+          "streetname": "Clos des Pommiers"
+        },
+        {
+          "streetname": "Clos des Princes-Évêques"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "fragment81.jsonld#2098",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Papeteries"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Papillons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Pâquerettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Pâturages"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Perdrix"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Pins Sylvestres"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Pommiers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Princes-Évêques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ap",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2096",
+              "@type": "tree:Node",
+              "token_string": "eteries"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2097",
+              "@type": "tree:Node",
+              "token_string": "illons"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2098",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Papeteries"
+        },
+        {
+          "streetname": "Clos des Papillons"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment81.jsonld#2099",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Papeteries"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Papillons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "â",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2102",
+              "@type": "tree:Node",
+              "token_string": "querettes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2103",
+              "@type": "tree:Node",
+              "token_string": "turages"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2098",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Pâquerettes"
+        },
+        {
+          "streetname": "Clos des Pâturages"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment81.jsonld#2101",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Pâquerettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Pâturages"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "querettes",
+      "triples": [
+        {
+          "streetname": "Clos des Pâquerettes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2101",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Pâquerettes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2102",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Pâquerettes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Pâquerettes"
+      ]
+    },
+    {
+      "token_string": "turages",
+      "triples": [
+        {
+          "streetname": "Clos des Pâturages"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2101",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Pâturages"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2103",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Pâturages"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Pâturages"
+      ]
+    },
+    {
+      "token_string": "erdrix",
+      "triples": [
+        {
+          "streetname": "Clos des Perdrix"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2098",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Perdrix"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2104",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Perdrix"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Perdrix"
+      ]
+    },
+    {
+      "token_string": "ins Sylvestres",
+      "triples": [
+        {
+          "streetname": "Clos des Pins Sylvestres"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2098",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Pins Sylvestres"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2105",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Pins Sylvestres"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Pins Sylvestres"
+      ]
+    },
+    {
+      "token_string": "ommiers",
+      "triples": [
+        {
+          "streetname": "Clos des Pommiers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2098",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Pommiers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2106",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Pommiers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Pommiers"
+      ]
+    },
+    {
+      "token_string": "rinces-Évêques",
+      "triples": [
+        {
+          "streetname": "Clos des Princes-Évêques"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2098",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Princes-Évêques"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2107",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Princes-Évêques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Princes-Évêques"
+      ]
+    },
+    {
+      "token_string": "Rouges-Gorges",
+      "triples": [
+        {
+          "streetname": "Clos des Rouges-Gorges"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Rouges-Gorges"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2108",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Rouges-Gorges"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Rouges-Gorges"
+      ]
+    },
+    {
+      "token_string": "mmes",
+      "triples": [
+        {
+          "streetname": "Clos des Sammes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2114",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Sammes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2111",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Sammes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Sammes"
+      ]
+    },
+    {
+      "token_string": "nsonnets",
+      "triples": [
+        {
+          "streetname": "Clos des Sansonnets"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2114",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Sansonnets"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2112",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Sansonnets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Sansonnets"
+      ]
+    },
+    {
+      "token_string": "S",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2114",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2116",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Sammes"
+        },
+        {
+          "streetname": "Clos des Sansonnets"
+        },
+        {
+          "streetname": "Clos des Sonneurs"
+        },
+        {
+          "streetname": "Clos des Souverains"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment81.jsonld#2113",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Sammes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Sansonnets"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Sonneurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Souverains"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2111",
+              "@type": "tree:Node",
+              "token_string": "mmes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2112",
+              "@type": "tree:Node",
+              "token_string": "nsonnets"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2113",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Sammes"
+        },
+        {
+          "streetname": "Clos des Sansonnets"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment81.jsonld#2114",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Sammes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Sansonnets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2117",
+              "@type": "tree:Node",
+              "token_string": "nneurs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2118",
+              "@type": "tree:Node",
+              "token_string": "uverains"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2113",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Sonneurs"
+        },
+        {
+          "streetname": "Clos des Souverains"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment81.jsonld#2116",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Sonneurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Souverains"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "nneurs",
+      "triples": [
+        {
+          "streetname": "Clos des Sonneurs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2116",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Sonneurs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2117",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Sonneurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Sonneurs"
+      ]
+    },
+    {
+      "token_string": "uverains",
+      "triples": [
+        {
+          "streetname": "Clos des Souverains"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2116",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Souverains"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2118",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Souverains"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Souverains"
+      ]
+    },
+    {
+      "token_string": "V",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2131",
+              "@type": "tree:Node",
+              "token_string": "ergers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2133",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2025",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Vergers"
+        },
+        {
+          "streetname": "Clos des Violoneux"
+        },
+        {
+          "streetname": "Clos des Viviers"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment81.jsonld#2130",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Vergers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Violoneux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Viviers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ergers",
+      "triples": [
+        {
+          "streetname": "Clos des Vergers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2130",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Vergers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2131",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Vergers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Vergers"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2134",
+              "@type": "tree:Node",
+              "token_string": "oloneux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment81.jsonld#2135",
+              "@type": "tree:Node",
+              "token_string": "viers"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2130",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Violoneux"
+        },
+        {
+          "streetname": "Clos des Viviers"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment81.jsonld#2133",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Violoneux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos des Viviers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "oloneux",
+      "triples": [
+        {
+          "streetname": "Clos des Violoneux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2133",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Violoneux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2134",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Violoneux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Violoneux"
+      ]
+    },
+    {
+      "token_string": "viers",
+      "triples": [
+        {
+          "streetname": "Clos des Viviers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment81.jsonld#2133",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos des Viviers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment81.jsonld#2135",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos des Viviers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos des Viviers"
+      ]
+    }
+  ]
+}

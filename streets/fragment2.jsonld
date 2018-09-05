@@ -1,0 +1,891 @@
+{
+  "root_node_id": "121",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment2.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "u ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment2.jsonld#122",
+              "@type": "tree:Node",
+              "token_string": "2ième RAC"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment2.jsonld#130",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment2.jsonld#134",
+              "@type": "tree:Node",
+              "token_string": "Pilori de Samme"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment2.jsonld#135",
+              "@type": "tree:Node",
+              "token_string": "Spinoit"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment2.jsonld#136",
+              "@type": "tree:Node",
+              "token_string": "Triage"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment2.jsonld#138",
+              "@type": "tree:Node",
+              "token_string": "Vi"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment3.jsonld#118",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Allée du 2ième RAC",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.69705003002631",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.45839838634678"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Celly",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.342154854919161",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.230702342239766"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Centre-Ardenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5880992092251347",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.596308411201385"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Centre de Vacances",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.046186180491601",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.688629824699646"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Charme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6780919781018926",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.49827423212464"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Cyclotron",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.271695373017968",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.87790400767789"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Pilori de Samme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6352898664697575",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.67420159456439"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Spinoit",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.140224342957232",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.37585260955697"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Triage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7236301843059247",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.34286106738706"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Vicinal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.866885308860643",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.995875090700174"
+        }
+      ],
+      "total_children_count": 15,
+      "@id": "streetsfragment2.jsonld#121",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée du 2ième RAC"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Celly"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Centre-Ardenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Centre de Vacances"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Charme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Cyclotron"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Pilori de Samme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Spinoit"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Triage"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Vicinal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "2ième RAC",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Allée du 2ième RAC",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.69705003002631",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.45839838634678"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment2.jsonld#121",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Allée du 2ième RAC",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.69705003002631",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.45839838634678"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment2.jsonld#122",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée du 2ième RAC"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée du 2ième RAC"
+      ]
+    },
+    {
+      "token_string": "lly",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Allée du Celly",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.342154854919161",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.230702342239766"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment2.jsonld#131",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Allée du Celly",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.342154854919161",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.230702342239766"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment2.jsonld#125",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée du Celly"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée du Celly"
+      ]
+    },
+    {
+      "token_string": "ntre",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment2.jsonld#128",
+              "@type": "tree:Node",
+              "token_string": "-Ardenne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment2.jsonld#129",
+              "@type": "tree:Node",
+              "token_string": " de Vacances"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment2.jsonld#131",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Allée du Centre-Ardenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5880992092251347",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.596308411201385"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Centre de Vacances",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.046186180491601",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.688629824699646"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment2.jsonld#127",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée du Centre-Ardenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Centre de Vacances"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "-Ardenne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Allée du Centre-Ardenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5880992092251347",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.596308411201385"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment2.jsonld#127",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Allée du Centre-Ardenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5880992092251347",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.596308411201385"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment2.jsonld#128",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée du Centre-Ardenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée du Centre-Ardenne"
+      ]
+    },
+    {
+      "token_string": " de Vacances",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Allée du Centre de Vacances",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.046186180491601",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.688629824699646"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment2.jsonld#127",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Allée du Centre de Vacances",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.046186180491601",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.688629824699646"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment2.jsonld#129",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée du Centre de Vacances"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée du Centre de Vacances"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment2.jsonld#131",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment2.jsonld#132",
+              "@type": "tree:Node",
+              "token_string": "harme"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment2.jsonld#133",
+              "@type": "tree:Node",
+              "token_string": "yclotron"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment2.jsonld#121",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Allée du Celly",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.342154854919161",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.230702342239766"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Centre-Ardenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5880992092251347",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.596308411201385"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Centre de Vacances",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.046186180491601",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.688629824699646"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Charme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6780919781018926",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.49827423212464"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Cyclotron",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.271695373017968",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.87790400767789"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "streetsfragment2.jsonld#130",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée du Celly"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Centre-Ardenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Centre de Vacances"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Charme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Cyclotron"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment2.jsonld#125",
+              "@type": "tree:Node",
+              "token_string": "lly"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment2.jsonld#127",
+              "@type": "tree:Node",
+              "token_string": "ntre"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment2.jsonld#130",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Allée du Celly",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.342154854919161",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.230702342239766"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Centre-Ardenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5880992092251347",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.596308411201385"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Centre de Vacances",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.046186180491601",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.688629824699646"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment2.jsonld#131",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée du Celly"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Centre-Ardenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Centre de Vacances"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "harme",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Allée du Charme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6780919781018926",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.49827423212464"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment2.jsonld#130",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Allée du Charme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6780919781018926",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.49827423212464"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment2.jsonld#132",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée du Charme"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée du Charme"
+      ]
+    },
+    {
+      "token_string": "yclotron",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Allée du Cyclotron",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.271695373017968",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.87790400767789"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment2.jsonld#130",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Allée du Cyclotron",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.271695373017968",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.87790400767789"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment2.jsonld#133",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée du Cyclotron"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée du Cyclotron"
+      ]
+    },
+    {
+      "token_string": "Pilori de Samme",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Allée du Pilori de Samme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6352898664697575",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.67420159456439"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment2.jsonld#121",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Allée du Pilori de Samme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6352898664697575",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.67420159456439"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment2.jsonld#134",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée du Pilori de Samme"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée du Pilori de Samme"
+      ]
+    },
+    {
+      "token_string": "Spinoit",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Allée du Spinoit",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.140224342957232",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.37585260955697"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment2.jsonld#121",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Allée du Spinoit",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.140224342957232",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.37585260955697"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment2.jsonld#135",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée du Spinoit"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée du Spinoit"
+      ]
+    },
+    {
+      "token_string": "Triage",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Allée du Triage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7236301843059247",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.34286106738706"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment2.jsonld#121",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Allée du Triage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7236301843059247",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.34286106738706"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment2.jsonld#136",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée du Triage"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée du Triage"
+      ]
+    },
+    {
+      "token_string": "Vi",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment2.jsonld#139",
+              "@type": "tree:Node",
+              "token_string": "cinal"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment2.jsonld#140",
+              "@type": "tree:Node",
+              "token_string": "eux Chêne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment2.jsonld#121",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Allée du Vicinal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.866885308860643",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.995875090700174"
+        },
+        {
+          "http://example.com/terms#name": "Allée du Vieux Chêne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.454209051418656",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.68957878929814"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment2.jsonld#138",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée du Vicinal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Allée du Vieux Chêne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "cinal",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Allée du Vicinal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.866885308860643",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.995875090700174"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment2.jsonld#138",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Allée du Vicinal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.866885308860643",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.995875090700174"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment2.jsonld#139",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée du Vicinal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée du Vicinal"
+      ]
+    },
+    {
+      "token_string": "eux Chêne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Allée du Vieux Chêne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.454209051418656",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.68957878929814"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment2.jsonld#138",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Allée du Vieux Chêne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.454209051418656",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.68957878929814"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment2.jsonld#140",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Allée du Vieux Chêne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Allée du Vieux Chêne"
+      ]
+    }
+  ]
+}

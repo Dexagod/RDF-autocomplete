@@ -1,0 +1,4444 @@
+{
+  "root_node_id": "7269",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment246.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Guilmot",
+      "triples": [
+        {
+          "streetname": "Rue Jacques Guilmot"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7262",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jacques Guilmot"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7259",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jacques Guilmot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jacques Guilmot"
+      ]
+    },
+    {
+      "token_string": "Prévert",
+      "triples": [
+        {
+          "streetname": "Rue Jacques Prévert"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7262",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jacques Prévert"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7260",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jacques Prévert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jacques Prévert"
+      ]
+    },
+    {
+      "token_string": "cques ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7259",
+              "@type": "tree:Node",
+              "token_string": "Guilmot"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7260",
+              "@type": "tree:Node",
+              "token_string": "Prévert"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7270",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jacques Guilmot"
+        },
+        {
+          "streetname": "Rue Jacques Prévert"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment246.jsonld#7262",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jacques Guilmot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jacques Prévert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rdin d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7265",
+              "@type": "tree:Node",
+              "token_string": "es Mayeurs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7266",
+              "@type": "tree:Node",
+              "token_string": "u Prince"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7270",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jardin des Mayeurs"
+        },
+        {
+          "streetname": "Rue Jardin du Prince"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment246.jsonld#7264",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jardin des Mayeurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jardin du Prince"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "es Mayeurs",
+      "triples": [
+        {
+          "streetname": "Rue Jardin des Mayeurs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7264",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jardin des Mayeurs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7265",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jardin des Mayeurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jardin des Mayeurs"
+      ]
+    },
+    {
+      "token_string": "u Prince",
+      "triples": [
+        {
+          "streetname": "Rue Jardin du Prince"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7264",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jardin du Prince"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7266",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jardin du Prince"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jardin du Prince"
+      ]
+    },
+    {
+      "token_string": "spar",
+      "triples": [
+        {
+          "streetname": "Rue Jaspar"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7270",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jaspar"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7267",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jaspar"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jaspar"
+      ]
+    },
+    {
+      "token_string": "une",
+      "triples": [
+        {
+          "streetname": "Rue Jaune"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7270",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jaune"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7268",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jaune"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jaune"
+      ]
+    },
+    {
+      "token_string": "J",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7270",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7315",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7318",
+              "@type": "tree:Node",
+              "token_string": "ijé"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7323",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7366",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment253.jsonld#7407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jacques Guilmot"
+        },
+        {
+          "streetname": "Rue Jacques Prévert"
+        },
+        {
+          "streetname": "Rue Jardin des Mayeurs"
+        },
+        {
+          "streetname": "Rue Jardin du Prince"
+        },
+        {
+          "streetname": "Rue Jaspar"
+        },
+        {
+          "streetname": "Rue Jaune"
+        },
+        {
+          "streetname": "Rue Jean Arnolds"
+        },
+        {
+          "streetname": "Rue Jean Fichefet"
+        },
+        {
+          "streetname": "Rue Jean Gol"
+        },
+        {
+          "streetname": "Rue Jean Haust"
+        }
+      ],
+      "total_children_count": 82,
+      "@id": "fragment246.jsonld#7269",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jacques Guilmot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jacques Prévert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jardin des Mayeurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jardin du Prince"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jaspar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jaune"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Arnolds"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Fichefet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Gol"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Haust"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7262",
+              "@type": "tree:Node",
+              "token_string": "cques "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7264",
+              "@type": "tree:Node",
+              "token_string": "rdin d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7267",
+              "@type": "tree:Node",
+              "token_string": "spar"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7268",
+              "@type": "tree:Node",
+              "token_string": "une"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7269",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jacques Guilmot"
+        },
+        {
+          "streetname": "Rue Jacques Prévert"
+        },
+        {
+          "streetname": "Rue Jardin des Mayeurs"
+        },
+        {
+          "streetname": "Rue Jardin du Prince"
+        },
+        {
+          "streetname": "Rue Jaspar"
+        },
+        {
+          "streetname": "Rue Jaune"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment246.jsonld#7270",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jacques Guilmot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jacques Prévert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jardin des Mayeurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jardin du Prince"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jaspar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jaune"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Carnoy",
+      "triples": [
+        {
+          "streetname": "Rue Jean-Baptiste Carnoy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7295",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean-Baptiste Carnoy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7276",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Carnoy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean-Baptiste Carnoy"
+      ]
+    },
+    {
+      "token_string": "Glorieux",
+      "triples": [
+        {
+          "streetname": "Rue Jean-Baptiste Glorieux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7295",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean-Baptiste Glorieux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7277",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Glorieux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean-Baptiste Glorieux"
+      ]
+    },
+    {
+      "token_string": "Moens",
+      "triples": [
+        {
+          "streetname": "Rue Jean-Baptiste Moens"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7295",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean-Baptiste Moens"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7278",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Moens"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean-Baptiste Moens"
+      ]
+    },
+    {
+      "token_string": "Stouffs",
+      "triples": [
+        {
+          "streetname": "Rue Jean-Baptiste Stouffs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7295",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean-Baptiste Stouffs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7279",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Stouffs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean-Baptiste Stouffs"
+      ]
+    },
+    {
+      "token_string": "Vifquain",
+      "triples": [
+        {
+          "streetname": "Rue Jean-Baptiste Vifquain"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7295",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean-Baptiste Vifquain"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7280",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Vifquain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean-Baptiste Vifquain"
+      ]
+    },
+    {
+      "token_string": "Wattiaux",
+      "triples": [
+        {
+          "streetname": "Rue Jean-Baptiste Wattiaux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7295",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean-Baptiste Wattiaux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7281",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Wattiaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean-Baptiste Wattiaux"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7283",
+              "@type": "tree:Node",
+              "token_string": "Arnolds"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7284",
+              "@type": "tree:Node",
+              "token_string": "d'Outremeuse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7285",
+              "@type": "tree:Node",
+              "token_string": "Fichefet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7286",
+              "@type": "tree:Node",
+              "token_string": "Gol"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7288",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7298",
+              "@type": "tree:Node",
+              "token_string": "L"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7304",
+              "@type": "tree:Node",
+              "token_string": "Maquoi"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7311",
+              "@type": "tree:Node",
+              "token_string": "P"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7314",
+              "@type": "tree:Node",
+              "token_string": "Winance"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7316",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Arnolds"
+        },
+        {
+          "streetname": "Rue Jean Fichefet"
+        },
+        {
+          "streetname": "Rue Jean Gol"
+        },
+        {
+          "streetname": "Rue Jean Haust"
+        },
+        {
+          "streetname": "Rue Jean Herbet"
+        },
+        {
+          "streetname": "Rue Jean Herzet"
+        },
+        {
+          "streetname": "Rue Jean Le Rond D'Alembert"
+        },
+        {
+          "streetname": "Rue Jean Locoge"
+        },
+        {
+          "streetname": "Rue Jean Maquoi"
+        },
+        {
+          "streetname": "Rue Jean Perrin"
+        }
+      ],
+      "total_children_count": 17,
+      "@id": "fragment246.jsonld#7282",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Arnolds"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Fichefet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Gol"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Haust"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Herbet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Herzet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Le Rond D'Alembert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Locoge"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Maquoi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Perrin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Arnolds",
+      "triples": [
+        {
+          "streetname": "Rue Jean Arnolds"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Arnolds"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7283",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Arnolds"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean Arnolds"
+      ]
+    },
+    {
+      "token_string": "d'Outremeuse",
+      "triples": [
+        {
+          "streetname": "Rue Jean d'Outremeuse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean d'Outremeuse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7284",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean d'Outremeuse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean d'Outremeuse"
+      ]
+    },
+    {
+      "token_string": "Fichefet",
+      "triples": [
+        {
+          "streetname": "Rue Jean Fichefet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Fichefet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7285",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Fichefet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean Fichefet"
+      ]
+    },
+    {
+      "token_string": "Gol",
+      "triples": [
+        {
+          "streetname": "Rue Jean Gol"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Gol"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7286",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Gol"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean Gol"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7289",
+              "@type": "tree:Node",
+              "token_string": "aust"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7291",
+              "@type": "tree:Node",
+              "token_string": "er"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Haust"
+        },
+        {
+          "streetname": "Rue Jean Herbet"
+        },
+        {
+          "streetname": "Rue Jean Herzet"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment246.jsonld#7288",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Haust"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Herbet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Herzet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aust",
+      "triples": [
+        {
+          "streetname": "Rue Jean Haust"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7288",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Haust"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7289",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Haust"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean Haust"
+      ]
+    },
+    {
+      "token_string": "er",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7292",
+              "@type": "tree:Node",
+              "token_string": "bet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7293",
+              "@type": "tree:Node",
+              "token_string": "zet"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7288",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Herbet"
+        },
+        {
+          "streetname": "Rue Jean Herzet"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment246.jsonld#7291",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Herbet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Herzet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bet",
+      "triples": [
+        {
+          "streetname": "Rue Jean Herbet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7291",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Herbet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7292",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Herbet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean Herbet"
+      ]
+    },
+    {
+      "token_string": "zet",
+      "triples": [
+        {
+          "streetname": "Rue Jean Herzet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7291",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Herzet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7293",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Herzet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean Herzet"
+      ]
+    },
+    {
+      "token_string": "-",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7295",
+              "@type": "tree:Node",
+              "token_string": "Baptiste "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7301",
+              "@type": "tree:Node",
+              "token_string": "L"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7308",
+              "@type": "tree:Node",
+              "token_string": "Pierre "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7316",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean-Baptiste Carnoy"
+        },
+        {
+          "streetname": "Rue Jean-Baptiste Glorieux"
+        },
+        {
+          "streetname": "Rue Jean-Baptiste Moens"
+        },
+        {
+          "streetname": "Rue Jean-Baptiste Stouffs"
+        },
+        {
+          "streetname": "Rue Jean-Baptiste Vifquain"
+        },
+        {
+          "streetname": "Rue Jean-Baptiste Wattiaux"
+        },
+        {
+          "streetname": "Rue Jean-Lambert Kepenne"
+        },
+        {
+          "streetname": "Rue Jean-Louis Paggen"
+        },
+        {
+          "streetname": "Rue Jean-Pierre de Beaulieu"
+        },
+        {
+          "streetname": "Rue Jean-Pierre Hubert"
+        }
+      ],
+      "total_children_count": 13,
+      "@id": "fragment246.jsonld#7294",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Carnoy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Glorieux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Moens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Stouffs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Vifquain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Wattiaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean-Lambert Kepenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean-Louis Paggen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean-Pierre de Beaulieu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean-Pierre Hubert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Baptiste ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7276",
+              "@type": "tree:Node",
+              "token_string": "Carnoy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7277",
+              "@type": "tree:Node",
+              "token_string": "Glorieux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7278",
+              "@type": "tree:Node",
+              "token_string": "Moens"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7279",
+              "@type": "tree:Node",
+              "token_string": "Stouffs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7280",
+              "@type": "tree:Node",
+              "token_string": "Vifquain"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7281",
+              "@type": "tree:Node",
+              "token_string": "Wattiaux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7294",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean-Baptiste Carnoy"
+        },
+        {
+          "streetname": "Rue Jean-Baptiste Glorieux"
+        },
+        {
+          "streetname": "Rue Jean-Baptiste Moens"
+        },
+        {
+          "streetname": "Rue Jean-Baptiste Stouffs"
+        },
+        {
+          "streetname": "Rue Jean-Baptiste Vifquain"
+        },
+        {
+          "streetname": "Rue Jean-Baptiste Wattiaux"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment246.jsonld#7295",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Carnoy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Glorieux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Moens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Stouffs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Vifquain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean-Baptiste Wattiaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "L",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7299",
+              "@type": "tree:Node",
+              "token_string": "e Rond D'Alembert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7300",
+              "@type": "tree:Node",
+              "token_string": "ocoge"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Le Rond D'Alembert"
+        },
+        {
+          "streetname": "Rue Jean Locoge"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment246.jsonld#7298",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Le Rond D'Alembert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Locoge"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e Rond D'Alembert",
+      "triples": [
+        {
+          "streetname": "Rue Jean Le Rond D'Alembert"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7298",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Le Rond D'Alembert"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7299",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Le Rond D'Alembert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean Le Rond D'Alembert"
+      ]
+    },
+    {
+      "token_string": "ocoge",
+      "triples": [
+        {
+          "streetname": "Rue Jean Locoge"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7298",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Locoge"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7300",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Locoge"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean Locoge"
+      ]
+    },
+    {
+      "token_string": "L",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7302",
+              "@type": "tree:Node",
+              "token_string": "ambert Kepenne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7303",
+              "@type": "tree:Node",
+              "token_string": "ouis Paggen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7294",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean-Lambert Kepenne"
+        },
+        {
+          "streetname": "Rue Jean-Louis Paggen"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment246.jsonld#7301",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean-Lambert Kepenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean-Louis Paggen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ambert Kepenne",
+      "triples": [
+        {
+          "streetname": "Rue Jean-Lambert Kepenne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7301",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean-Lambert Kepenne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7302",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean-Lambert Kepenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean-Lambert Kepenne"
+      ]
+    },
+    {
+      "token_string": "ouis Paggen",
+      "triples": [
+        {
+          "streetname": "Rue Jean-Louis Paggen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7301",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean-Louis Paggen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7303",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean-Louis Paggen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean-Louis Paggen"
+      ]
+    },
+    {
+      "token_string": "Maquoi",
+      "triples": [
+        {
+          "streetname": "Rue Jean Maquoi"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Maquoi"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7304",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Maquoi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean Maquoi"
+      ]
+    },
+    {
+      "token_string": "ne Renotte",
+      "triples": [
+        {
+          "streetname": "Rue Jeanne Renotte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7316",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jeanne Renotte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7305",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jeanne Renotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jeanne Renotte"
+      ]
+    },
+    {
+      "token_string": "Pierre ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7309",
+              "@type": "tree:Node",
+              "token_string": "de Beaulieu"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7310",
+              "@type": "tree:Node",
+              "token_string": "Hubert"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7294",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean-Pierre de Beaulieu"
+        },
+        {
+          "streetname": "Rue Jean-Pierre Hubert"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment246.jsonld#7308",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean-Pierre de Beaulieu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean-Pierre Hubert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "de Beaulieu",
+      "triples": [
+        {
+          "streetname": "Rue Jean-Pierre de Beaulieu"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7308",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean-Pierre de Beaulieu"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7309",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean-Pierre de Beaulieu"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean-Pierre de Beaulieu"
+      ]
+    },
+    {
+      "token_string": "Hubert",
+      "triples": [
+        {
+          "streetname": "Rue Jean-Pierre Hubert"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7308",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean-Pierre Hubert"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7310",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean-Pierre Hubert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean-Pierre Hubert"
+      ]
+    },
+    {
+      "token_string": "P",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7312",
+              "@type": "tree:Node",
+              "token_string": "errin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7313",
+              "@type": "tree:Node",
+              "token_string": "otier"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Perrin"
+        },
+        {
+          "streetname": "Rue Jean Potier"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment246.jsonld#7311",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Perrin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Potier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "errin",
+      "triples": [
+        {
+          "streetname": "Rue Jean Perrin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7311",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Perrin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7312",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Perrin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean Perrin"
+      ]
+    },
+    {
+      "token_string": "otier",
+      "triples": [
+        {
+          "streetname": "Rue Jean Potier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7311",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Potier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7313",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Potier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean Potier"
+      ]
+    },
+    {
+      "token_string": "Winance",
+      "triples": [
+        {
+          "streetname": "Rue Jean Winance"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7282",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Winance"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7314",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Winance"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jean Winance"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7316",
+              "@type": "tree:Node",
+              "token_string": "an"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7317",
+              "@type": "tree:Node",
+              "token_string": "f Ulburghs"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7269",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Arnolds"
+        },
+        {
+          "streetname": "Rue Jean Fichefet"
+        },
+        {
+          "streetname": "Rue Jean Gol"
+        },
+        {
+          "streetname": "Rue Jean Haust"
+        },
+        {
+          "streetname": "Rue Jean Herbet"
+        },
+        {
+          "streetname": "Rue Jean Herzet"
+        },
+        {
+          "streetname": "Rue Jean Le Rond D'Alembert"
+        },
+        {
+          "streetname": "Rue Jean Locoge"
+        },
+        {
+          "streetname": "Rue Jean Maquoi"
+        },
+        {
+          "streetname": "Rue Jean Perrin"
+        }
+      ],
+      "total_children_count": 35,
+      "@id": "fragment246.jsonld#7315",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Arnolds"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Fichefet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Gol"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Haust"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Herbet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Herzet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Le Rond D'Alembert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Locoge"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Maquoi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Perrin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "an",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7282",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7294",
+              "@type": "tree:Node",
+              "token_string": "-"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7305",
+              "@type": "tree:Node",
+              "token_string": "ne Renotte"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7315",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jean Arnolds"
+        },
+        {
+          "streetname": "Rue Jean Fichefet"
+        },
+        {
+          "streetname": "Rue Jean Gol"
+        },
+        {
+          "streetname": "Rue Jean Haust"
+        },
+        {
+          "streetname": "Rue Jean Herbet"
+        },
+        {
+          "streetname": "Rue Jean Herzet"
+        },
+        {
+          "streetname": "Rue Jean Le Rond D'Alembert"
+        },
+        {
+          "streetname": "Rue Jean Locoge"
+        },
+        {
+          "streetname": "Rue Jean Maquoi"
+        },
+        {
+          "streetname": "Rue Jean Perrin"
+        }
+      ],
+      "total_children_count": 33,
+      "@id": "fragment246.jsonld#7316",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jean Arnolds"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Fichefet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Gol"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Haust"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Herbet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Herzet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Le Rond D'Alembert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Locoge"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Maquoi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jean Perrin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "f Ulburghs",
+      "triples": [
+        {
+          "streetname": "Rue Jef Ulburghs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7315",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jef Ulburghs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7317",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jef Ulburghs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jef Ulburghs"
+      ]
+    },
+    {
+      "token_string": "ijé",
+      "triples": [
+        {
+          "streetname": "Rue Jijé"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7269",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jijé"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7318",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jijé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jijé"
+      ]
+    },
+    {
+      "token_string": "Gutenberg",
+      "triples": [
+        {
+          "streetname": "Rue Johannes Gutenberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7324",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Johannes Gutenberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7321",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Johannes Gutenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Johannes Gutenberg"
+      ]
+    },
+    {
+      "token_string": "Kepler",
+      "triples": [
+        {
+          "streetname": "Rue Johannes Kepler"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7324",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Johannes Kepler"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7322",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Johannes Kepler"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Johannes Kepler"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7324",
+              "@type": "tree:Node",
+              "token_string": "hannes "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7333",
+              "@type": "tree:Node",
+              "token_string": "s"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7269",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Johannes Gutenberg"
+        },
+        {
+          "streetname": "Rue Johannes Kepler"
+        },
+        {
+          "streetname": "Rue Joseph Dujardin"
+        },
+        {
+          "streetname": "Rue Joseph Gaube"
+        },
+        {
+          "streetname": "Rue Joseph Gélis"
+        },
+        {
+          "streetname": "Rue Joseph Hanse"
+        },
+        {
+          "streetname": "Rue Joseph Lauwers"
+        },
+        {
+          "streetname": "Rue Joseph Luns"
+        },
+        {
+          "streetname": "Rue Joseph Petitjean"
+        },
+        {
+          "streetname": "Rue Joseph Poutrain"
+        }
+      ],
+      "total_children_count": 19,
+      "@id": "fragment246.jsonld#7323",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Johannes Gutenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Johannes Kepler"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Dujardin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Gaube"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Gélis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Hanse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Lauwers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Luns"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Petitjean"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Poutrain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "hannes ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7321",
+              "@type": "tree:Node",
+              "token_string": "Gutenberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7322",
+              "@type": "tree:Node",
+              "token_string": "Kepler"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7323",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Johannes Gutenberg"
+        },
+        {
+          "streetname": "Rue Johannes Kepler"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment246.jsonld#7324",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Johannes Gutenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Johannes Kepler"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Dujardin",
+      "triples": [
+        {
+          "streetname": "Rue Joseph Dujardin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7341",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Joseph Dujardin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7327",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Joseph Dujardin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Joseph Dujardin"
+      ]
+    },
+    {
+      "token_string": "G",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7330",
+              "@type": "tree:Node",
+              "token_string": "aube"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7331",
+              "@type": "tree:Node",
+              "token_string": "élis"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7341",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Joseph Gaube"
+        },
+        {
+          "streetname": "Rue Joseph Gélis"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment246.jsonld#7329",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Joseph Gaube"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Gélis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aube",
+      "triples": [
+        {
+          "streetname": "Rue Joseph Gaube"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7329",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Joseph Gaube"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7330",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Joseph Gaube"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Joseph Gaube"
+      ]
+    },
+    {
+      "token_string": "élis",
+      "triples": [
+        {
+          "streetname": "Rue Joseph Gélis"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7329",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Joseph Gélis"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7331",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Joseph Gélis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Joseph Gélis"
+      ]
+    },
+    {
+      "token_string": "Hanse",
+      "triples": [
+        {
+          "streetname": "Rue Joseph Hanse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7341",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Joseph Hanse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7332",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Joseph Hanse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Joseph Hanse"
+      ]
+    },
+    {
+      "token_string": "s",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7335",
+              "@type": "tree:Node",
+              "token_string": "éphine Oury"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7340",
+              "@type": "tree:Node",
+              "token_string": "eph"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7323",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Joseph Dujardin"
+        },
+        {
+          "streetname": "Rue Joseph Gaube"
+        },
+        {
+          "streetname": "Rue Joseph Gélis"
+        },
+        {
+          "streetname": "Rue Joseph Hanse"
+        },
+        {
+          "streetname": "Rue Joséphine Oury"
+        },
+        {
+          "streetname": "Rue Joseph Lauwers"
+        },
+        {
+          "streetname": "Rue Joseph Luns"
+        },
+        {
+          "streetname": "Rue Joseph-Marie de Vismes"
+        },
+        {
+          "streetname": "Rue Joseph Petitjean"
+        },
+        {
+          "streetname": "Rue Joseph Poutrain"
+        }
+      ],
+      "total_children_count": 15,
+      "@id": "fragment246.jsonld#7333",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Joseph Dujardin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Gaube"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Gélis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Hanse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joséphine Oury"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Lauwers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Luns"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph-Marie de Vismes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Petitjean"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Poutrain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "éphine Oury",
+      "triples": [
+        {
+          "streetname": "Rue Joséphine Oury"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7333",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Joséphine Oury"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7335",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Joséphine Oury"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Joséphine Oury"
+      ]
+    },
+    {
+      "token_string": "L",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7338",
+              "@type": "tree:Node",
+              "token_string": "auwers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7339",
+              "@type": "tree:Node",
+              "token_string": "uns"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7341",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Joseph Lauwers"
+        },
+        {
+          "streetname": "Rue Joseph Luns"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment246.jsonld#7337",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Joseph Lauwers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Luns"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "auwers",
+      "triples": [
+        {
+          "streetname": "Rue Joseph Lauwers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7337",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Joseph Lauwers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7338",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Joseph Lauwers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Joseph Lauwers"
+      ]
+    },
+    {
+      "token_string": "uns",
+      "triples": [
+        {
+          "streetname": "Rue Joseph Luns"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7337",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Joseph Luns"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7339",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Joseph Luns"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Joseph Luns"
+      ]
+    },
+    {
+      "token_string": "eph",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7341",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7342",
+              "@type": "tree:Node",
+              "token_string": "-Marie de Vismes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7333",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Joseph Dujardin"
+        },
+        {
+          "streetname": "Rue Joseph Gaube"
+        },
+        {
+          "streetname": "Rue Joseph Gélis"
+        },
+        {
+          "streetname": "Rue Joseph Hanse"
+        },
+        {
+          "streetname": "Rue Joseph Lauwers"
+        },
+        {
+          "streetname": "Rue Joseph Luns"
+        },
+        {
+          "streetname": "Rue Joseph-Marie de Vismes"
+        },
+        {
+          "streetname": "Rue Joseph Petitjean"
+        },
+        {
+          "streetname": "Rue Joseph Poutrain"
+        }
+      ],
+      "total_children_count": 13,
+      "@id": "fragment246.jsonld#7340",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Joseph Dujardin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Gaube"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Gélis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Hanse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Lauwers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Luns"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph-Marie de Vismes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Petitjean"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Poutrain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7327",
+              "@type": "tree:Node",
+              "token_string": "Dujardin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7329",
+              "@type": "tree:Node",
+              "token_string": "G"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7332",
+              "@type": "tree:Node",
+              "token_string": "Hanse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7337",
+              "@type": "tree:Node",
+              "token_string": "L"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7344",
+              "@type": "tree:Node",
+              "token_string": "P"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7340",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Joseph Dujardin"
+        },
+        {
+          "streetname": "Rue Joseph Gaube"
+        },
+        {
+          "streetname": "Rue Joseph Gélis"
+        },
+        {
+          "streetname": "Rue Joseph Hanse"
+        },
+        {
+          "streetname": "Rue Joseph Lauwers"
+        },
+        {
+          "streetname": "Rue Joseph Luns"
+        },
+        {
+          "streetname": "Rue Joseph Petitjean"
+        },
+        {
+          "streetname": "Rue Joseph Poutrain"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "fragment246.jsonld#7341",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Joseph Dujardin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Gaube"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Gélis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Hanse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Lauwers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Luns"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Petitjean"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Poutrain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "-Marie de Vismes",
+      "triples": [
+        {
+          "streetname": "Rue Joseph-Marie de Vismes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7340",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Joseph-Marie de Vismes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7342",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Joseph-Marie de Vismes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Joseph-Marie de Vismes"
+      ]
+    },
+    {
+      "token_string": "P",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7345",
+              "@type": "tree:Node",
+              "token_string": "etitjean"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7346",
+              "@type": "tree:Node",
+              "token_string": "outrain"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7341",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Joseph Petitjean"
+        },
+        {
+          "streetname": "Rue Joseph Poutrain"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment246.jsonld#7344",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Joseph Petitjean"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Joseph Poutrain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "etitjean",
+      "triples": [
+        {
+          "streetname": "Rue Joseph Petitjean"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7344",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Joseph Petitjean"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7345",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Joseph Petitjean"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Joseph Petitjean"
+      ]
+    },
+    {
+      "token_string": "outrain",
+      "triples": [
+        {
+          "streetname": "Rue Joseph Poutrain"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7344",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Joseph Poutrain"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7346",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Joseph Poutrain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Joseph Poutrain"
+      ]
+    },
+    {
+      "token_string": "Cuvelier",
+      "triples": [
+        {
+          "streetname": "Rue Jules Cuvelier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7361",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jules Cuvelier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7349",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jules Cuvelier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jules Cuvelier"
+      ]
+    },
+    {
+      "token_string": "Doumont",
+      "triples": [
+        {
+          "streetname": "Rue Jules Doumont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7361",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jules Doumont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7350",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jules Doumont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jules Doumont"
+      ]
+    },
+    {
+      "token_string": "Metz",
+      "triples": [
+        {
+          "streetname": "Rue Jules Metz"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7361",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jules Metz"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7351",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jules Metz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jules Metz"
+      ]
+    },
+    {
+      "token_string": "R",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7354",
+              "@type": "tree:Node",
+              "token_string": "egnier"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7355",
+              "@type": "tree:Node",
+              "token_string": "uhl"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7361",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jules Regnier"
+        },
+        {
+          "streetname": "Rue Jules Ruhl"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment246.jsonld#7353",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jules Regnier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Ruhl"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "egnier",
+      "triples": [
+        {
+          "streetname": "Rue Jules Regnier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7353",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jules Regnier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7354",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jules Regnier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jules Regnier"
+      ]
+    },
+    {
+      "token_string": "uhl",
+      "triples": [
+        {
+          "streetname": "Rue Jules Ruhl"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7353",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jules Ruhl"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7355",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jules Ruhl"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jules Ruhl"
+      ]
+    },
+    {
+      "token_string": "Sch",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7358",
+              "@type": "tree:Node",
+              "token_string": "elstraete"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7359",
+              "@type": "tree:Node",
+              "token_string": "mitz"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7361",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jules Schelstraete"
+        },
+        {
+          "streetname": "Rue Jules Schmitz"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment246.jsonld#7357",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jules Schelstraete"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Schmitz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "elstraete",
+      "triples": [
+        {
+          "streetname": "Rue Jules Schelstraete"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7357",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jules Schelstraete"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7358",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jules Schelstraete"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jules Schelstraete"
+      ]
+    },
+    {
+      "token_string": "mitz",
+      "triples": [
+        {
+          "streetname": "Rue Jules Schmitz"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7357",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jules Schmitz"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7359",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jules Schmitz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Jules Schmitz"
+      ]
+    },
+    {
+      "token_string": "es ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7349",
+              "@type": "tree:Node",
+              "token_string": "Cuvelier"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7350",
+              "@type": "tree:Node",
+              "token_string": "Doumont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7351",
+              "@type": "tree:Node",
+              "token_string": "Metz"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7353",
+              "@type": "tree:Node",
+              "token_string": "R"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7357",
+              "@type": "tree:Node",
+              "token_string": "Sch"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7367",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jules Cuvelier"
+        },
+        {
+          "streetname": "Rue Jules Doumont"
+        },
+        {
+          "streetname": "Rue Jules Metz"
+        },
+        {
+          "streetname": "Rue Jules Regnier"
+        },
+        {
+          "streetname": "Rue Jules Ruhl"
+        },
+        {
+          "streetname": "Rue Jules Schelstraete"
+        },
+        {
+          "streetname": "Rue Jules Schmitz"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "fragment246.jsonld#7361",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jules Cuvelier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Doumont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Metz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Regnier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Ruhl"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Schelstraete"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Schmitz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ie",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7364",
+              "@type": "tree:Node",
+              "token_string": " Dessy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7365",
+              "@type": "tree:Node",
+              "token_string": "n Lahaut"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7367",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Julie Dessy"
+        },
+        {
+          "streetname": "Rue Julien Lahaut"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment246.jsonld#7363",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Julie Dessy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Julien Lahaut"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Dessy",
+      "triples": [
+        {
+          "streetname": "Rue Julie Dessy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7363",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Julie Dessy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7364",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Julie Dessy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Julie Dessy"
+      ]
+    },
+    {
+      "token_string": "n Lahaut",
+      "triples": [
+        {
+          "streetname": "Rue Julien Lahaut"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7363",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Julien Lahaut"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7365",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Julien Lahaut"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Julien Lahaut"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7367",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7368",
+              "@type": "tree:Node",
+              "token_string": "stin Bruyenne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7269",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jules Cuvelier"
+        },
+        {
+          "streetname": "Rue Jules Doumont"
+        },
+        {
+          "streetname": "Rue Jules Metz"
+        },
+        {
+          "streetname": "Rue Jules Regnier"
+        },
+        {
+          "streetname": "Rue Jules Ruhl"
+        },
+        {
+          "streetname": "Rue Jules Schelstraete"
+        },
+        {
+          "streetname": "Rue Jules Schmitz"
+        },
+        {
+          "streetname": "Rue Julie Dessy"
+        },
+        {
+          "streetname": "Rue Julien Lahaut"
+        },
+        {
+          "streetname": "Rue Justin Bruyenne"
+        }
+      ],
+      "total_children_count": 15,
+      "@id": "fragment246.jsonld#7366",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jules Cuvelier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Doumont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Metz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Regnier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Ruhl"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Schelstraete"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Schmitz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Julie Dessy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Julien Lahaut"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Justin Bruyenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7361",
+              "@type": "tree:Node",
+              "token_string": "es "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment246.jsonld#7363",
+              "@type": "tree:Node",
+              "token_string": "ie"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7366",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Jules Cuvelier"
+        },
+        {
+          "streetname": "Rue Jules Doumont"
+        },
+        {
+          "streetname": "Rue Jules Metz"
+        },
+        {
+          "streetname": "Rue Jules Regnier"
+        },
+        {
+          "streetname": "Rue Jules Ruhl"
+        },
+        {
+          "streetname": "Rue Jules Schelstraete"
+        },
+        {
+          "streetname": "Rue Jules Schmitz"
+        },
+        {
+          "streetname": "Rue Julie Dessy"
+        },
+        {
+          "streetname": "Rue Julien Lahaut"
+        }
+      ],
+      "total_children_count": 13,
+      "@id": "fragment246.jsonld#7367",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Jules Cuvelier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Doumont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Metz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Regnier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Ruhl"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Schelstraete"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Jules Schmitz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Julie Dessy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Julien Lahaut"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "stin Bruyenne",
+      "triples": [
+        {
+          "streetname": "Rue Justin Bruyenne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment246.jsonld#7366",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue Justin Bruyenne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment246.jsonld#7368",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Justin Bruyenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Justin Bruyenne"
+      ]
+    }
+  ]
+}

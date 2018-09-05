@@ -1,0 +1,3145 @@
+{
+  "root_node_id": "8961",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment293.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Buche",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Alten Buche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.829924963409779",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.96057723681213"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8962",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Alten Buche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.829924963409779",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.96057723681213"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8958",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Alten Buche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Alten Buche"
+      ]
+    },
+    {
+      "token_string": "Molkerei",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Alten Molkerei",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0820505420462947",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.18272164606358"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8962",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Alten Molkerei",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0820505420462947",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.18272164606358"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8959",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Alten Molkerei"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Alten Molkerei"
+      ]
+    },
+    {
+      "token_string": "Schule",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Alten Schule",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.642966415915637",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.444584219019255"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8962",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Alten Schule",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.642966415915637",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.444584219019255"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8960",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Alten Schule"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Alten Schule"
+      ]
+    },
+    {
+      "token_string": "r ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8962",
+              "@type": "tree:Node",
+              "token_string": "Alten "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8964",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8969",
+              "@type": "tree:Node",
+              "token_string": "Domäne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8974",
+              "@type": "tree:Node",
+              "token_string": "Ei"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8977",
+              "@type": "tree:Node",
+              "token_string": "Gewandel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8984",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8999",
+              "@type": "tree:Node",
+              "token_string": "K"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9003",
+              "@type": "tree:Node",
+              "token_string": "Le"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9007",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9011",
+              "@type": "tree:Node",
+              "token_string": "N"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9015",
+              "@type": "tree:Node",
+              "token_string": "O"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9022",
+              "@type": "tree:Node",
+              "token_string": "R"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9025",
+              "@type": "tree:Node",
+              "token_string": "runden Heide"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9030",
+              "@type": "tree:Node",
+              "token_string": "S"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9036",
+              "@type": "tree:Node",
+              "token_string": "Weddem"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment291.jsonld#8867",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Alten Buche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.829924963409779",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.96057723681213"
+        },
+        {
+          "http://example.com/terms#name": "Zur Alten Molkerei",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0820505420462947",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.18272164606358"
+        },
+        {
+          "http://example.com/terms#name": "Zur Alten Schule",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.642966415915637",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.444584219019255"
+        },
+        {
+          "http://example.com/terms#name": "Zur Bannmühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9863580468989426",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.63497488698614"
+        },
+        {
+          "http://example.com/terms#name": "Zur Berkaul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.221644671045717",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.675362929794034"
+        },
+        {
+          "http://example.com/terms#name": "Zur Breitenbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9440211289876075",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.736073510956835"
+        },
+        {
+          "http://example.com/terms#name": "Zur Burg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.368667504618672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.585630566417656"
+        },
+        {
+          "http://example.com/terms#name": "Zur Domäne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8165794762544234",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.7132918076091"
+        },
+        {
+          "http://example.com/terms#name": "Zur Eichenheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.341828738433914",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.28602060242091"
+        },
+        {
+          "http://example.com/terms#name": "Zur Eicht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3448492891515174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.019820209555995"
+        }
+      ],
+      "total_children_count": 60,
+      "@id": "streetsfragment293.jsonld#8961",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Alten Buche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Alten Molkerei"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Alten Schule"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Bannmühle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Berkaul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Breitenbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Burg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Domäne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Eichenheck"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Eicht"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Alten ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8958",
+              "@type": "tree:Node",
+              "token_string": "Buche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8959",
+              "@type": "tree:Node",
+              "token_string": "Molkerei"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8960",
+              "@type": "tree:Node",
+              "token_string": "Schule"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Alten Buche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.829924963409779",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.96057723681213"
+        },
+        {
+          "http://example.com/terms#name": "Zur Alten Molkerei",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0820505420462947",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.18272164606358"
+        },
+        {
+          "http://example.com/terms#name": "Zur Alten Schule",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.642966415915637",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.444584219019255"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment293.jsonld#8962",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Alten Buche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Alten Molkerei"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Alten Schule"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8965",
+              "@type": "tree:Node",
+              "token_string": "annmühle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8966",
+              "@type": "tree:Node",
+              "token_string": "erkaul"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8967",
+              "@type": "tree:Node",
+              "token_string": "reitenbach"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8968",
+              "@type": "tree:Node",
+              "token_string": "urg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Bannmühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9863580468989426",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.63497488698614"
+        },
+        {
+          "http://example.com/terms#name": "Zur Berkaul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.221644671045717",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.675362929794034"
+        },
+        {
+          "http://example.com/terms#name": "Zur Breitenbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9440211289876075",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.736073510956835"
+        },
+        {
+          "http://example.com/terms#name": "Zur Burg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.368667504618672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.585630566417656"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment293.jsonld#8964",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Bannmühle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Berkaul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Breitenbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Burg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "annmühle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Bannmühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9863580468989426",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.63497488698614"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8964",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Bannmühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9863580468989426",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.63497488698614"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8965",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Bannmühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Bannmühle"
+      ]
+    },
+    {
+      "token_string": "erkaul",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Berkaul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.221644671045717",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.675362929794034"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8964",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Berkaul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.221644671045717",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.675362929794034"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8966",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Berkaul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Berkaul"
+      ]
+    },
+    {
+      "token_string": "reitenbach",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Breitenbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9440211289876075",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.736073510956835"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8964",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Breitenbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9440211289876075",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.736073510956835"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8967",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Breitenbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Breitenbach"
+      ]
+    },
+    {
+      "token_string": "urg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Burg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.368667504618672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.585630566417656"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8964",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Burg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.368667504618672",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.585630566417656"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8968",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Burg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Burg"
+      ]
+    },
+    {
+      "token_string": "Domäne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Domäne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8165794762544234",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.7132918076091"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Domäne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8165794762544234",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.7132918076091"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8969",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Domäne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Domäne"
+      ]
+    },
+    {
+      "token_string": "enheck",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Eichenheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.341828738433914",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.28602060242091"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8975",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Eichenheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.341828738433914",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.28602060242091"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8972",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Eichenheck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Eichenheck"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Eicht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3448492891515174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.019820209555995"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8975",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Eicht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3448492891515174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.019820209555995"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8973",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Eicht"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Eicht"
+      ]
+    },
+    {
+      "token_string": "Ei",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8975",
+              "@type": "tree:Node",
+              "token_string": "ch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8976",
+              "@type": "tree:Node",
+              "token_string": "dt"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Eichenheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.341828738433914",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.28602060242091"
+        },
+        {
+          "http://example.com/terms#name": "Zur Eicht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3448492891515174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.019820209555995"
+        },
+        {
+          "http://example.com/terms#name": "Zur Eidt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.657836293094781",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39006787428105"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment293.jsonld#8974",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Eichenheck"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Eicht"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Eidt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ch",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8972",
+              "@type": "tree:Node",
+              "token_string": "enheck"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8973",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8974",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Eichenheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.341828738433914",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.28602060242091"
+        },
+        {
+          "http://example.com/terms#name": "Zur Eicht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3448492891515174",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.019820209555995"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment293.jsonld#8975",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Eichenheck"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Eicht"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "dt",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Eidt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.657836293094781",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39006787428105"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8974",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Eidt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.657836293094781",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39006787428105"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8976",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Eidt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Eidt"
+      ]
+    },
+    {
+      "token_string": "Gewandel",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Gewandel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0043789403563834",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5549123895626"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Gewandel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0043789403563834",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.5549123895626"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8977",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Gewandel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Gewandel"
+      ]
+    },
+    {
+      "token_string": "hnendell",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Hahnendell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.062631797403283",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.42357126934275"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8985",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Hahnendell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.062631797403283",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.42357126934275"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8980",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hahnendell"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Hahnendell"
+      ]
+    },
+    {
+      "token_string": "llbacher Mühle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Hallbacher Mühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.561649106605821",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.09260260218437"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8985",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Hallbacher Mühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.561649106605821",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.09260260218437"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8981",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hallbacher Mühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Hallbacher Mühle"
+      ]
+    },
+    {
+      "token_string": "rdt",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Hardt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.43006244085161",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.59793243831399"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8985",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Hardt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.43006244085161",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.59793243831399"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8982",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hardt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Hardt"
+      ]
+    },
+    {
+      "token_string": "sendelle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Hasendelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.24223463798763",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.759170686986266"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8985",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Hasendelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.24223463798763",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.759170686986266"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8983",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hasendelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Hasendelle"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8985",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8987",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8990",
+              "@type": "tree:Node",
+              "token_string": "olzwarche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8995",
+              "@type": "tree:Node",
+              "token_string": "ü"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Hahnendell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.062631797403283",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.42357126934275"
+        },
+        {
+          "http://example.com/terms#name": "Zur Hallbacher Mühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.561649106605821",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.09260260218437"
+        },
+        {
+          "http://example.com/terms#name": "Zur Hardt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.43006244085161",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.59793243831399"
+        },
+        {
+          "http://example.com/terms#name": "Zur Hasendelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.24223463798763",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.759170686986266"
+        },
+        {
+          "http://example.com/terms#name": "Zur Heide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0918534031535927",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.637635144739846"
+        },
+        {
+          "http://example.com/terms#name": "Zur Held",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.379891467154273",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.54188952863843"
+        },
+        {
+          "http://example.com/terms#name": "Zur Holzwarche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.526386070517893",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52188004800861"
+        },
+        {
+          "http://example.com/terms#name": "Zur Hüll",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1640676802421197",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.595082842290694"
+        },
+        {
+          "http://example.com/terms#name": "Zur Hülsburg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7726373962971005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.918767740428805"
+        },
+        {
+          "http://example.com/terms#name": "Zur Hütte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3424502012942985",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.332249488070865"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "streetsfragment293.jsonld#8984",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hahnendell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hallbacher Mühle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hardt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hasendelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Heide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Held"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Holzwarche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hüll"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hülsburg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hütte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8980",
+              "@type": "tree:Node",
+              "token_string": "hnendell"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8981",
+              "@type": "tree:Node",
+              "token_string": "llbacher Mühle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8982",
+              "@type": "tree:Node",
+              "token_string": "rdt"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8983",
+              "@type": "tree:Node",
+              "token_string": "sendelle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8984",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Hahnendell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.062631797403283",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.42357126934275"
+        },
+        {
+          "http://example.com/terms#name": "Zur Hallbacher Mühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.561649106605821",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.09260260218437"
+        },
+        {
+          "http://example.com/terms#name": "Zur Hardt",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.43006244085161",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.59793243831399"
+        },
+        {
+          "http://example.com/terms#name": "Zur Hasendelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.24223463798763",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.759170686986266"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment293.jsonld#8985",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hahnendell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hallbacher Mühle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hardt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hasendelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8988",
+              "@type": "tree:Node",
+              "token_string": "ide"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8989",
+              "@type": "tree:Node",
+              "token_string": "ld"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8984",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Heide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0918534031535927",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.637635144739846"
+        },
+        {
+          "http://example.com/terms#name": "Zur Held",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.379891467154273",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.54188952863843"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment293.jsonld#8987",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Heide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Held"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ide",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Heide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0918534031535927",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.637635144739846"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8987",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Heide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0918534031535927",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.637635144739846"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8988",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Heide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Heide"
+      ]
+    },
+    {
+      "token_string": "ld",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Held",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.379891467154273",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.54188952863843"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8987",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Held",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.379891467154273",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.54188952863843"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8989",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Held"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Held"
+      ]
+    },
+    {
+      "token_string": "olzwarche",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Holzwarche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.526386070517893",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52188004800861"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8984",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Holzwarche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.526386070517893",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.52188004800861"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8990",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Holzwarche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Holzwarche"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Hüll",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1640676802421197",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.595082842290694"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8996",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Hüll",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1640676802421197",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.595082842290694"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8993",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hüll"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Hüll"
+      ]
+    },
+    {
+      "token_string": "sburg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Hülsburg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7726373962971005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.918767740428805"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8996",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Hülsburg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7726373962971005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.918767740428805"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8994",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hülsburg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Hülsburg"
+      ]
+    },
+    {
+      "token_string": "ü",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8996",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8997",
+              "@type": "tree:Node",
+              "token_string": "tte"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8984",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Hüll",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1640676802421197",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.595082842290694"
+        },
+        {
+          "http://example.com/terms#name": "Zur Hülsburg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7726373962971005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.918767740428805"
+        },
+        {
+          "http://example.com/terms#name": "Zur Hütte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3424502012942985",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.332249488070865"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment293.jsonld#8995",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hüll"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hülsburg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hütte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8993",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#8994",
+              "@type": "tree:Node",
+              "token_string": "sburg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8995",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Hüll",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1640676802421197",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.595082842290694"
+        },
+        {
+          "http://example.com/terms#name": "Zur Hülsburg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7726373962971005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.918767740428805"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment293.jsonld#8996",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hüll"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Hülsburg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "tte",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Hütte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3424502012942985",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.332249488070865"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8995",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Hütte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3424502012942985",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.332249488070865"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#8997",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Hütte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Hütte"
+      ]
+    },
+    {
+      "token_string": "K",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9000",
+              "@type": "tree:Node",
+              "token_string": "aiserbaracke"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9001",
+              "@type": "tree:Node",
+              "token_string": "leinen Hecke"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Kaiserbaracke",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.433960895408913",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.45288229538251"
+        },
+        {
+          "http://example.com/terms#name": "Zur Kleinen Hecke",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8469124586635264",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.42692237332075"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment293.jsonld#8999",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Kaiserbaracke"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Kleinen Hecke"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aiserbaracke",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Kaiserbaracke",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.433960895408913",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.45288229538251"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8999",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Kaiserbaracke",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.433960895408913",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.45288229538251"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9000",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Kaiserbaracke"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Kaiserbaracke"
+      ]
+    },
+    {
+      "token_string": "leinen Hecke",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Kleinen Hecke",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8469124586635264",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.42692237332075"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8999",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Kleinen Hecke",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8469124586635264",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.42692237332075"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9001",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Kleinen Hecke"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Kleinen Hecke"
+      ]
+    },
+    {
+      "token_string": "Le",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9004",
+              "@type": "tree:Node",
+              "token_string": "hmkaul"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9005",
+              "@type": "tree:Node",
+              "token_string": "y"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Lehmkaul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.276343644490727",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31715833282352"
+        },
+        {
+          "http://example.com/terms#name": "Zur Ley",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5417672073893685",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.91195308123433"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment293.jsonld#9003",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Lehmkaul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Ley"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "hmkaul",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Lehmkaul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.276343644490727",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31715833282352"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9003",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Lehmkaul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.276343644490727",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31715833282352"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9004",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Lehmkaul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Lehmkaul"
+      ]
+    },
+    {
+      "token_string": "y",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Ley",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5417672073893685",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.91195308123433"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9003",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Ley",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5417672073893685",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.91195308123433"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9005",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Ley"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Ley"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9008",
+              "@type": "tree:Node",
+              "token_string": "orsheck"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9009",
+              "@type": "tree:Node",
+              "token_string": "ühle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Morsheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7526081340494533",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.18327242214405"
+        },
+        {
+          "http://example.com/terms#name": "Zur Mühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8421602343720656",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.375039704284944"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment293.jsonld#9007",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Morsheck"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Mühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "orsheck",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Morsheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7526081340494533",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.18327242214405"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9007",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Morsheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7526081340494533",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.18327242214405"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9008",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Morsheck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Morsheck"
+      ]
+    },
+    {
+      "token_string": "ühle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Mühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8421602343720656",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.375039704284944"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9007",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Mühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8421602343720656",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.375039704284944"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9009",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Mühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Mühle"
+      ]
+    },
+    {
+      "token_string": "N",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9012",
+              "@type": "tree:Node",
+              "token_string": "eumühle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9013",
+              "@type": "tree:Node",
+              "token_string": "ohn"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Neumühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1513420221753385",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.45051122292369"
+        },
+        {
+          "http://example.com/terms#name": "Zur Nohn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.982229633533863",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.459888379509415"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment293.jsonld#9011",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Neumühle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Nohn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eumühle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Neumühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1513420221753385",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.45051122292369"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9011",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Neumühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1513420221753385",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.45051122292369"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9012",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Neumühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Neumühle"
+      ]
+    },
+    {
+      "token_string": "ohn",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Nohn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.982229633533863",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.459888379509415"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9011",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Nohn",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.982229633533863",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.459888379509415"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9013",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Nohn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Nohn"
+      ]
+    },
+    {
+      "token_string": "O",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9016",
+              "@type": "tree:Node",
+              "token_string": "chsenbaracke"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9017",
+              "@type": "tree:Node",
+              "token_string": "sterbach"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Ochsenbaracke",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6957937637830334",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.27502718315574"
+        },
+        {
+          "http://example.com/terms#name": "Zur Osterbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7816096076185604",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.01626559980489"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment293.jsonld#9015",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Ochsenbaracke"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Osterbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "chsenbaracke",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Ochsenbaracke",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6957937637830334",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.27502718315574"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9015",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Ochsenbaracke",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6957937637830334",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.27502718315574"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9016",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Ochsenbaracke"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Ochsenbaracke"
+      ]
+    },
+    {
+      "token_string": "sterbach",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Osterbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7816096076185604",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.01626559980489"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9015",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Osterbach",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7816096076185604",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.01626559980489"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9017",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Osterbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Osterbach"
+      ]
+    },
+    {
+      "token_string": "dder Höhe",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Rodder Höhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.966644029749766",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.9133629892977"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9023",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Rodder Höhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.966644029749766",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.9133629892977"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9020",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Rodder Höhe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Rodder Höhe"
+      ]
+    },
+    {
+      "token_string": "theck",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Rotheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3343481763946734",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.77542080562531"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9023",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Rotheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3343481763946734",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.77542080562531"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9021",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Rotheck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Rotheck"
+      ]
+    },
+    {
+      "token_string": "R",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9023",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9024",
+              "@type": "tree:Node",
+              "token_string": "uest"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Rodder Höhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.966644029749766",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.9133629892977"
+        },
+        {
+          "http://example.com/terms#name": "Zur Rotheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3343481763946734",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.77542080562531"
+        },
+        {
+          "http://example.com/terms#name": "Zur Ruest",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5995663330300234",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.872719770462865"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment293.jsonld#9022",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Rodder Höhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Rotheck"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Ruest"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9020",
+              "@type": "tree:Node",
+              "token_string": "dder Höhe"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9021",
+              "@type": "tree:Node",
+              "token_string": "theck"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Rodder Höhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.966644029749766",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.9133629892977"
+        },
+        {
+          "http://example.com/terms#name": "Zur Rotheck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3343481763946734",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.77542080562531"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment293.jsonld#9023",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Rodder Höhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Rotheck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "uest",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Ruest",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5995663330300234",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.872719770462865"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Ruest",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5995663330300234",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.872719770462865"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9024",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Ruest"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Ruest"
+      ]
+    },
+    {
+      "token_string": "runden Heide",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur runden Heide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8977436547850344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.184912645548366"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur runden Heide",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8977436547850344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.184912645548366"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9025",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur runden Heide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur runden Heide"
+      ]
+    },
+    {
+      "token_string": "leid",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Schleid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.849792831504341",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.48470412662522"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9031",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Schleid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.849792831504341",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.48470412662522"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9028",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Schleid"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Schleid"
+      ]
+    },
+    {
+      "token_string": "miede",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Schmiede",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.743862060376408",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10061289239786"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9031",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Schmiede",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.743862060376408",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10061289239786"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9029",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Schmiede"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Schmiede"
+      ]
+    },
+    {
+      "token_string": "S",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9031",
+              "@type": "tree:Node",
+              "token_string": "ch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9033",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Schleid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.849792831504341",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.48470412662522"
+        },
+        {
+          "http://example.com/terms#name": "Zur Schmiede",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.743862060376408",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10061289239786"
+        },
+        {
+          "http://example.com/terms#name": "Zur Steinkaul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4539425954559877",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.809549071376495"
+        },
+        {
+          "http://example.com/terms#name": "Zur Stöck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.230306343700873",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.7601322530218"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment293.jsonld#9030",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Schleid"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Schmiede"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Steinkaul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Stöck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ch",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9028",
+              "@type": "tree:Node",
+              "token_string": "leid"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9029",
+              "@type": "tree:Node",
+              "token_string": "miede"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9030",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Schleid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.849792831504341",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.48470412662522"
+        },
+        {
+          "http://example.com/terms#name": "Zur Schmiede",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.743862060376408",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10061289239786"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment293.jsonld#9031",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Schleid"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Schmiede"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "t",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9034",
+              "@type": "tree:Node",
+              "token_string": "einkaul"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment293.jsonld#9035",
+              "@type": "tree:Node",
+              "token_string": "öck"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9030",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Steinkaul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4539425954559877",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.809549071376495"
+        },
+        {
+          "http://example.com/terms#name": "Zur Stöck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.230306343700873",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.7601322530218"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment293.jsonld#9033",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Steinkaul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Zur Stöck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "einkaul",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Steinkaul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4539425954559877",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.809549071376495"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9033",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Steinkaul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4539425954559877",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.809549071376495"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9034",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Steinkaul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Steinkaul"
+      ]
+    },
+    {
+      "token_string": "öck",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Stöck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.230306343700873",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.7601322530218"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#9033",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Stöck",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.230306343700873",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.7601322530218"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9035",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Stöck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Stöck"
+      ]
+    },
+    {
+      "token_string": "Weddem",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Zur Weddem",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9605733073629157",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.67772942721464"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment293.jsonld#8961",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Zur Weddem",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9605733073629157",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.67772942721464"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment293.jsonld#9036",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Zur Weddem"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Zur Weddem"
+      ]
+    }
+  ]
+}

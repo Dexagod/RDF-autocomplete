@@ -1,0 +1,288 @@
+{
+  "root_node_id": "2236",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment84.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "F",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment84.jsonld#2237",
+              "@type": "tree:Node",
+              "token_string": "anny Thibout"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment84.jsonld#2238",
+              "@type": "tree:Node",
+              "token_string": "ernand Debouck"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment84.jsonld#2240",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Fanny Thibout"
+        },
+        {
+          "streetname": "Clos Fernand Debouck"
+        },
+        {
+          "streetname": "Clos François Mitterrand"
+        },
+        {
+          "streetname": "Clos Fredman"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment84.jsonld#2236",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Fanny Thibout"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Fernand Debouck"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos François Mitterrand"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Fredman"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "anny Thibout",
+      "triples": [
+        {
+          "streetname": "Clos Fanny Thibout"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment84.jsonld#2236",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Fanny Thibout"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment84.jsonld#2237",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Fanny Thibout"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Fanny Thibout"
+      ]
+    },
+    {
+      "token_string": "ernand Debouck",
+      "triples": [
+        {
+          "streetname": "Clos Fernand Debouck"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment84.jsonld#2236",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Fernand Debouck"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment84.jsonld#2238",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Fernand Debouck"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Fernand Debouck"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment84.jsonld#2241",
+              "@type": "tree:Node",
+              "token_string": "ançois Mitterrand"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment84.jsonld#2242",
+              "@type": "tree:Node",
+              "token_string": "edman"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment84.jsonld#2236",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos François Mitterrand"
+        },
+        {
+          "streetname": "Clos Fredman"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment84.jsonld#2240",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos François Mitterrand"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Fredman"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ançois Mitterrand",
+      "triples": [
+        {
+          "streetname": "Clos François Mitterrand"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment84.jsonld#2240",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos François Mitterrand"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment84.jsonld#2241",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos François Mitterrand"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos François Mitterrand"
+      ]
+    },
+    {
+      "token_string": "edman",
+      "triples": [
+        {
+          "streetname": "Clos Fredman"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment84.jsonld#2240",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Clos Fredman"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment84.jsonld#2242",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Fredman"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Fredman"
+      ]
+    }
+  ]
+}

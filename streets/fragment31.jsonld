@@ -1,0 +1,5902 @@
+{
+  "root_node_id": "968",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment31.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "eche",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Campagne de Beche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4365542182572155",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29201383499126"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#946",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Campagne de Beche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4365542182572155",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29201383499126"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#943",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campagne de Beche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Campagne de Beche"
+      ]
+    },
+    {
+      "token_string": "êche",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Campagne de Bêche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.248418447666542",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.83058176703399"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#946",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Campagne de Bêche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.248418447666542",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.83058176703399"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#944",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campagne de Bêche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Campagne de Bêche"
+      ]
+    },
+    {
+      "token_string": "e B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#943",
+              "@type": "tree:Node",
+              "token_string": "eche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#944",
+              "@type": "tree:Node",
+              "token_string": "êche"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#949",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Campagne de Beche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4365542182572155",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29201383499126"
+        },
+        {
+          "http://example.com/terms#name": "Campagne de Bêche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.248418447666542",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.83058176703399"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment31.jsonld#946",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campagne de Beche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne de Bêche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'Enée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Campagne d'Enée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.565241306223728",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.93959361730884"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#949",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Campagne d'Enée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.565241306223728",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.93959361730884"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#947",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campagne d'Enée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Campagne d'Enée"
+      ]
+    },
+    {
+      "token_string": "agne d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#946",
+              "@type": "tree:Node",
+              "token_string": "e B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#947",
+              "@type": "tree:Node",
+              "token_string": "'Enée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#952",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Campagne de Beche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4365542182572155",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29201383499126"
+        },
+        {
+          "http://example.com/terms#name": "Campagne de Bêche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.248418447666542",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.83058176703399"
+        },
+        {
+          "http://example.com/terms#name": "Campagne d'Enée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.565241306223728",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.93959361730884"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment31.jsonld#949",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campagne de Beche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne de Bêche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne d'Enée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "us Straße",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Campus Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.113180796967623",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.94260988025433"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#952",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Campus Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.113180796967623",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.94260988025433"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#950",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campus Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Campus Straße"
+      ]
+    },
+    {
+      "token_string": "mp",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#949",
+              "@type": "tree:Node",
+              "token_string": "agne d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#950",
+              "@type": "tree:Node",
+              "token_string": "us Straße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#969",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Campagne de Beche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4365542182572155",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29201383499126"
+        },
+        {
+          "http://example.com/terms#name": "Campagne de Bêche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.248418447666542",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.83058176703399"
+        },
+        {
+          "http://example.com/terms#name": "Campagne d'Enée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.565241306223728",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.93959361730884"
+        },
+        {
+          "http://example.com/terms#name": "Campus Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.113180796967623",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.94260988025433"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment31.jsonld#952",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campagne de Beche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne de Bêche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne d'Enée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campus Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sinostrasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Casinostrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.957495137651235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.85315247847184"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#969",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Casinostrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.957495137651235",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.85315247847184"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#967",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Casinostrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Casinostrasse"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#969",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#970",
+              "@type": "tree:Node",
+              "token_string": "entre Commercial \\\"Ville 2\\\""
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1014",
+              "@type": "tree:Node",
+              "token_string": "HA"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1032",
+              "@type": "tree:Node",
+              "token_string": "h"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1917",
+              "@type": "tree:Node",
+              "token_string": "ité "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1921",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2303",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment90.jsonld#2368",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment1.jsonld#1",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Campagne de Beche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4365542182572155",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29201383499126"
+        },
+        {
+          "http://example.com/terms#name": "Campagne de Bêche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.248418447666542",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.83058176703399"
+        },
+        {
+          "http://example.com/terms#name": "Campagne d'Enée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.565241306223728",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.93959361730884"
+        },
+        {
+          "http://example.com/terms#name": "Campus Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.113180796967623",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.94260988025433"
+        },
+        {
+          "http://example.com/terms#name": "Carnolsweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3552611324515245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.9850059546679"
+        },
+        {
+          "http://example.com/terms#name": "Carrefour d'en Bas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.228424779565472",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.7587934648236"
+        },
+        {
+          "http://example.com/terms#name": "Carrefour d'en Haut",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9226126600784803",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.6988953790412"
+        },
+        {
+          "http://example.com/terms#name": "Carrefour des Vagues",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9276829321887017",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.103985387855644"
+        },
+        {
+          "http://example.com/terms#name": "CHARLEROI AIRPORT BUILDING",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.135562189552629",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.00745292262227"
+        },
+        {
+          "http://example.com/terms#name": "CHAUSSEE DE TIRLEMONT",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6502577419517883",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.214981242124125"
+        }
+      ],
+      "total_children_count": 1085,
+      "@id": "streetsfragment31.jsonld#968",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campagne de Beche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne de Bêche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne d'Enée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campus Straße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carnolsweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour d'en Bas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour d'en Haut"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour des Vagues"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "CHARLEROI AIRPORT BUILDING"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "CHAUSSEE DE TIRLEMONT"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#952",
+              "@type": "tree:Node",
+              "token_string": "mp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment30.jsonld#954",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#967",
+              "@type": "tree:Node",
+              "token_string": "sinostrasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#968",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Campagne de Beche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4365542182572155",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29201383499126"
+        },
+        {
+          "http://example.com/terms#name": "Campagne de Bêche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.248418447666542",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.83058176703399"
+        },
+        {
+          "http://example.com/terms#name": "Campagne d'Enée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.565241306223728",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.93959361730884"
+        },
+        {
+          "http://example.com/terms#name": "Campus Straße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.113180796967623",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.94260988025433"
+        },
+        {
+          "http://example.com/terms#name": "Carnolsweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3552611324515245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.9850059546679"
+        },
+        {
+          "http://example.com/terms#name": "Carré des Lanciers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.882843816732646",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.05096181416532"
+        },
+        {
+          "http://example.com/terms#name": "Carrefour d'en Bas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.228424779565472",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.7587934648236"
+        },
+        {
+          "http://example.com/terms#name": "Carrefour d'en Haut",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9226126600784803",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.6988953790412"
+        },
+        {
+          "http://example.com/terms#name": "Carrefour des Vagues",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9276829321887017",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.103985387855644"
+        },
+        {
+          "http://example.com/terms#name": "Carrière de la Grande Motte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.06266191598964",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.504406744282846"
+        }
+      ],
+      "total_children_count": 18,
+      "@id": "streetsfragment31.jsonld#969",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Campagne de Beche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne de Bêche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campagne d'Enée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Campus Straße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carnolsweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carré des Lanciers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour d'en Bas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour d'en Haut"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrefour des Vagues"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Carrière de la Grande Motte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "entre Commercial \\\"Ville 2\\\"",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Centre Commercial \\\"Ville 2\\\"",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.39883342951016",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.50706842178188"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#968",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Centre Commercial \\\"Ville 2\\\"",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.39883342951016",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.50706842178188"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#970",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Centre Commercial \\\"Ville 2\\\""
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Centre Commercial \\\"Ville 2\\\""
+      ]
+    },
+    {
+      "token_string": "agner Strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Champagner Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6958721784762636",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.59659539761639"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#993",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champagner Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6958721784762636",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.59659539761639"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#973",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champagner Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champagner Strasse"
+      ]
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#979",
+              "@type": "tree:Node",
+              "token_string": "Cinq Bonniers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#980",
+              "@type": "tree:Node",
+              "token_string": "Oies"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#985",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champ des Cinq Bonniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9940476392133784",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.97502389272486"
+        },
+        {
+          "http://example.com/terms#name": "Champ des Oies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3552368215927544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1239970666653"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment31.jsonld#978",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ des Cinq Bonniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Oies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Cinq Bonniers",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Champ des Cinq Bonniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9940476392133784",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.97502389272486"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#978",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champ des Cinq Bonniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9940476392133784",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.97502389272486"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#979",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ des Cinq Bonniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champ des Cinq Bonniers"
+      ]
+    },
+    {
+      "token_string": "Oies",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Champ des Oies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3552368215927544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1239970666653"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#978",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champ des Oies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3552368215927544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1239970666653"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#980",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ des Oies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champ des Oies"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#982",
+              "@type": "tree:Node",
+              "token_string": "la Garenne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#983",
+              "@type": "tree:Node",
+              "token_string": "Wez"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#985",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champ de la Garenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.551844024336141",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.77814961226587"
+        },
+        {
+          "http://example.com/terms#name": "Champ de Wez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.539210352321534",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.90599807408"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment31.jsonld#981",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ de la Garenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ de Wez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "la Garenne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Champ de la Garenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.551844024336141",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.77814961226587"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#981",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champ de la Garenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.551844024336141",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.77814961226587"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#982",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ de la Garenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champ de la Garenne"
+      ]
+    },
+    {
+      "token_string": "Wez",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Champ de Wez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.539210352321534",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.90599807408"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#981",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champ de Wez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.539210352321534",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.90599807408"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#983",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ de Wez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champ de Wez"
+      ]
+    },
+    {
+      "token_string": " d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#985",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#987",
+              "@type": "tree:Node",
+              "token_string": "u "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#993",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champ de la Garenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.551844024336141",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.77814961226587"
+        },
+        {
+          "http://example.com/terms#name": "Champ des Cinq Bonniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9940476392133784",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.97502389272486"
+        },
+        {
+          "http://example.com/terms#name": "Champ des Oies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3552368215927544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1239970666653"
+        },
+        {
+          "http://example.com/terms#name": "Champ de Wez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.539210352321534",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.90599807408"
+        },
+        {
+          "http://example.com/terms#name": "Champ du Bosquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1280949467319203",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25800275668662"
+        },
+        {
+          "http://example.com/terms#name": "Champ du Gros Chêne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.486928429546435",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.178730520324066"
+        },
+        {
+          "http://example.com/terms#name": "Champ du Mont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3373750186815876",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.64779971310917"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "streetsfragment31.jsonld#984",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ de la Garenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Cinq Bonniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Oies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ de Wez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Bosquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Gros Chêne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Mont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#978",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#981",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#984",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champ de la Garenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.551844024336141",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.77814961226587"
+        },
+        {
+          "http://example.com/terms#name": "Champ des Cinq Bonniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9940476392133784",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.97502389272486"
+        },
+        {
+          "http://example.com/terms#name": "Champ des Oies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3552368215927544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1239970666653"
+        },
+        {
+          "http://example.com/terms#name": "Champ de Wez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.539210352321534",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.90599807408"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment31.jsonld#985",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ de la Garenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Cinq Bonniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Oies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ de Wez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#988",
+              "@type": "tree:Node",
+              "token_string": "Bosquet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#989",
+              "@type": "tree:Node",
+              "token_string": "Gros Chêne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#990",
+              "@type": "tree:Node",
+              "token_string": "Mont"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#984",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champ du Bosquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1280949467319203",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25800275668662"
+        },
+        {
+          "http://example.com/terms#name": "Champ du Gros Chêne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.486928429546435",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.178730520324066"
+        },
+        {
+          "http://example.com/terms#name": "Champ du Mont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3373750186815876",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.64779971310917"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment31.jsonld#987",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ du Bosquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Gros Chêne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Mont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Bosquet",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Champ du Bosquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1280949467319203",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25800275668662"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#987",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champ du Bosquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1280949467319203",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25800275668662"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#988",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ du Bosquet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champ du Bosquet"
+      ]
+    },
+    {
+      "token_string": "Gros Chêne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Champ du Gros Chêne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.486928429546435",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.178730520324066"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#987",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champ du Gros Chêne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.486928429546435",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.178730520324066"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#989",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ du Gros Chêne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champ du Gros Chêne"
+      ]
+    },
+    {
+      "token_string": "Mont",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Champ du Mont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3373750186815876",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.64779971310917"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#987",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champ du Mont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3373750186815876",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.64779971310917"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#990",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ du Mont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champ du Mont"
+      ]
+    },
+    {
+      "token_string": "s des Fonds",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Champs des Fonds",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2101467426850228",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31005677389141"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#993",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champs des Fonds",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2101467426850228",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31005677389141"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#991",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champs des Fonds"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Champs des Fonds"
+      ]
+    },
+    {
+      "token_string": "mp",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#973",
+              "@type": "tree:Node",
+              "token_string": "agner Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#984",
+              "@type": "tree:Node",
+              "token_string": " d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#991",
+              "@type": "tree:Node",
+              "token_string": "s des Fonds"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1033",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champagner Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6958721784762636",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.59659539761639"
+        },
+        {
+          "http://example.com/terms#name": "Champ de la Garenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.551844024336141",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.77814961226587"
+        },
+        {
+          "http://example.com/terms#name": "Champ des Cinq Bonniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9940476392133784",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.97502389272486"
+        },
+        {
+          "http://example.com/terms#name": "Champ des Oies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3552368215927544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1239970666653"
+        },
+        {
+          "http://example.com/terms#name": "Champ de Wez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.539210352321534",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.90599807408"
+        },
+        {
+          "http://example.com/terms#name": "Champ du Bosquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1280949467319203",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25800275668662"
+        },
+        {
+          "http://example.com/terms#name": "Champ du Gros Chêne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.486928429546435",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.178730520324066"
+        },
+        {
+          "http://example.com/terms#name": "Champ du Mont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3373750186815876",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.64779971310917"
+        },
+        {
+          "http://example.com/terms#name": "Champs des Fonds",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2101467426850228",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31005677389141"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "streetsfragment31.jsonld#993",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champagner Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ de la Garenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Cinq Bonniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Oies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ de Wez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Bosquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Gros Chêne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champs des Fonds"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "nts des Oiseaux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chants des Oiseaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.201351896824015",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.74959689723869"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1033",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chants des Oiseaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.201351896824015",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.74959689723869"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#994",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chants des Oiseaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chants des Oiseaux"
+      ]
+    },
+    {
+      "token_string": "pelle du Faweux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chapelle du Faweux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1226769154298966",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.791125368905185"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1033",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chapelle du Faweux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1226769154298966",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.791125368905185"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#995",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chapelle du Faweux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chapelle du Faweux"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#999",
+              "@type": "tree:Node",
+              "token_string": "les Cravatte-Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1000",
+              "@type": "tree:Node",
+              "token_string": "rau du Bocq"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1033",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Charles Cravatte-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0135135194794826",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.68383031036692"
+        },
+        {
+          "http://example.com/terms#name": "Charrau du Bocq",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.845353833714473",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.294586796483465"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment31.jsonld#998",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Charles Cravatte-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Charrau du Bocq"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "les Cravatte-Strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Charles Cravatte-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0135135194794826",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.68383031036692"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#998",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Charles Cravatte-Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0135135194794826",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.68383031036692"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#999",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Charles Cravatte-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Charles Cravatte-Strasse"
+      ]
+    },
+    {
+      "token_string": "rau du Bocq",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Charrau du Bocq",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.845353833714473",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.294586796483465"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#998",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Charrau du Bocq",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.845353833714473",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.294586796483465"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1000",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Charrau du Bocq"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Charrau du Bocq"
+      ]
+    },
+    {
+      "token_string": "Bruxelles",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chaussée de Bruxelles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.076908902187245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.07963374579688"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée de Bruxelles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.076908902187245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.07963374579688"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1003",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Bruxelles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Bruxelles"
+      ]
+    },
+    {
+      "token_string": "Courtrai",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chaussée de Courtrai",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.731761379148297",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.2553117535653"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée de Courtrai",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.731761379148297",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.2553117535653"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1004",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Courtrai"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Courtrai"
+      ]
+    },
+    {
+      "token_string": "Frasnes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chaussée de Frasnes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2951352228184967",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.27380953385686"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée de Frasnes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2951352228184967",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.27380953385686"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1005",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Frasnes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Frasnes"
+      ]
+    },
+    {
+      "token_string": "la ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1008",
+              "@type": "tree:Node",
+              "token_string": "Blanche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1009",
+              "@type": "tree:Node",
+              "token_string": "Sucrerie"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée de la Blanche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4839489498072087",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2730067005828"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de la Sucrerie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.612564888980336",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.015593337281864"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment31.jsonld#1007",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de la Blanche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de la Sucrerie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Blanche",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chaussée de la Blanche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4839489498072087",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2730067005828"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1007",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée de la Blanche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4839489498072087",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2730067005828"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1008",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de la Blanche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de la Blanche"
+      ]
+    },
+    {
+      "token_string": "Sucrerie",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chaussée de la Sucrerie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.612564888980336",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.015593337281864"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1007",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée de la Sucrerie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.612564888980336",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.015593337281864"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1009",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de la Sucrerie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de la Sucrerie"
+      ]
+    },
+    {
+      "token_string": "Liege",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chaussée de Liege",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9726416415373307",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.02498316597535"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée de Liege",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9726416415373307",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.02498316597535"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1010",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Liege"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Liege"
+      ]
+    },
+    {
+      "token_string": "Mons",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chaussée de Mons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.289751429168909",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56720732980908"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée de Mons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.289751429168909",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56720732980908"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1011",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Mons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Mons"
+      ]
+    },
+    {
+      "token_string": "Nivelles",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chaussée de Nivelles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.959705412764007",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.332463539014476"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée de Nivelles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.959705412764007",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.332463539014476"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1012",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Nivelles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Nivelles"
+      ]
+    },
+    {
+      "token_string": "HA",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1015",
+              "@type": "tree:Node",
+              "token_string": "RLEROI AIRPORT BUILDING"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1016",
+              "@type": "tree:Node",
+              "token_string": "USSEE DE TIRLEMONT"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#968",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "CHARLEROI AIRPORT BUILDING",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.135562189552629",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.00745292262227"
+        },
+        {
+          "http://example.com/terms#name": "CHAUSSEE DE TIRLEMONT",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6502577419517883",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.214981242124125"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment31.jsonld#1014",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "CHARLEROI AIRPORT BUILDING"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "CHAUSSEE DE TIRLEMONT"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "RLEROI AIRPORT BUILDING",
+      "triples": [
+        {
+          "http://example.com/terms#name": "CHARLEROI AIRPORT BUILDING",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.135562189552629",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.00745292262227"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1014",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "CHARLEROI AIRPORT BUILDING",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.135562189552629",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.00745292262227"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1015",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "CHARLEROI AIRPORT BUILDING"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "CHARLEROI AIRPORT BUILDING"
+      ]
+    },
+    {
+      "token_string": "USSEE DE TIRLEMONT",
+      "triples": [
+        {
+          "http://example.com/terms#name": "CHAUSSEE DE TIRLEMONT",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6502577419517883",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.214981242124125"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1014",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "CHAUSSEE DE TIRLEMONT",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6502577419517883",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.214981242124125"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1016",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "CHAUSSEE DE TIRLEMONT"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "CHAUSSEE DE TIRLEMONT"
+      ]
+    },
+    {
+      "token_string": "T",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1018",
+              "@type": "tree:Node",
+              "token_string": "huin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1019",
+              "@type": "tree:Node",
+              "token_string": "ubize"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée de Thuin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3105887411012067",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1811777971926"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Tubize",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.916624350214436",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.3214753638687"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment31.jsonld#1017",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Thuin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Tubize"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "huin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chaussée de Thuin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3105887411012067",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1811777971926"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1017",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée de Thuin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3105887411012067",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1811777971926"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1018",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Thuin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Thuin"
+      ]
+    },
+    {
+      "token_string": "ubize",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chaussée de Tubize",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.916624350214436",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.3214753638687"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1017",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée de Tubize",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.916624350214436",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.3214753638687"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1019",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Tubize"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Tubize"
+      ]
+    },
+    {
+      "token_string": "Wavre",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chaussée de Wavre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7176576736405442",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65719799887794"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1022",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée de Wavre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7176576736405442",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65719799887794"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1020",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Wavre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée de Wavre"
+      ]
+    },
+    {
+      "token_string": "e ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1003",
+              "@type": "tree:Node",
+              "token_string": "Bruxelles"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1004",
+              "@type": "tree:Node",
+              "token_string": "Courtrai"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1005",
+              "@type": "tree:Node",
+              "token_string": "Frasnes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1007",
+              "@type": "tree:Node",
+              "token_string": "la "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1010",
+              "@type": "tree:Node",
+              "token_string": "Liege"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1011",
+              "@type": "tree:Node",
+              "token_string": "Mons"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1012",
+              "@type": "tree:Node",
+              "token_string": "Nivelles"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1017",
+              "@type": "tree:Node",
+              "token_string": "T"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1020",
+              "@type": "tree:Node",
+              "token_string": "Wavre"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1028",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée de Bruxelles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.076908902187245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.07963374579688"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Courtrai",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.731761379148297",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.2553117535653"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Frasnes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2951352228184967",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.27380953385686"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de la Blanche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4839489498072087",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2730067005828"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Liege",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9726416415373307",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.02498316597535"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Mons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.289751429168909",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56720732980908"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Nivelles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.959705412764007",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.332463539014476"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Thuin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3105887411012067",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1811777971926"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Tubize",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.916624350214436",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.3214753638687"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Wavre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7176576736405442",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65719799887794"
+        }
+      ],
+      "total_children_count": 13,
+      "@id": "streetsfragment31.jsonld#1022",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Bruxelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Courtrai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Frasnes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de la Blanche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Liege"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Mons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Nivelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Thuin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Tubize"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Wavre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1025",
+              "@type": "tree:Node",
+              "token_string": "Château Mondron"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1026",
+              "@type": "tree:Node",
+              "token_string": "Pont Royal"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1028",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée du Château Mondron",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0809524753360047",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.85634058239994"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée du Pont Royal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6686359504865194",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.022203886428244"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment31.jsonld#1024",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée du Château Mondron"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée du Pont Royal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Château Mondron",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chaussée du Château Mondron",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0809524753360047",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.85634058239994"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1024",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée du Château Mondron",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0809524753360047",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.85634058239994"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1025",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée du Château Mondron"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée du Château Mondron"
+      ]
+    },
+    {
+      "token_string": "Pont Royal",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chaussée du Pont Royal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6686359504865194",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.022203886428244"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1024",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée du Pont Royal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6686359504865194",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.022203886428244"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1026",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée du Pont Royal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée du Pont Royal"
+      ]
+    },
+    {
+      "token_string": "ussée ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1028",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1029",
+              "@type": "tree:Node",
+              "token_string": "Impériale"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1030",
+              "@type": "tree:Node",
+              "token_string": "Romaine"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1033",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée de Bruxelles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.076908902187245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.07963374579688"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Courtrai",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.731761379148297",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.2553117535653"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Frasnes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2951352228184967",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.27380953385686"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Liege",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9726416415373307",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.02498316597535"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Mons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.289751429168909",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56720732980908"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Nivelles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.959705412764007",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.332463539014476"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Thuin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3105887411012067",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1811777971926"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Tubize",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.916624350214436",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.3214753638687"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée Impériale",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6502123630960877",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.365003576591604"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée Romaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.846974300451769",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.07397076127467"
+        }
+      ],
+      "total_children_count": 20,
+      "@id": "streetsfragment31.jsonld#1027",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Bruxelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Courtrai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Frasnes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Liege"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Mons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Nivelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Thuin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Tubize"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée Impériale"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée Romaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1022",
+              "@type": "tree:Node",
+              "token_string": "e "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1024",
+              "@type": "tree:Node",
+              "token_string": "u "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1027",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée de Bruxelles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.076908902187245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.07963374579688"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Courtrai",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.731761379148297",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.2553117535653"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Frasnes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2951352228184967",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.27380953385686"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de la Blanche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4839489498072087",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.2730067005828"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Liege",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9726416415373307",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.02498316597535"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Mons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.289751429168909",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56720732980908"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Nivelles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.959705412764007",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.332463539014476"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Thuin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3105887411012067",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1811777971926"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Tubize",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.916624350214436",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.3214753638687"
+        },
+        {
+          "http://example.com/terms#name": "Chaussée de Wavre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7176576736405442",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.65719799887794"
+        }
+      ],
+      "total_children_count": 17,
+      "@id": "streetsfragment31.jsonld#1028",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée de Bruxelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Courtrai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Frasnes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de la Blanche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Liege"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Mons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Nivelles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Thuin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Tubize"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chaussée de Wavre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Impériale",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chaussée Impériale",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6502123630960877",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.365003576591604"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1027",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée Impériale",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6502123630960877",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.365003576591604"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1029",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée Impériale"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée Impériale"
+      ]
+    },
+    {
+      "token_string": "Romaine",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chaussée Romaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.846974300451769",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.07397076127467"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1027",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chaussée Romaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.846974300451769",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.07397076127467"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1030",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chaussée Romaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chaussée Romaine"
+      ]
+    },
+    {
+      "token_string": "vée aux Consires",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chavée aux Consires",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.219235752806508",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.908617831694045"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1033",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chavée aux Consires",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.219235752806508",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.908617831694045"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1031",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chavée aux Consires"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chavée aux Consires"
+      ]
+    },
+    {
+      "token_string": "h",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1033",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1039",
+              "@type": "tree:Node",
+              "token_string": " de "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1046",
+              "@type": "tree:Node",
+              "token_string": "em"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1911",
+              "@type": "tree:Node",
+              "token_string": "êne à l'Alôre"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1913",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#968",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champ de la Garenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.551844024336141",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.77814961226587"
+        },
+        {
+          "http://example.com/terms#name": "Champ des Cinq Bonniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9940476392133784",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.97502389272486"
+        },
+        {
+          "http://example.com/terms#name": "Champ des Oies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3552368215927544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1239970666653"
+        },
+        {
+          "http://example.com/terms#name": "Champ de Wez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.539210352321534",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.90599807408"
+        },
+        {
+          "http://example.com/terms#name": "Champ du Bosquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1280949467319203",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25800275668662"
+        },
+        {
+          "http://example.com/terms#name": "Champ du Gros Chêne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.486928429546435",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.178730520324066"
+        },
+        {
+          "http://example.com/terms#name": "Ch de la 84e DivAméricaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.075354524036841",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.357488560121645"
+        },
+        {
+          "http://example.com/terms#name": "Ch de la Grübermülhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5035822163727466",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.32955701066162"
+        },
+        {
+          "http://example.com/terms#name": "Ch de la petite Campagnette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6394569541529562",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.13619508982289"
+        },
+        {
+          "http://example.com/terms#name": "Ch de St-Jacques",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.757004401779873",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.63147200481779"
+        }
+      ],
+      "total_children_count": 709,
+      "@id": "streetsfragment31.jsonld#1032",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champ de la Garenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Cinq Bonniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Oies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ de Wez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Bosquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Gros Chêne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de la 84e DivAméricaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de la Grübermülhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de la petite Campagnette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de St-Jacques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#993",
+              "@type": "tree:Node",
+              "token_string": "mp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#994",
+              "@type": "tree:Node",
+              "token_string": "nts des Oiseaux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#995",
+              "@type": "tree:Node",
+              "token_string": "pelle du Faweux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#998",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1027",
+              "@type": "tree:Node",
+              "token_string": "ussée "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1031",
+              "@type": "tree:Node",
+              "token_string": "vée aux Consires"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1032",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Champagner Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6958721784762636",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.59659539761639"
+        },
+        {
+          "http://example.com/terms#name": "Champ de la Garenne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.551844024336141",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.77814961226587"
+        },
+        {
+          "http://example.com/terms#name": "Champ des Cinq Bonniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9940476392133784",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.97502389272486"
+        },
+        {
+          "http://example.com/terms#name": "Champ des Oies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3552368215927544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.1239970666653"
+        },
+        {
+          "http://example.com/terms#name": "Champ de Wez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.539210352321534",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.90599807408"
+        },
+        {
+          "http://example.com/terms#name": "Champ du Bosquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1280949467319203",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25800275668662"
+        },
+        {
+          "http://example.com/terms#name": "Champ du Gros Chêne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.486928429546435",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.178730520324066"
+        },
+        {
+          "http://example.com/terms#name": "Champ du Mont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3373750186815876",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.64779971310917"
+        },
+        {
+          "http://example.com/terms#name": "Champs des Fonds",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2101467426850228",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31005677389141"
+        },
+        {
+          "http://example.com/terms#name": "Chants des Oiseaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.201351896824015",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.74959689723869"
+        }
+      ],
+      "total_children_count": 42,
+      "@id": "streetsfragment31.jsonld#1033",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Champagner Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ de la Garenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Cinq Bonniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ des Oies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ de Wez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Bosquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Gros Chêne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champ du Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Champs des Fonds"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chants des Oiseaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "84e DivAméricaine",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Ch de la 84e DivAméricaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.075354524036841",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.357488560121645"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1040",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Ch de la 84e DivAméricaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.075354524036841",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.357488560121645"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1036",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ch de la 84e DivAméricaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ch de la 84e DivAméricaine"
+      ]
+    },
+    {
+      "token_string": "Grübermülhe",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Ch de la Grübermülhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5035822163727466",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.32955701066162"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1040",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Ch de la Grübermülhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5035822163727466",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.32955701066162"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1037",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ch de la Grübermülhe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ch de la Grübermülhe"
+      ]
+    },
+    {
+      "token_string": "petite Campagnette",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Ch de la petite Campagnette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6394569541529562",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.13619508982289"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1040",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Ch de la petite Campagnette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6394569541529562",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.13619508982289"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1038",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ch de la petite Campagnette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ch de la petite Campagnette"
+      ]
+    },
+    {
+      "token_string": " de ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1040",
+              "@type": "tree:Node",
+              "token_string": "la "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1041",
+              "@type": "tree:Node",
+              "token_string": "St-Jacques"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1032",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Ch de la 84e DivAméricaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.075354524036841",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.357488560121645"
+        },
+        {
+          "http://example.com/terms#name": "Ch de la Grübermülhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5035822163727466",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.32955701066162"
+        },
+        {
+          "http://example.com/terms#name": "Ch de la petite Campagnette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6394569541529562",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.13619508982289"
+        },
+        {
+          "http://example.com/terms#name": "Ch de St-Jacques",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.757004401779873",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.63147200481779"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment31.jsonld#1039",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ch de la 84e DivAméricaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de la Grübermülhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de la petite Campagnette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de St-Jacques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "la ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1036",
+              "@type": "tree:Node",
+              "token_string": "84e DivAméricaine"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1037",
+              "@type": "tree:Node",
+              "token_string": "Grübermülhe"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1038",
+              "@type": "tree:Node",
+              "token_string": "petite Campagnette"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1039",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Ch de la 84e DivAméricaine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.075354524036841",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.357488560121645"
+        },
+        {
+          "http://example.com/terms#name": "Ch de la Grübermülhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5035822163727466",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.32955701066162"
+        },
+        {
+          "http://example.com/terms#name": "Ch de la petite Campagnette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6394569541529562",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.13619508982289"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment31.jsonld#1040",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ch de la 84e DivAméricaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de la Grübermülhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ch de la petite Campagnette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "St-Jacques",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Ch de St-Jacques",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.757004401779873",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.63147200481779"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1039",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Ch de St-Jacques",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.757004401779873",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.63147200481779"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1041",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ch de St-Jacques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ch de St-Jacques"
+      ]
+    },
+    {
+      "token_string": "rque",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chem de la Barque",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.410813309200928",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.415806907556735"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1909",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chem de la Barque",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.410813309200928",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.415806907556735"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1044",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chem de la Barque"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chem de la Barque"
+      ]
+    },
+    {
+      "token_string": "taille de Bouvines",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chem de la Bataille de Bouvines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8005186959195227",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.437450073450755"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1909",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chem de la Bataille de Bouvines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8005186959195227",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.437450073450755"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1045",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chem de la Bataille de Bouvines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chem de la Bataille de Bouvines"
+      ]
+    },
+    {
+      "token_string": "em",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment74.jsonld#1895",
+              "@type": "tree:Node",
+              "token_string": "in"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1908",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1032",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chem de la Barque",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.410813309200928",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.415806907556735"
+        },
+        {
+          "http://example.com/terms#name": "Chem de la Bataille de Bouvines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8005186959195227",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.437450073450755"
+        },
+        {
+          "http://example.com/terms#name": "Chemin Al Goffe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6704857155595696",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.972053806472346"
+        },
+        {
+          "http://example.com/terms#name": "Chemin Arthur Vanoverberghe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4855820287864674",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.46444035120294"
+        },
+        {
+          "http://example.com/terms#name": "Chemin Barons de Rosée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.186181140073717",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90721856627963"
+        },
+        {
+          "http://example.com/terms#name": "Chemin Bouillot",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4052640311965123",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.03159322717523"
+        },
+        {
+          "http://example.com/terms#name": "Chemin Caporal Dartois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4630711270215153",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.45976825347459"
+        },
+        {
+          "http://example.com/terms#name": "Chemin Côte Lambot",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5489935112689364",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.110759466372684"
+        },
+        {
+          "http://example.com/terms#name": "Chemin Georges Lemaître",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6779623605994027",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.91308886556745"
+        },
+        {
+          "http://example.com/terms#name": "Chem Joseph Lacasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.464215656000652",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.36749823444652"
+        }
+      ],
+      "total_children_count": 655,
+      "@id": "streetsfragment31.jsonld#1046",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chem de la Barque"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chem de la Bataille de Bouvines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Al Goffe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Arthur Vanoverberghe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Barons de Rosée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Bouillot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Caporal Dartois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Côte Lambot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Georges Lemaître"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chem Joseph Lacasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1909",
+              "@type": "tree:Node",
+              "token_string": "de la Ba"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1910",
+              "@type": "tree:Node",
+              "token_string": "Joseph Lacasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1046",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chem de la Barque",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.410813309200928",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.415806907556735"
+        },
+        {
+          "http://example.com/terms#name": "Chem de la Bataille de Bouvines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8005186959195227",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.437450073450755"
+        },
+        {
+          "http://example.com/terms#name": "Chem Joseph Lacasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.464215656000652",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.36749823444652"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment31.jsonld#1908",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chem de la Barque"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chem de la Bataille de Bouvines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chem Joseph Lacasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "de la Ba",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1044",
+              "@type": "tree:Node",
+              "token_string": "rque"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1045",
+              "@type": "tree:Node",
+              "token_string": "taille de Bouvines"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1908",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chem de la Barque",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.410813309200928",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.415806907556735"
+        },
+        {
+          "http://example.com/terms#name": "Chem de la Bataille de Bouvines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8005186959195227",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.437450073450755"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment31.jsonld#1909",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chem de la Barque"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chem de la Bataille de Bouvines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Joseph Lacasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chem Joseph Lacasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.464215656000652",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.36749823444652"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1908",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chem Joseph Lacasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.464215656000652",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.36749823444652"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1910",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chem Joseph Lacasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chem Joseph Lacasse"
+      ]
+    },
+    {
+      "token_string": "êne à l'Alôre",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chêne à l'Alôre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8857392918161953",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.26874873920558"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1032",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chêne à l'Alôre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8857392918161953",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.26874873920558"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1911",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chêne à l'Alôre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chêne à l'Alôre"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1914",
+              "@type": "tree:Node",
+              "token_string": "enrue"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1915",
+              "@type": "tree:Node",
+              "token_string": "nehotte"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1032",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chienrue",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8606033956574577",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.025745571649296"
+        },
+        {
+          "http://example.com/terms#name": "Chinehotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2080772434531",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.59633236965971"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment31.jsonld#1913",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chienrue"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chinehotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "enrue",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chienrue",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8606033956574577",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.025745571649296"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1913",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chienrue",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8606033956574577",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.025745571649296"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1914",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chienrue"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chienrue"
+      ]
+    },
+    {
+      "token_string": "nehotte",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chinehotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2080772434531",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.59633236965971"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1913",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chinehotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2080772434531",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.59633236965971"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1915",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chinehotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chinehotte"
+      ]
+    },
+    {
+      "token_string": "ité ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1918",
+              "@type": "tree:Node",
+              "token_string": "Armand Déderich"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1919",
+              "@type": "tree:Node",
+              "token_string": "Jansmühle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#968",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cité Armand Déderich",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.124974423648964",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.72280685191082"
+        },
+        {
+          "http://example.com/terms#name": "Cité Jansmühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.982697286052454",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.19695336992138"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment31.jsonld#1917",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cité Armand Déderich"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cité Jansmühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Armand Déderich",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cité Armand Déderich",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.124974423648964",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.72280685191082"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1917",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cité Armand Déderich",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.124974423648964",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.72280685191082"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1918",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cité Armand Déderich"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cité Armand Déderich"
+      ]
+    },
+    {
+      "token_string": "Jansmühle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cité Jansmühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.982697286052454",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.19695336992138"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1917",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cité Jansmühle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.982697286052454",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.19695336992138"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1919",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cité Jansmühle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cité Jansmühle"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#1922",
+              "@type": "tree:Node",
+              "token_string": "airière du Tibet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment85.jsonld#1935",
+              "@type": "tree:Node",
+              "token_string": "os "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#968",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clairière du Tibet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8806580033266824",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.719757066871246"
+        },
+        {
+          "http://example.com/terms#name": "Clos Albert Delaive",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3733906087291046",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.7597960219967"
+        },
+        {
+          "http://example.com/terms#name": "Clos Albert Perikel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.360631365656666",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.6204038201353"
+        },
+        {
+          "http://example.com/terms#name": "Clos Anne de Chantraine",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.710468130588231",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39557695967544"
+        },
+        {
+          "http://example.com/terms#name": "Clos Antoine Delobel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3653881028034354",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.33720741037531"
+        },
+        {
+          "http://example.com/terms#name": "Clos Ariste Wouters",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.978190523248805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.701731376594616"
+        },
+        {
+          "http://example.com/terms#name": "Clos Ath-Plage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.919164089049809",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.45069952998585"
+        },
+        {
+          "http://example.com/terms#name": "Clos Badon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5459726991270197",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.027510918479564"
+        },
+        {
+          "http://example.com/terms#name": "Clos Blanc",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.835736028319676",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.27429078882504"
+        },
+        {
+          "http://example.com/terms#name": "Clos Cense du Sart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9182728877079067",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.8609701381911"
+        }
+      ],
+      "total_children_count": 291,
+      "@id": "streetsfragment31.jsonld#1921",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clairière du Tibet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Albert Delaive"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Albert Perikel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Anne de Chantraine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Antoine Delobel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Ariste Wouters"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Ath-Plage"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Badon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Blanc"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Cense du Sart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "airière du Tibet",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clairière du Tibet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8806580033266824",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.719757066871246"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#1921",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clairière du Tibet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8806580033266824",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.719757066871246"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#1922",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clairière du Tibet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clairière du Tibet"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2304",
+              "@type": "tree:Node",
+              "token_string": "lline du Mardasson"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2305",
+              "@type": "tree:Node",
+              "token_string": "mouthstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2306",
+              "@type": "tree:Node",
+              "token_string": "ntrescarpe Alphonse Darville"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2308",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2312",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#968",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Colline du Mardasson",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.982060822824639",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.09843494371634"
+        },
+        {
+          "http://example.com/terms#name": "Comouthstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.849350798591092",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.15876146438401"
+        },
+        {
+          "http://example.com/terms#name": "Contrescarpe Alphonse Darville",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8604613836927",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12692777700398"
+        },
+        {
+          "http://example.com/terms#name": "Coray",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.479288073286799",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.89827157500139"
+        },
+        {
+          "http://example.com/terms#name": "Cortil de Villers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4702413849022715",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.82521818917658"
+        },
+        {
+          "http://example.com/terms#name": "Coucoumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5163646284401344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.00829981816708"
+        },
+        {
+          "http://example.com/terms#name": "Cour Baduelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4821458664141045",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09020914857304"
+        },
+        {
+          "http://example.com/terms#name": "Cour Durendal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0753239526903706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.62566559497882"
+        },
+        {
+          "http://example.com/terms#name": "Cour Eole",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7507702109373913",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.806704261082636"
+        },
+        {
+          "http://example.com/terms#name": "Cour Fisher",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.801448903115222",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.881081512671805"
+        }
+      ],
+      "total_children_count": 49,
+      "@id": "streetsfragment31.jsonld#2303",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Colline du Mardasson"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Comouthstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Contrescarpe Alphonse Darville"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Coray"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cortil de Villers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Coucoumont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Baduelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Durendal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Eole"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Fisher"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "lline du Mardasson",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Colline du Mardasson",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.982060822824639",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.09843494371634"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2303",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Colline du Mardasson",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.982060822824639",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.09843494371634"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#2304",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Colline du Mardasson"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Colline du Mardasson"
+      ]
+    },
+    {
+      "token_string": "mouthstrasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Comouthstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.849350798591092",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.15876146438401"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2303",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Comouthstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.849350798591092",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.15876146438401"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#2305",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Comouthstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Comouthstrasse"
+      ]
+    },
+    {
+      "token_string": "ntrescarpe Alphonse Darville",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Contrescarpe Alphonse Darville",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8604613836927",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12692777700398"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2303",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Contrescarpe Alphonse Darville",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8604613836927",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12692777700398"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#2306",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Contrescarpe Alphonse Darville"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Contrescarpe Alphonse Darville"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2309",
+              "@type": "tree:Node",
+              "token_string": "ay"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2310",
+              "@type": "tree:Node",
+              "token_string": "til de Villers"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2303",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Coray",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.479288073286799",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.89827157500139"
+        },
+        {
+          "http://example.com/terms#name": "Cortil de Villers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4702413849022715",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.82521818917658"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment31.jsonld#2308",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Coray"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cortil de Villers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ay",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Coray",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.479288073286799",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.89827157500139"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2308",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Coray",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.479288073286799",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.89827157500139"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#2309",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Coray"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Coray"
+      ]
+    },
+    {
+      "token_string": "til de Villers",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cortil de Villers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4702413849022715",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.82521818917658"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2308",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cortil de Villers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4702413849022715",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.82521818917658"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#2310",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cortil de Villers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cortil de Villers"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2313",
+              "@type": "tree:Node",
+              "token_string": "coumont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2315",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2366",
+              "@type": "tree:Node",
+              "token_string": "venplatz"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2303",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Coucoumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5163646284401344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.00829981816708"
+        },
+        {
+          "http://example.com/terms#name": "Cour Baduelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4821458664141045",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09020914857304"
+        },
+        {
+          "http://example.com/terms#name": "Cour Durendal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0753239526903706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.62566559497882"
+        },
+        {
+          "http://example.com/terms#name": "Cour Eole",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7507702109373913",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.806704261082636"
+        },
+        {
+          "http://example.com/terms#name": "Cour Fisher",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.801448903115222",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.881081512671805"
+        },
+        {
+          "http://example.com/terms#name": "Cour Henri Dumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.741106509959529",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.4863844316807"
+        },
+        {
+          "http://example.com/terms#name": "Cour Jean Zuallart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.937095205085735",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.44049377095585"
+        },
+        {
+          "http://example.com/terms#name": "Cour Johan de Sar",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.808953907898149",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.456800668662055"
+        },
+        {
+          "http://example.com/terms#name": "Cour Mosane",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4480299964248347",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.52390387536589"
+        },
+        {
+          "http://example.com/terms#name": "Cour Résimont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2721842947762263",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.24244920392819"
+        }
+      ],
+      "total_children_count": 42,
+      "@id": "streetsfragment31.jsonld#2312",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Coucoumont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Baduelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Durendal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Eole"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Fisher"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Henri Dumont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Jean Zuallart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Johan de Sar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Mosane"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Résimont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "coumont",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Coucoumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5163646284401344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.00829981816708"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2312",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Coucoumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5163646284401344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.00829981816708"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#2313",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Coucoumont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Coucoumont"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2317",
+              "@type": "tree:Node",
+              "token_string": "be du circuit poste 19"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment89.jsonld#2318",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2358",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2363",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2312",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour Baduelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4821458664141045",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.09020914857304"
+        },
+        {
+          "http://example.com/terms#name": "Cour Durendal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0753239526903706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.62566559497882"
+        },
+        {
+          "http://example.com/terms#name": "Cour Eole",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7507702109373913",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.806704261082636"
+        },
+        {
+          "http://example.com/terms#name": "Cour Fisher",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.801448903115222",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.881081512671805"
+        },
+        {
+          "http://example.com/terms#name": "Cour Henri Dumont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.741106509959529",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.4863844316807"
+        },
+        {
+          "http://example.com/terms#name": "Cour Jean Zuallart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.937095205085735",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.44049377095585"
+        },
+        {
+          "http://example.com/terms#name": "Cour Johan de Sar",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.808953907898149",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.456800668662055"
+        },
+        {
+          "http://example.com/terms#name": "Cour Mosane",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4480299964248347",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.52390387536589"
+        },
+        {
+          "http://example.com/terms#name": "Cour Résimont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2721842947762263",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.24244920392819"
+        },
+        {
+          "http://example.com/terms#name": "Cour Staquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6050242297288557",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.294844905889434"
+        }
+      ],
+      "total_children_count": 39,
+      "@id": "streetsfragment31.jsonld#2315",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour Baduelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Durendal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Eole"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Fisher"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Henri Dumont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Jean Zuallart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Johan de Sar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Mosane"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Résimont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour Staquet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "be du circuit poste 19",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Courbe du circuit poste 19",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0815951203269",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.63999577210622"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2315",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Courbe du circuit poste 19",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0815951203269",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.63999577210622"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#2317",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Courbe du circuit poste 19"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Courbe du circuit poste 19"
+      ]
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2359",
+              "@type": "tree:Node",
+              "token_string": "Garibaldi"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2360",
+              "@type": "tree:Node",
+              "token_string": "Michel Woitrin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2315",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cours Garibaldi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2910055348861507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.24501192699265"
+        },
+        {
+          "http://example.com/terms#name": "Cours Michel Woitrin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.375901812572905",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.607051409903036"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment31.jsonld#2358",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cours Garibaldi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cours Michel Woitrin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Garibaldi",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cours Garibaldi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2910055348861507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.24501192699265"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2358",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cours Garibaldi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2910055348861507",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.24501192699265"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#2359",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cours Garibaldi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cours Garibaldi"
+      ]
+    },
+    {
+      "token_string": "Michel Woitrin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cours Michel Woitrin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.375901812572905",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.607051409903036"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2358",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cours Michel Woitrin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.375901812572905",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.607051409903036"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#2360",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cours Michel Woitrin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cours Michel Woitrin"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2364",
+              "@type": "tree:Node",
+              "token_string": "e Rue"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment31.jsonld#2365",
+              "@type": "tree:Node",
+              "token_string": "il Marchand"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2315",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Courte Rue",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1161541747057933",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.62511125311128"
+        },
+        {
+          "http://example.com/terms#name": "Courtil Marchand",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.710969535594151",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.11514956824874"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment31.jsonld#2363",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Courte Rue"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Courtil Marchand"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e Rue",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Courte Rue",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1161541747057933",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.62511125311128"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2363",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Courte Rue",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1161541747057933",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.62511125311128"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#2364",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Courte Rue"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Courte Rue"
+      ]
+    },
+    {
+      "token_string": "il Marchand",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Courtil Marchand",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.710969535594151",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.11514956824874"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2363",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Courtil Marchand",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.710969535594151",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.11514956824874"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#2365",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Courtil Marchand"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Courtil Marchand"
+      ]
+    },
+    {
+      "token_string": "venplatz",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Couvenplatz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2696136605515966",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.890615063364244"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment31.jsonld#2312",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Couvenplatz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2696136605515966",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.890615063364244"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment31.jsonld#2366",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Couvenplatz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Couvenplatz"
+      ]
+    }
+  ]
+}

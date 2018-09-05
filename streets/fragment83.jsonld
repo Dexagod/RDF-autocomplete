@@ -1,0 +1,372 @@
+{
+  "root_node_id": "2227",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment83.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "E",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment83.jsonld#2228",
+              "@type": "tree:Node",
+              "token_string": "dmond Leclercq"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment83.jsonld#2229",
+              "@type": "tree:Node",
+              "token_string": "mile Herman"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment83.jsonld#2231",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment83.jsonld#2234",
+              "@type": "tree:Node",
+              "token_string": "variste Mantannus"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment85.jsonld#1935",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Edmond Leclercq",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.983338367815167",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.58125461078665"
+        },
+        {
+          "http://example.com/terms#name": "Clos Emile Herman",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9560268105885794",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.94283004378057"
+        },
+        {
+          "http://example.com/terms#name": "Clos En Bonnier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3011815135498415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.59868098463098"
+        },
+        {
+          "http://example.com/terms#name": "Clos Enfant des Etoiles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9603206974844594",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90291923929181"
+        },
+        {
+          "http://example.com/terms#name": "Clos Evariste Mantannus",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.629876875800544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79746282636958"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment83.jsonld#2227",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Edmond Leclercq"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Emile Herman"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos En Bonnier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Enfant des Etoiles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Evariste Mantannus"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "dmond Leclercq",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Edmond Leclercq",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.983338367815167",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.58125461078665"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment83.jsonld#2227",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Edmond Leclercq",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.983338367815167",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.58125461078665"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment83.jsonld#2228",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Edmond Leclercq"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Edmond Leclercq"
+      ]
+    },
+    {
+      "token_string": "mile Herman",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Emile Herman",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9560268105885794",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.94283004378057"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment83.jsonld#2227",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Emile Herman",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9560268105885794",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.94283004378057"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment83.jsonld#2229",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Emile Herman"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Emile Herman"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment83.jsonld#2232",
+              "@type": "tree:Node",
+              "token_string": " Bonnier"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment83.jsonld#2233",
+              "@type": "tree:Node",
+              "token_string": "fant des Etoiles"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment83.jsonld#2227",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos En Bonnier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3011815135498415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.59868098463098"
+        },
+        {
+          "http://example.com/terms#name": "Clos Enfant des Etoiles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9603206974844594",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90291923929181"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment83.jsonld#2231",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos En Bonnier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Clos Enfant des Etoiles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Bonnier",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos En Bonnier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3011815135498415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.59868098463098"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment83.jsonld#2231",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos En Bonnier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3011815135498415",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.59868098463098"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment83.jsonld#2232",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos En Bonnier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos En Bonnier"
+      ]
+    },
+    {
+      "token_string": "fant des Etoiles",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Enfant des Etoiles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9603206974844594",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90291923929181"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment83.jsonld#2231",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Enfant des Etoiles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9603206974844594",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90291923929181"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment83.jsonld#2233",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Enfant des Etoiles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Enfant des Etoiles"
+      ]
+    },
+    {
+      "token_string": "variste Mantannus",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Clos Evariste Mantannus",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.629876875800544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79746282636958"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment83.jsonld#2227",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Clos Evariste Mantannus",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.629876875800544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79746282636958"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment83.jsonld#2234",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Clos Evariste Mantannus"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Clos Evariste Mantannus"
+      ]
+    }
+  ]
+}

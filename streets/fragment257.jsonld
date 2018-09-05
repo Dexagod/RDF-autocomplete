@@ -1,0 +1,154 @@
+{
+  "root_node_id": "7370",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment257.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "K",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment257.jsonld#7371",
+              "@type": "tree:Node",
+              "token_string": "angourou"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment257.jsonld#7372",
+              "@type": "tree:Node",
+              "token_string": "epler"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment253.jsonld#7407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Kangourou",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.266839537541722",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.804900587599974"
+        },
+        {
+          "http://example.com/terms#name": "Rue Kepler",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9407875737611455",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.82722342967781"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment257.jsonld#7370",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Kangourou"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Kepler"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "angourou",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Kangourou",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.266839537541722",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.804900587599974"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment257.jsonld#7370",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Kangourou",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.266839537541722",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.804900587599974"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment257.jsonld#7371",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Kangourou"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Kangourou"
+      ]
+    },
+    {
+      "token_string": "epler",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Kepler",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9407875737611455",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.82722342967781"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment257.jsonld#7370",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Kepler",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9407875737611455",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.82722342967781"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment257.jsonld#7372",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Kepler"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Kepler"
+      ]
+    }
+  ]
+}

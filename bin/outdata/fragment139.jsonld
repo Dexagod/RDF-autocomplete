@@ -1,0 +1,3281 @@
+{
+  "root_node_id": "4076",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment139.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "gasse",
+      "triples": [
+        {
+          "streetname": "Pannegasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4045",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pannegasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4042",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pannegasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Pannegasse"
+      ]
+    },
+    {
+      "token_string": "schopp",
+      "triples": [
+        {
+          "streetname": "Panneschopp"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4045",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Panneschopp"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4043",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Panneschopp"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Panneschopp"
+      ]
+    },
+    {
+      "token_string": "ne",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4042",
+              "@type": "tree:Node",
+              "token_string": "gasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4043",
+              "@type": "tree:Node",
+              "token_string": "schopp"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4048",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pannegasse"
+        },
+        {
+          "streetname": "Panneschopp"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment139.jsonld#4045",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pannegasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Panneschopp"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "orama",
+      "triples": [
+        {
+          "streetname": "Panorama"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4048",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Panorama"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4046",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Panorama"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Panorama"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4045",
+              "@type": "tree:Node",
+              "token_string": "ne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4046",
+              "@type": "tree:Node",
+              "token_string": "orama"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4076",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pannegasse"
+        },
+        {
+          "streetname": "Panneschopp"
+        },
+        {
+          "streetname": "Panorama"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment139.jsonld#4048",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pannegasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Panneschopp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Panorama"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ppelweg",
+      "triples": [
+        {
+          "streetname": "Pappelweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4076",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pappelweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4049",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pappelweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Pappelweg"
+      ]
+    },
+    {
+      "token_string": "Commercial D'hydrion",
+      "triples": [
+        {
+          "streetname": "Parc Commercial D'hydrion"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc Commercial D'hydrion"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4052",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc Commercial D'hydrion"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Parc Commercial D'hydrion"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4060",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4063",
+              "@type": "tree:Node",
+              "token_string": "'"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc d'Activite economique Petri"
+        },
+        {
+          "streetname": "Parc de la Baraque"
+        },
+        {
+          "streetname": "Parc de l'Esplanade"
+        },
+        {
+          "streetname": "Parc des Libellules"
+        },
+        {
+          "streetname": "Parc d'Ursel"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment139.jsonld#4054",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc d'Activite economique Petri"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc de la Baraque"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc de l'Esplanade"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc des Libellules"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc d'Ursel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a Baraque",
+      "triples": [
+        {
+          "streetname": "Parc de la Baraque"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4061",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc de la Baraque"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4058",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc de la Baraque"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Parc de la Baraque"
+      ]
+    },
+    {
+      "token_string": "'Esplanade",
+      "triples": [
+        {
+          "streetname": "Parc de l'Esplanade"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4061",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc de l'Esplanade"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4059",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc de l'Esplanade"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Parc de l'Esplanade"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4061",
+              "@type": "tree:Node",
+              "token_string": " l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4062",
+              "@type": "tree:Node",
+              "token_string": "s Libellules"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4054",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc de la Baraque"
+        },
+        {
+          "streetname": "Parc de l'Esplanade"
+        },
+        {
+          "streetname": "Parc des Libellules"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment139.jsonld#4060",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc de la Baraque"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc de l'Esplanade"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc des Libellules"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4058",
+              "@type": "tree:Node",
+              "token_string": "a Baraque"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4059",
+              "@type": "tree:Node",
+              "token_string": "'Esplanade"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4060",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc de la Baraque"
+        },
+        {
+          "streetname": "Parc de l'Esplanade"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment139.jsonld#4061",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc de la Baraque"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc de l'Esplanade"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "s Libellules",
+      "triples": [
+        {
+          "streetname": "Parc des Libellules"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4060",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc des Libellules"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4062",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc des Libellules"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Parc des Libellules"
+      ]
+    },
+    {
+      "token_string": "'",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4064",
+              "@type": "tree:Node",
+              "token_string": "Activite economique Petri"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4065",
+              "@type": "tree:Node",
+              "token_string": "Ursel"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4054",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc d'Activite economique Petri"
+        },
+        {
+          "streetname": "Parc d'Ursel"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment139.jsonld#4063",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc d'Activite economique Petri"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc d'Ursel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Activite economique Petri",
+      "triples": [
+        {
+          "streetname": "Parc d'Activite economique Petri"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4063",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc d'Activite economique Petri"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4064",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc d'Activite economique Petri"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Parc d'Activite economique Petri"
+      ]
+    },
+    {
+      "token_string": "Ursel",
+      "triples": [
+        {
+          "streetname": "Parc d'Ursel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4063",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc d'Ursel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4065",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc d'Ursel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Parc d'Ursel"
+      ]
+    },
+    {
+      "token_string": "Industriel",
+      "triples": [
+        {
+          "streetname": "Parc Industriel"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4067",
+              "@type": "tree:Node",
+              "token_string": "-Zone 2"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc Industriel"
+        },
+        {
+          "streetname": "Parc Industriel-Zone 2"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "fragment139.jsonld#4066",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc Industriel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc Industriel-Zone 2"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Parc Industriel"
+      ]
+    },
+    {
+      "token_string": "-Zone 2",
+      "triples": [
+        {
+          "streetname": "Parc Industriel-Zone 2"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4066",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc Industriel-Zone 2"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4067",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc Industriel-Zone 2"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Parc Industriel-Zone 2"
+      ]
+    },
+    {
+      "token_string": "Jeanne d'Harcourt",
+      "triples": [
+        {
+          "streetname": "Parc Jeanne d'Harcourt"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc Jeanne d'Harcourt"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4068",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc Jeanne d'Harcourt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Parc Jeanne d'Harcourt"
+      ]
+    },
+    {
+      "token_string": "Nelson Mandela",
+      "triples": [
+        {
+          "streetname": "Parc Nelson Mandela"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc Nelson Mandela"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4069",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc Nelson Mandela"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Parc Nelson Mandela"
+      ]
+    },
+    {
+      "token_string": "Paysager de Tyberchamps",
+      "triples": [
+        {
+          "streetname": "Parc Paysager de Tyberchamps"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc Paysager de Tyberchamps"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4070",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc Paysager de Tyberchamps"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Parc Paysager de Tyberchamps"
+      ]
+    },
+    {
+      "token_string": "St-Joseph",
+      "triples": [
+        {
+          "streetname": "Parc St-Joseph"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4073",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc St-Joseph"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4071",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc St-Joseph"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Parc St-Joseph"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4073",
+              "@type": "tree:Node",
+              "token_string": "c "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4074",
+              "@type": "tree:Node",
+              "token_string": "-delà l'Eau"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4086",
+              "@type": "tree:Node",
+              "token_string": "k"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4076",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc Commercial D'hydrion"
+        },
+        {
+          "streetname": "Parc d'Activite economique Petri"
+        },
+        {
+          "streetname": "Parc d'Ursel"
+        },
+        {
+          "streetname": "Parc Industriel"
+        },
+        {
+          "streetname": "Parc Industriel-Zone 2"
+        },
+        {
+          "streetname": "Parc Jeanne d'Harcourt"
+        },
+        {
+          "streetname": "Parc Nelson Mandela"
+        },
+        {
+          "streetname": "Parc Paysager de Tyberchamps"
+        },
+        {
+          "streetname": "Parc St-Joseph"
+        },
+        {
+          "streetname": "Par-delà l'Eau"
+        }
+      ],
+      "total_children_count": 23,
+      "@id": "fragment139.jsonld#4072",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc Commercial D'hydrion"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc d'Activite economique Petri"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc d'Ursel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc Industriel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc Industriel-Zone 2"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc Jeanne d'Harcourt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc Nelson Mandela"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc Paysager de Tyberchamps"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc St-Joseph"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Par-delà l'Eau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "c ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4052",
+              "@type": "tree:Node",
+              "token_string": "Commercial D'hydrion"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4054",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4066",
+              "@type": "tree:Node",
+              "token_string": "Industriel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4068",
+              "@type": "tree:Node",
+              "token_string": "Jeanne d'Harcourt"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4069",
+              "@type": "tree:Node",
+              "token_string": "Nelson Mandela"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4070",
+              "@type": "tree:Node",
+              "token_string": "Paysager de Tyberchamps"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4071",
+              "@type": "tree:Node",
+              "token_string": "St-Joseph"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parc Commercial D'hydrion"
+        },
+        {
+          "streetname": "Parc d'Activite economique Petri"
+        },
+        {
+          "streetname": "Parc de l'Esplanade"
+        },
+        {
+          "streetname": "Parc d'Ursel"
+        },
+        {
+          "streetname": "Parc Industriel"
+        },
+        {
+          "streetname": "Parc Industriel-Zone 2"
+        },
+        {
+          "streetname": "Parc Jeanne d'Harcourt"
+        },
+        {
+          "streetname": "Parc Nelson Mandela"
+        },
+        {
+          "streetname": "Parc Paysager de Tyberchamps"
+        },
+        {
+          "streetname": "Parc St-Joseph"
+        }
+      ],
+      "total_children_count": 16,
+      "@id": "fragment139.jsonld#4073",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parc Commercial D'hydrion"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc d'Activite economique Petri"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc de l'Esplanade"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc d'Ursel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc Industriel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc Industriel-Zone 2"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc Jeanne d'Harcourt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc Nelson Mandela"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc Paysager de Tyberchamps"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc St-Joseph"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "-delà l'Eau",
+      "triples": [
+        {
+          "streetname": "Par-delà l'Eau"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Par-delà l'Eau"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4074",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Par-delà l'Eau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Par-delà l'Eau"
+      ]
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4048",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4049",
+              "@type": "tree:Node",
+              "token_string": "ppelweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4072",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4093",
+              "@type": "tree:Node",
+              "token_string": "s"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4124",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4127",
+              "@type": "tree:Node",
+              "token_string": "ul-Aler-Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4129",
+              "@type": "tree:Node",
+              "token_string": "v"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4133",
+              "@type": "tree:Node",
+              "token_string": "z"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment125.jsonld#4075",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pannegasse"
+        },
+        {
+          "streetname": "Panneschopp"
+        },
+        {
+          "streetname": "Panorama"
+        },
+        {
+          "streetname": "Pappelweg"
+        },
+        {
+          "streetname": "Parc Commercial D'hydrion"
+        },
+        {
+          "streetname": "Parc Industriel"
+        },
+        {
+          "streetname": "Parc Industriel-Zone 2"
+        },
+        {
+          "streetname": "Parc Jeanne d'Harcourt"
+        },
+        {
+          "streetname": "Parc Nelson Mandela"
+        },
+        {
+          "streetname": "Par-delà l'Eau"
+        }
+      ],
+      "total_children_count": 62,
+      "@id": "fragment139.jsonld#4076",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pannegasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Panneschopp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Panorama"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Pappelweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc Commercial D'hydrion"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc Industriel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc Industriel-Zone 2"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc Jeanne d'Harcourt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parc Nelson Mandela"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Par-delà l'Eau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "k",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4087",
+              "@type": "tree:Node",
+              "token_string": "ing du Presbytère"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4089",
+              "@type": "tree:Node",
+              "token_string": "s"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parking du Presbytère"
+        },
+        {
+          "streetname": "Parksiedlung"
+        },
+        {
+          "streetname": "Parkstrasse"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment139.jsonld#4086",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parking du Presbytère"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parksiedlung"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parkstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ing du Presbytère",
+      "triples": [
+        {
+          "streetname": "Parking du Presbytère"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4086",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parking du Presbytère"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4087",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parking du Presbytère"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Parking du Presbytère"
+      ]
+    },
+    {
+      "token_string": "s",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4090",
+              "@type": "tree:Node",
+              "token_string": "iedlung"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4091",
+              "@type": "tree:Node",
+              "token_string": "trasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4086",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parksiedlung"
+        },
+        {
+          "streetname": "Parkstrasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment139.jsonld#4089",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parksiedlung"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Parkstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "iedlung",
+      "triples": [
+        {
+          "streetname": "Parksiedlung"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4089",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parksiedlung"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4090",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parksiedlung"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Parksiedlung"
+      ]
+    },
+    {
+      "token_string": "trasse",
+      "triples": [
+        {
+          "streetname": "Parkstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4089",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Parkstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4091",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Parkstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Parkstrasse"
+      ]
+    },
+    {
+      "token_string": "s",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4094",
+              "@type": "tree:Node",
+              "token_string": "ay Moray Cortil"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4095",
+              "@type": "tree:Node",
+              "token_string": " des travailleurs du livre"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4117",
+              "@type": "tree:Node",
+              "token_string": "s"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4076",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pasay Moray Cortil"
+        },
+        {
+          "streetname": "Pas des travailleurs du livre"
+        },
+        {
+          "streetname": "Passage Albert Van Den Berg"
+        },
+        {
+          "streetname": "Passage de la Béguine"
+        },
+        {
+          "streetname": "Passage de la Maison du Monde"
+        },
+        {
+          "streetname": "Passage de l'Amitié"
+        },
+        {
+          "streetname": "Passage de l'Atelier"
+        },
+        {
+          "streetname": "Passage des Cyclistes Quotidiens"
+        },
+        {
+          "streetname": "Passage Herman Dullier"
+        },
+        {
+          "streetname": "Passage Maurice Dechaineux"
+        }
+      ],
+      "total_children_count": 21,
+      "@id": "fragment139.jsonld#4093",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pasay Moray Cortil"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Pas des travailleurs du livre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage Albert Van Den Berg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de la Béguine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de la Maison du Monde"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de l'Amitié"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de l'Atelier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage des Cyclistes Quotidiens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage Herman Dullier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage Maurice Dechaineux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ay Moray Cortil",
+      "triples": [
+        {
+          "streetname": "Pasay Moray Cortil"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4093",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pasay Moray Cortil"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4094",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pasay Moray Cortil"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Pasay Moray Cortil"
+      ]
+    },
+    {
+      "token_string": " des travailleurs du livre",
+      "triples": [
+        {
+          "streetname": "Pas des travailleurs du livre"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4093",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pas des travailleurs du livre"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4095",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pas des travailleurs du livre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Pas des travailleurs du livre"
+      ]
+    },
+    {
+      "token_string": "Albert Van Den Berg",
+      "triples": [
+        {
+          "streetname": "Passage Albert Van Den Berg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4118",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passage Albert Van Den Berg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4098",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passage Albert Van Den Berg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Passage Albert Van Den Berg"
+      ]
+    },
+    {
+      "token_string": "Béguine",
+      "triples": [
+        {
+          "streetname": "Passage de la Béguine"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4104",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passage de la Béguine"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4101",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passage de la Béguine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Passage de la Béguine"
+      ]
+    },
+    {
+      "token_string": "Maison du Monde",
+      "triples": [
+        {
+          "streetname": "Passage de la Maison du Monde"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4104",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passage de la Maison du Monde"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4102",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passage de la Maison du Monde"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Passage de la Maison du Monde"
+      ]
+    },
+    {
+      "token_string": "a ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4101",
+              "@type": "tree:Node",
+              "token_string": "Béguine"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4102",
+              "@type": "tree:Node",
+              "token_string": "Maison du Monde"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4110",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passage de la Béguine"
+        },
+        {
+          "streetname": "Passage de la Maison du Monde"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment139.jsonld#4104",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passage de la Béguine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de la Maison du Monde"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4107",
+              "@type": "tree:Node",
+              "token_string": "mitié"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4108",
+              "@type": "tree:Node",
+              "token_string": "telier"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4110",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passage de l'Amitié"
+        },
+        {
+          "streetname": "Passage de l'Atelier"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment139.jsonld#4106",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passage de l'Amitié"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de l'Atelier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "mitié",
+      "triples": [
+        {
+          "streetname": "Passage de l'Amitié"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4106",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passage de l'Amitié"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4107",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passage de l'Amitié"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Passage de l'Amitié"
+      ]
+    },
+    {
+      "token_string": "telier",
+      "triples": [
+        {
+          "streetname": "Passage de l'Atelier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4106",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passage de l'Atelier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4108",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passage de l'Atelier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Passage de l'Atelier"
+      ]
+    },
+    {
+      "token_string": " l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4104",
+              "@type": "tree:Node",
+              "token_string": "a "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4106",
+              "@type": "tree:Node",
+              "token_string": "'A"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4113",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passage de la Béguine"
+        },
+        {
+          "streetname": "Passage de la Maison du Monde"
+        },
+        {
+          "streetname": "Passage de l'Amitié"
+        },
+        {
+          "streetname": "Passage de l'Atelier"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment139.jsonld#4110",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passage de la Béguine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de la Maison du Monde"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de l'Amitié"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de l'Atelier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "s Cyclistes Quotidiens",
+      "triples": [
+        {
+          "streetname": "Passage des Cyclistes Quotidiens"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4113",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passage des Cyclistes Quotidiens"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4111",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passage des Cyclistes Quotidiens"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Passage des Cyclistes Quotidiens"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4113",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4114",
+              "@type": "tree:Node",
+              "token_string": "u Spantole"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4118",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passage de la Béguine"
+        },
+        {
+          "streetname": "Passage de la Maison du Monde"
+        },
+        {
+          "streetname": "Passage de l'Amitié"
+        },
+        {
+          "streetname": "Passage de l'Atelier"
+        },
+        {
+          "streetname": "Passage des Cyclistes Quotidiens"
+        },
+        {
+          "streetname": "Passage du Spantole"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "fragment139.jsonld#4112",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passage de la Béguine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de la Maison du Monde"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de l'Amitié"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de l'Atelier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage des Cyclistes Quotidiens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage du Spantole"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4110",
+              "@type": "tree:Node",
+              "token_string": " l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4111",
+              "@type": "tree:Node",
+              "token_string": "s Cyclistes Quotidiens"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4112",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passage de la Béguine"
+        },
+        {
+          "streetname": "Passage de la Maison du Monde"
+        },
+        {
+          "streetname": "Passage de l'Amitié"
+        },
+        {
+          "streetname": "Passage de l'Atelier"
+        },
+        {
+          "streetname": "Passage des Cyclistes Quotidiens"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment139.jsonld#4113",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passage de la Béguine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de la Maison du Monde"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de l'Amitié"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de l'Atelier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage des Cyclistes Quotidiens"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u Spantole",
+      "triples": [
+        {
+          "streetname": "Passage du Spantole"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4112",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passage du Spantole"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4114",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passage du Spantole"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Passage du Spantole"
+      ]
+    },
+    {
+      "token_string": "Herman Dullier",
+      "triples": [
+        {
+          "streetname": "Passage Herman Dullier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4118",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passage Herman Dullier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4115",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passage Herman Dullier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Passage Herman Dullier"
+      ]
+    },
+    {
+      "token_string": "Maurice Dechaineux",
+      "triples": [
+        {
+          "streetname": "Passage Maurice Dechaineux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4118",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passage Maurice Dechaineux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4116",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passage Maurice Dechaineux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Passage Maurice Dechaineux"
+      ]
+    },
+    {
+      "token_string": "s",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4118",
+              "@type": "tree:Node",
+              "token_string": "age "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4120",
+              "@type": "tree:Node",
+              "token_string": "erelle "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4093",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passage Albert Van Den Berg"
+        },
+        {
+          "streetname": "Passage de la Béguine"
+        },
+        {
+          "streetname": "Passage de la Maison du Monde"
+        },
+        {
+          "streetname": "Passage de l'Amitié"
+        },
+        {
+          "streetname": "Passage de l'Atelier"
+        },
+        {
+          "streetname": "Passage des Cyclistes Quotidiens"
+        },
+        {
+          "streetname": "Passage du Spantole"
+        },
+        {
+          "streetname": "Passage Herman Dullier"
+        },
+        {
+          "streetname": "Passage Maurice Dechaineux"
+        },
+        {
+          "streetname": "Passerelle Saint-Aubain"
+        }
+      ],
+      "total_children_count": 18,
+      "@id": "fragment139.jsonld#4117",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passage Albert Van Den Berg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de la Béguine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de la Maison du Monde"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de l'Amitié"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de l'Atelier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage des Cyclistes Quotidiens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage du Spantole"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage Herman Dullier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage Maurice Dechaineux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passerelle Saint-Aubain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "age ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4098",
+              "@type": "tree:Node",
+              "token_string": "Albert Van Den Berg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4112",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4115",
+              "@type": "tree:Node",
+              "token_string": "Herman Dullier"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4116",
+              "@type": "tree:Node",
+              "token_string": "Maurice Dechaineux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4117",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passage Albert Van Den Berg"
+        },
+        {
+          "streetname": "Passage de la Béguine"
+        },
+        {
+          "streetname": "Passage de la Maison du Monde"
+        },
+        {
+          "streetname": "Passage de l'Amitié"
+        },
+        {
+          "streetname": "Passage de l'Atelier"
+        },
+        {
+          "streetname": "Passage des Cyclistes Quotidiens"
+        },
+        {
+          "streetname": "Passage du Spantole"
+        },
+        {
+          "streetname": "Passage Herman Dullier"
+        },
+        {
+          "streetname": "Passage Maurice Dechaineux"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "fragment139.jsonld#4118",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passage Albert Van Den Berg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de la Béguine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de la Maison du Monde"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de l'Amitié"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage de l'Atelier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage des Cyclistes Quotidiens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage du Spantole"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage Herman Dullier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passage Maurice Dechaineux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erelle ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4121",
+              "@type": "tree:Node",
+              "token_string": "de l'Aula Magna"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4122",
+              "@type": "tree:Node",
+              "token_string": "Saint-Aubain"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4117",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passerelle de l'Aula Magna"
+        },
+        {
+          "streetname": "Passerelle Saint-Aubain"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment139.jsonld#4120",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passerelle de l'Aula Magna"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Passerelle Saint-Aubain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "de l'Aula Magna",
+      "triples": [
+        {
+          "streetname": "Passerelle de l'Aula Magna"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4120",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passerelle de l'Aula Magna"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4121",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passerelle de l'Aula Magna"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Passerelle de l'Aula Magna"
+      ]
+    },
+    {
+      "token_string": "Saint-Aubain",
+      "triples": [
+        {
+          "streetname": "Passerelle Saint-Aubain"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4120",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Passerelle Saint-Aubain"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4122",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Passerelle Saint-Aubain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Passerelle Saint-Aubain"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4125",
+              "@type": "tree:Node",
+              "token_string": "er Damian Straße"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4126",
+              "@type": "tree:Node",
+              "token_string": "ronagestrasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4076",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pater Damian Straße"
+        },
+        {
+          "streetname": "Patronagestrasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment139.jsonld#4124",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pater Damian Straße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Patronagestrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "er Damian Straße",
+      "triples": [
+        {
+          "streetname": "Pater Damian Straße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4124",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pater Damian Straße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4125",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pater Damian Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Pater Damian Straße"
+      ]
+    },
+    {
+      "token_string": "ronagestrasse",
+      "triples": [
+        {
+          "streetname": "Patronagestrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4124",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Patronagestrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4126",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Patronagestrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Patronagestrasse"
+      ]
+    },
+    {
+      "token_string": "ul-Aler-Strasse",
+      "triples": [
+        {
+          "streetname": "Paul-Aler-Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4076",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Paul-Aler-Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4127",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Paul-Aler-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Paul-Aler-Strasse"
+      ]
+    },
+    {
+      "token_string": "v",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4130",
+              "@type": "tree:Node",
+              "token_string": "é de Liermont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4131",
+              "@type": "tree:Node",
+              "token_string": "eestrasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4076",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pavé de Liermont"
+        },
+        {
+          "streetname": "Paveestrasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment139.jsonld#4129",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pavé de Liermont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Paveestrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "é de Liermont",
+      "triples": [
+        {
+          "streetname": "Pavé de Liermont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4129",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pavé de Liermont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4130",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pavé de Liermont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Pavé de Liermont"
+      ]
+    },
+    {
+      "token_string": "eestrasse",
+      "triples": [
+        {
+          "streetname": "Paveestrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4129",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Paveestrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4131",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Paveestrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Paveestrasse"
+      ]
+    },
+    {
+      "token_string": "z",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4134",
+              "@type": "tree:Node",
+              "token_string": "é del Vingne des Beddines"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment139.jsonld#4135",
+              "@type": "tree:Node",
+              "token_string": "ê d'mèsse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4076",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pazé del Vingne des Beddines"
+        },
+        {
+          "streetname": "Pazê d'mèsse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment139.jsonld#4133",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pazé del Vingne des Beddines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Pazê d'mèsse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "é del Vingne des Beddines",
+      "triples": [
+        {
+          "streetname": "Pazé del Vingne des Beddines"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4133",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pazé del Vingne des Beddines"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4134",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pazé del Vingne des Beddines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Pazé del Vingne des Beddines"
+      ]
+    },
+    {
+      "token_string": "ê d'mèsse",
+      "triples": [
+        {
+          "streetname": "Pazê d'mèsse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment139.jsonld#4133",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pazê d'mèsse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment139.jsonld#4135",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pazê d'mèsse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Pazê d'mèsse"
+      ]
+    }
+  ]
+}

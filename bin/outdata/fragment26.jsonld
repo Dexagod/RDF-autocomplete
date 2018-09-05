@@ -1,0 +1,539 @@
+{
+  "root_node_id": "912",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment26.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "ü",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment26.jsonld#913",
+              "@type": "tree:Node",
+              "token_string": "chelstrasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment26.jsonld#915",
+              "@type": "tree:Node",
+              "token_string": "llinge"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment26.jsonld#925",
+              "@type": "tree:Node",
+              "token_string": "rger"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment26.jsonld#940",
+              "@type": "tree:Node",
+              "token_string": "tgenbach"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment12.jsonld#678",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Büchelstrasse"
+        },
+        {
+          "streetname": "Büllingen"
+        },
+        {
+          "streetname": "Büllinger Strasse"
+        },
+        {
+          "streetname": "Büllinger Straße"
+        },
+        {
+          "streetname": "Bürgermeister-Esser-Straße"
+        },
+        {
+          "streetname": "Bürgerschaft"
+        },
+        {
+          "streetname": "Bütgenbach"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "fragment26.jsonld#912",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Büchelstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Büllingen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Büllinger Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Büllinger Straße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bürgermeister-Esser-Straße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bürgerschaft"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bütgenbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "chelstrasse",
+      "triples": [
+        {
+          "streetname": "Büchelstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment26.jsonld#912",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Büchelstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment26.jsonld#913",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Büchelstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Büchelstrasse"
+      ]
+    },
+    {
+      "token_string": "llinge",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment26.jsonld#916",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment26.jsonld#918",
+              "@type": "tree:Node",
+              "token_string": "r Stra"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment26.jsonld#912",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Büllingen"
+        },
+        {
+          "streetname": "Büllinger Strasse"
+        },
+        {
+          "streetname": "Büllinger Straße"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment26.jsonld#915",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Büllingen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Büllinger Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Büllinger Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "n",
+      "triples": [
+        {
+          "streetname": "Büllingen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment26.jsonld#915",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Büllingen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment26.jsonld#916",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Büllingen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Büllingen"
+      ]
+    },
+    {
+      "token_string": "r Stra",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment26.jsonld#919",
+              "@type": "tree:Node",
+              "token_string": "sse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment26.jsonld#920",
+              "@type": "tree:Node",
+              "token_string": "ße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment26.jsonld#915",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Büllinger Strasse"
+        },
+        {
+          "streetname": "Büllinger Straße"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment26.jsonld#918",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Büllinger Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Büllinger Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sse",
+      "triples": [
+        {
+          "streetname": "Büllinger Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment26.jsonld#918",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Büllinger Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment26.jsonld#919",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Büllinger Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Büllinger Strasse"
+      ]
+    },
+    {
+      "token_string": "ße",
+      "triples": [
+        {
+          "streetname": "Büllinger Straße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment26.jsonld#918",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Büllinger Straße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment26.jsonld#920",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Büllinger Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Büllinger Straße"
+      ]
+    },
+    {
+      "token_string": "rger",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment26.jsonld#926",
+              "@type": "tree:Node",
+              "token_string": "meister-Esser-Straße"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment26.jsonld#927",
+              "@type": "tree:Node",
+              "token_string": "schaft"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment26.jsonld#912",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bürgermeister-Esser-Straße"
+        },
+        {
+          "streetname": "Bürgerschaft"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment26.jsonld#925",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bürgermeister-Esser-Straße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bürgerschaft"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "meister-Esser-Straße",
+      "triples": [
+        {
+          "streetname": "Bürgermeister-Esser-Straße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment26.jsonld#925",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bürgermeister-Esser-Straße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment26.jsonld#926",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bürgermeister-Esser-Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bürgermeister-Esser-Straße"
+      ]
+    },
+    {
+      "token_string": "schaft",
+      "triples": [
+        {
+          "streetname": "Bürgerschaft"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment26.jsonld#925",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bürgerschaft"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment26.jsonld#927",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bürgerschaft"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bürgerschaft"
+      ]
+    },
+    {
+      "token_string": "tgenbach",
+      "triples": [
+        {
+          "streetname": "Bütgenbach"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment26.jsonld#912",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bütgenbach"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment26.jsonld#940",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bütgenbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bütgenbach"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "root_node_id": "1852",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment70.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "arme",
+      "triples": [
+        {
+          "streetname": "Chemin du Vieux Charme"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment70.jsonld#1853",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Vieux Charme"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment70.jsonld#1850",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Vieux Charme"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Vieux Charme"
+      ]
+    },
+    {
+      "token_string": "âteau",
+      "triples": [
+        {
+          "streetname": "Chemin du Vieux Château"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment70.jsonld#1853",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Vieux Château"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment70.jsonld#1851",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Vieux Château"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Vieux Château"
+      ]
+    },
+    {
+      "token_string": "eux ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment70.jsonld#1853",
+              "@type": "tree:Node",
+              "token_string": "Ch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment70.jsonld#1854",
+              "@type": "tree:Node",
+              "token_string": "Gibet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment70.jsonld#1855",
+              "@type": "tree:Node",
+              "token_string": "Moulin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment70.jsonld#1856",
+              "@type": "tree:Node",
+              "token_string": "Puits"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment71.jsonld#1846",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Vieux Charme"
+        },
+        {
+          "streetname": "Chemin du Vieux Château"
+        },
+        {
+          "streetname": "Chemin du Vieux Gibet"
+        },
+        {
+          "streetname": "Chemin du Vieux Moulin"
+        },
+        {
+          "streetname": "Chemin du Vieux Puits"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment70.jsonld#1852",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Vieux Charme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Vieux Château"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Vieux Gibet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Vieux Moulin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Vieux Puits"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Ch",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment70.jsonld#1850",
+              "@type": "tree:Node",
+              "token_string": "arme"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment70.jsonld#1851",
+              "@type": "tree:Node",
+              "token_string": "âteau"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment70.jsonld#1852",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Vieux Charme"
+        },
+        {
+          "streetname": "Chemin du Vieux Château"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment70.jsonld#1853",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Vieux Charme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Vieux Château"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Gibet",
+      "triples": [
+        {
+          "streetname": "Chemin du Vieux Gibet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment70.jsonld#1852",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Vieux Gibet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment70.jsonld#1854",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Vieux Gibet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Vieux Gibet"
+      ]
+    },
+    {
+      "token_string": "Moulin",
+      "triples": [
+        {
+          "streetname": "Chemin du Vieux Moulin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment70.jsonld#1852",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Vieux Moulin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment70.jsonld#1855",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Vieux Moulin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Vieux Moulin"
+      ]
+    },
+    {
+      "token_string": "Puits",
+      "triples": [
+        {
+          "streetname": "Chemin du Vieux Puits"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment70.jsonld#1852",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Vieux Puits"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment70.jsonld#1856",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Vieux Puits"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Vieux Puits"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,619 @@
+{
+  "root_node_id": "5707",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment180.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": " de l'Ourthe",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue de la Vallée de l'Ourthe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4365544235402137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.180713150677384"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment180.jsonld#5704",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de la Vallée de l'Ourthe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4365544235402137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.180713150677384"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment180.jsonld#5702",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Vallée de l'Ourthe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Vallée de l'Ourthe"
+      ]
+    },
+    {
+      "token_string": "llée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue de la Vallée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7227251145999225",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.27281897989494"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment180.jsonld#5702",
+              "@type": "tree:Node",
+              "token_string": " de l'Ourthe"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment180.jsonld#5708",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de la Vallée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7227251145999225",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.27281897989494"
+        },
+        {
+          "http://example.com/terms#name": "Rue de la Vallée de l'Ourthe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4365544235402137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.180713150677384"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "streetsfragment180.jsonld#5704",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Vallée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Vallée de l'Ourthe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Vallée"
+      ]
+    },
+    {
+      "token_string": "ucelle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue de la Vaucelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0821073911926327",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.172368813983645"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment180.jsonld#5708",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de la Vaucelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0821073911926327",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.172368813983645"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment180.jsonld#5705",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Vaucelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Vaucelle"
+      ]
+    },
+    {
+      "token_string": "V",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment180.jsonld#5708",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment180.jsonld#5709",
+              "@type": "tree:Node",
+              "token_string": "erte Louche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment180.jsonld#5714",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment170.jsonld#5285",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de la Vallée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7227251145999225",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.27281897989494"
+        },
+        {
+          "http://example.com/terms#name": "Rue de la Vallée de l'Ourthe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4365544235402137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.180713150677384"
+        },
+        {
+          "http://example.com/terms#name": "Rue de la Vaucelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0821073911926327",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.172368813983645"
+        },
+        {
+          "http://example.com/terms#name": "Rue de la Verte Louche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3814708167742102",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08189561524357"
+        },
+        {
+          "http://example.com/terms#name": "Rue de la Vieille Houillère",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.811635962569068",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.66672141246649"
+        },
+        {
+          "http://example.com/terms#name": "Rue de la Vierge Noire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2188649308583694",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.41873464066741"
+        },
+        {
+          "http://example.com/terms#name": "Rue de la Viole",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.911521008775682",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76714123745913"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "streetsfragment180.jsonld#5707",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Vallée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Vallée de l'Ourthe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Vaucelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Verte Louche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Vieille Houillère"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Vierge Noire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Viole"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment180.jsonld#5704",
+              "@type": "tree:Node",
+              "token_string": "llée"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment180.jsonld#5705",
+              "@type": "tree:Node",
+              "token_string": "ucelle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment180.jsonld#5707",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de la Vallée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7227251145999225",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.27281897989494"
+        },
+        {
+          "http://example.com/terms#name": "Rue de la Vallée de l'Ourthe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4365544235402137",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.180713150677384"
+        },
+        {
+          "http://example.com/terms#name": "Rue de la Vaucelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0821073911926327",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.172368813983645"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment180.jsonld#5708",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Vallée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Vallée de l'Ourthe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Vaucelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erte Louche",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue de la Verte Louche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3814708167742102",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08189561524357"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment180.jsonld#5707",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de la Verte Louche",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3814708167742102",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08189561524357"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment180.jsonld#5709",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Verte Louche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Verte Louche"
+      ]
+    },
+    {
+      "token_string": "ille Houillère",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue de la Vieille Houillère",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.811635962569068",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.66672141246649"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment180.jsonld#5715",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de la Vieille Houillère",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.811635962569068",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.66672141246649"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment180.jsonld#5712",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Vieille Houillère"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Vieille Houillère"
+      ]
+    },
+    {
+      "token_string": "rge Noire",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue de la Vierge Noire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2188649308583694",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.41873464066741"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment180.jsonld#5715",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de la Vierge Noire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2188649308583694",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.41873464066741"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment180.jsonld#5713",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Vierge Noire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Vierge Noire"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment180.jsonld#5715",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment180.jsonld#5716",
+              "@type": "tree:Node",
+              "token_string": "ole"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment180.jsonld#5707",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de la Vieille Houillère",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.811635962569068",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.66672141246649"
+        },
+        {
+          "http://example.com/terms#name": "Rue de la Vierge Noire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2188649308583694",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.41873464066741"
+        },
+        {
+          "http://example.com/terms#name": "Rue de la Viole",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.911521008775682",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76714123745913"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment180.jsonld#5714",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Vieille Houillère"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Vierge Noire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Viole"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment180.jsonld#5712",
+              "@type": "tree:Node",
+              "token_string": "ille Houillère"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment180.jsonld#5713",
+              "@type": "tree:Node",
+              "token_string": "rge Noire"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment180.jsonld#5714",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de la Vieille Houillère",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.811635962569068",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.66672141246649"
+        },
+        {
+          "http://example.com/terms#name": "Rue de la Vierge Noire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2188649308583694",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.41873464066741"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment180.jsonld#5715",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Vieille Houillère"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Vierge Noire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ole",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue de la Viole",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.911521008775682",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76714123745913"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment180.jsonld#5714",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de la Viole",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.911521008775682",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76714123745913"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment180.jsonld#5716",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Viole"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Viole"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,766 @@
+{
+  "root_node_id": "5812",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment191.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "drid",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue de Madrid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7538075779801816",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.07897770004854"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment191.jsonld#5813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de Madrid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7538075779801816",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.07897770004854"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment191.jsonld#5805",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Madrid"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Madrid"
+      ]
+    },
+    {
+      "token_string": "ger",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment191.jsonld#5808",
+              "@type": "tree:Node",
+              "token_string": "ieul"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment191.jsonld#5809",
+              "@type": "tree:Node",
+              "token_string": "y"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment191.jsonld#5813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de Magerieul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.450893308250469",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.92715383306327"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Magery",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4911600573298043",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.429768134151956"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment191.jsonld#5807",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Magerieul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Magery"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ieul",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue de Magerieul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.450893308250469",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.92715383306327"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment191.jsonld#5807",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de Magerieul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.450893308250469",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.92715383306327"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment191.jsonld#5808",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Magerieul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Magerieul"
+      ]
+    },
+    {
+      "token_string": "y",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue de Magery",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4911600573298043",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.429768134151956"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment191.jsonld#5807",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de Magery",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4911600573298043",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.429768134151956"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment191.jsonld#5809",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Magery"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Magery"
+      ]
+    },
+    {
+      "token_string": "ire",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue de Maire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8447962260434108",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.63280642068296"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment191.jsonld#5813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de Maire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8447962260434108",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.63280642068296"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment191.jsonld#5810",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Maire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Maire"
+      ]
+    },
+    {
+      "token_string": "rbais",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue de Marbais",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9070549014969957",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.33862854156143"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment191.jsonld#5813",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de Marbais",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9070549014969957",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.33862854156143"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment191.jsonld#5811",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Marbais"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Marbais"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment191.jsonld#5813",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment182.jsonld#5815",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment191.jsonld#5820",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment169.jsonld#5880",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de Madrid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7538075779801816",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.07897770004854"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Magerieul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.450893308250469",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.92715383306327"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Magery",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4911600573298043",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.429768134151956"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Maire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8447962260434108",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.63280642068296"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Marbais",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9070549014969957",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.33862854156143"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Milliomont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7848364621289416",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.09990564352503"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Miraguet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.089492476313249",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.88957734041188"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Mivau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6235633178468225",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.6685914224484"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Montereale-Valcellina",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.099517589868671",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.1798688046124"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Morges",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1652192917618853",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.87837561605357"
+        }
+      ],
+      "total_children_count": 16,
+      "@id": "streetsfragment191.jsonld#5812",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Madrid"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Magerieul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Magery"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Maire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Marbais"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Milliomont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Miraguet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Mivau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Montereale-Valcellina"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Morges"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment191.jsonld#5805",
+              "@type": "tree:Node",
+              "token_string": "drid"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment191.jsonld#5807",
+              "@type": "tree:Node",
+              "token_string": "ger"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment191.jsonld#5810",
+              "@type": "tree:Node",
+              "token_string": "ire"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment191.jsonld#5811",
+              "@type": "tree:Node",
+              "token_string": "rbais"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment191.jsonld#5812",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de Madrid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7538075779801816",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.07897770004854"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Magerieul",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.450893308250469",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.92715383306327"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Magery",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4911600573298043",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.429768134151956"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Maire",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8447962260434108",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.63280642068296"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Marbais",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9070549014969957",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.33862854156143"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment191.jsonld#5813",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Madrid"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Magerieul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Magery"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Maire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Marbais"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment191.jsonld#5821",
+              "@type": "tree:Node",
+              "token_string": "ntereale-Valcellina"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment191.jsonld#5823",
+              "@type": "tree:Node",
+              "token_string": "rg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment191.jsonld#5812",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de Montereale-Valcellina",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.099517589868671",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.1798688046124"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Morges",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1652192917618853",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.87837561605357"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Morgnies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4087198293627243",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.74750967839301"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment191.jsonld#5820",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Montereale-Valcellina"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Morges"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Morgnies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ntereale-Valcellina",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue de Montereale-Valcellina",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.099517589868671",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.1798688046124"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment191.jsonld#5820",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de Montereale-Valcellina",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.099517589868671",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.1798688046124"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment191.jsonld#5821",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Montereale-Valcellina"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Montereale-Valcellina"
+      ]
+    },
+    {
+      "token_string": "rg",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment191.jsonld#5824",
+              "@type": "tree:Node",
+              "token_string": "es"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment191.jsonld#5825",
+              "@type": "tree:Node",
+              "token_string": "nies"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment191.jsonld#5820",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de Morges",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1652192917618853",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.87837561605357"
+        },
+        {
+          "http://example.com/terms#name": "Rue de Morgnies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4087198293627243",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.74750967839301"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment191.jsonld#5823",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Morges"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Morgnies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "es",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue de Morges",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1652192917618853",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.87837561605357"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment191.jsonld#5823",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de Morges",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1652192917618853",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.87837561605357"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment191.jsonld#5824",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Morges"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Morges"
+      ]
+    },
+    {
+      "token_string": "nies",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue de Morgnies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4087198293627243",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.74750967839301"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment191.jsonld#5823",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue de Morgnies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4087198293627243",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.74750967839301"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment191.jsonld#5825",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Morgnies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Morgnies"
+      ]
+    }
+  ]
+}

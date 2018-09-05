@@ -1,0 +1,192 @@
+{
+  "root_node_id": "1144",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment41.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Ja",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment41.jsonld#1145",
+              "@type": "tree:Node",
+              "token_string": "rdinay"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment41.jsonld#1146",
+              "@type": "tree:Node",
+              "token_string": "smin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment41.jsonld#1147",
+              "@type": "tree:Node",
+              "token_string": "vingue"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment32.jsonld#1384",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Jardinay"
+        },
+        {
+          "streetname": "Chemin de Jasmin"
+        },
+        {
+          "streetname": "Chemin de Javingue"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment41.jsonld#1144",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Jardinay"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Jasmin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Javingue"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rdinay",
+      "triples": [
+        {
+          "streetname": "Chemin de Jardinay"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment41.jsonld#1144",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Jardinay"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment41.jsonld#1145",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Jardinay"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Jardinay"
+      ]
+    },
+    {
+      "token_string": "smin",
+      "triples": [
+        {
+          "streetname": "Chemin de Jasmin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment41.jsonld#1144",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Jasmin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment41.jsonld#1146",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Jasmin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Jasmin"
+      ]
+    },
+    {
+      "token_string": "vingue",
+      "triples": [
+        {
+          "streetname": "Chemin de Javingue"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment41.jsonld#1144",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Javingue"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment41.jsonld#1147",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Javingue"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Javingue"
+      ]
+    }
+  ]
+}

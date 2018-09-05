@@ -1,0 +1,589 @@
+{
+  "root_node_id": "3041",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment100.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "-Reulandt-Strasse",
+      "triples": [
+        {
+          "streetname": "Hubert-Reulandt-Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment100.jsonld#3042",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Hubert-Reulandt-Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment100.jsonld#3038",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Hubert-Reulandt-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Hubert-Reulandt-Strasse"
+      ]
+    },
+    {
+      "token_string": "usweg",
+      "triples": [
+        {
+          "streetname": "Hubertusweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment100.jsonld#3042",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Hubertusweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment100.jsonld#3039",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Hubertusweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Hubertusweg"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment100.jsonld#3042",
+              "@type": "tree:Node",
+              "token_string": "bert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment100.jsonld#3043",
+              "@type": "tree:Node",
+              "token_string": "fengasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment100.jsonld#3044",
+              "@type": "tree:Node",
+              "token_string": "go-Zimmermann-Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment100.jsonld#3059",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment100.jsonld#3062",
+              "@type": "tree:Node",
+              "token_string": "rlevent"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment96.jsonld#2883",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Hubert-Reulandt-Strasse"
+        },
+        {
+          "streetname": "Hubertusweg"
+        },
+        {
+          "streetname": "Hufengasse"
+        },
+        {
+          "streetname": "Hugo-Zimmermann-Strasse"
+        },
+        {
+          "streetname": "Hunnert"
+        },
+        {
+          "streetname": "Hunningen"
+        },
+        {
+          "streetname": "Huntheimer Straße"
+        },
+        {
+          "streetname": "Hurlevent"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "fragment100.jsonld#3041",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Hubert-Reulandt-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Hubertusweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Hufengasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Hugo-Zimmermann-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Hunnert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Hunningen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Huntheimer Straße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Hurlevent"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bert",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment100.jsonld#3038",
+              "@type": "tree:Node",
+              "token_string": "-Reulandt-Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment100.jsonld#3039",
+              "@type": "tree:Node",
+              "token_string": "usweg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment100.jsonld#3041",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Hubert-Reulandt-Strasse"
+        },
+        {
+          "streetname": "Hubertusweg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment100.jsonld#3042",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Hubert-Reulandt-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Hubertusweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "fengasse",
+      "triples": [
+        {
+          "streetname": "Hufengasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment100.jsonld#3041",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Hufengasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment100.jsonld#3043",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Hufengasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Hufengasse"
+      ]
+    },
+    {
+      "token_string": "go-Zimmermann-Strasse",
+      "triples": [
+        {
+          "streetname": "Hugo-Zimmermann-Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment100.jsonld#3041",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Hugo-Zimmermann-Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment100.jsonld#3044",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Hugo-Zimmermann-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Hugo-Zimmermann-Strasse"
+      ]
+    },
+    {
+      "token_string": "ert",
+      "triples": [
+        {
+          "streetname": "Hunnert"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment100.jsonld#3060",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Hunnert"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment100.jsonld#3053",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Hunnert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Hunnert"
+      ]
+    },
+    {
+      "token_string": "ingen",
+      "triples": [
+        {
+          "streetname": "Hunningen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment100.jsonld#3060",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Hunningen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment100.jsonld#3054",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Hunningen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Hunningen"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment100.jsonld#3060",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment100.jsonld#3061",
+              "@type": "tree:Node",
+              "token_string": "theimer Straße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment100.jsonld#3041",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Hunnert"
+        },
+        {
+          "streetname": "Hunningen"
+        },
+        {
+          "streetname": "Huntheimer Straße"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment100.jsonld#3059",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Hunnert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Hunningen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Huntheimer Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment100.jsonld#3053",
+              "@type": "tree:Node",
+              "token_string": "ert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment100.jsonld#3054",
+              "@type": "tree:Node",
+              "token_string": "ingen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment100.jsonld#3059",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Hunnert"
+        },
+        {
+          "streetname": "Hunningen"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment100.jsonld#3060",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Hunnert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Hunningen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "theimer Straße",
+      "triples": [
+        {
+          "streetname": "Huntheimer Straße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment100.jsonld#3059",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Huntheimer Straße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment100.jsonld#3061",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Huntheimer Straße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Huntheimer Straße"
+      ]
+    },
+    {
+      "token_string": "rlevent",
+      "triples": [
+        {
+          "streetname": "Hurlevent"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment100.jsonld#3041",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Hurlevent"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment100.jsonld#3062",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Hurlevent"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Hurlevent"
+      ]
+    }
+  ]
+}

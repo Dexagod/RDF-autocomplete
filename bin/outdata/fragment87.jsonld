@@ -1,0 +1,418 @@
+{
+  "root_node_id": "2331",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment87.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "'Abbaye",
+      "triples": [
+        {
+          "streetname": "Cour de l'Abbaye"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment87.jsonld#2332",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Cour de l'Abbaye"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment87.jsonld#2325",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour de l'Abbaye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour de l'Abbaye"
+      ]
+    },
+    {
+      "token_string": " aux Broux",
+      "triples": [
+        {
+          "streetname": "Cour de la Ferme aux Broux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment87.jsonld#2329",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Cour de la Ferme aux Broux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment87.jsonld#2327",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour de la Ferme aux Broux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour de la Ferme aux Broux"
+      ]
+    },
+    {
+      "token_string": "a ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment87.jsonld#2329",
+              "@type": "tree:Node",
+              "token_string": "Ferme"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment87.jsonld#2330",
+              "@type": "tree:Node",
+              "token_string": "Mozée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment87.jsonld#2332",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Cour de la Ferme"
+        },
+        {
+          "streetname": "Cour de la Ferme aux Broux"
+        },
+        {
+          "streetname": "Cour de la Mozée"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment87.jsonld#2328",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour de la Ferme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Ferme aux Broux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Mozée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Ferme",
+      "triples": [
+        {
+          "streetname": "Cour de la Ferme"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment87.jsonld#2327",
+              "@type": "tree:Node",
+              "token_string": " aux Broux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment87.jsonld#2328",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Cour de la Ferme"
+        },
+        {
+          "streetname": "Cour de la Ferme aux Broux"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "fragment87.jsonld#2329",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour de la Ferme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Ferme aux Broux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour de la Ferme"
+      ]
+    },
+    {
+      "token_string": "Mozée",
+      "triples": [
+        {
+          "streetname": "Cour de la Mozée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment87.jsonld#2328",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Cour de la Mozée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment87.jsonld#2330",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour de la Mozée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour de la Mozée"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment87.jsonld#2332",
+              "@type": "tree:Node",
+              "token_string": " l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment86.jsonld#2334",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment89.jsonld#2321",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Cour de l'Abbaye"
+        },
+        {
+          "streetname": "Cour de la Ferme"
+        },
+        {
+          "streetname": "Cour de la Ferme aux Broux"
+        },
+        {
+          "streetname": "Cour de la Mozée"
+        },
+        {
+          "streetname": "Cour des Brigands"
+        },
+        {
+          "streetname": "Cour des Pavillons"
+        },
+        {
+          "streetname": "Cour des Salésiens"
+        },
+        {
+          "streetname": "Cour des Terres Noires"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "fragment87.jsonld#2331",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour de l'Abbaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Ferme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Ferme aux Broux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Mozée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour des Brigands"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour des Pavillons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour des Salésiens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour des Terres Noires"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment87.jsonld#2325",
+              "@type": "tree:Node",
+              "token_string": "'Abbaye"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment87.jsonld#2328",
+              "@type": "tree:Node",
+              "token_string": "a "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment87.jsonld#2331",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Cour de l'Abbaye"
+        },
+        {
+          "streetname": "Cour de la Ferme"
+        },
+        {
+          "streetname": "Cour de la Ferme aux Broux"
+        },
+        {
+          "streetname": "Cour de la Mozée"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment87.jsonld#2332",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour de l'Abbaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Ferme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Ferme aux Broux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Mozée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    }
+  ]
+}

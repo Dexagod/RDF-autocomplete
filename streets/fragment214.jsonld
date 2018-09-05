@@ -1,0 +1,260 @@
+{
+  "root_node_id": "6314",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment214.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Saisons",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Quatre Saisons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8060331930625755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.430206612711046"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment214.jsonld#6315",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Quatre Saisons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8060331930625755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.430206612711046"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment214.jsonld#6312",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Quatre Saisons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Quatre Saisons"
+      ]
+    },
+    {
+      "token_string": "Vents",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Quatre Vents",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.714258530365637",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.37015528017137"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment214.jsonld#6315",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Quatre Vents",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.714258530365637",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.37015528017137"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment214.jsonld#6313",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Quatre Vents"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Quatre Vents"
+      ]
+    },
+    {
+      "token_string": "Qu",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment214.jsonld#6315",
+              "@type": "tree:Node",
+              "token_string": "atre "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment214.jsonld#6316",
+              "@type": "tree:Node",
+              "token_string": "inze Bonniers"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment200.jsonld#6072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Quatre Saisons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8060331930625755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.430206612711046"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Quatre Vents",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.714258530365637",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.37015528017137"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Quinze Bonniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4523845569361216",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.86103323661609"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment214.jsonld#6314",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Quatre Saisons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Quatre Vents"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Quinze Bonniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "atre ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment214.jsonld#6312",
+              "@type": "tree:Node",
+              "token_string": "Saisons"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment214.jsonld#6313",
+              "@type": "tree:Node",
+              "token_string": "Vents"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment214.jsonld#6314",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Quatre Saisons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8060331930625755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.430206612711046"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Quatre Vents",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.714258530365637",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.37015528017137"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment214.jsonld#6315",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Quatre Saisons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Quatre Vents"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "inze Bonniers",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Quinze Bonniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4523845569361216",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.86103323661609"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment214.jsonld#6314",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Quinze Bonniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4523845569361216",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.86103323661609"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment214.jsonld#6316",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Quinze Bonniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Quinze Bonniers"
+      ]
+    }
+  ]
+}

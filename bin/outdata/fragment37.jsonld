@@ -1,0 +1,288 @@
+{
+  "root_node_id": "1099",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment37.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "ai",
+      "triples": [
+        {
+          "streetname": "Chemin de Champai"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment37.jsonld#1100",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Champai"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment37.jsonld#1097",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Champai"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Champai"
+      ]
+    },
+    {
+      "token_string": "iotte",
+      "triples": [
+        {
+          "streetname": "Chemin de Champiotte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment37.jsonld#1100",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Champiotte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment37.jsonld#1098",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Champiotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Champiotte"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment37.jsonld#1100",
+              "@type": "tree:Node",
+              "token_string": "hamp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment37.jsonld#1101",
+              "@type": "tree:Node",
+              "token_string": "rèvecoeur"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment37.jsonld#1102",
+              "@type": "tree:Node",
+              "token_string": "ugnimont"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment32.jsonld#1384",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Champai"
+        },
+        {
+          "streetname": "Chemin de Champiotte"
+        },
+        {
+          "streetname": "Chemin de Crèvecoeur"
+        },
+        {
+          "streetname": "Chemin de Cugnimont"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment37.jsonld#1099",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Champai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Champiotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Crèvecoeur"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Cugnimont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "hamp",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment37.jsonld#1097",
+              "@type": "tree:Node",
+              "token_string": "ai"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment37.jsonld#1098",
+              "@type": "tree:Node",
+              "token_string": "iotte"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment37.jsonld#1099",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Champai"
+        },
+        {
+          "streetname": "Chemin de Champiotte"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment37.jsonld#1100",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Champai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Champiotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rèvecoeur",
+      "triples": [
+        {
+          "streetname": "Chemin de Crèvecoeur"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment37.jsonld#1099",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Crèvecoeur"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment37.jsonld#1101",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Crèvecoeur"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Crèvecoeur"
+      ]
+    },
+    {
+      "token_string": "ugnimont",
+      "triples": [
+        {
+          "streetname": "Chemin de Cugnimont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment37.jsonld#1099",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin de Cugnimont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment37.jsonld#1102",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Cugnimont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Cugnimont"
+      ]
+    }
+  ]
+}

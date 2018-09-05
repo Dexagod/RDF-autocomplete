@@ -1,0 +1,5059 @@
+{
+  "root_node_id": "1618",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment65.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "nay",
+      "triples": [
+        {
+          "streetname": "Chemin du Benay"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1615",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Benay"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1612",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Benay"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Benay"
+      ]
+    },
+    {
+      "token_string": "ulet",
+      "triples": [
+        {
+          "streetname": "Chemin du Beulet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1615",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Beulet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1613",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Beulet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Beulet"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1612",
+              "@type": "tree:Node",
+              "token_string": "nay"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1613",
+              "@type": "tree:Node",
+              "token_string": "ulet"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1619",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Benay"
+        },
+        {
+          "streetname": "Chemin du Beulet"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment65.jsonld#1615",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Benay"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Beulet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ierzy",
+      "triples": [
+        {
+          "streetname": "Chemin du Bierzy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1619",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Bierzy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1616",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Bierzy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Bierzy"
+      ]
+    },
+    {
+      "token_string": "u ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1619",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1620",
+              "@type": "tree:Node",
+              "token_string": "\\\"Bois à Ban\\\""
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1665",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1701",
+              "@type": "tree:Node",
+              "token_string": "D"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1708",
+              "@type": "tree:Node",
+              "token_string": "F"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1728",
+              "@type": "tree:Node",
+              "token_string": "G"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1742",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1748",
+              "@type": "tree:Node",
+              "token_string": "J"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1751",
+              "@type": "tree:Node",
+              "token_string": "Kenoy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1753",
+              "@type": "tree:Node",
+              "token_string": "L"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1763",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1776",
+              "@type": "tree:Node",
+              "token_string": "N"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment66.jsonld#1780",
+              "@type": "tree:Node",
+              "token_string": "P"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1795",
+              "@type": "tree:Node",
+              "token_string": "p'tit Coriat"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment67.jsonld#1798",
+              "@type": "tree:Node",
+              "token_string": "R"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment68.jsonld#1820",
+              "@type": "tree:Node",
+              "token_string": "S"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment69.jsonld#1834",
+              "@type": "tree:Node",
+              "token_string": "T"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1843",
+              "@type": "tree:Node",
+              "token_string": "V"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1857",
+              "@type": "tree:Node",
+              "token_string": "Wasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment74.jsonld#1068",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Benay"
+        },
+        {
+          "streetname": "Chemin du Beulet"
+        },
+        {
+          "streetname": "Chemin du Bierzy"
+        },
+        {
+          "streetname": "Chemin du Bois"
+        },
+        {
+          "streetname": "Chemin du Bois Brulé"
+        },
+        {
+          "streetname": "Chemin du Bois Cayet"
+        },
+        {
+          "streetname": "Chemin du Bois d'Alvau"
+        },
+        {
+          "streetname": "Chemin du Bois d'Arlon"
+        },
+        {
+          "streetname": "Chemin du Bois d'Olne"
+        },
+        {
+          "streetname": "Chemin du Bois Maret"
+        }
+      ],
+      "total_children_count": 186,
+      "@id": "fragment65.jsonld#1618",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Benay"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Beulet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Bierzy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Bois Brulé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Bois Cayet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Bois d'Alvau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Bois d'Arlon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Bois d'Olne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Bois Maret"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1615",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1616",
+              "@type": "tree:Node",
+              "token_string": "ierzy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment64.jsonld#1654",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1660",
+              "@type": "tree:Node",
+              "token_string": "ruzel"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1618",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Benay"
+        },
+        {
+          "streetname": "Chemin du Beulet"
+        },
+        {
+          "streetname": "Chemin du Bierzy"
+        },
+        {
+          "streetname": "Chemin du Bois"
+        },
+        {
+          "streetname": "Chemin du Bois Brulé"
+        },
+        {
+          "streetname": "Chemin du Bois Cayet"
+        },
+        {
+          "streetname": "Chemin du Bois d'Alvau"
+        },
+        {
+          "streetname": "Chemin du Bois d'Arlon"
+        },
+        {
+          "streetname": "Chemin du Bois d'Olne"
+        },
+        {
+          "streetname": "Chemin du Bois Maret"
+        }
+      ],
+      "total_children_count": 35,
+      "@id": "fragment65.jsonld#1619",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Benay"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Beulet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Bierzy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Bois Brulé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Bois Cayet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Bois d'Alvau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Bois d'Arlon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Bois d'Olne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Bois Maret"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "\\\"Bois à Ban\\\"",
+      "triples": [
+        {
+          "streetname": "Chemin du \\\"Bois à Ban\\\""
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1618",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du \\\"Bois à Ban\\\""
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1620",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du \\\"Bois à Ban\\\""
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du \\\"Bois à Ban\\\""
+      ]
+    },
+    {
+      "token_string": "ruzel",
+      "triples": [
+        {
+          "streetname": "Chemin du Bruzel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1619",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Bruzel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1660",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Bruzel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Bruzel"
+      ]
+    },
+    {
+      "token_string": "ptage",
+      "triples": [
+        {
+          "streetname": "Chemin du Captage"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1666",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Captage"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1663",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Captage"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Captage"
+      ]
+    },
+    {
+      "token_string": "tillon",
+      "triples": [
+        {
+          "streetname": "Chemin du Catillon"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1666",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Catillon"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1664",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Catillon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Catillon"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1666",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1667",
+              "@type": "tree:Node",
+              "token_string": "erf-Volant"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1672",
+              "@type": "tree:Node",
+              "token_string": "h"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1682",
+              "@type": "tree:Node",
+              "token_string": "imetière"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1683",
+              "@type": "tree:Node",
+              "token_string": "lerc"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1685",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1692",
+              "@type": "tree:Node",
+              "token_string": "ôreû"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1618",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Captage"
+        },
+        {
+          "streetname": "Chemin du Catillon"
+        },
+        {
+          "streetname": "Chemin du Cerf-Volant"
+        },
+        {
+          "streetname": "Chemin du Chainai"
+        },
+        {
+          "streetname": "Chemin du Champ de la Fontaine"
+        },
+        {
+          "streetname": "Chemin du Château"
+        },
+        {
+          "streetname": "Chemin du Château Blanc"
+        },
+        {
+          "streetname": "Chemin du Château d'Eau"
+        },
+        {
+          "streetname": "Chemin du Chat Perché"
+        },
+        {
+          "streetname": "Chemin du Cheslot"
+        }
+      ],
+      "total_children_count": 29,
+      "@id": "fragment65.jsonld#1665",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Captage"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Catillon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Cerf-Volant"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Chainai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Champ de la Fontaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Château"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Château Blanc"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Château d'Eau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Chat Perché"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Cheslot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1663",
+              "@type": "tree:Node",
+              "token_string": "ptage"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1664",
+              "@type": "tree:Node",
+              "token_string": "tillon"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1665",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Captage"
+        },
+        {
+          "streetname": "Chemin du Catillon"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment65.jsonld#1666",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Captage"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Catillon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erf-Volant",
+      "triples": [
+        {
+          "streetname": "Chemin du Cerf-Volant"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1665",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Cerf-Volant"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1667",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Cerf-Volant"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Cerf-Volant"
+      ]
+    },
+    {
+      "token_string": "inai",
+      "triples": [
+        {
+          "streetname": "Chemin du Chainai"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1673",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Chainai"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1670",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Chainai"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Chainai"
+      ]
+    },
+    {
+      "token_string": "mp de la Fontaine",
+      "triples": [
+        {
+          "streetname": "Chemin du Champ de la Fontaine"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1673",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Champ de la Fontaine"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1671",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Champ de la Fontaine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Champ de la Fontaine"
+      ]
+    },
+    {
+      "token_string": "h",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1673",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1674",
+              "@type": "tree:Node",
+              "token_string": "âteau"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1680",
+              "@type": "tree:Node",
+              "token_string": "ênelisse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1681",
+              "@type": "tree:Node",
+              "token_string": "eslot"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1665",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Chainai"
+        },
+        {
+          "streetname": "Chemin du Champ de la Fontaine"
+        },
+        {
+          "streetname": "Chemin du Château"
+        },
+        {
+          "streetname": "Chemin du Château Blanc"
+        },
+        {
+          "streetname": "Chemin du Château d'Eau"
+        },
+        {
+          "streetname": "Chemin du Chat Perché"
+        },
+        {
+          "streetname": "Chemin du Chênelisse"
+        },
+        {
+          "streetname": "Chemin du Cheslot"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "fragment65.jsonld#1672",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Chainai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Champ de la Fontaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Château"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Château Blanc"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Château d'Eau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Chat Perché"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Chênelisse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Cheslot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1670",
+              "@type": "tree:Node",
+              "token_string": "inai"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1671",
+              "@type": "tree:Node",
+              "token_string": "mp de la Fontaine"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1679",
+              "@type": "tree:Node",
+              "token_string": "t Perché"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1672",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Chainai"
+        },
+        {
+          "streetname": "Chemin du Champ de la Fontaine"
+        },
+        {
+          "streetname": "Chemin du Chat Perché"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment65.jsonld#1673",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Chainai"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Champ de la Fontaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Chat Perché"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "âteau",
+      "triples": [
+        {
+          "streetname": "Chemin du Château"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1676",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1672",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Château"
+        },
+        {
+          "streetname": "Chemin du Château Blanc"
+        },
+        {
+          "streetname": "Chemin du Château d'Eau"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment65.jsonld#1674",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Château"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Château Blanc"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Château d'Eau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Château"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1677",
+              "@type": "tree:Node",
+              "token_string": "Blanc"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1678",
+              "@type": "tree:Node",
+              "token_string": "d'Eau"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1674",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Château Blanc"
+        },
+        {
+          "streetname": "Chemin du Château d'Eau"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment65.jsonld#1676",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Château Blanc"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Château d'Eau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Blanc",
+      "triples": [
+        {
+          "streetname": "Chemin du Château Blanc"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1676",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Château Blanc"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1677",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Château Blanc"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Château Blanc"
+      ]
+    },
+    {
+      "token_string": "d'Eau",
+      "triples": [
+        {
+          "streetname": "Chemin du Château d'Eau"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1676",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Château d'Eau"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1678",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Château d'Eau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Château d'Eau"
+      ]
+    },
+    {
+      "token_string": "t Perché",
+      "triples": [
+        {
+          "streetname": "Chemin du Chat Perché"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1673",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Chat Perché"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1679",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Chat Perché"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Chat Perché"
+      ]
+    },
+    {
+      "token_string": "ênelisse",
+      "triples": [
+        {
+          "streetname": "Chemin du Chênelisse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1672",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Chênelisse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1680",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Chênelisse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Chênelisse"
+      ]
+    },
+    {
+      "token_string": "eslot",
+      "triples": [
+        {
+          "streetname": "Chemin du Cheslot"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1672",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Cheslot"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1681",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Cheslot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Cheslot"
+      ]
+    },
+    {
+      "token_string": "imetière",
+      "triples": [
+        {
+          "streetname": "Chemin du Cimetière"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1665",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Cimetière"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1682",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Cimetière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Cimetière"
+      ]
+    },
+    {
+      "token_string": "lerc",
+      "triples": [
+        {
+          "streetname": "Chemin du Clerc"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1665",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Clerc"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1683",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Clerc"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Clerc"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1686",
+              "@type": "tree:Node",
+              "token_string": "in du Bois"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1687",
+              "@type": "tree:Node",
+              "token_string": "mmissaire Maigret"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1693",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1697",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1665",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Coin du Bois"
+        },
+        {
+          "streetname": "Chemin du Commissaire Maigret"
+        },
+        {
+          "streetname": "Chemin du Cordier"
+        },
+        {
+          "streetname": "Chemin du Cordonnier"
+        },
+        {
+          "streetname": "Chemin du Coria"
+        },
+        {
+          "streetname": "Chemin du Coulmy"
+        },
+        {
+          "streetname": "Chemin du Courtil Zabay"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "fragment65.jsonld#1685",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Coin du Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Commissaire Maigret"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Cordier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Cordonnier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Coria"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Coulmy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Courtil Zabay"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "in du Bois",
+      "triples": [
+        {
+          "streetname": "Chemin du Coin du Bois"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1685",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Coin du Bois"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1686",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Coin du Bois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Coin du Bois"
+      ]
+    },
+    {
+      "token_string": "mmissaire Maigret",
+      "triples": [
+        {
+          "streetname": "Chemin du Commissaire Maigret"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1685",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Commissaire Maigret"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1687",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Commissaire Maigret"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Commissaire Maigret"
+      ]
+    },
+    {
+      "token_string": "ier",
+      "triples": [
+        {
+          "streetname": "Chemin du Cordier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1694",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Cordier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1690",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Cordier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Cordier"
+      ]
+    },
+    {
+      "token_string": "onnier",
+      "triples": [
+        {
+          "streetname": "Chemin du Cordonnier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1694",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Cordonnier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1691",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Cordonnier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Cordonnier"
+      ]
+    },
+    {
+      "token_string": "ôreû",
+      "triples": [
+        {
+          "streetname": "Chemin du Côreû"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1665",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Côreû"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1692",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Côreû"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Côreû"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1694",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1695",
+              "@type": "tree:Node",
+              "token_string": "ia"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1685",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Cordier"
+        },
+        {
+          "streetname": "Chemin du Cordonnier"
+        },
+        {
+          "streetname": "Chemin du Coria"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment65.jsonld#1693",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Cordier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Cordonnier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Coria"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1690",
+              "@type": "tree:Node",
+              "token_string": "ier"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1691",
+              "@type": "tree:Node",
+              "token_string": "onnier"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1693",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Cordier"
+        },
+        {
+          "streetname": "Chemin du Cordonnier"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment65.jsonld#1694",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Cordier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Cordonnier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ia",
+      "triples": [
+        {
+          "streetname": "Chemin du Coria"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1693",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Coria"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1695",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Coria"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Coria"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1698",
+              "@type": "tree:Node",
+              "token_string": "lmy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1699",
+              "@type": "tree:Node",
+              "token_string": "rtil Zabay"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1685",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Coulmy"
+        },
+        {
+          "streetname": "Chemin du Courtil Zabay"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment65.jsonld#1697",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Coulmy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Courtil Zabay"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "lmy",
+      "triples": [
+        {
+          "streetname": "Chemin du Coulmy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1697",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Coulmy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1698",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Coulmy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Coulmy"
+      ]
+    },
+    {
+      "token_string": "rtil Zabay",
+      "triples": [
+        {
+          "streetname": "Chemin du Courtil Zabay"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1697",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Courtil Zabay"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1699",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Courtil Zabay"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Courtil Zabay"
+      ]
+    },
+    {
+      "token_string": "D",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1702",
+              "@type": "tree:Node",
+              "token_string": "ahl"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1704",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1618",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Dahl"
+        },
+        {
+          "streetname": "Chemin du Douaire"
+        },
+        {
+          "streetname": "Chemin du Doyart"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment65.jsonld#1701",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Dahl"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Douaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Doyart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ahl",
+      "triples": [
+        {
+          "streetname": "Chemin du Dahl"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1701",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Dahl"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1702",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Dahl"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Dahl"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1705",
+              "@type": "tree:Node",
+              "token_string": "uaire"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1706",
+              "@type": "tree:Node",
+              "token_string": "yart"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1701",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Douaire"
+        },
+        {
+          "streetname": "Chemin du Doyart"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment65.jsonld#1704",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Douaire"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Doyart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "uaire",
+      "triples": [
+        {
+          "streetname": "Chemin du Douaire"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1704",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Douaire"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1705",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Douaire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Douaire"
+      ]
+    },
+    {
+      "token_string": "yart",
+      "triples": [
+        {
+          "streetname": "Chemin du Doyart"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1704",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Doyart"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1706",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Doyart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Doyart"
+      ]
+    },
+    {
+      "token_string": "F",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1709",
+              "@type": "tree:Node",
+              "token_string": "acteur"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1710",
+              "@type": "tree:Node",
+              "token_string": "lahi"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1712",
+              "@type": "tree:Node",
+              "token_string": "on"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1618",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Facteur"
+        },
+        {
+          "streetname": "Chemin du Flahi"
+        },
+        {
+          "streetname": "Chemin du Foncier"
+        },
+        {
+          "streetname": "Chemin du Fond d'Acosse"
+        },
+        {
+          "streetname": "Chemin du Fond d'Avry"
+        },
+        {
+          "streetname": "Chemin du Fond de Malaxhe"
+        },
+        {
+          "streetname": "Chemin du Fond des Coupes"
+        },
+        {
+          "streetname": "Chemin du Fond Morête"
+        }
+      ],
+      "total_children_count": 13,
+      "@id": "fragment65.jsonld#1708",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Facteur"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Flahi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Foncier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond d'Acosse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond d'Avry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond de Malaxhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond des Coupes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond Morête"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "acteur",
+      "triples": [
+        {
+          "streetname": "Chemin du Facteur"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1708",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Facteur"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1709",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Facteur"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Facteur"
+      ]
+    },
+    {
+      "token_string": "lahi",
+      "triples": [
+        {
+          "streetname": "Chemin du Flahi"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1708",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Flahi"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1710",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Flahi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Flahi"
+      ]
+    },
+    {
+      "token_string": "on",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1713",
+              "@type": "tree:Node",
+              "token_string": "cier"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1724",
+              "@type": "tree:Node",
+              "token_string": "d "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1708",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Foncier"
+        },
+        {
+          "streetname": "Chemin du Fond d'Acosse"
+        },
+        {
+          "streetname": "Chemin du Fond d'Avry"
+        },
+        {
+          "streetname": "Chemin du Fond de Malaxhe"
+        },
+        {
+          "streetname": "Chemin du Fond des Coupes"
+        },
+        {
+          "streetname": "Chemin du Fond Morête"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "fragment65.jsonld#1712",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Foncier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond d'Acosse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond d'Avry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond de Malaxhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond des Coupes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond Morête"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "cier",
+      "triples": [
+        {
+          "streetname": "Chemin du Foncier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1712",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Foncier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1713",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Foncier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Foncier"
+      ]
+    },
+    {
+      "token_string": "cosse",
+      "triples": [
+        {
+          "streetname": "Chemin du Fond d'Acosse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1719",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Fond d'Acosse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1716",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Fond d'Acosse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Fond d'Acosse"
+      ]
+    },
+    {
+      "token_string": "vry",
+      "triples": [
+        {
+          "streetname": "Chemin du Fond d'Avry"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1719",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Fond d'Avry"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1717",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Fond d'Avry"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Fond d'Avry"
+      ]
+    },
+    {
+      "token_string": "'A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1716",
+              "@type": "tree:Node",
+              "token_string": "cosse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1717",
+              "@type": "tree:Node",
+              "token_string": "vry"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1725",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Fond d'Acosse"
+        },
+        {
+          "streetname": "Chemin du Fond d'Avry"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment65.jsonld#1719",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Fond d'Acosse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond d'Avry"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1722",
+              "@type": "tree:Node",
+              "token_string": " Malaxhe"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1723",
+              "@type": "tree:Node",
+              "token_string": "s Coupes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1725",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Fond de Malaxhe"
+        },
+        {
+          "streetname": "Chemin du Fond des Coupes"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment65.jsonld#1721",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Fond de Malaxhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond des Coupes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Malaxhe",
+      "triples": [
+        {
+          "streetname": "Chemin du Fond de Malaxhe"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1721",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Fond de Malaxhe"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1722",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Fond de Malaxhe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Fond de Malaxhe"
+      ]
+    },
+    {
+      "token_string": "s Coupes",
+      "triples": [
+        {
+          "streetname": "Chemin du Fond des Coupes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1721",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Fond des Coupes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1723",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Fond des Coupes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Fond des Coupes"
+      ]
+    },
+    {
+      "token_string": "d ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1725",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1726",
+              "@type": "tree:Node",
+              "token_string": "Morête"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1712",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Fond d'Acosse"
+        },
+        {
+          "streetname": "Chemin du Fond d'Avry"
+        },
+        {
+          "streetname": "Chemin du Fond de Malaxhe"
+        },
+        {
+          "streetname": "Chemin du Fond des Coupes"
+        },
+        {
+          "streetname": "Chemin du Fond Morête"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment65.jsonld#1724",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Fond d'Acosse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond d'Avry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond de Malaxhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond des Coupes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond Morête"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1719",
+              "@type": "tree:Node",
+              "token_string": "'A"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1721",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1724",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Fond d'Acosse"
+        },
+        {
+          "streetname": "Chemin du Fond d'Avry"
+        },
+        {
+          "streetname": "Chemin du Fond de Malaxhe"
+        },
+        {
+          "streetname": "Chemin du Fond des Coupes"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment65.jsonld#1725",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Fond d'Acosse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond d'Avry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond de Malaxhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Fond des Coupes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Morête",
+      "triples": [
+        {
+          "streetname": "Chemin du Fond Morête"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1724",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Fond Morête"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1726",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Fond Morête"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Fond Morête"
+      ]
+    },
+    {
+      "token_string": "G",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1729",
+              "@type": "tree:Node",
+              "token_string": "arde-Barrière"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1731",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1618",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Garde-Barrière"
+        },
+        {
+          "streetname": "Chemin du Grand Champ"
+        },
+        {
+          "streetname": "Chemin du Griffon"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment65.jsonld#1728",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Garde-Barrière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Grand Champ"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Griffon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "arde-Barrière",
+      "triples": [
+        {
+          "streetname": "Chemin du Garde-Barrière"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1728",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Garde-Barrière"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1729",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Garde-Barrière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Garde-Barrière"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1732",
+              "@type": "tree:Node",
+              "token_string": "and Champ"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1733",
+              "@type": "tree:Node",
+              "token_string": "iffon"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1728",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Grand Champ"
+        },
+        {
+          "streetname": "Chemin du Griffon"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment65.jsonld#1731",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Grand Champ"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Griffon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "and Champ",
+      "triples": [
+        {
+          "streetname": "Chemin du Grand Champ"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1731",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Grand Champ"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1732",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Grand Champ"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Grand Champ"
+      ]
+    },
+    {
+      "token_string": "iffon",
+      "triples": [
+        {
+          "streetname": "Chemin du Griffon"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1731",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Griffon"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1733",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Griffon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Griffon"
+      ]
+    },
+    {
+      "token_string": "let",
+      "triples": [
+        {
+          "streetname": "Chemin du Halet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1743",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Halet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1736",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Halet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Halet"
+      ]
+    },
+    {
+      "token_string": "ngar á Ballons",
+      "triples": [
+        {
+          "streetname": "Chemin du Hangar á Ballons"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1743",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Hangar á Ballons"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1737",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Hangar á Ballons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Hangar á Ballons"
+      ]
+    },
+    {
+      "token_string": "ut ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1740",
+              "@type": "tree:Node",
+              "token_string": "des Perchiers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1741",
+              "@type": "tree:Node",
+              "token_string": "Puison"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1743",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Haut des Perchiers"
+        },
+        {
+          "streetname": "Chemin du Haut Puison"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment65.jsonld#1739",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Haut des Perchiers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Haut Puison"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "des Perchiers",
+      "triples": [
+        {
+          "streetname": "Chemin du Haut des Perchiers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1739",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Haut des Perchiers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1740",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Haut des Perchiers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Haut des Perchiers"
+      ]
+    },
+    {
+      "token_string": "Puison",
+      "triples": [
+        {
+          "streetname": "Chemin du Haut Puison"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1739",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Haut Puison"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1741",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Haut Puison"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Haut Puison"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1743",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1744",
+              "@type": "tree:Node",
+              "token_string": "élivy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1745",
+              "@type": "tree:Node",
+              "token_string": "ourlay"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1746",
+              "@type": "tree:Node",
+              "token_string": "urlevent"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1618",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Halet"
+        },
+        {
+          "streetname": "Chemin du Hangar á Ballons"
+        },
+        {
+          "streetname": "Chemin du Haut des Perchiers"
+        },
+        {
+          "streetname": "Chemin du Haut Puison"
+        },
+        {
+          "streetname": "Chemin du Hélivy"
+        },
+        {
+          "streetname": "Chemin du Hourlay"
+        },
+        {
+          "streetname": "Chemin du Hurlevent"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "fragment65.jsonld#1742",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Halet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Hangar á Ballons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Haut des Perchiers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Haut Puison"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Hélivy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Hourlay"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Hurlevent"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1736",
+              "@type": "tree:Node",
+              "token_string": "let"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1737",
+              "@type": "tree:Node",
+              "token_string": "ngar á Ballons"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1739",
+              "@type": "tree:Node",
+              "token_string": "ut "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1742",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Halet"
+        },
+        {
+          "streetname": "Chemin du Hangar á Ballons"
+        },
+        {
+          "streetname": "Chemin du Haut des Perchiers"
+        },
+        {
+          "streetname": "Chemin du Haut Puison"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment65.jsonld#1743",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Halet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Hangar á Ballons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Haut des Perchiers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Haut Puison"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "élivy",
+      "triples": [
+        {
+          "streetname": "Chemin du Hélivy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1742",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Hélivy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1744",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Hélivy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Hélivy"
+      ]
+    },
+    {
+      "token_string": "ourlay",
+      "triples": [
+        {
+          "streetname": "Chemin du Hourlay"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1742",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Hourlay"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1745",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Hourlay"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Hourlay"
+      ]
+    },
+    {
+      "token_string": "urlevent",
+      "triples": [
+        {
+          "streetname": "Chemin du Hurlevent"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1742",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Hurlevent"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1746",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Hurlevent"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Hurlevent"
+      ]
+    },
+    {
+      "token_string": "J",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1749",
+              "@type": "tree:Node",
+              "token_string": "acquy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1750",
+              "@type": "tree:Node",
+              "token_string": "oncquoy"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1618",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Jacquy"
+        },
+        {
+          "streetname": "Chemin du Joncquoy"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment65.jsonld#1748",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Jacquy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Joncquoy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "acquy",
+      "triples": [
+        {
+          "streetname": "Chemin du Jacquy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1748",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Jacquy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1749",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Jacquy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Jacquy"
+      ]
+    },
+    {
+      "token_string": "oncquoy",
+      "triples": [
+        {
+          "streetname": "Chemin du Joncquoy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1748",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Joncquoy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1750",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Joncquoy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Joncquoy"
+      ]
+    },
+    {
+      "token_string": "Kenoy",
+      "triples": [
+        {
+          "streetname": "Chemin du Kenoy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1618",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Kenoy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1751",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Kenoy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Kenoy"
+      ]
+    },
+    {
+      "token_string": "L",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1754",
+              "@type": "tree:Node",
+              "token_string": "avoir"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1756",
+              "@type": "tree:Node",
+              "token_string": "ou"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1618",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Lavoir"
+        },
+        {
+          "streetname": "Chemin du Loup"
+        },
+        {
+          "streetname": "Chemin du Louriou"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment65.jsonld#1753",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Lavoir"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Loup"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Louriou"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "avoir",
+      "triples": [
+        {
+          "streetname": "Chemin du Lavoir"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1753",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Lavoir"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1754",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Lavoir"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Lavoir"
+      ]
+    },
+    {
+      "token_string": "ou",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1757",
+              "@type": "tree:Node",
+              "token_string": "p"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1758",
+              "@type": "tree:Node",
+              "token_string": "riou"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1753",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Loup"
+        },
+        {
+          "streetname": "Chemin du Louriou"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment65.jsonld#1756",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Loup"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Louriou"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "p",
+      "triples": [
+        {
+          "streetname": "Chemin du Loup"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1756",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Loup"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1757",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Loup"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Loup"
+      ]
+    },
+    {
+      "token_string": "riou",
+      "triples": [
+        {
+          "streetname": "Chemin du Louriou"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1756",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Louriou"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1758",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Louriou"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Louriou"
+      ]
+    },
+    {
+      "token_string": "nège",
+      "triples": [
+        {
+          "streetname": "Chemin du Manège"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1764",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Manège"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1761",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Manège"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Manège"
+      ]
+    },
+    {
+      "token_string": "rquisat",
+      "triples": [
+        {
+          "streetname": "Chemin du Marquisat"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1764",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Marquisat"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1762",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Marquisat"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Marquisat"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1764",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1765",
+              "@type": "tree:Node",
+              "token_string": "eunier"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1766",
+              "@type": "tree:Node",
+              "token_string": "itan"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1768",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1618",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Manège"
+        },
+        {
+          "streetname": "Chemin du Marquisat"
+        },
+        {
+          "streetname": "Chemin du Meunier"
+        },
+        {
+          "streetname": "Chemin du Mitan"
+        },
+        {
+          "streetname": "Chemin du Mont Carmel"
+        },
+        {
+          "streetname": "Chemin du Moulin"
+        },
+        {
+          "streetname": "Chemin du Moulin Al'Poudre"
+        },
+        {
+          "streetname": "Chemin du Moulin Gohy"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "fragment65.jsonld#1763",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Manège"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Marquisat"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Meunier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Mitan"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Mont Carmel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Moulin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Moulin Al'Poudre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Moulin Gohy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1761",
+              "@type": "tree:Node",
+              "token_string": "nège"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1762",
+              "@type": "tree:Node",
+              "token_string": "rquisat"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1763",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Manège"
+        },
+        {
+          "streetname": "Chemin du Marquisat"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment65.jsonld#1764",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Manège"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Marquisat"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eunier",
+      "triples": [
+        {
+          "streetname": "Chemin du Meunier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1763",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Meunier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1765",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Meunier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Meunier"
+      ]
+    },
+    {
+      "token_string": "itan",
+      "triples": [
+        {
+          "streetname": "Chemin du Mitan"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1763",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Mitan"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1766",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Mitan"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Mitan"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1769",
+              "@type": "tree:Node",
+              "token_string": "nt Carmel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1770",
+              "@type": "tree:Node",
+              "token_string": "ulin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1763",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Mont Carmel"
+        },
+        {
+          "streetname": "Chemin du Moulin"
+        },
+        {
+          "streetname": "Chemin du Moulin Al'Poudre"
+        },
+        {
+          "streetname": "Chemin du Moulin Gohy"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment65.jsonld#1768",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Mont Carmel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Moulin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Moulin Al'Poudre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Moulin Gohy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "nt Carmel",
+      "triples": [
+        {
+          "streetname": "Chemin du Mont Carmel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1768",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Mont Carmel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1769",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Mont Carmel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Mont Carmel"
+      ]
+    },
+    {
+      "token_string": "ulin",
+      "triples": [
+        {
+          "streetname": "Chemin du Moulin"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1772",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1768",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Moulin"
+        },
+        {
+          "streetname": "Chemin du Moulin Al'Poudre"
+        },
+        {
+          "streetname": "Chemin du Moulin Gohy"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment65.jsonld#1770",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Moulin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Moulin Al'Poudre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Moulin Gohy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Moulin"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1773",
+              "@type": "tree:Node",
+              "token_string": "Al'Poudre"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1774",
+              "@type": "tree:Node",
+              "token_string": "Gohy"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1770",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Moulin Al'Poudre"
+        },
+        {
+          "streetname": "Chemin du Moulin Gohy"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment65.jsonld#1772",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Moulin Al'Poudre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Moulin Gohy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Al'Poudre",
+      "triples": [
+        {
+          "streetname": "Chemin du Moulin Al'Poudre"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1772",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Moulin Al'Poudre"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1773",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Moulin Al'Poudre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Moulin Al'Poudre"
+      ]
+    },
+    {
+      "token_string": "Gohy",
+      "triples": [
+        {
+          "streetname": "Chemin du Moulin Gohy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1772",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Moulin Gohy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1774",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Moulin Gohy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Moulin Gohy"
+      ]
+    },
+    {
+      "token_string": "N",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1777",
+              "@type": "tree:Node",
+              "token_string": "euf Bois"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1778",
+              "@type": "tree:Node",
+              "token_string": "otaire"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1618",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Neuf Bois"
+        },
+        {
+          "streetname": "Chemin du Notaire"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment65.jsonld#1776",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Neuf Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Notaire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "euf Bois",
+      "triples": [
+        {
+          "streetname": "Chemin du Neuf Bois"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1776",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Neuf Bois"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1777",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Neuf Bois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Neuf Bois"
+      ]
+    },
+    {
+      "token_string": "otaire",
+      "triples": [
+        {
+          "streetname": "Chemin du Notaire"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1776",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Notaire"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1778",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Notaire"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Notaire"
+      ]
+    },
+    {
+      "token_string": "p'tit Coriat",
+      "triples": [
+        {
+          "streetname": "Chemin du p'tit Coriat"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1618",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du p'tit Coriat"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1795",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du p'tit Coriat"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du p'tit Coriat"
+      ]
+    },
+    {
+      "token_string": "V",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment65.jsonld#1844",
+              "@type": "tree:Node",
+              "token_string": "erger"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment71.jsonld#1846",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1618",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Verger"
+        },
+        {
+          "streetname": "Chemin du Vicinal"
+        },
+        {
+          "streetname": "Chemin du Vieux Charme"
+        },
+        {
+          "streetname": "Chemin du Vieux Château"
+        },
+        {
+          "streetname": "Chemin du Vieux Gibet"
+        },
+        {
+          "streetname": "Chemin du Vieux Moulin"
+        },
+        {
+          "streetname": "Chemin du Vieux Puits"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "fragment65.jsonld#1843",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Verger"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Vicinal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Vieux Charme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Vieux Château"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Vieux Gibet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Vieux Moulin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin du Vieux Puits"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erger",
+      "triples": [
+        {
+          "streetname": "Chemin du Verger"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1843",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Verger"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1844",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Verger"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Verger"
+      ]
+    },
+    {
+      "token_string": "Wasse",
+      "triples": [
+        {
+          "streetname": "Chemin du Wasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment65.jsonld#1618",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin du Wasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment65.jsonld#1857",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin du Wasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin du Wasse"
+      ]
+    }
+  ]
+}

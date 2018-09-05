@@ -1,0 +1,958 @@
+{
+  "root_node_id": "5909",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment201.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "attoirs",
+      "triples": [
+        {
+          "streetname": "Rue des Abattoirs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5889",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Abattoirs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment201.jsonld#5884",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Abattoirs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Abattoirs"
+      ]
+    },
+    {
+      "token_string": "bayes",
+      "triples": [
+        {
+          "streetname": "Rue des Abbayes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5889",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Abbayes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment201.jsonld#5885",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Abbayes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Abbayes"
+      ]
+    },
+    {
+      "token_string": "eilles",
+      "triples": [
+        {
+          "streetname": "Rue des Abeilles"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5889",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Abeilles"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment201.jsonld#5886",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Abeilles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Abeilles"
+      ]
+    },
+    {
+      "token_string": "reuvoirs",
+      "triples": [
+        {
+          "streetname": "Rue des Abreuvoirs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5889",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Abreuvoirs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment201.jsonld#5887",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Abreuvoirs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Abreuvoirs"
+      ]
+    },
+    {
+      "token_string": "b",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5884",
+              "@type": "tree:Node",
+              "token_string": "attoirs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5885",
+              "@type": "tree:Node",
+              "token_string": "bayes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5886",
+              "@type": "tree:Node",
+              "token_string": "eilles"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5887",
+              "@type": "tree:Node",
+              "token_string": "reuvoirs"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5909",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Abattoirs"
+        },
+        {
+          "streetname": "Rue des Abbayes"
+        },
+        {
+          "streetname": "Rue des Abeilles"
+        },
+        {
+          "streetname": "Rue des Abreuvoirs"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment201.jsonld#5889",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Abattoirs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Abbayes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Abeilles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Abreuvoirs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "cins",
+      "triples": [
+        {
+          "streetname": "Rue des Acins"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5909",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Acins"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment201.jsonld#5890",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Acins"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Acins"
+      ]
+    },
+    {
+      "token_string": "igrettes",
+      "triples": [
+        {
+          "streetname": "Rue des Aigrettes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5909",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Aigrettes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment201.jsonld#5891",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Aigrettes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Aigrettes"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5894",
+              "@type": "tree:Node",
+              "token_string": "ciennes Cliniques"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5895",
+              "@type": "tree:Node",
+              "token_string": "dains"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5909",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Anciennes Cliniques"
+        },
+        {
+          "streetname": "Rue des Andains"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment201.jsonld#5893",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Anciennes Cliniques"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Andains"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ciennes Cliniques",
+      "triples": [
+        {
+          "streetname": "Rue des Anciennes Cliniques"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5893",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Anciennes Cliniques"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment201.jsonld#5894",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Anciennes Cliniques"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Anciennes Cliniques"
+      ]
+    },
+    {
+      "token_string": "dains",
+      "triples": [
+        {
+          "streetname": "Rue des Andains"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5893",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Andains"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment201.jsonld#5895",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Andains"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Andains"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5899",
+              "@type": "tree:Node",
+              "token_string": "balétriers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5900",
+              "@type": "tree:Node",
+              "token_string": "pents"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5901",
+              "@type": "tree:Node",
+              "token_string": "tisans"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5909",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Arbalétriers"
+        },
+        {
+          "streetname": "Rue des Arpents"
+        },
+        {
+          "streetname": "Rue des Artisans"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment201.jsonld#5898",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Arbalétriers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Arpents"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Artisans"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "balétriers",
+      "triples": [
+        {
+          "streetname": "Rue des Arbalétriers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5898",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Arbalétriers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment201.jsonld#5899",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Arbalétriers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Arbalétriers"
+      ]
+    },
+    {
+      "token_string": "pents",
+      "triples": [
+        {
+          "streetname": "Rue des Arpents"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5898",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Arpents"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment201.jsonld#5900",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Arpents"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Arpents"
+      ]
+    },
+    {
+      "token_string": "tisans",
+      "triples": [
+        {
+          "streetname": "Rue des Artisans"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5898",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Artisans"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment201.jsonld#5901",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Artisans"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Artisans"
+      ]
+    },
+    {
+      "token_string": "teliers",
+      "triples": [
+        {
+          "streetname": "Rue des Ateliers"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5909",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Ateliers"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment201.jsonld#5902",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Ateliers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Ateliers"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5905",
+              "@type": "tree:Node",
+              "token_string": "bépines"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5906",
+              "@type": "tree:Node",
+              "token_string": "nés"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5909",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Aubépines"
+        },
+        {
+          "streetname": "Rue des Aunés"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment201.jsonld#5904",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Aubépines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Aunés"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bépines",
+      "triples": [
+        {
+          "streetname": "Rue des Aubépines"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5904",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Aubépines"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment201.jsonld#5905",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Aubépines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Aubépines"
+      ]
+    },
+    {
+      "token_string": "nés",
+      "triples": [
+        {
+          "streetname": "Rue des Aunés"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5904",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Aunés"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment201.jsonld#5906",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Aunés"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Aunés"
+      ]
+    },
+    {
+      "token_string": "yets",
+      "triples": [
+        {
+          "streetname": "Rue des Ayets"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment201.jsonld#5909",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Ayets"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment201.jsonld#5907",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Ayets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Ayets"
+      ]
+    },
+    {
+      "token_string": "A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5889",
+              "@type": "tree:Node",
+              "token_string": "b"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5890",
+              "@type": "tree:Node",
+              "token_string": "cins"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5891",
+              "@type": "tree:Node",
+              "token_string": "igrettes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5893",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5898",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5902",
+              "@type": "tree:Node",
+              "token_string": "teliers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5904",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment201.jsonld#5907",
+              "@type": "tree:Node",
+              "token_string": "yets"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment200.jsonld#6072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Abattoirs"
+        },
+        {
+          "streetname": "Rue des Abbayes"
+        },
+        {
+          "streetname": "Rue des Abeilles"
+        },
+        {
+          "streetname": "Rue des Abreuvoirs"
+        },
+        {
+          "streetname": "Rue des Acins"
+        },
+        {
+          "streetname": "Rue des Aigrettes"
+        },
+        {
+          "streetname": "Rue des Anciennes Cliniques"
+        },
+        {
+          "streetname": "Rue des Andains"
+        },
+        {
+          "streetname": "Rue des Arbalétriers"
+        },
+        {
+          "streetname": "Rue des Arpents"
+        }
+      ],
+      "total_children_count": 19,
+      "@id": "fragment201.jsonld#5909",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Abattoirs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Abbayes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Abeilles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Abreuvoirs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Acins"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Aigrettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Anciennes Cliniques"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Andains"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Arbalétriers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Arpents"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    }
+  ]
+}

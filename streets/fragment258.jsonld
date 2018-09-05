@@ -1,0 +1,2702 @@
+{
+  "root_node_id": "7377",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment258.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "rge Voye",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Large Voye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.027595608990313",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.61033924275895"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7378",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Large Voye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.027595608990313",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.61033924275895"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7375",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Large Voye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Large Voye"
+      ]
+    },
+    {
+      "token_string": " Strée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue La Strée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8987352069099686",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.762275005251496"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7378",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue La Strée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8987352069099686",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.762275005251496"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7376",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue La Strée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue La Strée"
+      ]
+    },
+    {
+      "token_string": "L",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7378",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7392",
+              "@type": "tree:Node",
+              "token_string": "éo"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7403",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7520",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7547",
+              "@type": "tree:Node",
+              "token_string": "ucie"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment253.jsonld#7407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Large Voye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.027595608990313",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.61033924275895"
+        },
+        {
+          "http://example.com/terms#name": "Rue La Strée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8987352069099686",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.762275005251496"
+        },
+        {
+          "http://example.com/terms#name": "Rue Lie de Vin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2085224140307624",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.922941874774565"
+        },
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Paul Renkin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.884798022772564",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.20982901656731"
+        },
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Simon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8941919429645266",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.28394122969072"
+        },
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Tholomé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.744015921533847",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.8169617514685"
+        },
+        {
+          "http://example.com/terms#name": "Rue Liévin Thésin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8092574274413393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.264975598754454"
+        },
+        {
+          "http://example.com/terms#name": "Rue Lolote",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.596321474460757",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.56035525093092"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Bally",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.801744661791897",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.98791797382063"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Braille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1885446955160264",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.379832402477305"
+        }
+      ],
+      "total_children_count": 45,
+      "@id": "streetsfragment258.jsonld#7377",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Large Voye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue La Strée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Lie de Vin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Lieutenant Paul Renkin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Lieutenant Simon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Lieutenant Tholomé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Liévin Thésin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Lolote"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Bally"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Braille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7375",
+              "@type": "tree:Node",
+              "token_string": "rge Voye"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7376",
+              "@type": "tree:Node",
+              "token_string": " Strée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7377",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Large Voye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.027595608990313",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.61033924275895"
+        },
+        {
+          "http://example.com/terms#name": "Rue La Strée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8987352069099686",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.762275005251496"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment258.jsonld#7378",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Large Voye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue La Strée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aguet",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Léon Baguet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.170845441049511",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.02989708827008"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7385",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Léon Baguet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.170845441049511",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.02989708827008"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7381",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Léon Baguet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Léon Baguet"
+      ]
+    },
+    {
+      "token_string": "lum",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Léon Blum",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8780333590542364",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.42627516220866"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7385",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Léon Blum",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8780333590542364",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.42627516220866"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7382",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Léon Blum"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Léon Blum"
+      ]
+    },
+    {
+      "token_string": "ourcy",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Léon Bourcy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9587104045272334",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.603238625269206"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7385",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Léon Bourcy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9587104045272334",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.603238625269206"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7383",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Léon Bourcy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Léon Bourcy"
+      ]
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7381",
+              "@type": "tree:Node",
+              "token_string": "aguet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7382",
+              "@type": "tree:Node",
+              "token_string": "lum"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7383",
+              "@type": "tree:Node",
+              "token_string": "ourcy"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7393",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Léon Baguet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.170845441049511",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.02989708827008"
+        },
+        {
+          "http://example.com/terms#name": "Rue Léon Blum",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8780333590542364",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.42627516220866"
+        },
+        {
+          "http://example.com/terms#name": "Rue Léon Bourcy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9587104045272334",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.603238625269206"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment258.jsonld#7385",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Léon Baguet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Léon Blum"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Léon Bourcy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Claessens",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Léon Claessens",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.086581462928335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.13935746380073"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7393",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Léon Claessens",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.086581462928335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.13935746380073"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7386",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Léon Claessens"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Léon Claessens"
+      ]
+    },
+    {
+      "token_string": "Herbo",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Léon Herbo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.47879565489088",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.17849687061199"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7393",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Léon Herbo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.47879565489088",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.17849687061199"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7387",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Léon Herbo"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Léon Herbo"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7390",
+              "@type": "tree:Node",
+              "token_string": "aubert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7391",
+              "@type": "tree:Node",
+              "token_string": "oyaux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7393",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Léon Maubert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.04566244997529",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91209345680245"
+        },
+        {
+          "http://example.com/terms#name": "Rue Léon Moyaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6455909761675214",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.932897553475186"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment258.jsonld#7389",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Léon Maubert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Léon Moyaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aubert",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Léon Maubert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.04566244997529",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91209345680245"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7389",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Léon Maubert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.04566244997529",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91209345680245"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7390",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Léon Maubert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Léon Maubert"
+      ]
+    },
+    {
+      "token_string": "oyaux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Léon Moyaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6455909761675214",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.932897553475186"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7389",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Léon Moyaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6455909761675214",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.932897553475186"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7391",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Léon Moyaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Léon Moyaux"
+      ]
+    },
+    {
+      "token_string": "éo",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7393",
+              "@type": "tree:Node",
+              "token_string": "n "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7394",
+              "@type": "tree:Node",
+              "token_string": "pold Genicot"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7377",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Léon Baguet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.170845441049511",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.02989708827008"
+        },
+        {
+          "http://example.com/terms#name": "Rue Léon Blum",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8780333590542364",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.42627516220866"
+        },
+        {
+          "http://example.com/terms#name": "Rue Léon Bourcy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9587104045272334",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.603238625269206"
+        },
+        {
+          "http://example.com/terms#name": "Rue Léon Claessens",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.086581462928335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.13935746380073"
+        },
+        {
+          "http://example.com/terms#name": "Rue Léon Herbo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.47879565489088",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.17849687061199"
+        },
+        {
+          "http://example.com/terms#name": "Rue Léon Maubert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.04566244997529",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91209345680245"
+        },
+        {
+          "http://example.com/terms#name": "Rue Léon Moyaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6455909761675214",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.932897553475186"
+        },
+        {
+          "http://example.com/terms#name": "Rue Léopold Genicot",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.979146843200755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.48095299445192"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "streetsfragment258.jsonld#7392",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Léon Baguet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Léon Blum"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Léon Bourcy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Léon Claessens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Léon Herbo"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Léon Maubert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Léon Moyaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Léopold Genicot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "n ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7385",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7386",
+              "@type": "tree:Node",
+              "token_string": "Claessens"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7387",
+              "@type": "tree:Node",
+              "token_string": "Herbo"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7389",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7392",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Léon Baguet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.170845441049511",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.02989708827008"
+        },
+        {
+          "http://example.com/terms#name": "Rue Léon Blum",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8780333590542364",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.42627516220866"
+        },
+        {
+          "http://example.com/terms#name": "Rue Léon Bourcy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9587104045272334",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.603238625269206"
+        },
+        {
+          "http://example.com/terms#name": "Rue Léon Claessens",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.086581462928335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.13935746380073"
+        },
+        {
+          "http://example.com/terms#name": "Rue Léon Herbo",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.47879565489088",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.17849687061199"
+        },
+        {
+          "http://example.com/terms#name": "Rue Léon Maubert",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.04566244997529",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91209345680245"
+        },
+        {
+          "http://example.com/terms#name": "Rue Léon Moyaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6455909761675214",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.932897553475186"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "streetsfragment258.jsonld#7393",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Léon Baguet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Léon Blum"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Léon Bourcy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Léon Claessens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Léon Herbo"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Léon Maubert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Léon Moyaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "pold Genicot",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Léopold Genicot",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.979146843200755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.48095299445192"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7392",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Léopold Genicot",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.979146843200755",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.48095299445192"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7394",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Léopold Genicot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Léopold Genicot"
+      ]
+    },
+    {
+      "token_string": " de Vin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Lie de Vin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2085224140307624",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.922941874774565"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7404",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Lie de Vin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2085224140307624",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.922941874774565"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7397",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Lie de Vin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Lie de Vin"
+      ]
+    },
+    {
+      "token_string": "utenant ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7400",
+              "@type": "tree:Node",
+              "token_string": "Paul Renkin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7401",
+              "@type": "tree:Node",
+              "token_string": "Simon"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7402",
+              "@type": "tree:Node",
+              "token_string": "Tholomé"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7404",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Paul Renkin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.884798022772564",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.20982901656731"
+        },
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Simon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8941919429645266",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.28394122969072"
+        },
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Tholomé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.744015921533847",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.8169617514685"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment258.jsonld#7399",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Lieutenant Paul Renkin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Lieutenant Simon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Lieutenant Tholomé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Paul Renkin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Paul Renkin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.884798022772564",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.20982901656731"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7399",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Paul Renkin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.884798022772564",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.20982901656731"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7400",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Lieutenant Paul Renkin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Lieutenant Paul Renkin"
+      ]
+    },
+    {
+      "token_string": "Simon",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Simon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8941919429645266",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.28394122969072"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7399",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Simon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8941919429645266",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.28394122969072"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7401",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Lieutenant Simon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Lieutenant Simon"
+      ]
+    },
+    {
+      "token_string": "Tholomé",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Tholomé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.744015921533847",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.8169617514685"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7399",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Tholomé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.744015921533847",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.8169617514685"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7402",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Lieutenant Tholomé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Lieutenant Tholomé"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7404",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7405",
+              "@type": "tree:Node",
+              "token_string": "évin Thésin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7377",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Lie de Vin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2085224140307624",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.922941874774565"
+        },
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Paul Renkin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.884798022772564",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.20982901656731"
+        },
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Simon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8941919429645266",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.28394122969072"
+        },
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Tholomé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.744015921533847",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.8169617514685"
+        },
+        {
+          "http://example.com/terms#name": "Rue Liévin Thésin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8092574274413393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.264975598754454"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "streetsfragment258.jsonld#7403",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Lie de Vin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Lieutenant Paul Renkin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Lieutenant Simon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Lieutenant Tholomé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Liévin Thésin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7397",
+              "@type": "tree:Node",
+              "token_string": " de Vin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7399",
+              "@type": "tree:Node",
+              "token_string": "utenant "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7403",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Lie de Vin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2085224140307624",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.922941874774565"
+        },
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Paul Renkin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.884798022772564",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.20982901656731"
+        },
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Simon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8941919429645266",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.28394122969072"
+        },
+        {
+          "http://example.com/terms#name": "Rue Lieutenant Tholomé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.744015921533847",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.8169617514685"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment258.jsonld#7404",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Lie de Vin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Lieutenant Paul Renkin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Lieutenant Simon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Lieutenant Tholomé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "évin Thésin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Liévin Thésin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8092574274413393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.264975598754454"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7403",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Liévin Thésin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8092574274413393",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.264975598754454"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7405",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Liévin Thésin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Liévin Thésin"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7521",
+              "@type": "tree:Node",
+              "token_string": "lote"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7532",
+              "@type": "tree:Node",
+              "token_string": "uis"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7377",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Lolote",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.596321474460757",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.56035525093092"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Bally",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.801744661791897",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.98791797382063"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Braille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1885446955160264",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.379832402477305"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Breguet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3932445207986683",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.46451440647866"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Chevalier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8679990312466885",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.664755904492495"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louise Michel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.235757354014335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.87156210394613"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louise Weiss",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0428323689862395",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31806092229337"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Germaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.042320555359538",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56612797075083"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Pion",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9970804667472106",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.63598320850109"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Plescia",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.454769276044019",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.34762822443112"
+        }
+      ],
+      "total_children_count": 16,
+      "@id": "streetsfragment258.jsonld#7520",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Lolote"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Bally"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Braille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Breguet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Chevalier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louise Michel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louise Weiss"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Germaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Pion"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Plescia"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "lote",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Lolote",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.596321474460757",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.56035525093092"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7520",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Lolote",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.596321474460757",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.56035525093092"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7521",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Lolote"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Lolote"
+      ]
+    },
+    {
+      "token_string": "ally",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Louis Bally",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.801744661791897",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.98791797382063"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7530",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Louis Bally",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.801744661791897",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.98791797382063"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7524",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Louis Bally"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Louis Bally"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7527",
+              "@type": "tree:Node",
+              "token_string": "aille"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7528",
+              "@type": "tree:Node",
+              "token_string": "eguet"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7530",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Louis Braille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1885446955160264",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.379832402477305"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Breguet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3932445207986683",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.46451440647866"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment258.jsonld#7526",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Louis Braille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Breguet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aille",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Louis Braille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1885446955160264",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.379832402477305"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7526",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Louis Braille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1885446955160264",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.379832402477305"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7527",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Louis Braille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Louis Braille"
+      ]
+    },
+    {
+      "token_string": "eguet",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Louis Breguet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3932445207986683",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.46451440647866"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7526",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Louis Breguet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3932445207986683",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.46451440647866"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7528",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Louis Breguet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Louis Breguet"
+      ]
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7524",
+              "@type": "tree:Node",
+              "token_string": "ally"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7526",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7533",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Louis Bally",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.801744661791897",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.98791797382063"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Braille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1885446955160264",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.379832402477305"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Breguet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3932445207986683",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.46451440647866"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment258.jsonld#7530",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Louis Bally"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Braille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Breguet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Chevalier",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Louis Chevalier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8679990312466885",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.664755904492495"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7533",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Louis Chevalier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8679990312466885",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.664755904492495"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7531",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Louis Chevalier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Louis Chevalier"
+      ]
+    },
+    {
+      "token_string": "uis",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7533",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7535",
+              "@type": "tree:Node",
+              "token_string": "e "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7520",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Louis Bally",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.801744661791897",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.98791797382063"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Braille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1885446955160264",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.379832402477305"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Breguet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3932445207986683",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.46451440647866"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Chevalier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8679990312466885",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.664755904492495"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louise Michel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.235757354014335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.87156210394613"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louise Weiss",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0428323689862395",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31806092229337"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Germaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.042320555359538",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56612797075083"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Pion",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9970804667472106",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.63598320850109"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Plescia",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.454769276044019",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.34762822443112"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "streetsfragment258.jsonld#7532",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Louis Bally"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Braille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Breguet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Chevalier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louise Michel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louise Weiss"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Germaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Pion"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Plescia"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7530",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7531",
+              "@type": "tree:Node",
+              "token_string": "Chevalier"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7538",
+              "@type": "tree:Node",
+              "token_string": "Germaux"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7540",
+              "@type": "tree:Node",
+              "token_string": "P"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7532",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Louis Bally",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.801744661791897",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.98791797382063"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Braille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1885446955160264",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.379832402477305"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Breguet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3932445207986683",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.46451440647866"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Chevalier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8679990312466885",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.664755904492495"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Germaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.042320555359538",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56612797075083"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Pion",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9970804667472106",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.63598320850109"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Plescia",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.454769276044019",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.34762822443112"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "streetsfragment258.jsonld#7533",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Louis Bally"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Braille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Breguet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Chevalier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Germaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Pion"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Plescia"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7536",
+              "@type": "tree:Node",
+              "token_string": "Michel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7537",
+              "@type": "tree:Node",
+              "token_string": "Weiss"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7532",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Louise Michel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.235757354014335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.87156210394613"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louise Weiss",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0428323689862395",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31806092229337"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment258.jsonld#7535",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Louise Michel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louise Weiss"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Michel",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Louise Michel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.235757354014335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.87156210394613"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7535",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Louise Michel",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.235757354014335",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.87156210394613"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7536",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Louise Michel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Louise Michel"
+      ]
+    },
+    {
+      "token_string": "Weiss",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Louise Weiss",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0428323689862395",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31806092229337"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7535",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Louise Weiss",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0428323689862395",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31806092229337"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7537",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Louise Weiss"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Louise Weiss"
+      ]
+    },
+    {
+      "token_string": "Germaux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Louis Germaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.042320555359538",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56612797075083"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7533",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Louis Germaux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.042320555359538",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.56612797075083"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7538",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Louis Germaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Louis Germaux"
+      ]
+    },
+    {
+      "token_string": "P",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7541",
+              "@type": "tree:Node",
+              "token_string": "ion"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7542",
+              "@type": "tree:Node",
+              "token_string": "lescia"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7533",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Louis Pion",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9970804667472106",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.63598320850109"
+        },
+        {
+          "http://example.com/terms#name": "Rue Louis Plescia",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.454769276044019",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.34762822443112"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment258.jsonld#7540",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Louis Pion"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Louis Plescia"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ion",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Louis Pion",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9970804667472106",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.63598320850109"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7540",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Louis Pion",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9970804667472106",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.63598320850109"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7541",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Louis Pion"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Louis Pion"
+      ]
+    },
+    {
+      "token_string": "lescia",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Louis Plescia",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.454769276044019",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.34762822443112"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7540",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Louis Plescia",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.454769276044019",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.34762822443112"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7542",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Louis Plescia"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Louis Plescia"
+      ]
+    },
+    {
+      "token_string": "jardin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Lucie Dejardin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4623340176284962",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.466749236409505"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7548",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Lucie Dejardin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4623340176284962",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.466749236409505"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7545",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Lucie Dejardin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Lucie Dejardin"
+      ]
+    },
+    {
+      "token_string": "ltour",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Lucie Deltour",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0337933832412727",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.62351532979441"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7548",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Lucie Deltour",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0337933832412727",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.62351532979441"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7546",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Lucie Deltour"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Lucie Deltour"
+      ]
+    },
+    {
+      "token_string": "ucie",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7548",
+              "@type": "tree:Node",
+              "token_string": " De"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7549",
+              "@type": "tree:Node",
+              "token_string": "n Jardez"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7377",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Lucie Dejardin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4623340176284962",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.466749236409505"
+        },
+        {
+          "http://example.com/terms#name": "Rue Lucie Deltour",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0337933832412727",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.62351532979441"
+        },
+        {
+          "http://example.com/terms#name": "Rue Lucien Jardez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.615503717560281",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.89216189320157"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment258.jsonld#7547",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Lucie Dejardin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Lucie Deltour"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Lucien Jardez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " De",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7545",
+              "@type": "tree:Node",
+              "token_string": "jardin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment258.jsonld#7546",
+              "@type": "tree:Node",
+              "token_string": "ltour"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7547",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Lucie Dejardin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4623340176284962",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.466749236409505"
+        },
+        {
+          "http://example.com/terms#name": "Rue Lucie Deltour",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0337933832412727",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.62351532979441"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment258.jsonld#7548",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Lucie Dejardin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue Lucie Deltour"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "n Jardez",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue Lucien Jardez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.615503717560281",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.89216189320157"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment258.jsonld#7547",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue Lucien Jardez",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.615503717560281",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.89216189320157"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment258.jsonld#7549",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue Lucien Jardez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue Lucien Jardez"
+      ]
+    }
+  ]
+}

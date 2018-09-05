@@ -1,0 +1,438 @@
+{
+  "root_node_id": "4158",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment143.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment143.jsonld#4159",
+              "@type": "tree:Node",
+              "token_string": "c au Vent-La Girouette"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment143.jsonld#4160",
+              "@type": "tree:Node",
+              "token_string": "ed du Thier"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment143.jsonld#4161",
+              "@type": "tree:Node",
+              "token_string": "ésinte du Bomart"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment143.jsonld#4162",
+              "@type": "tree:Node",
+              "token_string": "lgerweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment143.jsonld#4164",
+              "@type": "tree:Node",
+              "token_string": "s"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment143.jsonld#4167",
+              "@type": "tree:Node",
+              "token_string": "triquet"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment125.jsonld#4075",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pic au Vent-La Girouette"
+        },
+        {
+          "streetname": "Pied du Thier"
+        },
+        {
+          "streetname": "Piésinte du Bomart"
+        },
+        {
+          "streetname": "Pilgerweg"
+        },
+        {
+          "streetname": "Pissinte des Pècawes"
+        },
+        {
+          "streetname": "Piste des Sonneurs"
+        },
+        {
+          "streetname": "Pitriquet"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment143.jsonld#4158",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pic au Vent-La Girouette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Pied du Thier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Piésinte du Bomart"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Pilgerweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Pissinte des Pècawes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Piste des Sonneurs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Pitriquet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "c au Vent-La Girouette",
+      "triples": [
+        {
+          "streetname": "Pic au Vent-La Girouette"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment143.jsonld#4158",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pic au Vent-La Girouette"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment143.jsonld#4159",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pic au Vent-La Girouette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Pic au Vent-La Girouette"
+      ]
+    },
+    {
+      "token_string": "ed du Thier",
+      "triples": [
+        {
+          "streetname": "Pied du Thier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment143.jsonld#4158",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pied du Thier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment143.jsonld#4160",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pied du Thier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Pied du Thier"
+      ]
+    },
+    {
+      "token_string": "ésinte du Bomart",
+      "triples": [
+        {
+          "streetname": "Piésinte du Bomart"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment143.jsonld#4158",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Piésinte du Bomart"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment143.jsonld#4161",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Piésinte du Bomart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Piésinte du Bomart"
+      ]
+    },
+    {
+      "token_string": "lgerweg",
+      "triples": [
+        {
+          "streetname": "Pilgerweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment143.jsonld#4158",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pilgerweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment143.jsonld#4162",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pilgerweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Pilgerweg"
+      ]
+    },
+    {
+      "token_string": "s",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment143.jsonld#4165",
+              "@type": "tree:Node",
+              "token_string": "sinte des Pècawes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment143.jsonld#4166",
+              "@type": "tree:Node",
+              "token_string": "te des Sonneurs"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment143.jsonld#4158",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pissinte des Pècawes"
+        },
+        {
+          "streetname": "Piste des Sonneurs"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment143.jsonld#4164",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pissinte des Pècawes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Piste des Sonneurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sinte des Pècawes",
+      "triples": [
+        {
+          "streetname": "Pissinte des Pècawes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment143.jsonld#4164",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pissinte des Pècawes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment143.jsonld#4165",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pissinte des Pècawes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Pissinte des Pècawes"
+      ]
+    },
+    {
+      "token_string": "te des Sonneurs",
+      "triples": [
+        {
+          "streetname": "Piste des Sonneurs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment143.jsonld#4164",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Piste des Sonneurs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment143.jsonld#4166",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Piste des Sonneurs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Piste des Sonneurs"
+      ]
+    },
+    {
+      "token_string": "triquet",
+      "triples": [
+        {
+          "streetname": "Pitriquet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment143.jsonld#4158",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Pitriquet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment143.jsonld#4167",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Pitriquet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Pitriquet"
+      ]
+    }
+  ]
+}

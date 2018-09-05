@@ -1,0 +1,4332 @@
+{
+  "root_node_id": "6863",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment236.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "is",
+      "triples": [
+        {
+          "streetname": "Rue du Pachis"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6857",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pachis"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6854",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pachis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pachis"
+      ]
+    },
+    {
+      "token_string": "y",
+      "triples": [
+        {
+          "streetname": "Rue du Pachy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6857",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pachy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6855",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pachy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pachy"
+      ]
+    },
+    {
+      "token_string": "ch",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6854",
+              "@type": "tree:Node",
+              "token_string": "is"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6855",
+              "@type": "tree:Node",
+              "token_string": "y"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6864",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pachis"
+        },
+        {
+          "streetname": "Rue du Pachy"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment236.jsonld#6857",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pachis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pachy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "norama",
+      "triples": [
+        {
+          "streetname": "Rue du Panorama"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6864",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Panorama"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6858",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Panorama"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Panorama"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6861",
+              "@type": "tree:Node",
+              "token_string": "adis"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6862",
+              "@type": "tree:Node",
+              "token_string": "c"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6864",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Paradis"
+        },
+        {
+          "streetname": "Rue du Parc"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment236.jsonld#6860",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Paradis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Parc"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "adis",
+      "triples": [
+        {
+          "streetname": "Rue du Paradis"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6860",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Paradis"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6861",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Paradis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Paradis"
+      ]
+    },
+    {
+      "token_string": "c",
+      "triples": [
+        {
+          "streetname": "Rue du Parc"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6860",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Parc"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6862",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Parc"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Parc"
+      ]
+    },
+    {
+      "token_string": "P",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6864",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6865",
+              "@type": "tree:Node",
+              "token_string": "érigord"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6867",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6879",
+              "@type": "tree:Node",
+              "token_string": "hénix"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6884",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6888",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6892",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6949",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6958",
+              "@type": "tree:Node",
+              "token_string": "ui"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment226.jsonld#6980",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pachis"
+        },
+        {
+          "streetname": "Rue du Pachy"
+        },
+        {
+          "streetname": "Rue du Panorama"
+        },
+        {
+          "streetname": "Rue du Paradis"
+        },
+        {
+          "streetname": "Rue du Parc"
+        },
+        {
+          "streetname": "Rue du Perriqui"
+        },
+        {
+          "streetname": "Rue du Petit Bois"
+        },
+        {
+          "streetname": "Rue du Petit Chenu"
+        },
+        {
+          "streetname": "Rue du Petit Granit"
+        },
+        {
+          "streetname": "Rue du Petit Marmeau"
+        }
+      ],
+      "total_children_count": 82,
+      "@id": "fragment236.jsonld#6863",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pachis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pachy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Panorama"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Paradis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Parc"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Perriqui"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Chenu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Granit"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Marmeau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6857",
+              "@type": "tree:Node",
+              "token_string": "ch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6858",
+              "@type": "tree:Node",
+              "token_string": "norama"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6860",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6863",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pachis"
+        },
+        {
+          "streetname": "Rue du Pachy"
+        },
+        {
+          "streetname": "Rue du Panorama"
+        },
+        {
+          "streetname": "Rue du Paradis"
+        },
+        {
+          "streetname": "Rue du Parc"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment236.jsonld#6864",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pachis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pachy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Panorama"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Paradis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Parc"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "érigord",
+      "triples": [
+        {
+          "streetname": "Rue du Périgord"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6863",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Périgord"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6865",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Périgord"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Périgord"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6868",
+              "@type": "tree:Node",
+              "token_string": "rriqui"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6874",
+              "@type": "tree:Node",
+              "token_string": "tit"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6863",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Perriqui"
+        },
+        {
+          "streetname": "Rue du Petit Bois"
+        },
+        {
+          "streetname": "Rue du Petit Chenu"
+        },
+        {
+          "streetname": "Rue du Petit Granit"
+        },
+        {
+          "streetname": "Rue du Petit-Hollande"
+        },
+        {
+          "streetname": "Rue du Petit Marmeau"
+        },
+        {
+          "streetname": "Rue du Petit Réclôs"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "fragment236.jsonld#6867",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Perriqui"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Chenu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Granit"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit-Hollande"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Marmeau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Réclôs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rriqui",
+      "triples": [
+        {
+          "streetname": "Rue du Perriqui"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6867",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Perriqui"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6868",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Perriqui"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Perriqui"
+      ]
+    },
+    {
+      "token_string": "Bois",
+      "triples": [
+        {
+          "streetname": "Rue du Petit Bois"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6875",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Petit Bois"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6871",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Petit Bois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Petit Bois"
+      ]
+    },
+    {
+      "token_string": "Chenu",
+      "triples": [
+        {
+          "streetname": "Rue du Petit Chenu"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6875",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Petit Chenu"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6872",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Petit Chenu"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Petit Chenu"
+      ]
+    },
+    {
+      "token_string": "Granit",
+      "triples": [
+        {
+          "streetname": "Rue du Petit Granit"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6875",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Petit Granit"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6873",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Petit Granit"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Petit Granit"
+      ]
+    },
+    {
+      "token_string": "tit",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6875",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6876",
+              "@type": "tree:Node",
+              "token_string": "-Hollande"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6867",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Petit Bois"
+        },
+        {
+          "streetname": "Rue du Petit Chenu"
+        },
+        {
+          "streetname": "Rue du Petit Granit"
+        },
+        {
+          "streetname": "Rue du Petit-Hollande"
+        },
+        {
+          "streetname": "Rue du Petit Marmeau"
+        },
+        {
+          "streetname": "Rue du Petit Réclôs"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment236.jsonld#6874",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Petit Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Chenu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Granit"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit-Hollande"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Marmeau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Réclôs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6871",
+              "@type": "tree:Node",
+              "token_string": "Bois"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6872",
+              "@type": "tree:Node",
+              "token_string": "Chenu"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6873",
+              "@type": "tree:Node",
+              "token_string": "Granit"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6877",
+              "@type": "tree:Node",
+              "token_string": "Marmeau"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6878",
+              "@type": "tree:Node",
+              "token_string": "Réclôs"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6874",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Petit Bois"
+        },
+        {
+          "streetname": "Rue du Petit Chenu"
+        },
+        {
+          "streetname": "Rue du Petit Granit"
+        },
+        {
+          "streetname": "Rue du Petit Marmeau"
+        },
+        {
+          "streetname": "Rue du Petit Réclôs"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment236.jsonld#6875",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Petit Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Chenu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Granit"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Marmeau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Petit Réclôs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "-Hollande",
+      "triples": [
+        {
+          "streetname": "Rue du Petit-Hollande"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6874",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Petit-Hollande"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6876",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Petit-Hollande"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Petit-Hollande"
+      ]
+    },
+    {
+      "token_string": "Marmeau",
+      "triples": [
+        {
+          "streetname": "Rue du Petit Marmeau"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6875",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Petit Marmeau"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6877",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Petit Marmeau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Petit Marmeau"
+      ]
+    },
+    {
+      "token_string": "Réclôs",
+      "triples": [
+        {
+          "streetname": "Rue du Petit Réclôs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6875",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Petit Réclôs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6878",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Petit Réclôs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Petit Réclôs"
+      ]
+    },
+    {
+      "token_string": "hénix",
+      "triples": [
+        {
+          "streetname": "Rue du Phénix"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6863",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Phénix"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6879",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Phénix"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Phénix"
+      ]
+    },
+    {
+      "token_string": " et Plat",
+      "triples": [
+        {
+          "streetname": "Rue du Pic et Plat"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6885",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pic et Plat"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6882",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pic et Plat"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pic et Plat"
+      ]
+    },
+    {
+      "token_string": "teur",
+      "triples": [
+        {
+          "streetname": "Rue du Picteur"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6885",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Picteur"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6883",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Picteur"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Picteur"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6885",
+              "@type": "tree:Node",
+              "token_string": "c"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6886",
+              "@type": "tree:Node",
+              "token_string": "éton"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6863",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pic et Plat"
+        },
+        {
+          "streetname": "Rue du Picteur"
+        },
+        {
+          "streetname": "Rue du Piéton"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment236.jsonld#6884",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pic et Plat"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Picteur"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Piéton"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "c",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6882",
+              "@type": "tree:Node",
+              "token_string": " et Plat"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6883",
+              "@type": "tree:Node",
+              "token_string": "teur"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6884",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pic et Plat"
+        },
+        {
+          "streetname": "Rue du Picteur"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment236.jsonld#6885",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pic et Plat"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Picteur"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "éton",
+      "triples": [
+        {
+          "streetname": "Rue du Piéton"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6884",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Piéton"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6886",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Piéton"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Piéton"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6889",
+              "@type": "tree:Node",
+              "token_string": "ainois"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6890",
+              "@type": "tree:Node",
+              "token_string": "ein Vent"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6863",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Plainois"
+        },
+        {
+          "streetname": "Rue du Plein Vent"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment236.jsonld#6888",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Plainois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Plein Vent"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ainois",
+      "triples": [
+        {
+          "streetname": "Rue du Plainois"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6888",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Plainois"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6889",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Plainois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Plainois"
+      ]
+    },
+    {
+      "token_string": "ein Vent",
+      "triples": [
+        {
+          "streetname": "Rue du Plein Vent"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6888",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Plein Vent"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6890",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Plein Vent"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Plein Vent"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6893",
+              "@type": "tree:Node",
+              "token_string": "int du Jour"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6895",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6920",
+              "@type": "tree:Node",
+              "token_string": "rion"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6922",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6926",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6863",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Point du Jour"
+        },
+        {
+          "streetname": "Rue du Poncha"
+        },
+        {
+          "streetname": "Rue du Pont"
+        },
+        {
+          "streetname": "Rue du Pont Bleu"
+        },
+        {
+          "streetname": "Rue du Pont Brûlé"
+        },
+        {
+          "streetname": "Rue du Pont Cajot"
+        },
+        {
+          "streetname": "Rue du Pont Canal"
+        },
+        {
+          "streetname": "Rue du Pont Gahy"
+        },
+        {
+          "streetname": "Rue du Pont Marion"
+        },
+        {
+          "streetname": "Rue du Pont Tchantchès"
+        }
+      ],
+      "total_children_count": 28,
+      "@id": "fragment236.jsonld#6892",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Point du Jour"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Poncha"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Bleu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Brûlé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Cajot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Canal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Gahy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Marion"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Tchantchès"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "int du Jour",
+      "triples": [
+        {
+          "streetname": "Rue du Point du Jour"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6892",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Point du Jour"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6893",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Point du Jour"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Point du Jour"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6896",
+              "@type": "tree:Node",
+              "token_string": "cha"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6897",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6892",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Poncha"
+        },
+        {
+          "streetname": "Rue du Pont"
+        },
+        {
+          "streetname": "Rue du Pont Bleu"
+        },
+        {
+          "streetname": "Rue du Pont Brûlé"
+        },
+        {
+          "streetname": "Rue du Pont Cajot"
+        },
+        {
+          "streetname": "Rue du Pont Canal"
+        },
+        {
+          "streetname": "Rue du Pont de Burnon"
+        },
+        {
+          "streetname": "Rue du Pont Gahy"
+        },
+        {
+          "streetname": "Rue du Pont Marion"
+        },
+        {
+          "streetname": "Rue du Pont Tchantchès"
+        }
+      ],
+      "total_children_count": 19,
+      "@id": "fragment236.jsonld#6895",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Poncha"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Bleu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Brûlé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Cajot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Canal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont de Burnon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Gahy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Marion"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Tchantchès"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "cha",
+      "triples": [
+        {
+          "streetname": "Rue du Poncha"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6895",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Poncha"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6896",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Poncha"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Poncha"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [
+        {
+          "streetname": "Rue du Pont"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6902",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6918",
+              "@type": "tree:Node",
+              "token_string": "-Neuf"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6895",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont"
+        },
+        {
+          "streetname": "Rue du Pont Bleu"
+        },
+        {
+          "streetname": "Rue du Pont Brûlé"
+        },
+        {
+          "streetname": "Rue du Pont Cajot"
+        },
+        {
+          "streetname": "Rue du Pont Canal"
+        },
+        {
+          "streetname": "Rue du Pont de Burnon"
+        },
+        {
+          "streetname": "Rue du Pont de Fosset"
+        },
+        {
+          "streetname": "Rue du Pont Gahy"
+        },
+        {
+          "streetname": "Rue du Pont Marion"
+        },
+        {
+          "streetname": "Rue du Pont Tchantchès"
+        }
+      ],
+      "total_children_count": 17,
+      "@id": "fragment236.jsonld#6897",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Bleu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Brûlé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Cajot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Canal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont de Burnon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont de Fosset"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Gahy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Marion"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Tchantchès"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pont"
+      ]
+    },
+    {
+      "token_string": "leu",
+      "triples": [
+        {
+          "streetname": "Rue du Pont Bleu"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6903",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont Bleu"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6900",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont Bleu"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pont Bleu"
+      ]
+    },
+    {
+      "token_string": "rûlé",
+      "triples": [
+        {
+          "streetname": "Rue du Pont Brûlé"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6903",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont Brûlé"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6901",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont Brûlé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pont Brûlé"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6903",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6905",
+              "@type": "tree:Node",
+              "token_string": "Ca"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6913",
+              "@type": "tree:Node",
+              "token_string": "de"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6916",
+              "@type": "tree:Node",
+              "token_string": "Gahy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6917",
+              "@type": "tree:Node",
+              "token_string": "Marion"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6919",
+              "@type": "tree:Node",
+              "token_string": "Tchantchès"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6897",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont Bleu"
+        },
+        {
+          "streetname": "Rue du Pont Brûlé"
+        },
+        {
+          "streetname": "Rue du Pont Cajot"
+        },
+        {
+          "streetname": "Rue du Pont Canal"
+        },
+        {
+          "streetname": "Rue du Pont de Burnon"
+        },
+        {
+          "streetname": "Rue du Pont de Fosset"
+        },
+        {
+          "streetname": "Rue du Pont de Hotte"
+        },
+        {
+          "streetname": "Rue du Pont Gahy"
+        },
+        {
+          "streetname": "Rue du Pont Marion"
+        },
+        {
+          "streetname": "Rue du Pont Tchantchès"
+        }
+      ],
+      "total_children_count": 15,
+      "@id": "fragment236.jsonld#6902",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont Bleu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Brûlé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Cajot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Canal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont de Burnon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont de Fosset"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont de Hotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Gahy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Marion"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Tchantchès"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6900",
+              "@type": "tree:Node",
+              "token_string": "leu"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6901",
+              "@type": "tree:Node",
+              "token_string": "rûlé"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6902",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont Bleu"
+        },
+        {
+          "streetname": "Rue du Pont Brûlé"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment236.jsonld#6903",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont Bleu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Brûlé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Ca",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6906",
+              "@type": "tree:Node",
+              "token_string": "jot"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6907",
+              "@type": "tree:Node",
+              "token_string": "nal"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6902",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont Cajot"
+        },
+        {
+          "streetname": "Rue du Pont Canal"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment236.jsonld#6905",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont Cajot"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont Canal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "jot",
+      "triples": [
+        {
+          "streetname": "Rue du Pont Cajot"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6905",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont Cajot"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6906",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont Cajot"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pont Cajot"
+      ]
+    },
+    {
+      "token_string": "nal",
+      "triples": [
+        {
+          "streetname": "Rue du Pont Canal"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6905",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont Canal"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6907",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont Canal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pont Canal"
+      ]
+    },
+    {
+      "token_string": "Burnon",
+      "triples": [
+        {
+          "streetname": "Rue du Pont de Burnon"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6914",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont de Burnon"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6910",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont de Burnon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pont de Burnon"
+      ]
+    },
+    {
+      "token_string": "Fosset",
+      "triples": [
+        {
+          "streetname": "Rue du Pont de Fosset"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6914",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont de Fosset"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6911",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont de Fosset"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pont de Fosset"
+      ]
+    },
+    {
+      "token_string": "Hotte",
+      "triples": [
+        {
+          "streetname": "Rue du Pont de Hotte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6914",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont de Hotte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6912",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont de Hotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pont de Hotte"
+      ]
+    },
+    {
+      "token_string": "de",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6914",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6915",
+              "@type": "tree:Node",
+              "token_string": "s Chevaux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6902",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont de Burnon"
+        },
+        {
+          "streetname": "Rue du Pont de Fosset"
+        },
+        {
+          "streetname": "Rue du Pont de Hotte"
+        },
+        {
+          "streetname": "Rue du Pont des Chevaux"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment236.jsonld#6913",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont de Burnon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont de Fosset"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont de Hotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont des Chevaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6910",
+              "@type": "tree:Node",
+              "token_string": "Burnon"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6911",
+              "@type": "tree:Node",
+              "token_string": "Fosset"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6912",
+              "@type": "tree:Node",
+              "token_string": "Hotte"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6913",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont de Burnon"
+        },
+        {
+          "streetname": "Rue du Pont de Fosset"
+        },
+        {
+          "streetname": "Rue du Pont de Hotte"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment236.jsonld#6914",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont de Burnon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont de Fosset"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pont de Hotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "s Chevaux",
+      "triples": [
+        {
+          "streetname": "Rue du Pont des Chevaux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6913",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont des Chevaux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6915",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont des Chevaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pont des Chevaux"
+      ]
+    },
+    {
+      "token_string": "Gahy",
+      "triples": [
+        {
+          "streetname": "Rue du Pont Gahy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6902",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont Gahy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6916",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont Gahy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pont Gahy"
+      ]
+    },
+    {
+      "token_string": "Marion",
+      "triples": [
+        {
+          "streetname": "Rue du Pont Marion"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6902",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont Marion"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6917",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont Marion"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pont Marion"
+      ]
+    },
+    {
+      "token_string": "-Neuf",
+      "triples": [
+        {
+          "streetname": "Rue du Pont-Neuf"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6897",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont-Neuf"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6918",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont-Neuf"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pont-Neuf"
+      ]
+    },
+    {
+      "token_string": "Tchantchès",
+      "triples": [
+        {
+          "streetname": "Rue du Pont Tchantchès"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6902",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pont Tchantchès"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6919",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pont Tchantchès"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pont Tchantchès"
+      ]
+    },
+    {
+      "token_string": "rion",
+      "triples": [
+        {
+          "streetname": "Rue du Porion"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6892",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Porion"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6920",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Porion"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Porion"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6923",
+              "@type": "tree:Node",
+              "token_string": "eau"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6924",
+              "@type": "tree:Node",
+              "token_string": "omac"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6892",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Poteau"
+        },
+        {
+          "streetname": "Rue du Potomac"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment236.jsonld#6922",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Poteau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Potomac"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eau",
+      "triples": [
+        {
+          "streetname": "Rue du Poteau"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6922",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Poteau"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6923",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Poteau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Poteau"
+      ]
+    },
+    {
+      "token_string": "omac",
+      "triples": [
+        {
+          "streetname": "Rue du Potomac"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6922",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Potomac"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6924",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Potomac"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Potomac"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6927",
+              "@type": "tree:Node",
+              "token_string": "hon"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6928",
+              "@type": "tree:Node",
+              "token_string": "ille"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6892",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pouhon"
+        },
+        {
+          "streetname": "Rue du Pouille"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment236.jsonld#6926",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pouhon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pouille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "hon",
+      "triples": [
+        {
+          "streetname": "Rue du Pouhon"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6926",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pouhon"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6927",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pouhon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pouhon"
+      ]
+    },
+    {
+      "token_string": "ille",
+      "triples": [
+        {
+          "streetname": "Rue du Pouille"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6926",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pouille"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6928",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pouille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pouille"
+      ]
+    },
+    {
+      "token_string": "Dames",
+      "triples": [
+        {
+          "streetname": "Rue du Pré aux Dames"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6939",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré aux Dames"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6931",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré aux Dames"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pré aux Dames"
+      ]
+    },
+    {
+      "token_string": "J",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6934",
+              "@type": "tree:Node",
+              "token_string": "ars"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6935",
+              "@type": "tree:Node",
+              "token_string": "oncs"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6939",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré aux Jars"
+        },
+        {
+          "streetname": "Rue du Pré aux Joncs"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment236.jsonld#6933",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré aux Jars"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré aux Joncs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ars",
+      "triples": [
+        {
+          "streetname": "Rue du Pré aux Jars"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6933",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré aux Jars"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6934",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré aux Jars"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pré aux Jars"
+      ]
+    },
+    {
+      "token_string": "oncs",
+      "triples": [
+        {
+          "streetname": "Rue du Pré aux Joncs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6933",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré aux Joncs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6935",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré aux Joncs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pré aux Joncs"
+      ]
+    },
+    {
+      "token_string": "Oies",
+      "triples": [
+        {
+          "streetname": "Rue du Pré aux Oies"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6939",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré aux Oies"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6936",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré aux Oies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pré aux Oies"
+      ]
+    },
+    {
+      "token_string": "Traîneaux",
+      "triples": [
+        {
+          "streetname": "Rue du Pré aux Traîneaux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6939",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré aux Traîneaux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6937",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré aux Traîneaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pré aux Traîneaux"
+      ]
+    },
+    {
+      "token_string": "aux ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6931",
+              "@type": "tree:Node",
+              "token_string": "Dames"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6933",
+              "@type": "tree:Node",
+              "token_string": "J"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6936",
+              "@type": "tree:Node",
+              "token_string": "Oies"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6937",
+              "@type": "tree:Node",
+              "token_string": "Traîneaux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6953",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré aux Dames"
+        },
+        {
+          "streetname": "Rue du Pré aux Jars"
+        },
+        {
+          "streetname": "Rue du Pré aux Joncs"
+        },
+        {
+          "streetname": "Rue du Pré aux Oies"
+        },
+        {
+          "streetname": "Rue du Pré aux Traîneaux"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment236.jsonld#6939",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré aux Dames"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré aux Jars"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré aux Joncs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré aux Oies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré aux Traîneaux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Boda",
+      "triples": [
+        {
+          "streetname": "Rue du Pré Boda"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6953",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré Boda"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6940",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré Boda"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pré Boda"
+      ]
+    },
+    {
+      "token_string": "des Bômes",
+      "triples": [
+        {
+          "streetname": "Rue du Pré des Bômes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6953",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré des Bômes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6941",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré des Bômes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pré des Bômes"
+      ]
+    },
+    {
+      "token_string": "Hordal",
+      "triples": [
+        {
+          "streetname": "Rue du Pré Hordal"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6953",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré Hordal"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6942",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré Hordal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pré Hordal"
+      ]
+    },
+    {
+      "token_string": "l'Evêque",
+      "triples": [
+        {
+          "streetname": "Rue du Pré l'Evêque"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6953",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré l'Evêque"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6943",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré l'Evêque"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pré l'Evêque"
+      ]
+    },
+    {
+      "token_string": "Magnette",
+      "triples": [
+        {
+          "streetname": "Rue du Pré Magnette"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6953",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré Magnette"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6944",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré Magnette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pré Magnette"
+      ]
+    },
+    {
+      "token_string": "Saint-",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6947",
+              "@type": "tree:Node",
+              "token_string": "Germain"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6948",
+              "@type": "tree:Node",
+              "token_string": "Jean"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6953",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré Saint-Germain"
+        },
+        {
+          "streetname": "Rue du Pré Saint-Jean"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment236.jsonld#6946",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré Saint-Germain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré Saint-Jean"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Germain",
+      "triples": [
+        {
+          "streetname": "Rue du Pré Saint-Germain"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6946",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré Saint-Germain"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6947",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré Saint-Germain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pré Saint-Germain"
+      ]
+    },
+    {
+      "token_string": "Jean",
+      "triples": [
+        {
+          "streetname": "Rue du Pré Saint-Jean"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6946",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré Saint-Jean"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6948",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré Saint-Jean"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Pré Saint-Jean"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6951",
+              "@type": "tree:Node",
+              "token_string": "esbytère"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6952",
+              "@type": "tree:Node",
+              "token_string": "é"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6955",
+              "@type": "tree:Node",
+              "token_string": "ieuré"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6956",
+              "@type": "tree:Node",
+              "token_string": "ogrès"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6863",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré aux Dames"
+        },
+        {
+          "streetname": "Rue du Pré aux Jars"
+        },
+        {
+          "streetname": "Rue du Pré Boda"
+        },
+        {
+          "streetname": "Rue du Pré Hordal"
+        },
+        {
+          "streetname": "Rue du Pré Magnette"
+        },
+        {
+          "streetname": "Rue du Pré Saint-Germain"
+        },
+        {
+          "streetname": "Rue du Pré Saint-Jean"
+        },
+        {
+          "streetname": "Rue du Presbytère"
+        },
+        {
+          "streetname": "Rue du Prieuré"
+        },
+        {
+          "streetname": "Rue du Progrès"
+        }
+      ],
+      "total_children_count": 21,
+      "@id": "fragment236.jsonld#6949",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré aux Dames"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré aux Jars"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré Boda"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré Hordal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré Magnette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré Saint-Germain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré Saint-Jean"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Presbytère"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Prieuré"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Progrès"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "esbytère",
+      "triples": [
+        {
+          "streetname": "Rue du Presbytère"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6949",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Presbytère"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6951",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Presbytère"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Presbytère"
+      ]
+    },
+    {
+      "token_string": "é",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6953",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6954",
+              "@type": "tree:Node",
+              "token_string": "vôt"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6949",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré aux Dames"
+        },
+        {
+          "streetname": "Rue du Pré aux Jars"
+        },
+        {
+          "streetname": "Rue du Pré aux Joncs"
+        },
+        {
+          "streetname": "Rue du Pré aux Oies"
+        },
+        {
+          "streetname": "Rue du Pré aux Traîneaux"
+        },
+        {
+          "streetname": "Rue du Pré Boda"
+        },
+        {
+          "streetname": "Rue du Pré Hordal"
+        },
+        {
+          "streetname": "Rue du Pré Magnette"
+        },
+        {
+          "streetname": "Rue du Pré Saint-Germain"
+        },
+        {
+          "streetname": "Rue du Pré Saint-Jean"
+        }
+      ],
+      "total_children_count": 17,
+      "@id": "fragment236.jsonld#6952",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré aux Dames"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré aux Jars"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré aux Joncs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré aux Oies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré aux Traîneaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré Boda"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré Hordal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré Magnette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré Saint-Germain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré Saint-Jean"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6939",
+              "@type": "tree:Node",
+              "token_string": "aux "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6940",
+              "@type": "tree:Node",
+              "token_string": "Boda"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6941",
+              "@type": "tree:Node",
+              "token_string": "des Bômes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6942",
+              "@type": "tree:Node",
+              "token_string": "Hordal"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6943",
+              "@type": "tree:Node",
+              "token_string": "l'Evêque"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6944",
+              "@type": "tree:Node",
+              "token_string": "Magnette"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6946",
+              "@type": "tree:Node",
+              "token_string": "Saint-"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6952",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Pré aux Dames"
+        },
+        {
+          "streetname": "Rue du Pré aux Jars"
+        },
+        {
+          "streetname": "Rue du Pré aux Joncs"
+        },
+        {
+          "streetname": "Rue du Pré aux Oies"
+        },
+        {
+          "streetname": "Rue du Pré aux Traîneaux"
+        },
+        {
+          "streetname": "Rue du Pré Boda"
+        },
+        {
+          "streetname": "Rue du Pré Hordal"
+        },
+        {
+          "streetname": "Rue du Pré Magnette"
+        },
+        {
+          "streetname": "Rue du Pré Saint-Germain"
+        },
+        {
+          "streetname": "Rue du Pré Saint-Jean"
+        }
+      ],
+      "total_children_count": 15,
+      "@id": "fragment236.jsonld#6953",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Pré aux Dames"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré aux Jars"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré aux Joncs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré aux Oies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré aux Traîneaux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré Boda"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré Hordal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré Magnette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré Saint-Germain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Pré Saint-Jean"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "vôt",
+      "triples": [
+        {
+          "streetname": "Rue du Prévôt"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6952",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Prévôt"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6954",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Prévôt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Prévôt"
+      ]
+    },
+    {
+      "token_string": "ieuré",
+      "triples": [
+        {
+          "streetname": "Rue du Prieuré"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6949",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Prieuré"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6955",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Prieuré"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Prieuré"
+      ]
+    },
+    {
+      "token_string": "ogrès",
+      "triples": [
+        {
+          "streetname": "Rue du Progrès"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6949",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Progrès"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6956",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Progrès"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Progrès"
+      ]
+    },
+    {
+      "token_string": "ui",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6959",
+              "@type": "tree:Node",
+              "token_string": "satier"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment236.jsonld#6960",
+              "@type": "tree:Node",
+              "token_string": "ts"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6863",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Puisatier"
+        },
+        {
+          "streetname": "Rue du Puits"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment236.jsonld#6958",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Puisatier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Puits"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "satier",
+      "triples": [
+        {
+          "streetname": "Rue du Puisatier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6958",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Puisatier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6959",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Puisatier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Puisatier"
+      ]
+    },
+    {
+      "token_string": "ts",
+      "triples": [
+        {
+          "streetname": "Rue du Puits"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment236.jsonld#6958",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Puits"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment236.jsonld#6960",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Puits"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Puits"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "root_node_id": "8205",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment274.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment274.jsonld#8206",
+              "@type": "tree:Node",
+              "token_string": "conduites d'eau"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment274.jsonld#8207",
+              "@type": "tree:Node",
+              "token_string": "Couteliers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment274.jsonld#8209",
+              "@type": "tree:Node",
+              "token_string": "P"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment275.jsonld#8213",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Square des conduites d'eau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4662862775351897",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.29794729517368"
+        },
+        {
+          "http://example.com/terms#name": "Square des Couteliers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9502643928835237",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12541901705775"
+        },
+        {
+          "http://example.com/terms#name": "Square des Papeteries",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9755333478088875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.12540111125807"
+        },
+        {
+          "http://example.com/terms#name": "Square des Portefaix",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1899534761411457",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.468106430427056"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment274.jsonld#8205",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Square des conduites d'eau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Square des Couteliers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Square des Papeteries"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Square des Portefaix"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "conduites d'eau",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Square des conduites d'eau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4662862775351897",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.29794729517368"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment274.jsonld#8205",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Square des conduites d'eau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4662862775351897",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.29794729517368"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment274.jsonld#8206",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Square des conduites d'eau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Square des conduites d'eau"
+      ]
+    },
+    {
+      "token_string": "Couteliers",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Square des Couteliers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9502643928835237",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12541901705775"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment274.jsonld#8205",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Square des Couteliers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9502643928835237",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.12541901705775"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment274.jsonld#8207",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Square des Couteliers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Square des Couteliers"
+      ]
+    },
+    {
+      "token_string": "P",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment274.jsonld#8210",
+              "@type": "tree:Node",
+              "token_string": "apeteries"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment274.jsonld#8211",
+              "@type": "tree:Node",
+              "token_string": "ortefaix"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment274.jsonld#8205",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Square des Papeteries",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9755333478088875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.12540111125807"
+        },
+        {
+          "http://example.com/terms#name": "Square des Portefaix",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1899534761411457",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.468106430427056"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment274.jsonld#8209",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Square des Papeteries"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Square des Portefaix"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "apeteries",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Square des Papeteries",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9755333478088875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.12540111125807"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment274.jsonld#8209",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Square des Papeteries",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9755333478088875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.12540111125807"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment274.jsonld#8210",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Square des Papeteries"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Square des Papeteries"
+      ]
+    },
+    {
+      "token_string": "ortefaix",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Square des Portefaix",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1899534761411457",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.468106430427056"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment274.jsonld#8209",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Square des Portefaix",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1899534761411457",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.468106430427056"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment274.jsonld#8211",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Square des Portefaix"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Square des Portefaix"
+      ]
+    }
+  ]
+}

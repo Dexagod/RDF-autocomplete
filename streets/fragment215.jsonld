@@ -1,0 +1,606 @@
+{
+  "root_node_id": "6325",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment215.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "inettes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Rainettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.791466231475352",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.85288745483859"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment215.jsonld#6326",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Rainettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.791466231475352",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.85288745483859"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment215.jsonld#6319",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Rainettes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Rainettes"
+      ]
+    },
+    {
+      "token_string": "m",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment215.jsonld#6322",
+              "@type": "tree:Node",
+              "token_string": "iers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment215.jsonld#6323",
+              "@type": "tree:Node",
+              "token_string": "ounîs"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment215.jsonld#6326",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Ramiers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0245786140976287",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66083109124506"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Ramounîs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8326492770461043",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.13386783298839"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment215.jsonld#6321",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Ramiers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Ramounîs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "iers",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Ramiers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0245786140976287",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66083109124506"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment215.jsonld#6321",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Ramiers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0245786140976287",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66083109124506"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment215.jsonld#6322",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Ramiers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Ramiers"
+      ]
+    },
+    {
+      "token_string": "ounîs",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Ramounîs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8326492770461043",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.13386783298839"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment215.jsonld#6321",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Ramounîs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8326492770461043",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.13386783298839"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment215.jsonld#6323",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Ramounîs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Ramounîs"
+      ]
+    },
+    {
+      "token_string": "spes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Raspes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8763385761656344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.98080472118116"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment215.jsonld#6326",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Raspes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8763385761656344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.98080472118116"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment215.jsonld#6324",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Raspes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Raspes"
+      ]
+    },
+    {
+      "token_string": "R",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment215.jsonld#6326",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment215.jsonld#6327",
+              "@type": "tree:Node",
+              "token_string": "emparts"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment215.jsonld#6329",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment200.jsonld#6072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Rainettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.791466231475352",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.85288745483859"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Ramiers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0245786140976287",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66083109124506"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Ramounîs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8326492770461043",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.13386783298839"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Raspes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8763385761656344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.98080472118116"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Remparts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5944148157403206",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.32205554409955"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Rogations",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9717965103512145",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.81225923788405"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Rosticheux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.147942681841128",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.815529473694355"
+        }
+      ],
+      "total_children_count": 10,
+      "@id": "streetsfragment215.jsonld#6325",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Rainettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Ramiers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Ramounîs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Raspes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Remparts"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Rogations"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Rosticheux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment215.jsonld#6319",
+              "@type": "tree:Node",
+              "token_string": "inettes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment215.jsonld#6321",
+              "@type": "tree:Node",
+              "token_string": "m"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment215.jsonld#6324",
+              "@type": "tree:Node",
+              "token_string": "spes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment215.jsonld#6325",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Rainettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.791466231475352",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.85288745483859"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Ramiers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0245786140976287",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66083109124506"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Ramounîs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.8326492770461043",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.13386783298839"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Raspes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8763385761656344",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.98080472118116"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment215.jsonld#6326",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Rainettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Ramiers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Ramounîs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Raspes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "emparts",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Remparts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5944148157403206",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.32205554409955"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment215.jsonld#6325",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Remparts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5944148157403206",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.32205554409955"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment215.jsonld#6327",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Remparts"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Remparts"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment215.jsonld#6330",
+              "@type": "tree:Node",
+              "token_string": "gations"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment215.jsonld#6331",
+              "@type": "tree:Node",
+              "token_string": "sticheux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment215.jsonld#6325",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Rogations",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9717965103512145",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.81225923788405"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Rosticheux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.147942681841128",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.815529473694355"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment215.jsonld#6329",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Rogations"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Rosticheux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "gations",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Rogations",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9717965103512145",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.81225923788405"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment215.jsonld#6329",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Rogations",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9717965103512145",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.81225923788405"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment215.jsonld#6330",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Rogations"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Rogations"
+      ]
+    },
+    {
+      "token_string": "sticheux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Rosticheux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.147942681841128",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.815529473694355"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment215.jsonld#6329",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Rosticheux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.147942681841128",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.815529473694355"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment215.jsonld#6331",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Rosticheux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Rosticheux"
+      ]
+    }
+  ]
+}

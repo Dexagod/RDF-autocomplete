@@ -1,0 +1,466 @@
+{
+  "root_node_id": "2331",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment87.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "'Abbaye",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour de l'Abbaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.337374369651107",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.31842218535495"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment87.jsonld#2332",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour de l'Abbaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.337374369651107",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.31842218535495"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment87.jsonld#2325",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour de l'Abbaye"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour de l'Abbaye"
+      ]
+    },
+    {
+      "token_string": " aux Broux",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour de la Ferme aux Broux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7321303444017033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.222349904666274"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment87.jsonld#2329",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour de la Ferme aux Broux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7321303444017033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.222349904666274"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment87.jsonld#2327",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour de la Ferme aux Broux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour de la Ferme aux Broux"
+      ]
+    },
+    {
+      "token_string": "a ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment87.jsonld#2329",
+              "@type": "tree:Node",
+              "token_string": "Ferme"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment87.jsonld#2330",
+              "@type": "tree:Node",
+              "token_string": "Mozée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment87.jsonld#2332",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour de la Ferme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.945534988004971",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.43255742537306"
+        },
+        {
+          "http://example.com/terms#name": "Cour de la Ferme aux Broux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7321303444017033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.222349904666274"
+        },
+        {
+          "http://example.com/terms#name": "Cour de la Mozée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0761191209425895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.682637786344195"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment87.jsonld#2328",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour de la Ferme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Ferme aux Broux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Mozée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Ferme",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour de la Ferme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.945534988004971",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.43255742537306"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment87.jsonld#2327",
+              "@type": "tree:Node",
+              "token_string": " aux Broux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment87.jsonld#2328",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour de la Ferme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.945534988004971",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.43255742537306"
+        },
+        {
+          "http://example.com/terms#name": "Cour de la Ferme aux Broux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7321303444017033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.222349904666274"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "streetsfragment87.jsonld#2329",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour de la Ferme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Ferme aux Broux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour de la Ferme"
+      ]
+    },
+    {
+      "token_string": "Mozée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Cour de la Mozée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0761191209425895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.682637786344195"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment87.jsonld#2328",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour de la Mozée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0761191209425895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.682637786344195"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment87.jsonld#2330",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour de la Mozée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Cour de la Mozée"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment87.jsonld#2332",
+              "@type": "tree:Node",
+              "token_string": " l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment86.jsonld#2334",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment89.jsonld#2321",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour de l'Abbaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.337374369651107",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.31842218535495"
+        },
+        {
+          "http://example.com/terms#name": "Cour de la Ferme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.945534988004971",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.43255742537306"
+        },
+        {
+          "http://example.com/terms#name": "Cour de la Ferme aux Broux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7321303444017033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.222349904666274"
+        },
+        {
+          "http://example.com/terms#name": "Cour de la Mozée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0761191209425895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.682637786344195"
+        },
+        {
+          "http://example.com/terms#name": "Cour des Brigands",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.587364283921315",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.046959507553055"
+        },
+        {
+          "http://example.com/terms#name": "Cour des Pavillons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.489450727742245",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.289644052565016"
+        },
+        {
+          "http://example.com/terms#name": "Cour des Salésiens",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.881225427290063",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.232579970223135"
+        },
+        {
+          "http://example.com/terms#name": "Cour des Terres Noires",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.859753317308199",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.99944352740857"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "streetsfragment87.jsonld#2331",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour de l'Abbaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Ferme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Ferme aux Broux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Mozée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour des Brigands"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour des Pavillons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour des Salésiens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour des Terres Noires"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment87.jsonld#2325",
+              "@type": "tree:Node",
+              "token_string": "'Abbaye"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment87.jsonld#2328",
+              "@type": "tree:Node",
+              "token_string": "a "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment87.jsonld#2331",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Cour de l'Abbaye",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.337374369651107",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.31842218535495"
+        },
+        {
+          "http://example.com/terms#name": "Cour de la Ferme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.945534988004971",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.43255742537306"
+        },
+        {
+          "http://example.com/terms#name": "Cour de la Ferme aux Broux",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7321303444017033",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.222349904666274"
+        },
+        {
+          "http://example.com/terms#name": "Cour de la Mozée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0761191209425895",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.682637786344195"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment87.jsonld#2332",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Cour de l'Abbaye"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Ferme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Ferme aux Broux"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Cour de la Mozée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    }
+  ]
+}

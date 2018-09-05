@@ -1,0 +1,1918 @@
+{
+  "root_node_id": "6703",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment222.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "daffe",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Gadaffe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2302556230127113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.85019411449887"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6704",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Gadaffe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2302556230127113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.85019411449887"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6699",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Gadaffe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Gadaffe"
+      ]
+    },
+    {
+      "token_string": "illard",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Gaillard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.775043899657867",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76503123625703"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6704",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Gaillard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.775043899657867",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76503123625703"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6700",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Gaillard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Gaillard"
+      ]
+    },
+    {
+      "token_string": "lopin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Galopin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.233458223198544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.82702538440708"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6704",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Galopin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.233458223198544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.82702538440708"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6701",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Galopin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Galopin"
+      ]
+    },
+    {
+      "token_string": "rd",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Gard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9862214320058955",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.042039290056124"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6704",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Gard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9862214320058955",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.042039290056124"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6702",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Gard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Gard"
+      ]
+    },
+    {
+      "token_string": "G",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6704",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6706",
+              "@type": "tree:Node",
+              "token_string": "eer"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6707",
+              "@type": "tree:Node",
+              "token_string": "é"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6714",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6735",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment226.jsonld#6980",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Gadaffe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2302556230127113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.85019411449887"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Gaillard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.775043899657867",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76503123625703"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Galopin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.233458223198544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.82702538440708"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Gard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9862214320058955",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.042039290056124"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Geer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0835596868056583",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.860422167385956"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Gola",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2567779002003805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69252899573481"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Goley",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.577959970199493",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.395537221198616"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Goupil",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4324444333822983",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.4869332491299"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Bon Dieu",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.405835342174538",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16085494487543"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Carex",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3517990495196366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90862527342053"
+        }
+      ],
+      "total_children_count": 33,
+      "@id": "streetsfragment222.jsonld#6703",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Gadaffe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Gaillard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Galopin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Gard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Geer"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Gola"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Goley"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Goupil"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Bon Dieu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Carex"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6699",
+              "@type": "tree:Node",
+              "token_string": "daffe"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6700",
+              "@type": "tree:Node",
+              "token_string": "illard"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6701",
+              "@type": "tree:Node",
+              "token_string": "lopin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6702",
+              "@type": "tree:Node",
+              "token_string": "rd"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6703",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Gadaffe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2302556230127113",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.85019411449887"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Gaillard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.775043899657867",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.76503123625703"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Galopin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.233458223198544",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.82702538440708"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Gard",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9862214320058955",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.042039290056124"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment222.jsonld#6704",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Gadaffe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Gaillard"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Galopin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Gard"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eer",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Geer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0835596868056583",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.860422167385956"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6703",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Geer",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0835596868056583",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.860422167385956"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6706",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Geer"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Geer"
+      ]
+    },
+    {
+      "token_string": "é",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6708",
+              "@type": "tree:Node",
+              "token_string": "ant Atlas"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6709",
+              "@type": "tree:Node",
+              "token_string": "néral Lanrezac"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6703",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Géant Atlas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4006306377493902",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.45520503048525"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Général Lanrezac",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1654751285149714",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.24172402909975"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment222.jsonld#6707",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Géant Atlas"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Général Lanrezac"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ant Atlas",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Géant Atlas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4006306377493902",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.45520503048525"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6707",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Géant Atlas",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4006306377493902",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.45520503048525"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6708",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Géant Atlas"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Géant Atlas"
+      ]
+    },
+    {
+      "token_string": "néral Lanrezac",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Général Lanrezac",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1654751285149714",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.24172402909975"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6707",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Général Lanrezac",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1654751285149714",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.24172402909975"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6709",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Général Lanrezac"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Général Lanrezac"
+      ]
+    },
+    {
+      "token_string": "a",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Gola",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2567779002003805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69252899573481"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6715",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Gola",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2567779002003805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69252899573481"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6712",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Gola"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Gola"
+      ]
+    },
+    {
+      "token_string": "ey",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Goley",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.577959970199493",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.395537221198616"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6715",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Goley",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.577959970199493",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.395537221198616"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6713",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Goley"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Goley"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6715",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6716",
+              "@type": "tree:Node",
+              "token_string": "upil"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6703",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Gola",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2567779002003805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69252899573481"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Goley",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.577959970199493",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.395537221198616"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Goupil",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4324444333822983",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.4869332491299"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment222.jsonld#6714",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Gola"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Goley"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Goupil"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6712",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6713",
+              "@type": "tree:Node",
+              "token_string": "ey"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6714",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Gola",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2567779002003805",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.69252899573481"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Goley",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.577959970199493",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.395537221198616"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment222.jsonld#6715",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Gola"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Goley"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "upil",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Goupil",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4324444333822983",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.4869332491299"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6714",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Goupil",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4324444333822983",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.4869332491299"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6716",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Goupil"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Goupil"
+      ]
+    },
+    {
+      "token_string": "Bon Dieu",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Bon Dieu",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.405835342174538",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16085494487543"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6736",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Bon Dieu",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.405835342174538",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16085494487543"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6719",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Grand Bon Dieu"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Grand Bon Dieu"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6722",
+              "@type": "tree:Node",
+              "token_string": "arex"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6723",
+              "@type": "tree:Node",
+              "token_string": "erf"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6736",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Carex",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3517990495196366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90862527342053"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Cerf",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.440562780221082",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.77971074467123"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment222.jsonld#6721",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Grand Carex"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Cerf"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "arex",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Carex",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3517990495196366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90862527342053"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6721",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Carex",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3517990495196366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90862527342053"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6722",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Grand Carex"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Grand Carex"
+      ]
+    },
+    {
+      "token_string": "erf",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Cerf",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.440562780221082",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.77971074467123"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6721",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Cerf",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.440562780221082",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.77971074467123"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6723",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Grand Cerf"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Grand Cerf"
+      ]
+    },
+    {
+      "token_string": "Hu",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Hu",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.566236697292221",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.060385811524654"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6736",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Hu",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.566236697292221",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.060385811524654"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6724",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Grand Hu"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Grand Hu"
+      ]
+    },
+    {
+      "token_string": "Orme",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Orme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7622697401827496",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.902631773442295"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6736",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Orme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7622697401827496",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.902631773442295"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6725",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Grand Orme"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Grand Orme"
+      ]
+    },
+    {
+      "token_string": "chis",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Pachis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.163909969064128",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.13579541143152"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6731",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Pachis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.163909969064128",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.13579541143152"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6728",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Grand Pachis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Grand Pachis"
+      ]
+    },
+    {
+      "token_string": "ysage",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Paysage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5424758281178725",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08886026684414"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6731",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Paysage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5424758281178725",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08886026684414"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6729",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Grand Paysage"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Grand Paysage"
+      ]
+    },
+    {
+      "token_string": "P",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6731",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6732",
+              "@type": "tree:Node",
+              "token_string": "lateau"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6733",
+              "@type": "tree:Node",
+              "token_string": "ré"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6736",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Pachis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.163909969064128",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.13579541143152"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Paysage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5424758281178725",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08886026684414"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Plateau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.620274923744641",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.497325025587315"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Pré",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5439511445594674",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.32844914303689"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment222.jsonld#6730",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Grand Pachis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Paysage"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Plateau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Pré"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6728",
+              "@type": "tree:Node",
+              "token_string": "chis"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6729",
+              "@type": "tree:Node",
+              "token_string": "ysage"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6730",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Pachis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.163909969064128",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.13579541143152"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Paysage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5424758281178725",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08886026684414"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment222.jsonld#6731",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Grand Pachis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Paysage"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "lateau",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Plateau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.620274923744641",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.497325025587315"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6730",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Plateau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.620274923744641",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.497325025587315"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6732",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Grand Plateau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Grand Plateau"
+      ]
+    },
+    {
+      "token_string": "ré",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Pré",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5439511445594674",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.32844914303689"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6730",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Pré",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5439511445594674",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.32844914303689"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6733",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Grand Pré"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Grand Pré"
+      ]
+    },
+    {
+      "token_string": "Sart",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Sart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.342839525978767",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.01881078662572"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6736",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Sart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.342839525978767",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.01881078662572"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6734",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Grand Sart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Grand Sart"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6736",
+              "@type": "tree:Node",
+              "token_string": "and "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6737",
+              "@type": "tree:Node",
+              "token_string": "ès"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6739",
+              "@type": "tree:Node",
+              "token_string": "os "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6703",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Bon Dieu",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.405835342174538",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16085494487543"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Carex",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3517990495196366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90862527342053"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Cerf",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.440562780221082",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.77971074467123"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Hu",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.566236697292221",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.060385811524654"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Orme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7622697401827496",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.902631773442295"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Pachis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.163909969064128",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.13579541143152"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Paysage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5424758281178725",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08886026684414"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Plateau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.620274923744641",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.497325025587315"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Pré",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5439511445594674",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.32844914303689"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Sart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.342839525978767",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.01881078662572"
+        }
+      ],
+      "total_children_count": 18,
+      "@id": "streetsfragment222.jsonld#6735",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Grand Bon Dieu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Carex"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Cerf"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Hu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Orme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Pachis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Paysage"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Plateau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Pré"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Sart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "and ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6719",
+              "@type": "tree:Node",
+              "token_string": "Bon Dieu"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6721",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6724",
+              "@type": "tree:Node",
+              "token_string": "Hu"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6725",
+              "@type": "tree:Node",
+              "token_string": "Orme"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6730",
+              "@type": "tree:Node",
+              "token_string": "P"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6734",
+              "@type": "tree:Node",
+              "token_string": "Sart"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6735",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Grand Bon Dieu",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.405835342174538",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.16085494487543"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Carex",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3517990495196366",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90862527342053"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Cerf",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.440562780221082",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.77971074467123"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Hu",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.566236697292221",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.060385811524654"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Orme",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7622697401827496",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.902631773442295"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Pachis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.163909969064128",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.13579541143152"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Paysage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5424758281178725",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.08886026684414"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Plateau",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.620274923744641",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.497325025587315"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Pré",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5439511445594674",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.32844914303689"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Grand Sart",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.342839525978767",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.01881078662572"
+        }
+      ],
+      "total_children_count": 13,
+      "@id": "streetsfragment222.jsonld#6736",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Grand Bon Dieu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Carex"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Cerf"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Hu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Orme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Pachis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Paysage"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Plateau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Pré"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Grand Sart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ès",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Grès",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9318291733629334",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.29572662611217"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6735",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Grès",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9318291733629334",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.29572662611217"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6737",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Grès"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Grès"
+      ]
+    },
+    {
+      "token_string": "os ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6740",
+              "@type": "tree:Node",
+              "token_string": "Chêne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment222.jsonld#6741",
+              "@type": "tree:Node",
+              "token_string": "Saule"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6735",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Gros Chêne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4564759844930224",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.20434798125421"
+        },
+        {
+          "http://example.com/terms#name": "Rue du Gros Saule",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.234973043582389",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.577486379544425"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment222.jsonld#6739",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Gros Chêne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Gros Saule"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Chêne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Gros Chêne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4564759844930224",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.20434798125421"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6739",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Gros Chêne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4564759844930224",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.20434798125421"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6740",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Gros Chêne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Gros Chêne"
+      ]
+    },
+    {
+      "token_string": "Saule",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue du Gros Saule",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.234973043582389",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.577486379544425"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment222.jsonld#6739",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue du Gros Saule",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.234973043582389",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.577486379544425"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment222.jsonld#6741",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Gros Saule"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Gros Saule"
+      ]
+    }
+  ]
+}

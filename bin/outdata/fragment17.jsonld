@@ -1,0 +1,288 @@
+{
+  "root_node_id": "870",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment17.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment17.jsonld#871",
+              "@type": "tree:Node",
+              "token_string": "beresweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment17.jsonld#873",
+              "@type": "tree:Node",
+              "token_string": "it"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment17.jsonld#876",
+              "@type": "tree:Node",
+              "token_string": "nnhag"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment18.jsonld#867",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Breberesweg"
+        },
+        {
+          "streetname": "Breite Wege"
+        },
+        {
+          "streetname": "Breitfeld"
+        },
+        {
+          "streetname": "Brennhag"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment17.jsonld#870",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Breberesweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Breite Wege"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Breitfeld"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Brennhag"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "beresweg",
+      "triples": [
+        {
+          "streetname": "Breberesweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment17.jsonld#870",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Breberesweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment17.jsonld#871",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Breberesweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Breberesweg"
+      ]
+    },
+    {
+      "token_string": "it",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment17.jsonld#874",
+              "@type": "tree:Node",
+              "token_string": "e Wege"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment17.jsonld#875",
+              "@type": "tree:Node",
+              "token_string": "feld"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment17.jsonld#870",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Breite Wege"
+        },
+        {
+          "streetname": "Breitfeld"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment17.jsonld#873",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Breite Wege"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Breitfeld"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e Wege",
+      "triples": [
+        {
+          "streetname": "Breite Wege"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment17.jsonld#873",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Breite Wege"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment17.jsonld#874",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Breite Wege"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Breite Wege"
+      ]
+    },
+    {
+      "token_string": "feld",
+      "triples": [
+        {
+          "streetname": "Breitfeld"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment17.jsonld#873",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Breitfeld"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment17.jsonld#875",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Breitfeld"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Breitfeld"
+      ]
+    },
+    {
+      "token_string": "nnhag",
+      "triples": [
+        {
+          "streetname": "Brennhag"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment17.jsonld#870",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Brennhag"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment17.jsonld#876",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Brennhag"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Brennhag"
+      ]
+    }
+  ]
+}

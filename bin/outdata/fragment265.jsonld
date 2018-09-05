@@ -1,0 +1,352 @@
+{
+  "root_node_id": "8047",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment265.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "aulet",
+      "triples": [
+        {
+          "streetname": "Sentier de Baulet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment265.jsonld#8028",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier de Baulet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment265.jsonld#8025",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de Baulet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier de Baulet"
+      ]
+    },
+    {
+      "token_string": "ièt'mé",
+      "triples": [
+        {
+          "streetname": "Sentier de Bièt'mé"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment265.jsonld#8028",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier de Bièt'mé"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment265.jsonld#8026",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de Bièt'mé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier de Bièt'mé"
+      ]
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment265.jsonld#8025",
+              "@type": "tree:Node",
+              "token_string": "aulet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment265.jsonld#8026",
+              "@type": "tree:Node",
+              "token_string": "ièt'mé"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment265.jsonld#8047",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier de Baulet"
+        },
+        {
+          "streetname": "Sentier de Bièt'mé"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment265.jsonld#8028",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de Baulet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de Bièt'mé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Hognoul",
+      "triples": [
+        {
+          "streetname": "Sentier de Hognoul"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment265.jsonld#8047",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier de Hognoul"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment265.jsonld#8029",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de Hognoul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier de Hognoul"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment265.jsonld#8028",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment265.jsonld#8029",
+              "@type": "tree:Node",
+              "token_string": "Hognoul"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment264.jsonld#8031",
+              "@type": "tree:Node",
+              "token_string": "la "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment265.jsonld#8052",
+              "@type": "tree:Node",
+              "token_string": "Mel"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment271.jsonld#8095",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier de Baulet"
+        },
+        {
+          "streetname": "Sentier de Bièt'mé"
+        },
+        {
+          "streetname": "Sentier de Hognoul"
+        },
+        {
+          "streetname": "Sentier de la Champenotte"
+        },
+        {
+          "streetname": "Sentier de la Heid"
+        },
+        {
+          "streetname": "Sentier de la Houlotte"
+        },
+        {
+          "streetname": "Sentier de la Maclotte"
+        },
+        {
+          "streetname": "Sentier de la Malterie"
+        },
+        {
+          "streetname": "Sentier de la Marelle"
+        },
+        {
+          "streetname": "Sentier de Mel"
+        }
+      ],
+      "total_children_count": 18,
+      "@id": "fragment265.jsonld#8047",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de Baulet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de Bièt'mé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de Hognoul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Champenotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Heid"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Houlotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Maclotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Malterie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Marelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de Mel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Mel",
+      "triples": [
+        {
+          "streetname": "Sentier de Mel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment265.jsonld#8047",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier de Mel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment265.jsonld#8052",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de Mel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier de Mel"
+      ]
+    }
+  ]
+}

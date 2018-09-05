@@ -1,0 +1,138 @@
+{
+  "root_node_id": "8101",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment269.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment269.jsonld#8102",
+              "@type": "tree:Node",
+              "token_string": "aramel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment268.jsonld#8108",
+              "@type": "tree:Node",
+              "token_string": "h"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment270.jsonld#8098",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier du Caramel"
+        },
+        {
+          "streetname": "Sentier du Chafor"
+        },
+        {
+          "streetname": "Sentier du Champ"
+        },
+        {
+          "streetname": "Sentier du Champ de Blé"
+        },
+        {
+          "streetname": "Sentier du Château"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment269.jsonld#8101",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier du Caramel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier du Chafor"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier du Champ"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier du Champ de Blé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier du Château"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aramel",
+      "triples": [
+        {
+          "streetname": "Sentier du Caramel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment269.jsonld#8101",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier du Caramel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment269.jsonld#8102",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier du Caramel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier du Caramel"
+      ]
+    }
+  ]
+}

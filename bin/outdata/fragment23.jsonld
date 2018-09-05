@@ -1,0 +1,675 @@
+{
+  "root_node_id": "744",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment23.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment23.jsonld#745",
+              "@type": "tree:Node",
+              "token_string": "ertweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment23.jsonld#746",
+              "@type": "tree:Node",
+              "token_string": "gnoul"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment23.jsonld#748",
+              "@type": "tree:Node",
+              "token_string": "ns"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment23.jsonld#752",
+              "@type": "tree:Node",
+              "token_string": "rke"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment12.jsonld#678",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Biertweg"
+        },
+        {
+          "streetname": "Bignoul"
+        },
+        {
+          "streetname": "Binsenvenn"
+        },
+        {
+          "streetname": "Binsterweg"
+        },
+        {
+          "streetname": "Birkelstraße"
+        },
+        {
+          "streetname": "Birkendell"
+        },
+        {
+          "streetname": "Birkengasse"
+        },
+        {
+          "streetname": "Birkenstrasse"
+        },
+        {
+          "streetname": "Birkenweg"
+        }
+      ],
+      "total_children_count": 12,
+      "@id": "fragment23.jsonld#744",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Biertweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bignoul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Binsenvenn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Binsterweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Birkelstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Birkendell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Birkengasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Birkenstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Birkenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ertweg",
+      "triples": [
+        {
+          "streetname": "Biertweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment23.jsonld#744",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Biertweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment23.jsonld#745",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Biertweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Biertweg"
+      ]
+    },
+    {
+      "token_string": "gnoul",
+      "triples": [
+        {
+          "streetname": "Bignoul"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment23.jsonld#744",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Bignoul"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment23.jsonld#746",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bignoul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bignoul"
+      ]
+    },
+    {
+      "token_string": "ns",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment23.jsonld#749",
+              "@type": "tree:Node",
+              "token_string": "envenn"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment23.jsonld#750",
+              "@type": "tree:Node",
+              "token_string": "terweg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment23.jsonld#744",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Binsenvenn"
+        },
+        {
+          "streetname": "Binsterweg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment23.jsonld#748",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Binsenvenn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Binsterweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "envenn",
+      "triples": [
+        {
+          "streetname": "Binsenvenn"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment23.jsonld#748",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Binsenvenn"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment23.jsonld#749",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Binsenvenn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Binsenvenn"
+      ]
+    },
+    {
+      "token_string": "terweg",
+      "triples": [
+        {
+          "streetname": "Binsterweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment23.jsonld#748",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Binsterweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment23.jsonld#750",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Binsterweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Binsterweg"
+      ]
+    },
+    {
+      "token_string": "rke",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment23.jsonld#753",
+              "@type": "tree:Node",
+              "token_string": "lstraße"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment23.jsonld#755",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment23.jsonld#744",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Birkelstraße"
+        },
+        {
+          "streetname": "Birkendell"
+        },
+        {
+          "streetname": "Birkengasse"
+        },
+        {
+          "streetname": "Birkenstrasse"
+        },
+        {
+          "streetname": "Birkenweg"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment23.jsonld#752",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Birkelstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Birkendell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Birkengasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Birkenstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Birkenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "lstraße",
+      "triples": [
+        {
+          "streetname": "Birkelstraße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment23.jsonld#752",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Birkelstraße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment23.jsonld#753",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Birkelstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Birkelstraße"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment23.jsonld#756",
+              "@type": "tree:Node",
+              "token_string": "dell"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment23.jsonld#757",
+              "@type": "tree:Node",
+              "token_string": "gasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment23.jsonld#758",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment23.jsonld#759",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment23.jsonld#752",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Birkendell"
+        },
+        {
+          "streetname": "Birkengasse"
+        },
+        {
+          "streetname": "Birkenstrasse"
+        },
+        {
+          "streetname": "Birkenweg"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment23.jsonld#755",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Birkendell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Birkengasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Birkenstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Birkenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "dell",
+      "triples": [
+        {
+          "streetname": "Birkendell"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment23.jsonld#755",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Birkendell"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment23.jsonld#756",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Birkendell"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Birkendell"
+      ]
+    },
+    {
+      "token_string": "gasse",
+      "triples": [
+        {
+          "streetname": "Birkengasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment23.jsonld#755",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Birkengasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment23.jsonld#757",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Birkengasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Birkengasse"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "streetname": "Birkenstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment23.jsonld#755",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Birkenstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment23.jsonld#758",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Birkenstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Birkenstrasse"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "streetname": "Birkenweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment23.jsonld#755",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Birkenweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment23.jsonld#759",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Birkenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Birkenweg"
+      ]
+    }
+  ]
+}

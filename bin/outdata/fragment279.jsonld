@@ -1,0 +1,4369 @@
+{
+  "root_node_id": "8305",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment279.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "ille Maiche",
+      "triples": [
+        {
+          "streetname": "Taille Maiche"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8306",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Taille Maiche"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8296",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Taille Maiche"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Taille Maiche"
+      ]
+    },
+    {
+      "token_string": "sse",
+      "triples": [
+        {
+          "streetname": "Talstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8302",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Talstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8299",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Talstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Talstrasse"
+      ]
+    },
+    {
+      "token_string": "ße",
+      "triples": [
+        {
+          "streetname": "Talstraße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8302",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Talstraße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8300",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Talstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Talstraße"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8302",
+              "@type": "tree:Node",
+              "token_string": "stra"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8303",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8306",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Talstrasse"
+        },
+        {
+          "streetname": "Talstraße"
+        },
+        {
+          "streetname": "Talweg"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment279.jsonld#8301",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Talstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Talstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Talweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "stra",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8299",
+              "@type": "tree:Node",
+              "token_string": "sse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8300",
+              "@type": "tree:Node",
+              "token_string": "ße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8301",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Talstrasse"
+        },
+        {
+          "streetname": "Talstraße"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment279.jsonld#8302",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Talstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Talstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "streetname": "Talweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8301",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Talweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8303",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Talweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Talweg"
+      ]
+    },
+    {
+      "token_string": "nnenbaumstrasse",
+      "triples": [
+        {
+          "streetname": "Tannenbaumstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8306",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tannenbaumstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8304",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tannenbaumstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tannenbaumstrasse"
+      ]
+    },
+    {
+      "token_string": "T",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8306",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8308",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8325",
+              "@type": "tree:Node",
+              "token_string": "h"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8357",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8393",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment280.jsonld#8420",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8442",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment1.jsonld#1",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Taille Maiche"
+        },
+        {
+          "streetname": "Talstrasse"
+        },
+        {
+          "streetname": "Talstraße"
+        },
+        {
+          "streetname": "Talweg"
+        },
+        {
+          "streetname": "Tannenbaumstrasse"
+        },
+        {
+          "streetname": "Teckenbusch"
+        },
+        {
+          "streetname": "Teichgasse"
+        },
+        {
+          "streetname": "Terkluizendreef"
+        },
+        {
+          "streetname": "Ternell"
+        },
+        {
+          "streetname": "Terre-au-Pont"
+        }
+      ],
+      "total_children_count": 111,
+      "@id": "fragment279.jsonld#8305",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Taille Maiche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Talstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Talstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Talweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tannenbaumstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Teckenbusch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Teichgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Terkluizendreef"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ternell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Terre-au-Pont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8296",
+              "@type": "tree:Node",
+              "token_string": "ille Maiche"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8301",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8304",
+              "@type": "tree:Node",
+              "token_string": "nnenbaumstrasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8305",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Taille Maiche"
+        },
+        {
+          "streetname": "Talstrasse"
+        },
+        {
+          "streetname": "Talstraße"
+        },
+        {
+          "streetname": "Talweg"
+        },
+        {
+          "streetname": "Tannenbaumstrasse"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment279.jsonld#8306",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Taille Maiche"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Talstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Talstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Talweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tannenbaumstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8309",
+              "@type": "tree:Node",
+              "token_string": "ckenbusch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8310",
+              "@type": "tree:Node",
+              "token_string": "ichgasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8312",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8316",
+              "@type": "tree:Node",
+              "token_string": "ufelsgasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8317",
+              "@type": "tree:Node",
+              "token_string": "xtilstrasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8305",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Teckenbusch"
+        },
+        {
+          "streetname": "Teichgasse"
+        },
+        {
+          "streetname": "Terkluizendreef"
+        },
+        {
+          "streetname": "Ternell"
+        },
+        {
+          "streetname": "Terre-au-Pont"
+        },
+        {
+          "streetname": "Teufelsgasse"
+        },
+        {
+          "streetname": "Textilstrasse"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment279.jsonld#8308",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Teckenbusch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Teichgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Terkluizendreef"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ternell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Terre-au-Pont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Teufelsgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Textilstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ckenbusch",
+      "triples": [
+        {
+          "streetname": "Teckenbusch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8308",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Teckenbusch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8309",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Teckenbusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Teckenbusch"
+      ]
+    },
+    {
+      "token_string": "ichgasse",
+      "triples": [
+        {
+          "streetname": "Teichgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8308",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Teichgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8310",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Teichgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Teichgasse"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8313",
+              "@type": "tree:Node",
+              "token_string": "kluizendreef"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8314",
+              "@type": "tree:Node",
+              "token_string": "nell"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8315",
+              "@type": "tree:Node",
+              "token_string": "re-au-Pont"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8308",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Terkluizendreef"
+        },
+        {
+          "streetname": "Ternell"
+        },
+        {
+          "streetname": "Terre-au-Pont"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment279.jsonld#8312",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Terkluizendreef"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ternell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Terre-au-Pont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "kluizendreef",
+      "triples": [
+        {
+          "streetname": "Terkluizendreef"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8312",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Terkluizendreef"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8313",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Terkluizendreef"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Terkluizendreef"
+      ]
+    },
+    {
+      "token_string": "nell",
+      "triples": [
+        {
+          "streetname": "Ternell"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8312",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Ternell"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8314",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ternell"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ternell"
+      ]
+    },
+    {
+      "token_string": "re-au-Pont",
+      "triples": [
+        {
+          "streetname": "Terre-au-Pont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8312",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Terre-au-Pont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8315",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Terre-au-Pont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Terre-au-Pont"
+      ]
+    },
+    {
+      "token_string": "ufelsgasse",
+      "triples": [
+        {
+          "streetname": "Teufelsgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8308",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Teufelsgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8316",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Teufelsgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Teufelsgasse"
+      ]
+    },
+    {
+      "token_string": "xtilstrasse",
+      "triples": [
+        {
+          "streetname": "Textilstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8308",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Textilstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8317",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Textilstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Textilstrasse"
+      ]
+    },
+    {
+      "token_string": "Mooren-Strasse",
+      "triples": [
+        {
+          "streetname": "Theodor-Mooren-Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8323",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Theodor-Mooren-Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8320",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Theodor-Mooren-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Theodor-Mooren-Strasse"
+      ]
+    },
+    {
+      "token_string": "Pohl-Siedlung",
+      "triples": [
+        {
+          "streetname": "Theodor-Pohl-Siedlung"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8323",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Theodor-Pohl-Siedlung"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8321",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Theodor-Pohl-Siedlung"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Theodor-Pohl-Siedlung"
+      ]
+    },
+    {
+      "token_string": "odor-",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8320",
+              "@type": "tree:Node",
+              "token_string": "Mooren-Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8321",
+              "@type": "tree:Node",
+              "token_string": "Pohl-Siedlung"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8326",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Theodor-Mooren-Strasse"
+        },
+        {
+          "streetname": "Theodor-Pohl-Siedlung"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment279.jsonld#8323",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Theodor-Mooren-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Theodor-Pohl-Siedlung"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "vesweg",
+      "triples": [
+        {
+          "streetname": "Thevesweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8326",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thevesweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8324",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thevesweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Thevesweg"
+      ]
+    },
+    {
+      "token_string": "h",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8326",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8348",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8351",
+              "@type": "tree:Node",
+              "token_string": "ommen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8352",
+              "@type": "tree:Node",
+              "token_string": "ömmerberg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8305",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Theodor-Mooren-Strasse"
+        },
+        {
+          "streetname": "Theodor-Pohl-Siedlung"
+        },
+        {
+          "streetname": "Thevesweg"
+        },
+        {
+          "streetname": "Thier de Berchinval"
+        },
+        {
+          "streetname": "Thier de Hansez"
+        },
+        {
+          "streetname": "Thier de la Croix"
+        },
+        {
+          "streetname": "Thier de la Tombe"
+        },
+        {
+          "streetname": "Thier de l'Espinette"
+        },
+        {
+          "streetname": "Thier Mathias"
+        },
+        {
+          "streetname": "Thier Visé"
+        }
+      ],
+      "total_children_count": 24,
+      "@id": "fragment279.jsonld#8325",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Theodor-Mooren-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Theodor-Pohl-Siedlung"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thevesweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de Berchinval"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de Hansez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de la Croix"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de la Tombe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de l'Espinette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier Mathias"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier Visé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8323",
+              "@type": "tree:Node",
+              "token_string": "odor-"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8324",
+              "@type": "tree:Node",
+              "token_string": "vesweg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8325",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Theodor-Mooren-Strasse"
+        },
+        {
+          "streetname": "Theodor-Pohl-Siedlung"
+        },
+        {
+          "streetname": "Thevesweg"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment279.jsonld#8326",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Theodor-Mooren-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Theodor-Pohl-Siedlung"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thevesweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Berchinval",
+      "triples": [
+        {
+          "streetname": "Thier de Berchinval"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8339",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thier de Berchinval"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8329",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thier de Berchinval"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Thier de Berchinval"
+      ]
+    },
+    {
+      "token_string": "Hansez",
+      "triples": [
+        {
+          "streetname": "Thier de Hansez"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8339",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thier de Hansez"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8330",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thier de Hansez"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Thier de Hansez"
+      ]
+    },
+    {
+      "token_string": "Croix",
+      "triples": [
+        {
+          "streetname": "Thier de la Croix"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8336",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thier de la Croix"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8333",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thier de la Croix"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Thier de la Croix"
+      ]
+    },
+    {
+      "token_string": "Tombe",
+      "triples": [
+        {
+          "streetname": "Thier de la Tombe"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8336",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thier de la Tombe"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8334",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thier de la Tombe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Thier de la Tombe"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8336",
+              "@type": "tree:Node",
+              "token_string": "a "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8337",
+              "@type": "tree:Node",
+              "token_string": "'Espinette"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8339",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thier de la Croix"
+        },
+        {
+          "streetname": "Thier de la Tombe"
+        },
+        {
+          "streetname": "Thier de l'Espinette"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment279.jsonld#8335",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thier de la Croix"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de la Tombe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de l'Espinette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8333",
+              "@type": "tree:Node",
+              "token_string": "Croix"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8334",
+              "@type": "tree:Node",
+              "token_string": "Tombe"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8335",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thier de la Croix"
+        },
+        {
+          "streetname": "Thier de la Tombe"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment279.jsonld#8336",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thier de la Croix"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de la Tombe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'Espinette",
+      "triples": [
+        {
+          "streetname": "Thier de l'Espinette"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8335",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thier de l'Espinette"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8337",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thier de l'Espinette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Thier de l'Espinette"
+      ]
+    },
+    {
+      "token_string": "e ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8329",
+              "@type": "tree:Node",
+              "token_string": "Berchinval"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8330",
+              "@type": "tree:Node",
+              "token_string": "Hansez"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8335",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8345",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thier de Berchinval"
+        },
+        {
+          "streetname": "Thier de Hansez"
+        },
+        {
+          "streetname": "Thier de la Croix"
+        },
+        {
+          "streetname": "Thier de la Tombe"
+        },
+        {
+          "streetname": "Thier de l'Espinette"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment279.jsonld#8339",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thier de Berchinval"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de Hansez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de la Croix"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de la Tombe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de l'Espinette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8342",
+              "@type": "tree:Node",
+              "token_string": "Bac"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8343",
+              "@type": "tree:Node",
+              "token_string": "Marnave"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8345",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thier du Bac"
+        },
+        {
+          "streetname": "Thier du Marnave"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment279.jsonld#8341",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thier du Bac"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier du Marnave"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Bac",
+      "triples": [
+        {
+          "streetname": "Thier du Bac"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8341",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thier du Bac"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8342",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thier du Bac"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Thier du Bac"
+      ]
+    },
+    {
+      "token_string": "Marnave",
+      "triples": [
+        {
+          "streetname": "Thier du Marnave"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8341",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thier du Marnave"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8343",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thier du Marnave"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Thier du Marnave"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8339",
+              "@type": "tree:Node",
+              "token_string": "e "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8341",
+              "@type": "tree:Node",
+              "token_string": "u "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8349",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thier de Berchinval"
+        },
+        {
+          "streetname": "Thier de Hansez"
+        },
+        {
+          "streetname": "Thier de la Croix"
+        },
+        {
+          "streetname": "Thier de la Tombe"
+        },
+        {
+          "streetname": "Thier de l'Espinette"
+        },
+        {
+          "streetname": "Thier du Bac"
+        },
+        {
+          "streetname": "Thier du Marnave"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "fragment279.jsonld#8345",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thier de Berchinval"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de Hansez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de la Croix"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de la Tombe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de l'Espinette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier du Bac"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier du Marnave"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Mathias",
+      "triples": [
+        {
+          "streetname": "Thier Mathias"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8349",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thier Mathias"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8346",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thier Mathias"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Thier Mathias"
+      ]
+    },
+    {
+      "token_string": "Visé",
+      "triples": [
+        {
+          "streetname": "Thier Visé"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8349",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thier Visé"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8347",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thier Visé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Thier Visé"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8349",
+              "@type": "tree:Node",
+              "token_string": "er "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8350",
+              "@type": "tree:Node",
+              "token_string": "mstrasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8325",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thier de Berchinval"
+        },
+        {
+          "streetname": "Thier de Hansez"
+        },
+        {
+          "streetname": "Thier de la Croix"
+        },
+        {
+          "streetname": "Thier de la Tombe"
+        },
+        {
+          "streetname": "Thier de l'Espinette"
+        },
+        {
+          "streetname": "Thier du Bac"
+        },
+        {
+          "streetname": "Thier du Marnave"
+        },
+        {
+          "streetname": "Thier Mathias"
+        },
+        {
+          "streetname": "Thier Visé"
+        },
+        {
+          "streetname": "Thimstrasse"
+        }
+      ],
+      "total_children_count": 16,
+      "@id": "fragment279.jsonld#8348",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thier de Berchinval"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de Hansez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de la Croix"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de la Tombe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de l'Espinette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier du Bac"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier du Marnave"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier Mathias"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier Visé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thimstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "er ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8345",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8346",
+              "@type": "tree:Node",
+              "token_string": "Mathias"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8347",
+              "@type": "tree:Node",
+              "token_string": "Visé"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8348",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thier de Berchinval"
+        },
+        {
+          "streetname": "Thier de Hansez"
+        },
+        {
+          "streetname": "Thier de la Croix"
+        },
+        {
+          "streetname": "Thier de la Tombe"
+        },
+        {
+          "streetname": "Thier de l'Espinette"
+        },
+        {
+          "streetname": "Thier du Bac"
+        },
+        {
+          "streetname": "Thier du Marnave"
+        },
+        {
+          "streetname": "Thier Mathias"
+        },
+        {
+          "streetname": "Thier Visé"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "fragment279.jsonld#8349",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thier de Berchinval"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de Hansez"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de la Croix"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de la Tombe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier de l'Espinette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier du Bac"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier du Marnave"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier Mathias"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Thier Visé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "mstrasse",
+      "triples": [
+        {
+          "streetname": "Thimstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8348",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thimstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8350",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thimstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Thimstrasse"
+      ]
+    },
+    {
+      "token_string": "ommen",
+      "triples": [
+        {
+          "streetname": "Thommen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8325",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thommen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8351",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thommen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Thommen"
+      ]
+    },
+    {
+      "token_string": "ömmerberg",
+      "triples": [
+        {
+          "streetname": "Thömmerberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8325",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Thömmerberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8352",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Thömmerberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Thömmerberg"
+      ]
+    },
+    {
+      "token_string": "du Moulin",
+      "triples": [
+        {
+          "streetname": "Tiège du Moulin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8358",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tiège du Moulin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8355",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tiège du Moulin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tiège du Moulin"
+      ]
+    },
+    {
+      "token_string": "Gobart",
+      "triples": [
+        {
+          "streetname": "Tiège Gobart"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8358",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tiège Gobart"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8356",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tiège Gobart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tiège Gobart"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8358",
+              "@type": "tree:Node",
+              "token_string": "ège "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8363",
+              "@type": "tree:Node",
+              "token_string": "enne d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8366",
+              "@type": "tree:Node",
+              "token_string": "ffes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8380",
+              "@type": "tree:Node",
+              "token_string": "ge "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8390",
+              "@type": "tree:Node",
+              "token_string": "tfeld"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8391",
+              "@type": "tree:Node",
+              "token_string": "volistrasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8305",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tienne de Senenne"
+        },
+        {
+          "streetname": "Tienne de Vincon"
+        },
+        {
+          "streetname": "Tienne du Coq"
+        },
+        {
+          "streetname": "Tiffes"
+        },
+        {
+          "streetname": "Tige de Favennes"
+        },
+        {
+          "streetname": "Tige de Géromont"
+        },
+        {
+          "streetname": "Tige de Pair"
+        },
+        {
+          "streetname": "Tige de Roncine"
+        },
+        {
+          "streetname": "Tige de Xhos"
+        },
+        {
+          "streetname": "Tige D'Ochain"
+        }
+      ],
+      "total_children_count": 28,
+      "@id": "fragment279.jsonld#8357",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tienne de Senenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tienne de Vincon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tienne du Coq"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tiffes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Favennes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Géromont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Pair"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Roncine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Xhos"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige D'Ochain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ège ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8355",
+              "@type": "tree:Node",
+              "token_string": "du Moulin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8356",
+              "@type": "tree:Node",
+              "token_string": "Gobart"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8357",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tiège du Moulin"
+        },
+        {
+          "streetname": "Tiège Gobart"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment279.jsonld#8358",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tiège du Moulin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tiège Gobart"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Senenne",
+      "triples": [
+        {
+          "streetname": "Tienne de Senenne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8364",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tienne de Senenne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8361",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tienne de Senenne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tienne de Senenne"
+      ]
+    },
+    {
+      "token_string": "Vincon",
+      "triples": [
+        {
+          "streetname": "Tienne de Vincon"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8364",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tienne de Vincon"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8362",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tienne de Vincon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tienne de Vincon"
+      ]
+    },
+    {
+      "token_string": "enne d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8364",
+              "@type": "tree:Node",
+              "token_string": "e "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8365",
+              "@type": "tree:Node",
+              "token_string": "u Coq"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8357",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tienne de Senenne"
+        },
+        {
+          "streetname": "Tienne de Vincon"
+        },
+        {
+          "streetname": "Tienne du Coq"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment279.jsonld#8363",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tienne de Senenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tienne de Vincon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tienne du Coq"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8361",
+              "@type": "tree:Node",
+              "token_string": "Senenne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8362",
+              "@type": "tree:Node",
+              "token_string": "Vincon"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8363",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tienne de Senenne"
+        },
+        {
+          "streetname": "Tienne de Vincon"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment279.jsonld#8364",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tienne de Senenne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tienne de Vincon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u Coq",
+      "triples": [
+        {
+          "streetname": "Tienne du Coq"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8363",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tienne du Coq"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8365",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tienne du Coq"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tienne du Coq"
+      ]
+    },
+    {
+      "token_string": "ffes",
+      "triples": [
+        {
+          "streetname": "Tiffes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8357",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tiffes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8366",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tiffes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tiffes"
+      ]
+    },
+    {
+      "token_string": "Favennes",
+      "triples": [
+        {
+          "streetname": "Tige de Favennes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8374",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige de Favennes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8369",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige de Favennes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tige de Favennes"
+      ]
+    },
+    {
+      "token_string": "Géromont",
+      "triples": [
+        {
+          "streetname": "Tige de Géromont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8374",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige de Géromont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8370",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige de Géromont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tige de Géromont"
+      ]
+    },
+    {
+      "token_string": "Pair",
+      "triples": [
+        {
+          "streetname": "Tige de Pair"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8374",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige de Pair"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8371",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige de Pair"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tige de Pair"
+      ]
+    },
+    {
+      "token_string": "Roncine",
+      "triples": [
+        {
+          "streetname": "Tige de Roncine"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8374",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige de Roncine"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8372",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige de Roncine"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tige de Roncine"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8369",
+              "@type": "tree:Node",
+              "token_string": "Favennes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8370",
+              "@type": "tree:Node",
+              "token_string": "Géromont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8371",
+              "@type": "tree:Node",
+              "token_string": "Pair"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8372",
+              "@type": "tree:Node",
+              "token_string": "Roncine"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8379",
+              "@type": "tree:Node",
+              "token_string": "Xhos"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8384",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige de Favennes"
+        },
+        {
+          "streetname": "Tige de Géromont"
+        },
+        {
+          "streetname": "Tige de Pair"
+        },
+        {
+          "streetname": "Tige de Roncine"
+        },
+        {
+          "streetname": "Tige de Xhos"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment279.jsonld#8374",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige de Favennes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Géromont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Pair"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Roncine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Xhos"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "s ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8377",
+              "@type": "tree:Node",
+              "token_string": "Fossettes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8378",
+              "@type": "tree:Node",
+              "token_string": "Rochettes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8384",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige des Fossettes"
+        },
+        {
+          "streetname": "Tige des Rochettes"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment279.jsonld#8376",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige des Fossettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige des Rochettes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Fossettes",
+      "triples": [
+        {
+          "streetname": "Tige des Fossettes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8376",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige des Fossettes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8377",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige des Fossettes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tige des Fossettes"
+      ]
+    },
+    {
+      "token_string": "Rochettes",
+      "triples": [
+        {
+          "streetname": "Tige des Rochettes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8376",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige des Rochettes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8378",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige des Rochettes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tige des Rochettes"
+      ]
+    },
+    {
+      "token_string": "Xhos",
+      "triples": [
+        {
+          "streetname": "Tige de Xhos"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8374",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige de Xhos"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8379",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige de Xhos"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tige de Xhos"
+      ]
+    },
+    {
+      "token_string": "ge ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8382",
+              "@type": "tree:Node",
+              "token_string": "D'Ochain"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8383",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8357",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige de Favennes"
+        },
+        {
+          "streetname": "Tige de Géromont"
+        },
+        {
+          "streetname": "Tige de Pair"
+        },
+        {
+          "streetname": "Tige de Roncine"
+        },
+        {
+          "streetname": "Tige des Fossettes"
+        },
+        {
+          "streetname": "Tige des Rochettes"
+        },
+        {
+          "streetname": "Tige de Xhos"
+        },
+        {
+          "streetname": "Tige D'Ochain"
+        },
+        {
+          "streetname": "Tige du Chênu"
+        },
+        {
+          "streetname": "Tige du Pré de Cocq"
+        }
+      ],
+      "total_children_count": 16,
+      "@id": "fragment279.jsonld#8380",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige de Favennes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Géromont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Pair"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Roncine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige des Fossettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige des Rochettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Xhos"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige D'Ochain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige du Chênu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige du Pré de Cocq"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "D'Ochain",
+      "triples": [
+        {
+          "streetname": "Tige D'Ochain"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8380",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige D'Ochain"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8382",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige D'Ochain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tige D'Ochain"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8384",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8386",
+              "@type": "tree:Node",
+              "token_string": "u "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8380",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige de Favennes"
+        },
+        {
+          "streetname": "Tige de Géromont"
+        },
+        {
+          "streetname": "Tige de Pair"
+        },
+        {
+          "streetname": "Tige de Roncine"
+        },
+        {
+          "streetname": "Tige des Fossettes"
+        },
+        {
+          "streetname": "Tige des Rochettes"
+        },
+        {
+          "streetname": "Tige de Xhos"
+        },
+        {
+          "streetname": "Tige du Chênu"
+        },
+        {
+          "streetname": "Tige du Pré de Cocq"
+        },
+        {
+          "streetname": "Tige du Raideux"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "fragment279.jsonld#8383",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige de Favennes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Géromont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Pair"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Roncine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige des Fossettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige des Rochettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Xhos"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige du Chênu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige du Pré de Cocq"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige du Raideux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8374",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8376",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8383",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige de Favennes"
+        },
+        {
+          "streetname": "Tige de Géromont"
+        },
+        {
+          "streetname": "Tige de Pair"
+        },
+        {
+          "streetname": "Tige de Roncine"
+        },
+        {
+          "streetname": "Tige des Fossettes"
+        },
+        {
+          "streetname": "Tige des Rochettes"
+        },
+        {
+          "streetname": "Tige de Xhos"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "fragment279.jsonld#8384",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige de Favennes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Géromont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Pair"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Roncine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige des Fossettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige des Rochettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige de Xhos"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8387",
+              "@type": "tree:Node",
+              "token_string": "Chênu"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8388",
+              "@type": "tree:Node",
+              "token_string": "Pré de Cocq"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8389",
+              "@type": "tree:Node",
+              "token_string": "Raideux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8383",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige du Chênu"
+        },
+        {
+          "streetname": "Tige du Pré de Cocq"
+        },
+        {
+          "streetname": "Tige du Raideux"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment279.jsonld#8386",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige du Chênu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige du Pré de Cocq"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tige du Raideux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Chênu",
+      "triples": [
+        {
+          "streetname": "Tige du Chênu"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8386",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige du Chênu"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8387",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige du Chênu"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tige du Chênu"
+      ]
+    },
+    {
+      "token_string": "Pré de Cocq",
+      "triples": [
+        {
+          "streetname": "Tige du Pré de Cocq"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8386",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige du Pré de Cocq"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8388",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige du Pré de Cocq"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tige du Pré de Cocq"
+      ]
+    },
+    {
+      "token_string": "Raideux",
+      "triples": [
+        {
+          "streetname": "Tige du Raideux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8386",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tige du Raideux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8389",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tige du Raideux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tige du Raideux"
+      ]
+    },
+    {
+      "token_string": "tfeld",
+      "triples": [
+        {
+          "streetname": "Titfeld"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8357",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Titfeld"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8390",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Titfeld"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Titfeld"
+      ]
+    },
+    {
+      "token_string": "volistrasse",
+      "triples": [
+        {
+          "streetname": "Tivolistrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8357",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tivolistrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8391",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tivolistrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tivolistrasse"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8394",
+              "@type": "tree:Node",
+              "token_string": "mberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8395",
+              "@type": "tree:Node",
+              "token_string": "tleger"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8397",
+              "@type": "tree:Node",
+              "token_string": "ur d'"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8305",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tomberg"
+        },
+        {
+          "streetname": "Totleger"
+        },
+        {
+          "streetname": "Tour d'Eben Ezer"
+        },
+        {
+          "streetname": "Tour d'Olga"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment279.jsonld#8393",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tomberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Totleger"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tour d'Eben Ezer"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tour d'Olga"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "mberg",
+      "triples": [
+        {
+          "streetname": "Tomberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8393",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tomberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8394",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tomberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tomberg"
+      ]
+    },
+    {
+      "token_string": "tleger",
+      "triples": [
+        {
+          "streetname": "Totleger"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8393",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Totleger"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8395",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Totleger"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Totleger"
+      ]
+    },
+    {
+      "token_string": "ur d'",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8398",
+              "@type": "tree:Node",
+              "token_string": "Eben Ezer"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8399",
+              "@type": "tree:Node",
+              "token_string": "Olga"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8393",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tour d'Eben Ezer"
+        },
+        {
+          "streetname": "Tour d'Olga"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment279.jsonld#8397",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tour d'Eben Ezer"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tour d'Olga"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Eben Ezer",
+      "triples": [
+        {
+          "streetname": "Tour d'Eben Ezer"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8397",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tour d'Eben Ezer"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8398",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tour d'Eben Ezer"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tour d'Eben Ezer"
+      ]
+    },
+    {
+      "token_string": "Olga",
+      "triples": [
+        {
+          "streetname": "Tour d'Olga"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8397",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tour d'Olga"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8399",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tour d'Olga"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tour d'Olga"
+      ]
+    },
+    {
+      "token_string": "je",
+      "triples": [
+        {
+          "streetname": "Tulje"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8443",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tulje"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8440",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tulje"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tulje"
+      ]
+    },
+    {
+      "token_string": "penweg",
+      "triples": [
+        {
+          "streetname": "Tulpenweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8443",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tulpenweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8441",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tulpenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Tulpenweg"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8443",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8444",
+              "@type": "tree:Node",
+              "token_string": "rmstrasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8305",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tulje"
+        },
+        {
+          "streetname": "Tulpenweg"
+        },
+        {
+          "streetname": "Turmstrasse"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment279.jsonld#8442",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tulje"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tulpenweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Turmstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8440",
+              "@type": "tree:Node",
+              "token_string": "je"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment279.jsonld#8441",
+              "@type": "tree:Node",
+              "token_string": "penweg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8442",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Tulje"
+        },
+        {
+          "streetname": "Tulpenweg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment279.jsonld#8443",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Tulje"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Tulpenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rmstrasse",
+      "triples": [
+        {
+          "streetname": "Turmstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment279.jsonld#8442",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Turmstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment279.jsonld#8444",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Turmstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Turmstrasse"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "root_node_id": "1504",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment47.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment47.jsonld#1505",
+              "@type": "tree:Node",
+              "token_string": "aies"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment47.jsonld#1506",
+              "@type": "tree:Node",
+              "token_string": "érons"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment47.jsonld#1507",
+              "@type": "tree:Node",
+              "token_string": "êtres"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment47.jsonld#1508",
+              "@type": "tree:Node",
+              "token_string": "uit Voies"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment48.jsonld#1398",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Haies"
+        },
+        {
+          "streetname": "Chemin des Hérons"
+        },
+        {
+          "streetname": "Chemin des Hêtres"
+        },
+        {
+          "streetname": "Chemin des Huit Voies"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment47.jsonld#1504",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Haies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Hérons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Hêtres"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Huit Voies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aies",
+      "triples": [
+        {
+          "streetname": "Chemin des Haies"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment47.jsonld#1504",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Haies"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment47.jsonld#1505",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Haies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Haies"
+      ]
+    },
+    {
+      "token_string": "érons",
+      "triples": [
+        {
+          "streetname": "Chemin des Hérons"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment47.jsonld#1504",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Hérons"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment47.jsonld#1506",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Hérons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Hérons"
+      ]
+    },
+    {
+      "token_string": "êtres",
+      "triples": [
+        {
+          "streetname": "Chemin des Hêtres"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment47.jsonld#1504",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Hêtres"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment47.jsonld#1507",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Hêtres"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Hêtres"
+      ]
+    },
+    {
+      "token_string": "uit Voies",
+      "triples": [
+        {
+          "streetname": "Chemin des Huit Voies"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment47.jsonld#1504",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Huit Voies"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment47.jsonld#1508",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Huit Voies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Huit Voies"
+      ]
+    }
+  ]
+}

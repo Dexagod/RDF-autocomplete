@@ -1,0 +1,443 @@
+{
+  "root_node_id": "3603",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment116.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "gora",
+      "triples": [
+        {
+          "streetname": "L'Agora"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment116.jsonld#3604",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "L'Agora"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment116.jsonld#3540",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "L'Agora"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "L'Agora"
+      ]
+    },
+    {
+      "token_string": "liénau",
+      "triples": [
+        {
+          "streetname": "L'Aliénau"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment116.jsonld#3604",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "L'Aliénau"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment116.jsonld#3541",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "L'Aliénau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "L'Aliénau"
+      ]
+    },
+    {
+      "token_string": "ncienne Forge",
+      "triples": [
+        {
+          "streetname": "L'Ancienne Forge"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment116.jsonld#3604",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "L'Ancienne Forge"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment116.jsonld#3544",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "L'Ancienne Forge"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "L'Ancienne Forge"
+      ]
+    },
+    {
+      "token_string": "'",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment116.jsonld#3604",
+              "@type": "tree:Node",
+              "token_string": "A"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment116.jsonld#3681",
+              "@type": "tree:Node",
+              "token_string": "E"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment116.jsonld#3736",
+              "@type": "tree:Node",
+              "token_string": "Orée du Bois"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment111.jsonld#3535",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "L'Agora"
+        },
+        {
+          "streetname": "L'Aliénau"
+        },
+        {
+          "streetname": "L'Ancienne Forge"
+        },
+        {
+          "streetname": "L'Eau Vive"
+        },
+        {
+          "streetname": "L'Esplanade du Souvenir"
+        },
+        {
+          "streetname": "L'Orée du Bois"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment116.jsonld#3603",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "L'Agora"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "L'Aliénau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "L'Ancienne Forge"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "L'Eau Vive"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "L'Esplanade du Souvenir"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "L'Orée du Bois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment116.jsonld#3540",
+              "@type": "tree:Node",
+              "token_string": "gora"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment116.jsonld#3541",
+              "@type": "tree:Node",
+              "token_string": "liénau"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment116.jsonld#3544",
+              "@type": "tree:Node",
+              "token_string": "ncienne Forge"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment116.jsonld#3603",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "L'Agora"
+        },
+        {
+          "streetname": "L'Aliénau"
+        },
+        {
+          "streetname": "L'Ancienne Forge"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment116.jsonld#3604",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "L'Agora"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "L'Aliénau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "L'Ancienne Forge"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "E",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment116.jsonld#3682",
+              "@type": "tree:Node",
+              "token_string": "au Vive"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment116.jsonld#3683",
+              "@type": "tree:Node",
+              "token_string": "splanade du Souvenir"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment116.jsonld#3603",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "L'Eau Vive"
+        },
+        {
+          "streetname": "L'Esplanade du Souvenir"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment116.jsonld#3681",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "L'Eau Vive"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "L'Esplanade du Souvenir"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "au Vive",
+      "triples": [
+        {
+          "streetname": "L'Eau Vive"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment116.jsonld#3681",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "L'Eau Vive"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment116.jsonld#3682",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "L'Eau Vive"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "L'Eau Vive"
+      ]
+    },
+    {
+      "token_string": "splanade du Souvenir",
+      "triples": [
+        {
+          "streetname": "L'Esplanade du Souvenir"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment116.jsonld#3681",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "L'Esplanade du Souvenir"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment116.jsonld#3683",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "L'Esplanade du Souvenir"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "L'Esplanade du Souvenir"
+      ]
+    },
+    {
+      "token_string": "Orée du Bois",
+      "triples": [
+        {
+          "streetname": "L'Orée du Bois"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment116.jsonld#3603",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "L'Orée du Bois"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment116.jsonld#3736",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "L'Orée du Bois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "L'Orée du Bois"
+      ]
+    }
+  ]
+}

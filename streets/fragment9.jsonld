@@ -1,0 +1,561 @@
+{
+  "root_node_id": "531",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment9.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "to",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment9.jsonld#532",
+              "@type": "tree:Node",
+              "token_string": "bahn E40"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment9.jsonld#534",
+              "@type": "tree:Node",
+              "token_string": "route "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment9.jsonld#543",
+              "@type": "tree:Node",
+              "token_string": "snelweg E411"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment1.jsonld#449",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Autobahn E40",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9615551343503093",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.5680017857432"
+        },
+        {
+          "http://example.com/terms#name": "Autoroute A8",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2875395632955176",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70395384625431"
+        },
+        {
+          "http://example.com/terms#name": "Autoroute E19",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.045590891074937",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.26953791708601"
+        },
+        {
+          "http://example.com/terms#name": "Autoroute E40",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.674843515768269",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66383505353657"
+        },
+        {
+          "http://example.com/terms#name": "Autoroute E42",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.284156599892363",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.950905393308695"
+        },
+        {
+          "http://example.com/terms#name": "Autosnelweg E411",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3994749666489867",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.57034356841022"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "streetsfragment9.jsonld#531",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Autobahn E40"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Autoroute A8"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Autoroute E19"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Autoroute E40"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Autoroute E42"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Autosnelweg E411"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bahn E40",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Autobahn E40",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9615551343503093",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.5680017857432"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment9.jsonld#531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Autobahn E40",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9615551343503093",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.5680017857432"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment9.jsonld#532",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Autobahn E40"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Autobahn E40"
+      ]
+    },
+    {
+      "token_string": "route ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment9.jsonld#535",
+              "@type": "tree:Node",
+              "token_string": "A8"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment9.jsonld#537",
+              "@type": "tree:Node",
+              "token_string": "E"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment9.jsonld#531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Autoroute A8",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2875395632955176",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70395384625431"
+        },
+        {
+          "http://example.com/terms#name": "Autoroute E19",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.045590891074937",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.26953791708601"
+        },
+        {
+          "http://example.com/terms#name": "Autoroute E40",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.674843515768269",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66383505353657"
+        },
+        {
+          "http://example.com/terms#name": "Autoroute E42",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.284156599892363",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.950905393308695"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment9.jsonld#534",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Autoroute A8"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Autoroute E19"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Autoroute E40"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Autoroute E42"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "A8",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Autoroute A8",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2875395632955176",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70395384625431"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment9.jsonld#534",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Autoroute A8",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2875395632955176",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70395384625431"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment9.jsonld#535",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Autoroute A8"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Autoroute A8"
+      ]
+    },
+    {
+      "token_string": "E",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment9.jsonld#540",
+              "@type": "tree:Node",
+              "token_string": "4"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment9.jsonld#538",
+              "@type": "tree:Node",
+              "token_string": "19"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment9.jsonld#534",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Autoroute E19",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.045590891074937",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.26953791708601"
+        },
+        {
+          "http://example.com/terms#name": "Autoroute E40",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.674843515768269",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66383505353657"
+        },
+        {
+          "http://example.com/terms#name": "Autoroute E42",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.284156599892363",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.950905393308695"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment9.jsonld#537",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Autoroute E19"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Autoroute E40"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Autoroute E42"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "19",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Autoroute E19",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.045590891074937",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.26953791708601"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment9.jsonld#537",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Autoroute E19",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.045590891074937",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.26953791708601"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment9.jsonld#538",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Autoroute E19"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Autoroute E19"
+      ]
+    },
+    {
+      "token_string": "4",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment9.jsonld#541",
+              "@type": "tree:Node",
+              "token_string": "0"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment9.jsonld#542",
+              "@type": "tree:Node",
+              "token_string": "2"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment9.jsonld#537",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Autoroute E40",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.674843515768269",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66383505353657"
+        },
+        {
+          "http://example.com/terms#name": "Autoroute E42",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.284156599892363",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.950905393308695"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment9.jsonld#540",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Autoroute E40"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Autoroute E42"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "0",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Autoroute E40",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.674843515768269",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66383505353657"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment9.jsonld#540",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Autoroute E40",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.674843515768269",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66383505353657"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment9.jsonld#541",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Autoroute E40"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Autoroute E40"
+      ]
+    },
+    {
+      "token_string": "2",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Autoroute E42",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.284156599892363",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.950905393308695"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment9.jsonld#540",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Autoroute E42",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.284156599892363",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.950905393308695"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment9.jsonld#542",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Autoroute E42"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Autoroute E42"
+      ]
+    },
+    {
+      "token_string": "snelweg E411",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Autosnelweg E411",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3994749666489867",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.57034356841022"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment9.jsonld#531",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Autosnelweg E411",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.3994749666489867",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.57034356841022"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment9.jsonld#543",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Autosnelweg E411"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Autosnelweg E411"
+      ]
+    }
+  ]
+}

@@ -14,8 +14,8 @@ var sizeof = require('object-sizeof')
 
 
 var sourcefile = "data/5dlaatstestraatnamen.txt"
-var datadir = "streets/"
-var collectiondir = "collections/"
+var datadir = "/streets/"
+var collectiondir = "/collections/"
 var collectionfilename = "streetnames"
 var maxfragsize = 100;
 var maxcachedfrags = 10000;

@@ -1,0 +1,242 @@
+{
+  "root_node_id": "1873",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment73.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment73.jsonld#1874",
+              "@type": "tree:Node",
+              "token_string": "arguerite Lefèvre"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment73.jsonld#1875",
+              "@type": "tree:Node",
+              "token_string": "élanie"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment73.jsonld#1876",
+              "@type": "tree:Node",
+              "token_string": "ercator"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment73.jsonld#1877",
+              "@type": "tree:Node",
+              "token_string": "omirel"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment74.jsonld#1896",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin Marguerite Lefèvre"
+        },
+        {
+          "streetname": "Chemin Mélanie"
+        },
+        {
+          "streetname": "Chemin Mercator"
+        },
+        {
+          "streetname": "Chemin Momirel"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment73.jsonld#1873",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin Marguerite Lefèvre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Mélanie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Mercator"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin Momirel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "arguerite Lefèvre",
+      "triples": [
+        {
+          "streetname": "Chemin Marguerite Lefèvre"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment73.jsonld#1873",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin Marguerite Lefèvre"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment73.jsonld#1874",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin Marguerite Lefèvre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin Marguerite Lefèvre"
+      ]
+    },
+    {
+      "token_string": "élanie",
+      "triples": [
+        {
+          "streetname": "Chemin Mélanie"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment73.jsonld#1873",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin Mélanie"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment73.jsonld#1875",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin Mélanie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin Mélanie"
+      ]
+    },
+    {
+      "token_string": "ercator",
+      "triples": [
+        {
+          "streetname": "Chemin Mercator"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment73.jsonld#1873",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin Mercator"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment73.jsonld#1876",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin Mercator"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin Mercator"
+      ]
+    },
+    {
+      "token_string": "omirel",
+      "triples": [
+        {
+          "streetname": "Chemin Momirel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment73.jsonld#1873",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin Momirel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment73.jsonld#1877",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin Momirel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin Momirel"
+      ]
+    }
+  ]
+}

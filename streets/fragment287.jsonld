@@ -1,0 +1,2429 @@
+{
+  "root_node_id": "8620",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment287.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Comblain",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie de Comblain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.329073702179323",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.30468282039293"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8606",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de Comblain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.329073702179323",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.30468282039293"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8580",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de Comblain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie de Comblain"
+      ]
+    },
+    {
+      "token_string": "Bâchelle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie de la Bâchelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2076739070631706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.24542793815763"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8590",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de la Bâchelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2076739070631706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.24542793815763"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8583",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de la Bâchelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie de la Bâchelle"
+      ]
+    },
+    {
+      "token_string": "F",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8586",
+              "@type": "tree:Node",
+              "token_string": "erme Malevé"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8587",
+              "@type": "tree:Node",
+              "token_string": "orge"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8590",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de la Ferme Malevé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1034653440532516",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.601125244016195"
+        },
+        {
+          "http://example.com/terms#name": "Voie de la Forge",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.981306149794828",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04879693318388"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment287.jsonld#8585",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de la Ferme Malevé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de la Forge"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erme Malevé",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie de la Ferme Malevé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1034653440532516",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.601125244016195"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8585",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de la Ferme Malevé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1034653440532516",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.601125244016195"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8586",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de la Ferme Malevé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie de la Ferme Malevé"
+      ]
+    },
+    {
+      "token_string": "orge",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie de la Forge",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.981306149794828",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04879693318388"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8585",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de la Forge",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.981306149794828",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04879693318388"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8587",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de la Forge"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie de la Forge"
+      ]
+    },
+    {
+      "token_string": "Liberté",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie de la Liberté",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5796506504638272",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.632505613402"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8590",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de la Liberté",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5796506504638272",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.632505613402"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8588",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de la Liberté"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie de la Liberté"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8590",
+              "@type": "tree:Node",
+              "token_string": "a "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8596",
+              "@type": "tree:Node",
+              "token_string": "'"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8606",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de la Bâchelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2076739070631706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.24542793815763"
+        },
+        {
+          "http://example.com/terms#name": "Voie de la Ferme Malevé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1034653440532516",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.601125244016195"
+        },
+        {
+          "http://example.com/terms#name": "Voie de la Forge",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.981306149794828",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04879693318388"
+        },
+        {
+          "http://example.com/terms#name": "Voie de la Liberté",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5796506504638272",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.632505613402"
+        },
+        {
+          "http://example.com/terms#name": "Voie de l'Espinette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.664821368610238",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79077335621702"
+        },
+        {
+          "http://example.com/terms#name": "Voie de l'Eteule",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1343016180538577",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.51519862977284"
+        },
+        {
+          "http://example.com/terms#name": "Voie de l'Octroi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.999505467847669",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.36062178562528"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "streetsfragment287.jsonld#8589",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de la Bâchelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de la Ferme Malevé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de la Forge"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de la Liberté"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de l'Espinette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de l'Eteule"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de l'Octroi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8583",
+              "@type": "tree:Node",
+              "token_string": "Bâchelle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8585",
+              "@type": "tree:Node",
+              "token_string": "F"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8588",
+              "@type": "tree:Node",
+              "token_string": "Liberté"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8589",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de la Bâchelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2076739070631706",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.24542793815763"
+        },
+        {
+          "http://example.com/terms#name": "Voie de la Ferme Malevé",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1034653440532516",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.601125244016195"
+        },
+        {
+          "http://example.com/terms#name": "Voie de la Forge",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.981306149794828",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.04879693318388"
+        },
+        {
+          "http://example.com/terms#name": "Voie de la Liberté",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5796506504638272",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.632505613402"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment287.jsonld#8590",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de la Bâchelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de la Ferme Malevé"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de la Forge"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de la Liberté"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "spinette",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie de l'Espinette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.664821368610238",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79077335621702"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8597",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de l'Espinette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.664821368610238",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79077335621702"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8593",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de l'Espinette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie de l'Espinette"
+      ]
+    },
+    {
+      "token_string": "teule",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie de l'Eteule",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1343016180538577",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.51519862977284"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8597",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de l'Eteule",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1343016180538577",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.51519862977284"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8594",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de l'Eteule"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie de l'Eteule"
+      ]
+    },
+    {
+      "token_string": "Liège",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie de Liège",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.855794583707813",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.84327218852965"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8606",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de Liège",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.855794583707813",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.84327218852965"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8595",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de Liège"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie de Liège"
+      ]
+    },
+    {
+      "token_string": "'",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8597",
+              "@type": "tree:Node",
+              "token_string": "E"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8598",
+              "@type": "tree:Node",
+              "token_string": "Octroi"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8589",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de l'Espinette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.664821368610238",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79077335621702"
+        },
+        {
+          "http://example.com/terms#name": "Voie de l'Eteule",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1343016180538577",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.51519862977284"
+        },
+        {
+          "http://example.com/terms#name": "Voie de l'Octroi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.999505467847669",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.36062178562528"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment287.jsonld#8596",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de l'Espinette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de l'Eteule"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de l'Octroi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "E",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8593",
+              "@type": "tree:Node",
+              "token_string": "spinette"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8594",
+              "@type": "tree:Node",
+              "token_string": "teule"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8596",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de l'Espinette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.664821368610238",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79077335621702"
+        },
+        {
+          "http://example.com/terms#name": "Voie de l'Eteule",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1343016180538577",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.51519862977284"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment287.jsonld#8597",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de l'Espinette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de l'Eteule"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Octroi",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie de l'Octroi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.999505467847669",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.36062178562528"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8596",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de l'Octroi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.999505467847669",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.36062178562528"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8598",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de l'Octroi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie de l'Octroi"
+      ]
+    },
+    {
+      "token_string": "Maastricht",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie de Maastricht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6602003621212784",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.36168687350447"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8606",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de Maastricht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6602003621212784",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.36168687350447"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8599",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de Maastricht"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie de Maastricht"
+      ]
+    },
+    {
+      "token_string": "Pierroi",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie de Pierroi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4997783599717773",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.97362934166746"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8606",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de Pierroi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4997783599717773",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.97362934166746"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8600",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de Pierroi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie de Pierroi"
+      ]
+    },
+    {
+      "token_string": "Sa",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8603",
+              "@type": "tree:Node",
+              "token_string": "int Trond"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8604",
+              "@type": "tree:Node",
+              "token_string": "lm"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8606",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de Saint Trond",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9379665059793925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31541450714429"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Salm",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.084833825379449",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.092156875284154"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment287.jsonld#8602",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de Saint Trond"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Salm"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "int Trond",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie de Saint Trond",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9379665059793925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31541450714429"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8602",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de Saint Trond",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9379665059793925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31541450714429"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8603",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de Saint Trond"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie de Saint Trond"
+      ]
+    },
+    {
+      "token_string": "lm",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie de Salm",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.084833825379449",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.092156875284154"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8602",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de Salm",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.084833825379449",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.092156875284154"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8604",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de Salm"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie de Salm"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8580",
+              "@type": "tree:Node",
+              "token_string": "Comblain"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8589",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8595",
+              "@type": "tree:Node",
+              "token_string": "Liège"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8599",
+              "@type": "tree:Node",
+              "token_string": "Maastricht"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8600",
+              "@type": "tree:Node",
+              "token_string": "Pierroi"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8602",
+              "@type": "tree:Node",
+              "token_string": "Sa"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8619",
+              "@type": "tree:Node",
+              "token_string": "Tillet"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8621",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de Comblain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.329073702179323",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.30468282039293"
+        },
+        {
+          "http://example.com/terms#name": "Voie de l'Espinette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.664821368610238",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79077335621702"
+        },
+        {
+          "http://example.com/terms#name": "Voie de l'Eteule",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1343016180538577",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.51519862977284"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Liège",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.855794583707813",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.84327218852965"
+        },
+        {
+          "http://example.com/terms#name": "Voie de l'Octroi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.999505467847669",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.36062178562528"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Maastricht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6602003621212784",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.36168687350447"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Pierroi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4997783599717773",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.97362934166746"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Saint Trond",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9379665059793925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31541450714429"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Salm",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.084833825379449",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.092156875284154"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Tillet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8305908035164804",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.36887971221598"
+        }
+      ],
+      "total_children_count": 20,
+      "@id": "streetsfragment287.jsonld#8606",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de Comblain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de l'Espinette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de l'Eteule"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Liège"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de l'Octroi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Maastricht"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Pierroi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Saint Trond"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Salm"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Tillet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Tillet",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie de Tillet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8305908035164804",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.36887971221598"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8606",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de Tillet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8305908035164804",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.36887971221598"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8619",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de Tillet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie de Tillet"
+      ]
+    },
+    {
+      "token_string": "d",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8621",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8626",
+              "@type": "tree:Node",
+              "token_string": "u "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment288.jsonld#8651",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de Comblain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.329073702179323",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.30468282039293"
+        },
+        {
+          "http://example.com/terms#name": "Voie de l'Espinette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.664821368610238",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79077335621702"
+        },
+        {
+          "http://example.com/terms#name": "Voie de l'Eteule",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1343016180538577",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.51519862977284"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Liège",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.855794583707813",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.84327218852965"
+        },
+        {
+          "http://example.com/terms#name": "Voie de l'Octroi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.999505467847669",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.36062178562528"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Maastricht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6602003621212784",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.36168687350447"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Pierroi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4997783599717773",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.97362934166746"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Saint Trond",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9379665059793925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31541450714429"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Salm",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.084833825379449",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.092156875284154"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Tillet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8305908035164804",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.36887971221598"
+        }
+      ],
+      "total_children_count": 51,
+      "@id": "streetsfragment287.jsonld#8620",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de Comblain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de l'Espinette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de l'Eteule"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Liège"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de l'Octroi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Maastricht"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Pierroi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Saint Trond"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Salm"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Tillet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8606",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment286.jsonld#8608",
+              "@type": "tree:Node",
+              "token_string": "s "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8620",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie de Comblain",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.329073702179323",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.30468282039293"
+        },
+        {
+          "http://example.com/terms#name": "Voie de l'Espinette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.664821368610238",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.79077335621702"
+        },
+        {
+          "http://example.com/terms#name": "Voie de l'Eteule",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1343016180538577",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.51519862977284"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Liège",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.855794583707813",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.84327218852965"
+        },
+        {
+          "http://example.com/terms#name": "Voie de l'Octroi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.999505467847669",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.36062178562528"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Maastricht",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6602003621212784",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.36168687350447"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Pierroi",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4997783599717773",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.97362934166746"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Saint Trond",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9379665059793925",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.31541450714429"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Salm",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.084833825379449",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.092156875284154"
+        },
+        {
+          "http://example.com/terms#name": "Voie de Tillet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8305908035164804",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.36887971221598"
+        }
+      ],
+      "total_children_count": 31,
+      "@id": "streetsfragment287.jsonld#8621",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie de Comblain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de l'Espinette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de l'Eteule"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Liège"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de l'Octroi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Maastricht"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Pierroi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Saint Trond"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Salm"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie de Tillet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "la",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie du Bola",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5156177636069423",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53127789455726"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8627",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Bola",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5156177636069423",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53127789455726"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8624",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Bola"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie du Bola"
+      ]
+    },
+    {
+      "token_string": "squet",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie du Bosquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5457471656745594",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.68331564225383"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8627",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Bosquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5457471656745594",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.68331564225383"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8625",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Bosquet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie du Bosquet"
+      ]
+    },
+    {
+      "token_string": "u ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8627",
+              "@type": "tree:Node",
+              "token_string": "Bo"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8629",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8632",
+              "@type": "tree:Node",
+              "token_string": "Forte Terre"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8634",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8637",
+              "@type": "tree:Node",
+              "token_string": "Petit Bois"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8638",
+              "@type": "tree:Node",
+              "token_string": "Ry Maçon"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8640",
+              "@type": "tree:Node",
+              "token_string": "Tr"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8644",
+              "@type": "tree:Node",
+              "token_string": "Vi"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8620",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Bola",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5156177636069423",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53127789455726"
+        },
+        {
+          "http://example.com/terms#name": "Voie du Bosquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5457471656745594",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.68331564225383"
+        },
+        {
+          "http://example.com/terms#name": "Voie du Charbonnage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1460198990765305",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.77192654552597"
+        },
+        {
+          "http://example.com/terms#name": "Voie du Condroz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4848735223799774",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.20767584324944"
+        },
+        {
+          "http://example.com/terms#name": "Voie du Forte Terre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1006625097594522",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.62219659524611"
+        },
+        {
+          "http://example.com/terms#name": "Voie du Mâtchamp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.379261449046164",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.454303497254784"
+        },
+        {
+          "http://example.com/terms#name": "Voie du Meunier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8640956536086666",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.861079332539454"
+        },
+        {
+          "http://example.com/terms#name": "Voie du Petit Bois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.014915797246837",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.3400240451791"
+        },
+        {
+          "http://example.com/terms#name": "Voie du Ry Maçon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7828947428255475",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.39459325120842"
+        },
+        {
+          "http://example.com/terms#name": "Voie du Tram",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7517127690243397",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.47244825816877"
+        }
+      ],
+      "total_children_count": 18,
+      "@id": "streetsfragment287.jsonld#8626",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Bola"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie du Bosquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie du Charbonnage"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie du Condroz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie du Forte Terre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie du Mâtchamp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie du Meunier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie du Petit Bois"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie du Ry Maçon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie du Tram"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Bo",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8624",
+              "@type": "tree:Node",
+              "token_string": "la"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8625",
+              "@type": "tree:Node",
+              "token_string": "squet"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8626",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Bola",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5156177636069423",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.53127789455726"
+        },
+        {
+          "http://example.com/terms#name": "Voie du Bosquet",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5457471656745594",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.68331564225383"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment287.jsonld#8627",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Bola"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie du Bosquet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8630",
+              "@type": "tree:Node",
+              "token_string": "harbonnage"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8631",
+              "@type": "tree:Node",
+              "token_string": "ondroz"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8626",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Charbonnage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1460198990765305",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.77192654552597"
+        },
+        {
+          "http://example.com/terms#name": "Voie du Condroz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4848735223799774",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.20767584324944"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment287.jsonld#8629",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Charbonnage"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie du Condroz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "harbonnage",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie du Charbonnage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1460198990765305",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.77192654552597"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8629",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Charbonnage",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1460198990765305",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.77192654552597"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8630",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Charbonnage"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie du Charbonnage"
+      ]
+    },
+    {
+      "token_string": "ondroz",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie du Condroz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4848735223799774",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.20767584324944"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8629",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Condroz",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4848735223799774",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.20767584324944"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8631",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Condroz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie du Condroz"
+      ]
+    },
+    {
+      "token_string": "Forte Terre",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie du Forte Terre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1006625097594522",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.62219659524611"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8626",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Forte Terre",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1006625097594522",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.62219659524611"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8632",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Forte Terre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie du Forte Terre"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8635",
+              "@type": "tree:Node",
+              "token_string": "âtchamp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8636",
+              "@type": "tree:Node",
+              "token_string": "eunier"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8626",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Mâtchamp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.379261449046164",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.454303497254784"
+        },
+        {
+          "http://example.com/terms#name": "Voie du Meunier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8640956536086666",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.861079332539454"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment287.jsonld#8634",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Mâtchamp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie du Meunier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "âtchamp",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie du Mâtchamp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.379261449046164",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.454303497254784"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8634",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Mâtchamp",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.379261449046164",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.454303497254784"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8635",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Mâtchamp"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie du Mâtchamp"
+      ]
+    },
+    {
+      "token_string": "eunier",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie du Meunier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8640956536086666",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.861079332539454"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8634",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Meunier",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8640956536086666",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.861079332539454"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8636",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Meunier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie du Meunier"
+      ]
+    },
+    {
+      "token_string": "Petit Bois",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie du Petit Bois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.014915797246837",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.3400240451791"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8626",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Petit Bois",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.014915797246837",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.3400240451791"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8637",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Petit Bois"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie du Petit Bois"
+      ]
+    },
+    {
+      "token_string": "Ry Maçon",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie du Ry Maçon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7828947428255475",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.39459325120842"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8626",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Ry Maçon",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7828947428255475",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.39459325120842"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8638",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Ry Maçon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie du Ry Maçon"
+      ]
+    },
+    {
+      "token_string": "Tr",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8641",
+              "@type": "tree:Node",
+              "token_string": "am"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8642",
+              "@type": "tree:Node",
+              "token_string": "ixhe"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8626",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Tram",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7517127690243397",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.47244825816877"
+        },
+        {
+          "http://example.com/terms#name": "Voie du Trixhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1102383042304518",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.43411054383126"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment287.jsonld#8640",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Tram"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie du Trixhe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "am",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie du Tram",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7517127690243397",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.47244825816877"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8640",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Tram",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.7517127690243397",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.47244825816877"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8641",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Tram"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie du Tram"
+      ]
+    },
+    {
+      "token_string": "ixhe",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie du Trixhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1102383042304518",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.43411054383126"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8640",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Trixhe",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1102383042304518",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.43411054383126"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8642",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Trixhe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie du Trixhe"
+      ]
+    },
+    {
+      "token_string": "Vi",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8645",
+              "@type": "tree:Node",
+              "token_string": "cinal"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment287.jsonld#8646",
+              "@type": "tree:Node",
+              "token_string": "eux Tram"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8626",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Vicinal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8972049799459025",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.44038500977842"
+        },
+        {
+          "http://example.com/terms#name": "Voie du Vieux Tram",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.730847402496181",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.584852405727666"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment287.jsonld#8644",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Vicinal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Voie du Vieux Tram"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "cinal",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie du Vicinal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8972049799459025",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.44038500977842"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8644",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Vicinal",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.8972049799459025",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.44038500977842"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8645",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Vicinal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie du Vicinal"
+      ]
+    },
+    {
+      "token_string": "eux Tram",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Voie du Vieux Tram",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.730847402496181",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.584852405727666"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment287.jsonld#8644",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Voie du Vieux Tram",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.730847402496181",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.584852405727666"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment287.jsonld#8646",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Voie du Vieux Tram"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Voie du Vieux Tram"
+      ]
+    }
+  ]
+}

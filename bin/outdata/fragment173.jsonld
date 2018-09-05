@@ -1,0 +1,1279 @@
+{
+  "root_node_id": "5439",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment173.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "ize",
+      "triples": [
+        {
+          "streetname": "Rue de la Gaize"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5440",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Gaize"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment173.jsonld#5433",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Gaize"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Gaize"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5436",
+              "@type": "tree:Node",
+              "token_string": "deuse d'Oies"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5437",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5440",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Gardeuse d'Oies"
+        },
+        {
+          "streetname": "Rue de la Gare"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment173.jsonld#5435",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Gardeuse d'Oies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Gare"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "deuse d'Oies",
+      "triples": [
+        {
+          "streetname": "Rue de la Gardeuse d'Oies"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5435",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Gardeuse d'Oies"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment173.jsonld#5436",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Gardeuse d'Oies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Gardeuse d'Oies"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [
+        {
+          "streetname": "Rue de la Gare"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5435",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Gare"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment173.jsonld#5437",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Gare"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Gare"
+      ]
+    },
+    {
+      "token_string": "ume",
+      "triples": [
+        {
+          "streetname": "Rue de la Gaume"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5440",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Gaume"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment173.jsonld#5438",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Gaume"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Gaume"
+      ]
+    },
+    {
+      "token_string": "G",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5440",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5441",
+              "@type": "tree:Node",
+              "token_string": "laisière"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5442",
+              "@type": "tree:Node",
+              "token_string": "olette"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5452",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5463",
+              "@type": "tree:Node",
+              "token_string": "uinguette"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment170.jsonld#5285",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Gaize"
+        },
+        {
+          "streetname": "Rue de la Gardeuse d'Oies"
+        },
+        {
+          "streetname": "Rue de la Gare"
+        },
+        {
+          "streetname": "Rue de la Gaume"
+        },
+        {
+          "streetname": "Rue de la Glaisière"
+        },
+        {
+          "streetname": "Rue de la Golette"
+        },
+        {
+          "streetname": "Rue de la Grande Cliquotte"
+        },
+        {
+          "streetname": "Rue de la Grande Pièce"
+        },
+        {
+          "streetname": "Rue de la Grange"
+        },
+        {
+          "streetname": "Rue de la Grange aux Deux Tours"
+        }
+      ],
+      "total_children_count": 24,
+      "@id": "fragment173.jsonld#5439",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Gaize"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Gardeuse d'Oies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Gare"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Gaume"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Glaisière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Golette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grande Cliquotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grande Pièce"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grange"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grange aux Deux Tours"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5433",
+              "@type": "tree:Node",
+              "token_string": "ize"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5435",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5438",
+              "@type": "tree:Node",
+              "token_string": "ume"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5439",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Gaize"
+        },
+        {
+          "streetname": "Rue de la Gardeuse d'Oies"
+        },
+        {
+          "streetname": "Rue de la Gare"
+        },
+        {
+          "streetname": "Rue de la Gaume"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment173.jsonld#5440",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Gaize"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Gardeuse d'Oies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Gare"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Gaume"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "laisière",
+      "triples": [
+        {
+          "streetname": "Rue de la Glaisière"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5439",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Glaisière"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment173.jsonld#5441",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Glaisière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Glaisière"
+      ]
+    },
+    {
+      "token_string": "olette",
+      "triples": [
+        {
+          "streetname": "Rue de la Golette"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5439",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Golette"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment173.jsonld#5442",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Golette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Golette"
+      ]
+    },
+    {
+      "token_string": "Cliquotte",
+      "triples": [
+        {
+          "streetname": "Rue de la Grande Cliquotte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5448",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Grande Cliquotte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment173.jsonld#5445",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Grande Cliquotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Grande Cliquotte"
+      ]
+    },
+    {
+      "token_string": "Pièce",
+      "triples": [
+        {
+          "streetname": "Rue de la Grande Pièce"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5448",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Grande Pièce"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment173.jsonld#5446",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Grande Pièce"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Grande Pièce"
+      ]
+    },
+    {
+      "token_string": "de ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5445",
+              "@type": "tree:Node",
+              "token_string": "Cliquotte"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5446",
+              "@type": "tree:Node",
+              "token_string": "Pièce"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5453",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Grande Cliquotte"
+        },
+        {
+          "streetname": "Rue de la Grande Pièce"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment173.jsonld#5448",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Grande Cliquotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grande Pièce"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ge",
+      "triples": [
+        {
+          "streetname": "Rue de la Grange"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5450",
+              "@type": "tree:Node",
+              "token_string": " aux Deux Tours"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5453",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Grange"
+        },
+        {
+          "streetname": "Rue de la Grange aux Deux Tours"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "fragment173.jsonld#5449",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Grange"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grange aux Deux Tours"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Grange"
+      ]
+    },
+    {
+      "token_string": " aux Deux Tours",
+      "triples": [
+        {
+          "streetname": "Rue de la Grange aux Deux Tours"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5449",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Grange aux Deux Tours"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment173.jsonld#5450",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Grange aux Deux Tours"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Grange aux Deux Tours"
+      ]
+    },
+    {
+      "token_string": "itière Hanuise",
+      "triples": [
+        {
+          "streetname": "Rue de la Granitière Hanuise"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5453",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Granitière Hanuise"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment173.jsonld#5451",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Granitière Hanuise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Granitière Hanuise"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5453",
+              "@type": "tree:Node",
+              "token_string": "an"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5454",
+              "@type": "tree:Node",
+              "token_string": "èce"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5456",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5460",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5439",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Grande Cliquotte"
+        },
+        {
+          "streetname": "Rue de la Grande Pièce"
+        },
+        {
+          "streetname": "Rue de la Grange"
+        },
+        {
+          "streetname": "Rue de la Grange aux Deux Tours"
+        },
+        {
+          "streetname": "Rue de la Granitière Hanuise"
+        },
+        {
+          "streetname": "Rue de la Grèce"
+        },
+        {
+          "streetname": "Rue de la Griotte"
+        },
+        {
+          "streetname": "Rue de la Grive musicienne"
+        },
+        {
+          "streetname": "Rue de la Grosse Bôle"
+        },
+        {
+          "streetname": "Rue de la Grotte"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "fragment173.jsonld#5452",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Grande Cliquotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grande Pièce"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grange"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grange aux Deux Tours"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Granitière Hanuise"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grèce"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Griotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grive musicienne"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grosse Bôle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "an",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5448",
+              "@type": "tree:Node",
+              "token_string": "de "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5449",
+              "@type": "tree:Node",
+              "token_string": "ge"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5451",
+              "@type": "tree:Node",
+              "token_string": "itière Hanuise"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5452",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Grande Cliquotte"
+        },
+        {
+          "streetname": "Rue de la Grande Pièce"
+        },
+        {
+          "streetname": "Rue de la Grange"
+        },
+        {
+          "streetname": "Rue de la Grange aux Deux Tours"
+        },
+        {
+          "streetname": "Rue de la Granitière Hanuise"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment173.jsonld#5453",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Grande Cliquotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grande Pièce"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grange"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grange aux Deux Tours"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Granitière Hanuise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "èce",
+      "triples": [
+        {
+          "streetname": "Rue de la Grèce"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5452",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Grèce"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment173.jsonld#5454",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Grèce"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Grèce"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5457",
+              "@type": "tree:Node",
+              "token_string": "otte"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5458",
+              "@type": "tree:Node",
+              "token_string": "ve musicienne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5452",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Griotte"
+        },
+        {
+          "streetname": "Rue de la Grive musicienne"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment173.jsonld#5456",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Griotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grive musicienne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "otte",
+      "triples": [
+        {
+          "streetname": "Rue de la Griotte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5456",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Griotte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment173.jsonld#5457",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Griotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Griotte"
+      ]
+    },
+    {
+      "token_string": "ve musicienne",
+      "triples": [
+        {
+          "streetname": "Rue de la Grive musicienne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5456",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Grive musicienne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment173.jsonld#5458",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Grive musicienne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Grive musicienne"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5461",
+              "@type": "tree:Node",
+              "token_string": "sse Bôle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment173.jsonld#5462",
+              "@type": "tree:Node",
+              "token_string": "tte"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5452",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Grosse Bôle"
+        },
+        {
+          "streetname": "Rue de la Grotte"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment173.jsonld#5460",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Grosse Bôle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de la Grotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sse Bôle",
+      "triples": [
+        {
+          "streetname": "Rue de la Grosse Bôle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5460",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Grosse Bôle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment173.jsonld#5461",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Grosse Bôle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Grosse Bôle"
+      ]
+    },
+    {
+      "token_string": "tte",
+      "triples": [
+        {
+          "streetname": "Rue de la Grotte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5460",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Grotte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment173.jsonld#5462",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Grotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Grotte"
+      ]
+    },
+    {
+      "token_string": "uinguette",
+      "triples": [
+        {
+          "streetname": "Rue de la Guinguette"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment173.jsonld#5439",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de la Guinguette"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment173.jsonld#5463",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de la Guinguette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de la Guinguette"
+      ]
+    }
+  ]
+}

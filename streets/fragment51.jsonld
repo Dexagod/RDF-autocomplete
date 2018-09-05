@@ -1,0 +1,824 @@
+{
+  "root_node_id": "1411",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment51.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "lles Forts",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Belles Forts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5619202047950047",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.80565529254923"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment51.jsonld#1412",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Belles Forts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5619202047950047",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.80565529254923"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment51.jsonld#1409",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Belles Forts"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Belles Forts"
+      ]
+    },
+    {
+      "token_string": "rlines",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Berlines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.752164310360153",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91012792071061"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment51.jsonld#1412",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Berlines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.752164310360153",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91012792071061"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment51.jsonld#1410",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Berlines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Berlines"
+      ]
+    },
+    {
+      "token_string": "B",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment51.jsonld#1412",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment51.jsonld#1413",
+              "@type": "tree:Node",
+              "token_string": "iquettes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment51.jsonld#1415",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment51.jsonld#1420",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment51.jsonld#1426",
+              "@type": "tree:Node",
+              "token_string": "resses"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment48.jsonld#1398",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Belles Forts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5619202047950047",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.80565529254923"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Berlines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.752164310360153",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91012792071061"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Biquettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0546262877234827",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.751632772012655"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Blancs Batis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9493773152045875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.32117371211554"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Blés",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.054422819086082",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.40179749517381"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Bleuets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.105558233215867",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29060082410286"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Boeufs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5332673063993703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.72401776748368"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Bourdaines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.326027702110035",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.81919438055555"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Boutons d'Or",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.473738474515792",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.77792479359252"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Bresses",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5863507798585874",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.450631155802874"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "streetsfragment51.jsonld#1411",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Belles Forts"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Berlines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Biquettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Blancs Batis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Blés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Bleuets"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Boeufs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Bourdaines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Boutons d'Or"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Bresses"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment51.jsonld#1409",
+              "@type": "tree:Node",
+              "token_string": "lles Forts"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment51.jsonld#1410",
+              "@type": "tree:Node",
+              "token_string": "rlines"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment51.jsonld#1411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Belles Forts",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5619202047950047",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.80565529254923"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Berlines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.752164310360153",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.91012792071061"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment51.jsonld#1412",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Belles Forts"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Berlines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "iquettes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Biquettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0546262877234827",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.751632772012655"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment51.jsonld#1411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Biquettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0546262877234827",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.751632772012655"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment51.jsonld#1413",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Biquettes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Biquettes"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment51.jsonld#1416",
+              "@type": "tree:Node",
+              "token_string": "ancs Batis"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment51.jsonld#1417",
+              "@type": "tree:Node",
+              "token_string": "és"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment51.jsonld#1418",
+              "@type": "tree:Node",
+              "token_string": "euets"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment51.jsonld#1411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Blancs Batis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9493773152045875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.32117371211554"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Blés",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.054422819086082",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.40179749517381"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Bleuets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.105558233215867",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29060082410286"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment51.jsonld#1415",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Blancs Batis"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Blés"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Bleuets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ancs Batis",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Blancs Batis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9493773152045875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.32117371211554"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment51.jsonld#1415",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Blancs Batis",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.9493773152045875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.32117371211554"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment51.jsonld#1416",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Blancs Batis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Blancs Batis"
+      ]
+    },
+    {
+      "token_string": "és",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Blés",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.054422819086082",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.40179749517381"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment51.jsonld#1415",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Blés",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.054422819086082",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.40179749517381"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment51.jsonld#1417",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Blés"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Blés"
+      ]
+    },
+    {
+      "token_string": "euets",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Bleuets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.105558233215867",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29060082410286"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment51.jsonld#1415",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Bleuets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.105558233215867",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.29060082410286"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment51.jsonld#1418",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Bleuets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Bleuets"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment51.jsonld#1421",
+              "@type": "tree:Node",
+              "token_string": "eufs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment51.jsonld#1423",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment51.jsonld#1411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Boeufs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5332673063993703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.72401776748368"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Bourdaines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.326027702110035",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.81919438055555"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Boutons d'Or",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.473738474515792",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.77792479359252"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment51.jsonld#1420",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Boeufs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Bourdaines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Boutons d'Or"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eufs",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Boeufs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5332673063993703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.72401776748368"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment51.jsonld#1420",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Boeufs",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5332673063993703",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.72401776748368"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment51.jsonld#1421",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Boeufs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Boeufs"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment51.jsonld#1424",
+              "@type": "tree:Node",
+              "token_string": "rdaines"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment51.jsonld#1425",
+              "@type": "tree:Node",
+              "token_string": "tons d'Or"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment51.jsonld#1420",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Bourdaines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.326027702110035",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.81919438055555"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Boutons d'Or",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.473738474515792",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.77792479359252"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment51.jsonld#1423",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Bourdaines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Boutons d'Or"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rdaines",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Bourdaines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.326027702110035",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.81919438055555"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment51.jsonld#1423",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Bourdaines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.326027702110035",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.81919438055555"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment51.jsonld#1424",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Bourdaines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Bourdaines"
+      ]
+    },
+    {
+      "token_string": "tons d'Or",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Boutons d'Or",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.473738474515792",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.77792479359252"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment51.jsonld#1423",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Boutons d'Or",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.473738474515792",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.77792479359252"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment51.jsonld#1425",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Boutons d'Or"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Boutons d'Or"
+      ]
+    },
+    {
+      "token_string": "resses",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Bresses",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5863507798585874",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.450631155802874"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment51.jsonld#1411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Bresses",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5863507798585874",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.450631155802874"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment51.jsonld#1426",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Bresses"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Bresses"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4904 @@
+{
+  "root_node_id": "3344",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment105.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "lenberg",
+      "triples": [
+        {
+          "streetname": "Kahlenberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3319",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kahlenberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3316",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kahlenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kahlenberg"
+      ]
+    },
+    {
+      "token_string": "nweg",
+      "triples": [
+        {
+          "streetname": "Kahnweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3319",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kahnweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3317",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kahnweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kahnweg"
+      ]
+    },
+    {
+      "token_string": "h",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3316",
+              "@type": "tree:Node",
+              "token_string": "lenberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3317",
+              "@type": "tree:Node",
+              "token_string": "nweg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3345",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kahlenberg"
+        },
+        {
+          "streetname": "Kahnweg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment105.jsonld#3319",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kahlenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kahnweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "iserbaracke",
+      "triples": [
+        {
+          "streetname": "Kaiserbaracke"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3345",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kaiserbaracke"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3320",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kaiserbaracke"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kaiserbaracke"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3323",
+              "@type": "tree:Node",
+              "token_string": "denbach"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3324",
+              "@type": "tree:Node",
+              "token_string": "terherberger Str"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3325",
+              "@type": "tree:Node",
+              "token_string": "verberg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3345",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kaldenbach"
+        },
+        {
+          "streetname": "Kalterherberger Str"
+        },
+        {
+          "streetname": "Kalverberg"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment105.jsonld#3322",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kaldenbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kalterherberger Str"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kalverberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "denbach",
+      "triples": [
+        {
+          "streetname": "Kaldenbach"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3322",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kaldenbach"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3323",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kaldenbach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kaldenbach"
+      ]
+    },
+    {
+      "token_string": "terherberger Str",
+      "triples": [
+        {
+          "streetname": "Kalterherberger Str"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3322",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kalterherberger Str"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3324",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kalterherberger Str"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kalterherberger Str"
+      ]
+    },
+    {
+      "token_string": "verberg",
+      "triples": [
+        {
+          "streetname": "Kalverberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3322",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kalverberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3325",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kalverberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kalverberg"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "streetname": "Kapellenstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3329",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kapellenstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3327",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kapellenstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kapellenstrasse"
+      ]
+    },
+    {
+      "token_string": "en",
+      "triples": [
+        {
+          "streetname": "Kapellen"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3327",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3332",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kapellen"
+        },
+        {
+          "streetname": "Kapellenstrasse"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "fragment105.jsonld#3329",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kapellen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kapellenstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kapellen"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "streetname": "Kapellstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3332",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kapellstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3330",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kapellstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kapellstrasse"
+      ]
+    },
+    {
+      "token_string": "ll",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3329",
+              "@type": "tree:Node",
+              "token_string": "en"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3330",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3335",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kapellen"
+        },
+        {
+          "streetname": "Kapellenstrasse"
+        },
+        {
+          "streetname": "Kapellstrasse"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment105.jsonld#3332",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kapellen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kapellenstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kapellstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rberg",
+      "triples": [
+        {
+          "streetname": "Kaperberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3335",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kaperberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3333",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kaperberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kaperberg"
+      ]
+    },
+    {
+      "token_string": "p",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3335",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3337",
+              "@type": "tree:Node",
+              "token_string": "lan"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3345",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kapellen"
+        },
+        {
+          "streetname": "Kapellenstrasse"
+        },
+        {
+          "streetname": "Kapellstrasse"
+        },
+        {
+          "streetname": "Kaperberg"
+        },
+        {
+          "streetname": "Kaplan-Arnolds-Strasse"
+        },
+        {
+          "streetname": "Kaplan JC Rossaint Strasse"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "fragment105.jsonld#3334",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kapellen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kapellenstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kapellstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kaperberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kaplan-Arnolds-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kaplan JC Rossaint Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3332",
+              "@type": "tree:Node",
+              "token_string": "ll"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3333",
+              "@type": "tree:Node",
+              "token_string": "rberg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3334",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kapellen"
+        },
+        {
+          "streetname": "Kapellenstrasse"
+        },
+        {
+          "streetname": "Kapellstrasse"
+        },
+        {
+          "streetname": "Kaperberg"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment105.jsonld#3335",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kapellen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kapellenstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kapellstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kaperberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "lan",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3338",
+              "@type": "tree:Node",
+              "token_string": "-Arnolds-Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3339",
+              "@type": "tree:Node",
+              "token_string": " JC Rossaint Strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3334",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kaplan-Arnolds-Strasse"
+        },
+        {
+          "streetname": "Kaplan JC Rossaint Strasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment105.jsonld#3337",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kaplan-Arnolds-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kaplan JC Rossaint Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "-Arnolds-Strasse",
+      "triples": [
+        {
+          "streetname": "Kaplan-Arnolds-Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3337",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kaplan-Arnolds-Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3338",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kaplan-Arnolds-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kaplan-Arnolds-Strasse"
+      ]
+    },
+    {
+      "token_string": " JC Rossaint Strasse",
+      "triples": [
+        {
+          "streetname": "Kaplan JC Rossaint Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3337",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kaplan JC Rossaint Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3339",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kaplan JC Rossaint Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kaplan JC Rossaint Strasse"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3342",
+              "@type": "tree:Node",
+              "token_string": "l-Weiss-Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3343",
+              "@type": "tree:Node",
+              "token_string": "olinger Platz"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3345",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Karl-Weiss-Strasse"
+        },
+        {
+          "streetname": "Karolinger Platz"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment105.jsonld#3341",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Karl-Weiss-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Karolinger Platz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "l-Weiss-Strasse",
+      "triples": [
+        {
+          "streetname": "Karl-Weiss-Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3341",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Karl-Weiss-Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3342",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Karl-Weiss-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Karl-Weiss-Strasse"
+      ]
+    },
+    {
+      "token_string": "olinger Platz",
+      "triples": [
+        {
+          "streetname": "Karolinger Platz"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3341",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Karolinger Platz"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3343",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Karolinger Platz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Karolinger Platz"
+      ]
+    },
+    {
+      "token_string": "K",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3345",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3349",
+              "@type": "tree:Node",
+              "token_string": "ä"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3355",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3374",
+              "@type": "tree:Node",
+              "token_string": "-F-Schinkel-Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3376",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3398",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3431",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment107.jsonld#3438",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3446",
+              "@type": "tree:Node",
+              "token_string": "ö"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment109.jsonld#3473",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3492",
+              "@type": "tree:Node",
+              "token_string": "ü"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment110.jsonld#3499",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment1.jsonld#1",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kahlenberg"
+        },
+        {
+          "streetname": "Kahnweg"
+        },
+        {
+          "streetname": "Kaiserbaracke"
+        },
+        {
+          "streetname": "Kaldenbach"
+        },
+        {
+          "streetname": "Kalterherberger Str"
+        },
+        {
+          "streetname": "Kalverberg"
+        },
+        {
+          "streetname": "Kapellen"
+        },
+        {
+          "streetname": "Kapellenstrasse"
+        },
+        {
+          "streetname": "Kapellstrasse"
+        },
+        {
+          "streetname": "K-F-Schinkel-Strasse"
+        }
+      ],
+      "total_children_count": 141,
+      "@id": "fragment105.jsonld#3344",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kahlenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kahnweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kaiserbaracke"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kaldenbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kalterherberger Str"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kalverberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kapellen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kapellenstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kapellstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "K-F-Schinkel-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3319",
+              "@type": "tree:Node",
+              "token_string": "h"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3320",
+              "@type": "tree:Node",
+              "token_string": "iserbaracke"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3322",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3334",
+              "@type": "tree:Node",
+              "token_string": "p"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3341",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3347",
+              "@type": "tree:Node",
+              "token_string": "stanienweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3348",
+              "@type": "tree:Node",
+              "token_string": "tharinenweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3352",
+              "@type": "tree:Node",
+              "token_string": "uberg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3344",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kahlenberg"
+        },
+        {
+          "streetname": "Kahnweg"
+        },
+        {
+          "streetname": "Kaiserbaracke"
+        },
+        {
+          "streetname": "Kaldenbach"
+        },
+        {
+          "streetname": "Kalterherberger Str"
+        },
+        {
+          "streetname": "Kalverberg"
+        },
+        {
+          "streetname": "Kapellen"
+        },
+        {
+          "streetname": "Kapellenstrasse"
+        },
+        {
+          "streetname": "Kapellstrasse"
+        },
+        {
+          "streetname": "Kaperberg"
+        }
+      ],
+      "total_children_count": 24,
+      "@id": "fragment105.jsonld#3345",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kahlenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kahnweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kaiserbaracke"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kaldenbach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kalterherberger Str"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kalverberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kapellen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kapellenstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kapellstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kaperberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "stanienweg",
+      "triples": [
+        {
+          "streetname": "Kastanienweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3345",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kastanienweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3347",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kastanienweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kastanienweg"
+      ]
+    },
+    {
+      "token_string": "tharinenweg",
+      "triples": [
+        {
+          "streetname": "Katharinenweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3345",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Katharinenweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3348",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Katharinenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Katharinenweg"
+      ]
+    },
+    {
+      "token_string": "ä",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3350",
+              "@type": "tree:Node",
+              "token_string": "skorb"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3351",
+              "@type": "tree:Node",
+              "token_string": "ttringenhügel"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3344",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Käskorb"
+        },
+        {
+          "streetname": "Kättringenhügel"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment105.jsonld#3349",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Käskorb"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kättringenhügel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "skorb",
+      "triples": [
+        {
+          "streetname": "Käskorb"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3349",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Käskorb"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3350",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Käskorb"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Käskorb"
+      ]
+    },
+    {
+      "token_string": "ttringenhügel",
+      "triples": [
+        {
+          "streetname": "Kättringenhügel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3349",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kättringenhügel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3351",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kättringenhügel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kättringenhügel"
+      ]
+    },
+    {
+      "token_string": "uberg",
+      "triples": [
+        {
+          "streetname": "Kauberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3345",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kauberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3352",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kauberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kauberg"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "streetname": "Kehrweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3356",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kehrweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3354",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kehrweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kehrweg"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3356",
+              "@type": "tree:Node",
+              "token_string": "hr"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3358",
+              "@type": "tree:Node",
+              "token_string": "l"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3367",
+              "@type": "tree:Node",
+              "token_string": "mmel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3368",
+              "@type": "tree:Node",
+              "token_string": "ppelborn"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3370",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3373",
+              "@type": "tree:Node",
+              "token_string": "tteniser Strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3344",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kehr"
+        },
+        {
+          "streetname": "Kehrweg"
+        },
+        {
+          "streetname": "Kellergasse"
+        },
+        {
+          "streetname": "Kelmiser Heide"
+        },
+        {
+          "streetname": "Kelmiser-Strasse"
+        },
+        {
+          "streetname": "Kelm Mühle-Mühlenteichweg"
+        },
+        {
+          "streetname": "Kemmel"
+        },
+        {
+          "streetname": "Keppelborn"
+        },
+        {
+          "streetname": "Kerpener Strasse"
+        },
+        {
+          "streetname": "Kerresbusch"
+        }
+      ],
+      "total_children_count": 15,
+      "@id": "fragment105.jsonld#3355",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kehr"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kehrweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kellergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kelmiser Heide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kelmiser-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kelm Mühle-Mühlenteichweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kemmel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Keppelborn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kerpener Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kerresbusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "hr",
+      "triples": [
+        {
+          "streetname": "Kehr"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3354",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3355",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kehr"
+        },
+        {
+          "streetname": "Kehrweg"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "fragment105.jsonld#3356",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kehr"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kehrweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kehr"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3359",
+              "@type": "tree:Node",
+              "token_string": "lergasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3364",
+              "@type": "tree:Node",
+              "token_string": "m"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3355",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kellergasse"
+        },
+        {
+          "streetname": "Kelmiser Heide"
+        },
+        {
+          "streetname": "Kelmiser-Strasse"
+        },
+        {
+          "streetname": "Kelm Mühle-Mühlenteichweg"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment105.jsonld#3358",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kellergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kelmiser Heide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kelmiser-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kelm Mühle-Mühlenteichweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "lergasse",
+      "triples": [
+        {
+          "streetname": "Kellergasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3358",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kellergasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3359",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kellergasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kellergasse"
+      ]
+    },
+    {
+      "token_string": " Heide",
+      "triples": [
+        {
+          "streetname": "Kelmiser Heide"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3365",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kelmiser Heide"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3362",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kelmiser Heide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kelmiser Heide"
+      ]
+    },
+    {
+      "token_string": "-Strasse",
+      "triples": [
+        {
+          "streetname": "Kelmiser-Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3365",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kelmiser-Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3363",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kelmiser-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kelmiser-Strasse"
+      ]
+    },
+    {
+      "token_string": "m",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3365",
+              "@type": "tree:Node",
+              "token_string": "iser"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3366",
+              "@type": "tree:Node",
+              "token_string": " Mühle-Mühlenteichweg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3358",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kelmiser Heide"
+        },
+        {
+          "streetname": "Kelmiser-Strasse"
+        },
+        {
+          "streetname": "Kelm Mühle-Mühlenteichweg"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment105.jsonld#3364",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kelmiser Heide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kelmiser-Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kelm Mühle-Mühlenteichweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "iser",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3362",
+              "@type": "tree:Node",
+              "token_string": " Heide"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3363",
+              "@type": "tree:Node",
+              "token_string": "-Strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3364",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kelmiser Heide"
+        },
+        {
+          "streetname": "Kelmiser-Strasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment105.jsonld#3365",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kelmiser Heide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kelmiser-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Mühle-Mühlenteichweg",
+      "triples": [
+        {
+          "streetname": "Kelm Mühle-Mühlenteichweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3364",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kelm Mühle-Mühlenteichweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3366",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kelm Mühle-Mühlenteichweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kelm Mühle-Mühlenteichweg"
+      ]
+    },
+    {
+      "token_string": "mmel",
+      "triples": [
+        {
+          "streetname": "Kemmel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3355",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kemmel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3367",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kemmel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kemmel"
+      ]
+    },
+    {
+      "token_string": "ppelborn",
+      "triples": [
+        {
+          "streetname": "Keppelborn"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3355",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Keppelborn"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3368",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Keppelborn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Keppelborn"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3371",
+              "@type": "tree:Node",
+              "token_string": "pener Strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3372",
+              "@type": "tree:Node",
+              "token_string": "resbusch"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3355",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kerpener Strasse"
+        },
+        {
+          "streetname": "Kerresbusch"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment105.jsonld#3370",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kerpener Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kerresbusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "pener Strasse",
+      "triples": [
+        {
+          "streetname": "Kerpener Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3370",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kerpener Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3371",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kerpener Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kerpener Strasse"
+      ]
+    },
+    {
+      "token_string": "resbusch",
+      "triples": [
+        {
+          "streetname": "Kerresbusch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3370",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kerresbusch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3372",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kerresbusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kerresbusch"
+      ]
+    },
+    {
+      "token_string": "tteniser Strasse",
+      "triples": [
+        {
+          "streetname": "Ketteniser Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3355",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Ketteniser Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3373",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ketteniser Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ketteniser Strasse"
+      ]
+    },
+    {
+      "token_string": "-F-Schinkel-Strasse",
+      "triples": [
+        {
+          "streetname": "K-F-Schinkel-Strasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3344",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "K-F-Schinkel-Strasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3374",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "K-F-Schinkel-Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "K-F-Schinkel-Strasse"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3377",
+              "@type": "tree:Node",
+              "token_string": "nkebahn"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3387",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3344",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kinkebahn"
+        },
+        {
+          "streetname": "Kirchbuschweg"
+        },
+        {
+          "streetname": "Kirchenseite"
+        },
+        {
+          "streetname": "Kirchgasse"
+        },
+        {
+          "streetname": "Kirchplatz"
+        },
+        {
+          "streetname": "Kirchstrasse"
+        },
+        {
+          "streetname": "Kirchstrasse Lontzen"
+        },
+        {
+          "streetname": "Kirchweg"
+        },
+        {
+          "streetname": "Kirschenweg"
+        }
+      ],
+      "total_children_count": 11,
+      "@id": "fragment105.jsonld#3376",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kinkebahn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchbuschweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchenseite"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchplatz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchstrasse Lontzen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirschenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "nkebahn",
+      "triples": [
+        {
+          "streetname": "Kinkebahn"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3376",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kinkebahn"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3377",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kinkebahn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kinkebahn"
+      ]
+    },
+    {
+      "token_string": "buschweg",
+      "triples": [
+        {
+          "streetname": "Kirchbuschweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3388",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kirchbuschweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3380",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kirchbuschweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kirchbuschweg"
+      ]
+    },
+    {
+      "token_string": "enseite",
+      "triples": [
+        {
+          "streetname": "Kirchenseite"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3388",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kirchenseite"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3381",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kirchenseite"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kirchenseite"
+      ]
+    },
+    {
+      "token_string": "gasse",
+      "triples": [
+        {
+          "streetname": "Kirchgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3388",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kirchgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3382",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kirchgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kirchgasse"
+      ]
+    },
+    {
+      "token_string": "platz",
+      "triples": [
+        {
+          "streetname": "Kirchplatz"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3388",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kirchplatz"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3383",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kirchplatz"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kirchplatz"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "streetname": "Kirchstrasse"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3385",
+              "@type": "tree:Node",
+              "token_string": " Lontzen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3388",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kirchstrasse"
+        },
+        {
+          "streetname": "Kirchstrasse Lontzen"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "fragment105.jsonld#3384",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kirchstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchstrasse Lontzen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kirchstrasse"
+      ]
+    },
+    {
+      "token_string": " Lontzen",
+      "triples": [
+        {
+          "streetname": "Kirchstrasse Lontzen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3384",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kirchstrasse Lontzen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3385",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kirchstrasse Lontzen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kirchstrasse Lontzen"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "streetname": "Kirchweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3388",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kirchweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3386",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kirchweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kirchweg"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3388",
+              "@type": "tree:Node",
+              "token_string": "ch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3389",
+              "@type": "tree:Node",
+              "token_string": "schenweg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3376",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kirchbuschweg"
+        },
+        {
+          "streetname": "Kirchenseite"
+        },
+        {
+          "streetname": "Kirchgasse"
+        },
+        {
+          "streetname": "Kirchplatz"
+        },
+        {
+          "streetname": "Kirchstrasse"
+        },
+        {
+          "streetname": "Kirchstrasse Lontzen"
+        },
+        {
+          "streetname": "Kirchweg"
+        },
+        {
+          "streetname": "Kirschenweg"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "fragment105.jsonld#3387",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kirchbuschweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchenseite"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchplatz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchstrasse Lontzen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirschenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ch",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3380",
+              "@type": "tree:Node",
+              "token_string": "buschweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3381",
+              "@type": "tree:Node",
+              "token_string": "enseite"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3382",
+              "@type": "tree:Node",
+              "token_string": "gasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3383",
+              "@type": "tree:Node",
+              "token_string": "platz"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3384",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3386",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3387",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kirchbuschweg"
+        },
+        {
+          "streetname": "Kirchenseite"
+        },
+        {
+          "streetname": "Kirchgasse"
+        },
+        {
+          "streetname": "Kirchplatz"
+        },
+        {
+          "streetname": "Kirchstrasse"
+        },
+        {
+          "streetname": "Kirchstrasse Lontzen"
+        },
+        {
+          "streetname": "Kirchweg"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment105.jsonld#3388",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kirchbuschweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchenseite"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchplatz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchstrasse Lontzen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kirchweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "schenweg",
+      "triples": [
+        {
+          "streetname": "Kirschenweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3387",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kirschenweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3389",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kirschenweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kirschenweg"
+      ]
+    },
+    {
+      "token_string": "bankgasse",
+      "triples": [
+        {
+          "streetname": "Klebankgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3399",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klebankgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3392",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klebankgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Klebankgasse"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3395",
+              "@type": "tree:Node",
+              "token_string": "berg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3396",
+              "@type": "tree:Node",
+              "token_string": " Feld"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3399",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kleeberg"
+        },
+        {
+          "streetname": "Klee Feld"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment105.jsonld#3394",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kleeberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klee Feld"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "berg",
+      "triples": [
+        {
+          "streetname": "Kleeberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3394",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kleeberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3395",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kleeberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kleeberg"
+      ]
+    },
+    {
+      "token_string": " Feld",
+      "triples": [
+        {
+          "streetname": "Klee Feld"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3394",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klee Feld"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3396",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klee Feld"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Klee Feld"
+      ]
+    },
+    {
+      "token_string": "ine Klingelgasse",
+      "triples": [
+        {
+          "streetname": "Kleine Klingelgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3399",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kleine Klingelgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3397",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kleine Klingelgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kleine Klingelgasse"
+      ]
+    },
+    {
+      "token_string": "l",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3399",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3401",
+              "@type": "tree:Node",
+              "token_string": "in"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3415",
+              "@type": "tree:Node",
+              "token_string": "ö"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3418",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3344",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klebankgasse"
+        },
+        {
+          "streetname": "Kleeberg"
+        },
+        {
+          "streetname": "Klee Feld"
+        },
+        {
+          "streetname": "Kleine Klingelgasse"
+        },
+        {
+          "streetname": "Klingelgasse"
+        },
+        {
+          "streetname": "Klinkersgasse"
+        },
+        {
+          "streetname": "Klinkeshöfchen"
+        },
+        {
+          "streetname": "Klostergasse"
+        },
+        {
+          "streetname": "Klosterstrasse"
+        },
+        {
+          "streetname": "Klosterstraße"
+        }
+      ],
+      "total_children_count": 23,
+      "@id": "fragment105.jsonld#3398",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klebankgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kleeberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klee Feld"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kleine Klingelgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klingelgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klinkersgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klinkeshöfchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klostergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klosterstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klosterstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3392",
+              "@type": "tree:Node",
+              "token_string": "bankgasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3394",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3397",
+              "@type": "tree:Node",
+              "token_string": "ine Klingelgasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3398",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klebankgasse"
+        },
+        {
+          "streetname": "Kleeberg"
+        },
+        {
+          "streetname": "Klee Feld"
+        },
+        {
+          "streetname": "Kleine Klingelgasse"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment105.jsonld#3399",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klebankgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kleeberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klee Feld"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kleine Klingelgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "in",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3402",
+              "@type": "tree:Node",
+              "token_string": "gelgasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3404",
+              "@type": "tree:Node",
+              "token_string": "ke"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3398",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klingelgasse"
+        },
+        {
+          "streetname": "Klinkersgasse"
+        },
+        {
+          "streetname": "Klinkeshöfchen"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment105.jsonld#3401",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klingelgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klinkersgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klinkeshöfchen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "gelgasse",
+      "triples": [
+        {
+          "streetname": "Klingelgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3401",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klingelgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3402",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klingelgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Klingelgasse"
+      ]
+    },
+    {
+      "token_string": "ke",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3405",
+              "@type": "tree:Node",
+              "token_string": "rsgasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3406",
+              "@type": "tree:Node",
+              "token_string": "shöfchen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3401",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klinkersgasse"
+        },
+        {
+          "streetname": "Klinkeshöfchen"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment105.jsonld#3404",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klinkersgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klinkeshöfchen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rsgasse",
+      "triples": [
+        {
+          "streetname": "Klinkersgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3404",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klinkersgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3405",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klinkersgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Klinkersgasse"
+      ]
+    },
+    {
+      "token_string": "shöfchen",
+      "triples": [
+        {
+          "streetname": "Klinkeshöfchen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3404",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klinkeshöfchen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3406",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klinkeshöfchen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Klinkeshöfchen"
+      ]
+    },
+    {
+      "token_string": "gasse",
+      "triples": [
+        {
+          "streetname": "Klostergasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3419",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klostergasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3410",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klostergasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Klostergasse"
+      ]
+    },
+    {
+      "token_string": "stra",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3413",
+              "@type": "tree:Node",
+              "token_string": "sse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3414",
+              "@type": "tree:Node",
+              "token_string": "ße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3419",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klosterstrasse"
+        },
+        {
+          "streetname": "Klosterstraße"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment105.jsonld#3412",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klosterstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klosterstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sse",
+      "triples": [
+        {
+          "streetname": "Klosterstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3412",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klosterstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3413",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klosterstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Klosterstrasse"
+      ]
+    },
+    {
+      "token_string": "ße",
+      "triples": [
+        {
+          "streetname": "Klosterstraße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3412",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klosterstraße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3414",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klosterstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Klosterstraße"
+      ]
+    },
+    {
+      "token_string": "ö",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3416",
+              "@type": "tree:Node",
+              "token_string": "ppelsgasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3421",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3398",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klöppelsgasse"
+        },
+        {
+          "streetname": "Klötershofweg"
+        },
+        {
+          "streetname": "Klötzerbahn"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment105.jsonld#3415",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klöppelsgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klötershofweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klötzerbahn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ppelsgasse",
+      "triples": [
+        {
+          "streetname": "Klöppelsgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3415",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klöppelsgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3416",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klöppelsgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Klöppelsgasse"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3419",
+              "@type": "tree:Node",
+              "token_string": "ster"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3420",
+              "@type": "tree:Node",
+              "token_string": "thstrasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3398",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klostergasse"
+        },
+        {
+          "streetname": "Klosterstrasse"
+        },
+        {
+          "streetname": "Klosterstraße"
+        },
+        {
+          "streetname": "Klothstrasse"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment105.jsonld#3418",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klostergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klosterstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klosterstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klothstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ster",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3410",
+              "@type": "tree:Node",
+              "token_string": "gasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3412",
+              "@type": "tree:Node",
+              "token_string": "stra"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3418",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klostergasse"
+        },
+        {
+          "streetname": "Klosterstrasse"
+        },
+        {
+          "streetname": "Klosterstraße"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment105.jsonld#3419",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klostergasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klosterstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klosterstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "thstrasse",
+      "triples": [
+        {
+          "streetname": "Klothstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3418",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klothstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3420",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klothstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Klothstrasse"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3422",
+              "@type": "tree:Node",
+              "token_string": "ershofweg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3423",
+              "@type": "tree:Node",
+              "token_string": "zerbahn"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3415",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klötershofweg"
+        },
+        {
+          "streetname": "Klötzerbahn"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment105.jsonld#3421",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klötershofweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Klötzerbahn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ershofweg",
+      "triples": [
+        {
+          "streetname": "Klötershofweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3421",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klötershofweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3422",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klötershofweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Klötershofweg"
+      ]
+    },
+    {
+      "token_string": "zerbahn",
+      "triples": [
+        {
+          "streetname": "Klötzerbahn"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3421",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Klötzerbahn"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3423",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Klötzerbahn"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Klötzerbahn"
+      ]
+    },
+    {
+      "token_string": "strasse",
+      "triples": [
+        {
+          "streetname": "Knippstrasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3429",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Knippstrasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3426",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Knippstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Knippstrasse"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "streetname": "Knippweg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3429",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Knippweg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3427",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Knippweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Knippweg"
+      ]
+    },
+    {
+      "token_string": "p",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3426",
+              "@type": "tree:Node",
+              "token_string": "strasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3427",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3432",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Knippstrasse"
+        },
+        {
+          "streetname": "Knippweg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment105.jsonld#3429",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Knippstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Knippweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sgasse",
+      "triples": [
+        {
+          "streetname": "Knipsgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3432",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Knipsgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3430",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Knipsgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Knipsgasse"
+      ]
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3432",
+              "@type": "tree:Node",
+              "token_string": "ip"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3434",
+              "@type": "tree:Node",
+              "token_string": "oppen"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3344",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Knippstrasse"
+        },
+        {
+          "streetname": "Knippweg"
+        },
+        {
+          "streetname": "Knipsgasse"
+        },
+        {
+          "streetname": "Knoppenburg"
+        },
+        {
+          "streetname": "Knoppenstraße"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment105.jsonld#3431",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Knippstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Knippweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Knipsgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Knoppenburg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Knoppenstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ip",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3429",
+              "@type": "tree:Node",
+              "token_string": "p"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3430",
+              "@type": "tree:Node",
+              "token_string": "sgasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3431",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Knippstrasse"
+        },
+        {
+          "streetname": "Knippweg"
+        },
+        {
+          "streetname": "Knipsgasse"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment105.jsonld#3432",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Knippstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Knippweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Knipsgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "oppen",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3435",
+              "@type": "tree:Node",
+              "token_string": "burg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3436",
+              "@type": "tree:Node",
+              "token_string": "straße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3431",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Knoppenburg"
+        },
+        {
+          "streetname": "Knoppenstraße"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment105.jsonld#3434",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Knoppenburg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Knoppenstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "burg",
+      "triples": [
+        {
+          "streetname": "Knoppenburg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3434",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Knoppenburg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3435",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Knoppenburg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Knoppenburg"
+      ]
+    },
+    {
+      "token_string": "straße",
+      "triples": [
+        {
+          "streetname": "Knoppenstraße"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3434",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Knoppenstraße"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3436",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Knoppenstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Knoppenstraße"
+      ]
+    },
+    {
+      "token_string": "ö",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3447",
+              "@type": "tree:Node",
+              "token_string": "lschländchen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment106.jsonld#3452",
+              "@type": "tree:Node",
+              "token_string": "nig"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3344",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kölschländchen"
+        },
+        {
+          "streetname": "König-Albert-Allee"
+        },
+        {
+          "streetname": "König-Baudouin-Platz"
+        },
+        {
+          "streetname": "König Baudouin Strasse"
+        },
+        {
+          "streetname": "Königin Astrid Straße"
+        },
+        {
+          "streetname": "Königin Fabiola Strasse"
+        },
+        {
+          "streetname": "König Leopold III Strasse"
+        },
+        {
+          "streetname": "Königsbahn"
+        },
+        {
+          "streetname": "Königsweg"
+        }
+      ],
+      "total_children_count": 14,
+      "@id": "fragment105.jsonld#3446",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kölschländchen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "König-Albert-Allee"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "König-Baudouin-Platz"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "König Baudouin Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Königin Astrid Straße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Königin Fabiola Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "König Leopold III Strasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Königsbahn"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Königsweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "lschländchen",
+      "triples": [
+        {
+          "streetname": "Kölschländchen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3446",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kölschländchen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3447",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kölschländchen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kölschländchen"
+      ]
+    },
+    {
+      "token_string": "ü",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3493",
+              "@type": "tree:Node",
+              "token_string": "chelscheid"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment105.jsonld#3494",
+              "@type": "tree:Node",
+              "token_string": "gelgasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3344",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Küchelscheid"
+        },
+        {
+          "streetname": "Kügelgasse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment105.jsonld#3492",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Küchelscheid"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Kügelgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "chelscheid",
+      "triples": [
+        {
+          "streetname": "Küchelscheid"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3492",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Küchelscheid"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3493",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Küchelscheid"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Küchelscheid"
+      ]
+    },
+    {
+      "token_string": "gelgasse",
+      "triples": [
+        {
+          "streetname": "Kügelgasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment105.jsonld#3492",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Kügelgasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment105.jsonld#3494",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Kügelgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Kügelgasse"
+      ]
+    }
+  ]
+}

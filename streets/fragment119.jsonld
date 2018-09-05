@@ -1,0 +1,260 @@
+{
+  "root_node_id": "3745",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment119.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "ü",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment119.jsonld#3746",
+              "@type": "tree:Node",
+              "token_string": "sdell"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment119.jsonld#3748",
+              "@type": "tree:Node",
+              "token_string": "t"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment111.jsonld#3535",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lüsdell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6060432867788963",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.803580262364015"
+        },
+        {
+          "http://example.com/terms#name": "Lütscheborren",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1161332758123623",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.688395864051415"
+        },
+        {
+          "http://example.com/terms#name": "Lütticher Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0151512993334637",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10930505767829"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment119.jsonld#3745",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lüsdell"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lütscheborren"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lütticher Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sdell",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lüsdell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6060432867788963",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.803580262364015"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment119.jsonld#3745",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lüsdell",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.6060432867788963",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.803580262364015"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment119.jsonld#3746",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lüsdell"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lüsdell"
+      ]
+    },
+    {
+      "token_string": "t",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment119.jsonld#3749",
+              "@type": "tree:Node",
+              "token_string": "scheborren"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment119.jsonld#3750",
+              "@type": "tree:Node",
+              "token_string": "ticher Strasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment119.jsonld#3745",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lütscheborren",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1161332758123623",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.688395864051415"
+        },
+        {
+          "http://example.com/terms#name": "Lütticher Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0151512993334637",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10930505767829"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment119.jsonld#3748",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lütscheborren"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Lütticher Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "scheborren",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lütscheborren",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1161332758123623",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.688395864051415"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment119.jsonld#3748",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lütscheborren",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.1161332758123623",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.688395864051415"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment119.jsonld#3749",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lütscheborren"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lütscheborren"
+      ]
+    },
+    {
+      "token_string": "ticher Strasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Lütticher Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0151512993334637",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10930505767829"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment119.jsonld#3748",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Lütticher Strasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0151512993334637",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.10930505767829"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment119.jsonld#3750",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Lütticher Strasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Lütticher Strasse"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1424 @@
+{
+  "root_node_id": "5734",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment181.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "malle",
+      "triples": [
+        {
+          "streetname": "Rue de Lamalle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5735",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Lamalle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5548",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Lamalle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Lamalle"
+      ]
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5553",
+              "@type": "tree:Node",
+              "token_string": "Falize"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5554",
+              "@type": "tree:Node",
+              "token_string": "Métal"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5684",
+              "@type": "tree:Node",
+              "token_string": "Torre"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5700",
+              "@type": "tree:Node",
+              "token_string": "Valette"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5735",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de La Falize"
+        },
+        {
+          "streetname": "Rue de La Métal"
+        },
+        {
+          "streetname": "Rue de La Torre"
+        },
+        {
+          "streetname": "Rue de La Valette"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment181.jsonld#5552",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de La Falize"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de La Métal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de La Torre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de La Valette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Falize",
+      "triples": [
+        {
+          "streetname": "Rue de La Falize"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5552",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de La Falize"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5553",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de La Falize"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de La Falize"
+      ]
+    },
+    {
+      "token_string": "Métal",
+      "triples": [
+        {
+          "streetname": "Rue de La Métal"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5552",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de La Métal"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5554",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de La Métal"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de La Métal"
+      ]
+    },
+    {
+      "token_string": "Torre",
+      "triples": [
+        {
+          "streetname": "Rue de La Torre"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5552",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de La Torre"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5684",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de La Torre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de La Torre"
+      ]
+    },
+    {
+      "token_string": "Valette",
+      "triples": [
+        {
+          "streetname": "Rue de La Valette"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5552",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de La Valette"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5700",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de La Valette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de La Valette"
+      ]
+    },
+    {
+      "token_string": "L",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5735",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5738",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5766",
+              "@type": "tree:Node",
+              "token_string": "'"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5780",
+              "@type": "tree:Node",
+              "token_string": "isbonne"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5781",
+              "@type": "tree:Node",
+              "token_string": "jubljana"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5793",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5800",
+              "@type": "tree:Node",
+              "token_string": "uingne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment169.jsonld#5880",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de La Falize"
+        },
+        {
+          "streetname": "Rue de Lamalle"
+        },
+        {
+          "streetname": "Rue de La Métal"
+        },
+        {
+          "streetname": "Rue de La Torre"
+        },
+        {
+          "streetname": "Rue de La Valette"
+        },
+        {
+          "streetname": "Rue de Le Jardin"
+        },
+        {
+          "streetname": "Rue de Lens"
+        },
+        {
+          "streetname": "Rue de L'Etang"
+        },
+        {
+          "streetname": "Rue de L'Herberain"
+        },
+        {
+          "streetname": "Rue de L'Hospitau"
+        }
+      ],
+      "total_children_count": 28,
+      "@id": "fragment181.jsonld#5734",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de La Falize"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Lamalle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de La Métal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de La Torre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de La Valette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Le Jardin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Lens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de L'Etang"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de L'Herberain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de L'Hospitau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5548",
+              "@type": "tree:Node",
+              "token_string": "malle"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5552",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5734",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de La Falize"
+        },
+        {
+          "streetname": "Rue de Lamalle"
+        },
+        {
+          "streetname": "Rue de La Métal"
+        },
+        {
+          "streetname": "Rue de La Torre"
+        },
+        {
+          "streetname": "Rue de La Valette"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "fragment181.jsonld#5735",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de La Falize"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Lamalle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de La Métal"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de La Torre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de La Valette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5739",
+              "@type": "tree:Node",
+              "token_string": " Jardin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5740",
+              "@type": "tree:Node",
+              "token_string": "ns"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5734",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Le Jardin"
+        },
+        {
+          "streetname": "Rue de Lens"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment181.jsonld#5738",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Le Jardin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Lens"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Jardin",
+      "triples": [
+        {
+          "streetname": "Rue de Le Jardin"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5738",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Le Jardin"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5739",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Le Jardin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Le Jardin"
+      ]
+    },
+    {
+      "token_string": "ns",
+      "triples": [
+        {
+          "streetname": "Rue de Lens"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5738",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Lens"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5740",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Lens"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Lens"
+      ]
+    },
+    {
+      "token_string": "'",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5767",
+              "@type": "tree:Node",
+              "token_string": "Etang"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5772",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5734",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de L'Etang"
+        },
+        {
+          "streetname": "Rue de L'Herberain"
+        },
+        {
+          "streetname": "Rue de L'Hospitau"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment181.jsonld#5766",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de L'Etang"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de L'Herberain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de L'Hospitau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Etang",
+      "triples": [
+        {
+          "streetname": "Rue de L'Etang"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5766",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de L'Etang"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5767",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de L'Etang"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de L'Etang"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5773",
+              "@type": "tree:Node",
+              "token_string": "erberain"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5774",
+              "@type": "tree:Node",
+              "token_string": "ospitau"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5766",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de L'Herberain"
+        },
+        {
+          "streetname": "Rue de L'Hospitau"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment181.jsonld#5772",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de L'Herberain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de L'Hospitau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "erberain",
+      "triples": [
+        {
+          "streetname": "Rue de L'Herberain"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5772",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de L'Herberain"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5773",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de L'Herberain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de L'Herberain"
+      ]
+    },
+    {
+      "token_string": "ospitau",
+      "triples": [
+        {
+          "streetname": "Rue de L'Hospitau"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5772",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de L'Hospitau"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5774",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de L'Hospitau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de L'Hospitau"
+      ]
+    },
+    {
+      "token_string": "isbonne",
+      "triples": [
+        {
+          "streetname": "Rue de Lisbonne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5734",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Lisbonne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5780",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Lisbonne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Lisbonne"
+      ]
+    },
+    {
+      "token_string": "jubljana",
+      "triples": [
+        {
+          "streetname": "Rue de Ljubljana"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5734",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Ljubljana"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5781",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Ljubljana"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Ljubljana"
+      ]
+    },
+    {
+      "token_string": "dres",
+      "triples": [
+        {
+          "streetname": "Rue de Londres"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5794",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Londres"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5784",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Londres"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Londres"
+      ]
+    },
+    {
+      "token_string": "g",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5787",
+              "@type": "tree:Node",
+              "token_string": "champs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5788",
+              "@type": "tree:Node",
+              "token_string": "uire-Serinchamps"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5794",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Longchamps"
+        },
+        {
+          "streetname": "Rue de Longuire-Serinchamps"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment181.jsonld#5786",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Longchamps"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Longuire-Serinchamps"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "champs",
+      "triples": [
+        {
+          "streetname": "Rue de Longchamps"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5786",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Longchamps"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5787",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Longchamps"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Longchamps"
+      ]
+    },
+    {
+      "token_string": "uire-Serinchamps",
+      "triples": [
+        {
+          "streetname": "Rue de Longuire-Serinchamps"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5786",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Longuire-Serinchamps"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5788",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Longuire-Serinchamps"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Longuire-Serinchamps"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5794",
+              "@type": "tree:Node",
+              "token_string": "n"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5796",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5799",
+              "@type": "tree:Node",
+              "token_string": "waige"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5734",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Londres"
+        },
+        {
+          "streetname": "Rue de Longchamps"
+        },
+        {
+          "streetname": "Rue de Longuire-Serinchamps"
+        },
+        {
+          "streetname": "Rue de Loupeville"
+        },
+        {
+          "streetname": "Rue de Louvain"
+        },
+        {
+          "streetname": "Rue de Lowaige"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "fragment181.jsonld#5793",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Londres"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Longchamps"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Longuire-Serinchamps"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Loupeville"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Louvain"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Lowaige"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "n",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5784",
+              "@type": "tree:Node",
+              "token_string": "dres"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5786",
+              "@type": "tree:Node",
+              "token_string": "g"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5793",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Londres"
+        },
+        {
+          "streetname": "Rue de Longchamps"
+        },
+        {
+          "streetname": "Rue de Longuire-Serinchamps"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment181.jsonld#5794",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Londres"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Longchamps"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Longuire-Serinchamps"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5797",
+              "@type": "tree:Node",
+              "token_string": "peville"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment181.jsonld#5798",
+              "@type": "tree:Node",
+              "token_string": "vain"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5793",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Loupeville"
+        },
+        {
+          "streetname": "Rue de Louvain"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment181.jsonld#5796",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Loupeville"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue de Louvain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "peville",
+      "triples": [
+        {
+          "streetname": "Rue de Loupeville"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5796",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Loupeville"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5797",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Loupeville"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Loupeville"
+      ]
+    },
+    {
+      "token_string": "vain",
+      "triples": [
+        {
+          "streetname": "Rue de Louvain"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5796",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Louvain"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5798",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Louvain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Louvain"
+      ]
+    },
+    {
+      "token_string": "waige",
+      "triples": [
+        {
+          "streetname": "Rue de Lowaige"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5793",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Lowaige"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5799",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Lowaige"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Lowaige"
+      ]
+    },
+    {
+      "token_string": "uingne",
+      "triples": [
+        {
+          "streetname": "Rue de Luingne"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment181.jsonld#5734",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue de Luingne"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment181.jsonld#5800",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue de Luingne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue de Luingne"
+      ]
+    }
+  ]
+}

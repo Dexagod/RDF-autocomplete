@@ -1,0 +1,183 @@
+{
+  "root_node_id": "6071",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment197.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "s",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment200.jsonld#6072",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment197.jsonld#6073",
+              "@type": "tree:Node",
+              "token_string": "Fagnis"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment169.jsonld#5879",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue des Abattoirs"
+        },
+        {
+          "streetname": "Rue des Abbayes"
+        },
+        {
+          "streetname": "Rue des Abeilles"
+        },
+        {
+          "streetname": "Rue des Abreuvoirs"
+        },
+        {
+          "streetname": "Rue des Acins"
+        },
+        {
+          "streetname": "Rue des Aigrettes"
+        },
+        {
+          "streetname": "Rue des Anciennes Cliniques"
+        },
+        {
+          "streetname": "Rue des Andains"
+        },
+        {
+          "streetname": "Rue des Arbalétriers"
+        },
+        {
+          "streetname": "Rue des Arpents"
+        }
+      ],
+      "total_children_count": 398,
+      "@id": "fragment197.jsonld#6071",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Abattoirs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Abbayes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Abeilles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Abreuvoirs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Acins"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Aigrettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Anciennes Cliniques"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Andains"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Arbalétriers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Arpents"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Fagnis",
+      "triples": [
+        {
+          "streetname": "Rue desFagnis"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment197.jsonld#6071",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue desFagnis"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment197.jsonld#6073",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue desFagnis"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue desFagnis"
+      ]
+    }
+  ]
+}

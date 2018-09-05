@@ -1,0 +1,210 @@
+{
+  "root_node_id": "1317",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment43.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "L",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment43.jsonld#1318",
+              "@type": "tree:Node",
+              "token_string": "annoy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment43.jsonld#1319",
+              "@type": "tree:Node",
+              "token_string": "'Étang"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment43.jsonld#1327",
+              "@type": "tree:Node",
+              "token_string": "ovagne"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment32.jsonld#1384",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin de Lannoy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.635642579726832",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.00269402741377"
+        },
+        {
+          "http://example.com/terms#name": "Chemin de L'Étang",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.854253178762289",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.009149897388"
+        },
+        {
+          "http://example.com/terms#name": "Chemin de Lovagne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2178307132963915",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.75948570507348"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment43.jsonld#1317",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Lannoy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de L'Étang"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin de Lovagne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "annoy",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin de Lannoy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.635642579726832",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.00269402741377"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment43.jsonld#1317",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin de Lannoy",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.635642579726832",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.00269402741377"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment43.jsonld#1318",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Lannoy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Lannoy"
+      ]
+    },
+    {
+      "token_string": "'Étang",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin de L'Étang",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.854253178762289",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.009149897388"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment43.jsonld#1317",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin de L'Étang",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.854253178762289",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.009149897388"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment43.jsonld#1319",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de L'Étang"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de L'Étang"
+      ]
+    },
+    {
+      "token_string": "ovagne",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin de Lovagne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2178307132963915",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.75948570507348"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment43.jsonld#1317",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin de Lovagne",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2178307132963915",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.75948570507348"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment43.jsonld#1327",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin de Lovagne"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin de Lovagne"
+      ]
+    }
+  ]
+}

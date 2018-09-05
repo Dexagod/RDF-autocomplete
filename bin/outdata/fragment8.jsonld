@@ -1,0 +1,2390 @@
+{
+  "root_node_id": "508",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment8.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "Berg",
+      "triples": [
+        {
+          "streetname": "Auf dem Berg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Berg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#458",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Berg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Berg"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#461",
+              "@type": "tree:Node",
+              "token_string": "au"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#462",
+              "@type": "tree:Node",
+              "token_string": "öchst"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#464",
+              "@type": "tree:Node",
+              "token_string": "ü"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Hau"
+        },
+        {
+          "streetname": "Auf dem Höchst"
+        },
+        {
+          "streetname": "Auf dem Hügel"
+        },
+        {
+          "streetname": "Auf dem Hütel"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment8.jsonld#460",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Hau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Höchst"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hügel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hütel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "au",
+      "triples": [
+        {
+          "streetname": "Auf dem Hau"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#460",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Hau"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#461",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Hau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Hau"
+      ]
+    },
+    {
+      "token_string": "öchst",
+      "triples": [
+        {
+          "streetname": "Auf dem Höchst"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#460",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Höchst"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#462",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Höchst"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Höchst"
+      ]
+    },
+    {
+      "token_string": "ü",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#465",
+              "@type": "tree:Node",
+              "token_string": "gel"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#466",
+              "@type": "tree:Node",
+              "token_string": "tel"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#460",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Hügel"
+        },
+        {
+          "streetname": "Auf dem Hütel"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment8.jsonld#464",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Hügel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hütel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "gel",
+      "triples": [
+        {
+          "streetname": "Auf dem Hügel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#464",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Hügel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#465",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Hügel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Hügel"
+      ]
+    },
+    {
+      "token_string": "tel",
+      "triples": [
+        {
+          "streetname": "Auf dem Hütel"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#464",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Hütel"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#466",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Hütel"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Hütel"
+      ]
+    },
+    {
+      "token_string": "Joch",
+      "triples": [
+        {
+          "streetname": "Auf dem Joch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Joch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#467",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Joch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Joch"
+      ]
+    },
+    {
+      "token_string": "K",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#470",
+              "@type": "tree:Node",
+              "token_string": "amp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#471",
+              "@type": "tree:Node",
+              "token_string": "öttenberg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Kamp"
+        },
+        {
+          "streetname": "Auf dem Köttenberg"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment8.jsonld#469",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Kamp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Köttenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "amp",
+      "triples": [
+        {
+          "streetname": "Auf dem Kamp"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#469",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Kamp"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#470",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Kamp"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Kamp"
+      ]
+    },
+    {
+      "token_string": "öttenberg",
+      "triples": [
+        {
+          "streetname": "Auf dem Köttenberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#469",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Köttenberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#471",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Köttenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Köttenberg"
+      ]
+    },
+    {
+      "token_string": "Land",
+      "triples": [
+        {
+          "streetname": "Auf dem Land"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Land"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#472",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Land"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Land"
+      ]
+    },
+    {
+      "token_string": "Mühlenberg",
+      "triples": [
+        {
+          "streetname": "Auf dem Mühlenberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Mühlenberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#473",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Mühlenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Mühlenberg"
+      ]
+    },
+    {
+      "token_string": "Plon",
+      "triples": [
+        {
+          "streetname": "Auf dem Plon"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Plon"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#474",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Plon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Plon"
+      ]
+    },
+    {
+      "token_string": "Queckenberg",
+      "triples": [
+        {
+          "streetname": "Auf dem Queckenberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Queckenberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#475",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Queckenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Queckenberg"
+      ]
+    },
+    {
+      "token_string": "S",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#478",
+              "@type": "tree:Node",
+              "token_string": "chwirtzberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#480",
+              "@type": "tree:Node",
+              "token_string": "p"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#484",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Schwirtzberg"
+        },
+        {
+          "streetname": "Auf dem Spitzberg"
+        },
+        {
+          "streetname": "Auf dem Sprung"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment8.jsonld#477",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Schwirtzberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Spitzberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Sprung"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "chwirtzberg",
+      "triples": [
+        {
+          "streetname": "Auf dem Schwirtzberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#477",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Schwirtzberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#478",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Schwirtzberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Schwirtzberg"
+      ]
+    },
+    {
+      "token_string": "p",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#481",
+              "@type": "tree:Node",
+              "token_string": "itzberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#482",
+              "@type": "tree:Node",
+              "token_string": "rung"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#477",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Spitzberg"
+        },
+        {
+          "streetname": "Auf dem Sprung"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment8.jsonld#480",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Spitzberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Sprung"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "itzberg",
+      "triples": [
+        {
+          "streetname": "Auf dem Spitzberg"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#480",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Spitzberg"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#481",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Spitzberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Spitzberg"
+      ]
+    },
+    {
+      "token_string": "rung",
+      "triples": [
+        {
+          "streetname": "Auf dem Sprung"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#480",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Sprung"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#482",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Sprung"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf dem Sprung"
+      ]
+    },
+    {
+      "token_string": "m ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#458",
+              "@type": "tree:Node",
+              "token_string": "Berg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#460",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#467",
+              "@type": "tree:Node",
+              "token_string": "Joch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#469",
+              "@type": "tree:Node",
+              "token_string": "K"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#472",
+              "@type": "tree:Node",
+              "token_string": "Land"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#473",
+              "@type": "tree:Node",
+              "token_string": "Mühlenberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#474",
+              "@type": "tree:Node",
+              "token_string": "Plon"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#475",
+              "@type": "tree:Node",
+              "token_string": "Queckenberg"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#477",
+              "@type": "tree:Node",
+              "token_string": "S"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#503",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Berg"
+        },
+        {
+          "streetname": "Auf dem Hau"
+        },
+        {
+          "streetname": "Auf dem Höchst"
+        },
+        {
+          "streetname": "Auf dem Hügel"
+        },
+        {
+          "streetname": "Auf dem Hütel"
+        },
+        {
+          "streetname": "Auf dem Joch"
+        },
+        {
+          "streetname": "Auf dem Kamp"
+        },
+        {
+          "streetname": "Auf dem Köttenberg"
+        },
+        {
+          "streetname": "Auf dem Land"
+        },
+        {
+          "streetname": "Auf dem Mühlenberg"
+        }
+      ],
+      "total_children_count": 20,
+      "@id": "fragment8.jsonld#484",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Berg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Höchst"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hügel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hütel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Joch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Kamp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Köttenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Land"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Mühlenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "n Burgfeldern",
+      "triples": [
+        {
+          "streetname": "Auf den Burgfeldern"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#503",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf den Burgfeldern"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#485",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf den Burgfeldern"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf den Burgfeldern"
+      ]
+    },
+    {
+      "token_string": "r ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#488",
+              "@type": "tree:Node",
+              "token_string": "Gasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#490",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#495",
+              "@type": "tree:Node",
+              "token_string": "Kull"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#497",
+              "@type": "tree:Node",
+              "token_string": "L"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#500",
+              "@type": "tree:Node",
+              "token_string": "Roll"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#501",
+              "@type": "tree:Node",
+              "token_string": "Tomm"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#503",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf der Gasse"
+        },
+        {
+          "streetname": "Auf der Hall"
+        },
+        {
+          "streetname": "Auf der Heide"
+        },
+        {
+          "streetname": "Auf der Höh"
+        },
+        {
+          "streetname": "Auf der Höhe"
+        },
+        {
+          "streetname": "Auf der Kull"
+        },
+        {
+          "streetname": "Auf der Leu"
+        },
+        {
+          "streetname": "Auf der Luft"
+        },
+        {
+          "streetname": "Auf der Roll"
+        },
+        {
+          "streetname": "Auf der Tomm"
+        }
+      ],
+      "total_children_count": 12,
+      "@id": "fragment8.jsonld#487",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Gasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Hall"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Heide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Höh"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Höhe"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Kull"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Leu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Luft"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Roll"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Tomm"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Gasse",
+      "triples": [
+        {
+          "streetname": "Auf der Gasse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#487",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf der Gasse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#488",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Gasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Gasse"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#491",
+              "@type": "tree:Node",
+              "token_string": "all"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#492",
+              "@type": "tree:Node",
+              "token_string": "eide"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#493",
+              "@type": "tree:Node",
+              "token_string": "öh"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#487",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf der Hall"
+        },
+        {
+          "streetname": "Auf der Heide"
+        },
+        {
+          "streetname": "Auf der Höh"
+        },
+        {
+          "streetname": "Auf der Höhe"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment8.jsonld#490",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Hall"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Heide"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Höh"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Höhe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "all",
+      "triples": [
+        {
+          "streetname": "Auf der Hall"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#490",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf der Hall"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#491",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Hall"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Hall"
+      ]
+    },
+    {
+      "token_string": "eide",
+      "triples": [
+        {
+          "streetname": "Auf der Heide"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#490",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf der Heide"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#492",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Heide"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Heide"
+      ]
+    },
+    {
+      "token_string": "öh",
+      "triples": [
+        {
+          "streetname": "Auf der Höh"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#494",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#490",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf der Höh"
+        },
+        {
+          "streetname": "Auf der Höhe"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "fragment8.jsonld#493",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Höh"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Höhe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Höh"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [
+        {
+          "streetname": "Auf der Höhe"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#493",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf der Höhe"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#494",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Höhe"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Höhe"
+      ]
+    },
+    {
+      "token_string": "Kull",
+      "triples": [
+        {
+          "streetname": "Auf der Kull"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#487",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf der Kull"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#495",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Kull"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Kull"
+      ]
+    },
+    {
+      "token_string": "L",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#498",
+              "@type": "tree:Node",
+              "token_string": "eu"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#499",
+              "@type": "tree:Node",
+              "token_string": "uft"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#487",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf der Leu"
+        },
+        {
+          "streetname": "Auf der Luft"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment8.jsonld#497",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Leu"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf der Luft"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eu",
+      "triples": [
+        {
+          "streetname": "Auf der Leu"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#497",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf der Leu"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#498",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Leu"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Leu"
+      ]
+    },
+    {
+      "token_string": "uft",
+      "triples": [
+        {
+          "streetname": "Auf der Luft"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#497",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf der Luft"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#499",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Luft"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Luft"
+      ]
+    },
+    {
+      "token_string": "Roll",
+      "triples": [
+        {
+          "streetname": "Auf der Roll"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#487",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf der Roll"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#500",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Roll"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Roll"
+      ]
+    },
+    {
+      "token_string": "Tomm",
+      "triples": [
+        {
+          "streetname": "Auf der Tomm"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#487",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf der Tomm"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#501",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf der Tomm"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf der Tomm"
+      ]
+    },
+    {
+      "token_string": "de",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#484",
+              "@type": "tree:Node",
+              "token_string": "m "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#485",
+              "@type": "tree:Node",
+              "token_string": "n Burgfeldern"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#487",
+              "@type": "tree:Node",
+              "token_string": "r "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#509",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Berg"
+        },
+        {
+          "streetname": "Auf dem Hau"
+        },
+        {
+          "streetname": "Auf dem Höchst"
+        },
+        {
+          "streetname": "Auf dem Hügel"
+        },
+        {
+          "streetname": "Auf dem Hütel"
+        },
+        {
+          "streetname": "Auf dem Joch"
+        },
+        {
+          "streetname": "Auf dem Kamp"
+        },
+        {
+          "streetname": "Auf dem Köttenberg"
+        },
+        {
+          "streetname": "Auf dem Land"
+        },
+        {
+          "streetname": "Auf dem Mühlenberg"
+        }
+      ],
+      "total_children_count": 35,
+      "@id": "fragment8.jsonld#503",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Berg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Höchst"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hügel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hütel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Joch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Kamp"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Köttenberg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Land"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Mühlenberg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Eichenhardt",
+      "triples": [
+        {
+          "streetname": "Auf Eichenhardt"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#509",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf Eichenhardt"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#504",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf Eichenhardt"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf Eichenhardt"
+      ]
+    },
+    {
+      "token_string": "Geckert",
+      "triples": [
+        {
+          "streetname": "Auf Geckert"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#509",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf Geckert"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#505",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf Geckert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf Geckert"
+      ]
+    },
+    {
+      "token_string": "Hoch",
+      "triples": [
+        {
+          "streetname": "Auf Hoch"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#509",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf Hoch"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#506",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf Hoch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf Hoch"
+      ]
+    },
+    {
+      "token_string": "Kahlert",
+      "triples": [
+        {
+          "streetname": "Auf Kahlert"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#509",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf Kahlert"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#507",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf Kahlert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf Kahlert"
+      ]
+    },
+    {
+      "token_string": "f",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#509",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#511",
+              "@type": "tree:Node",
+              "token_string": "'m "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment1.jsonld#449",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Berg"
+        },
+        {
+          "streetname": "Auf dem Hau"
+        },
+        {
+          "streetname": "Auf dem Höchst"
+        },
+        {
+          "streetname": "Auf dem Hügel"
+        },
+        {
+          "streetname": "Auf dem Hütel"
+        },
+        {
+          "streetname": "Auf dem Joch"
+        },
+        {
+          "streetname": "Auf Eichenhardt"
+        },
+        {
+          "streetname": "Auf Geckert"
+        },
+        {
+          "streetname": "Auf Hoch"
+        },
+        {
+          "streetname": "Auf Kahlert"
+        }
+      ],
+      "total_children_count": 45,
+      "@id": "fragment8.jsonld#508",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Berg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Höchst"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hügel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hütel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Joch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf Eichenhardt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf Geckert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf Hoch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf Kahlert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#503",
+              "@type": "tree:Node",
+              "token_string": "de"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#504",
+              "@type": "tree:Node",
+              "token_string": "Eichenhardt"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#505",
+              "@type": "tree:Node",
+              "token_string": "Geckert"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#506",
+              "@type": "tree:Node",
+              "token_string": "Hoch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#507",
+              "@type": "tree:Node",
+              "token_string": "Kahlert"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#508",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf dem Berg"
+        },
+        {
+          "streetname": "Auf dem Hau"
+        },
+        {
+          "streetname": "Auf dem Höchst"
+        },
+        {
+          "streetname": "Auf dem Hügel"
+        },
+        {
+          "streetname": "Auf dem Hütel"
+        },
+        {
+          "streetname": "Auf dem Joch"
+        },
+        {
+          "streetname": "Auf Eichenhardt"
+        },
+        {
+          "streetname": "Auf Geckert"
+        },
+        {
+          "streetname": "Auf Hoch"
+        },
+        {
+          "streetname": "Auf Kahlert"
+        }
+      ],
+      "total_children_count": 40,
+      "@id": "fragment8.jsonld#509",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf dem Berg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Höchst"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hügel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Hütel"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf dem Joch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf Eichenhardt"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf Geckert"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf Hoch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf Kahlert"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "'m ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#512",
+              "@type": "tree:Node",
+              "token_string": "Bach"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#513",
+              "@type": "tree:Node",
+              "token_string": "Genster"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment8.jsonld#514",
+              "@type": "tree:Node",
+              "token_string": "Rain"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#508",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf'm Bach"
+        },
+        {
+          "streetname": "Auf'm Genster"
+        },
+        {
+          "streetname": "Auf'm Rain"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment8.jsonld#511",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf'm Bach"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf'm Genster"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Auf'm Rain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Bach",
+      "triples": [
+        {
+          "streetname": "Auf'm Bach"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#511",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf'm Bach"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#512",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf'm Bach"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf'm Bach"
+      ]
+    },
+    {
+      "token_string": "Genster",
+      "triples": [
+        {
+          "streetname": "Auf'm Genster"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#511",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf'm Genster"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#513",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf'm Genster"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf'm Genster"
+      ]
+    },
+    {
+      "token_string": "Rain",
+      "triples": [
+        {
+          "streetname": "Auf'm Rain"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment8.jsonld#511",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Auf'm Rain"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment8.jsonld#514",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Auf'm Rain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Auf'm Rain"
+      ]
+    }
+  ]
+}

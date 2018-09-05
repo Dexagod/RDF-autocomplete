@@ -1,0 +1,316 @@
+{
+  "root_node_id": "6256",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment212.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "O",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment212.jsonld#6257",
+              "@type": "tree:Node",
+              "token_string": "eillets"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment212.jsonld#6258",
+              "@type": "tree:Node",
+              "token_string": "ies sauvages"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment212.jsonld#6260",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment200.jsonld#6072",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Oeillets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5896414335765945",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.9984448412289"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Oies sauvages",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5889594344359708",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.845983948559024"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Orlettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.247147733327796",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.61735754761978"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Orsias",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.626807847373877",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.34732699309905"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "streetsfragment212.jsonld#6256",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Oeillets"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Oies sauvages"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Orlettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Orsias"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eillets",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Oeillets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5896414335765945",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.9984448412289"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment212.jsonld#6256",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Oeillets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5896414335765945",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.9984448412289"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment212.jsonld#6257",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Oeillets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Oeillets"
+      ]
+    },
+    {
+      "token_string": "ies sauvages",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Oies sauvages",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5889594344359708",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.845983948559024"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment212.jsonld#6256",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Oies sauvages",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5889594344359708",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.845983948559024"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment212.jsonld#6258",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Oies sauvages"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Oies sauvages"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment212.jsonld#6261",
+              "@type": "tree:Node",
+              "token_string": "lettes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment212.jsonld#6262",
+              "@type": "tree:Node",
+              "token_string": "sias"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment212.jsonld#6256",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Orlettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.247147733327796",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.61735754761978"
+        },
+        {
+          "http://example.com/terms#name": "Rue des Orsias",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.626807847373877",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.34732699309905"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment212.jsonld#6260",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Orlettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue des Orsias"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "lettes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Orlettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.247147733327796",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.61735754761978"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment212.jsonld#6260",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Orlettes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.247147733327796",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.61735754761978"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment212.jsonld#6261",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Orlettes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Orlettes"
+      ]
+    },
+    {
+      "token_string": "sias",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Rue des Orsias",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.626807847373877",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.34732699309905"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment212.jsonld#6260",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Rue des Orsias",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.626807847373877",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.34732699309905"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment212.jsonld#6262",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue des Orsias"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue des Orsias"
+      ]
+    }
+  ]
+}

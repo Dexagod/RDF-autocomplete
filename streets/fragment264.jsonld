@@ -1,0 +1,713 @@
+{
+  "root_node_id": "8031",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment264.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "la ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment264.jsonld#8032",
+              "@type": "tree:Node",
+              "token_string": "Champenotte"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment264.jsonld#8034",
+              "@type": "tree:Node",
+              "token_string": "H"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment264.jsonld#8038",
+              "@type": "tree:Node",
+              "token_string": "Ma"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment264.jsonld#8042",
+              "@type": "tree:Node",
+              "token_string": "Nivaille"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment264.jsonld#8043",
+              "@type": "tree:Node",
+              "token_string": "Plouvinette"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment264.jsonld#8044",
+              "@type": "tree:Node",
+              "token_string": "Sablonnière"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment264.jsonld#8045",
+              "@type": "tree:Node",
+              "token_string": "Vergeoise"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment265.jsonld#8047",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier de la Champenotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0831744768753584",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.89969795855026"
+        },
+        {
+          "http://example.com/terms#name": "Sentier de la Heid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2121798744017673",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.16911086426934"
+        },
+        {
+          "http://example.com/terms#name": "Sentier de la Houlotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6111001535696996",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.41784920498437"
+        },
+        {
+          "http://example.com/terms#name": "Sentier de la Maclotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.594712623409992",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.06831266045162"
+        },
+        {
+          "http://example.com/terms#name": "Sentier de la Malterie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5947753826532556",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.64007483839637"
+        },
+        {
+          "http://example.com/terms#name": "Sentier de la Marelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6709623402645795",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.1070766752108"
+        },
+        {
+          "http://example.com/terms#name": "Sentier de la Nivaille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7675260334861607",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.218758878860314"
+        },
+        {
+          "http://example.com/terms#name": "Sentier de la Plouvinette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7992111219076716",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.824257241597756"
+        },
+        {
+          "http://example.com/terms#name": "Sentier de la Sablonnière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.125021413087501",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.255704216370845"
+        },
+        {
+          "http://example.com/terms#name": "Sentier de la Vergeoise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.159002111753891",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70173587974615"
+        }
+      ],
+      "total_children_count": 12,
+      "@id": "streetsfragment264.jsonld#8031",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de la Champenotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Heid"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Houlotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Maclotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Malterie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Marelle"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Nivaille"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Plouvinette"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Sablonnière"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Vergeoise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Champenotte",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier de la Champenotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0831744768753584",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.89969795855026"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment264.jsonld#8031",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier de la Champenotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0831744768753584",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.89969795855026"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment264.jsonld#8032",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de la Champenotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier de la Champenotte"
+      ]
+    },
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment264.jsonld#8035",
+              "@type": "tree:Node",
+              "token_string": "eid"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment264.jsonld#8036",
+              "@type": "tree:Node",
+              "token_string": "oulotte"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment264.jsonld#8031",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier de la Heid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2121798744017673",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.16911086426934"
+        },
+        {
+          "http://example.com/terms#name": "Sentier de la Houlotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6111001535696996",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.41784920498437"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment264.jsonld#8034",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de la Heid"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Houlotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "eid",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier de la Heid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2121798744017673",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.16911086426934"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment264.jsonld#8034",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier de la Heid",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2121798744017673",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.16911086426934"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment264.jsonld#8035",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de la Heid"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier de la Heid"
+      ]
+    },
+    {
+      "token_string": "oulotte",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier de la Houlotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6111001535696996",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.41784920498437"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment264.jsonld#8034",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier de la Houlotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6111001535696996",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.41784920498437"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment264.jsonld#8036",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de la Houlotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier de la Houlotte"
+      ]
+    },
+    {
+      "token_string": "Ma",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment264.jsonld#8039",
+              "@type": "tree:Node",
+              "token_string": "clotte"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment264.jsonld#8040",
+              "@type": "tree:Node",
+              "token_string": "lterie"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment264.jsonld#8041",
+              "@type": "tree:Node",
+              "token_string": "relle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment264.jsonld#8031",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier de la Maclotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.594712623409992",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.06831266045162"
+        },
+        {
+          "http://example.com/terms#name": "Sentier de la Malterie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5947753826532556",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.64007483839637"
+        },
+        {
+          "http://example.com/terms#name": "Sentier de la Marelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6709623402645795",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.1070766752108"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment264.jsonld#8038",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de la Maclotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Malterie"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier de la Marelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "clotte",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier de la Maclotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.594712623409992",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.06831266045162"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment264.jsonld#8038",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier de la Maclotte",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.594712623409992",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.06831266045162"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment264.jsonld#8039",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de la Maclotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier de la Maclotte"
+      ]
+    },
+    {
+      "token_string": "lterie",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier de la Malterie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5947753826532556",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.64007483839637"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment264.jsonld#8038",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier de la Malterie",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5947753826532556",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.64007483839637"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment264.jsonld#8040",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de la Malterie"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier de la Malterie"
+      ]
+    },
+    {
+      "token_string": "relle",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier de la Marelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6709623402645795",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.1070766752108"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment264.jsonld#8038",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier de la Marelle",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6709623402645795",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.1070766752108"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment264.jsonld#8041",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de la Marelle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier de la Marelle"
+      ]
+    },
+    {
+      "token_string": "Nivaille",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier de la Nivaille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7675260334861607",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.218758878860314"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment264.jsonld#8031",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier de la Nivaille",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7675260334861607",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.218758878860314"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment264.jsonld#8042",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de la Nivaille"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier de la Nivaille"
+      ]
+    },
+    {
+      "token_string": "Plouvinette",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier de la Plouvinette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7992111219076716",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.824257241597756"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment264.jsonld#8031",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier de la Plouvinette",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.7992111219076716",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.824257241597756"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment264.jsonld#8043",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de la Plouvinette"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier de la Plouvinette"
+      ]
+    },
+    {
+      "token_string": "Sablonnière",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier de la Sablonnière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.125021413087501",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.255704216370845"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment264.jsonld#8031",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier de la Sablonnière",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.125021413087501",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.255704216370845"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment264.jsonld#8044",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de la Sablonnière"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier de la Sablonnière"
+      ]
+    },
+    {
+      "token_string": "Vergeoise",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Sentier de la Vergeoise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.159002111753891",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70173587974615"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment264.jsonld#8031",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Sentier de la Vergeoise",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.159002111753891",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70173587974615"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment264.jsonld#8045",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier de la Vergeoise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier de la Vergeoise"
+      ]
+    }
+  ]
+}

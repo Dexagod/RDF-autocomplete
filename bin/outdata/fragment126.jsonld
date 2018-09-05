@@ -1,0 +1,2295 @@
+{
+  "root_node_id": "4410",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment126.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": " de Flandre",
+      "triples": [
+        {
+          "streetname": "Place Jean de Flandre"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4362",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Jean de Flandre"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4359",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Jean de Flandre"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Jean de Flandre"
+      ]
+    },
+    {
+      "token_string": "-Marie Martens",
+      "triples": [
+        {
+          "streetname": "Place Jean-Marie Martens"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4362",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Jean-Marie Martens"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4360",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Jean-Marie Martens"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Jean-Marie Martens"
+      ]
+    },
+    {
+      "token_string": "J",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4362",
+              "@type": "tree:Node",
+              "token_string": "ean"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4364",
+              "@type": "tree:Node",
+              "token_string": "oseph "
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Jean de Flandre"
+        },
+        {
+          "streetname": "Place Jean-Marie Martens"
+        },
+        {
+          "streetname": "Place Joseph Henry"
+        },
+        {
+          "streetname": "Place Joseph Matoul"
+        },
+        {
+          "streetname": "Place Joseph Ramoux"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment126.jsonld#4361",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Jean de Flandre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Jean-Marie Martens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Joseph Henry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Joseph Matoul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Joseph Ramoux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ean",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4359",
+              "@type": "tree:Node",
+              "token_string": " de Flandre"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4360",
+              "@type": "tree:Node",
+              "token_string": "-Marie Martens"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4361",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Jean de Flandre"
+        },
+        {
+          "streetname": "Place Jean-Marie Martens"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment126.jsonld#4362",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Jean de Flandre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Jean-Marie Martens"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "oseph ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4365",
+              "@type": "tree:Node",
+              "token_string": "Henry"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4366",
+              "@type": "tree:Node",
+              "token_string": "Matoul"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4367",
+              "@type": "tree:Node",
+              "token_string": "Ramoux"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4361",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Joseph Henry"
+        },
+        {
+          "streetname": "Place Joseph Matoul"
+        },
+        {
+          "streetname": "Place Joseph Ramoux"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "fragment126.jsonld#4364",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Joseph Henry"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Joseph Matoul"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Joseph Ramoux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Henry",
+      "triples": [
+        {
+          "streetname": "Place Joseph Henry"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4364",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Joseph Henry"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4365",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Joseph Henry"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Joseph Henry"
+      ]
+    },
+    {
+      "token_string": "Matoul",
+      "triples": [
+        {
+          "streetname": "Place Joseph Matoul"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4364",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Joseph Matoul"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4366",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Joseph Matoul"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Joseph Matoul"
+      ]
+    },
+    {
+      "token_string": "Ramoux",
+      "triples": [
+        {
+          "streetname": "Place Joseph Ramoux"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4364",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Joseph Ramoux"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4367",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Joseph Ramoux"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Joseph Ramoux"
+      ]
+    },
+    {
+      "token_string": "La",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4370",
+              "@type": "tree:Node",
+              "token_string": "mbert Laurent"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4371",
+              "@type": "tree:Node",
+              "token_string": "nguillier"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Lambert Laurent"
+        },
+        {
+          "streetname": "Place Languillier"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment126.jsonld#4369",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Lambert Laurent"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Languillier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "mbert Laurent",
+      "triples": [
+        {
+          "streetname": "Place Lambert Laurent"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4369",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Lambert Laurent"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4370",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Lambert Laurent"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Lambert Laurent"
+      ]
+    },
+    {
+      "token_string": "nguillier",
+      "triples": [
+        {
+          "streetname": "Place Languillier"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4369",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Languillier"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4371",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Languillier"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Languillier"
+      ]
+    },
+    {
+      "token_string": "quet",
+      "triples": [
+        {
+          "streetname": "Place Maquet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4384",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Maquet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4374",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Maquet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Maquet"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4377",
+              "@type": "tree:Node",
+              "token_string": "guerite Yourcenar"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4379",
+              "@type": "tree:Node",
+              "token_string": "i"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4384",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Marguerite Yourcenar"
+        },
+        {
+          "streetname": "Place Maria Arte-Ansotte"
+        },
+        {
+          "streetname": "Place Marie-Thérèse"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment126.jsonld#4376",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Marguerite Yourcenar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Maria Arte-Ansotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Marie-Thérèse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "guerite Yourcenar",
+      "triples": [
+        {
+          "streetname": "Place Marguerite Yourcenar"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4376",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Marguerite Yourcenar"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4377",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Marguerite Yourcenar"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Marguerite Yourcenar"
+      ]
+    },
+    {
+      "token_string": "i",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4380",
+              "@type": "tree:Node",
+              "token_string": "a Arte-Ansotte"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4381",
+              "@type": "tree:Node",
+              "token_string": "e-Thérèse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4376",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Maria Arte-Ansotte"
+        },
+        {
+          "streetname": "Place Marie-Thérèse"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment126.jsonld#4379",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Maria Arte-Ansotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Marie-Thérèse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a Arte-Ansotte",
+      "triples": [
+        {
+          "streetname": "Place Maria Arte-Ansotte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4379",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Maria Arte-Ansotte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4380",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Maria Arte-Ansotte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Maria Arte-Ansotte"
+      ]
+    },
+    {
+      "token_string": "e-Thérèse",
+      "triples": [
+        {
+          "streetname": "Place Marie-Thérèse"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4379",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Marie-Thérèse"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4381",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Marie-Thérèse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Marie-Thérèse"
+      ]
+    },
+    {
+      "token_string": "urice Hamon",
+      "triples": [
+        {
+          "streetname": "Place Maurice Hamon"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4384",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Maurice Hamon"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4382",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Maurice Hamon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Maurice Hamon"
+      ]
+    },
+    {
+      "token_string": "M",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4384",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4385",
+              "@type": "tree:Node",
+              "token_string": "ontesquieu"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Maquet"
+        },
+        {
+          "streetname": "Place Marguerite Yourcenar"
+        },
+        {
+          "streetname": "Place Maria Arte-Ansotte"
+        },
+        {
+          "streetname": "Place Marie-Thérèse"
+        },
+        {
+          "streetname": "Place Maurice Hamon"
+        },
+        {
+          "streetname": "Place Montesquieu"
+        }
+      ],
+      "total_children_count": 9,
+      "@id": "fragment126.jsonld#4383",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Maquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Marguerite Yourcenar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Maria Arte-Ansotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Marie-Thérèse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Maurice Hamon"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Montesquieu"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4374",
+              "@type": "tree:Node",
+              "token_string": "quet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4376",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4382",
+              "@type": "tree:Node",
+              "token_string": "urice Hamon"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4383",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Maquet"
+        },
+        {
+          "streetname": "Place Marguerite Yourcenar"
+        },
+        {
+          "streetname": "Place Maria Arte-Ansotte"
+        },
+        {
+          "streetname": "Place Marie-Thérèse"
+        },
+        {
+          "streetname": "Place Maurice Hamon"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment126.jsonld#4384",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Maquet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Marguerite Yourcenar"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Maria Arte-Ansotte"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Marie-Thérèse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Maurice Hamon"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ontesquieu",
+      "triples": [
+        {
+          "streetname": "Place Montesquieu"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4383",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Montesquieu"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4385",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Montesquieu"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Montesquieu"
+      ]
+    },
+    {
+      "token_string": "Ovide Decroly",
+      "triples": [
+        {
+          "streetname": "Place Ovide Decroly"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Ovide Decroly"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4386",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Ovide Decroly"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Ovide Decroly"
+      ]
+    },
+    {
+      "token_string": "P",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4389",
+              "@type": "tree:Node",
+              "token_string": "aul Heupgen"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4390",
+              "@type": "tree:Node",
+              "token_string": "eduzzi"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4392",
+              "@type": "tree:Node",
+              "token_string": "ierre"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Paul Heupgen"
+        },
+        {
+          "streetname": "Place Peduzzi"
+        },
+        {
+          "streetname": "Place Pierre Delannoy"
+        },
+        {
+          "streetname": "Place Pierre-Joseph Comblain"
+        }
+      ],
+      "total_children_count": 5,
+      "@id": "fragment126.jsonld#4388",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Paul Heupgen"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Peduzzi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Pierre Delannoy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Pierre-Joseph Comblain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aul Heupgen",
+      "triples": [
+        {
+          "streetname": "Place Paul Heupgen"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4388",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Paul Heupgen"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4389",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Paul Heupgen"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Paul Heupgen"
+      ]
+    },
+    {
+      "token_string": "eduzzi",
+      "triples": [
+        {
+          "streetname": "Place Peduzzi"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4388",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Peduzzi"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4390",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Peduzzi"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Peduzzi"
+      ]
+    },
+    {
+      "token_string": "ierre",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4393",
+              "@type": "tree:Node",
+              "token_string": " Delannoy"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4394",
+              "@type": "tree:Node",
+              "token_string": "-Joseph Comblain"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4388",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Pierre Delannoy"
+        },
+        {
+          "streetname": "Place Pierre-Joseph Comblain"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment126.jsonld#4392",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Pierre Delannoy"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Pierre-Joseph Comblain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Delannoy",
+      "triples": [
+        {
+          "streetname": "Place Pierre Delannoy"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4392",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Pierre Delannoy"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4393",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Pierre Delannoy"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Pierre Delannoy"
+      ]
+    },
+    {
+      "token_string": "-Joseph Comblain",
+      "triples": [
+        {
+          "streetname": "Place Pierre-Joseph Comblain"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4392",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Pierre-Joseph Comblain"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4394",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Pierre-Joseph Comblain"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Pierre-Joseph Comblain"
+      ]
+    },
+    {
+      "token_string": "R",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4397",
+              "@type": "tree:Node",
+              "token_string": "abanère"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4399",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4403",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Rabanère"
+        },
+        {
+          "streetname": "Place Reine Fabiola"
+        },
+        {
+          "streetname": "Place René Jérôme"
+        },
+        {
+          "streetname": "Place Robert Praillet"
+        },
+        {
+          "streetname": "Place Roger Desaise"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "fragment126.jsonld#4396",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Rabanère"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Reine Fabiola"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place René Jérôme"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Robert Praillet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Roger Desaise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "abanère",
+      "triples": [
+        {
+          "streetname": "Place Rabanère"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4396",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Rabanère"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4397",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Rabanère"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Rabanère"
+      ]
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4400",
+              "@type": "tree:Node",
+              "token_string": "ine Fabiola"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4401",
+              "@type": "tree:Node",
+              "token_string": "né Jérôme"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4396",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Reine Fabiola"
+        },
+        {
+          "streetname": "Place René Jérôme"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment126.jsonld#4399",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Reine Fabiola"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place René Jérôme"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ine Fabiola",
+      "triples": [
+        {
+          "streetname": "Place Reine Fabiola"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4399",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Reine Fabiola"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4400",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Reine Fabiola"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Reine Fabiola"
+      ]
+    },
+    {
+      "token_string": "né Jérôme",
+      "triples": [
+        {
+          "streetname": "Place René Jérôme"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4399",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place René Jérôme"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4401",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place René Jérôme"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place René Jérôme"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4404",
+              "@type": "tree:Node",
+              "token_string": "bert Praillet"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4405",
+              "@type": "tree:Node",
+              "token_string": "ger Desaise"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4396",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Robert Praillet"
+        },
+        {
+          "streetname": "Place Roger Desaise"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment126.jsonld#4403",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Robert Praillet"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Roger Desaise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bert Praillet",
+      "triples": [
+        {
+          "streetname": "Place Robert Praillet"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4403",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Robert Praillet"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4404",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Robert Praillet"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Robert Praillet"
+      ]
+    },
+    {
+      "token_string": "ger Desaise",
+      "triples": [
+        {
+          "streetname": "Place Roger Desaise"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4403",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Roger Desaise"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4405",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Roger Desaise"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Roger Desaise"
+      ]
+    },
+    {
+      "token_string": "Saint",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4408",
+              "@type": "tree:Node",
+              "token_string": "e-Genviève"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4409",
+              "@type": "tree:Node",
+              "token_string": "-Zèle"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Sainte-Genviève"
+        },
+        {
+          "streetname": "Place Saint-Zèle"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment126.jsonld#4407",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Sainte-Genviève"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Saint-Zèle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e-Genviève",
+      "triples": [
+        {
+          "streetname": "Place Sainte-Genviève"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Sainte-Genviève"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4408",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Sainte-Genviève"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Sainte-Genviève"
+      ]
+    },
+    {
+      "token_string": "-Zèle",
+      "triples": [
+        {
+          "streetname": "Place Saint-Zèle"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4407",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Saint-Zèle"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4409",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Saint-Zèle"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Saint-Zèle"
+      ]
+    },
+    {
+      "token_string": "ce",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4411",
+              "@type": "tree:Node",
+              "token_string": " "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4412",
+              "@type": "tree:Node",
+              "token_string": "tte de la Fauvée"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment144.jsonld#4422",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Abbé Michel Gigi"
+        },
+        {
+          "streetname": "Place A de Lamartine"
+        },
+        {
+          "streetname": "Place Albert Ier"
+        },
+        {
+          "streetname": "Place Albert Plaetens"
+        },
+        {
+          "streetname": "Place André Hancre"
+        },
+        {
+          "streetname": "Place Antoine-Louis Hennepin"
+        },
+        {
+          "streetname": "Place Arthur Borlée"
+        },
+        {
+          "streetname": "Place Barchifontaine"
+        },
+        {
+          "streetname": "Place Baudouin 1er"
+        },
+        {
+          "streetname": "Place Beaufort"
+        }
+      ],
+      "total_children_count": 182,
+      "@id": "fragment126.jsonld#4410",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Abbé Michel Gigi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place A de Lamartine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Albert Ier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Albert Plaetens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place André Hancre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Antoine-Louis Hennepin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Arthur Borlée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Barchifontaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Baudouin 1er"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Beaufort"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment128.jsonld#4185",
+              "@type": "tree:Node",
+              "token_string": "A"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment129.jsonld#4190",
+              "@type": "tree:Node",
+              "token_string": "B"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment130.jsonld#4200",
+              "@type": "tree:Node",
+              "token_string": "chateau Tremblant"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment131.jsonld#4204",
+              "@type": "tree:Node",
+              "token_string": "C"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment132.jsonld#4283",
+              "@type": "tree:Node",
+              "token_string": "d"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment133.jsonld#4291",
+              "@type": "tree:Node",
+              "token_string": "Docteur Pierre Dupont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment134.jsonld#4342",
+              "@type": "tree:Node",
+              "token_string": "Emile "
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment135.jsonld#4346",
+              "@type": "tree:Node",
+              "token_string": "F"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment136.jsonld#4353",
+              "@type": "tree:Node",
+              "token_string": "G"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment137.jsonld#4356",
+              "@type": "tree:Node",
+              "token_string": "Hergé"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4361",
+              "@type": "tree:Node",
+              "token_string": "J"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4369",
+              "@type": "tree:Node",
+              "token_string": "La"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4383",
+              "@type": "tree:Node",
+              "token_string": "M"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4386",
+              "@type": "tree:Node",
+              "token_string": "Ovide Decroly"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4388",
+              "@type": "tree:Node",
+              "token_string": "P"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4396",
+              "@type": "tree:Node",
+              "token_string": "R"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4407",
+              "@type": "tree:Node",
+              "token_string": "Saint"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4413",
+              "@type": "tree:Node",
+              "token_string": "Verte"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment126.jsonld#4414",
+              "@type": "tree:Node",
+              "token_string": "Willy Dieudonné"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4410",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Abbé Michel Gigi"
+        },
+        {
+          "streetname": "Place A de Lamartine"
+        },
+        {
+          "streetname": "Place Albert Ier"
+        },
+        {
+          "streetname": "Place Albert Plaetens"
+        },
+        {
+          "streetname": "Place André Hancre"
+        },
+        {
+          "streetname": "Place Antoine-Louis Hennepin"
+        },
+        {
+          "streetname": "Place Arthur Borlée"
+        },
+        {
+          "streetname": "Place Barchifontaine"
+        },
+        {
+          "streetname": "Place Baudouin 1er"
+        },
+        {
+          "streetname": "Place Beaufort"
+        }
+      ],
+      "total_children_count": 180,
+      "@id": "fragment126.jsonld#4411",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Abbé Michel Gigi"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place A de Lamartine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Albert Ier"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Albert Plaetens"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place André Hancre"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Antoine-Louis Hennepin"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Arthur Borlée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Barchifontaine"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Baudouin 1er"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Place Beaufort"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "tte de la Fauvée",
+      "triples": [
+        {
+          "streetname": "Placette de la Fauvée"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4410",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Placette de la Fauvée"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4412",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Placette de la Fauvée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Placette de la Fauvée"
+      ]
+    },
+    {
+      "token_string": "Verte",
+      "triples": [
+        {
+          "streetname": "Place Verte"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Verte"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4413",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Verte"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Verte"
+      ]
+    },
+    {
+      "token_string": "Willy Dieudonné",
+      "triples": [
+        {
+          "streetname": "Place Willy Dieudonné"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment126.jsonld#4411",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Place Willy Dieudonné"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment126.jsonld#4414",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Place Willy Dieudonné"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Place Willy Dieudonné"
+      ]
+    }
+  ]
+}

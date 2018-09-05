@@ -1,0 +1,142 @@
+{
+  "root_node_id": "6763",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment233.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "K",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment233.jsonld#6764",
+              "@type": "tree:Node",
+              "token_string": "arting"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment233.jsonld#6765",
+              "@type": "tree:Node",
+              "token_string": "iell"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment226.jsonld#6980",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Karting"
+        },
+        {
+          "streetname": "Rue du Kiell"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment233.jsonld#6763",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Karting"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Kiell"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "arting",
+      "triples": [
+        {
+          "streetname": "Rue du Karting"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment233.jsonld#6763",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Karting"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment233.jsonld#6764",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Karting"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Karting"
+      ]
+    },
+    {
+      "token_string": "iell",
+      "triples": [
+        {
+          "streetname": "Rue du Kiell"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment233.jsonld#6763",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Kiell"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment233.jsonld#6765",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Kiell"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Kiell"
+      ]
+    }
+  ]
+}

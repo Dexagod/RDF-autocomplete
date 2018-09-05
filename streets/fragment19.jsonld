@@ -1,0 +1,1349 @@
+{
+  "root_node_id": "679",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment19.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "gasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Bachgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0762291869964646",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90703092840319"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#661",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bachgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0762291869964646",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90703092840319"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment19.jsonld#655",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bachgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bachgasse"
+      ]
+    },
+    {
+      "token_string": "stra",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#658",
+              "@type": "tree:Node",
+              "token_string": "sse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#659",
+              "@type": "tree:Node",
+              "token_string": "ße"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#661",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bachstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3447407965731903",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.02025800062606"
+        },
+        {
+          "http://example.com/terms#name": "Bachstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.472227357232314",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.76596468079934"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment19.jsonld#657",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bachstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bachstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "sse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Bachstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3447407965731903",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.02025800062606"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#657",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bachstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3447407965731903",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.02025800062606"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment19.jsonld#658",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bachstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bachstrasse"
+      ]
+    },
+    {
+      "token_string": "ße",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Bachstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.472227357232314",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.76596468079934"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#657",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bachstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.472227357232314",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.76596468079934"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment19.jsonld#659",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bachstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bachstraße"
+      ]
+    },
+    {
+      "token_string": "h",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#655",
+              "@type": "tree:Node",
+              "token_string": "gasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#657",
+              "@type": "tree:Node",
+              "token_string": "stra"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#664",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bachgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0762291869964646",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90703092840319"
+        },
+        {
+          "http://example.com/terms#name": "Bachstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3447407965731903",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.02025800062606"
+        },
+        {
+          "http://example.com/terms#name": "Bachstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.472227357232314",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.76596468079934"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment19.jsonld#661",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bachgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bachstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bachstraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "kesweg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Backesweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1438215303791233",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.73133687512302"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#664",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Backesweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1438215303791233",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.73133687512302"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment19.jsonld#662",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Backesweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Backesweg"
+      ]
+    },
+    {
+      "token_string": "c",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#661",
+              "@type": "tree:Node",
+              "token_string": "h"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#662",
+              "@type": "tree:Node",
+              "token_string": "kesweg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#679",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bachgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0762291869964646",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90703092840319"
+        },
+        {
+          "http://example.com/terms#name": "Bachstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3447407965731903",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.02025800062606"
+        },
+        {
+          "http://example.com/terms#name": "Bachstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.472227357232314",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.76596468079934"
+        },
+        {
+          "http://example.com/terms#name": "Backesweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1438215303791233",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.73133687512302"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment19.jsonld#664",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bachgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bachstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bachstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Backesweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "guemont",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Baguemont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2684287504933636",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.16394632528615"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#679",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Baguemont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2684287504933636",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.16394632528615"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment19.jsonld#665",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Baguemont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Baguemont"
+      ]
+    },
+    {
+      "token_string": "hn",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#668",
+              "@type": "tree:Node",
+              "token_string": "allee"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#670",
+              "@type": "tree:Node",
+              "token_string": "hof"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#679",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bahnallee",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6509823165029274",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.938115783957244"
+        },
+        {
+          "http://example.com/terms#name": "Bahnhof Lammersdorf",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6430115713027846",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.38267895464374"
+        },
+        {
+          "http://example.com/terms#name": "Bahnhofsgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5060093528129186",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.17614051598198"
+        },
+        {
+          "http://example.com/terms#name": "Bahnhofstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.927426863712836",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.470891536922764"
+        }
+      ],
+      "total_children_count": 6,
+      "@id": "streetsfragment19.jsonld#667",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bahnallee"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhof Lammersdorf"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhofsgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhofstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "allee",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Bahnallee",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6509823165029274",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.938115783957244"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#667",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bahnallee",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6509823165029274",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.938115783957244"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment19.jsonld#668",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bahnallee"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bahnallee"
+      ]
+    },
+    {
+      "token_string": "hof",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#671",
+              "@type": "tree:Node",
+              "token_string": " Lammersdorf"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#673",
+              "@type": "tree:Node",
+              "token_string": "s"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#667",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bahnhof Lammersdorf",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6430115713027846",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.38267895464374"
+        },
+        {
+          "http://example.com/terms#name": "Bahnhofsgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5060093528129186",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.17614051598198"
+        },
+        {
+          "http://example.com/terms#name": "Bahnhofstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.927426863712836",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.470891536922764"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment19.jsonld#670",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bahnhof Lammersdorf"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhofsgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhofstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": " Lammersdorf",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Bahnhof Lammersdorf",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6430115713027846",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.38267895464374"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#670",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bahnhof Lammersdorf",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6430115713027846",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.38267895464374"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment19.jsonld#671",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bahnhof Lammersdorf"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bahnhof Lammersdorf"
+      ]
+    },
+    {
+      "token_string": "s",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#674",
+              "@type": "tree:Node",
+              "token_string": "gasse"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#675",
+              "@type": "tree:Node",
+              "token_string": "trasse"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#670",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bahnhofsgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5060093528129186",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.17614051598198"
+        },
+        {
+          "http://example.com/terms#name": "Bahnhofstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.927426863712836",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.470891536922764"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment19.jsonld#673",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bahnhofsgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhofstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "gasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Bahnhofsgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5060093528129186",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.17614051598198"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#673",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bahnhofsgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5060093528129186",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.17614051598198"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment19.jsonld#674",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bahnhofsgasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bahnhofsgasse"
+      ]
+    },
+    {
+      "token_string": "trasse",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Bahnhofstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.927426863712836",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.470891536922764"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#673",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bahnhofstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.927426863712836",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.470891536922764"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment19.jsonld#675",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bahnhofstrasse"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bahnhofstrasse"
+      ]
+    },
+    {
+      "token_string": "n de Vin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Ban de Vin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.405992392400038",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.3168505707397"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#679",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Ban de Vin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.405992392400038",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.3168505707397"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment19.jsonld#676",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Ban de Vin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Ban de Vin"
+      ]
+    },
+    {
+      "token_string": "rbarastraße",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Barbarastraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.547123968012463",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44291567549816"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#679",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Barbarastraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.547123968012463",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.44291567549816"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment19.jsonld#677",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Barbarastraße"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Barbarastraße"
+      ]
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#664",
+              "@type": "tree:Node",
+              "token_string": "c"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#665",
+              "@type": "tree:Node",
+              "token_string": "guemont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#667",
+              "@type": "tree:Node",
+              "token_string": "hn"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#676",
+              "@type": "tree:Node",
+              "token_string": "n de Vin"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#677",
+              "@type": "tree:Node",
+              "token_string": "rbarastraße"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#682",
+              "@type": "tree:Node",
+              "token_string": "s"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#686",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment12.jsonld#678",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bachgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.0762291869964646",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.90703092840319"
+        },
+        {
+          "http://example.com/terms#name": "Bachstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.3447407965731903",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.02025800062606"
+        },
+        {
+          "http://example.com/terms#name": "Bachstraße",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.472227357232314",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.76596468079934"
+        },
+        {
+          "http://example.com/terms#name": "Backesweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.1438215303791233",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.73133687512302"
+        },
+        {
+          "http://example.com/terms#name": "Baguemont",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2684287504933636",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.16394632528615"
+        },
+        {
+          "http://example.com/terms#name": "Bahnallee",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6509823165029274",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.938115783957244"
+        },
+        {
+          "http://example.com/terms#name": "Bahnhof Lammersdorf",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6430115713027846",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.38267895464374"
+        },
+        {
+          "http://example.com/terms#name": "Bahnhofsgasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.5060093528129186",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.17614051598198"
+        },
+        {
+          "http://example.com/terms#name": "Bahnhofstrasse",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.927426863712836",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.470891536922764"
+        },
+        {
+          "http://example.com/terms#name": "Ban de Vin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.405992392400038",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.3168505707397"
+        }
+      ],
+      "total_children_count": 24,
+      "@id": "streetsfragment19.jsonld#679",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bachgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bachstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bachstraße"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Backesweg"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Baguemont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnallee"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhof Lammersdorf"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhofsgasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bahnhofstrasse"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Ban de Vin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "s",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#683",
+              "@type": "tree:Node",
+              "token_string": "e Aérienne de ChièvresB20005"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#684",
+              "@type": "tree:Node",
+              "token_string": " Gardin"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#679",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Base Aérienne de ChièvresB20005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.458518434640271",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78940129964391"
+        },
+        {
+          "http://example.com/terms#name": "Bas Gardin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2711777107759117",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.13014756659587"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment19.jsonld#682",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Base Aérienne de ChièvresB20005"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bas Gardin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e Aérienne de ChièvresB20005",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Base Aérienne de ChièvresB20005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.458518434640271",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78940129964391"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#682",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Base Aérienne de ChièvresB20005",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.458518434640271",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.78940129964391"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment19.jsonld#683",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Base Aérienne de ChièvresB20005"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Base Aérienne de ChièvresB20005"
+      ]
+    },
+    {
+      "token_string": " Gardin",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Bas Gardin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2711777107759117",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.13014756659587"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#682",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bas Gardin",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2711777107759117",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.13014756659587"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment19.jsonld#684",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bas Gardin"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bas Gardin"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#687",
+              "@type": "tree:Node",
+              "token_string": "elsbusch"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#688",
+              "@type": "tree:Node",
+              "token_string": "gnée"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment19.jsonld#689",
+              "@type": "tree:Node",
+              "token_string": "weg"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#679",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bauelsbusch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.759521672562569",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.16636610774669"
+        },
+        {
+          "http://example.com/terms#name": "Baugnée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9978729279587464",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.34792513381003"
+        },
+        {
+          "http://example.com/terms#name": "Bauweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2077620267082736",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25641962789644"
+        }
+      ],
+      "total_children_count": 3,
+      "@id": "streetsfragment19.jsonld#686",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bauelsbusch"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Baugnée"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Bauweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "elsbusch",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Bauelsbusch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.759521672562569",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.16636610774669"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#686",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bauelsbusch",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.759521672562569",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.16636610774669"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment19.jsonld#687",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bauelsbusch"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bauelsbusch"
+      ]
+    },
+    {
+      "token_string": "gnée",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Baugnée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9978729279587464",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.34792513381003"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#686",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Baugnée",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.9978729279587464",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.34792513381003"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment19.jsonld#688",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Baugnée"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Baugnée"
+      ]
+    },
+    {
+      "token_string": "weg",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Bauweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2077620267082736",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25641962789644"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment19.jsonld#686",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Bauweg",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.2077620267082736",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.25641962789644"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment19.jsonld#689",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Bauweg"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Bauweg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "root_node_id": "8106",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment267.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "mp",
+      "triples": [
+        {
+          "streetname": "Sentier du Champ"
+        }
+      ],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment267.jsonld#8107",
+              "@type": "tree:Node",
+              "token_string": " de Blé"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment268.jsonld#8109",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier du Champ"
+        },
+        {
+          "streetname": "Sentier du Champ de Blé"
+        }
+      ],
+      "total_children_count": 1,
+      "@id": "fragment267.jsonld#8106",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier du Champ"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Sentier du Champ de Blé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier du Champ"
+      ]
+    },
+    {
+      "token_string": " de Blé",
+      "triples": [
+        {
+          "streetname": "Sentier du Champ de Blé"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment267.jsonld#8106",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Sentier du Champ de Blé"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment267.jsonld#8107",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Sentier du Champ de Blé"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Sentier du Champ de Blé"
+      ]
+    }
+  ]
+}

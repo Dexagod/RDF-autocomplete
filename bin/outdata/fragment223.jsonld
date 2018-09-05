@@ -1,0 +1,242 @@
+{
+  "root_node_id": "6746",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment223.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "ut ",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment223.jsonld#6747",
+              "@type": "tree:Node",
+              "token_string": "Balmoral"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment223.jsonld#6748",
+              "@type": "tree:Node",
+              "token_string": "du Mont"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment223.jsonld#6749",
+              "@type": "tree:Node",
+              "token_string": "Plateau"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment223.jsonld#6750",
+              "@type": "tree:Node",
+              "token_string": "Trieu"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment224.jsonld#6752",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Haut Balmoral"
+        },
+        {
+          "streetname": "Rue du Haut du Mont"
+        },
+        {
+          "streetname": "Rue du Haut Plateau"
+        },
+        {
+          "streetname": "Rue du Haut Trieu"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "fragment223.jsonld#6746",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Haut Balmoral"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Haut du Mont"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Haut Plateau"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Rue du Haut Trieu"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "Balmoral",
+      "triples": [
+        {
+          "streetname": "Rue du Haut Balmoral"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment223.jsonld#6746",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Haut Balmoral"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment223.jsonld#6747",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Haut Balmoral"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Haut Balmoral"
+      ]
+    },
+    {
+      "token_string": "du Mont",
+      "triples": [
+        {
+          "streetname": "Rue du Haut du Mont"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment223.jsonld#6746",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Haut du Mont"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment223.jsonld#6748",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Haut du Mont"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Haut du Mont"
+      ]
+    },
+    {
+      "token_string": "Plateau",
+      "triples": [
+        {
+          "streetname": "Rue du Haut Plateau"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment223.jsonld#6746",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Haut Plateau"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment223.jsonld#6749",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Haut Plateau"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Haut Plateau"
+      ]
+    },
+    {
+      "token_string": "Trieu",
+      "triples": [
+        {
+          "streetname": "Rue du Haut Trieu"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment223.jsonld#6746",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Rue du Haut Trieu"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment223.jsonld#6750",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Rue du Haut Trieu"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Rue du Haut Trieu"
+      ]
+    }
+  ]
+}

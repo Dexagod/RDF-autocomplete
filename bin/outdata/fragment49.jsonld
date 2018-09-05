@@ -1,0 +1,438 @@
+{
+  "root_node_id": "1399",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "fragment49.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "beilles",
+      "triples": [
+        {
+          "streetname": "Chemin des Abeilles"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment49.jsonld#1399",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Abeilles"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment49.jsonld#1394",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Abeilles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Abeilles"
+      ]
+    },
+    {
+      "token_string": "ireûs",
+      "triples": [
+        {
+          "streetname": "Chemin des Aireûs"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment49.jsonld#1399",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Aireûs"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment49.jsonld#1395",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Aireûs"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Aireûs"
+      ]
+    },
+    {
+      "token_string": "louettes",
+      "triples": [
+        {
+          "streetname": "Chemin des Alouettes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment49.jsonld#1399",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Alouettes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment49.jsonld#1396",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Alouettes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Alouettes"
+      ]
+    },
+    {
+      "token_string": "mours",
+      "triples": [
+        {
+          "streetname": "Chemin des Amours"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment49.jsonld#1399",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Amours"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment49.jsonld#1397",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Amours"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Amours"
+      ]
+    },
+    {
+      "token_string": "A",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment49.jsonld#1394",
+              "@type": "tree:Node",
+              "token_string": "beilles"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment49.jsonld#1395",
+              "@type": "tree:Node",
+              "token_string": "ireûs"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment49.jsonld#1396",
+              "@type": "tree:Node",
+              "token_string": "louettes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment49.jsonld#1397",
+              "@type": "tree:Node",
+              "token_string": "mours"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment49.jsonld#1402",
+              "@type": "tree:Node",
+              "token_string": "rtisans"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment49.jsonld#1404",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment48.jsonld#1398",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Abeilles"
+        },
+        {
+          "streetname": "Chemin des Aireûs"
+        },
+        {
+          "streetname": "Chemin des Alouettes"
+        },
+        {
+          "streetname": "Chemin des Amours"
+        },
+        {
+          "streetname": "Chemin des Artisans"
+        },
+        {
+          "streetname": "Chemin des Aubépines"
+        },
+        {
+          "streetname": "Chemin des Aulnes"
+        }
+      ],
+      "total_children_count": 8,
+      "@id": "fragment49.jsonld#1399",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Abeilles"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Aireûs"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Alouettes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Amours"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Artisans"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Aubépines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Aulnes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rtisans",
+      "triples": [
+        {
+          "streetname": "Chemin des Artisans"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment49.jsonld#1399",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Artisans"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment49.jsonld#1402",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Artisans"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Artisans"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment49.jsonld#1405",
+              "@type": "tree:Node",
+              "token_string": "bépines"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "fragment49.jsonld#1406",
+              "@type": "tree:Node",
+              "token_string": "lnes"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment49.jsonld#1399",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Aubépines"
+        },
+        {
+          "streetname": "Chemin des Aulnes"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "fragment49.jsonld#1404",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Aubépines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Aulnes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "bépines",
+      "triples": [
+        {
+          "streetname": "Chemin des Aubépines"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment49.jsonld#1404",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Aubépines"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment49.jsonld#1405",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Aubépines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Aubépines"
+      ]
+    },
+    {
+      "token_string": "lnes",
+      "triples": [
+        {
+          "streetname": "Chemin des Aulnes"
+        }
+      ],
+      "parent_node": {
+        "@id": "fragment49.jsonld#1404",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "streetname": "Chemin des Aulnes"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "fragment49.jsonld#1406",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Aulnes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Aulnes"
+      ]
+    }
+  ]
+}

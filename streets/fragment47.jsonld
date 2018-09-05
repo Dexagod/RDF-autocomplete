@@ -1,0 +1,266 @@
+{
+  "root_node_id": "1504",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment47.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "H",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment47.jsonld#1505",
+              "@type": "tree:Node",
+              "token_string": "aies"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment47.jsonld#1506",
+              "@type": "tree:Node",
+              "token_string": "érons"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment47.jsonld#1507",
+              "@type": "tree:Node",
+              "token_string": "êtres"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment47.jsonld#1508",
+              "@type": "tree:Node",
+              "token_string": "uit Voies"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment48.jsonld#1398",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Haies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.952140031015763",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.322882153454955"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Hérons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2620418580833683",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.57865064384627"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Hêtres",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.629346566976088",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.653912025528406"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Huit Voies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.932497849094737",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.192873250988804"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment47.jsonld#1504",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Haies"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Hérons"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Hêtres"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Huit Voies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "aies",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Haies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.952140031015763",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.322882153454955"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment47.jsonld#1504",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Haies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.952140031015763",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.322882153454955"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment47.jsonld#1505",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Haies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Haies"
+      ]
+    },
+    {
+      "token_string": "érons",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Hérons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2620418580833683",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.57865064384627"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment47.jsonld#1504",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Hérons",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.2620418580833683",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.57865064384627"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment47.jsonld#1506",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Hérons"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Hérons"
+      ]
+    },
+    {
+      "token_string": "êtres",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Hêtres",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.629346566976088",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.653912025528406"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment47.jsonld#1504",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Hêtres",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.629346566976088",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.653912025528406"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment47.jsonld#1507",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Hêtres"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Hêtres"
+      ]
+    },
+    {
+      "token_string": "uit Voies",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Huit Voies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.932497849094737",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.192873250988804"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment47.jsonld#1504",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Huit Voies",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.932497849094737",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.192873250988804"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment47.jsonld#1508",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Huit Voies"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Huit Voies"
+      ]
+    }
+  ]
+}

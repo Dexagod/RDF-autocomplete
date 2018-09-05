@@ -1,0 +1,1081 @@
+{
+  "root_node_id": "1434",
+  "@context": {
+    "tree": "https://w3id.org/tree#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "schema": "http://schema.org//",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "contents": "hydra: collection",
+    "token_string": "hydra:value",
+    "triples": "hydra:member",
+    "representation": "https://example.org/Triple#Representation",
+    "children": "tree:hasChildRelation",
+    "parent_node": "tree:parent",
+    "suggestions": "hydra:member",
+    "score": "hydra:value",
+    "childcount": "hydra:totalItems",
+    "child": "tree:child"
+  },
+  "@id": "streetsfragment52.jsonld",
+  "@type": "Fragment",
+  "@graph": [
+    {
+      "token_string": "agnes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Campagnes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4983500590290837",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.86995308132173"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1432",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Campagnes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4983500590290837",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.86995308132173"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment52.jsonld#1429",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Campagnes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Campagnes"
+      ]
+    },
+    {
+      "token_string": "inets",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Campinets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4077189984913305",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.226805098713"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1432",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Campinets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4077189984913305",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.226805098713"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment52.jsonld#1430",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Campinets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Campinets"
+      ]
+    },
+    {
+      "token_string": "mp",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1429",
+              "@type": "tree:Node",
+              "token_string": "agnes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1430",
+              "@type": "tree:Node",
+              "token_string": "inets"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1435",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Campagnes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4983500590290837",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.86995308132173"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Campinets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4077189984913305",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.226805098713"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment52.jsonld#1432",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Campagnes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Campinets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "rex",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Carex",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4097738658677845",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.0580584980571"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1435",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Carex",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4097738658677845",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.0580584980571"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment52.jsonld#1433",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Carex"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Carex"
+      ]
+    },
+    {
+      "token_string": "C",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1435",
+              "@type": "tree:Node",
+              "token_string": "a"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1437",
+              "@type": "tree:Node",
+              "token_string": "e"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1440",
+              "@type": "tree:Node",
+              "token_string": "halets"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1441",
+              "@type": "tree:Node",
+              "token_string": "inq Bonniers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1442",
+              "@type": "tree:Node",
+              "token_string": "larines"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1444",
+              "@type": "tree:Node",
+              "token_string": "o"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment48.jsonld#1398",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Campagnes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4983500590290837",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.86995308132173"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Campinets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4077189984913305",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.226805098713"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Carex",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4097738658677845",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.0580584980571"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Celtes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5800898230398195",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.042109956807565"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Cerisiers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.621399907202986",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.07991418059884"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Chalets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.308365354460022",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.96353934710408"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Cinq Bonniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.134328685947072",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.391043452830296"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Clarines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6233172554092126",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66145653431812"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Cointes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0108705895172667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.09779678117544"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Cornouillers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.879242604108875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.31119776973167"
+        }
+      ],
+      "total_children_count": 19,
+      "@id": "streetsfragment52.jsonld#1434",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Campagnes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Campinets"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Carex"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Celtes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Cerisiers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Chalets"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Cinq Bonniers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Clarines"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Cointes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Cornouillers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "a",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1432",
+              "@type": "tree:Node",
+              "token_string": "mp"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1433",
+              "@type": "tree:Node",
+              "token_string": "rex"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1434",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Campagnes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4983500590290837",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "51.86995308132173"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Campinets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.4077189984913305",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.226805098713"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Carex",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.4097738658677845",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.0580584980571"
+        }
+      ],
+      "total_children_count": 4,
+      "@id": "streetsfragment52.jsonld#1435",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Campagnes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Campinets"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Carex"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "e",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1438",
+              "@type": "tree:Node",
+              "token_string": "ltes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1439",
+              "@type": "tree:Node",
+              "token_string": "risiers"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1434",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Celtes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5800898230398195",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.042109956807565"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Cerisiers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.621399907202986",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.07991418059884"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment52.jsonld#1437",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Celtes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Cerisiers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "ltes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Celtes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5800898230398195",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.042109956807565"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1437",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Celtes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.5800898230398195",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.042109956807565"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment52.jsonld#1438",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Celtes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Celtes"
+      ]
+    },
+    {
+      "token_string": "risiers",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Cerisiers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.621399907202986",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.07991418059884"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1437",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Cerisiers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.621399907202986",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.07991418059884"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment52.jsonld#1439",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Cerisiers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Cerisiers"
+      ]
+    },
+    {
+      "token_string": "halets",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Chalets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.308365354460022",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.96353934710408"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1434",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Chalets",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.308365354460022",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.96353934710408"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment52.jsonld#1440",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Chalets"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Chalets"
+      ]
+    },
+    {
+      "token_string": "inq Bonniers",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Cinq Bonniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.134328685947072",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.391043452830296"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1434",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Cinq Bonniers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.134328685947072",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.391043452830296"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment52.jsonld#1441",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Cinq Bonniers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Cinq Bonniers"
+      ]
+    },
+    {
+      "token_string": "larines",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Clarines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6233172554092126",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66145653431812"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1434",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Clarines",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.6233172554092126",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.66145653431812"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment52.jsonld#1442",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Clarines"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Clarines"
+      ]
+    },
+    {
+      "token_string": "o",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1445",
+              "@type": "tree:Node",
+              "token_string": "intes"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1447",
+              "@type": "tree:Node",
+              "token_string": "r"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1451",
+              "@type": "tree:Node",
+              "token_string": "u"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1434",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Cointes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0108705895172667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.09779678117544"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Cornouillers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.879242604108875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.31119776973167"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Cortils",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.971252753419529",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70304706632218"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Coutures",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.562311755190466",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.262391444441946"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Couvalles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.689497565115632",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39873812243533"
+        }
+      ],
+      "total_children_count": 7,
+      "@id": "streetsfragment52.jsonld#1444",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Cointes"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Cornouillers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Cortils"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Coutures"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Couvalles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "intes",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Cointes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0108705895172667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.09779678117544"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1444",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Cointes",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.0108705895172667",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.09779678117544"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment52.jsonld#1445",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Cointes"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Cointes"
+      ]
+    },
+    {
+      "token_string": "r",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1448",
+              "@type": "tree:Node",
+              "token_string": "nouillers"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1449",
+              "@type": "tree:Node",
+              "token_string": "tils"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1444",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Cornouillers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.879242604108875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.31119776973167"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Cortils",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.971252753419529",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70304706632218"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment52.jsonld#1447",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Cornouillers"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Cortils"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "nouillers",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Cornouillers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.879242604108875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.31119776973167"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1447",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Cornouillers",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.879242604108875",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.31119776973167"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment52.jsonld#1448",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Cornouillers"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Cornouillers"
+      ]
+    },
+    {
+      "token_string": "tils",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Cortils",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.971252753419529",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70304706632218"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1447",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Cortils",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "2.971252753419529",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.70304706632218"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment52.jsonld#1449",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Cortils"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Cortils"
+      ]
+    },
+    {
+      "token_string": "u",
+      "triples": [],
+      "children": [
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1452",
+              "@type": "tree:Node",
+              "token_string": "tures"
+            }
+          ]
+        },
+        {
+          "@type": "tree:StringCompletesRelation",
+          "tree:child": [
+            {
+              "@id": "streetsfragment52.jsonld#1453",
+              "@type": "tree:Node",
+              "token_string": "valles"
+            }
+          ]
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1444",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Coutures",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.562311755190466",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.262391444441946"
+        },
+        {
+          "http://example.com/terms#name": "Chemin des Couvalles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.689497565115632",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39873812243533"
+        }
+      ],
+      "total_children_count": 2,
+      "@id": "streetsfragment52.jsonld#1451",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Coutures"
+          ],
+          "score": 0
+        },
+        {
+          "representation_list": [
+            "Chemin des Couvalles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": []
+    },
+    {
+      "token_string": "tures",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Coutures",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.562311755190466",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.262391444441946"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1451",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Coutures",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.562311755190466",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "50.262391444441946"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment52.jsonld#1452",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Coutures"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Coutures"
+      ]
+    },
+    {
+      "token_string": "valles",
+      "triples": [
+        {
+          "http://example.com/terms#name": "Chemin des Couvalles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.689497565115632",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39873812243533"
+        }
+      ],
+      "parent_node": {
+        "@id": "streetsfragment52.jsonld#1451",
+        "@type": "tree:Node"
+      },
+      "suggestions": [
+        {
+          "http://example.com/terms#name": "Chemin des Couvalles",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#long": "3.689497565115632",
+          "http://www.w3.org/2003/01/geo/wgs84_pos#lat": "52.39873812243533"
+        }
+      ],
+      "total_children_count": 0,
+      "@id": "streetsfragment52.jsonld#1453",
+      "@type": "tree:Node",
+      "suggestions_metadata": [
+        {
+          "representation_list": [
+            "Chemin des Couvalles"
+          ],
+          "score": 0
+        }
+      ],
+      "triples_metadata": [
+        "Chemin des Couvalles"
+      ]
+    }
+  ]
+}
