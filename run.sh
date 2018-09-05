@@ -1,1 +1,1 @@
-node bin/testing_main.js
+node bin/main.js

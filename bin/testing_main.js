@@ -6,56 +6,79 @@ var Fragment = require('../lib/fragment.js');
 var Node = require('../lib/node.js');
 var Triple = require('../lib/triple.js');
 var FC = require('../lib/fragment_cache.js')
+var TreeIO = require('../lib/tree_IO')
 
 var sizeof = require('object-sizeof')
 
 
 
-/*
-  TESTINGGG
-*/
-var DIR = "searchfragments"
-var FRAGMENT_SIZE = 100;
-// var FILENAME = "data/straatnamen.txt"
-var FILENAME = "data/5dlaatstestraatnamen.txt"
-// var FILENAME = "data/500laatstestraatnamen.txt"
-var CACHE_SIZE = 10000;
-var fc = new FC(DIR, CACHE_SIZE);
-var newB3 = new Tree(FRAGMENT_SIZE, fc);
+
+var sourcefile = "data/5dlaatstestraatnamen.txt"
+var datadir = "streets/"
+var collectiondir = "collections/"
+var collectionfilename = "streetnames"
+var maxfragsize = 100;
+var maxcachedfrags = 10000;
+
+var sourceDirectory = __dirname + "/../../opendata/"
+
+createTree(sourceDirectory, sourcefile, datadir, collectiondir, collectionfilename, maxfragsize, maxcachedfrags);
+
+function createTree(sourceDirectory, sourcefile, datadir, collectiondir, collectionfilename, maxfragsize = 100, maxcachedfrags = 10000){
+  var fc = new FC(sourceDirectory, datadir, maxcachedfrags);
+  var newB3 = new Tree(maxfragsize, fc);
+
+  // Read all the lines from the given test file.
+  var lineReader = require('readline').createInterface({
+  input: require('fs').createReadStream(sourcefile)
+  });
+
+  var linecounter = 0
 
 
-var lineReader = require('readline').createInterface({
-  input: require('fs').createReadStream(FILENAME)
-});
+  var added_strings = []
+  
+  lineReader.on('line', function (line) {
+      
+      // Create new Triple object to add to the given tree, containing a representation and an object.
+      let long = (Math.random() * 2) + 2;
+      let lat = (Math.random() * 3) + 50;
 
-var linecounter = 0
-added_strings = new Set()
+      let newtriple = new Triple(line, {"http://example.com/terms#name": line, "http://www.w3.org/2003/01/geo/wgs84_pos#long": long.toString(), "http://www.w3.org/2003/01/geo/wgs84_pos#lat": lat.toString()})
 
-lineReader.on('line', function (line) {
-  added_strings.add(line);
-  let newtriple = new Triple(line, {streetname: line})
-  newB3.add_triple(newtriple)
-  linecounter += 1;
-  if (linecounter % 100 === 0){
-    console.log("LINE " + linecounter)
-  }
-});
+      // Add the triple to the tree.
+      newB3.add_triple(newtriple)
 
-lineReader.on('close', function () {
-  // calculate_average_fragments_passed(newB3);
+      // Log progress.
+      linecounter += 1;
+      if (linecounter % 100 === 0){
+          console.log("LINE " + linecounter)
+      }
+  });
+
+  lineReader.on('close', function () {
   console.log("DONE ADDING")
   fc.flush_cache()
-  
+
+  console.log(collectiondir)
+  console.log(collectionfilename)
+  let treeIO = new TreeIO(sourceDirectory, collectiondir, datadir, collectionfilename, fc);
+  treeIO.write_tree(newB3)
+  newB3 = treeIO.read_tree()
+
+  // Calculate some statistics of the tree.
   calculate_average_fragments_passed(newB3);
 
+  // Iterate the file once more to check that all lines have been successfully added.
   var lineReader2 = require('readline').createInterface({
-    input: require('fs').createReadStream(FILENAME)
+    input: require('fs').createReadStream(sourcefile)
   });
 
   fragments = {}
   linecounter = -1;
   
   lineReader2.on('line', function (line) {
+    added_strings.push(line)
     let newtriple = new Triple(line)
     linecounter += 1;
 
@@ -66,10 +89,10 @@ lineReader.on('close', function () {
       let searched_triple = newB3.search_triple(newtriple)
       assert.equal(searched_triple[0].get_representation(), newtriple.get_representation())
     }
-    
+
   });
 
-  
+
   lineReader2.on('close', function (line) {
    console.log("Triples have been successfully added")
 
@@ -78,7 +101,7 @@ lineReader.on('close', function () {
        sum += parseInt( distances[i], 10 ); //don't forget to add the base
    }
    let avg = sum/distances.length;
- 
+
    let avg_frag_size = fragment_sizes / fragments_set.size
 
     console.log("")
@@ -95,10 +118,10 @@ lineReader.on('close', function () {
     console.log("")
     console.log("FRAGMENT DATA")
     console.log("total frag count: " + fragments_set.size)
-    console.log("max fragment size allowed: " + FRAGMENT_SIZE)
+    console.log("max fragment size allowed: " + maxfragsize)
     console.log("max fragment size: " + max_frag_size)
     console.log("avg fragment nodes contained: " + avg_frag_size)
-    let avgfragfill = avg_frag_size / FRAGMENT_SIZE;
+    let avgfragfill = avg_frag_size / maxfragsize;
     console.log("avg frag fill: " + avgfragfill )
 
     console.log("")
@@ -166,10 +189,10 @@ var calculate_average_fragments_passed = function(b3) {
   console.log("")
   console.log("FRAGMENT DATA")
   console.log("total frag count: " + fragments_set.size)
-  console.log("max fragment size allowed: " + FRAGMENT_SIZE)
+  console.log("max fragment size allowed: " + maxfragsize)
   console.log("max fragment size: " + max_frag_size)
   console.log("avg fragment nodes contained: " + avg_frag_size)
-  let avgfragfill = avg_frag_size / FRAGMENT_SIZE;
+  let avgfragfill = avg_frag_size / maxfragsize;
   console.log("avg frag fill: " + avgfragfill )
 
   console.log("")
@@ -207,7 +230,7 @@ var calculate_node_fragments_passed = function(node, distance) {
   if (! fragments_set.has(node.get_fragment())){
     // Check if fragment root nodes are set correctly
     assert(node.get_fragment().get_root_node_id() === node.node_id)
-    
+
     fragment_sizes += node.get_fragment().get_contents_size();
     if (node.get_fragment().get_contents_size() > max_frag_size){
       max_frag_size = node.get_fragment().get_contents_size()
@@ -240,4 +263,5 @@ var calculate_node_fragments_passed = function(node, distance) {
   }
   total_children_count += node.get_child_count();
   assert(node.get_total_children_count() === total_children_count)
+}
 }
