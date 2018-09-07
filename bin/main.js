@@ -13,36 +13,68 @@ var sizeof = require('object-sizeof')
 
 var sourceDirectory = process.argv[2]
 var sourcefile = process.argv[3]
-var datadir = process.argv[4]
-var collectiondir = process.argv[5]
-var collectionfilename = process.argv[6]
+var dataLocation = process.argv[4]
+var treeLocation = process.argv[5]
+var treeFile = process.argv[6]
 var maxfragsize = process.argv[7];
-var maxcachedfrags = process.argv[8];
+var maxCachedFragments = process.argv[8];
 
-function getTree(Location, ){
-
+/** 
+ * Gets the tree object from the given location.
+ * @param {string} sourceDirectory - base folder of the tree data
+ * @param {*} treeLocation - folder containing the tree file in the sourceDirectory
+ * @param {*} treeFile - tree file filename
+ * @param {*} dataLocation - folder containing the fragment files in the sourceDirectory
+ * @param {*} maxCachedFragments - maximal cachable fragments at once
+ */
+function readTree(sourceDirectory, treeLocation, treeFile, dataLocation, maxCachedFragments){
+  var fc = new FC(sourceDirectory, dataLocation, maxCachedFragments);
+  let treeIO = new TreeIO(sourceDirectory, treeLocation, dataLocation, treeFile, fc);
+  return treeIO.read_tree();
 }
 
-function addBatch(tree, ){
+/**
+ * Writes given tree object to a given location.
+ * @param {Tree} tree - the Tree object that needs to be written.
+ * @param {string} treeLocation - the folder in which the tree file needs to be written (in the sourceDirectory of the given tree), dependency of its fragment cache. 
+ * @param {string} treeFile - the filename to which the tree needs to be written
+ */
+function writeTree(tree, treeLocation, treeFile){
+  let treeIO = new TreeIO(tree.get_fragmentCache().sourceDirectory, treeLocation, tree.get_fragmentCache().dataLocation, treeFile, tree.get_fragmentCache());
+  treeIO.write_tree(tree);
 }
 
+/**
+ * Creates a new tree object.
+ * @param {string} sourceDirectory - base forlder of the tree data
+ * @param {string} dataLocation - folder containing the fragment files in the sourceDirectory
+ * @param {number} maxCachedFragments - the maximal amount of elements in the cache
+ */
+function createTree(sourceDirectory, dataLocation, maxCachedFragments){
+  var balancer = new DefaultBalancer();
+  var fc = new FC(sourceDirectory, dataLocation, maxCachedFragments);
+  return new Tree(maxfragsize, fc, balancer);
+}
+
+
+/**
+ * Add given data to the tree in the node of the representation.
+ * @param {Tree} tree 
+ * @param {string} representation 
+ * @param {any} data 
+ */
 function addData(tree, representation, data) {
   let newtreeDataObject = new Triple(representation, data)
   tree.addData(newtreeDataObject)
 }
 
+module.exports = { createTree, readTree, writeTree, addData };
 
-createTree(sourceDirectory, sourcefile, datadir, collectiondir, collectionfilename, maxfragsize, maxcachedfrags);
+main(sourceDirectory, sourcefile, dataLocation, treeLocation, treeFile, maxfragsize, maxCachedFragments);
 
-function createTree(sourceDirectory, sourcefile, datadir, collectiondir, collectionfilename, maxfragsize = 100, maxcachedfrags = 10000){
+function main(sourceDirectory, sourcefile, dataLocation, treeLocation, treeFile, maxfragsize = 100, maxCachedFragments = 10000){
 
-  // Initialize a balancer of choice to balance the tree.
-  // This balancing is done on fragment-level. No nodes or connections between nodes should be altered.
-  balancer = new DefaultBalancer();
-  // Initialize a new fragment cache.
-  var fc = new FC(sourceDirectory, datadir, maxcachedfrags);
-  // Initialize the new tree. Passing the maximal allowed fragment size, the fragment cache and the fragment balancer.
-  var newB3 = new Tree(maxfragsize, fc, balancer);
+  var tree = createTree(sourceDirectory, dataLocation, maxCachedFragments)
 
   // Read input file
   var lineReader = require('readline').createInterface({
@@ -58,7 +90,7 @@ function createTree(sourceDirectory, sourcefile, datadir, collectiondir, collect
       let lat = (Math.random() * 3) + 50;
 
       // Add the treeDataObject to the tree.
-      addData(newB3, line, {"http://example.com/terms#name": line, "http://www.w3.org/2003/01/geo/wgs84_pos#long": long.toString(), "http://www.w3.org/2003/01/geo/wgs84_pos#lat": lat.toString()})
+      addData(tree, line, {"http://example.com/terms#name": line, "http://www.w3.org/2003/01/geo/wgs84_pos#long": long.toString(), "http://www.w3.org/2003/01/geo/wgs84_pos#lat": lat.toString()})
 
       // Log progress.
       linecounter += 1;
@@ -69,9 +101,8 @@ function createTree(sourceDirectory, sourcefile, datadir, collectiondir, collect
 
 lineReader.on('close', function () {
     console.log("DONE ADDING")
-    fc.flush_cache()
-    let treeIO = new TreeIO(sourceDirectory, collectiondir, datadir, collectionfilename, fc);
-    treeIO.write_tree(newB3);
+    tree.get_fragmentCache().flush_cache()
+    writeTree(tree, treeLocation, treeFile);
     console.log('Tree written')
   })
 }

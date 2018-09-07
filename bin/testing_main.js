@@ -10,43 +10,40 @@ var TreeIO = require('../lib/TreeManager')
 
 var sizeof = require('object-sizeof')
 
-
+var main = require("./main")
 
 
 var sourceDirectory = process.argv[2]
 var sourcefile = process.argv[3]
-var datadir = process.argv[4]
-var collectiondir = process.argv[5]
-var collectionfilename = process.argv[6]
+var dataLocation = process.argv[4]
+var treeLocation = process.argv[5]
+var treeFile = process.argv[6]
 var maxfragsize = process.argv[7];
-var maxcachedfrags = process.argv[8];
+var maxCachedFragments = process.argv[8];
 
-createTree(sourceDirectory, sourcefile, datadir, collectiondir, collectionfilename, maxfragsize, maxcachedfrags);
 
-function createTree(sourceDirectory, sourcefile, datadir, collectiondir, collectionfilename, maxfragsize = 100, maxcachedfrags = 10000){
-  var fc = new FC(sourceDirectory, datadir, maxcachedfrags);
-  var newB3 = new Tree(maxfragsize, fc);
+test(sourceDirectory, sourcefile, dataLocation, treeLocation, treeFile, maxfragsize, maxCachedFragments);
 
-  // Read all the lines from the given test file.
+function test(sourceDirectory, sourcefile, dataLocation, treeLocation, treeFile, maxfragsize, maxCachedFragments){
+
+  var tree = main.createTree(sourceDirectory, dataLocation, maxCachedFragments)
+  var added_strings = []
+  // Read input file
   var lineReader = require('readline').createInterface({
-  input: require('fs').createReadStream(sourcefile)
+    input: require('fs').createReadStream(sourcefile)
   });
 
-  var linecounter = 0
-
-
-  var added_strings = []
+  var linecounter = 0;
 
   lineReader.on('line', function (line) {
+    added_strings.push(line)
 
       // Create new Triple object to add to the given tree, containing a representation and an object.
       let long = (Math.random() * 2) + 2;
       let lat = (Math.random() * 3) + 50;
 
-      let newtreeDataObject = new Triple(line, {"http://example.com/terms#name": line, "http://www.w3.org/2003/01/geo/wgs84_pos#long": long.toString(), "http://www.w3.org/2003/01/geo/wgs84_pos#lat": lat.toString()})
-
       // Add the treeDataObject to the tree.
-      newB3.addData(newtreeDataObject)
+      main.addData(tree, line, {"http://example.com/terms#name": line, "http://www.w3.org/2003/01/geo/wgs84_pos#long": long.toString(), "http://www.w3.org/2003/01/geo/wgs84_pos#lat": lat.toString()})
 
       // Log progress.
       linecounter += 1;
@@ -55,19 +52,17 @@ function createTree(sourceDirectory, sourcefile, datadir, collectiondir, collect
       }
   });
 
-  lineReader.on('close', function () {
+lineReader.on('close', function () {
   console.log("DONE ADDING")
-  fc.flush_cache()
+  tree.get_fragmentCache().flush_cache()
 
-  console.log(collectiondir)
-  console.log(collectionfilename)
-  let treeIO = new TreeIO(sourceDirectory, collectiondir, datadir, collectionfilename, fc);
-  treeIO.write_tree(newB3)
-  newB3 = treeIO.read_tree()
+  calculate_average_fragments_passed(tree);
 
+  main.writeTree(tree, treeLocation, treeFile);
+  console.log('Tree written')
   // Calculate some statistics of the tree.
-  calculate_average_fragments_passed(newB3);
 
+  tree = main.readTree(sourceDirectory, treeLocation, treeFile, dataLocation, maxCachedFragments)
   // Iterate the file once more to check that all lines have been successfully added.
   var lineReader2 = require('readline').createInterface({
     input: require('fs').createReadStream(sourcefile)
@@ -77,7 +72,6 @@ function createTree(sourceDirectory, sourcefile, datadir, collectiondir, collect
   linecounter = -1;
 
   lineReader2.on('line', function (line) {
-    added_strings.push(line)
     let newtreeDataObject = new Triple(line)
     linecounter += 1;
 
@@ -85,7 +79,7 @@ function createTree(sourceDirectory, sourcefile, datadir, collectiondir, collect
       console.log("Confirming line " + linecounter)
     }
     if (newtreeDataObject.get_representation() !== ""){
-      let searched_treeDataObject = newB3.searchData(newtreeDataObject)
+      let searched_treeDataObject = tree.searchData(newtreeDataObject)
       assert.equal(searched_treeDataObject[0].get_representation(), newtreeDataObject.get_representation())
     }
 
@@ -147,11 +141,11 @@ var calculate_average_fragments_passed = function(b3) {
 
   console.log("")
   console.log("CACHE DATA")
-  console.log("number of hits: " + fc.cache_hits)
-  console.log("number of misses: " + fc.cache_misses)
-  console.log("number of cache cleans: " + fc.cache_cleans)
-  console.log("number of writes: " + fc.writes)
-  console.log("number of reads: " + fc.reads)
+  console.log("number of hits: " + tree.get_fragmentCache().cache_hits)
+  console.log("number of misses: " + tree.get_fragmentCache().cache_misses)
+  console.log("number of cache cleans: " + tree.get_fragmentCache().cache_cleans)
+  console.log("number of writes: " + tree.get_fragmentCache().writes)
+  console.log("number of reads: " + tree.get_fragmentCache().reads)
 
 
   console.log("")
