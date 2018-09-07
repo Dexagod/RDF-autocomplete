@@ -20,27 +20,28 @@ Querying the data fragments can be done using the linked data tree browser npm p
 ## Use
 
 
-###command line
+command line
 ```
 npm install
 node bin/main.js {data source folder} {data folder} {fragment folder} {tree file folder} {tree file name} {fragment size} {max fragment cache elements}
 ```
 
-###imported
+js import
 
 data file locations:
+`
 {sourceDirectory}/{dataLocation}/fragment{id}.jsonld
 {sourceDirectory}/{treeLocation}/{treeFile}.jsonld
-
+`
 ```
-var main = require("./main")
-var tree = main.createTree(sourceDirectory, dataLocation, maxCachedFragments)
+var ldptree = require("ldptree")
+var tree = ldptree.createTree(sourceDirectory, dataLocation, maxCachedFragments)
 
-main.addData(tree, representation, object)
+ldptree.addData(tree, representation, object)
 
-main.writeTree(tree, treeLocation, treeFile);
+ldptree.writeTree(tree, treeLocation, treeFile);
 
-tree = main.readTree(sourceDirectory, treeLocation, treeFile, dataLocation, maxCachedFragments)
+tree = ldptree.readTree(sourceDirectory, treeLocation, treeFile, dataLocation, maxCachedFragments)
 ```
 
 
