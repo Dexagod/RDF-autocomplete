@@ -28,10 +28,10 @@ node bin/main.js {data source folder} {data folder} {fragment folder} {tree file
 
 js import
 
-data file locations:
+data file locations:<br/>
 `
-{sourceDirectory}/{dataLocation}/fragment{id}.jsonld
-{sourceDirectory}/{treeLocation}/{treeFile}.jsonld
+{sourceDirectory}/{dataLocation}/fragment{id}.jsonld<br/>
+{sourceDirectory}/{treeLocation}/{treeFile}.jsonld<br/>
 `
 ```
 var ldptree = require("ldptree")
