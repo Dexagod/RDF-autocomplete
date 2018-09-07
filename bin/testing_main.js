@@ -4,23 +4,22 @@ const assert = require('assert');
 var Tree = require('../lib/tree.js')
 var Fragment = require('../lib/fragment.js');
 var Node = require('../lib/node.js');
-var Triple = require('../lib/triple.js');
-var FC = require('../lib/fragment_cache.js')
-var TreeIO = require('../lib/tree_IO')
+var Triple = require('../lib/TreeDataObject.js');
+var FC = require('../lib/FragmentCache.js')
+var TreeIO = require('../lib/TreeManager')
 
 var sizeof = require('object-sizeof')
 
 
 
 
-var sourcefile = "data/5dlaatstestraatnamen.txt"
-var datadir = "/streets/"
-var collectiondir = "/collections/"
-var collectionfilename = "streetnames"
-var maxfragsize = 100;
-var maxcachedfrags = 10000;
-
-var sourceDirectory = __dirname + "/../../opendata/"
+var sourceDirectory = process.argv[2]
+var sourcefile = process.argv[3]
+var datadir = process.argv[4]
+var collectiondir = process.argv[5]
+var collectionfilename = process.argv[6]
+var maxfragsize = process.argv[7];
+var maxcachedfrags = process.argv[8];
 
 createTree(sourceDirectory, sourcefile, datadir, collectiondir, collectionfilename, maxfragsize, maxcachedfrags);
 
@@ -37,17 +36,17 @@ function createTree(sourceDirectory, sourcefile, datadir, collectiondir, collect
 
 
   var added_strings = []
-  
+
   lineReader.on('line', function (line) {
-      
+
       // Create new Triple object to add to the given tree, containing a representation and an object.
       let long = (Math.random() * 2) + 2;
       let lat = (Math.random() * 3) + 50;
 
-      let newtriple = new Triple(line, {"http://example.com/terms#name": line, "http://www.w3.org/2003/01/geo/wgs84_pos#long": long.toString(), "http://www.w3.org/2003/01/geo/wgs84_pos#lat": lat.toString()})
+      let newtreeDataObject = new Triple(line, {"http://example.com/terms#name": line, "http://www.w3.org/2003/01/geo/wgs84_pos#long": long.toString(), "http://www.w3.org/2003/01/geo/wgs84_pos#lat": lat.toString()})
 
-      // Add the triple to the tree.
-      newB3.add_triple(newtriple)
+      // Add the treeDataObject to the tree.
+      newB3.addData(newtreeDataObject)
 
       // Log progress.
       linecounter += 1;
@@ -76,18 +75,18 @@ function createTree(sourceDirectory, sourcefile, datadir, collectiondir, collect
 
   fragments = {}
   linecounter = -1;
-  
+
   lineReader2.on('line', function (line) {
     added_strings.push(line)
-    let newtriple = new Triple(line)
+    let newtreeDataObject = new Triple(line)
     linecounter += 1;
 
     if (linecounter % 100 === 0){
       console.log("Confirming line " + linecounter)
     }
-    if (newtriple.get_representation() !== ""){
-      let searched_triple = newB3.search_triple(newtriple)
-      assert.equal(searched_triple[0].get_representation(), newtriple.get_representation())
+    if (newtreeDataObject.get_representation() !== ""){
+      let searched_treeDataObject = newB3.searchData(newtreeDataObject)
+      assert.equal(searched_treeDataObject[0].get_representation(), newtreeDataObject.get_representation())
     }
 
   });
@@ -95,55 +94,6 @@ function createTree(sourceDirectory, sourcefile, datadir, collectiondir, collect
 
   lineReader2.on('close', function (line) {
    console.log("Triples have been successfully added")
-
-   let sum = 0;
-   for( var i = 0; i < distances.length; i++ ){
-       sum += parseInt( distances[i], 10 ); //don't forget to add the base
-   }
-   let avg = sum/distances.length;
-
-   let avg_frag_size = fragment_sizes / fragments_set.size
-
-    console.log("")
-    console.log("TEST RESULTS")
-
-    console.log("")
-    console.log("TREE DATA")
-    console.log("Total entries: " + linecounter)
-    console.log("Total unique entries: " + added_strings.size)
-    console.log("average distance: " + avg)
-    console.log("maximal distance: " + max_dist)
-    console.log("word with max dist: " + max_word.get_representation())
-
-    console.log("")
-    console.log("FRAGMENT DATA")
-    console.log("total frag count: " + fragments_set.size)
-    console.log("max fragment size allowed: " + maxfragsize)
-    console.log("max fragment size: " + max_frag_size)
-    console.log("avg fragment nodes contained: " + avg_frag_size)
-    let avgfragfill = avg_frag_size / maxfragsize;
-    console.log("avg frag fill: " + avgfragfill )
-
-    console.log("")
-    console.log("CACHE DATA")
-    console.log("number of hits: " + fc.cache_hits)
-    console.log("number of misses: " + fc.cache_misses)
-    console.log("number of cache cleans: " + fc.cache_cleans)
-    console.log("number of writes: " + fc.writes)
-    console.log("number of reads: " + fc.reads)
-
-
-    console.log("")
-    console.log("NODE DATA")
-    console.log("total unique triple count: " + added_strings.size) //linecounter)
-    console.log("triple node count: " + triple_nodes)
-    console.log("total node count: " + node_count)
-    let node_per_word = node_count / added_strings.size;
-    console.log("nodes per word: " + node_per_word)
-    let avg_node_children = node_children_count / inner_node_count;
-    console.log("average node children: " + avg_node_children)
-    console.log("max node children: " + max_node_children_count)
-
   });
 });
 
@@ -155,7 +105,7 @@ var max_frag = null;
 var inner_node_count = 0;
 var node_count = 0;
 var node_children_count = 0;
-var triple_nodes = 0;
+var treeDataObject_nodes = 0;
 var max_dist = 0
 var max_word = ""
 var distances = []
@@ -173,7 +123,7 @@ var calculate_average_fragments_passed = function(b3) {
 
   let avg_frag_size = fragment_sizes / fragments_set.size
 
-  console.log(triple_nodes, added_strings.size)
+  console.log(treeDataObject_nodes, added_strings.size)
 
   console.log("")
   console.log("TEST RESULTS")
@@ -206,8 +156,8 @@ var calculate_average_fragments_passed = function(b3) {
 
   console.log("")
   console.log("NODE DATA")
-  console.log("total unique triple count: " + added_strings.size) //linecounter)
-  console.log("triple node count: " + triple_nodes)
+  console.log("total unique treeDataObject count: " + added_strings.size) //linecounter)
+  console.log("treeDataObject node count: " + treeDataObject_nodes)
   console.log("total node count: " + node_count)
   let node_per_word = node_count / added_strings.size;
   console.log("nodes per word: " + node_per_word)
@@ -246,12 +196,12 @@ var calculate_node_fragments_passed = function(node, distance) {
   } else {
     newdist = distance;
   }
-  if (node.get_triples().length > 0){
-    triple_nodes += 1
+  if (node.get_treeDataObjects().length > 0){
+    treeDataObject_nodes += 1
     distances.push(newdist)
     if (newdist > max_dist){
       max_dist = newdist
-      max_word = node.get_triples()[0]
+      max_word = node.get_treeDataObjects()[0]
     }
   }
 
