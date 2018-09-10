@@ -13,7 +13,7 @@ var sizeof = require('object-sizeof')
 
 var sourceDirectory = process.argv[2]
 var sourcefile = process.argv[3]
-var dataLocation = process.argv[4]
+var dataFolder = process.argv[4]
 var treeLocation = process.argv[5]
 var treeFile = process.argv[6]
 var maxfragsize = process.argv[7];
@@ -24,12 +24,12 @@ var maxCachedFragments = process.argv[8];
  * @param {string} sourceDirectory - base folder of the tree data
  * @param {*} treeLocation - folder containing the tree file in the sourceDirectory
  * @param {*} treeFile - tree file filename
- * @param {*} dataLocation - folder containing the fragment files in the sourceDirectory
+ * @param {*} dataFolder - folder containing the fragment files in the sourceDirectory
  * @param {*} maxCachedFragments - maximal cachable fragments at once
  */
-function readTree(sourceDirectory, treeLocation, treeFile, dataLocation, maxCachedFragments){
-  var fc = new FC(sourceDirectory, dataLocation, maxCachedFragments);
-  let treeIO = new TreeIO(sourceDirectory, treeLocation, dataLocation, treeFile, fc);
+function readTree(sourceDirectory, treeLocation, treeFile, dataFolder, maxCachedFragments){
+  var fc = new FC(sourceDirectory, dataFolder, maxCachedFragments);
+  let treeIO = new TreeIO(sourceDirectory, treeLocation, dataFolder, treeFile, fc);
   return treeIO.read_tree();
 }
 
@@ -40,19 +40,19 @@ function readTree(sourceDirectory, treeLocation, treeFile, dataLocation, maxCach
  * @param {string} treeFile - the filename to which the tree needs to be written
  */
 function writeTree(tree, treeLocation, treeFile){
-  let treeIO = new TreeIO(tree.get_fragmentCache().sourceDirectory, treeLocation, tree.get_fragmentCache().dataLocation, treeFile, tree.get_fragmentCache());
+  let treeIO = new TreeIO(tree.get_fragmentCache().sourceDirectory, treeLocation, tree.get_fragmentCache().dataFolder, treeFile, tree.get_fragmentCache());
   treeIO.write_tree(tree);
 }
 
 /**
  * Creates a new tree object.
  * @param {string} sourceDirectory - base forlder of the tree data
- * @param {string} dataLocation - folder containing the fragment files in the sourceDirectory
+ * @param {string} dataFolder - folder containing the fragment files in the sourceDirectory
  * @param {number} maxCachedFragments - the maximal amount of elements in the cache
  */
-function createTree(sourceDirectory, dataLocation, maxCachedFragments){
+function createTree(sourceDirectory, dataFolder, maxCachedFragments){
   var balancer = new DefaultBalancer();
-  var fc = new FC(sourceDirectory, dataLocation, maxCachedFragments);
+  var fc = new FC(sourceDirectory, dataFolder, maxCachedFragments);
   return new Tree(maxfragsize, fc, balancer);
 }
 
@@ -70,11 +70,11 @@ function addData(tree, representation, data) {
 
 module.exports = { createTree, readTree, writeTree, addData };
 
-main(sourceDirectory, sourcefile, dataLocation, treeLocation, treeFile, maxfragsize, maxCachedFragments);
+main(sourceDirectory, sourcefile, dataFolder, treeLocation, treeFile, maxfragsize, maxCachedFragments);
 
-function main(sourceDirectory, sourcefile, dataLocation, treeLocation, treeFile, maxfragsize = 100, maxCachedFragments = 10000){
+function main(sourceDirectory, sourcefile, dataFolder, treeLocation, treeFile, maxfragsize = 100, maxCachedFragments = 10000){
 
-  var tree = createTree(sourceDirectory, dataLocation, maxCachedFragments)
+  var tree = createTree(sourceDirectory, dataFolder, maxCachedFragments)
 
   // Read input file
   var lineReader = require('readline').createInterface({
