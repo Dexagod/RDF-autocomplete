@@ -31,7 +31,7 @@ function main(sourceDirectory, sourcefile, dataFolder, treeLocation, treeFile, m
       let lat = (Math.random() * 3) + 50;
 
       // Add the treeDataObject to the tree.
-      treeManager.addData(tree, line, {"http://example.com/terms#name": line, "http://www.w3.org/2003/01/geo/wgs84_pos#long": long.toString(), "http://www.w3.org/2003/01/geo/wgs84_pos#lat": lat.toString()})
+      tree.addData(line, {"http://example.com/terms#name": line, "http://www.w3.org/2003/01/geo/wgs84_pos#long": long.toString(), "http://www.w3.org/2003/01/geo/wgs84_pos#lat": lat.toString()})
 
       // Log progress.
       linecounter += 1;
@@ -42,7 +42,7 @@ function main(sourceDirectory, sourcefile, dataFolder, treeLocation, treeFile, m
 
 lineReader.on('close', function () {
     console.log("DONE ADDING")
-    tree.get_fragmentCache().flush_cache()
+    tree.doneAdding()
     treeManager.writeTree(tree, treeLocation, treeFile);
     console.log('Tree written')
   })

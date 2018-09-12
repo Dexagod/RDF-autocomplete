@@ -1,9 +1,9 @@
 var fs = require('fs');
 const assert = require('assert');
 
-var Tree = require('../lib/tree.js')
-var Fragment = require('../lib/fragment.js');
-var Node = require('../lib/node.js');
+var Tree = require('../lib/Tree.js')
+var Fragment = require('../lib/Fragment.js');
+var Node = require('../lib/Node.js');
 var Triple = require('../lib/TreeDataObject.js');
 var FC = require('../lib/FragmentCache.js')
 var TreeIO = require('../lib/TreeIO')
@@ -44,7 +44,7 @@ function test(sourceDirectory, sourcefile, dataLocation, treeLocation, treeFile,
       let lat = (Math.random() * 3) + 50;
 
       // Add the treeDataObject to the tree.
-      treeManager.addData(tree, line, {"http://example.com/terms#name": line, "http://www.w3.org/2003/01/geo/wgs84_pos#long": long.toString(), "http://www.w3.org/2003/01/geo/wgs84_pos#lat": lat.toString()})
+      tree.addData(line, {"http://example.com/terms#name": line, "http://www.w3.org/2003/01/geo/wgs84_pos#long": long.toString(), "http://www.w3.org/2003/01/geo/wgs84_pos#lat": lat.toString()})
 
       // Log progress.
       linecounter += 1;
@@ -55,7 +55,7 @@ function test(sourceDirectory, sourcefile, dataLocation, treeLocation, treeFile,
 
 lineReader.on('close', function () {
   console.log("DONE ADDING")
-  tree.get_fragmentCache().flush_cache()
+  tree.doneAdding()
 
   calculate_average_fragments_passed(tree);
 
@@ -80,7 +80,7 @@ lineReader.on('close', function () {
       console.log("Confirming line " + linecounter)
     }
     if (newtreeDataObject.get_representation() !== ""){
-      let searched_treeDataObject = tree.searchData(newtreeDataObject)
+      let searched_treeDataObject = tree.tree.searchData(newtreeDataObject)
       assert.equal(searched_treeDataObject[0].get_representation(), newtreeDataObject.get_representation())
     }
 
@@ -106,8 +106,9 @@ var max_word = ""
 var distances = []
 var max_node_children_count = 0;
 
-var calculate_average_fragments_passed = function(b3) {
-  let root_node = b3.get_root_node();
+var calculate_average_fragments_passed = function(treeRepresentation) {
+  let tree = treeRepresentation.tree
+  let root_node = tree.get_root_node();
   calculate_node_fragments_passed(root_node, 1)
 
   let sum = 0;
