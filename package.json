@@ -1,8 +1,8 @@
 {
-  "name": "rdf-autocomplete",
-  "version": "1.0.0",
-  "description": "Proof of concept",
-  "main": "patr_tree.js",
+  "name": "rdf-patricia-tree",
+  "version": "1.0.2",
+  "description": "Linked Data patricia tree construction",
+  "main": "bin/TreeManager.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Dexagod/RDF-autocomplete/issues"
   },
-  "homepage": "https://github.com/Dexagod/RDF-autocomplete#readme"
+  "homepage": "https://github.com/Dexagod/RDF-autocomplete#readme",
+  "dependencies": {
+    "ldfetch": "^1.0.9-alpha"
+  }
 }

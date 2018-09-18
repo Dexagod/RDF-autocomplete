@@ -1,6 +1,7 @@
 const TreeIO = require('../lib/TreeIO')
 const Tree = require('../lib/Tree.js')
 const FC = require('../lib/FragmentCache.js')
+const fs = require('fs')
 const TreeRepresentation = require('./TreeRepresentation')
 
 

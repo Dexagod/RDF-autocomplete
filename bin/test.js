@@ -88,8 +88,16 @@ lineReader.on('close', function () {
 
 
   lineReader2.on('close', function (line) {
-   console.log("Triples have been successfully added")
+    console.log("Triples have been successfully added")
+    let statistics = ""
+    for (key of Object.keys(testResults)){
+      console.log(key, testResults[key])
+      statistics += key +"," + testResults[key] + "\n"
+    }
+    fs.writeFileSync("treestatistics.csv", statistics, {encoding: 'utf-8'})
   });
+
+
 });
 
 
@@ -106,10 +114,12 @@ var max_word = ""
 var distances = []
 var max_node_children_count = 0;
 
+var testResults = {};
+
 var calculate_average_fragments_passed = function(treeRepresentation) {
   let tree = treeRepresentation.tree
   let root_node = tree.get_root_node();
-  calculate_node_fragments_passed(root_node, 1)
+  calculate_tree_statistics(root_node, 1)
 
   let sum = 0;
   for( var i = 0; i < distances.length; i++ ){
@@ -119,51 +129,37 @@ var calculate_average_fragments_passed = function(treeRepresentation) {
 
   let avg_frag_size = fragment_sizes / fragments_set.size
 
-  console.log(treeDataObject_nodes, added_strings.size)
+  testResults["Total entries"] = linecounter
+  testResults["Total unique entries"] = added_strings.size
+  testResults["average distance"] = avg
+  testResults["maximal distance"] = max_dist
+  testResults["word with max dist"] = max_word.get_representation()
+  testResults["total frag count"] = fragments_set.size
+  testResults["max fragment size allowed"] = maxfragsize
+  testResults["max fragment size"] = max_frag_size
+  testResults["avg fragment nodes contained"] = avg_frag_size
+  let avgfragfill = avg_frag_size / maxfragsize
+  testResults["avg frag fill"] = avgfragfill 
 
-  console.log("")
-  console.log("TEST RESULTS")
+  testResults["number of hits"] = tree.get_fragmentCache().cache_hits
+  testResults["number of misses"] = tree.get_fragmentCache().cache_misses
+  testResults["number of cache cleans"] = tree.get_fragmentCache().cache_cleans
+  testResults["number of writes"] = tree.get_fragmentCache().writes
+  testResults["number of reads"] = tree.get_fragmentCache().reads
 
-  console.log("")
-  console.log("TREE DATA")
-  console.log("Total entries: " + linecounter)
-  console.log("Total unique entries: " + added_strings.size)
-  console.log("average distance: " + avg)
-  console.log("maximal distance: " + max_dist)
-  console.log("word with max dist: " + max_word.get_representation())
-
-  console.log("")
-  console.log("FRAGMENT DATA")
-  console.log("total frag count: " + fragments_set.size)
-  console.log("max fragment size allowed: " + maxfragsize)
-  console.log("max fragment size: " + max_frag_size)
-  console.log("avg fragment nodes contained: " + avg_frag_size)
-  let avgfragfill = avg_frag_size / maxfragsize;
-  console.log("avg frag fill: " + avgfragfill )
-
-  console.log("")
-  console.log("CACHE DATA")
-  console.log("number of hits: " + tree.get_fragmentCache().cache_hits)
-  console.log("number of misses: " + tree.get_fragmentCache().cache_misses)
-  console.log("number of cache cleans: " + tree.get_fragmentCache().cache_cleans)
-  console.log("number of writes: " + tree.get_fragmentCache().writes)
-  console.log("number of reads: " + tree.get_fragmentCache().reads)
-
-
-  console.log("")
-  console.log("NODE DATA")
-  console.log("total unique treeDataObject count: " + added_strings.size) //linecounter)
-  console.log("treeDataObject node count: " + treeDataObject_nodes)
-  console.log("total node count: " + node_count)
-  let node_per_word = node_count / added_strings.size;
-  console.log("nodes per word: " + node_per_word)
+  testResults["total unique added data objects"] = added_strings.size
+  testResults["nodes used for data objects"] = treeDataObject_nodes
+  testResults["total node count"] = node_count
+  let node_per_word = node_count / added_strings.size
+  testResults["nodes per unique data representation"] = node_per_word
   let avg_node_children = node_children_count / inner_node_count;
-  console.log("average node children: " + avg_node_children)
-  console.log("max node children: " + max_node_children_count)
+  testResults["average amount of children in a node"] = avg_node_children
+  testResults["maximal amount of children in a node"] = max_node_children_count
+
 
 }
 
-var calculate_node_fragments_passed = function(node, distance) {
+var calculate_tree_statistics = function(node, distance) {
   node_count += 1
   if (node.get_child_count() !== 0) {
     inner_node_count += 1;
@@ -205,9 +201,12 @@ var calculate_node_fragments_passed = function(node, distance) {
   let total_children_count = 0;
   for (var i = 0; i < node_children.length; i++) {
     total_children_count += node_children[i].get_total_children_count();
-    calculate_node_fragments_passed(node_children[i], newdist);
+    calculate_tree_statistics(node_children[i], newdist);
   }
   total_children_count += node.get_child_count();
   assert(node.get_total_children_count() === total_children_count)
+
+
+
 }
 }
