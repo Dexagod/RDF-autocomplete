@@ -1,10 +1,10 @@
 const FC = require('../lib/FragmentCache.js')
 const DefaultBalancer = require('../lib/fragment_balancers/DefaultBalancer.js')
 const Tree = require("../lib/Tree.js")
-const Triple = require('../lib/TreeDataObject.js');
+const TreeDataObject = require('../lib/TreeDataObject.js');
 
 module.exports = class {
-    constructor(tree, sourceDirectory, dataFolder, maxFragmentSize, maxCachedFragments){
+    constructor(tree, sourceDirectory, dataFolder, maxCachedFragments, maxFragmentSize){
         if (tree === undefined || tree === null){
             var balancer = new DefaultBalancer();
             var fc = new FC(sourceDirectory, dataFolder, maxCachedFragments);
@@ -20,7 +20,7 @@ module.exports = class {
      * @param {any} data 
      */
     addData(representation, data) {
-      let newtreeDataObject = new Triple(representation, data)
+      let newtreeDataObject = new TreeDataObject(representation, data)
       this.tree.addData(newtreeDataObject)
     }
   

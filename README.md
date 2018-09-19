@@ -20,12 +20,17 @@ Querying the data fragments can be done using the linked data tree browser npm p
 ## Use
 
 
-command line
+github
 ```
-npm install
+npm install 
 node bin/main.js {data source folder} {data folder} {fragment folder} {tree file folder} {tree file name} {fragment size} {max fragment cache elements}
 ```
 
+npm
+```
+npm install rdf-patricia-tree
+const ptree = require('rdf-patricia-tree');
+```
 js import
 
 data file locations:<br/>
@@ -51,10 +56,6 @@ tree = ldptree.readTree(sourceDirectory, treeLocation, treeFile, dataLocation, m
 npm install
 node bin/testing_main.js {data source folder} {data folder} {fragment folder} {tree file folder} {tree file name} {fragment size} {max fragment cache elements}
 ```
+Statistics are printed in the file statistics.csv
 
 
-
-## Performance
-
-Performance metrics are not yet available.
-WIP
