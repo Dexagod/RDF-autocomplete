@@ -91,7 +91,6 @@ lineReader.on('close', function () {
     console.log("Triples have been successfully added")
     let statistics = ""
     for (key of Object.keys(testResults)){
-      console.log(key, testResults[key])
       statistics += key +"," + testResults[key] + "\n"
     }
     fs.writeFileSync("treestatistics.csv", statistics, {encoding: 'utf-8'})

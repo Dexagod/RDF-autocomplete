@@ -4,9 +4,15 @@ const Tree = require("../lib/Tree.js")
 const TreeDataObject = require('../lib/TreeDataObject.js');
 
 module.exports = class {
-    constructor(tree, sourceDirectory, dataFolder, maxCachedFragments, maxFragmentSize){
+    constructor(tree, sourceDirectory, dataFolder, maxCachedFragments, maxFragmentSize, custombalancer = null){
         if (tree === undefined || tree === null){
-            var balancer = new DefaultBalancer();
+            var balancer;    
+            if (custombalancer === undefined || custombalancer === null){
+                var balancer = new DefaultBalancer();
+            } else {
+                balancer = custombalancer;
+            }
+            
             var fc = new FC(sourceDirectory, dataFolder, maxCachedFragments);
             this.tree = new Tree(maxFragmentSize, fc, balancer);
         } else {

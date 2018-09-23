@@ -38,8 +38,8 @@ module.exports = class TreeManager{
    * @param {string} dataFolder - folder containing the fragment files in the sourceDirectory
    * @param {number} maxCachedFragments - the maximal amount of elements in the cache
    */
-  createTree(sourceDirectory, dataFolder, maxCachedFragments, maxFragmentSize){
-    let newtreerep = new TreeRepresentation(null, sourceDirectory, dataFolder, maxCachedFragments, maxFragmentSize);
+  createTree(sourceDirectory, dataFolder, maxCachedFragments, maxFragmentSize, custombalancer = null){
+    let newtreerep = new TreeRepresentation(null, sourceDirectory, dataFolder, maxCachedFragments, maxFragmentSize, custombalancer);
     return(newtreerep)
   }
   
