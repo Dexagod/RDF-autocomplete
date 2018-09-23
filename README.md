@@ -89,7 +89,7 @@ Statistics are printed in the file statistics.csv
 
 
 
-## Testing and statistics
+## Custom Balancers
 Custom balancer classes can be passed to the *treeManager.createTree()* method.
 A custom balancer class needs to extend the *lib/fragment_balancers/TreeBalancer.js* class and follow its interface.
 ```
